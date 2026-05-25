@@ -181,18 +181,8 @@ The standalone `scripts/transcribe.py` (Groq + a legacy `mlx` backend) is kept f
 - Don't skip the session-start tracker check unless there's truly nothing to surface.
 - Don't commit `.venv/` (it's ~1.2 GB; covered by `.gitignore`).
 - Don't manually invoke `scripts/transcribe_whisperx.py` with the system `python3` — it must run via `.venv/bin/python`.
-- Don't pass large prompts (~50 KB+) to `claude -p` via argv. See gotchas below.
+- Don't pass large prompts (~50 KB+) to `claude -p` via argv — pipe via stdin. See `GOTCHAS.md`.
 
-## Gotchas (learned the hard way)
+## Gotchas
 
-These are non-obvious traps that have bitten this project. Read before debugging anything that looks similar.
-
-**`claude -p "<huge prompt>"` SIGKILLs silently.** Any prompt over ~50 KB passed as a CLI argument to the `claude` CLI returns exit `-9` (SIGKILL) with empty stderr. The same prompt via stdin works fine. `analyze.py` now pipes via stdin (`subprocess.run(cmd, input=prompt, ...)`) — preserve that pattern in any new script. The argv size is well under `ARG_MAX`, but the bundled Node runtime chokes on it. Symptom in `process_queue.sh` output: `claude failed (exit -9):` with no stderr text. WhisperX transcripts are typically 60–80 KB and trip this every time.
-
-**HuggingFace 403 on `pyannote/*` config.yaml has three independent causes.** All three must be true for diarization to download: (1) the token's owner has clicked "Agree" on each gated pyannote model page; (2) the browser session you accepted the gates from belongs to that same owner — gates accepted under a different HF account are useless; (3) the token type is **Read** (not Fine-grained), or fine-grained with `Read access to contents of all public gated repos you can access` ticked. `whoami-v2` will tell you the token's owner; check that against the account whose gates you accepted. See `SETUP.md` § 4.2.
-
-**WhisperX progress is invisible when piped.** `transcribe_whisperx.py`'s `print()` calls block-buffer when piped through `tee`/`sed`/redirects, so the log freezes at `[2/5] transcribe` for the entire ASR + diarize span (could be 90+ min on a 1-hour podcast). The process is fine — verify with `ps -p <pid> -o pcpu,rss,etime` rather than `tail -f`. The script could be patched to flush on each print, but `ps` is the reliable signal for "is this still working".
-
-**`pyenv install <version>` needs `xz` on PATH at build time, or `_lzma` is missing.** A Python built without `_lzma` will fail to import any package that uses `torchvision`/`torchcodec`/`lzma` transitively (pyannote does). Symptom: `ModuleNotFoundError: No module named '_lzma'` from somewhere inside the WhisperX import chain. Fix: rebuild that Python with `LDFLAGS="-L$(brew --prefix xz)/lib" CPPFLAGS="-I$(brew --prefix xz)/include" pyenv install <version>`, or use a different Python that has it. The project's `.venv` uses 3.12.11 specifically because the local 3.11.13 was missing it. Don't switch the venv's base Python without verifying `import lzma` works.
-
-**`torchcodec` dlopen warnings on macOS are spurious.** When loading `whisperx`, you'll see a wall of `Library not loaded: @rpath/libavutil.NN.dylib` errors from torchcodec trying every FFmpeg ABI. These are harmless — whisperx loads audio via its own ffmpeg subprocess, never torchcodec. The script suppresses these via `warnings.filterwarnings`. Don't try to "fix" torchcodec by installing FFmpeg dev libraries.
+Non-obvious traps that have bitten this project — `claude -p` SIGKILL on big argv, HuggingFace 403 chains, pyenv `_lzma` builds, etc. See **`GOTCHAS.md`** before debugging anything that looks similar.
