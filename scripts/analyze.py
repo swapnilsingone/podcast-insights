@@ -168,13 +168,15 @@ def main():
     )
 
     model = args.model or os.environ.get("CLAUDE_MODEL")
-    cmd = ["claude", "-p", prompt, "--output-format", "text",
+    # Pass the prompt via stdin, not argv. Claude (Node) reliably crashes with
+    # SIGKILL when fed a ~60+ KB prompt as a CLI argument; stdin has no such limit.
+    cmd = ["claude", "-p", "--output-format", "text",
            "--append-system-prompt", SYSTEM_PROMPT]
     if model:
         cmd.extend(["--model", model])
 
     print(f"  Invoking claude ({'model='+model if model else 'default model'}, transcript {len(transcript):,} chars)…")
-    res = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+    res = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=900)
     if res.returncode != 0:
         print(f"  claude failed (exit {res.returncode}): {res.stderr[:500]}", file=sys.stderr)
         return res.returncode
