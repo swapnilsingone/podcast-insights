@@ -1,5 +1,15 @@
 # Drop YouTube URLs here, one per line. Lines starting with # are ignored.
-# Then in a Claude Code session say: "process the queue"
+# Then in a Claude Code session say: "process the queue" — or run:
+#   ./scripts/process_queue.sh
 #
-# Example:
-# https://www.youtube.com/watch?v=dQw4w9WgXcQ
+# Default transcription backend is whisperx (local + speaker diarization).
+# Override per URL by prefixing with [groq] or [whisperx]. Examples:
+#
+#   https://www.youtube.com/watch?v=dQw4w9WgXcQ                      # default (whisperx)
+#   [groq]     https://www.youtube.com/watch?v=fast-news-clip        # ~30s/hr, no speakers
+#   [whisperx] https://www.youtube.com/watch?v=multi-speaker-pod     # explicit (slow + speakers)
+#
+# To flip the default for one run:
+#   TRANSCRIPTION_DEFAULT=groq ./scripts/process_queue.sh
+#
+# See SETUP.md for first-time setup of either backend.

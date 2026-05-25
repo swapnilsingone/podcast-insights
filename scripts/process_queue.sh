@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 # Process every URL in queue.txt end-to-end without a Claude Code session.
 #
-# Locked policy (see CLAUDE.md — do not override):
-#   - Model:         claude-opus-4-7  (no flags, no aliases, no env overrides)
-#   - Transcription: Groq only (whisper-large-v3). No mlx, no caption fallback.
+# Locked policy (see CLAUDE.md — do not change loosely):
+#   - Analysis model: claude-opus-4-7  (no flags, no aliases, no env overrides)
+#   - Default transcription backend: whisperx  (local; speaker diarization on)
+#       Override per URL in queue.txt with a prefix:
+#         [groq]     https://www.youtube.com/watch?v=...   # fast, no speakers
+#         [whisperx] https://www.youtube.com/watch?v=...   # explicit (default)
+#       Or flip the default for the whole run via env:
+#         TRANSCRIPTION_DEFAULT=groq ./scripts/process_queue.sh
 #
-# If either step fails, the URL stays in queue.txt with a marker indicating which
-# part failed so you know what to fix:
-#   # FAILED-METADATA:            yt-dlp metadata fetch failed
-#   # FAILED-TRANSCRIPTION:       Groq transcription failed (key/api/quota)
-#   # FAILED-MODEL:               claude -p (opus 4.7) analysis failed
-#   # FAILED-MODEL+TRANSCRIPTION: both failed (preflight: no key AND no auth)
+# Failure markers in queue.txt (URL line is rewritten, preserving any [backend] prefix):
+#   # FAILED-METADATA:      yt-dlp couldn't fetch info
+#   # FAILED-TRANSCRIPTION: transcription step failed (key/auth/api/quota)
+#   # FAILED-MODEL:         claude -p (opus 4.7) analysis failed
+#   # FAILED-MODEL+TRANSCRIPTION: both failed in preflight
 #
 # Successful URLs are removed from queue.txt.
 
@@ -26,127 +30,154 @@ if [ -f "$ENV_FILE" ]; then
 fi
 
 # ── Locked policy ────────────────────────────────────────────────────────────
-# Per CLAUDE.md: model is opus 4.7, transcription is Groq. Hardcoded here on
-# purpose — do not add a CLI flag, alias, or env override. If you need a
-# different model or backend, change CLAUDE.md first, then this file.
 REQUIRED_MODEL="claude-opus-4-7"
 export CLAUDE_MODEL="$REQUIRED_MODEL"
 
+# Default transcription backend. Override via TRANSCRIPTION_DEFAULT=groq, or
+# per-URL with a `[groq]` / `[whisperx]` prefix in queue.txt.
+TRANSCRIPTION_DEFAULT="${TRANSCRIPTION_DEFAULT:-whisperx}"
+case "$TRANSCRIPTION_DEFAULT" in
+  groq|whisperx) : ;;
+  *) echo "✗ TRANSCRIPTION_DEFAULT must be 'groq' or 'whisperx' (got: $TRANSCRIPTION_DEFAULT)" >&2; exit 2 ;;
+esac
+
 if [ "$#" -gt 0 ]; then
-  echo "✗ process_queue.sh takes no arguments (policy is locked in CLAUDE.md)." >&2
+  echo "✗ process_queue.sh takes no arguments (policy locked in CLAUDE.md;" >&2
+  echo "  flip the default with TRANSCRIPTION_DEFAULT=... or per-URL prefixes)." >&2
   echo "  Got: $*" >&2
   exit 2
 fi
 
 QUEUE="$PROJECT_DIR/queue.txt"
-if [ ! -f "$QUEUE" ]; then
-  echo "No queue.txt at $QUEUE" >&2; exit 1
-fi
+[ -f "$QUEUE" ] || { echo "No queue.txt at $QUEUE" >&2; exit 1; }
 
-# Pull live, non-comment, non-empty URLs.
-URLS=$(grep -vE '^\s*(#|$)' "$QUEUE" || true)
-if [ -z "$URLS" ]; then
+# Pull live, non-comment, non-empty lines (preserving any [backend] prefix).
+RAW_LINES=$(grep -vE '^\s*(#|$)' "$QUEUE" || true)
+if [ -z "$RAW_LINES" ]; then
   echo "Queue is empty — nothing to do."; exit 0
 fi
+LINE_COUNT=$(printf '%s\n' "$RAW_LINES" | wc -l | tr -d ' ')
 
-URL_COUNT=$(printf '%s\n' "$URLS" | wc -l | tr -d ' ')
-echo "▶ Processing $URL_COUNT URL(s)  (model: $REQUIRED_MODEL, transcription: groq)"
-echo
-
-# ── Preflight: Groq key + claude CLI ─────────────────────────────────────────
-# Detect ahead of time so we can mark the URL with the right failure marker
-# without burning a yt-dlp download.
-
-preflight_transcription_ok() {
-  [ -n "${GROQ_API_KEY:-}" ]
+# ── Per-line parsing helpers ─────────────────────────────────────────────────
+parse_backend() {
+  # Echo "groq" or "whisperx" if the line is prefixed; else empty.
+  echo "$1" | grep -oE '^\[(groq|whisperx)\]' | tr -d '[]' || true
 }
 
-preflight_model_ok() {
-  command -v claude >/dev/null 2>&1
-}
-
-PREFLIGHT_TRANS_OK=true
-PREFLIGHT_MODEL_OK=true
-preflight_transcription_ok || PREFLIGHT_TRANS_OK=false
-preflight_model_ok          || PREFLIGHT_MODEL_OK=false
-
-if ! $PREFLIGHT_TRANS_OK; then
-  echo "  ✗ preflight: GROQ_API_KEY is not set (required; no fallback)."
-fi
-if ! $PREFLIGHT_MODEL_OK; then
-  echo "  ✗ preflight: 'claude' CLI not found on PATH (required for $REQUIRED_MODEL)."
-fi
-
-# Helper: rewrite a queue line as a failure marker (preserves the URL after the colon).
-mark_failed() {
-  local URL="$1"; local KIND="$2"  # KIND: METADATA|TRANSCRIPTION|MODEL|MODEL+TRANSCRIPTION
-  awk -v target="$URL" -v kind="$KIND" \
-    '{ if ($0 == target) print "# FAILED-" kind ": " $0; else print }' \
-    "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
-}
-
-dequeue() {
-  local URL="$1"
-  awk -v target="$URL" '$0 != target' "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
+strip_prefix() {
+  echo "$1" | sed -E 's/^\[(groq|whisperx)\][[:space:]]+//'
 }
 
 extract_id() {
   echo "$1" | grep -oE '[a-zA-Z0-9_-]{11}' | head -1
 }
 
-# If preflight has both failures, short-circuit the whole queue — every URL gets
-# the combined marker and we exit without touching the network.
-if ! $PREFLIGHT_TRANS_OK && ! $PREFLIGHT_MODEL_OK; then
-  echo
-  echo "  Both preflight checks failed. Marking all URLs and exiting."
-  while IFS= read -r URL; do
-    [ -z "$URL" ] && continue
-    mark_failed "$URL" "MODEL+TRANSCRIPTION"
-    echo "  # FAILED-MODEL+TRANSCRIPTION: $URL"
-  done <<< "$URLS"
-  echo
-  echo "═══ Summary ═══"
-  echo "  ✓ 0 succeeded"
-  echo "  ✗ $URL_COUNT failed (preflight)"
-  exit 1
+# Resolve which backend each line uses (prefix override or default).
+backend_for() {
+  local LINE="$1"
+  local B
+  B="$(parse_backend "$LINE")"
+  echo "${B:-$TRANSCRIPTION_DEFAULT}"
+}
+
+# Tally which backends are needed across the queue (for preflight scoping).
+NEEDS_GROQ=false
+NEEDS_WHISPERX=false
+while IFS= read -r LINE; do
+  [ -z "$LINE" ] && continue
+  B="$(backend_for "$LINE")"
+  [ "$B" = "groq" ]     && NEEDS_GROQ=true
+  [ "$B" = "whisperx" ] && NEEDS_WHISPERX=true
+done <<< "$RAW_LINES"
+
+echo "▶ Processing $LINE_COUNT URL(s)"
+echo "  model: $REQUIRED_MODEL"
+echo "  default backend: $TRANSCRIPTION_DEFAULT (override per URL with [groq]/[whisperx])"
+$NEEDS_GROQ     && echo "  some URLs need: groq"
+$NEEDS_WHISPERX && echo "  some URLs need: whisperx"
+echo
+
+# ── Preflight ───────────────────────────────────────────────────────────────
+preflight_groq_ok()     { [ -n "${GROQ_API_KEY:-}" ]; }
+preflight_whisperx_ok() {
+  [ -x "$PROJECT_DIR/.venv/bin/python" ] && [ -n "${HF_TOKEN:-}" ]
+}
+preflight_model_ok()    { command -v claude >/dev/null 2>&1; }
+
+PREFLIGHT_TRANS_OK=true
+PREFLIGHT_MODEL_OK=true
+
+if $NEEDS_GROQ && ! preflight_groq_ok; then
+  echo "  ✗ preflight: GROQ_API_KEY is not set (required for any [groq] URL)."
+  PREFLIGHT_TRANS_OK=false
+fi
+if $NEEDS_WHISPERX && ! preflight_whisperx_ok; then
+  if [ ! -x "$PROJECT_DIR/.venv/bin/python" ]; then
+    echo "  ✗ preflight: .venv/bin/python missing (required for whisperx). See SETUP.md."
+  fi
+  if [ -z "${HF_TOKEN:-}" ]; then
+    echo "  ✗ preflight: HF_TOKEN is not set (required for whisperx diarization). See SETUP.md."
+  fi
+  PREFLIGHT_TRANS_OK=false
+fi
+if ! preflight_model_ok; then
+  echo "  ✗ preflight: 'claude' CLI not found on PATH (required for $REQUIRED_MODEL)."
+  PREFLIGHT_MODEL_OK=false
 fi
 
-# If only one preflight failed, mark every URL with that single failure and exit.
-# (Rationale: we can't satisfy the locked policy until the user fixes it.)
+# Helpers that rewrite queue.txt against the FULL line (including any [prefix]).
+mark_failed() {
+  local FULL="$1"; local KIND="$2"
+  awk -v target="$FULL" -v kind="$KIND" \
+    '{ if ($0 == target) print "# FAILED-" kind ": " $0; else print }' \
+    "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
+}
+dequeue() {
+  local FULL="$1"
+  awk -v target="$FULL" '$0 != target' "$QUEUE" > "$QUEUE.tmp" && mv "$QUEUE.tmp" "$QUEUE"
+}
+
+# Preflight short-circuit: if anything required is missing, mark all and bail.
 if ! $PREFLIGHT_TRANS_OK || ! $PREFLIGHT_MODEL_OK; then
   KIND=""
-  $PREFLIGHT_TRANS_OK || KIND="TRANSCRIPTION"
-  $PREFLIGHT_MODEL_OK || KIND="MODEL"
+  if ! $PREFLIGHT_TRANS_OK && ! $PREFLIGHT_MODEL_OK; then
+    KIND="MODEL+TRANSCRIPTION"
+  elif ! $PREFLIGHT_TRANS_OK; then
+    KIND="TRANSCRIPTION"
+  else
+    KIND="MODEL"
+  fi
   echo
   echo "  Preflight failed ($KIND). Marking all URLs and exiting."
-  while IFS= read -r URL; do
-    [ -z "$URL" ] && continue
-    mark_failed "$URL" "$KIND"
-    echo "  # FAILED-$KIND: $URL"
-  done <<< "$URLS"
+  while IFS= read -r LINE; do
+    [ -z "$LINE" ] && continue
+    mark_failed "$LINE" "$KIND"
+    echo "  # FAILED-$KIND: $LINE"
+  done <<< "$RAW_LINES"
   echo
   echo "═══ Summary ═══"
   echo "  ✓ 0 succeeded"
-  echo "  ✗ $URL_COUNT failed (preflight)"
+  echo "  ✗ $LINE_COUNT failed (preflight)"
   exit 1
 fi
 
 # ── Per-URL pipeline ─────────────────────────────────────────────────────────
-# Returns 0 on success, non-zero on failure. On failure, echoes one of:
-#   FAIL=METADATA | FAIL=TRANSCRIPTION | FAIL=MODEL
-# as the last line so the caller can pick the right queue marker.
+# Returns 0 on success. On failure echoes a FAIL=KIND tag line for the caller.
 process_one() {
-  local URL="$1"
-  local VID
+  local FULL="$1"
+  local URL BACKEND VID
+  URL="$(strip_prefix "$FULL")"
+  BACKEND="$(backend_for "$FULL")"
   VID="$(extract_id "$URL")"
+
   if [ -z "$VID" ]; then
-    echo "  ✗ Could not extract 11-char video ID from $URL"
+    echo "  ✗ Could not extract 11-char video ID from: $URL"
     echo "FAIL=METADATA"
     return 1
   fi
 
   local VDIR="$PROJECT_DIR/videos/$VID"
-  echo "  ┌─ $VID ($URL)"
+  echo "  ┌─ $VID  [backend=$BACKEND]  ($URL)"
 
   if [ -f "$VDIR/index.html" ] && [ -f "$VDIR/insights.json" ]; then
     echo "  │  already processed — skipping"
@@ -169,21 +200,26 @@ process_one() {
     echo "  │  [1/5] metadata already present"
   fi
 
-  # 2. Transcription — GROQ ONLY, no fallback.
+  # 2. Transcription — backend per [prefix] or default.
   if [ ! -f "$VDIR/source/transcript.txt" ]; then
-    echo "  │  [2/5] transcribe (groq, locked)"
-    if ! python3 "$PROJECT_DIR/scripts/transcribe.py" "$VID" \
-           --backend groq --reuse-audio --language en 2>&1 | sed 's/^/  │       /'; then
-      echo "  │  ✗ groq transcription failed"
-      echo "  └─"
-      echo "FAIL=TRANSCRIPTION"
-      return 1
+    echo "  │  [2/5] transcribe ($BACKEND, locked policy)"
+    if [ "$BACKEND" = "groq" ]; then
+      if ! python3 "$PROJECT_DIR/scripts/transcribe.py" "$VID" \
+             --backend groq --reuse-audio --language en 2>&1 | sed 's/^/  │       /'; then
+        echo "  │  ✗ groq transcription failed"
+        echo "  └─"; echo "FAIL=TRANSCRIPTION"; return 1
+      fi
+    else
+      # whisperx (runs in project venv, requires HF_TOKEN for diarization)
+      if ! "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/scripts/transcribe_whisperx.py" "$VID" \
+             --reuse-audio --language en --require-diarize 2>&1 | sed 's/^/  │       /'; then
+        echo "  │  ✗ whisperx transcription failed"
+        echo "  └─"; echo "FAIL=TRANSCRIPTION"; return 1
+      fi
     fi
     if [ ! -s "$VDIR/source/transcript.txt" ]; then
-      echo "  │  ✗ groq transcription produced no transcript.txt"
-      echo "  └─"
-      echo "FAIL=TRANSCRIPTION"
-      return 1
+      echo "  │  ✗ $BACKEND transcription produced no transcript.txt"
+      echo "  └─"; echo "FAIL=TRANSCRIPTION"; return 1
     fi
   else
     echo "  │  [2/5] transcript already present"
@@ -194,18 +230,14 @@ process_one() {
   if ! python3 "$PROJECT_DIR/scripts/analyze.py" "$VID" --model "$REQUIRED_MODEL" 2>&1 \
        | sed 's/^/  │       /'; then
     echo "  │  ✗ $REQUIRED_MODEL analysis failed"
-    echo "  └─"
-    echo "FAIL=MODEL"
-    return 1
+    echo "  └─"; echo "FAIL=MODEL"; return 1
   fi
 
   # 4. Render HTML + sidecar JSON files.
   echo "  │  [4/5] render"
   if ! python3 "$PROJECT_DIR/scripts/build_video.py" "$VID" 2>&1 | sed 's/^/  │       /'; then
     echo "  │  ✗ build failed"
-    echo "  └─"
-    echo "FAIL=MODEL"  # build failure follows from a bad analysis.json
-    return 1
+    echo "  └─"; echo "FAIL=MODEL"; return 1
   fi
 
   # 5. Post-process: history.jsonl, readable symlink.
@@ -249,23 +281,22 @@ PY
 
 FAILED=()
 SUCCEEDED=()
-while IFS= read -r URL; do
-  [ -z "$URL" ] && continue
-  # Capture combined output; the FAIL=KIND line (if present) is the last token.
+while IFS= read -r LINE; do
+  [ -z "$LINE" ] && continue
   TMP_OUT="$(mktemp)"
-  if PROJECT_DIR="$PROJECT_DIR" process_one "$URL" 2>&1 | tee "$TMP_OUT"; then
-    SUCCEEDED+=("$URL")
-    dequeue "$URL"
+  if PROJECT_DIR="$PROJECT_DIR" process_one "$LINE" 2>&1 | tee "$TMP_OUT"; then
+    SUCCEEDED+=("$LINE")
+    dequeue "$LINE"
   else
-    FAILED+=("$URL")
+    FAILED+=("$LINE")
     KIND=$(grep -oE '^FAIL=(METADATA|TRANSCRIPTION|MODEL)$' "$TMP_OUT" | tail -1 | cut -d= -f2)
-    [ -z "$KIND" ] && KIND="MODEL"  # default categorization if step didn't emit a tag
-    mark_failed "$URL" "$KIND"
-    echo "  → marked queue.txt: # FAILED-$KIND: $URL"
+    [ -z "$KIND" ] && KIND="MODEL"
+    mark_failed "$LINE" "$KIND"
+    echo "  → marked queue.txt: # FAILED-$KIND: $LINE"
   fi
   rm -f "$TMP_OUT"
   echo
-done <<< "$URLS"
+done <<< "$RAW_LINES"
 
 # Rebuild library indexes once all videos are processed.
 if [ ${#SUCCEEDED[@]} -gt 0 ]; then

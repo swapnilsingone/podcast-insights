@@ -28,21 +28,29 @@ Drop URLs into `queue.txt`, run the script, walk away. The script handles **ever
 ./scripts/process_queue.sh
 ```
 
-**Locked policy — no flags, no fallbacks:**
+**Locked policy:**
 
-- **Model:** `claude-opus-4-7`. The script enforces this. Do not pass model arguments and do not export `CLAUDE_MODEL` to override.
-- **Transcription:** Groq only (`whisper-large-v3`). Requires `GROQ_API_KEY` from `../.env.local`. No mlx fallback, no YouTube-caption fallback.
+- **Model:** `claude-opus-4-7`. Hardcoded in the script. Do not pass model arguments and do not export `CLAUDE_MODEL` to override.
+- **Default transcription backend:** `whisperx` (local Whisper large-v3 + pyannote speaker diarization). Switchable per run (`TRANSCRIPTION_DEFAULT=groq`) or per URL (see below).
 
-If either the model or Groq transcription is unavailable/fails, the URL is **not processed**, and the queue line is rewritten with the specific failure marker so you know what to fix:
+Per-URL override syntax in `queue.txt`:
+
+```
+https://www.youtube.com/watch?v=...               # uses TRANSCRIPTION_DEFAULT (whisperx)
+[groq]     https://www.youtube.com/watch?v=...    # force Groq (fast, no speakers)
+[whisperx] https://www.youtube.com/watch?v=...    # force WhisperX (slow, with speakers)
+```
+
+If transcription or analysis fails, the queue line is rewritten with one of:
 
 | Marker in `queue.txt` | Meaning |
 |---|---|
-| `# FAILED-TRANSCRIPTION: <url>` | Groq transcription failed (missing `GROQ_API_KEY`, API error, quota, etc.) |
-| `# FAILED-MODEL: <url>` | `claude -p` invocation with `claude-opus-4-7` failed |
-| `# FAILED-MODEL+TRANSCRIPTION: <url>` | Both failed |
-| `# FAILED-METADATA: <url>` | yt-dlp could not fetch metadata (precedes transcription/model) |
+| `# FAILED-TRANSCRIPTION: <line>` | Transcription failed (groq key/api/quota, or whisperx HF gate/venv) |
+| `# FAILED-MODEL: <line>` | `claude -p` with `claude-opus-4-7` failed |
+| `# FAILED-MODEL+TRANSCRIPTION: <line>` | Both preflight checks failed |
+| `# FAILED-METADATA: <line>` | yt-dlp could not fetch metadata |
 
-Successful URLs are removed from `queue.txt`. To retry a failed URL, fix the underlying issue and uncomment the line.
+The `[backend]` prefix is preserved in the marker, so uncommenting retries with the same backend choice. Successful URLs are removed from `queue.txt`.
 
 ### Path B — interactive: tell Claude "process the queue"
 
@@ -70,8 +78,9 @@ If the template needs to evolve, edit `scripts/templates/video_template.html` di
 
 | Script | What it does |
 |---|---|
-| `scripts/process_queue.sh` | Orchestrator. Iterates `queue.txt` and calls everything below. |
-| `scripts/transcribe.py <id>` | Audio download + transcription. Groq if `GROQ_API_KEY`, else mlx-whisper. |
+| `scripts/process_queue.sh` | Orchestrator. Iterates `queue.txt`, routes each URL to the chosen transcription backend, then calls analyze + build + post-process. |
+| `scripts/transcribe.py <id>` | Groq (default) or legacy mlx-whisper. Used for `[groq]` URLs. |
+| `scripts/transcribe_whisperx.py <id>` | **Runs in `.venv`.** Whisper large-v3 + alignment + pyannote diarization. Used for `[whisperx]` URLs. Output transcript includes speaker labels. See `SETUP.md`. |
 | `scripts/analyze.py <id>` | Calls `claude -p` with the transcript + a strict schema. Writes `videos/<id>/analysis.json`. |
 | `scripts/build_video.py <id>` | Splits `analysis.json` into `insights.json` / `entities.json` / `predictions.json` and renders `index.html` from the locked template. |
 | `scripts/build_indexes.py` | Rebuilds all `library/*.json` from per-video files. Idempotent. |
@@ -120,17 +129,33 @@ Reference (for context only — not a switchable setting):
 
 If Opus is genuinely unavailable, the URL fails with `# FAILED-MODEL:` rather than silently downgrading. Fix the auth/availability issue, don't switch models.
 
-## Transcription policy — Groq only
+## Transcription policy — WhisperX default, Groq on demand
 
-`./scripts/process_queue.sh` uses **Groq Whisper (`whisper-large-v3`) and nothing else**. No mlx fallback, no auto-caption fallback. If Groq is unavailable (missing `GROQ_API_KEY`, API error, quota), the URL is marked `# FAILED-TRANSCRIPTION:` in `queue.txt` and is not processed.
+There are two supported backends. Both produce the same downstream artifacts (`transcript.txt`, `transcript.json`) that `analyze.py` consumes; only WhisperX includes speaker labels.
 
-- `GROQ_API_KEY` must be set (lives in `../.env.local`, mode 600). The script sources it automatically.
-- Audio is split into <25 MB chunks (~22 min each). 1h transcribes in ~30s.
-- Free tier: 7,200 audio-seconds/day. If you hit it, wait or upgrade — don't fall back.
+| Backend | Speakers | Wall time per hour of audio | Cost | When to use |
+|---|---|---|---|---|
+| **WhisperX** (default) | Yes (pyannote `community-1`) | ~60–100 min on M-series CPU | $0 | Multi-speaker podcasts and interviews — anywhere quotes need real attribution |
+| **Groq** (`whisper-large-v3`) | No | ~30s (200× realtime) | Free tier 7,200s/day | Solo narration, news monologues, fast turnaround |
 
-Whisper does NOT give you speaker labels. For multi-host podcasts attribute by context only; when unsure use "show hosts" or the named guest.
+**Choosing the backend:**
 
-The standalone `scripts/transcribe.py` still supports an `mlx` backend for one-off manual use, but the queue pipeline never invokes it.
+- Default for the whole run: `TRANSCRIPTION_DEFAULT=whisperx` (hardcoded in `process_queue.sh`). Flip per run with `TRANSCRIPTION_DEFAULT=groq ./scripts/process_queue.sh`.
+- Per-URL override: prefix the queue.txt line with `[groq]` or `[whisperx]`.
+
+**WhisperX details:**
+
+- Runs in the project's `.venv` on Python 3.12 (kept separate from your shell's pyenv so torch/pyannote don't pollute global). The queue script invokes `.venv/bin/python scripts/transcribe_whisperx.py`.
+- Requires `HF_TOKEN` (read scope) in `../.env.local`, plus accepting two HF gates: `pyannote/segmentation-3.0` and `pyannote/speaker-diarization-community-1`. See `SETUP.md`.
+- Model: `whisperx.load_model("large-v3", device="cpu", compute_type="int8")`, alignment via `whisperx.load_align_model`, diarization via `whisperx.diarize.DiarizationPipeline`. Output segments include a `speaker` field; `transcript.txt` formats lines as `[hh:mm:ss] SPEAKER_xx: text`.
+- No fallback. If `HF_TOKEN` is missing or diarization fails, the URL is marked `# FAILED-TRANSCRIPTION:` and not processed (`--require-diarize` is passed by the queue script).
+
+**Groq details:**
+
+- `GROQ_API_KEY` must be set in `../.env.local`. Audio is split into <25 MB chunks (~22 min) and uploaded.
+- No speaker labels. `analyze.py` will attribute quotes by context only — for multi-host podcasts you'll lose precision in the "speaker" field of quotes.
+
+The standalone `scripts/transcribe.py` (Groq + a legacy `mlx` backend) is kept for one-off manual runs but isn't invoked by the queue when `[whisperx]` is in effect.
 
 ## Don't
 
@@ -142,3 +167,5 @@ The standalone `scripts/transcribe.py` still supports an `mlx` backend for one-o
 - Don't rename per-video folders away from the 11-char YouTube ID; `videos/<title-slug>` symlinks are fine and `build_indexes.py` skips symlinks automatically.
 - Don't paste large transcripts into chat — the artifact is the deliverable.
 - Don't skip the session-start tracker check unless there's truly nothing to surface.
+- Don't commit `.venv/` (it's ~1.2 GB; covered by `.gitignore`).
+- Don't manually invoke `scripts/transcribe_whisperx.py` with the system `python3` — it must run via `.venv/bin/python`.
