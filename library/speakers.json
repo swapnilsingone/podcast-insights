@@ -1,7 +1,7 @@
 [
   {
     "name": "Chamath Palihapitiya",
-    "role": "Host, All-In",
+    "role": "All-In host / investor",
     "appearances": [
       {
         "video_id": "HGbA6ze0_3M",
@@ -38,7 +38,7 @@
   },
   {
     "name": "Jason Calacanis",
-    "role": "Host, All-In",
+    "role": "All-In host / investor",
     "appearances": [
       {
         "video_id": "HGbA6ze0_3M",
@@ -112,7 +112,7 @@
   },
   {
     "name": "Jensen Huang",
-    "role": "Founder & CEO, Nvidia",
+    "role": "Co-founder & CEO, Nvidia",
     "appearances": [
       {
         "video_id": "Hrbq66XqtCo",
@@ -263,158 +263,126 @@
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Disaggregated inference: today's hardest computing problem",
+        "category": "definition",
+        "start_seconds": 103,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=103s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Groq goes into 25% of every Vera Rubin deployment",
+        "category": "data-point",
+        "start_seconds": 165,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=165s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Three computers: training, evaluation, edge",
+        "category": "framework",
+        "start_seconds": 318,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=318s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
         "headline": "A $50B factory makes the cheapest tokens",
         "category": "counterintuitive",
-        "start_seconds": 471,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=471s"
+        "start_seconds": 453,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=453s"
       },
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Compute demand is up 10,000\u00d7 in two years",
-        "category": "data-point",
-        "start_seconds": 1350,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1350s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "$250K of tokens is the new bar per engineer",
-        "category": "framework",
-        "start_seconds": 1476,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1476s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "An agent runtime is a computer",
+        "headline": "CEO rule: only do the insanely hard things",
         "category": "mental-model",
-        "start_seconds": 858,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=858s"
+        "start_seconds": 567,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=567s"
       },
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Only build what is insanely hard",
+        "headline": "Physical AI is a $50T, untouched market",
+        "category": "data-point",
+        "start_seconds": 646,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=646s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "OpenClaw is a computer's four core elements",
         "category": "framework",
-        "start_seconds": 564,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=564s"
+        "start_seconds": 873,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=873s"
       },
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Inference is the new constraint",
-        "category": "prediction",
-        "start_seconds": 404,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=404s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Under-adoption is the real AI risk",
+        "headline": "AI's real risk is U.S. doomerism, not the tech",
         "category": "counterintuitive",
-        "start_seconds": 1223,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1223s"
+        "start_seconds": 1131,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1131s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Compute demand rose 10,000x in two years",
+        "category": "data-point",
+        "start_seconds": 1322,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1322s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "A $500K engineer should spend $250K on tokens",
+        "category": "actionable",
+        "start_seconds": 1468,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1468s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Programming becomes specifying, with 100 agents each",
+        "category": "prediction",
+        "start_seconds": 1574,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1574s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Agents grow enterprise software, not destroy it",
+        "category": "counterintuitive",
+        "start_seconds": 1782,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1782s"
       },
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
         "headline": "Nvidia went from 95% to 0% in China",
         "category": "data-point",
-        "start_seconds": 1990,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1990s"
+        "start_seconds": 2049,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2049s"
       },
       {
         "video_id": "gwW8GKwHB3I",
         "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Models are technology, not product",
-        "category": "mental-model",
-        "start_seconds": 1894,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1894s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Enterprise SaaS doesn't die, it 100\u00d7's",
-        "category": "counterintuitive",
-        "start_seconds": 1748,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1748s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Physical AI needs three computers",
-        "category": "framework",
-        "start_seconds": 314,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=314s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Digital biology is at its ChatGPT moment",
-        "category": "prediction",
-        "start_seconds": 689,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=689s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Robots everywhere in 3 to 5 years",
-        "category": "prediction",
-        "start_seconds": 3157,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3157s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Dario's $1T-by-2030 is too low",
-        "category": "prediction",
-        "start_seconds": 3370,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "The radiologist parable",
+        "headline": "Radiologist demand rose despite the AI prediction",
         "category": "story",
-        "start_seconds": 3795,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3795s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "The new moat is deep vertical specialization",
-        "category": "framework",
-        "start_seconds": 3470,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3470s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "40% of Nvidia's business lives outside the cloud",
-        "category": "data-point",
-        "start_seconds": 2611,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2611s"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "headline": "Programming becomes specification + orchestration",
-        "category": "mental-model",
-        "start_seconds": 1600,
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1600s"
+        "start_seconds": 3779,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3779s"
       }
     ],
     "first_uploaded": "2026-03-19",
     "last_uploaded": "2026-04-15",
     "slug": "jensen-huang",
     "appearance_count": 2,
-    "claim_count": 34,
+    "claim_count": 30,
     "span_days": 27
   },
   {
     "name": "Brad Gerstner",
-    "role": "Host, Altimeter (guest co-host)",
+    "role": "All-In host / investor (Altimeter)",
     "appearances": [
       {
         "video_id": "10MdOvK-aG4",
@@ -571,37 +539,8 @@
     "span_days": 50
   },
   {
-    "name": "David Sacks",
-    "role": "Host, All-In",
-    "appearances": [
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
-        "upload_date": "2026-05-08",
-        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
-      },
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
-        "upload_date": "2026-03-19",
-        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
-      }
-    ],
-    "claims": [],
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-08",
-    "slug": "david-sacks",
-    "appearance_count": 2,
-    "claim_count": 0,
-    "span_days": 50
-  },
-  {
     "name": "David Friedberg",
-    "role": "Host, All-In (Ohalo CEO)",
+    "role": "All-In host / CEO, Ohalo",
     "appearances": [
       {
         "video_id": "HGbA6ze0_3M",
@@ -1162,6 +1101,27 @@
     "slug": "demis-hassabis",
     "appearance_count": 1,
     "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "David Sacks",
+    "role": "Host, All-In; White House AI & Crypto Czar",
+    "appearances": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-05-08",
+    "slug": "david-sacks",
+    "appearance_count": 1,
+    "claim_count": 0,
     "span_days": 0
   },
   {

@@ -1,22 +1,22 @@
 {
-  "snapshot_at": "2026-05-24T15:58:54.695019Z",
+  "snapshot_at": "2026-05-25T16:37:35.726552Z",
   "totals": {
     "videos": 8,
-    "insights": 120,
-    "quotes": 53,
+    "insights": 116,
+    "quotes": 51,
     "hours_archived": 9.1,
     "channels": 3,
-    "entities": 310,
+    "entities": 321,
     "speakers": 13,
-    "predictions_open": 47,
-    "predictions_validated": 1
+    "predictions_open": 46,
+    "predictions_validated": 0
   },
   "uploads": {
     "oldest_upload": "2024-02-28",
     "newest_upload": "2026-05-22",
     "span_days": 814,
-    "avg_processing_lag_days": 226.5,
-    "median_processing_lag_days": 64,
+    "avg_processing_lag_days": 226.9,
+    "median_processing_lag_days": 67,
     "by_month": [
       {
         "month": "2024-02",
@@ -76,11 +76,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=803s",
-          "first_seconds": 803,
-          "mentions": 8,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=831s",
+          "first_seconds": 831,
+          "mentions": 6,
           "role": null,
-          "context": null
+          "context": "Number-one model maker; revenue inflection"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -127,7 +127,7 @@
           "context": null
         }
       ],
-      "total_mentions": 53,
+      "total_mentions": 51,
       "first_uploaded": "2024-02-28",
       "last_uploaded": "2026-05-22",
       "video_count": 7,
@@ -167,7 +167,7 @@
           "first_seconds": 0,
           "mentions": 30,
           "role": null,
-          "context": null
+          "context": "Evolving from a GPU company to an AI-factory company"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -237,11 +237,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1252s",
-          "first_seconds": 1252,
-          "mentions": 12,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1131s",
+          "first_seconds": 1131,
+          "mentions": 8,
           "role": null,
-          "context": null
+          "context": "Admired tech, criticized comms; $5\u20136B February"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -277,7 +277,7 @@
           "context": "$45B deal with SpaceX; EBIT positive; Karpathy joining"
         }
       ],
-      "total_mentions": 96,
+      "total_mentions": 92,
       "first_uploaded": "2024-02-28",
       "last_uploaded": "2026-05-22",
       "video_count": 5,
@@ -292,6 +292,80 @@
       "span_days": 814
     },
     {
+      "name": "Google",
+      "kind": "companies",
+      "occurrences": [
+        {
+          "video_id": "qTogNUV3CAI",
+          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2024-02-28",
+          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1860s",
+          "first_seconds": 1860,
+          "mentions": 6,
+          "role": null,
+          "context": "Parent company providing compute and security infra"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-03-19",
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2526s",
+          "first_seconds": 2526,
+          "mentions": 1,
+          "role": null,
+          "context": "Has TPU; a customer trying to compete down-stack"
+        },
+        {
+          "video_id": "Hrbq66XqtCo",
+          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2026-04-15",
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1063s",
+          "first_seconds": 1063,
+          "mentions": 6,
+          "role": null,
+          "context": "TPU; Anthropic's hyperscaler backer"
+        },
+        {
+          "video_id": "kYkIdXwW2AE",
+          "video_title": "Yann LeCun's $1B Bet Against LLMs",
+          "channel": "Welch Labs",
+          "upload_date": "2026-05-02",
+          "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=333s",
+          "first_seconds": 333,
+          "mentions": 3,
+          "role": null,
+          "context": "Built the Transformer (translation) and 2020 ViT that hit 88.6% on ImageNet"
+        },
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1063s",
+          "first_seconds": 1063,
+          "mentions": 8,
+          "role": null,
+          "context": null
+        }
+      ],
+      "total_mentions": 24,
+      "first_uploaded": "2024-02-28",
+      "last_uploaded": "2026-05-08",
+      "video_count": 5,
+      "slug": "google",
+      "upload_dates": [
+        "2024-02-28",
+        "2026-03-19",
+        "2026-04-15",
+        "2026-05-02",
+        "2026-05-08"
+      ],
+      "span_days": 800
+    },
+    {
       "name": "Tesla",
       "kind": "companies",
       "occurrences": [
@@ -300,11 +374,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2400s",
-          "first_seconds": 2400,
-          "mentions": 3,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2473s",
+          "first_seconds": 2473,
+          "mentions": 2,
           "role": null,
-          "context": null
+          "context": "Buys Nvidia training computers; Optimus"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -351,7 +425,7 @@
           "context": "Possible merger with SpaceX"
         }
       ],
-      "total_mentions": 15,
+      "total_mentions": 14,
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-05-22",
       "video_count": 5,
@@ -374,11 +448,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3150s",
-          "first_seconds": 3150,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2473s",
+          "first_seconds": 2473,
           "mentions": 3,
           "role": "CEO, Tesla",
-          "context": "Optimus, robots one-for-one with humans"
+          "context": "Buys Nvidia training computers; robot-per-human vision"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -428,68 +502,6 @@
       "span_days": 64
     },
     {
-      "name": "Google",
-      "kind": "companies",
-      "occurrences": [
-        {
-          "video_id": "qTogNUV3CAI",
-          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2024-02-28",
-          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1860s",
-          "first_seconds": 1860,
-          "mentions": 6,
-          "role": null,
-          "context": "Parent company providing compute and security infra"
-        },
-        {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1063s",
-          "first_seconds": 1063,
-          "mentions": 6,
-          "role": null,
-          "context": "TPU; Anthropic's hyperscaler backer"
-        },
-        {
-          "video_id": "kYkIdXwW2AE",
-          "video_title": "Yann LeCun's $1B Bet Against LLMs",
-          "channel": "Welch Labs",
-          "upload_date": "2026-05-02",
-          "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=333s",
-          "first_seconds": 333,
-          "mentions": 3,
-          "role": null,
-          "context": "Built the Transformer (translation) and 2020 ViT that hit 88.6% on ImageNet"
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1063s",
-          "first_seconds": 1063,
-          "mentions": 8,
-          "role": null,
-          "context": null
-        }
-      ],
-      "total_mentions": 23,
-      "first_uploaded": "2024-02-28",
-      "last_uploaded": "2026-05-08",
-      "video_count": 4,
-      "slug": "google",
-      "upload_dates": [
-        "2024-02-28",
-        "2026-04-15",
-        "2026-05-02",
-        "2026-05-08"
-      ],
-      "span_days": 800
-    },
-    {
       "name": "Dario Amodei",
       "kind": "people",
       "occurrences": [
@@ -498,11 +510,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1252s",
-          "first_seconds": 1252,
-          "mentions": 4,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1131s",
+          "first_seconds": 1131,
+          "mentions": 3,
           "role": "CEO, Anthropic",
-          "context": "Anthropic comms; $1T-by-2030 forecast Jensen calls conservative"
+          "context": "Comms critique and $1T revenue forecast"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -538,7 +550,7 @@
           "context": "Accused by Chamath of manufacturing AI fear for regulatory moat"
         }
       ],
-      "total_mentions": 22,
+      "total_mentions": 21,
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-05-22",
       "video_count": 4,
@@ -614,130 +626,6 @@
       "span_days": 794
     },
     {
-      "name": "Meta",
-      "kind": "companies",
-      "occurrences": [
-        {
-          "video_id": "5eqRuVp65eY",
-          "video_title": "AI can't cross this line and we don't know why.",
-          "channel": "Welch Labs",
-          "upload_date": "2024-09-13",
-          "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=440s",
-          "first_seconds": 440,
-          "mentions": 1,
-          "role": null,
-          "context": "Llama model used as an example of top-5 next-word probability outputs"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2710s",
-          "first_seconds": 2710,
-          "mentions": 1,
-          "role": null,
-          "context": null
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1638s",
-          "first_seconds": 1638,
-          "mentions": 2,
-          "role": null,
-          "context": null
-        },
-        {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2340s",
-          "first_seconds": 2340,
-          "mentions": 5,
-          "role": null,
-          "context": null
-        }
-      ],
-      "total_mentions": 9,
-      "first_uploaded": "2024-09-13",
-      "last_uploaded": "2026-05-22",
-      "video_count": 4,
-      "slug": "meta",
-      "upload_dates": [
-        "2024-09-13",
-        "2026-03-19",
-        "2026-05-08",
-        "2026-05-22"
-      ],
-      "span_days": 616
-    },
-    {
-      "name": "Dwarkesh Patel",
-      "kind": "people",
-      "occurrences": [
-        {
-          "video_id": "qTogNUV3CAI",
-          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2024-02-28",
-          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host",
-          "context": "Interviewer"
-        },
-        {
-          "video_id": "21EYKqUsPfg",
-          "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2025-09-26",
-          "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=0s",
-          "first_seconds": 0,
-          "mentions": 5,
-          "role": "Podcast host",
-          "context": "Pushes back with LLM-as-prior and imitation-learning framings"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s",
-          "first_seconds": 3370,
-          "mentions": 1,
-          "role": "Podcaster",
-          "context": "Source of Dario's $1T forecast"
-        },
-        {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, Dwarkesh Podcast",
-          "context": null
-        }
-      ],
-      "total_mentions": 8,
-      "first_uploaded": "2024-02-28",
-      "last_uploaded": "2026-04-15",
-      "video_count": 4,
-      "slug": "dwarkesh-patel",
-      "upload_dates": [
-        "2024-02-28",
-        "2025-09-26",
-        "2026-03-19",
-        "2026-04-15"
-      ],
-      "span_days": 777
-    },
-    {
       "name": "Jensen Huang",
       "kind": "people",
       "occurrences": [
@@ -748,9 +636,9 @@
           "upload_date": "2026-03-19",
           "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
           "first_seconds": 0,
-          "mentions": 999,
-          "role": "Founder & CEO, Nvidia",
-          "context": null
+          "mentions": 30,
+          "role": "Co-founder & CEO, Nvidia",
+          "context": "Guest; lays out Nvidia's AI-factory strategy"
         },
         {
           "video_id": "Hrbq66XqtCo",
@@ -775,7 +663,7 @@
           "context": "DC-to-DC data center redesign; frustrated with stock underperformance; CPU business"
         }
       ],
-      "total_mentions": 2010,
+      "total_mentions": 1041,
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-05-22",
       "video_count": 3,
@@ -783,56 +671,6 @@
       "upload_dates": [
         "2026-03-19",
         "2026-04-15",
-        "2026-05-22"
-      ],
-      "span_days": 64
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "kind": "people",
-      "occurrences": [
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In",
-          "context": null
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In",
-          "context": null
-        },
-        {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=0s",
-          "first_seconds": 0,
-          "mentions": 99,
-          "role": "Host, All-In Podcast",
-          "context": null
-        }
-      ],
-      "total_mentions": 101,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-22",
-      "video_count": 3,
-      "slug": "chamath-palihapitiya",
-      "upload_dates": [
-        "2026-03-19",
-        "2026-05-08",
         "2026-05-22"
       ],
       "span_days": 64
@@ -848,9 +686,9 @@
           "upload_date": "2026-03-19",
           "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
           "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In",
-          "context": null
+          "mentions": 8,
+          "role": "All-In host / investor",
+          "context": "Drives desktop, healthcare and robotics threads"
         },
         {
           "video_id": "10MdOvK-aG4",
@@ -875,11 +713,61 @@
           "context": null
         }
       ],
-      "total_mentions": 101,
+      "total_mentions": 108,
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-05-22",
       "video_count": 3,
       "slug": "jason-calacanis",
+      "upload_dates": [
+        "2026-03-19",
+        "2026-05-08",
+        "2026-05-22"
+      ],
+      "span_days": 64
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "kind": "people",
+      "occurrences": [
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-03-19",
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=165s",
+          "first_seconds": 165,
+          "mentions": 6,
+          "role": "All-In host / investor",
+          "context": "Asks strategy, open source and moat questions"
+        },
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=0s",
+          "first_seconds": 0,
+          "mentions": 1,
+          "role": "Host, All-In",
+          "context": null
+        },
+        {
+          "video_id": "HGbA6ze0_3M",
+          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-22",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=0s",
+          "first_seconds": 0,
+          "mentions": 99,
+          "role": "Host, All-In Podcast",
+          "context": null
+        }
+      ],
+      "total_mentions": 106,
+      "first_uploaded": "2026-03-19",
+      "last_uploaded": "2026-05-22",
+      "video_count": 3,
+      "slug": "chamath-palihapitiya",
       "upload_dates": [
         "2026-03-19",
         "2026-05-08",
@@ -957,11 +845,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1605s",
-          "first_seconds": 1605,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1611s",
+          "first_seconds": 1611,
           "mentions": 1,
-          "role": "Independent researcher",
-          "context": "Auto-research 600 lines, PhD-thesis-quality result in 30 minutes"
+          "role": "AI researcher",
+          "context": "Referenced for 'auto-research' (chapter context)"
         },
         {
           "video_id": "HGbA6ze0_3M",
@@ -988,79 +876,29 @@
       "span_days": 238
     },
     {
-      "name": "AWS",
+      "name": "Meta",
       "kind": "companies",
       "occurrences": [
         {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "video_id": "5eqRuVp65eY",
+          "video_title": "AI can't cross this line and we don't know why.",
+          "channel": "Welch Labs",
+          "upload_date": "2024-09-13",
+          "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=440s",
+          "first_seconds": 440,
+          "mentions": 1,
+          "role": null,
+          "context": "Llama model used as an example of top-5 next-word probability outputs"
+        },
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
           "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2680s",
-          "first_seconds": 2680,
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1638s",
+          "first_seconds": 1638,
           "mentions": 2,
           "role": null,
-          "context": null
-        },
-        {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2090s",
-          "first_seconds": 2090,
-          "mentions": 6,
-          "role": null,
-          "context": "Trainium; Anthropic's other backer"
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1140s",
-          "first_seconds": 1140,
-          "mentions": 7,
-          "role": null,
-          "context": null
-        }
-      ],
-      "total_mentions": 15,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-08",
-      "video_count": 3,
-      "slug": "aws",
-      "upload_dates": [
-        "2026-03-19",
-        "2026-04-15",
-        "2026-05-08"
-      ],
-      "span_days": 50
-    },
-    {
-      "name": "David Sacks",
-      "kind": "people",
-      "occurrences": [
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In",
-          "context": null
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In; White House AI & Crypto Czar",
           "context": null
         },
         {
@@ -1068,74 +906,74 @@
           "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
           "channel": "All-In Podcast",
           "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=0s",
-          "first_seconds": 0,
-          "mentions": 2,
-          "role": "Host, All-In Podcast (absent)",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2340s",
+          "first_seconds": 2340,
+          "mentions": 5,
+          "role": null,
           "context": null
         }
       ],
-      "total_mentions": 4,
-      "first_uploaded": "2026-03-19",
+      "total_mentions": 8,
+      "first_uploaded": "2024-09-13",
       "last_uploaded": "2026-05-22",
       "video_count": 3,
-      "slug": "david-sacks",
+      "slug": "meta",
       "upload_dates": [
-        "2026-03-19",
+        "2024-09-13",
         "2026-05-08",
         "2026-05-22"
       ],
-      "span_days": 64
+      "span_days": 616
     },
     {
-      "name": "Radiologist parable",
-      "kind": "frameworks_concepts",
+      "name": "Dwarkesh Patel",
+      "kind": "people",
       "occurrences": [
         {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3795s",
-          "first_seconds": 3795,
+          "video_id": "qTogNUV3CAI",
+          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2024-02-28",
+          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=0s",
+          "first_seconds": 0,
           "mentions": 1,
-          "role": null,
-          "context": null
+          "role": "Host",
+          "context": "Interviewer"
+        },
+        {
+          "video_id": "21EYKqUsPfg",
+          "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2025-09-26",
+          "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=0s",
+          "first_seconds": 0,
+          "mentions": 5,
+          "role": "Podcast host",
+          "context": "Pushes back with LLM-as-prior and imitation-learning framings"
         },
         {
           "video_id": "Hrbq66XqtCo",
           "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
           "channel": "Dwarkesh Patel",
           "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=808s",
-          "first_seconds": 808,
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
+          "first_seconds": 0,
           "mentions": 1,
-          "role": null,
-          "context": null
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=800s",
-          "first_seconds": 800,
-          "mentions": 1,
-          "role": null,
+          "role": "Host, Dwarkesh Podcast",
           "context": null
         }
       ],
-      "total_mentions": 3,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-08",
+      "total_mentions": 7,
+      "first_uploaded": "2024-02-28",
+      "last_uploaded": "2026-04-15",
       "video_count": 3,
-      "slug": "radiologist-parable",
+      "slug": "dwarkesh-patel",
       "upload_dates": [
-        "2026-03-19",
-        "2026-04-15",
-        "2026-05-08"
+        "2024-02-28",
+        "2025-09-26",
+        "2026-04-15"
       ],
-      "span_days": 50
+      "span_days": 777
     },
     {
       "name": "David Friedberg",
@@ -1146,11 +984,11 @@
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "channel": "All-In Podcast",
           "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-          "first_seconds": 0,
-          "mentions": 1,
-          "role": "Host, All-In (Ohalo CEO)",
-          "context": null
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=300s",
+          "first_seconds": 300,
+          "mentions": 6,
+          "role": "All-In host / CEO, Ohalo",
+          "context": "Shares auto-research and genomics breakthroughs"
         },
         {
           "video_id": "HGbA6ze0_3M",
@@ -1164,7 +1002,7 @@
           "context": null
         }
       ],
-      "total_mentions": 100,
+      "total_mentions": 105,
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-05-22",
       "video_count": 2,
@@ -1212,12 +1050,126 @@
         "2026-05-22"
       ],
       "span_days": 14
+    },
+    {
+      "name": "AWS",
+      "kind": "companies",
+      "occurrences": [
+        {
+          "video_id": "Hrbq66XqtCo",
+          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2026-04-15",
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2090s",
+          "first_seconds": 2090,
+          "mentions": 6,
+          "role": null,
+          "context": "Trainium; Anthropic's other backer"
+        },
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1140s",
+          "first_seconds": 1140,
+          "mentions": 7,
+          "role": null,
+          "context": null
+        }
+      ],
+      "total_mentions": 13,
+      "first_uploaded": "2026-04-15",
+      "last_uploaded": "2026-05-08",
+      "video_count": 2,
+      "slug": "aws",
+      "upload_dates": [
+        "2026-04-15",
+        "2026-05-08"
+      ],
+      "span_days": 23
+    },
+    {
+      "name": "Cursor",
+      "kind": "companies",
+      "occurrences": [
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=720s",
+          "first_seconds": 720,
+          "mentions": 2,
+          "role": null,
+          "context": "xAI tied up with Cursor for coding distribution"
+        },
+        {
+          "video_id": "HGbA6ze0_3M",
+          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-22",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2820s",
+          "first_seconds": 2820,
+          "mentions": 8,
+          "role": null,
+          "context": "Composer 2.5 Pareto-dominant; more coding tokens than internet"
+        }
+      ],
+      "total_mentions": 10,
+      "first_uploaded": "2026-05-08",
+      "last_uploaded": "2026-05-22",
+      "video_count": 2,
+      "slug": "cursor",
+      "upload_dates": [
+        "2026-05-08",
+        "2026-05-22"
+      ],
+      "span_days": 14
+    },
+    {
+      "name": "Groq",
+      "kind": "companies",
+      "occurrences": [
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-03-19",
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=28s",
+          "first_seconds": 28,
+          "mentions": 6,
+          "role": null,
+          "context": "Acquired; LPUs going into 25% of Vera Rubin racks"
+        },
+        {
+          "video_id": "Hrbq66XqtCo",
+          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2026-04-15",
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5390s",
+          "first_seconds": 5390,
+          "mentions": 3,
+          "role": null,
+          "context": "Folded into CUDA ecosystem to address premium-token segment"
+        }
+      ],
+      "total_mentions": 9,
+      "first_uploaded": "2026-03-19",
+      "last_uploaded": "2026-04-15",
+      "video_count": 2,
+      "slug": "groq",
+      "upload_dates": [
+        "2026-03-19",
+        "2026-04-15"
+      ],
+      "span_days": 27
     }
   ],
   "recurring_speakers": [
     {
       "name": "Chamath Palihapitiya",
-      "role": "Host, All-In",
+      "role": "All-In host / investor",
       "appearances": [
         {
           "video_id": "HGbA6ze0_3M",
@@ -1254,7 +1206,7 @@
     },
     {
       "name": "Jason Calacanis",
-      "role": "Host, All-In",
+      "role": "All-In host / investor",
       "appearances": [
         {
           "video_id": "HGbA6ze0_3M",
@@ -1328,7 +1280,7 @@
     },
     {
       "name": "Jensen Huang",
-      "role": "Founder & CEO, Nvidia",
+      "role": "Co-founder & CEO, Nvidia",
       "appearances": [
         {
           "video_id": "Hrbq66XqtCo",
@@ -1479,158 +1431,126 @@
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Disaggregated inference: today's hardest computing problem",
+          "category": "definition",
+          "start_seconds": 103,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=103s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Groq goes into 25% of every Vera Rubin deployment",
+          "category": "data-point",
+          "start_seconds": 165,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=165s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Three computers: training, evaluation, edge",
+          "category": "framework",
+          "start_seconds": 318,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=318s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "headline": "A $50B factory makes the cheapest tokens",
           "category": "counterintuitive",
-          "start_seconds": 471,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=471s"
+          "start_seconds": 453,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=453s"
         },
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Compute demand is up 10,000\u00d7 in two years",
-          "category": "data-point",
-          "start_seconds": 1350,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1350s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "$250K of tokens is the new bar per engineer",
-          "category": "framework",
-          "start_seconds": 1476,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1476s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "An agent runtime is a computer",
+          "headline": "CEO rule: only do the insanely hard things",
           "category": "mental-model",
-          "start_seconds": 858,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=858s"
+          "start_seconds": 567,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=567s"
         },
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Only build what is insanely hard",
+          "headline": "Physical AI is a $50T, untouched market",
+          "category": "data-point",
+          "start_seconds": 646,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=646s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "OpenClaw is a computer's four core elements",
           "category": "framework",
-          "start_seconds": 564,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=564s"
+          "start_seconds": 873,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=873s"
         },
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Inference is the new constraint",
-          "category": "prediction",
-          "start_seconds": 404,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=404s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Under-adoption is the real AI risk",
+          "headline": "AI's real risk is U.S. doomerism, not the tech",
           "category": "counterintuitive",
-          "start_seconds": 1223,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1223s"
+          "start_seconds": 1131,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1131s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Compute demand rose 10,000x in two years",
+          "category": "data-point",
+          "start_seconds": 1322,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1322s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "A $500K engineer should spend $250K on tokens",
+          "category": "actionable",
+          "start_seconds": 1468,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1468s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Programming becomes specifying, with 100 agents each",
+          "category": "prediction",
+          "start_seconds": 1574,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1574s"
+        },
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "headline": "Agents grow enterprise software, not destroy it",
+          "category": "counterintuitive",
+          "start_seconds": 1782,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1782s"
         },
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
           "headline": "Nvidia went from 95% to 0% in China",
           "category": "data-point",
-          "start_seconds": 1990,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1990s"
+          "start_seconds": 2049,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2049s"
         },
         {
           "video_id": "gwW8GKwHB3I",
           "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Models are technology, not product",
-          "category": "mental-model",
-          "start_seconds": 1894,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1894s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Enterprise SaaS doesn't die, it 100\u00d7's",
-          "category": "counterintuitive",
-          "start_seconds": 1748,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1748s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Physical AI needs three computers",
-          "category": "framework",
-          "start_seconds": 314,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=314s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Digital biology is at its ChatGPT moment",
-          "category": "prediction",
-          "start_seconds": 689,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=689s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Robots everywhere in 3 to 5 years",
-          "category": "prediction",
-          "start_seconds": 3157,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3157s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Dario's $1T-by-2030 is too low",
-          "category": "prediction",
-          "start_seconds": 3370,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "The radiologist parable",
+          "headline": "Radiologist demand rose despite the AI prediction",
           "category": "story",
-          "start_seconds": 3795,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3795s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "The new moat is deep vertical specialization",
-          "category": "framework",
-          "start_seconds": 3470,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3470s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "40% of Nvidia's business lives outside the cloud",
-          "category": "data-point",
-          "start_seconds": 2611,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2611s"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "headline": "Programming becomes specification + orchestration",
-          "category": "mental-model",
-          "start_seconds": 1600,
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1600s"
+          "start_seconds": 3779,
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3779s"
         }
       ],
       "first_uploaded": "2026-03-19",
       "last_uploaded": "2026-04-15",
       "slug": "jensen-huang",
       "appearance_count": 2,
-      "claim_count": 34,
+      "claim_count": 30,
       "span_days": 27
     },
     {
       "name": "Brad Gerstner",
-      "role": "Host, Altimeter (guest co-host)",
+      "role": "All-In host / investor (Altimeter)",
       "appearances": [
         {
           "video_id": "10MdOvK-aG4",
@@ -1787,37 +1707,8 @@
       "span_days": 50
     },
     {
-      "name": "David Sacks",
-      "role": "Host, All-In",
-      "appearances": [
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
-          "upload_date": "2026-05-08",
-          "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
-        },
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
-          "upload_date": "2026-03-19",
-          "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
-        }
-      ],
-      "claims": [],
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-08",
-      "slug": "david-sacks",
-      "appearance_count": 2,
-      "claim_count": 0,
-      "span_days": 50
-    },
-    {
       "name": "David Friedberg",
-      "role": "Host, All-In (Ohalo CEO)",
+      "role": "All-In host / CEO, Ohalo",
       "appearances": [
         {
           "video_id": "HGbA6ze0_3M",
@@ -1990,11 +1881,11 @@
       "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
       "duration_seconds": 3966,
       "upload_date": "2026-03-19",
-      "thesis": "Inference, not training, is now the constraint \u2014 and the unit economics of AI have flipped: tokens are CapEx for knowledge workers, agents are the new operating system, and every industry from biology to robotics gets re-platformed in the next 3\u20135 years.",
-      "insight_count": 18,
-      "quote_count": 8,
-      "processed_at": "2026-05-22T13:17:16.004485Z",
-      "processing_lag_days": 64,
+      "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model \u2014 so the industry's real risk is self-inflicted doomerism, not technology.",
+      "insight_count": 14,
+      "quote_count": 6,
+      "processed_at": "2026-05-25T16:37:35.155620Z",
+      "processing_lag_days": 67,
       "path": "../videos/gwW8GKwHB3I/index.html"
     }
   ],
@@ -2067,19 +1958,19 @@
       "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
       "duration_seconds": 3966,
       "upload_date": "2026-03-19",
-      "thesis": "Inference, not training, is now the constraint \u2014 and the unit economics of AI have flipped: tokens are CapEx for knowledge workers, agents are the new operating system, and every industry from biology to robotics gets re-platformed in the next 3\u20135 years.",
-      "insight_count": 18,
-      "quote_count": 8,
-      "processed_at": "2026-05-22T13:17:16.004485Z",
-      "processing_lag_days": 64,
+      "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model \u2014 so the industry's real risk is self-inflicted doomerism, not technology.",
+      "insight_count": 14,
+      "quote_count": 6,
+      "processed_at": "2026-05-25T16:37:35.155620Z",
+      "processing_lag_days": 67,
       "path": "../videos/gwW8GKwHB3I/index.html"
     }
   ],
   "growth_by_day": [
     {
       "date": "2026-05-22",
-      "videos": 3,
-      "insights": 50
+      "videos": 2,
+      "insights": 32
     },
     {
       "date": "2026-05-23",
@@ -2090,6 +1981,11 @@
       "date": "2026-05-24",
       "videos": 4,
       "insights": 56
+    },
+    {
+      "date": "2026-05-25",
+      "videos": 1,
+      "insights": 14
     }
   ]
 }

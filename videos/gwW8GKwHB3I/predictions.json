@@ -3,110 +3,102 @@
   "predictions": [
     {
       "id": "gwW8GKwHB3I-p1",
-      "claim": "Robots will be all over the place — humanoid robots from existence-proof to real product",
+      "claim": "Within three to five years there will be robots all over the place — moving from high-functioning existence proofs to reasonable products.",
       "speaker": "Jensen Huang",
-      "category": "robotics",
-      "start_seconds": 3157,
+      "category": "tech",
+      "start_seconds": 3142,
       "stated_at": "2026-03-19",
-      "horizon_label": "3 to 5 years",
-      "revisit_dates": ["2029-03-19", "2031-03-19"],
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
       "status": "open",
-      "notes": "China leads the supply chain (motors, magnets, rare earth)."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p2",
-      "claim": "Digital biology hits its ChatGPT moment — healthcare industry inflects",
+      "claim": "Digital biology is at its ChatGPT moment; in five years the healthcare industry will inflect as AI learns to represent genes, proteins and cells.",
       "speaker": "Jensen Huang",
-      "category": "biology",
-      "start_seconds": 689,
+      "category": "ai",
+      "start_seconds": 704,
       "stated_at": "2026-03-19",
-      "horizon_label": "2 to 5 years",
-      "revisit_dates": ["2028-03-19", "2031-03-19"],
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
       "status": "open",
-      "notes": "Agriculture is already inflecting. Physical AI ~$10B/yr business at Nvidia."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p3",
-      "claim": "Anthropic + OpenAI revenue exceeds Dario's $1T-by-2030 forecast",
+      "claim": "Anthropic will do 'way better' than the $1 trillion non-infrastructure AI revenue Dario forecast for 2030.",
       "speaker": "Jensen Huang",
-      "category": "ai-business",
-      "start_seconds": 3370,
+      "category": "business",
+      "start_seconds": 3387,
       "stated_at": "2026-03-19",
       "horizon_label": "by 2030",
-      "revisit_dates": ["2030-12-31"],
+      "revisit_dates": [
+        "2030-12-31"
+      ],
       "status": "open",
-      "notes": "Reason: every enterprise SaaS becomes a value-added reseller of Anthropic/OpenAI tokens."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p4",
-      "claim": "100% of driving by humans goes away (eventually)",
-      "speaker": "Jensen Huang",
-      "category": "self-driving",
-      "start_seconds": 3590,
+      "claim": "100% of human driving will go away, displacing the 10–15 million Americans employed as drivers.",
+      "speaker": "Jason Calacanis",
+      "category": "macro",
+      "start_seconds": 3614,
       "stated_at": "2026-03-19",
       "horizon_label": "indefinite",
-      "revisit_dates": ["2030-03-19"],
+      "revisit_dates": [
+        "2031-03-19"
+      ],
       "status": "open",
-      "notes": "15M US driving-related jobs affected. Chauffeurs morph into mobility assistants."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p5",
-      "claim": "Compute demand goes another 100× from agentic baseline (toward 1M× total)",
+      "claim": "Every enterprise software company will become a value-added reseller of Anthropic and OpenAI tokens, expanding their go-to-market this year.",
       "speaker": "Jensen Huang",
-      "category": "compute",
-      "start_seconds": 1410,
+      "category": "business",
+      "start_seconds": 3397,
       "stated_at": "2026-03-19",
-      "horizon_label": "2-3 years",
-      "revisit_dates": ["2028-03-19"],
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-03-19"
+      ],
       "status": "open",
-      "notes": "Currently at 10,000× vs pre-training; agent population + spec-writing drives the next jump."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p6",
-      "claim": "Every engineer ends up directing ~100 agents",
+      "claim": "Every engineer will work with roughly 100 agents, shifting the job from coding to specifying and orchestrating.",
       "speaker": "Jensen Huang",
-      "category": "labor",
-      "start_seconds": 1605,
+      "category": "tech",
+      "start_seconds": 1603,
       "stated_at": "2026-03-19",
       "horizon_label": "2-3 years",
-      "revisit_dates": ["2028-03-19"],
+      "revisit_dates": [
+        "2029-03-19"
+      ],
       "status": "open",
-      "notes": "Programming becomes spec-writing + team orchestration."
+      "notes": ""
     },
     {
       "id": "gwW8GKwHB3I-p7",
-      "claim": "Enterprise SaaS usage 100×'s rather than dies",
+      "claim": "AI compute demand is heading to a million-x; analysts' single-digit Nvidia growth for 2029 badly underestimates the scale and breadth of AI.",
       "speaker": "Jensen Huang",
-      "category": "saas",
-      "start_seconds": 1748,
+      "category": "macro",
+      "start_seconds": 1393,
       "stated_at": "2026-03-19",
-      "horizon_label": "3-5 years",
-      "revisit_dates": ["2029-03-19"],
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-03-19"
+      ],
       "status": "open",
-      "notes": "Agents banging on SQL, Blender, Photoshop, Synopsys, Cadence."
-    },
-    {
-      "id": "gwW8GKwHB3I-p8",
-      "claim": "American AI tech stack reaches 90% global share",
-      "speaker": "Jensen Huang",
-      "category": "geopolitics",
-      "start_seconds": 2150,
-      "stated_at": "2026-03-19",
-      "horizon_label": "indefinite",
-      "revisit_dates": ["2030-12-31"],
-      "status": "open",
-      "notes": "Aspiration. Alternative: 'solar / rare earth / telecom' outcome — bad for national security."
+      "notes": ""
     }
   ],
-  "validated_predictions": [
-    {
-      "id": "gwW8GKwHB3I-v1",
-      "claim": "Inference will explode by 1 billion×; world is wrong to focus on pre-training",
-      "speaker": "Jensen Huang",
-      "stated_at": "2025-03-19",
-      "validated_at": "2026-03-19",
-      "outcome": "right",
-      "note": "Stated a year earlier; now industry is inference-constrained per Jensen and per the conversation context."
-    }
-  ]
+  "validated_predictions": []
 }

@@ -167,6 +167,24 @@
       "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2270s"
     },
     {
+      "id": "gwW8GKwHB3I-p5",
+      "claim": "Every enterprise software company will become a value-added reseller of Anthropic and OpenAI tokens, expanding their go-to-market this year.",
+      "speaker": "Jensen Huang",
+      "category": "business",
+      "start_seconds": 3397,
+      "stated_at": "2026-03-19",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-03-19"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3397s"
+    },
+    {
       "id": "Hrbq66XqtCo-p2",
       "claim": "Token cost drops by an order of magnitude every single year \u2014 Vera Rubin, then Ultra, then Feynman",
       "speaker": "Jensen Huang",
@@ -429,61 +447,6 @@
       "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1916s"
     },
     {
-      "id": "gwW8GKwHB3I-p2",
-      "claim": "Digital biology hits its ChatGPT moment \u2014 healthcare industry inflects",
-      "speaker": "Jensen Huang",
-      "category": "biology",
-      "start_seconds": 689,
-      "stated_at": "2026-03-19",
-      "horizon_label": "2 to 5 years",
-      "revisit_dates": [
-        "2028-03-19",
-        "2031-03-19"
-      ],
-      "status": "open",
-      "notes": "Agriculture is already inflecting. Physical AI ~$10B/yr business at Nvidia.",
-      "video_id": "gwW8GKwHB3I",
-      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=689s"
-    },
-    {
-      "id": "gwW8GKwHB3I-p5",
-      "claim": "Compute demand goes another 100\u00d7 from agentic baseline (toward 1M\u00d7 total)",
-      "speaker": "Jensen Huang",
-      "category": "compute",
-      "start_seconds": 1410,
-      "stated_at": "2026-03-19",
-      "horizon_label": "2-3 years",
-      "revisit_dates": [
-        "2028-03-19"
-      ],
-      "status": "open",
-      "notes": "Currently at 10,000\u00d7 vs pre-training; agent population + spec-writing drives the next jump.",
-      "video_id": "gwW8GKwHB3I",
-      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1410s"
-    },
-    {
-      "id": "gwW8GKwHB3I-p6",
-      "claim": "Every engineer ends up directing ~100 agents",
-      "speaker": "Jensen Huang",
-      "category": "labor",
-      "start_seconds": 1605,
-      "stated_at": "2026-03-19",
-      "horizon_label": "2-3 years",
-      "revisit_dates": [
-        "2028-03-19"
-      ],
-      "status": "open",
-      "notes": "Programming becomes spec-writing + team orchestration.",
-      "video_id": "gwW8GKwHB3I",
-      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1605s"
-    },
-    {
       "id": "Hrbq66XqtCo-p1",
       "claim": "No supply-chain bottleneck (logic, memory, CoWoS, EUV) lasts more than 2\u20133 years once there's a real demand signal",
       "speaker": "Jensen Huang",
@@ -635,41 +598,22 @@
       "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1475s"
     },
     {
-      "id": "gwW8GKwHB3I-p1",
-      "claim": "Robots will be all over the place \u2014 humanoid robots from existence-proof to real product",
+      "id": "gwW8GKwHB3I-p6",
+      "claim": "Every engineer will work with roughly 100 agents, shifting the job from coding to specifying and orchestrating.",
       "speaker": "Jensen Huang",
-      "category": "robotics",
-      "start_seconds": 3157,
+      "category": "tech",
+      "start_seconds": 1603,
       "stated_at": "2026-03-19",
-      "horizon_label": "3 to 5 years",
-      "revisit_dates": [
-        "2029-03-19",
-        "2031-03-19"
-      ],
-      "status": "open",
-      "notes": "China leads the supply chain (motors, magnets, rare earth).",
-      "video_id": "gwW8GKwHB3I",
-      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3157s"
-    },
-    {
-      "id": "gwW8GKwHB3I-p7",
-      "claim": "Enterprise SaaS usage 100\u00d7's rather than dies",
-      "speaker": "Jensen Huang",
-      "category": "saas",
-      "start_seconds": 1748,
-      "stated_at": "2026-03-19",
-      "horizon_label": "3-5 years",
+      "horizon_label": "2-3 years",
       "revisit_dates": [
         "2029-03-19"
       ],
       "status": "open",
-      "notes": "Agents banging on SQL, Blender, Photoshop, Synopsys, Cadence.",
+      "notes": "",
       "video_id": "gwW8GKwHB3I",
       "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1748s"
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1603s"
     },
     {
       "id": "5eqRuVp65eY-p1",
@@ -709,22 +653,22 @@
       "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1500s"
     },
     {
-      "id": "gwW8GKwHB3I-p4",
-      "claim": "100% of driving by humans goes away (eventually)",
+      "id": "gwW8GKwHB3I-p7",
+      "claim": "AI compute demand is heading to a million-x; analysts' single-digit Nvidia growth for 2029 badly underestimates the scale and breadth of AI.",
       "speaker": "Jensen Huang",
-      "category": "self-driving",
-      "start_seconds": 3590,
+      "category": "macro",
+      "start_seconds": 1393,
       "stated_at": "2026-03-19",
-      "horizon_label": "indefinite",
+      "horizon_label": "by 2030",
       "revisit_dates": [
         "2030-03-19"
       ],
       "status": "open",
-      "notes": "15M US driving-related jobs affected. Chauffeurs morph into mobility assistants.",
+      "notes": "",
       "video_id": "gwW8GKwHB3I",
       "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3590s"
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1393s"
     },
     {
       "id": "Hrbq66XqtCo-p8",
@@ -803,39 +747,75 @@
     },
     {
       "id": "gwW8GKwHB3I-p3",
-      "claim": "Anthropic + OpenAI revenue exceeds Dario's $1T-by-2030 forecast",
+      "claim": "Anthropic will do 'way better' than the $1 trillion non-infrastructure AI revenue Dario forecast for 2030.",
       "speaker": "Jensen Huang",
-      "category": "ai-business",
-      "start_seconds": 3370,
+      "category": "business",
+      "start_seconds": 3387,
       "stated_at": "2026-03-19",
       "horizon_label": "by 2030",
       "revisit_dates": [
         "2030-12-31"
       ],
       "status": "open",
-      "notes": "Reason: every enterprise SaaS becomes a value-added reseller of Anthropic/OpenAI tokens.",
+      "notes": "",
       "video_id": "gwW8GKwHB3I",
       "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s"
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3387s"
     },
     {
-      "id": "gwW8GKwHB3I-p8",
-      "claim": "American AI tech stack reaches 90% global share",
+      "id": "gwW8GKwHB3I-p1",
+      "claim": "Within three to five years there will be robots all over the place \u2014 moving from high-functioning existence proofs to reasonable products.",
       "speaker": "Jensen Huang",
-      "category": "geopolitics",
-      "start_seconds": 2150,
+      "category": "tech",
+      "start_seconds": 3142,
+      "stated_at": "2026-03-19",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3142s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p2",
+      "claim": "Digital biology is at its ChatGPT moment; in five years the healthcare industry will inflect as AI learns to represent genes, proteins and cells.",
+      "speaker": "Jensen Huang",
+      "category": "ai",
+      "start_seconds": 704,
+      "stated_at": "2026-03-19",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=704s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p4",
+      "claim": "100% of human driving will go away, displacing the 10\u201315 million Americans employed as drivers.",
+      "speaker": "Jason Calacanis",
+      "category": "macro",
+      "start_seconds": 3614,
       "stated_at": "2026-03-19",
       "horizon_label": "indefinite",
       "revisit_dates": [
-        "2030-12-31"
+        "2031-03-19"
       ],
       "status": "open",
-      "notes": "Aspiration. Alternative: 'solar / rare earth / telecom' outcome \u2014 bad for national security.",
+      "notes": "",
       "video_id": "gwW8GKwHB3I",
       "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2150s"
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3614s"
     },
     {
       "id": "Hrbq66XqtCo-p6",
@@ -874,17 +854,5 @@
       "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3308s"
     }
   ],
-  "validated": [
-    {
-      "id": "gwW8GKwHB3I-v1",
-      "claim": "Inference will explode by 1 billion\u00d7; world is wrong to focus on pre-training",
-      "speaker": "Jensen Huang",
-      "stated_at": "2025-03-19",
-      "validated_at": "2026-03-19",
-      "outcome": "right",
-      "note": "Stated a year earlier; now industry is inference-constrained per Jensen and per the conversation context.",
-      "video_id": "gwW8GKwHB3I",
-      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis"
-    }
-  ]
+  "validated": []
 }

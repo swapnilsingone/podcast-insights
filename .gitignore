@@ -19,8 +19,9 @@ videos/*/source/*.m4a
 videos/*/source/*.mp3
 videos/*/source/*.wav
 
-# Raw Groq dumps (regenerable; transcript.txt/json are the canonical form)
+# Raw transcription dumps (regenerable; transcript.txt/json are the canonical form)
 videos/*/source/*.groq.json
+videos/*/source/*.whisperx.json
 
 # Local session state
 library/.last_seen_tracker.json

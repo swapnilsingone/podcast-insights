@@ -1,0 +1,713 @@
+{
+  "video": {
+    "id": "gwW8GKwHB3I",
+    "title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+    "channel": "All-In Podcast",
+    "duration_seconds": 3966,
+    "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+    "upload_date": "2026-03-19",
+    "display_title_html": "Jensen Huang: Nvidia's Future, Physical AI, and the <em>Inference Explosion</em>"
+  },
+  "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model — so the industry's real risk is self-inflicted doomerism, not technology.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Jensen Huang joins the show!"
+    },
+    {
+      "start": 26,
+      "title": "Acquiring Groq and the inference explosion"
+    },
+    {
+      "start": 533,
+      "title": "Decision making at the world's most valuable company"
+    },
+    {
+      "start": 647,
+      "title": "Physical AI's $50T market, OpenClaw's future, the new OS for AI computing"
+    },
+    {
+      "start": 998,
+      "title": "AI's PR crisis, refuting doomer narratives, Anthropic's comms mistakes"
+    },
+    {
+      "start": 1248,
+      "title": "Revenue capacity, token allocation for employees, agentic future"
+    },
+    {
+      "start": 1850,
+      "title": "Open source, global diffusion, Iran/Taiwan supply chain impact"
+    },
+    {
+      "start": 2385,
+      "title": "Self-driving platform, competition from customers, growth slowdown"
+    },
+    {
+      "start": 2852,
+      "title": "Datacenters in space, AI healthcare, Robotics"
+    },
+    {
+      "start": 3370,
+      "title": "OpenAI/Anthropic revenue potential, how to build an AI moat"
+    },
+    {
+      "start": 3544,
+      "title": "Advice to young people on excelling in the AI era"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "definition",
+      "headline": "Disaggregated inference: today's hardest computing problem",
+      "body": "Jensen frames inference as the most complicated computing problem today, with a pipeline split so different stages run on different GPUs. The same logic of heterogeneous computing originally led Nvidia to acquire Mellanox and now justifies bolting Groq's chips onto its stack.",
+      "start_seconds": 103,
+      "end_seconds": 151
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "Groq goes into 25% of every Vera Rubin deployment",
+      "body": "Nvidia is adding Groq processors to about 25% of the Vera Rubin racks in the data center, going from a one-rack company to five racks (adding Bluefield storage processors, CPUs, networking and Groq). Jensen says this raises Nvidia's TAM by roughly 33–50%.",
+      "start_seconds": 165,
+      "end_seconds": 271
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "Three computers: training, evaluation, edge",
+      "body": "Every physical-AI problem needs three machines — one to train the model, an 'Omniverse' simulator that obeys the laws of physics to evaluate it in a virtual gym, and the edge/robotics computer (car, robot, teddy bear, or telecom base station). Jensen says the $2T telecom industry will become AI edge infrastructure.",
+      "start_seconds": 318,
+      "end_seconds": 396
+    },
+    {
+      "id": 4,
+      "category": "counterintuitive",
+      "headline": "A $50B factory makes the cheapest tokens",
+      "body": "Don't equate factory price with token cost: ~$20B of a $50B factory is land, power and shell, and storage/networking/CPUs/cooling are needed regardless. Since the build delivers 10x the throughput, the $50B factory yields the lowest-cost tokens even against a $30–40B custom-ASIC alternative.",
+      "start_seconds": 453,
+      "end_seconds": 532
+    },
+    {
+      "id": 5,
+      "category": "mental-model",
+      "headline": "CEO rule: only do the insanely hard things",
+      "body": "Jensen's filter for what Nvidia pursues: is it insanely hard, never done before, and does it tap the company's special superpowers? If it's easy, back away — competitors will swarm. Hard problems guarantee pain and suffering, 'so you better enjoy it.'",
+      "start_seconds": 567,
+      "end_seconds": 626
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Physical AI is a $50T, untouched market",
+      "body": "Jensen calls physical AI the tech industry's first shot at a $50 trillion industry largely void of technology. The 10-year bet is now inflecting into a roughly $10B/year business for Nvidia, growing exponentially.",
+      "start_seconds": 646,
+      "end_seconds": 714
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "OpenClaw is a computer's four core elements",
+      "body": "Jensen argues OpenClaw is reinventing the computer: it has memory (short-term file system), scheduling (cron, spawning and decomposing agents), I/O subsystems (connecting to WhatsApp), and an API for skills. Those four elements define a personal AI computer that runs everywhere, open source.",
+      "start_seconds": 873,
+      "end_seconds": 961
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "AI's real risk is U.S. doomerism, not the tech",
+      "body": "With AI at 17% U.S. popularity, Jensen says the biggest national-security risk is other countries adopting AI while Americans stay afraid of it. He gently faults Anthropic — whose tech he admires and consumes — for 'scaring' rather than 'warning,' urging more circumspection since tech leaders' words now move policy.",
+      "start_seconds": 1131,
+      "end_seconds": 1248
+    },
+    {
+      "id": 9,
+      "category": "data-point",
+      "headline": "Compute demand rose 10,000x in two years",
+      "body": "Generative-to-reasoning required ~100x more compute; reasoning-to-agentic another ~100x. Combined, that's roughly 10,000x in two years, with another ~100x in consumption — and Jensen says 'we haven't even started scaling yet,' pointing to a million-x.",
+      "start_seconds": 1322,
+      "end_seconds": 1400
+    },
+    {
+      "id": 10,
+      "category": "actionable",
+      "headline": "A $500K engineer should spend $250K on tokens",
+      "body": "Jensen's thought experiment: if a $500K-a-year AI researcher spent only $5K on tokens in a year he'd 'go ape'; he'd be deeply alarmed if they didn't consume at least $250K. Refusing tokens is like a chip designer refusing CAD tools and using pencil and paper.",
+      "start_seconds": 1468,
+      "end_seconds": 1511
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Programming becomes specifying, with 100 agents each",
+      "body": "Jensen says coding gives way to writing ideas, architectures and specifications, organizing teams of agents, and defining what good looks like. He predicts every engineer will manage roughly 100 agents, reducing the job to creativity.",
+      "start_seconds": 1574,
+      "end_seconds": 1611
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Agents grow enterprise software, not destroy it",
+      "body": "Against the view that enterprise IT is doomed, Jensen argues those tools were limited by 'butts and seats' and will get 100x more agents banging on SQL, vector databases, Blender and Photoshop. The tools are also the control surface — work has to be represented back through Synopsys or Cadence so humans can ground-truth it.",
+      "start_seconds": 1782,
+      "end_seconds": 1850
+    },
+    {
+      "id": 13,
+      "category": "data-point",
+      "headline": "Nvidia went from 95% to 0% in China",
+      "body": "Jensen says Nvidia gave up a 95% market share in the world's second-largest market and sits at 0%. With approved licenses from Secretary Lutnick, Chinese companies have issued purchase orders and Nvidia is spinning its supply chain back up.",
+      "start_seconds": 2049,
+      "end_seconds": 2108
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "headline": "Radiologist demand rose despite the AI prediction",
+      "body": "A leading computer scientist predicted computer vision would eliminate radiologists and warned students away from the field. Ten years later vision was integrated into 100% of radiology — yet demand for radiologists skyrocketed, because faster scans let hospitals onboard and treat more patients. The lesson: a job's task changes, its purpose doesn't.",
+      "start_seconds": 3779,
+      "end_seconds": 3874
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Even when the chips are free, it's not cheap enough.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 526
+    },
+    {
+      "text": "If that $500,000 engineer did not consume at least $250,000 worth of tokens, I am going to be deeply alarmed.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1492
+    },
+    {
+      "text": "It is not a biological being. It is not alien. It is not conscious. It is computer software.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1020
+    },
+    {
+      "text": "In the past, we code. In the future, we're going to write ideas, architectures, specifications.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1574
+    },
+    {
+      "text": "It could be that the English major could be the most successful.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 3752
+    },
+    {
+      "text": "You're not going to lose your job to AI. You're going to lose your job to somebody using AI.",
+      "speaker": "Jason Calacanis",
+      "start_seconds": 3544
+    }
+  ],
+  "resources": [
+    {
+      "name": "Dario Amodei / Anthropic",
+      "context": "Forecast hundreds of billions in model/agent revenue by 2027-28 and $1T by 2030; Jensen calls that conservative"
+    },
+    {
+      "name": "Peter Steinberger",
+      "context": "Creator of OpenClaw; Nvidia engineers are helping him secure agent governance and privacy"
+    },
+    {
+      "name": "Elon Musk / Tesla",
+      "context": "Buys Nvidia training computers; Optimus and the one-robot-per-human vision"
+    },
+    {
+      "name": "Open Evidence & Hippocrates",
+      "context": "Cited as strong AI-agent examples for medical diagnosis"
+    },
+    {
+      "name": "Ohalo (David Friedberg)",
+      "context": "Zero-shot genomic modeling and high-quality calorie production using Nvidia/AI"
+    },
+    {
+      "name": "BitTensor Subnet 3",
+      "context": "Trained a 4B-parameter Llama model fully distributed across contributors' excess compute"
+    },
+    {
+      "name": "Dwarkesh Podcast",
+      "context": "Where Dario Amodei gave his model-revenue forecast"
+    }
+  ],
+  "action_items": [
+    "If you take one thing from this: become an expert at using AI — learn to specify without over-prescribing, leaving room for the model to innovate while you guide the outcome.",
+    "Give your best knowledge workers real token budgets — treat tokens like CAD tools, not a cost to minimize, because the leverage dwarfs the spend.",
+    "If you're a founder, go deeper in your vertical than anyone else; deep specialization is the only durable moat once foundation models catch up to the app layer.",
+    "Build open-source-first, then cost-reduce, fine-tune, and specialize — a good router gives you the world's best model on day one while you customize."
+  ],
+  "stats": [
+    {
+      "label": "Physical AI market",
+      "val": "$50T",
+      "unit": "TAM",
+      "sub": "Tech industry's first shot at an industry largely void of technology; already ~$10B/yr for Nvidia"
+    },
+    {
+      "label": "Compute growth",
+      "val": "10,000x",
+      "unit": "/ 2 yrs",
+      "sub": "Generative→reasoning was ~100x, reasoning→agentic another ~100x"
+    },
+    {
+      "label": "Token budget",
+      "val": "$250K",
+      "unit": "/ engineer",
+      "sub": "What Jensen expects a $500K AI researcher to consume in tokens annually"
+    },
+    {
+      "label": "China share",
+      "val": "95% → 0%",
+      "unit": "",
+      "sub": "Nvidia's collapse in the world's second-largest market, now seeking re-entry via licenses"
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Jensen Huang",
+        "role": "Co-founder & CEO, Nvidia",
+        "speaker": true,
+        "mentions": 30,
+        "first_seconds": 0,
+        "context": "Guest; lays out Nvidia's AI-factory strategy"
+      },
+      {
+        "name": "Jason Calacanis",
+        "role": "All-In host / investor",
+        "speaker": true,
+        "mentions": 8,
+        "first_seconds": 0,
+        "context": "Drives desktop, healthcare and robotics threads"
+      },
+      {
+        "name": "Chamath Palihapitiya",
+        "role": "All-In host / investor",
+        "speaker": true,
+        "mentions": 6,
+        "first_seconds": 165,
+        "context": "Asks strategy, open source and moat questions"
+      },
+      {
+        "name": "Brad Gerstner",
+        "role": "All-In host / investor (Altimeter)",
+        "speaker": true,
+        "mentions": 6,
+        "first_seconds": 396,
+        "context": "Presses on inference economics and analyst forecasts"
+      },
+      {
+        "name": "David Friedberg",
+        "role": "All-In host / CEO, Ohalo",
+        "speaker": true,
+        "mentions": 6,
+        "first_seconds": 300,
+        "context": "Shares auto-research and genomics breakthroughs"
+      },
+      {
+        "name": "Donald Trump",
+        "role": "U.S. President",
+        "speaker": false,
+        "mentions": 4,
+        "first_seconds": 0,
+        "context": "Framed as wanting U.S. tech to lead globally"
+      },
+      {
+        "name": "Dario Amodei",
+        "role": "CEO, Anthropic",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 1131,
+        "context": "Comms critique and $1T revenue forecast"
+      },
+      {
+        "name": "Peter Steinberger",
+        "role": "Creator of OpenClaw",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 873,
+        "context": "Nvidia helping secure agent governance"
+      },
+      {
+        "name": "Elon Musk",
+        "role": "CEO, Tesla",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 2473,
+        "context": "Buys Nvidia training computers; robot-per-human vision"
+      },
+      {
+        "name": "Secretary Lutnick",
+        "role": "U.S. Commerce Secretary",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2095,
+        "context": "Approved Nvidia's China export licenses"
+      },
+      {
+        "name": "LeBron James",
+        "role": "NBA player",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1524,
+        "context": "Analogy: spending on his body to stay elite at 41"
+      },
+      {
+        "name": "Andrej Karpathy",
+        "role": "AI researcher",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1611,
+        "context": "Referenced for 'auto-research' (chapter context)"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Nvidia",
+        "mentions": 30,
+        "first_seconds": 0,
+        "context": "Evolving from a GPU company to an AI-factory company"
+      },
+      {
+        "name": "Groq",
+        "mentions": 6,
+        "first_seconds": 28,
+        "context": "Acquired; LPUs going into 25% of Vera Rubin racks"
+      },
+      {
+        "name": "Siemens",
+        "mentions": 1,
+        "first_seconds": 53,
+        "context": "Origin of the 'Dynamo' name from the last industrial revolution"
+      },
+      {
+        "name": "Mellanox",
+        "mentions": 1,
+        "first_seconds": 151,
+        "context": "Earlier acquisition driven by heterogeneous-computing logic"
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 6,
+        "first_seconds": 831,
+        "context": "Number-one model maker; revenue inflection"
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 8,
+        "first_seconds": 1131,
+        "context": "Admired tech, criticized comms; $5–6B February"
+      },
+      {
+        "name": "Google",
+        "mentions": 1,
+        "first_seconds": 2526,
+        "context": "Has TPU; a customer trying to compete down-stack"
+      },
+      {
+        "name": "Amazon (AWS)",
+        "mentions": 2,
+        "first_seconds": 2526,
+        "context": "Inferentia/Trainium; announced ~1M Nvidia chips"
+      },
+      {
+        "name": "Tesla",
+        "mentions": 2,
+        "first_seconds": 2473,
+        "context": "Buys Nvidia training computers; Optimus"
+      },
+      {
+        "name": "Waymo",
+        "mentions": 1,
+        "first_seconds": 2410,
+        "context": "Cited as a possible 'iOS' of self-driving"
+      },
+      {
+        "name": "BYD",
+        "mentions": 1,
+        "first_seconds": 2384,
+        "context": "New self-driving partner"
+      },
+      {
+        "name": "Uber",
+        "mentions": 1,
+        "first_seconds": 2384,
+        "context": "Multi-manufacturer robotaxi announcement"
+      },
+      {
+        "name": "Mercedes",
+        "mentions": 1,
+        "first_seconds": 2384,
+        "context": "Jensen filmed self-driving in one"
+      },
+      {
+        "name": "Dell",
+        "mentions": 1,
+        "first_seconds": 740,
+        "context": "6800 desktop workstation for local models"
+      },
+      {
+        "name": "Boston Dynamics",
+        "mentions": 1,
+        "first_seconds": 3101,
+        "context": "Symbol of robotics' 'lost decade'"
+      },
+      {
+        "name": "Ohalo",
+        "mentions": 1,
+        "first_seconds": 1611,
+        "context": "Friedberg's genomics/calorie company"
+      },
+      {
+        "name": "Open Evidence",
+        "mentions": 1,
+        "first_seconds": 2965,
+        "context": "AI-agent example for medical diagnosis"
+      },
+      {
+        "name": "Hippocrates",
+        "mentions": 1,
+        "first_seconds": 3025,
+        "context": "AI-agent example for healthcare"
+      },
+      {
+        "name": "Synopsys",
+        "mentions": 2,
+        "first_seconds": 1782,
+        "context": "Chip-design tool agents will use and control"
+      },
+      {
+        "name": "Cadence",
+        "mentions": 2,
+        "first_seconds": 1782,
+        "context": "Chip-design tool as a human control surface"
+      },
+      {
+        "name": "Autodesk",
+        "mentions": 1,
+        "first_seconds": 1782,
+        "context": "Among legacy tools agents will keep using"
+      },
+      {
+        "name": "BitTensor",
+        "mentions": 1,
+        "first_seconds": 1860,
+        "context": "Crypto project; distributed Llama training run"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Dynamo",
+        "type": "AI-factory operating system",
+        "first_seconds": 53,
+        "context": "Introduced ~2.5 years ago; core tech is disaggregated inference"
+      },
+      {
+        "name": "Vera Rubin",
+        "type": "GPU rack platform",
+        "first_seconds": 165,
+        "context": "Built to run diverse agentic workloads; 25% to get Groq"
+      },
+      {
+        "name": "Bluefield",
+        "type": "Storage/networking processor",
+        "first_seconds": 250,
+        "context": "Added rack expanding Nvidia's TAM"
+      },
+      {
+        "name": "CUDA",
+        "type": "Software stack",
+        "first_seconds": 2626,
+        "context": "Cited as Nvidia's deepest, near-insurmountable moat"
+      },
+      {
+        "name": "Omniverse",
+        "type": "Physics simulation platform",
+        "first_seconds": 345,
+        "context": "The 'evaluation' computer; a virtual gym obeying physics"
+      },
+      {
+        "name": "OpenClaw",
+        "type": "Open-source AI agent",
+        "first_seconds": 740,
+        "context": "Framed as the OS of modern computing"
+      },
+      {
+        "name": "Claude Code",
+        "type": "Agentic coding system",
+        "first_seconds": 873,
+        "context": "First very useful agentic system, enterprise-only before OpenClaw"
+      },
+      {
+        "name": "Alpamayo",
+        "type": "Reasoning autonomous-vehicle system",
+        "first_seconds": 2475,
+        "context": "World's first reasoning AV decomposing complex scenes"
+      },
+      {
+        "name": "Blackwell",
+        "type": "GPU architecture",
+        "first_seconds": 1274,
+        "context": "Part of the trillion-dollar visibility with Vera Rubin"
+      },
+      {
+        "name": "Optimus",
+        "type": "Humanoid robot",
+        "first_seconds": 3098,
+        "context": "Tesla's robot cited as impressive existence proof"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "LLM product",
+        "first_seconds": 805,
+        "context": "UI moment that brought generative AI to the masses"
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Disaggregated inference",
+        "first_seconds": 103,
+        "summary": "Splitting the inference pipeline across heterogeneous chips so each workload runs on the right hardware"
+      },
+      {
+        "name": "Three computers",
+        "first_seconds": 318,
+        "summary": "Training, evaluation/simulation (Omniverse), and the edge robotics computer"
+      },
+      {
+        "name": "Physical AI",
+        "first_seconds": 646,
+        "summary": "AI that understands the laws of physics for robots, cars and instruments — a $50T category"
+      },
+      {
+        "name": "Token allocation per employee",
+        "first_seconds": 1468,
+        "summary": "Knowledge workers should consume tokens proportional to their salary, like using CAD tools"
+      },
+      {
+        "name": "Task vs purpose",
+        "first_seconds": 3779,
+        "summary": "AI automates a job's task but the underlying purpose persists, often expanding the role"
+      },
+      {
+        "name": "Models as technology, not product",
+        "first_seconds": 1908,
+        "summary": "Proprietary and open models coexist (A and B); specialization must live in controllable open models"
+      },
+      {
+        "name": "American tech stack as 90% of the world",
+        "first_seconds": 2160,
+        "summary": "Goal of U.S. chips/systems/platforms broadly adopted, vs the solar/rare-earth loss outcome"
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Dwarkesh Podcast (Dario Amodei interview)",
+        "author": "Dwarkesh Patel",
+        "context": "Source of Dario's forecast of $1T non-infrastructure AI revenue by 2030"
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "gwW8GKwHB3I-p1",
+      "claim": "Within three to five years there will be robots all over the place — moving from high-functioning existence proofs to reasonable products.",
+      "speaker": "Jensen Huang",
+      "category": "tech",
+      "start_seconds": 3142,
+      "stated_at": "2026-03-19",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p2",
+      "claim": "Digital biology is at its ChatGPT moment; in five years the healthcare industry will inflect as AI learns to represent genes, proteins and cells.",
+      "speaker": "Jensen Huang",
+      "category": "ai",
+      "start_seconds": 704,
+      "stated_at": "2026-03-19",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p3",
+      "claim": "Anthropic will do 'way better' than the $1 trillion non-infrastructure AI revenue Dario forecast for 2030.",
+      "speaker": "Jensen Huang",
+      "category": "business",
+      "start_seconds": 3387,
+      "stated_at": "2026-03-19",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p4",
+      "claim": "100% of human driving will go away, displacing the 10–15 million Americans employed as drivers.",
+      "speaker": "Jason Calacanis",
+      "category": "macro",
+      "start_seconds": 3614,
+      "stated_at": "2026-03-19",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p5",
+      "claim": "Every enterprise software company will become a value-added reseller of Anthropic and OpenAI tokens, expanding their go-to-market this year.",
+      "speaker": "Jensen Huang",
+      "category": "business",
+      "start_seconds": 3397,
+      "stated_at": "2026-03-19",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p6",
+      "claim": "Every engineer will work with roughly 100 agents, shifting the job from coding to specifying and orchestrating.",
+      "speaker": "Jensen Huang",
+      "category": "tech",
+      "start_seconds": 1603,
+      "stated_at": "2026-03-19",
+      "horizon_label": "2-3 years",
+      "revisit_dates": [
+        "2029-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "gwW8GKwHB3I-p7",
+      "claim": "AI compute demand is heading to a million-x; analysts' single-digit Nvidia growth for 2029 badly underestimates the scale and breadth of AI.",
+      "speaker": "Jensen Huang",
+      "category": "macro",
+      "start_seconds": 1393,
+      "stated_at": "2026-03-19",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-03-19"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}

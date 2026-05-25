@@ -22,7 +22,7 @@ There are two paths. They share the same outputs.
 
 ### Path A — autonomous (default): `./scripts/process_queue.sh`
 
-Drop URLs into `queue.txt`, run the script, walk away. The script handles **everything**: yt-dlp metadata + audio → Groq transcription → `claude -p` analysis → render index.html from the locked template → append to `history.jsonl` → create a readable symlink → rebuild library indexes → de-queue.
+Drop URLs into `queue.txt`, run the script, walk away. The script handles **everything**: yt-dlp metadata + audio → transcription (WhisperX or Groq, per the locked policy below) → `claude -p` analysis → render index.html from the locked template → append to `history.jsonl` → create a readable symlink → rebuild library indexes → de-queue.
 
 ```bash
 ./scripts/process_queue.sh
@@ -148,7 +148,19 @@ There are two supported backends. Both produce the same downstream artifacts (`t
 - Runs in the project's `.venv` on Python 3.12 (kept separate from your shell's pyenv so torch/pyannote don't pollute global). The queue script invokes `.venv/bin/python scripts/transcribe_whisperx.py`.
 - Requires `HF_TOKEN` (read scope) in `../.env.local`, plus accepting two HF gates: `pyannote/segmentation-3.0` and `pyannote/speaker-diarization-community-1`. See `SETUP.md`.
 - Model: `whisperx.load_model("large-v3", device="cpu", compute_type="int8")`, alignment via `whisperx.load_align_model`, diarization via `whisperx.diarize.DiarizationPipeline`. Output segments include a `speaker` field; `transcript.txt` formats lines as `[hh:mm:ss] SPEAKER_xx: text`.
+- Anonymous `SPEAKER_xx` labels are mapped to real names by `analyze.py` using channel/title context (Opus does this reliably; you don't need to remap manually).
 - No fallback. If `HF_TOKEN` is missing or diarization fails, the URL is marked `# FAILED-TRANSCRIPTION:` and not processed (`--require-diarize` is passed by the queue script).
+
+**Empirical wall-time breakdown** (Jensen Huang × All-In, 66-min audio, M-series CPU, int8):
+
+| Step | Wall time | Notes |
+|---|---|---|
+| First-time model download (large-v3) | ~11 min | ~2.9 GB to `~/.cache/huggingface/`. Cached after. |
+| ASR (large-v3 → 178 raw segments) | ~22 min | 3.0× realtime |
+| Alignment (word-level timestamps) | ~80 s | negligible |
+| Diarization (community-1) | ~52 min | 1.3× realtime; dominates total cost |
+| Analysis + render + post-process | ~90 s | the rest of the pipeline |
+| **Total (steady state)** | **~75 min** | for a 60-min podcast |
 
 **Groq details:**
 
@@ -169,3 +181,18 @@ The standalone `scripts/transcribe.py` (Groq + a legacy `mlx` backend) is kept f
 - Don't skip the session-start tracker check unless there's truly nothing to surface.
 - Don't commit `.venv/` (it's ~1.2 GB; covered by `.gitignore`).
 - Don't manually invoke `scripts/transcribe_whisperx.py` with the system `python3` — it must run via `.venv/bin/python`.
+- Don't pass large prompts (~50 KB+) to `claude -p` via argv. See gotchas below.
+
+## Gotchas (learned the hard way)
+
+These are non-obvious traps that have bitten this project. Read before debugging anything that looks similar.
+
+**`claude -p "<huge prompt>"` SIGKILLs silently.** Any prompt over ~50 KB passed as a CLI argument to the `claude` CLI returns exit `-9` (SIGKILL) with empty stderr. The same prompt via stdin works fine. `analyze.py` now pipes via stdin (`subprocess.run(cmd, input=prompt, ...)`) — preserve that pattern in any new script. The argv size is well under `ARG_MAX`, but the bundled Node runtime chokes on it. Symptom in `process_queue.sh` output: `claude failed (exit -9):` with no stderr text. WhisperX transcripts are typically 60–80 KB and trip this every time.
+
+**HuggingFace 403 on `pyannote/*` config.yaml has three independent causes.** All three must be true for diarization to download: (1) the token's owner has clicked "Agree" on each gated pyannote model page; (2) the browser session you accepted the gates from belongs to that same owner — gates accepted under a different HF account are useless; (3) the token type is **Read** (not Fine-grained), or fine-grained with `Read access to contents of all public gated repos you can access` ticked. `whoami-v2` will tell you the token's owner; check that against the account whose gates you accepted. See `SETUP.md` § 4.2.
+
+**WhisperX progress is invisible when piped.** `transcribe_whisperx.py`'s `print()` calls block-buffer when piped through `tee`/`sed`/redirects, so the log freezes at `[2/5] transcribe` for the entire ASR + diarize span (could be 90+ min on a 1-hour podcast). The process is fine — verify with `ps -p <pid> -o pcpu,rss,etime` rather than `tail -f`. The script could be patched to flush on each print, but `ps` is the reliable signal for "is this still working".
+
+**`pyenv install <version>` needs `xz` on PATH at build time, or `_lzma` is missing.** A Python built without `_lzma` will fail to import any package that uses `torchvision`/`torchcodec`/`lzma` transitively (pyannote does). Symptom: `ModuleNotFoundError: No module named '_lzma'` from somewhere inside the WhisperX import chain. Fix: rebuild that Python with `LDFLAGS="-L$(brew --prefix xz)/lib" CPPFLAGS="-I$(brew --prefix xz)/include" pyenv install <version>`, or use a different Python that has it. The project's `.venv` uses 3.12.11 specifically because the local 3.11.13 was missing it. Don't switch the venv's base Python without verifying `import lzma` works.
+
+**`torchcodec` dlopen warnings on macOS are spurious.** When loading `whisperx`, you'll see a wall of `Library not loaded: @rpath/libavutil.NN.dylib` errors from torchcodec trying every FFmpeg ABI. These are harmless — whisperx loads audio via its own ffmpeg subprocess, never torchcodec. The script suppresses these via `warnings.filterwarnings`. Don't try to "fix" torchcodec by installing FFmpeg dev libraries.

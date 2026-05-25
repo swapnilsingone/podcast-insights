@@ -211,7 +211,8 @@ process_one() {
       fi
     else
       # whisperx (runs in project venv, requires HF_TOKEN for diarization)
-      if ! "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/scripts/transcribe_whisperx.py" "$VID" \
+      # -u: unbuffered stdout so progress lines flush through the pipe
+      if ! "$PROJECT_DIR/.venv/bin/python" -u "$PROJECT_DIR/scripts/transcribe_whisperx.py" "$VID" \
              --reuse-audio --language en --require-diarize 2>&1 | sed 's/^/  │       /'; then
         echo "  │  ✗ whisperx transcription failed"
         echo "  └─"; echo "FAIL=TRANSCRIPTION"; return 1

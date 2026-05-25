@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis</title>
+<title>Video Notes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -20,9 +20,9 @@
   --ink-2: #cbd1de;
   --muted: #8089a0;
   --muted-2: #5b6275;
-  --accent: #f4c042;
-  --accent-2: #6fe3c4;
-  --accent-mag: #ff7ab6;
+  --accent: #f4c042;        /* warm amber */
+  --accent-2: #6fe3c4;      /* cool teal */
+  --accent-mag: #ff7ab6;    /* pull-quote rose */
   --danger: #ff6b6b;
   --serif: "Fraunces", ui-serif, Georgia, serif;
   --sans: "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -46,45 +46,62 @@ html[data-theme="light"] {
   --accent-mag: #c93780;
   --shadow: 0 1px 0 rgba(0,0,0,.03) inset, 0 18px 40px -28px rgba(0,0,0,.25);
 }
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; min-width: 0; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
 body { font-feature-settings: "ss01","cv11","cv01"; }
+img { max-width: 100%; height: auto; }
 a { color: inherit; }
 button { font-family: inherit; }
 
-.container { max-width: 1200px; margin: 0 auto; padding: 28px 28px 80px; }
+.container { max-width: 1280px; margin: 0 auto; padding: 24px 24px 64px; }
 
-.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 32px; }
+/* Top bar */
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 28px; gap: 16px; }
+.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
+.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
+.back-link svg { width: 13px; height: 13px; }
 .brand { font-family: var(--serif); font-weight: 700; letter-spacing: -0.01em; font-size: 18px; color: var(--ink); }
 .brand .dot { display: inline-block; width: 8px; height: 8px; background: var(--accent); border-radius: 2px; margin-right: 10px; transform: translateY(-1px); }
+@media (max-width: 640px) { .brand { display: none; } .topbar { padding-bottom: 20px; } }
 .topbar .tools { display: flex; gap: 10px; align-items: center; }
 .icon-btn { background: transparent; border: 1px solid var(--line); color: var(--ink-2); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: border-color .15s, color .15s; }
 .icon-btn:hover { border-color: var(--line-strong); color: var(--ink); }
 .icon-btn svg { width: 16px; height: 16px; }
 
-.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: stretch; padding: 8px 0 56px; border-bottom: 1px solid var(--line); }
-@media (max-width: 880px) { .hero { grid-template-columns: 1fr; } }
-.hero .meta { display: flex; flex-direction: column; justify-content: space-between; gap: 24px; }
-.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 12px; align-items: center; }
+/* Hero */
+.hero { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: stretch; padding: 8px 0 48px; border-bottom: 1px solid var(--line); min-width: 0; }
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 24px; } }
+.hero .meta { display: flex; flex-direction: column; justify-content: space-between; gap: 20px; min-width: 0; }
+.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 .kicker .chip { padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); }
-.hero h1 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.025em; line-height: 1.02; font-size: clamp(36px, 5vw, 64px); margin: 14px 0 0; color: var(--ink); }
+.hero h1 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.025em; line-height: 1.04; font-size: clamp(28px, 3.4vw, 46px); margin: 12px 0 0; color: var(--ink); overflow-wrap: break-word; }
 .hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
-.thesis { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(17px, 1.6vw, 21px); line-height: 1.45; color: var(--ink-2); margin: 22px 0 0; max-width: 56ch; }
+.thesis { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(15px, 1.3vw, 18px); line-height: 1.45; color: var(--ink-2); margin: 16px 0 0; max-width: 60ch; }
 .hero .channel { display: flex; gap: 14px; align-items: center; color: var(--muted); font-size: 14px; }
-.cta { display: inline-flex; align-items: center; gap: 8px; padding: 12px 16px; background: var(--accent); color: #181000; border-radius: 10px; font-weight: 600; font-size: 14px; text-decoration: none; transition: transform .15s; align-self: flex-start; }
+.hero .channel .sep { color: var(--muted-2); }
+.cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--accent); color: #181000; border-radius: 10px; font-weight: 600; font-size: 13px; text-decoration: none; transition: transform .15s; align-self: flex-start; }
 .cta:hover { transform: translateY(-1px); }
 .cta svg { width: 14px; height: 14px; }
-.thumb { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); aspect-ratio: 16/9; background: var(--surface); }
+
+.thumb { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); aspect-ratio: 16/9; background: #000; min-width: 0; align-self: start; width: 100%; max-width: 480px; justify-self: end; box-shadow: 0 20px 60px -30px rgba(0,0,0,.7); }
+.thumb iframe { width: 100%; height: 100%; display: block; border: 0; }
+.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; }
+.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
+.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; }
+.thumb.is-floating .thumb-close { display: block; }
+@media (max-width: 880px) { .thumb { max-width: 100%; justify-self: stretch; } .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
 .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,.45) 100%); }
 .thumb .play { position: absolute; left: 18px; bottom: 16px; color: white; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; z-index: 1; opacity: .9; }
 
+/* Density timeline */
 .timeline-section { padding: 36px 0 32px; border-bottom: 1px solid var(--line); }
 .section-label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; }
 .section-label .rule { flex: 1; height: 1px; background: var(--line); }
 .timeline-wrap { margin-top: 18px; position: relative; }
 .chapter-labels { position: relative; height: 18px; margin-bottom: 6px; }
-.chapter-labels .lbl { position: absolute; top: 0; font-family: var(--mono); font-size: 10px; color: var(--muted); white-space: nowrap; padding-right: 8px; }
+.chapter-labels .lbl { position: absolute; top: 0; font-family: var(--mono); font-size: 10px; color: var(--muted); white-space: nowrap; transform: translateX(0); padding-right: 8px; }
 .chapter-labels .lbl::before { content: ""; position: absolute; left: 0; top: 14px; width: 1px; height: 8px; background: var(--line-strong); }
 .timeline-track { height: 44px; position: relative; background: linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%); border: 1px solid var(--line); border-radius: 10px; }
 .timeline-track .chapter { position: absolute; top: 0; bottom: 0; border-left: 1px dashed var(--line-strong); opacity: .55; pointer-events: none; }
@@ -93,12 +110,15 @@ button { font-family: inherit; }
 .timeline-track .marker[data-cat="prediction"] { background: var(--accent-2); box-shadow: 0 0 0 3px rgba(111,227,196,.16); }
 .timeline-track .marker[data-cat="data-point"] { background: #5ea0ff; box-shadow: 0 0 0 3px rgba(94,160,255,.16); }
 .timeline-track .marker[data-cat="story"] { background: #ddd6c4; box-shadow: 0 0 0 3px rgba(221,214,196,.16); }
+.timeline-track .marker[data-cat="mental-model"] { background: var(--accent); box-shadow: 0 0 0 3px rgba(244,192,66,.18); }
+.timeline-track .marker[data-cat="framework"] { background: #c4b8a0; box-shadow: 0 0 0 3px rgba(196,184,160,.16); }
 .timeline-track .marker:hover { transform: translate(-50%, -50%) scale(1.4); z-index: 5; }
 .timeline-tip { position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%); background: var(--surface-2); color: var(--ink); padding: 8px 10px; border-radius: 6px; font-size: 12px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .15s; border: 1px solid var(--line-strong); box-shadow: 0 6px 24px -8px rgba(0,0,0,.5); z-index: 10; }
 .timeline-tip::after { content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: var(--line-strong); }
 .timeline-track .marker:hover .timeline-tip { opacity: 1; }
 .timeline-ticks { display: flex; justify-content: space-between; margin-top: 8px; font-family: var(--mono); font-size: 10px; color: var(--muted-2); }
 
+/* Controls */
 .controls { display: flex; gap: 12px; align-items: center; padding: 28px 0 22px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
 .search { flex: 1; min-width: 220px; position: relative; }
 .search input { width: 100%; background: var(--surface); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 12px 14px 12px 38px; font-size: 14px; font-family: inherit; outline: none; transition: border-color .15s; }
@@ -110,14 +130,19 @@ button { font-family: inherit; }
 .filter-chip:hover { color: var(--ink-2); border-color: var(--line-strong); }
 .filter-chip.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
-.bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; padding: 28px 0 0; }
-@media (max-width: 720px) { .bento { grid-template-columns: 1fr; } }
-.card { grid-column: span 4; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 22px 18px; position: relative; display: flex; flex-direction: column; gap: 12px; transition: border-color .2s; box-shadow: var(--shadow); }
+/* Bento grid */
+.bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; padding: 24px 0 0; grid-auto-flow: dense; align-items: stretch; }
+@media (max-width: 980px) { .bento { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 640px) { .bento { grid-template-columns: 1fr; grid-auto-rows: auto; } }
+.card { grid-column: span 4; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 20px 16px; position: relative; display: flex; flex-direction: column; gap: 10px; transition: border-color .2s, transform .2s; box-shadow: var(--shadow); min-width: 0; }
+@media (max-width: 980px) { .card { grid-column: span 3; } }
+@media (max-width: 640px) { .card { grid-column: span 1 !important; } }
 .card:hover { border-color: var(--line-strong); }
 .card.size-md { grid-column: span 6; }
 .card.size-lg { grid-column: span 8; }
 .card.size-xl { grid-column: span 12; }
-@media (max-width: 720px) { .card, .card.size-md, .card.size-lg, .card.size-xl { grid-column: span 1; } }
+@media (max-width: 980px) { .card.size-md { grid-column: span 6; } .card.size-lg, .card.size-xl { grid-column: span 6; } }
+@media (max-width: 640px) { .card.size-md, .card.size-lg, .card.size-xl { grid-column: span 1 !important; } }
 .card .tag-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .cat-tag { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; padding: 4px 8px; border-radius: 4px; color: var(--ink); background: rgba(255,255,255,.04); border: 1px solid var(--line-strong); }
 .cat-tag[data-cat="counterintuitive"] { color: var(--accent-mag); border-color: rgba(255,122,182,.4); }
@@ -127,13 +152,17 @@ button { font-family: inherit; }
 .cat-tag[data-cat="framework"] { color: var(--ink-2); }
 .cat-tag[data-cat="story"] { color: #ddd6c4; }
 .card .num { font-family: var(--mono); font-size: 10px; color: var(--muted-2); }
-.card h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; font-size: 22px; line-height: 1.15; margin: 4px 0 0; color: var(--ink); }
-.card.size-lg h3, .card.size-xl h3 { font-size: 28px; }
-.card p { margin: 0; color: var(--ink-2); font-size: 14.5px; line-height: 1.55; }
+.card h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; font-size: 20px; line-height: 1.18; margin: 4px 0 0; color: var(--ink); overflow-wrap: break-word; word-break: break-word; }
+.card.size-md h3 { font-size: 23px; }
+.card.size-lg h3, .card.size-xl h3 { font-size: 26px; }
+.card p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.55; overflow-wrap: break-word; }
 .card .footer { margin-top: auto; display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px dashed var(--line); }
 .timestamp-btn { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; color: var(--muted); text-decoration: none; padding: 6px 8px; border-radius: 6px; transition: background .15s, color .15s; }
 .timestamp-btn:hover { background: var(--surface-2); color: var(--accent); }
 .timestamp-btn svg { width: 12px; height: 12px; }
+.copy-btn { background: transparent; border: 0; color: var(--muted-2); cursor: pointer; font-family: var(--mono); font-size: 10px; padding: 6px 8px; border-radius: 6px; transition: color .15s; }
+.copy-btn:hover { color: var(--ink-2); }
+.copy-btn.copied { color: var(--accent-2); }
 .card-tools { display: flex; gap: 4px; align-items: center; }
 .card-tools button { background: transparent; border: 0; color: var(--muted-2); cursor: pointer; font-family: var(--mono); font-size: 10px; padding: 6px 8px; border-radius: 6px; transition: color .15s; letter-spacing: .04em; }
 .card-tools button:hover { color: var(--ink-2); }
@@ -148,14 +177,16 @@ button { font-family: inherit; }
 .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--surface-2); color: var(--ink); padding: 14px 20px; border-radius: 10px; border: 1px solid var(--accent-mag); font-size: 13px; box-shadow: 0 12px 40px -10px rgba(0,0,0,.5); z-index: 100; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; max-width: 480px; line-height: 1.4; }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(-4px); }
 
+/* Pull quote */
 .pullquote { grid-column: span 12; background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%); border: 1px solid var(--line); border-radius: var(--radius); padding: 38px 44px; position: relative; }
 .pullquote .mark { position: absolute; top: 8px; left: 22px; font-family: var(--serif); font-size: 100px; line-height: 1; color: var(--accent-mag); opacity: .35; font-weight: 700; }
 .pullquote blockquote { margin: 0; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(22px, 2.4vw, 32px); line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); position: relative; max-width: 70ch; }
 .pullquote cite { display: block; margin-top: 16px; font-family: var(--mono); font-style: normal; font-size: 12px; color: var(--muted); letter-spacing: .04em; }
 
-.section { padding: 64px 0 0; }
-.section h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: clamp(28px, 3vw, 42px); margin: 14px 0 6px; color: var(--ink); }
-.section .lede { color: var(--ink-2); font-size: 16px; max-width: 64ch; margin: 0 0 28px; line-height: 1.55; }
+/* Charts */
+.section { padding: 48px 0 0; }
+.section h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: clamp(24px, 2.4vw, 34px); margin: 12px 0 6px; color: var(--ink); }
+.section .lede { color: var(--ink-2); font-size: 15px; max-width: 64ch; margin: 0 0 22px; line-height: 1.55; }
 .charts { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
 .chart-card { grid-column: span 6; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
 .chart-card.full { grid-column: span 12; }
@@ -165,6 +196,7 @@ button { font-family: inherit; }
 .chart-wrap { position: relative; height: 260px; }
 .chart-caption { margin-top: 14px; font-size: 12px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 12px; font-family: var(--mono); }
 
+/* Number stat block */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 24px; }
 @media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } }
 .stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
@@ -173,33 +205,25 @@ button { font-family: inherit; }
 .stat .val .unit { font-size: 18px; color: var(--accent); font-weight: 500; margin-left: 4px; }
 .stat .sub { font-size: 12px; color: var(--muted); line-height: 1.4; }
 
+/* Resources */
 .resources { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 24px; }
 @media (max-width: 720px) { .resources { grid-template-columns: 1fr; } }
 .resource { padding: 14px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; gap: 4px; }
 .resource .name { font-family: var(--serif); font-weight: 600; font-size: 16px; color: var(--ink); }
 .resource .ctx { font-size: 13px; color: var(--muted); line-height: 1.4; }
 
+/* Action items */
 .actions { margin-top: 24px; }
 .actions ul { list-style: none; padding: 0; margin: 0; counter-reset: a; }
 .actions li { counter-increment: a; padding: 16px 20px 16px 64px; position: relative; border-bottom: 1px solid var(--line); color: var(--ink-2); font-size: 15px; line-height: 1.5; }
 .actions li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 16px; top: 16px; font-family: var(--mono); font-size: 12px; color: var(--accent); letter-spacing: .04em; }
 .actions li:last-child { border-bottom: 0; }
 
+/* Footer */
 footer { margin-top: 80px; padding-top: 28px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; color: var(--muted-2); font-size: 12px; font-family: var(--mono); }
 footer a { color: var(--muted); }
-.hidden { display: none !important; }
-.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
-.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
-.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
-.back-link svg { width: 13px; height: 13px; }
-@media (max-width: 640px) { .brand { display: none; } }
-.thumb iframe { width: 100%; height: 100%; display: block; border: 0; background: #000; }
-.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; box-shadow: 0 20px 60px -10px rgba(0,0,0,.7); }
-.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
-.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; z-index: 2; }
-.thumb.is-floating .thumb-close { display: block; }
-@media (max-width: 880px) { .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
 
+.hidden { display: none !important; }
 .brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
 .back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
 .back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
@@ -221,7 +245,13 @@ footer a { color: var(--muted); }
 <div class="container">
 
 <header class="topbar">
-  <div class="brand-row"><a href="../../library/index.html" class="back-link" title="Back to library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg><span>Library</span></a><div class="brand"><span class="dot"></span>Video Notes</div></div>
+  <div class="brand-row">
+    <a href="../../library/index.html" class="back-link" title="Back to library">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span>Library</span>
+    </a>
+    <div class="brand"><span class="dot"></span>Video Notes</div>
+  </div>
   <div class="tools">
     <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -236,9 +266,9 @@ footer a { color: var(--muted); }
   <div class="meta">
     <div>
       <div class="kicker">
-        <span>All-In Podcast</span><span class="chip" id="durChip">—</span><span id="dateChip">—</span>
+        <span id="channelName">All-In Podcast · Ep 274</span><span class="chip" id="durChip">—</span><span id="dateChip">—</span>
       </div>
-      <h1>Jensen Huang <em>on</em> the Inference Era</h1>
+      <h1 id="title"></h1>
       <p class="thesis" id="thesis"></p>
     </div>
     <a class="cta" id="watchCta" target="_blank" rel="noopener">
@@ -246,7 +276,15 @@ footer a { color: var(--muted); }
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
     </a>
   </div>
-  <div class="thumb" id="thumbWrap"><button class="thumb-close" id="thumbClose" title="Dock" aria-label="Dock">×</button><iframe id="ytPlayer" src="https://www.youtube.com/embed/gwW8GKwHB3I?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+  <div class="thumb" id="thumbWrap">
+    <button class="thumb-close" id="thumbClose" title="Dock back into hero" aria-label="Dock">×</button>
+    <iframe id="ytPlayer"
+      data-src-pattern="https://www.youtube.com/embed/{VIDEO_ID}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" src=""
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
 </section>
 
 <section class="timeline-section">
@@ -261,7 +299,7 @@ footer a { color: var(--muted); }
 <section class="controls">
   <div class="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    <input id="searchInput" type="text" placeholder="Search insights — try 'tokens', 'inference', 'robots'…" />
+    <input id="searchInput" type="text" placeholder="Search insights — try 'Karpathy', 'Colossus', 'orbital'…" />
     <span class="hint">/</span>
   </div>
   <div class="filters" id="filters"></div>
@@ -272,39 +310,39 @@ footer a { color: var(--muted); }
 <section class="section">
   <div class="section-label"><span>By the numbers</span><span class="rule"></span></div>
   <h2>Four numbers worth memorizing.</h2>
-  <p class="lede">If you retain only four figures from this conversation, these are the ones that change how you read every AI-infrastructure story for the next five years.</p>
+  <p class="lede">If you only retain four figures from the conversation, these reset the priors on how AI compute, infrastructure, and the macro backdrop fit together.</p>
   <div class="stats" id="stats"></div>
 </section>
 
 <section class="section">
   <div class="section-label"><span>Charts</span><span class="rule"></span></div>
-  <h2>Three pictures of the economics.</h2>
-  <p class="lede">Compute demand moved two decimal places in two years. The factory math explains why expensive chips still produce cheap tokens. And the engineering bar is now measured in tokens, not salary.</p>
+  <h2>Three pictures of the moment.</h2>
+  <p class="lede">SpaceX's emerging cloud business, NVIDIA's earnings vs. stock disconnect, and the macro signals the hosts keep returning to. Each chart pairs to a specific moment in the episode.</p>
   <div class="charts">
+    <div class="chart-card">
+      <h3 class="chart-title">SpaceX revenue by segment</h3>
+      <p class="chart-sub">From the S-1: Starlink prints, Space loses small, XAI loses a lot — but EWS now adds $15B/year from Anthropic alone.</p>
+      <div class="chart-wrap"><canvas id="spacexChart"></canvas></div>
+      <div class="chart-caption">Source: SpaceX S-1 teardown · 45:20–47:10. Polymarket 71% on >$2T Day-1 cap.</div>
+    </div>
+    <div class="chart-card">
+      <h3 class="chart-title">Colossus data-center build time (days)</h3>
+      <p class="chart-sub">The S-1's most underrated disclosure: each successive cluster goes up ~27% faster than the last.</p>
+      <div class="chart-wrap"><canvas id="colossusChart"></canvas></div>
+      <div class="chart-caption">Source: Gavin Baker · 48:02 — "they build dramatically faster than anyone else at a lower cost."</div>
+    </div>
     <div class="chart-card full">
-      <h3 class="chart-title">Compute demand — three eras (log scale)</h3>
-      <p class="chart-sub">Each transition is 100× more compute. Most analyst models haven't caught up to this compounding.</p>
-      <div class="chart-wrap"><canvas id="computeChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 22:30–23:30 — "Generative to reasoning was 100×. Then agentic added another 100×. Ten thousand times in two years."</div>
-    </div>
-    <div class="chart-card">
-      <h3 class="chart-title">$50B factory cost breakdown</h3>
-      <p class="chart-sub">The GPU delta is smaller than assumed. Throughput — 10× higher — is the variable that changes the token economics.</p>
-      <div class="chart-wrap"><canvas id="factoryChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 7:51–8:53 — land, power, shell ≈ $20B; storage, networking, cooling ≈ $15B; GPUs ≈ $15B.</div>
-    </div>
-    <div class="chart-card">
-      <h3 class="chart-title">Engineer economics — the token floor</h3>
-      <p class="chart-sub">Jensen's benchmark: a $500K IC spending less than $250K in tokens is leaving capability on the table.</p>
-      <div class="chart-wrap"><canvas id="engineerChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 24:36–26:00 — "If that $500K engineer did not consume at least $250K worth of tokens, I am going to be deeply alarmed."</div>
+      <h3 class="chart-title">Sovereign bond yields — the second storm</h3>
+      <p class="chart-sub">Rates going up globally even as AI fundamentals strengthen. The "two things can be true" framing Gavin returns to repeatedly.</p>
+      <div class="chart-wrap"><canvas id="yieldChart"></canvas></div>
+      <div class="chart-caption">Sources: 82:15–84:00. Japan 30Y at all-time high; UK at GFC high; Germany at 2011 high.</div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="section-label"><span>Pulled quotes</span><span class="rule"></span></div>
-  <h2>If you only remember eight sentences.</h2>
+  <h2>If you only remember six sentences.</h2>
   <div class="bento" id="quotes" style="padding-top: 18px"></div>
 </section>
 
@@ -321,7 +359,7 @@ footer a { color: var(--muted); }
 </section>
 
 <footer>
-  <span>Transcribed via Groq Whisper large-v3 · All-In Podcast · Verify quotes against source.</span>
+  <span>Generated from Groq-transcribed audio. Verify quotes against the source.</span>
   <span><a id="srcLink" target="_blank" rel="noopener">youtube.com →</a></span>
 </footer>
 </div>
@@ -335,57 +373,263 @@ const DATA = {
     "duration_seconds": 3966,
     "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
-    "upload_date": "2026-03-19"
+    "upload_date": "2026-03-19",
+    "display_title_html": "Jensen Huang: Nvidia's Future, Physical AI, and the <em>Inference Explosion</em>"
   },
-  "thesis": "Inference, not training, is now the constraint — and the unit economics of AI have flipped: tokens are CapEx for knowledge workers, agents are the new operating system, and every industry from biology to robotics gets re-platformed in the next 3–5 years.",
+  "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model — so the industry's real risk is self-inflicted doomerism, not technology.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Jensen Huang joins the show!"
+    },
+    {
+      "start": 26,
+      "title": "Acquiring Groq and the inference explosion"
+    },
+    {
+      "start": 533,
+      "title": "Decision making at the world's most valuable company"
+    },
+    {
+      "start": 647,
+      "title": "Physical AI's $50T market, OpenClaw's future, the new OS for AI computing"
+    },
+    {
+      "start": 998,
+      "title": "AI's PR crisis, refuting doomer narratives, Anthropic's comms mistakes"
+    },
+    {
+      "start": 1248,
+      "title": "Revenue capacity, token allocation for employees, agentic future"
+    },
+    {
+      "start": 1850,
+      "title": "Open source, global diffusion, Iran/Taiwan supply chain impact"
+    },
+    {
+      "start": 2385,
+      "title": "Self-driving platform, competition from customers, growth slowdown"
+    },
+    {
+      "start": 2852,
+      "title": "Datacenters in space, AI healthcare, Robotics"
+    },
+    {
+      "start": 3370,
+      "title": "OpenAI/Anthropic revenue potential, how to build an AI moat"
+    },
+    {
+      "start": 3544,
+      "title": "Advice to young people on excelling in the AI era"
+    }
+  ],
   "insights": [
-    {"id": 1, "category": "counterintuitive", "headline": "A $50B factory makes the cheapest tokens", "body": "Don't equate the price of the factory with the price of the tokens. Of a $50B Vera Rubin build, ~$20B is land, power and shell; the GPU delta vs a cheaper alternative is small — but Nvidia's throughput is 10× higher. \"Even when the chips are free, it's not cheap enough.\"", "start_seconds": 471, "end_seconds": 533},
-    {"id": 2, "category": "data-point", "headline": "Compute demand is up 10,000× in two years", "body": "Generative → reasoning was a 100× jump in compute. Reasoning → agentic added another 100×. The whole industry slid two decimal places to the right and most analyst models haven't caught up.", "start_seconds": 1350, "end_seconds": 1410},
-    {"id": 3, "category": "framework", "headline": "$250K of tokens is the new bar per engineer", "body": "\"If a $500K engineer consumed only $5K in tokens, I will go ape.\" The expectation: half of comp again, in compute. Same logic as a chip designer who refuses CAD, or LeBron spending $1M/yr on his body — tools that amplify scarce talent.", "start_seconds": 1476, "end_seconds": 1560},
-    {"id": 4, "category": "mental-model", "headline": "An agent runtime is a computer", "body": "Memory, scheduling, IO, skills — four primitives that define a computer. Claude Code (\"Open Claw\") supplies them in software, on top of any model. \"This is the blueprint, the operating system of modern computing.\"", "start_seconds": 858, "end_seconds": 942},
-    {"id": 5, "category": "framework", "headline": "Only build what is insanely hard", "body": "Nvidia's strategy filter: is this insanely hard, has it never been done, and does it tap our unique superpowers? Easy → too many competitors. The price of admission is real pain and suffering — \"you better enjoy it.\"", "start_seconds": 564, "end_seconds": 640},
-    {"id": 6, "category": "prediction", "headline": "Inference is the new constraint", "body": "A year ago Jensen called inference \"a billion×\" and was treated as hyperbolic when the field was fixated on pre-training. Now: inference-constrained, with a Vera Rubin factory targeting 10× the throughput of the prior generation.", "start_seconds": 404, "end_seconds": 471},
-    {"id": 7, "category": "counterintuitive", "headline": "Under-adoption is the real AI risk", "body": "AI sits at 17% popularity in the US. Jensen's parallel: the nuclear industry was shut down here while China is building 100 fusion reactors. National-security risk #1 isn't bad actors abroad — it's American industries that don't deploy AI at all.", "start_seconds": 1223, "end_seconds": 1268},
-    {"id": 8, "category": "data-point", "headline": "Nvidia went from 95% to 0% in China", "body": "Nvidia gave up 95% market share in the world's second-largest market and is now at zero. Licenses are being applied for under Lutnick; many Chinese customers have already placed POs pending shipment.", "start_seconds": 1990, "end_seconds": 2060},
-    {"id": 9, "category": "mental-model", "headline": "Models are technology, not product", "body": "Closed and open weights aren't an A/B choice — they're A and B. By usage, OpenAI is #1, open source is #2, Anthropic is a \"distant third.\" Industries need open models they can fine-tune and own; consumers will keep paying for the polished products.", "start_seconds": 1894, "end_seconds": 1980},
-    {"id": 10, "category": "counterintuitive", "headline": "Enterprise SaaS doesn't die, it 100×'s", "body": "The cynical take: agents kill SaaS. Jensen's flip: SaaS was \"limited by butts and seats\" and now gets 100× more agents banging on SQL, Blender, Photoshop, Synopsys. Tools are the conduit between humans and work — they don't go away, they get hammered.", "start_seconds": 1748, "end_seconds": 1830},
-    {"id": 11, "category": "framework", "headline": "Physical AI needs three computers", "body": "Training computer (build the model). Simulation/evaluation computer (Omniverse — software that obeys physics). Edge computer (the car, the robot, the teddy bear, the 5G base station). All three are required, none is optional.", "start_seconds": 314, "end_seconds": 376},
-    {"id": 12, "category": "prediction", "headline": "Digital biology is at its ChatGPT moment", "body": "We're close to representing genes, proteins, cells as fluently as we represent chemicals — \"a couple of two, three, five years.\" Healthcare inflects in five. Agriculture is inflecting now. Physical AI is already a ~$10B/yr Nvidia business growing exponentially.", "start_seconds": 689, "end_seconds": 750},
-    {"id": 13, "category": "prediction", "headline": "Robots everywhere in 3 to 5 years", "body": "\"Technology never takes more than a couple two three cycles\" from existence-proof to real product — call it 3–5 years for humanoids in the wild. China leads the supply chain that matters: motors, magnets, rare earth. The Western robotics stack will lean on it.", "start_seconds": 3157, "end_seconds": 3240},
-    {"id": 14, "category": "prediction", "headline": "Dario's $1T-by-2030 is too low", "body": "Dario forecasts $1T in non-infrastructure AI revenue by 2030. Jensen: \"way better than that.\" The missing variable — every enterprise software company will become a value-added reseller of Anthropic and OpenAI tokens, multiplying go-to-market.", "start_seconds": 3370, "end_seconds": 3490},
-    {"id": 15, "category": "story", "headline": "The radiologist parable", "body": "A top computer scientist told students 10 years ago: don't go into radiology, CV will eat it. CV did get fully integrated. Yet radiologist demand skyrocketed — faster scans → more scans → more hospital revenue → more hiring. A job has a purpose, not just a task.", "start_seconds": 3795, "end_seconds": 3880},
-    {"id": 16, "category": "framework", "headline": "The new moat is deep vertical specialization", "body": "At the application layer, general models become commodities. The moat: depth in a vertical + an agent-to-customer flywheel. Inverts classic SaaS — build narrow first, then let agents generalize outward. Customization, historically, has been a 5–6× bigger industry than horizontal platforms.", "start_seconds": 3470, "end_seconds": 3590},
-    {"id": 17, "category": "data-point", "headline": "40% of Nvidia's business lives outside the cloud", "body": "Most analysts miss this: ~40% of revenue is regional, enterprise, on-prem, edge, in-car, in-space. That segment requires the full CUDA stack and a packaged AI factory — which is why ASIC-only competitors can't reach it.", "start_seconds": 2611, "end_seconds": 2700},
-    {"id": 18, "category": "mental-model", "headline": "Programming becomes specification + orchestration", "body": "\"In the past we code; in the future we write ideas, architectures, specifications. We organize teams, define what good looks like, brainstorm.\" Every engineer ends up directing ~100 agents. The English major may be the most successful graduate.", "start_seconds": 1600, "end_seconds": 1680}
+    {
+      "id": 1,
+      "category": "definition",
+      "headline": "Disaggregated inference: today's hardest computing problem",
+      "body": "Jensen frames inference as the most complicated computing problem today, with a pipeline split so different stages run on different GPUs. The same logic of heterogeneous computing originally led Nvidia to acquire Mellanox and now justifies bolting Groq's chips onto its stack.",
+      "start_seconds": 103,
+      "end_seconds": 151
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "Groq goes into 25% of every Vera Rubin deployment",
+      "body": "Nvidia is adding Groq processors to about 25% of the Vera Rubin racks in the data center, going from a one-rack company to five racks (adding Bluefield storage processors, CPUs, networking and Groq). Jensen says this raises Nvidia's TAM by roughly 33–50%.",
+      "start_seconds": 165,
+      "end_seconds": 271
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "Three computers: training, evaluation, edge",
+      "body": "Every physical-AI problem needs three machines — one to train the model, an 'Omniverse' simulator that obeys the laws of physics to evaluate it in a virtual gym, and the edge/robotics computer (car, robot, teddy bear, or telecom base station). Jensen says the $2T telecom industry will become AI edge infrastructure.",
+      "start_seconds": 318,
+      "end_seconds": 396
+    },
+    {
+      "id": 4,
+      "category": "counterintuitive",
+      "headline": "A $50B factory makes the cheapest tokens",
+      "body": "Don't equate factory price with token cost: ~$20B of a $50B factory is land, power and shell, and storage/networking/CPUs/cooling are needed regardless. Since the build delivers 10x the throughput, the $50B factory yields the lowest-cost tokens even against a $30–40B custom-ASIC alternative.",
+      "start_seconds": 453,
+      "end_seconds": 532
+    },
+    {
+      "id": 5,
+      "category": "mental-model",
+      "headline": "CEO rule: only do the insanely hard things",
+      "body": "Jensen's filter for what Nvidia pursues: is it insanely hard, never done before, and does it tap the company's special superpowers? If it's easy, back away — competitors will swarm. Hard problems guarantee pain and suffering, 'so you better enjoy it.'",
+      "start_seconds": 567,
+      "end_seconds": 626
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Physical AI is a $50T, untouched market",
+      "body": "Jensen calls physical AI the tech industry's first shot at a $50 trillion industry largely void of technology. The 10-year bet is now inflecting into a roughly $10B/year business for Nvidia, growing exponentially.",
+      "start_seconds": 646,
+      "end_seconds": 714
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "OpenClaw is a computer's four core elements",
+      "body": "Jensen argues OpenClaw is reinventing the computer: it has memory (short-term file system), scheduling (cron, spawning and decomposing agents), I/O subsystems (connecting to WhatsApp), and an API for skills. Those four elements define a personal AI computer that runs everywhere, open source.",
+      "start_seconds": 873,
+      "end_seconds": 961
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "AI's real risk is U.S. doomerism, not the tech",
+      "body": "With AI at 17% U.S. popularity, Jensen says the biggest national-security risk is other countries adopting AI while Americans stay afraid of it. He gently faults Anthropic — whose tech he admires and consumes — for 'scaring' rather than 'warning,' urging more circumspection since tech leaders' words now move policy.",
+      "start_seconds": 1131,
+      "end_seconds": 1248
+    },
+    {
+      "id": 9,
+      "category": "data-point",
+      "headline": "Compute demand rose 10,000x in two years",
+      "body": "Generative-to-reasoning required ~100x more compute; reasoning-to-agentic another ~100x. Combined, that's roughly 10,000x in two years, with another ~100x in consumption — and Jensen says 'we haven't even started scaling yet,' pointing to a million-x.",
+      "start_seconds": 1322,
+      "end_seconds": 1400
+    },
+    {
+      "id": 10,
+      "category": "actionable",
+      "headline": "A $500K engineer should spend $250K on tokens",
+      "body": "Jensen's thought experiment: if a $500K-a-year AI researcher spent only $5K on tokens in a year he'd 'go ape'; he'd be deeply alarmed if they didn't consume at least $250K. Refusing tokens is like a chip designer refusing CAD tools and using pencil and paper.",
+      "start_seconds": 1468,
+      "end_seconds": 1511
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Programming becomes specifying, with 100 agents each",
+      "body": "Jensen says coding gives way to writing ideas, architectures and specifications, organizing teams of agents, and defining what good looks like. He predicts every engineer will manage roughly 100 agents, reducing the job to creativity.",
+      "start_seconds": 1574,
+      "end_seconds": 1611
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Agents grow enterprise software, not destroy it",
+      "body": "Against the view that enterprise IT is doomed, Jensen argues those tools were limited by 'butts and seats' and will get 100x more agents banging on SQL, vector databases, Blender and Photoshop. The tools are also the control surface — work has to be represented back through Synopsys or Cadence so humans can ground-truth it.",
+      "start_seconds": 1782,
+      "end_seconds": 1850
+    },
+    {
+      "id": 13,
+      "category": "data-point",
+      "headline": "Nvidia went from 95% to 0% in China",
+      "body": "Jensen says Nvidia gave up a 95% market share in the world's second-largest market and sits at 0%. With approved licenses from Secretary Lutnick, Chinese companies have issued purchase orders and Nvidia is spinning its supply chain back up.",
+      "start_seconds": 2049,
+      "end_seconds": 2108
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "headline": "Radiologist demand rose despite the AI prediction",
+      "body": "A leading computer scientist predicted computer vision would eliminate radiologists and warned students away from the field. Ten years later vision was integrated into 100% of radiology — yet demand for radiologists skyrocketed, because faster scans let hospitals onboard and treat more patients. The lesson: a job's task changes, its purpose doesn't.",
+      "start_seconds": 3779,
+      "end_seconds": 3874
+    }
   ],
   "quotes": [
-    {"text": "Even when the chips are free, it's not cheap enough.", "start_seconds": 503},
-    {"text": "If that $500,000 engineer did not consume at least $250,000 worth of tokens, I am going to be deeply alarmed.", "start_seconds": 1483},
-    {"text": "Open Claw is the blueprint, the operating system of modern computing.", "start_seconds": 942},
-    {"text": "Talking to a chatbot is super great. Getting work done — I'll pay for, indeed.", "start_seconds": 1370},
-    {"text": "Warning is good. Scaring is less good.", "start_seconds": 1162},
-    {"text": "Models are a technology, not a product. Not a service.", "start_seconds": 1894},
-    {"text": "In the past we code. In the future we write ideas, architectures, specifications.", "start_seconds": 1605},
-    {"text": "Language is the programming language of AI now.", "start_seconds": 3725}
+    {
+      "text": "Even when the chips are free, it's not cheap enough.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 526
+    },
+    {
+      "text": "If that $500,000 engineer did not consume at least $250,000 worth of tokens, I am going to be deeply alarmed.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1492
+    },
+    {
+      "text": "It is not a biological being. It is not alien. It is not conscious. It is computer software.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1020
+    },
+    {
+      "text": "In the past, we code. In the future, we're going to write ideas, architectures, specifications.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1574
+    },
+    {
+      "text": "It could be that the English major could be the most successful.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 3752
+    },
+    {
+      "text": "You're not going to lose your job to AI. You're going to lose your job to somebody using AI.",
+      "speaker": "Jason Calacanis",
+      "start_seconds": 3544
+    }
   ],
   "resources": [
-    {"name": "Groq", "context": "Acquired — used for 25% of Vera Rubin racks for high-value inference"},
-    {"name": "Dynamo", "context": "Nvidia's AI-factory OS, built on disaggregated inference"},
-    {"name": "Claude Code / Open Claw", "context": "Peter Steinberger's agentic system; cited as the OS of modern computing"},
-    {"name": "Omniverse", "context": "Physics-faithful simulator — the second of the three required computers"},
-    {"name": "Karpathy's auto-research", "context": "600-line agent that produced a publishable genomics result in 30 minutes on a desktop"},
-    {"name": "BitTensor subnet 3", "context": "Distributed training of a 4B Llama model — folding@home for LLMs"},
-    {"name": "Ohalo", "context": "Freiberg's company applying AI to caloric yield in agriculture"},
-    {"name": "Open Evidence, Hippocratic AI", "context": "Agentic medical assistants Nvidia partners with"},
-    {"name": "Vera Rubin & Blackwell", "context": "Visibility to $1T of cumulative Nvidia revenue cited"},
-    {"name": "Dwarkesh podcast — Dario interview", "context": "Source of the $1T-by-2030 forecast Jensen calls conservative"}
+    {
+      "name": "Dario Amodei / Anthropic",
+      "context": "Forecast hundreds of billions in model/agent revenue by 2027-28 and $1T by 2030; Jensen calls that conservative"
+    },
+    {
+      "name": "Peter Steinberger",
+      "context": "Creator of OpenClaw; Nvidia engineers are helping him secure agent governance and privacy"
+    },
+    {
+      "name": "Elon Musk / Tesla",
+      "context": "Buys Nvidia training computers; Optimus and the one-robot-per-human vision"
+    },
+    {
+      "name": "Open Evidence & Hippocrates",
+      "context": "Cited as strong AI-agent examples for medical diagnosis"
+    },
+    {
+      "name": "Ohalo (David Friedberg)",
+      "context": "Zero-shot genomic modeling and high-quality calorie production using Nvidia/AI"
+    },
+    {
+      "name": "BitTensor Subnet 3",
+      "context": "Trained a 4B-parameter Llama model fully distributed across contributors' excess compute"
+    },
+    {
+      "name": "Dwarkesh Podcast",
+      "context": "Where Dario Amodei gave his model-revenue forecast"
+    }
   ],
   "action_items": [
-    "Audit your engineering org's per-head token spend. If it's under $50K/yr for $300K+ ICs, you're systematically under-tooled.",
-    "Treat agent runtimes (Claude Code, etc.) as the new platform: build skills, manage memory, govern IO — not just call APIs.",
-    "If you're building at the application layer, pick a vertical and go deep before going wide. This inverts the classic SaaS instinct.",
-    "Stop pricing inference by chip cost. Price by throughput-per-dollar at your real workload mix — the factory math is different.",
-    "If your business depends on horizontal SaaS tools, expect 100× more agentic load against them — plan for it, not against it."
+    "If you take one thing from this: become an expert at using AI — learn to specify without over-prescribing, leaving room for the model to innovate while you guide the outcome.",
+    "Give your best knowledge workers real token budgets — treat tokens like CAD tools, not a cost to minimize, because the leverage dwarfs the spend.",
+    "If you're a founder, go deeper in your vertical than anyone else; deep specialization is the only durable moat once foundation models catch up to the app layer.",
+    "Build open-source-first, then cost-reduce, fine-tune, and specialize — a good router gives you the world's best model on day one while you customize."
+  ],
+  "stats": [
+    {
+      "label": "Physical AI market",
+      "val": "$50T",
+      "unit": "TAM",
+      "sub": "Tech industry's first shot at an industry largely void of technology; already ~$10B/yr for Nvidia"
+    },
+    {
+      "label": "Compute growth",
+      "val": "10,000x",
+      "unit": "/ 2 yrs",
+      "sub": "Generative→reasoning was ~100x, reasoning→agentic another ~100x"
+    },
+    {
+      "label": "Token budget",
+      "val": "$250K",
+      "unit": "/ engineer",
+      "sub": "What Jensen expects a $500K AI researcher to consume in tokens annually"
+    },
+    {
+      "label": "China share",
+      "val": "95% → 0%",
+      "unit": "",
+      "sub": "Nvidia's collapse in the world's second-largest market, now seeking re-entry via licenses"
+    }
   ]
 };
 
@@ -399,7 +643,17 @@ const fmtTime = (s) => {
 };
 const ytLink = (t) => `${DATA.video.url}&t=${Math.floor(t)}s`;
 
-/* ---------- YouTube IFrame Player API (retrofit) ---------- */
+function escapeHTML(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Document title + iframe src (data-driven so the same template serves every video)
+document.title = DATA.video.title + ' — ' + (DATA.video.channel || 'Video Notes');
+(function setupPlayerSrc(){
+  const el = document.getElementById('ytPlayer');
+  const tmpl = el && el.getAttribute('data-src-pattern');
+  if (el && tmpl && DATA.video.id) el.src = tmpl.replace('{VIDEO_ID}', DATA.video.id);
+})();
+
+
+/* ---------- YouTube IFrame Player API ---------- */
 let ytPlayer = null;
 let ytReady = false;
 (function loadYT() {
@@ -410,18 +664,18 @@ let ytReady = false;
   window.onYouTubeIframeAPIReady = initYTPlayer;
 })();
 function initYTPlayer() {
-  ytPlayer = new YT.Player('ytPlayer', { events: { onReady: () => { ytReady = true; } } });
+  ytPlayer = new YT.Player('ytPlayer', {
+    events: { onReady: () => { ytReady = true; } }
+  });
 }
-function seekVideo(seconds, opts) {
-  opts = opts || {};
-  const autoplay = opts.autoplay !== false;
-  const scroll = opts.scroll !== false;
+function seekVideo(seconds, opts = {}) {
+  const { autoplay = true, scroll = true } = opts;
   if (ytReady && ytPlayer && typeof ytPlayer.seekTo === 'function') {
     ytPlayer.seekTo(seconds, true);
     if (autoplay) ytPlayer.playVideo();
     if (scroll) {
       const wrap = document.getElementById('thumbWrap');
-      if (wrap && !wrap.classList.contains('is-floating')) {
+      if (!wrap.classList.contains('is-floating')) {
         wrap.scrollIntoView({behavior: 'smooth', block: 'start'});
       }
     }
@@ -429,70 +683,62 @@ function seekVideo(seconds, opts) {
   }
   return false;
 }
-document.addEventListener('click', function(e) {
-  const a = e.target.closest && e.target.closest('a[href*="youtube.com/watch"], a[href*="youtu.be/"]');
+
+/* Intercept any anchor with a youtube watch URL and seek the embedded player instead */
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href*="youtube.com/watch"], a[href*="youtu.be/"]');
   if (!a) return;
   const url = a.getAttribute('href') || '';
   const m = url.match(/[?&]t=(\d+)s?/);
-  if (!m) return;
+  if (!m) return; // no timestamp → let it open YouTube
   const seconds = parseInt(m[1], 10);
-  if (seekVideo(seconds)) e.preventDefault();
-});
-window.addEventListener('load', function() {
-  const hero = document.querySelector('.hero');
-  const wrap = document.getElementById('thumbWrap');
-  if (!hero || !wrap) return;
-  const sentinel = document.createElement('div');
-  sentinel.style.cssText = 'position:absolute;left:0;bottom:0;width:1px;height:1px;pointer-events:none;';
-  hero.style.position = 'relative';
-  hero.appendChild(sentinel);
-  const obs = new IntersectionObserver(function(entries) {
-    entries.forEach(function(en) {
-      if (en.isIntersecting) {
-        wrap.classList.remove('is-floating', 'shown');
-      } else if (ytReady) {
-        try {
-          if (ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState() === 1) {
-            wrap.classList.add('is-floating', 'shown');
-          }
-        } catch (_) {}
-      }
-    });
-  }, { rootMargin: '0px', threshold: 0 });
-  obs.observe(sentinel);
-});
-document.addEventListener('click', function(e) {
-  if (e.target && e.target.id === 'thumbClose') {
-    const w = document.getElementById('thumbWrap');
-    if (w) w.classList.remove('is-floating', 'shown');
+  if (seekVideo(seconds)) {
+    e.preventDefault();
   }
 });
-/* ---------- /retrofit ---------- */
+
+/* Floating PiP: show small player when user scrolls past the hero */
+const floatThumbObserver = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    const wrap = document.getElementById('thumbWrap');
+    if (!wrap) return;
+    if (en.isIntersecting) {
+      wrap.classList.remove('is-floating');
+    } else if (ytReady) {
+      try {
+        if (ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState() === 1) {
+          wrap.classList.add('is-floating');
+        }
+      } catch (_) {}
+    }
+  });
+}, { rootMargin: '0px', threshold: 0 });
+// Observe a sentinel just below the hero to flip the floating state.
+window.addEventListener('load', () => {
+  const sentinel = document.createElement('div');
+  sentinel.style.cssText = 'position:absolute;left:0;width:1px;height:1px;';
+  const hero = document.querySelector('.hero');
+  if (hero) { hero.style.position = 'relative'; hero.appendChild(sentinel); }
+  floatThumbObserver.observe(sentinel);
+});
+document.addEventListener('click', (e) => {
+  if (e.target && e.target.id === 'thumbClose') {
+    document.getElementById('thumbWrap').classList.remove('is-floating');
+  }
+});
 
 // Hero
+$('#title').innerHTML = DATA.video.display_title_html || escapeHTML(DATA.video.title);
 $('#thesis').textContent = DATA.thesis;
 $('#durChip').textContent = `${Math.round(DATA.video.duration_seconds/60)} min`;
-const d = DATA.video.upload_date;
-$('#dateChip').textContent = new Date(d).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
+$('#dateChip').textContent = new Date(DATA.video.upload_date).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 $('#watchCta').href = DATA.video.url;
 $('#youtubeLink').href = DATA.video.url;
 $('#srcLink').href = DATA.video.url;
 $('#srcLink').textContent = DATA.video.url.replace('https://','') + ' →';
 
-const CHAPTERS = [
-  {start: 0,    title: "Intro · Physical AI"},
-  {start: 314,  title: "Three computers"},
-  {start: 564,  title: "Nvidia strategy"},
-  {start: 858,  title: "Agent runtime"},
-  {start: 1223, title: "Adoption risk"},
-  {start: 1476, title: "Token economics"},
-  {start: 1748, title: "SaaS & enterprise"},
-  {start: 1990, title: "China & market"},
-  {start: 2611, title: "Revenue breakdown"},
-  {start: 3157, title: "Robots & biology"},
-  {start: 3370, title: "Big predictions"},
-  {start: 3795, title: "Radiologist parable"}
-];
+// Chapters
+const CHAPTERS = (DATA && DATA.chapters) || [];
 
 // Timeline
 const track = $('#track');
@@ -508,7 +754,7 @@ CHAPTERS.forEach(c => {
 requestAnimationFrame(() => {
   const trackW = track.getBoundingClientRect().width;
   let lastRight = -Infinity;
-  CHAPTERS.forEach(c => {
+  CHAPTERS.forEach((c) => {
     const leftPx = (c.start / dur) * trackW;
     const el = document.createElement('div');
     el.className = 'lbl';
@@ -560,26 +806,10 @@ cats.forEach(c => {
   filtersEl.appendChild(b);
 });
 
-const SIZES = ['', 'size-md', '', '', 'size-md', '', '', '', 'size-lg', '', '', 'size-md', '', '', 'size-md', '', '', ''];
+// Bento sizes — 12 span-4 + 2 span-6 packs into a perfect 12-col grid (5 rows × 12)
+const SIZES = ['', '', 'size-md', '', '', '', '', '', '', '', 'size-md', '', '', ''];
 
-const NOTE_KEY = 'podcastInsights.notes.' + DATA.video.id;
-function getAllNotes() { try { return JSON.parse(localStorage.getItem(NOTE_KEY) || '{}'); } catch { return {}; } }
-function getNote(id) { return getAllNotes()[id] || ''; }
-function hasNote(id) { return !!getNote(id); }
-function setNote(id, v) {
-  const all = getAllNotes();
-  if (v) all[id] = v; else delete all[id];
-  localStorage.setItem(NOTE_KEY, JSON.stringify(all));
-}
-function showToast(msg) {
-  let t = document.querySelector('.toast');
-  if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.appendChild(t); }
-  t.textContent = msg;
-  t.classList.add('show');
-  clearTimeout(showToast._t);
-  showToast._t = setTimeout(() => t.classList.remove('show'), 3000);
-}
-
+// Cards
 const bento = $('#bento');
 function render() {
   bento.innerHTML = '';
@@ -592,6 +822,7 @@ function render() {
   filtered.forEach((ins, i) => {
     const card = document.createElement('article');
     card.className = 'card ' + (SIZES[i] || '');
+    const speakerForQuote = "All-In Ep 274";
     card.innerHTML = `
       <div class="tag-row">
         <span class="cat-tag" data-cat="${ins.category}">${ins.category.replace('-', ' ')}</span>
@@ -607,7 +838,7 @@ function render() {
         <div class="card-tools">
           <button class="note-btn" data-insight="${ins.id}">${hasNote(ins.id) ? '✎ note' : '+ note'}</button>
           <button class="steelman" data-insight="${ins.id}">⚔ steelman</button>
-          <button class="copy-btn" data-copy="${encodeURIComponent('"' + ins.headline + '" — Jensen Huang, ' + fmtTime(ins.start_seconds) + ' ' + ytLink(ins.start_seconds))}">copy</button>
+          <button class="copy-btn" data-copy="${encodeURIComponent('"' + ins.headline + '" — ' + speakerForQuote + ', ' + fmtTime(ins.start_seconds) + ' ' + ytLink(ins.start_seconds))}">copy</button>
         </div>
       </div>
       <div class="note-area" data-note-area="${ins.id}">
@@ -617,10 +848,10 @@ function render() {
     `;
     bento.appendChild(card);
     if ((i + 1) % 6 === 0 && qIdx < DATA.quotes.length) {
-      const qt = DATA.quotes[qIdx++];
+      const qd = DATA.quotes[qIdx++];
       const pq = document.createElement('div');
       pq.className = 'pullquote';
-      pq.innerHTML = `<span class="mark">"</span><blockquote>${qt.text}</blockquote><cite>Jensen Huang · <a href="${ytLink(qt.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qt.start_seconds)}</a></cite>`;
+      pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
       bento.appendChild(pq);
     }
   });
@@ -629,7 +860,8 @@ function render() {
   }
   $$('.copy-btn').forEach(b => b.onclick = () => {
     navigator.clipboard.writeText(decodeURIComponent(b.dataset.copy));
-    b.classList.add('copied'); b.textContent = 'copied';
+    b.classList.add('copied');
+    b.textContent = 'copied';
     setTimeout(() => { b.classList.remove('copied'); b.textContent = 'copy'; }, 1400);
   });
   $$('.note-btn').forEach(b => b.onclick = () => {
@@ -655,37 +887,50 @@ function render() {
     if (!ins) return;
     const prompt = `Steelman the strongest counter-argument to this claim from ${DATA.video.channel}:\n\n"${ins.headline}"\n\n${ins.body}\n\nSource: ${ytLink(ins.start_seconds)}\n\nGive me 2-3 sentences that a smart skeptic would actually say. Cite evidence where possible. Don't strawman — make the counter the most generous version of the disagreement.`;
     await navigator.clipboard.writeText(prompt);
-    showToast('Steelman prompt copied. Paste it into a Claude Code session for the counter-argument.');
+    showToast(`Steelman prompt copied. Paste it into a Claude Code session for the counter-argument.`);
   });
+}
+const NOTE_KEY = 'podcastInsights.notes.' + DATA.video.id;
+function getAllNotes() { try { return JSON.parse(localStorage.getItem(NOTE_KEY) || '{}'); } catch { return {}; } }
+function getNote(id) { return getAllNotes()[id] || ''; }
+function hasNote(id) { return !!getNote(id); }
+function setNote(id, v) {
+  const all = getAllNotes();
+  if (v) all[id] = v; else delete all[id];
+  localStorage.setItem(NOTE_KEY, JSON.stringify(all));
+}
+function showToast(msg) {
+  let t = document.querySelector('.toast');
+  if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.appendChild(t); }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => t.classList.remove('show'), 3000);
 }
 render();
 
+// Search
 const si = $('#searchInput');
-si.addEventListener('input', e => { activeSearch = e.target.value; render(); });
-document.addEventListener('keydown', e => {
+si.addEventListener('input', (e) => { activeSearch = e.target.value; render(); });
+document.addEventListener('keydown', (e) => {
   if (e.key === '/' && document.activeElement !== si) { e.preventDefault(); si.focus(); }
   if (e.key === 'Escape') { si.value=''; activeSearch=''; activeCat='all'; $$('.filter-chip').forEach(x => x.classList.toggle('active', x.dataset.cat === 'all')); render(); }
 });
 
-// Quotes section
+// Quotes section (separate full grid)
 const quotesEl = $('#quotes');
-DATA.quotes.forEach((q, i) => {
+(DATA.quotes || []).forEach((qd, i) => {
   const pq = document.createElement('div');
   pq.className = 'pullquote';
   pq.style.gridColumn = i % 3 === 0 ? 'span 12' : 'span 6';
   if (window.innerWidth < 720) pq.style.gridColumn = 'span 12';
-  pq.innerHTML = `<span class="mark">"</span><blockquote>${q.text}</blockquote><cite>Jensen Huang · <a href="${ytLink(q.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(q.start_seconds)}</a></cite>`;
+  pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
   quotesEl.appendChild(pq);
 });
 
 // Stats
 const statsEl = $('#stats');
-[
-  { label: 'Compute demand growth — 2 years', val: '10,000', unit: '×', sub: 'Generative→Reasoning was 100×, then Reasoning→Agentic added another 100×. Most analyst models haven\'t caught up.' },
-  { label: 'Expected token spend per $500K IC', val: '$250K', unit: '', sub: 'Jensen\'s benchmark. Under $50K/yr is "deeply alarming." Tokens are CapEx for knowledge workers now.' },
-  { label: 'Nvidia revenue outside cloud', val: '40', unit: '%', sub: 'Regional, enterprise, on-prem, edge, in-car, in-space. Requires full CUDA stack — ASIC-only competitors can\'t reach it.' },
-  { label: 'AI adoption rate — US public', val: '17', unit: '%', sub: 'The under-adoption gap is Jensen\'s framing for national-security risk: not bad actors abroad, but industries that don\'t deploy.' }
-].forEach(s => {
+(DATA.stats || []).forEach(s => {
   const el = document.createElement('div');
   el.className = 'stat';
   el.innerHTML = `<div class="label">${s.label}</div><div class="val">${s.val}<span class="unit">${s.unit}</span></div><div class="sub">${s.sub}</div>`;
@@ -694,7 +939,7 @@ const statsEl = $('#stats');
 
 // Resources
 const rEl = $('#resources');
-DATA.resources.forEach(r => {
+(DATA.resources || []).forEach(r => {
   const el = document.createElement('div');
   el.className = 'resource';
   el.innerHTML = `<div class="name">${r.name}</div><div class="ctx">${r.context}</div>`;
@@ -703,7 +948,7 @@ DATA.resources.forEach(r => {
 
 // Actions
 const aEl = $('#actions');
-DATA.action_items.forEach(a => {
+(DATA.action_items || []).forEach(a => {
   const li = document.createElement('li');
   li.textContent = a;
   aEl.appendChild(li);
@@ -722,86 +967,91 @@ function initCharts() {
   charts.forEach(c => c.destroy());
   charts = [];
   const css = getComputedStyle(document.documentElement);
-  const ink2   = css.getPropertyValue('--ink-2').trim();
-  const muted  = css.getPropertyValue('--muted').trim();
-  const line   = css.getPropertyValue('--line-strong').trim();
+  const ink = css.getPropertyValue('--ink').trim();
+  const ink2 = css.getPropertyValue('--ink-2').trim();
+  const muted = css.getPropertyValue('--muted').trim();
+  const line = css.getPropertyValue('--line-strong').trim();
   const accent = css.getPropertyValue('--accent').trim();
-  const accent2   = css.getPropertyValue('--accent-2').trim();
+  const accent2 = css.getPropertyValue('--accent-2').trim();
   const accentMag = css.getPropertyValue('--accent-mag').trim();
-  const surface   = css.getPropertyValue('--surface').trim();
 
   Chart.defaults.font.family = '"Inter", system-ui, sans-serif';
   Chart.defaults.color = muted;
   Chart.defaults.borderColor = line;
 
-  // Compute scaling — log-scale bar
-  charts.push(new Chart($('#computeChart'), {
+  // SpaceX revenue by segment — grouped bar
+  charts.push(new Chart($('#spacexChart'), {
     type: 'bar',
     data: {
-      labels: ['Pre-training era', 'Reasoning era (+100×)', 'Agentic era (+100× again)'],
+      labels: ['Starlink', 'Space', 'XAI', 'EWS (Anthropic)'],
+      datasets: [
+        {
+          label: 'Revenue ($B, FY25)',
+          data: [11.4, 4.0, 3.2, 15],
+          backgroundColor: accent,
+          borderRadius: 6, barThickness: 28
+        },
+        {
+          label: 'Operating Income ($B)',
+          data: [4.4, -0.65, -6.4, null],
+          backgroundColor: ctx => ctx.parsed?.y < 0 ? accentMag : accent2,
+          borderRadius: 6, barThickness: 28
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
+        tooltip: { callbacks: { label: c => c.dataset.label + ': $' + c.parsed.y + 'B' } }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 11 } } },
+        y: { grid: { color: line }, ticks: { color: muted, callback: v => '$' + v + 'B' } }
+      }
+    }
+  }));
+
+  // Colossus build time — line chart with downward slope
+  charts.push(new Chart($('#colossusChart'), {
+    type: 'line',
+    data: {
+      labels: ['Colossus 1', 'Colossus 2', 'Colossus 3'],
       datasets: [{
-        data: [1, 100, 10000],
-        backgroundColor: [muted + '66', accent + 'aa', accent],
-        borderRadius: 8,
-        barThickness: 80
+        label: 'Days to build',
+        data: [122, 91, 66],
+        borderColor: accent, backgroundColor: accent + '22',
+        tension: 0.3, fill: true, pointRadius: 8, pointBackgroundColor: accent,
+        pointBorderColor: ink, pointBorderWidth: 2
       }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: c => c.parsed.y.toLocaleString() + '× baseline' } }
+        tooltip: { callbacks: { label: c => c.parsed.y + ' days' } }
       },
       scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 13 } } },
-        y: {
-          type: 'logarithmic',
-          grid: { color: line },
-          ticks: {
-            color: muted,
-            callback: v => {
-              if ([1, 10, 100, 1000, 10000].includes(v)) return v.toLocaleString() + '×';
-              return '';
-            }
-          }
-        }
+        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } },
+        y: { grid: { color: line }, ticks: { color: muted, callback: v => v + 'd' }, beginAtZero: true, suggestedMax: 140 }
       }
     }
   }));
 
-  // Factory breakdown — donut
-  charts.push(new Chart($('#factoryChart'), {
-    type: 'doughnut',
-    data: {
-      labels: ['Land / power / shell ($20B)', 'Storage / networking / cooling ($15B)', 'GPUs — Vera Rubin ($15B)'],
-      datasets: [{
-        data: [20, 15, 15],
-        backgroundColor: [muted + '55', muted + '99', accent],
-        borderColor: [surface, surface, surface],
-        borderWidth: 3,
-        hoverOffset: 6
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      cutout: '60%',
-      plugins: {
-        legend: { position: 'bottom', labels: { color: ink2, font: { size: 11 }, padding: 14, boxWidth: 12 } },
-        tooltip: { callbacks: { label: c => c.label.split('(')[0].trim() + ': $' + c.parsed + 'B' } }
-      }
-    }
-  }));
-
-  // Engineer economics — horizontal bar
-  charts.push(new Chart($('#engineerChart'), {
+  // Bond yields — horizontal bar with categorical colors
+  charts.push(new Chart($('#yieldChart'), {
     type: 'bar',
     data: {
-      labels: ['Annual salary', "Jensen's token floor (50% of salary)", 'Typical current spend'],
+      labels: ['US 10Y', 'UK 10Y (GFC-high)', 'Germany 10Y (2011-high)', 'Japan 30Y (ATH)', 'CPI fcst Q2 (mid)', 'Global Debt/GDP'],
       datasets: [{
-        data: [500000, 250000, 5000],
-        backgroundColor: [muted + '66', accent, accentMag],
-        borderRadius: 6,
-        barThickness: 40
+        data: [4.6, 4.8, 3.2, 5.1, 5.0, 310],
+        backgroundColor: ctx => {
+          const i = ctx.dataIndex;
+          if (i === 5) return accentMag;
+          if (i === 4) return accent;
+          return accent2;
+        },
+        borderRadius: 6, barThickness: 22
       }]
     },
     options: {
@@ -809,13 +1059,12 @@ function initCharts() {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: c => '$' + c.parsed.x.toLocaleString() } }
+        tooltip: { callbacks: {
+          label: c => c.dataIndex === 5 ? c.parsed.x + '% of GDP' : c.parsed.x + '%'
+        } }
       },
       scales: {
-        x: {
-          grid: { color: line },
-          ticks: { color: muted, callback: v => '$' + (v >= 1000 ? (v/1000).toFixed(0) + 'K' : v) }
-        },
+        x: { type: 'logarithmic', grid: { color: line }, ticks: { color: muted, callback: v => v + (v >= 100 ? '%' : '%') } },
         y: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } }
       }
     }

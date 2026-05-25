@@ -67,11 +67,11 @@
     "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
     "duration_seconds": 3966,
     "upload_date": "2026-03-19",
-    "thesis": "Inference, not training, is now the constraint \u2014 and the unit economics of AI have flipped: tokens are CapEx for knowledge workers, agents are the new operating system, and every industry from biology to robotics gets re-platformed in the next 3\u20135 years.",
-    "insight_count": 18,
-    "quote_count": 8,
-    "processed_at": "2026-05-22T13:17:16.004485Z",
-    "processing_lag_days": 64,
+    "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model \u2014 so the industry's real risk is self-inflicted doomerism, not technology.",
+    "insight_count": 14,
+    "quote_count": 6,
+    "processed_at": "2026-05-25T16:37:35.155620Z",
+    "processing_lag_days": 67,
     "path": "../videos/gwW8GKwHB3I/index.html"
   },
   {
