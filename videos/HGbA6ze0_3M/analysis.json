@@ -1,0 +1,935 @@
+{
+  "video": {
+    "id": "HGbA6ze0_3M",
+    "title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+    "channel": "All-In Podcast",
+    "duration_seconds": 6120,
+    "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+    "upload_date": "2026-05-22",
+    "display_title_html": "SpaceX's <em>$2T</em> Case, Nvidia's Shock Selloff, America Turns on AI"
+  },
+  "thesis": "The AI economy is simultaneously generating unprecedented value (Anthropic profitable, SpaceX's $45B Anthropic deal, NVIDIA at $5.3T) while triggering a PR and social crisis driven by dystopian layoff messaging, anti-humanist perception, and possible foreign information campaigns — and the macro backdrop of 310% global debt-to-GDP and rising yields adds a second storm.",
+  "insights": [
+    {
+      "id": 1,
+      "category": "story",
+      "headline": "Karpathy spent a quarter of his time labeling video data by hand",
+      "body": "In 2016–17, while leading Full Self-Driving at Tesla, Karpathy spent roughly a quarter of his working hours hand-labeling video frames from Tesla's fleet — embodying what Gavin Baker calls 'commercializing the bitter lesson' before anyone else had. That same first-principles commitment to brute-force data quality is what he now brings to recursive pre-training at Anthropic.",
+      "start_seconds": 183,
+      "end_seconds": 250
+    },
+    {
+      "id": 2,
+      "category": "framework",
+      "headline": "Recursive self-improvement + continual learning = the two final frontiers",
+      "body": "Gavin Baker identifies the two remaining unsolved problems in AI: (1) recursive self-improvement, where the model influences its own training during a forward pass; and (2) continual learning, where models learn from experience the way humans do. Both remain unsolved; their combination could produce 10× yearly improvement that makes Chamath's projection look conservative. Karpathy's Anthropic role is explicitly focused on (1).",
+      "start_seconds": 386,
+      "end_seconds": 435
+    },
+    {
+      "id": 3,
+      "category": "data-point",
+      "headline": "Anthropic + OpenAI combined are on ~$100B ARR at 80% gross margins",
+      "body": "Per Gavin Baker: the two leading AI labs are at approximately $100B of combined ARR right now with ~80% gross margins on inference, and Anthropic is EBIT-positive. Adding Gemini, Cursor, xAI, and open source, Baker projects $200–300B of ARR across the LLM sector by year-end — validating that the GPU investment cycle has real, immediate ROI, not just circular funding.",
+      "start_seconds": 261,
+      "end_seconds": 330
+    },
+    {
+      "id": 4,
+      "category": "counterintuitive",
+      "headline": "Anti-AI sentiment is partly an anti-humanist psychological reaction, not just economics",
+      "body": "Freeberg argues a third driver of AI backlash, beyond economics and foreign influence: AI is fundamentally non-human-centric in a way that 'shifts and f***s with the ego.' The Copernican parallel — heliocentricity dethroned Earth, AI dethrones human cognitive supremacy — creates a deep psychological rejection. It doesn't cause the backlash but amplifies it in ways that can't be addressed with economic reassurances alone.",
+      "start_seconds": 1348,
+      "end_seconds": 1397
+    },
+    {
+      "id": 5,
+      "category": "counterintuitive",
+      "headline": "Zuckerberg recorded employees to train AI, then laid them off — and said it publicly",
+      "body": "Meta placed recording software on all employees' computers to capture workflows and train AI models, simultaneously laying off ~8,000 people. In his own words, Zuckerberg explained that internal engineers produce better training data than contractors. Workers who had built AI tools to improve their own productivity were then included in layoffs — creating the perception that efficiency gains accelerated their own replacements.",
+      "start_seconds": 2376,
+      "end_seconds": 2469
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Anthropic is paying SpaceX $1.25B/month — $45B over three years",
+      "body": "SpaceX's S-1 reveals Anthropic has signed a $45B deal (15B/year, $1.25B/month) to rent Colossus 1 and parts of Colossus 2. This effectively means SpaceX has already added a second Starlink-scale revenue stream from a single customer. The deal has a 90-day cancellation clause by either party, meaning Elon could reclaim the compute or Anthropic could find alternatives.",
+      "start_seconds": 2817,
+      "end_seconds": 2892
+    },
+    {
+      "id": 7,
+      "category": "data-point",
+      "headline": "SpaceX builds data centers 46% faster each iteration: 122, 91, 66 days",
+      "body": "SpaceX's S-1 discloses accelerating data center construction times: Colossus 1 took 122 days, Colossus 2 took 91 days, Colossus 3 took 66 days. The trend line is a learning curve, not a one-off. Gavin Baker's implication: with Anthropic as a clear off-take partner, SpaceX can now 'stamp out' data centers at a pace no hyperscaler can match, giving it a structural cost and speed advantage in the emerging cloud-for-AI market.",
+      "start_seconds": 2900,
+      "end_seconds": 2930
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "Cursor has more coding tokens than exist on the public internet",
+      "body": "Per Gavin Baker, a stat from over a year ago: Cursor allegedly holds more tokens of coding data than exist anywhere on the public internet. Three to four weeks of reinforcement learning on Colossus 2 using that data pushed Cursor's Composer 2.5 to Pareto-dominant status on coding benchmarks — establishing it as the most-selected model on the Cursor platform before a new base model has even been trained with it.",
+      "start_seconds": 3040,
+      "end_seconds": 3098
+    },
+    {
+      "id": 9,
+      "category": "framework",
+      "headline": "The AI market is cross-sectionally inefficient: chips and cooling can't both be right",
+      "body": "Gavin Baker's key investing insight: memory companies trade at 3–5× PE, NVIDIA trades at low-teens PE, and power/cooling/optical infrastructure trades at much higher multiples. These valuations imply contradictory scenarios — if infrastructure multiples are correct, NVIDIA and memory are dramatically undervalued; if NVIDIA's multiple is correct, infrastructure is overvalued. The market can't be right on both sides simultaneously.",
+      "start_seconds": 4150,
+      "end_seconds": 4190
+    },
+    {
+      "id": 10,
+      "category": "data-point",
+      "headline": "NVIDIA projected a $20B CPU business this year — overnight became a top-3 CPU maker",
+      "body": "Buried in NVIDIA's Q1 earnings: the company projected $20 billion in CPU revenue for fiscal year 2026. That would make NVIDIA one of the world's largest CPU manufacturers within a single year of entering the market at scale. The mechanism is co-design with every major AI lab — NVIDIA is the only company that sits inside all of their training and inference architectures simultaneously.",
+      "start_seconds": 4470,
+      "end_seconds": 4510
+    },
+    {
+      "id": 11,
+      "category": "counterintuitive",
+      "headline": "Older GPUs could have 10–15 year useful lives when paired with newer ASICs for decode",
+      "body": "The bear thesis that GPU amortization schedules are too aggressive (Burry argued 2-year true lifespan) may be inverted. As domain-specific accelerators like Groq or Cerebras handle the decode stage of inference, older GPUs become useful compute for the prefill stage. CoreWeave is signing 6-year contracts at 6% financing rates — customers wouldn't do that if they believed 2-year lifespan. The real lifespan may be 10–15 years in a mixed architecture.",
+      "start_seconds": 4640,
+      "end_seconds": 4710
+    },
+    {
+      "id": 12,
+      "category": "mental-model",
+      "headline": "The harness is as important as the model in the agentic era",
+      "body": "Grok lacked a harness — a runtime that manages state, memory, and integrations — while Claude had Claude Code and OpenAI had Codex. The release of Grok Build is therefore as significant as a model release. Baker and Chamath argue the harness and model must now be co-developed: a frontier model without a harness is 'like using a basic chatbot from a year ago.' This reframes competitive analysis: benchmark position alone is insufficient.",
+      "start_seconds": 3227,
+      "end_seconds": 3280
+    },
+    {
+      "id": 13,
+      "category": "prediction",
+      "headline": "Orbital compute becomes commercially real in second half of 2028 to early 2030",
+      "body": "Gavin Baker's point prediction for orbital compute: second half 2028 to first half 2030. There is already a working H100 in space today (Karpathy trained a model and ran inference on it). NVIDIA is building a space-designed GPU variant. SpaceX's key underappreciated advantage: they use non-radiation-hardened commercial semiconductors that happen to pass rad testing, keeping cost dramatically lower than traditional space hardware.",
+      "start_seconds": 3980,
+      "end_seconds": 4090
+    },
+    {
+      "id": 14,
+      "category": "mental-model",
+      "headline": "Strait of Hormuz closure is relatively good for America — oil shock as forced reindustrialization",
+      "body": "Gavin Baker frames the Iran-driven Strait closure as asymmetrically bad for Europe, Japan, and China (which need Middle Eastern oil) and relatively good for the US, which is now the world's largest oil and gas exporter. Every day the Strait is closed is a forcing function for US reindustrialization, makes American electricity cheaper than global peers (natural gas is down while LNG is up 100–200%), and aligns with Trump's policy goals — which is why Baker argues Trump is in no hurry to resolve it.",
+      "start_seconds": 5330,
+      "end_seconds": 5435
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Composer 2.5 is literally well outside the Pareto frontier. And that's after three weeks.",
+      "speaker": "Gavin Baker",
+      "start_seconds": 3070
+    },
+    {
+      "text": "Recursive self-improvement and continual learning — those are probably the two final frontiers for AI. And those two combined might pull the future forward in a very real way.",
+      "speaker": "Gavin Baker",
+      "start_seconds": 391
+    },
+    {
+      "text": "There's something about AI that's very not human-centric and it kind of shifts and f***s with the ego of the human. It's almost anti-humanist.",
+      "speaker": "David Friedberg",
+      "start_seconds": 1348
+    },
+    {
+      "text": "Stop breathlessly asking these model makers what they think. Go to the end user and ask the person in the factory that's using the model.",
+      "speaker": "Sham Sankar (Palantir CTO, played on-air)",
+      "start_seconds": 2479
+    },
+    {
+      "text": "You can't fight shadows. Until we see a clean benchmark of GB300s versus TPU V7s, we're not going to know. And that's why these other chips aren't being submitted — they will lose.",
+      "speaker": "Gavin Baker",
+      "start_seconds": 4280
+    },
+    {
+      "text": "Crime is now a choice.",
+      "speaker": "Jason Calacanis",
+      "start_seconds": 2041
+    }
+  ],
+  "data_points": [
+    {
+      "label": "Anthropic + OpenAI combined ARR",
+      "value": "~$100B",
+      "context": "with ~80% gross margins"
+    },
+    {
+      "label": "LLM sector projected ARR by end of 2026",
+      "value": "$200–300B",
+      "context": "Gavin Baker estimate"
+    },
+    {
+      "label": "Starlink revenue (2025)",
+      "value": "$11.4B",
+      "context": "50% YoY growth, $4.4B operating income"
+    },
+    {
+      "label": "Starlink subscribers",
+      "value": "10M+"
+    },
+    {
+      "label": "SpaceX Space business revenue",
+      "value": "$4B",
+      "context": "17% growth, -$650M operating income"
+    },
+    {
+      "label": "XAI revenue",
+      "value": "$3.2B",
+      "context": "2x+ YoY growth, -$6.4B operating losses"
+    },
+    {
+      "label": "SpaceX CapEx 2025",
+      "value": "$20B",
+      "context": "60%+ for AI compute build-out"
+    },
+    {
+      "label": "Anthropic–SpaceX deal",
+      "value": "$45B over 3 years",
+      "context": "$1.25B/month, $15B/year"
+    },
+    {
+      "label": "SpaceX IPO target valuation",
+      "value": "$1.75T"
+    },
+    {
+      "label": "SpaceX IPO raise",
+      "value": "$75B"
+    },
+    {
+      "label": "Data center build time: Colossus 1",
+      "value": "122 days"
+    },
+    {
+      "label": "Data center build time: Colossus 2",
+      "value": "91 days"
+    },
+    {
+      "label": "Data center build time: Colossus 3",
+      "value": "66 days"
+    },
+    {
+      "label": "Polymarket odds SpaceX closes above $2T Day 1",
+      "value": "71%"
+    },
+    {
+      "label": "NVIDIA Q1 revenue",
+      "value": "$81B",
+      "context": "+85% YoY, +20% QoQ"
+    },
+    {
+      "label": "NVIDIA Q1 net income",
+      "value": "$58B"
+    },
+    {
+      "label": "NVIDIA Q1 free cash flow",
+      "value": "$48B"
+    },
+    {
+      "label": "NVIDIA gross margins",
+      "value": "75%"
+    },
+    {
+      "label": "NVIDIA market cap",
+      "value": "$5.3T"
+    },
+    {
+      "label": "NVIDIA YTD stock return",
+      "value": "+16%"
+    },
+    {
+      "label": "NVIDIA additional buybacks announced",
+      "value": "$80B"
+    },
+    {
+      "label": "NVIDIA dividend increase",
+      "value": "25x (1¢ → 25¢/quarter)"
+    },
+    {
+      "label": "NVIDIA projected CPU revenue FY2026",
+      "value": "$20B"
+    },
+    {
+      "label": "Broadcom AI semiconductor YoY growth (comparable quarter)",
+      "value": "143%"
+    },
+    {
+      "label": "CoreWeave GPU financing rate",
+      "value": "6%"
+    },
+    {
+      "label": "US automotive deaths per year",
+      "value": "50,000"
+    },
+    {
+      "label": "Global automotive deaths per year",
+      "value": "~1M"
+    },
+    {
+      "label": "Karpathy auto-research GitHub stars",
+      "value": "82,000"
+    },
+    {
+      "label": "Cloudflare layoff size",
+      "value": "20%+",
+      "context": "during record revenue"
+    },
+    {
+      "label": "Meta layoff size",
+      "value": "~8,000"
+    },
+    {
+      "label": "US 10-year treasury yield",
+      "value": "4.6%"
+    },
+    {
+      "label": "Japan 30-year yield",
+      "value": "5.1%",
+      "context": "all-time high"
+    },
+    {
+      "label": "CPI forecast Q2 2026 (professional forecasters)",
+      "value": "4.2–6%"
+    },
+    {
+      "label": "Global debt to GDP",
+      "value": "310%"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Andrej Karpathy",
+      "role": "Now heads pre-training at Anthropic; coined 'vibe coding'; built auto-research"
+    },
+    {
+      "name": "Gavin Baker",
+      "role": "CIO, Atreides Management; guest co-host"
+    },
+    {
+      "name": "SpaceX S-1",
+      "role": "Filing for $75B IPO at $1.75T valuation"
+    },
+    {
+      "name": "Sham Sankar",
+      "role": "CTO, Palantir; clip about listening to end users not model makers"
+    },
+    {
+      "name": "Leopold Aschenbrenner",
+      "role": "Fund manager; reportedly put on chip sector"
+    },
+    {
+      "name": "Richard Sutton bitter lesson essay",
+      "role": "Foundational paper on brute-force computation over hand-crafted AI"
+    },
+    {
+      "name": "Cursor Composer 2.5",
+      "role": "Pareto-dominant coding model after 3-4 weeks RL on Colossus 2"
+    },
+    {
+      "name": "Grok Build",
+      "role": "XAI's harness/runtime for agentic Grok deployment"
+    },
+    {
+      "name": "Flock Safety",
+      "role": "AI-powered camera surveillance tool for crime reduction"
+    },
+    {
+      "name": "Exite Labs",
+      "role": "Atreides portfolio co; chips in essentially every Starlink"
+    },
+    {
+      "name": "CoreWeave",
+      "role": "Neo-cloud; 6-year GPU contracts at 6% financing rate"
+    },
+    {
+      "name": "Matthew Prince (Cloudflare CEO)",
+      "role": "Infamous 'measurers' layoff memo during record revenue"
+    }
+  ],
+  "action_items": [],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Intro · Gavin joins"
+    },
+    {
+      "start": 30,
+      "title": "Karpathy → Anthropic"
+    },
+    {
+      "start": 762,
+      "title": "Why America turned on AI"
+    },
+    {
+      "start": 1642,
+      "title": "Trump pulls AI EO · dystopian layoffs"
+    },
+    {
+      "start": 2719,
+      "title": "SpaceX S-1 teardown"
+    },
+    {
+      "start": 4282,
+      "title": "Nvidia Q1 · shock selloff"
+    },
+    {
+      "start": 4945,
+      "title": "Market red signals"
+    },
+    {
+      "start": 5565,
+      "title": "China trip recap"
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Andrej Karpathy",
+        "role": "Head of pre-training, Anthropic; formerly OpenAI co-founder, Tesla FSD lead",
+        "speaker": false,
+        "mentions": 15,
+        "first_seconds": 27,
+        "context": "Joining Anthropic to lead recursive self-improvement; coined vibe coding; auto-research 82K GitHub stars"
+      },
+      {
+        "name": "Gavin Baker",
+        "role": "CIO, Atreides Management",
+        "speaker": true,
+        "mentions": 40,
+        "first_seconds": 0
+      },
+      {
+        "name": "Chamath Palihapitiya",
+        "role": "Host, All-In Podcast",
+        "speaker": true,
+        "mentions": 99,
+        "first_seconds": 0
+      },
+      {
+        "name": "Jason Calacanis",
+        "role": "Host, All-In Podcast",
+        "speaker": true,
+        "mentions": 99,
+        "first_seconds": 0
+      },
+      {
+        "name": "David Friedberg",
+        "role": "Host, All-In Podcast",
+        "speaker": true,
+        "mentions": 99,
+        "first_seconds": 0
+      },
+      {
+        "name": "David Sacks",
+        "role": "Host, All-In Podcast (absent)",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 0
+      },
+      {
+        "name": "Jensen Huang",
+        "role": "CEO, NVIDIA",
+        "mentions": 12,
+        "first_seconds": 2918,
+        "context": "DC-to-DC data center redesign; frustrated with stock underperformance; CPU business"
+      },
+      {
+        "name": "Dario Amodei",
+        "role": "CEO, Anthropic",
+        "mentions": 5,
+        "first_seconds": 802,
+        "context": "Accused by Chamath of manufacturing AI fear for regulatory moat"
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "role": "CEO, Meta",
+        "mentions": 4,
+        "first_seconds": 2340,
+        "context": "Dystopian recording/layoff memo while posting record profits"
+      },
+      {
+        "name": "Matthew Prince",
+        "role": "CEO, Cloudflare",
+        "mentions": 3,
+        "first_seconds": 2258,
+        "context": "Laid off 20%+ calling them 'measurers' during record revenue"
+      },
+      {
+        "name": "Sham Sankar",
+        "role": "CTO, Palantir",
+        "mentions": 3,
+        "first_seconds": 895,
+        "context": "Clip: stop asking model makers, go ask factory workers"
+      },
+      {
+        "name": "Elon Musk",
+        "role": "CEO, SpaceX / xAI / Tesla",
+        "mentions": 12,
+        "first_seconds": 1696,
+        "context": "SpaceX S-1 at $1.75T; Colossus compute cluster; Grok Build"
+      },
+      {
+        "name": "Leopold Aschenbrenner",
+        "role": "Fund manager (former OpenAI)",
+        "mentions": 3,
+        "first_seconds": 4068,
+        "context": "Rhodes Scholar; reportedly put on chip sector; $5B fund"
+      },
+      {
+        "name": "Xi Jinping",
+        "role": "President, China",
+        "mentions": 3,
+        "first_seconds": 5060,
+        "context": "Trump China trip; Taiwan; Strait of Hormuz geopolitics"
+      },
+      {
+        "name": "Trump",
+        "role": "US President",
+        "mentions": 6,
+        "first_seconds": 1659,
+        "context": "Pulled AI EO; China trip; Strait of Hormuz policy"
+      },
+      {
+        "name": "Sam Altman",
+        "role": "CEO, OpenAI",
+        "mentions": 2,
+        "first_seconds": 2586,
+        "context": "Mock joke about joining Anthropic"
+      },
+      {
+        "name": "Michael Burry",
+        "role": "Investor",
+        "mentions": 2,
+        "first_seconds": 4750,
+        "context": "GPU amortization bear thesis (2-year lifespan claim)"
+      },
+      {
+        "name": "Ben Horowitz",
+        "role": "Partner, a16z",
+        "mentions": 1,
+        "first_seconds": 2143,
+        "context": "Las Vegas PD AI crime tech; Flock Safety essay"
+      },
+      {
+        "name": "Nikesh Arora",
+        "role": "CEO, Palo Alto Networks",
+        "mentions": 1,
+        "first_seconds": 1667,
+        "context": "Friend of pod; invited to AI EO event that was scrubbed"
+      },
+      {
+        "name": "Michael Intrator",
+        "role": "CEO, CoreWeave",
+        "mentions": 2,
+        "first_seconds": 4805,
+        "context": "6-year GPU contracts at 6% financing; defended amortization schedule"
+      },
+      {
+        "name": "Jeff Dean",
+        "role": "Google fellow / Google DeepMind Chief Scientist",
+        "mentions": 2,
+        "first_seconds": 139,
+        "context": "Google fellows culture analogy for Karpathy's importance"
+      }
+    ],
+    "companies": [
+      {
+        "name": "SpaceX",
+        "mentions": 30,
+        "first_seconds": 2700
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 25,
+        "first_seconds": 55,
+        "context": "$45B deal with SpaceX; EBIT positive; Karpathy joining"
+      },
+      {
+        "name": "NVIDIA",
+        "mentions": 20,
+        "first_seconds": 28,
+        "context": "$81B Q1 revenue; $5.3T market cap; $20B CPU business"
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 8,
+        "first_seconds": 28
+      },
+      {
+        "name": "Cursor",
+        "mentions": 8,
+        "first_seconds": 2820,
+        "context": "Composer 2.5 Pareto-dominant; more coding tokens than internet"
+      },
+      {
+        "name": "xAI",
+        "mentions": 6,
+        "first_seconds": 2820,
+        "context": "Grok Build harness; Grok 4.3 on Pareto frontier"
+      },
+      {
+        "name": "Meta",
+        "mentions": 5,
+        "first_seconds": 2340
+      },
+      {
+        "name": "Google / DeepMind",
+        "mentions": 6,
+        "first_seconds": 555,
+        "context": "Gemini Nano in Chrome; Gemini 3.1 Pro on Pareto frontier"
+      },
+      {
+        "name": "Tesla",
+        "mentions": 4,
+        "first_seconds": 3340,
+        "context": "Possible merger with SpaceX"
+      },
+      {
+        "name": "Cloudflare",
+        "mentions": 3,
+        "first_seconds": 2258
+      },
+      {
+        "name": "Palantir",
+        "mentions": 2,
+        "first_seconds": 895
+      },
+      {
+        "name": "CoreWeave",
+        "mentions": 4,
+        "first_seconds": 3095,
+        "context": "Neo-cloud; 6-year contracts at 6% GPU financing"
+      },
+      {
+        "name": "Broadcom",
+        "mentions": 3,
+        "first_seconds": 4190,
+        "context": "143% YoY AI revenue growth; TPU narrative"
+      },
+      {
+        "name": "Atreides Management",
+        "mentions": 2,
+        "first_seconds": 0,
+        "context": "Gavin Baker's fund; invested in Exite Labs"
+      },
+      {
+        "name": "Exite Labs",
+        "mentions": 2,
+        "first_seconds": 4380,
+        "context": "In essentially every Starlink; non-space chips that pass rad testing"
+      },
+      {
+        "name": "Flock Safety",
+        "mentions": 3,
+        "first_seconds": 2060,
+        "context": "AI camera surveillance; license plate rolling database; no facial recognition"
+      },
+      {
+        "name": "Abacus",
+        "mentions": 1,
+        "first_seconds": 555,
+        "context": "Enterprise small model verticalization"
+      },
+      {
+        "name": "Amazon",
+        "mentions": 2,
+        "first_seconds": 1568
+      },
+      {
+        "name": "Blue Origin",
+        "mentions": 1,
+        "first_seconds": 4208,
+        "context": "10 years behind SpaceX on reusability"
+      },
+      {
+        "name": "Waymo",
+        "mentions": 1,
+        "first_seconds": 2007,
+        "context": "Going to a city without Waymo will feel barbaric"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Starlink",
+        "type": "satellite internet / compute",
+        "first_seconds": 2770,
+        "context": "$11.4B revenue, 10M+ subscribers, 10,000 satellites"
+      },
+      {
+        "name": "Colossus 1 / 2 / 3",
+        "type": "data center cluster",
+        "first_seconds": 2854,
+        "context": "SpaceX gigawatt-scale AI compute; 122→91→66 day build times"
+      },
+      {
+        "name": "Starship",
+        "type": "rocket",
+        "first_seconds": 3162,
+        "context": "Rapid reusability; 10x bigger payload than Falcon Heavy; needed for orbital compute"
+      },
+      {
+        "name": "Cursor Composer 2.5",
+        "type": "AI coding model",
+        "first_seconds": 3010,
+        "context": "Pareto-dominant after 3-4 weeks RL on Colossus 2"
+      },
+      {
+        "name": "Grok Build",
+        "type": "AI agent harness/runtime",
+        "first_seconds": 3218,
+        "context": "State, memory, integrations; Grok's equivalent of Claude Code / Codex"
+      },
+      {
+        "name": "Grok 4.3",
+        "type": "AI model",
+        "first_seconds": 3182,
+        "context": "500B parameter model; on Pareto frontier"
+      },
+      {
+        "name": "Gemini Nano",
+        "type": "local AI model",
+        "first_seconds": 554,
+        "context": "Quietly installed in Chrome (4GB); proofreading, autocomplete"
+      },
+      {
+        "name": "Claude Code",
+        "type": "AI agent harness",
+        "first_seconds": 3228
+      },
+      {
+        "name": "Codex",
+        "type": "AI agent harness (OpenAI)",
+        "first_seconds": 3228
+      },
+      {
+        "name": "Elon Web Services (EWS)",
+        "type": "AI cloud compute",
+        "first_seconds": 2852,
+        "context": "SpaceX selling compute; $15B/year from Anthropic alone"
+      },
+      {
+        "name": "H100 (space)",
+        "type": "GPU in orbit",
+        "first_seconds": 4007,
+        "context": "Working H100 in space today; Karpathy trained+ran inference on it"
+      },
+      {
+        "name": "Falcon Heavy",
+        "type": "rocket",
+        "first_seconds": 3162
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Bitter lesson (Sutton)",
+        "first_seconds": 165,
+        "summary": "Brute-force computation beats hand-crafted AI; Karpathy commercialized it first at Tesla FSD"
+      },
+      {
+        "name": "Recursive self-improvement",
+        "first_seconds": 95,
+        "summary": "Model has input into its own training during forward pass; Karpathy's focus at Anthropic"
+      },
+      {
+        "name": "Continual learning",
+        "first_seconds": 391,
+        "summary": "Model learns from experience the way humans do; final frontier alongside recursive self-improvement"
+      },
+      {
+        "name": "Cross-sectional inefficiency",
+        "first_seconds": 4150,
+        "summary": "Gavin Baker: memory, NVIDIA, and infrastructure multiples can't all be correct simultaneously"
+      },
+      {
+        "name": "AI harness = half the product",
+        "first_seconds": 3250,
+        "summary": "In the agentic era, the runtime (state, memory, integrations) is as important as model quality"
+      },
+      {
+        "name": "Rapid reusability",
+        "first_seconds": 4205,
+        "summary": "SpaceX goal: fly same rocket multiple times per day — not just reusable but rapidly reusable"
+      },
+      {
+        "name": "Orbital compute",
+        "first_seconds": 3155,
+        "summary": "Space-based AI data centers; free from government control; Gavin predicts H2 2028–H1 2030"
+      },
+      {
+        "name": "DC-to-DC power architecture",
+        "first_seconds": 4628,
+        "summary": "Delivering direct current all the way to the rack eliminates lossy AC conversions; Jensen needs Elon as design partner"
+      },
+      {
+        "name": "KYC for AI (Know Your Customer)",
+        "first_seconds": 1746,
+        "summary": "Chamath proposes US-China agreement requiring user verification on frontier models to prevent bioweapon misuse"
+      },
+      {
+        "name": "Regulatory moat via fear",
+        "first_seconds": 822,
+        "summary": "Gavin Baker: Dario's AI safety messaging is a rational business strategy to be inside the regulatory tent"
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "The Bitter Lesson",
+        "author": "Richard Sutton",
+        "context": "Essay on brute-force computation over hand-crafted AI; Karpathy commercialized it at Tesla"
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "HGbA6ze0_3M-p1",
+      "claim": "SpaceX closes its first day of trading with a market cap above $2T",
+      "speaker": "Polymarket (cited by Jason Calacanis)",
+      "category": "business",
+      "start_seconds": 2875,
+      "stated_at": "2026-05-22",
+      "horizon_label": "IPO day, expected ~June 12 2026",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "71% probability on Polymarket at time of recording."
+    },
+    {
+      "id": "HGbA6ze0_3M-p2",
+      "claim": "AI will be improving language models more than the humans in the loop — the 'recursive valley' is crossed",
+      "speaker": "All-In hosts",
+      "category": "ai-capability",
+      "start_seconds": 448,
+      "stated_at": "2026-05-22",
+      "horizon_label": "could already have occurred at Anthropic",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Chamath speculates this may have already happened; Freeberg uncertain on architecture path."
+    },
+    {
+      "id": "HGbA6ze0_3M-p3",
+      "claim": "Orbital compute (space-based AI data centers) becomes commercially real",
+      "speaker": "Gavin Baker",
+      "category": "compute-infrastructure",
+      "start_seconds": 3995,
+      "stated_at": "2026-05-22",
+      "horizon_label": "H2 2028 to H1 2030",
+      "revisit_dates": [
+        "2028-12-31",
+        "2030-06-30"
+      ],
+      "status": "open",
+      "notes": "H100 already in space; NVIDIA making space-grade GPU variant; SpaceX Starship rapid reusability prerequisite."
+    },
+    {
+      "id": "HGbA6ze0_3M-p4",
+      "claim": "Tesla and SpaceX merge into a single combined entity ($ELON or similar)",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3355,
+      "stated_at": "2026-05-22",
+      "horizon_label": "not if, but when",
+      "revisit_dates": [
+        "2027-05-22",
+        "2029-05-22"
+      ],
+      "status": "open",
+      "notes": "Would be 4th largest company in world; combined physical AI + space + compute moat."
+    },
+    {
+      "id": "HGbA6ze0_3M-p5",
+      "claim": "SpaceX terrestrial data center revenue reaches $100–200B by 2030–2032",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3720,
+      "stated_at": "2026-05-22",
+      "horizon_label": "2030–2032",
+      "revisit_dates": [
+        "2030-12-31",
+        "2032-12-31"
+      ],
+      "status": "open",
+      "notes": "Colossus deal cadence implies $40–45B in 2027, doubling year-over-year. Excludes orbital."
+    },
+    {
+      "id": "HGbA6ze0_3M-p6",
+      "claim": "Cursor becomes the dominant AI coding platform within a year",
+      "speaker": "Gavin Baker / Jason Calacanis",
+      "category": "ai-product",
+      "start_seconds": 3130,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 year",
+      "revisit_dates": [
+        "2027-05-22"
+      ],
+      "status": "open",
+      "notes": "Composer 2.5 already Pareto-dominant. Next: new base model pre-trained with Cursor coding data on Colossus."
+    },
+    {
+      "id": "HGbA6ze0_3M-p7",
+      "claim": "Starship achieves rapid reusability (multiple flights per day of same vehicle)",
+      "speaker": "Gavin Baker",
+      "category": "space",
+      "start_seconds": 4230,
+      "stated_at": "2026-05-22",
+      "horizon_label": "1–2 years",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Rapid reusability (not just reusability) required for Mars colony and orbital compute. Gavin: consensus ~1-2 years."
+    },
+    {
+      "id": "HGbA6ze0_3M-p8",
+      "claim": "US CPI hits 4.2%+ in May 2026 (Fed forced to raise rates)",
+      "speaker": "Polymarket / professional forecasters (cited)",
+      "category": "macro",
+      "start_seconds": 4965,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 month (May 2026 CPI release)",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "Polymarket 99% probability; survey of professional forecasters projecting up to 6% CPI in Q2."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Anthropic → SpaceX deal",
+      "val": "$45B",
+      "unit": "/ 3y",
+      "sub": "$1.25B per month. Adds a second Starlink-scale revenue line to SpaceX from a single customer."
+    },
+    {
+      "label": "NVIDIA Q1 revenue",
+      "val": "$81B",
+      "unit": "+85% YoY",
+      "sub": "Stock only +16% YTD. The disconnect Gavin and Chamath spend most of the NVIDIA segment on."
+    },
+    {
+      "label": "Cursor Composer 2.5 ramp",
+      "val": "3–4",
+      "unit": "weeks",
+      "sub": "RL on Colossus 2 alone pushed it to Pareto-dominant. Base model hasn't even been re-trained yet."
+    },
+    {
+      "label": "Global debt to GDP",
+      "val": "310",
+      "unit": "%",
+      "sub": "Freeberg's force of gravity inevitable. The macro shoe nobody can quite predict the drop time of."
+    }
+  ]
+}

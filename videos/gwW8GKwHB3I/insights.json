@@ -1,0 +1,84 @@
+{
+  "video": {
+    "id": "gwW8GKwHB3I",
+    "title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+    "channel": "All-In Podcast",
+    "duration_seconds": 3966,
+    "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+    "upload_date": "2026-03-19",
+    "view_count": 588714
+  },
+  "thesis": "Inference, not training, is now the constraint — and the unit economics of AI have flipped: tokens are CapEx for knowledge workers, agents are the new operating system, and every industry from biology to robotics gets re-platformed in the next 3–5 years.",
+  "insights": [
+    {"id": 1, "category": "counterintuitive", "headline": "A $50B factory makes the cheapest tokens", "body": "Don't equate the price of the factory with the price of the tokens. Of a $50B Vera Rubin build, ~$20B is land, power and shell; the GPU delta vs a cheaper alternative is small — but Nvidia's throughput is 10× higher. \"Even when the chips are free, it's not cheap enough.\"", "start_seconds": 471, "end_seconds": 533},
+    {"id": 2, "category": "data-point", "headline": "Compute demand is up 10,000× in two years", "body": "Generative → reasoning was a 100× jump in compute. Reasoning → agentic added another 100×. The whole industry slid two decimal places to the right and most analyst models haven't caught up.", "start_seconds": 1350, "end_seconds": 1410},
+    {"id": 3, "category": "framework", "headline": "$250K of tokens is the new bar per engineer", "body": "\"If a $500K engineer consumed only $5K in tokens, I will go ape.\" The expectation: half of comp again, in compute. Same logic as a chip designer who refuses CAD, or LeBron spending $1M/yr on his body — tools that amplify scarce talent.", "start_seconds": 1476, "end_seconds": 1560},
+    {"id": 4, "category": "mental-model", "headline": "An agent runtime is a computer", "body": "Memory, scheduling, IO, skills — four primitives that define a computer. Claude Code (\"Open Claw\") supplies them in software, on top of any model. \"This is the blueprint, the operating system of modern computing.\"", "start_seconds": 858, "end_seconds": 942},
+    {"id": 5, "category": "framework", "headline": "Only build what is insanely hard", "body": "Nvidia's strategy filter: is this insanely hard, has it never been done, and does it tap our unique superpowers? Easy → too many competitors. The price of admission is real pain and suffering — \"you better enjoy it.\"", "start_seconds": 564, "end_seconds": 640},
+    {"id": 6, "category": "prediction", "headline": "Inference is the new constraint", "body": "A year ago Jensen called inference \"a billion×\" and was treated as hyperbolic when the field was fixated on pre-training. Now: inference-constrained, with a Vera Rubin factory targeting 10× the throughput of the prior generation.", "start_seconds": 404, "end_seconds": 471},
+    {"id": 7, "category": "counterintuitive", "headline": "Under-adoption is the real AI risk", "body": "AI sits at 17% popularity in the US. Jensen's parallel: the nuclear industry was shut down here while China is building 100 fusion reactors. National-security risk #1 isn't bad actors abroad — it's American industries that don't deploy AI at all.", "start_seconds": 1223, "end_seconds": 1268},
+    {"id": 8, "category": "data-point", "headline": "Nvidia went from 95% to 0% in China", "body": "Nvidia gave up 95% market share in the world's second-largest market and is now at zero. Licenses are being applied for under Lutnick; many Chinese customers have already placed POs pending shipment.", "start_seconds": 1990, "end_seconds": 2060},
+    {"id": 9, "category": "mental-model", "headline": "Models are technology, not product", "body": "Closed and open weights aren't an A/B choice — they're A and B. By usage, OpenAI is #1, open source is #2, Anthropic is a \"distant third.\" Industries need open models they can fine-tune and own; consumers will keep paying for the polished products.", "start_seconds": 1894, "end_seconds": 1980},
+    {"id": 10, "category": "counterintuitive", "headline": "Enterprise SaaS doesn't die, it 100×'s", "body": "The cynical take: agents kill SaaS. Jensen's flip: SaaS was \"limited by butts and seats\" and now gets 100× more agents banging on SQL, Blender, Photoshop, Synopsys. Tools are the conduit between humans and work — they don't go away, they get hammered.", "start_seconds": 1748, "end_seconds": 1830},
+    {"id": 11, "category": "framework", "headline": "Physical AI needs three computers", "body": "Training computer (build the model). Simulation/evaluation computer (Omniverse — software that obeys physics). Edge computer (the car, the robot, the teddy bear, the 5G base station). All three are required, none is optional.", "start_seconds": 314, "end_seconds": 376},
+    {"id": 12, "category": "prediction", "headline": "Digital biology is at its ChatGPT moment", "body": "We're close to representing genes, proteins, cells as fluently as we represent chemicals — \"a couple of two, three, five years.\" Healthcare inflects in five. Agriculture is inflecting now. Physical AI is already a ~$10B/yr Nvidia business growing exponentially.", "start_seconds": 689, "end_seconds": 750},
+    {"id": 13, "category": "prediction", "headline": "Robots everywhere in 3 to 5 years", "body": "\"Technology never takes more than a couple two three cycles\" from existence-proof to real product — call it 3–5 years for humanoids in the wild. China leads the supply chain that matters: motors, magnets, rare earth. The Western robotics stack will lean on it.", "start_seconds": 3157, "end_seconds": 3240},
+    {"id": 14, "category": "prediction", "headline": "Dario's $1T-by-2030 is too low", "body": "Dario forecasts $1T in non-infrastructure AI revenue by 2030. Jensen: \"way better than that.\" The missing variable — every enterprise software company will become a value-added reseller of Anthropic and OpenAI tokens, multiplying go-to-market.", "start_seconds": 3370, "end_seconds": 3490},
+    {"id": 15, "category": "story", "headline": "The radiologist parable", "body": "A top computer scientist told students 10 years ago: don't go into radiology, CV will eat it. CV did get fully integrated. Yet radiologist demand skyrocketed — faster scans → more scans → more hospital revenue → more hiring. A job has a purpose, not just a task.", "start_seconds": 3795, "end_seconds": 3880},
+    {"id": 16, "category": "framework", "headline": "The new moat is deep vertical specialization", "body": "At the application layer, general models become commodities. The moat: depth in a vertical + an agent-to-customer flywheel. Inverts classic SaaS — build narrow first, then let agents generalize outward. Customization, historically, has been a 5–6× bigger industry than horizontal platforms.", "start_seconds": 3470, "end_seconds": 3590},
+    {"id": 17, "category": "data-point", "headline": "40% of Nvidia's business lives outside the cloud", "body": "Most analysts miss this: ~40% of revenue is regional, enterprise, on-prem, edge, in-car, in-space. That segment requires the full CUDA stack and a packaged AI factory — which is why ASIC-only competitors can't reach it.", "start_seconds": 2611, "end_seconds": 2700},
+    {"id": 18, "category": "mental-model", "headline": "Programming becomes specification + orchestration", "body": "\"In the past we code; in the future we write ideas, architectures, specifications. We organize teams, define what good looks like, brainstorm.\" Every engineer ends up directing ~100 agents. The English major may be the most successful graduate.", "start_seconds": 1600, "end_seconds": 1680}
+  ],
+  "quotes": [
+    {"text": "Even when the chips are free, it's not cheap enough.", "start_seconds": 503},
+    {"text": "If that $500,000 engineer did not consume at least $250,000 worth of tokens, I am going to be deeply alarmed.", "start_seconds": 1483},
+    {"text": "Open Claw is the blueprint, the operating system of modern computing.", "start_seconds": 942},
+    {"text": "Talking to a chatbot is super great. Getting work done — I'll pay for, indeed.", "start_seconds": 1370},
+    {"text": "Warning is good. Scaring is less good.", "start_seconds": 1162},
+    {"text": "Models are a technology, not a product. Not a service.", "start_seconds": 1894},
+    {"text": "In the past we code. In the future we write ideas, architectures, specifications.", "start_seconds": 1605},
+    {"text": "Language is the programming language of AI now.", "start_seconds": 3725}
+  ],
+  "data_points": {
+    "compute_scaling": [
+      {"era": "Pre-training", "compute": 1, "label": "1×"},
+      {"era": "Reasoning", "compute": 100, "label": "100×"},
+      {"era": "Agentic", "compute": 10000, "label": "10,000×"}
+    ],
+    "factory_economics": [
+      {"component": "Land / power / shell", "cost_b": 20, "color": "muted"},
+      {"component": "Storage / networking / cooling", "cost_b": 15, "color": "muted"},
+      {"component": "GPUs (Nvidia Vera Rubin)", "cost_b": 15, "color": "accent"}
+    ],
+    "factory_throughput": [
+      {"label": "Alternative ASIC factory ($30B)", "throughput": 1},
+      {"label": "Nvidia Vera Rubin ($50B)", "throughput": 10}
+    ],
+    "model_share": [
+      {"model": "OpenAI", "rank": 1, "weight": 100},
+      {"model": "Open-source / open-weights", "rank": 2, "weight": 70},
+      {"model": "Anthropic", "rank": 3, "weight": 25}
+    ],
+    "engineer_economics": {"salary": 500000, "expected_token_spend": 250000, "minimum_floor": 5000}
+  },
+  "resources": [
+    {"name": "Groq", "context": "Acquired — used for 25% of Vera Rubin racks for high-value inference"},
+    {"name": "Dynamo", "context": "Nvidia's AI-factory OS, built on disaggregated inference"},
+    {"name": "Claude Code / Open Claw", "context": "Peter Steinberger's agentic system; cited as the OS of modern computing"},
+    {"name": "Omniverse", "context": "Physics-faithful simulator — the second of three computers"},
+    {"name": "Karpathy's auto-research", "context": "600-line agent that produced a publishable genomics result in 30 minutes on a desktop"},
+    {"name": "BitTensor subnet 3", "context": "Distributed training of a 4B llama model — folding@home for LLMs"},
+    {"name": "Ohalo", "context": "Freiberg's company applying AI to caloric yield in agriculture"},
+    {"name": "Open Evidence, Hippocratic AI", "context": "Agentic medical assistants Nvidia partners with"},
+    {"name": "Vera Rubin & Blackwell", "context": "Visibility to $1T of cumulative revenue cited"},
+    {"name": "Dwarkesh podcast — Dario interview", "context": "Source of the $1T-by-2030 forecast Jensen calls conservative"}
+  ],
+  "action_items": [
+    "Audit your engineering org's per-head token spend. If it's <$50K/yr for $300K+ ICs, you're under-tooled.",
+    "Treat agent runtimes (Claude Code, etc.) as the new platform: build skills, manage memory, govern IO — not just call APIs.",
+    "If you're building at the application layer, pick a vertical and go deep before going wide. Inverts classic SaaS instinct.",
+    "Stop pricing inference by chip cost. Price by throughput-per-dollar at your real workload mix.",
+    "If your business depends on horizontal SaaS tools, expect 100× more agentic load against them — plan for it, not against it."
+  ]
+}

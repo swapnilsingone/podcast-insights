@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tracker — Podcast Insights</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./lib.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 20px 0 36px; }
+@media (max-width: 880px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+.stat .l { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.stat .v { font-family: var(--serif); font-weight: 700; font-size: 32px; letter-spacing: -0.02em; line-height: 1.1; color: var(--ink); margin-top: 4px; }
+.stat .v .unit { font-size: 14px; color: var(--accent); font-weight: 500; margin-left: 4px; }
+.stat .delta { font-family: var(--mono); font-size: 11px; color: var(--accent-2); margin-top: 6px; }
+.stat .delta.warn { color: var(--accent-mag); }
+.row-2 { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; }
+@media (max-width: 980px) { .row-2 { grid-template-columns: 1fr; } }
+.row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+@media (max-width: 980px) { .row-3 { grid-template-columns: 1fr; } }
+.chart-wrap { height: 260px; position: relative; }
+.list { display: flex; flex-direction: column; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.list .li { background: var(--surface); padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; transition: background .15s; }
+.list .li:hover { background: var(--surface-2); }
+.list .li .name { font-family: var(--serif); font-size: 15px; color: var(--ink); }
+.list .li .meta { font-family: var(--mono); font-size: 11px; color: var(--muted); display: flex; gap: 10px; align-items: center; }
+.list .li .badge { background: var(--bg-2); color: var(--accent); padding: 3px 8px; border-radius: 999px; font-size: 10px; letter-spacing: .04em; }
+.list .li .badge.warn { color: var(--accent-mag); }
+.cmpd-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+.cmpd-card h3 { font-family: var(--serif); font-weight: 600; font-size: 17px; margin: 0 0 4px; color: var(--ink); }
+.cmpd-card .sub { color: var(--muted); font-size: 12px; font-family: var(--mono); margin-bottom: 14px; }
+.cmpd-card .empty-mini { padding: 22px 0; color: var(--muted-2); font-size: 13px; font-style: italic; }
+.pred-card { display: flex; flex-direction: column; gap: 8px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.pred-card .claim { font-family: var(--serif); font-size: 15px; line-height: 1.4; color: var(--ink); }
+.pred-card .meta { font-family: var(--mono); font-size: 11px; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+.pred-card .due { color: var(--accent-mag); }
+.pred-card .right { color: var(--accent-2); }
+.recent { display: grid; gap: 10px; }
+.recent .item { display: grid; grid-template-columns: 80px 1fr auto; gap: 14px; align-items: center; padding: 12px; border: 1px solid var(--line); border-radius: 10px; transition: border-color .15s; }
+.recent .item:hover { border-color: var(--accent); }
+.recent .item img { width: 80px; height: 45px; object-fit: cover; border-radius: 6px; background: var(--bg-2); }
+.recent .item .t { font-family: var(--serif); font-size: 14px; color: var(--ink); line-height: 1.3; }
+.recent .item .c { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.recent .item .d { font-family: var(--mono); font-size: 11px; color: var(--muted-2); }
+.banner { background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 26px; display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
+.banner .text { font-family: var(--serif); font-size: 16px; color: var(--ink-2); line-height: 1.5; max-width: 60ch; }
+.banner .text strong { color: var(--accent); font-weight: 500; }
+.banner .pulse { width: 10px; height: 10px; border-radius: 50%; background: var(--accent-2); box-shadow: 0 0 0 4px rgba(111,227,196,.18); animation: pulse 2s ease-in-out infinite; flex-shrink: 0; }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(.85); } }
+.signal { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--surface); border-left: 3px solid var(--accent); margin-bottom: 8px; border-radius: 0 8px 8px 0; }
+.signal .ico { color: var(--accent); flex-shrink: 0; }
+.signal .text { font-size: 13.5px; color: var(--ink-2); line-height: 1.45; }
+.signal .text b { color: var(--ink); font-weight: 600; }
+.signal.teal { border-left-color: var(--accent-2); }
+.signal.teal .ico { color: var(--accent-2); }
+.signal.mag { border-left-color: var(--accent-mag); }
+.signal.mag .ico { color: var(--accent-mag); }
+.signal.blue { border-left-color: var(--accent-blue); }
+.signal.blue .ico { color: var(--accent-blue); }
+.last-visit { color: var(--muted); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="topbar">
+  <div class="brand"><a href="./index.html"><span class="dot"></span>Podcast Insights</a></div>
+  <nav class="nav">
+    <a href="./index.html">Library</a>
+    <a href="./dashboard.html" class="active">Tracker</a>
+    <a href="./entities.html">Entities</a>
+    <a href="./predictions.html">Predictions</a>
+    <a href="./speakers.html">Speakers</a>
+    <a href="./qa.html">Ask</a>
+    <a href="./compare.html">Compare</a>
+    <a href="./highlights.html">Highlights</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn" title="Toggle theme">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</header>
+
+<header class="hero">
+  <div class="kicker">
+    <span>Compounding tracker</span>
+    <span id="snapshotTime" class="last-visit"></span>
+  </div>
+  <h1>What is your library <em>actually doing</em>?</h1>
+  <p class="lede">A small archive is just a list. A growing one starts to talk back — recurring people, names that show up in two then five videos, predictions whose dates have arrived. This page surfaces that.</p>
+</header>
+
+<div class="banner" id="signalBanner">
+  <span class="pulse"></span>
+  <div class="text" id="signalText">Loading…</div>
+</div>
+
+<div class="stat-grid" id="stats"></div>
+
+<div class="section-label"><span>Signals worth knowing</span><span class="rule"></span></div>
+<div id="signals"></div>
+
+<div class="section-label" style="margin-top: 36px"><span>Growth</span><span class="rule"></span></div>
+<div class="row-2">
+  <div class="cmpd-card">
+    <h3>Insights added over time</h3>
+    <div class="sub">cumulative; each new video bumps the line</div>
+    <div class="chart-wrap"><canvas id="growthChart"></canvas></div>
+  </div>
+  <div class="cmpd-card">
+    <h3>Where the volume comes from</h3>
+    <div class="sub">channels by share of archived hours</div>
+    <div class="chart-wrap"><canvas id="channelChart"></canvas></div>
+  </div>
+</div>
+
+<div class="section-label"><span>Time coverage</span><span class="rule"></span></div>
+<div class="row-2">
+  <div class="cmpd-card">
+    <h3>Videos by source upload month</h3>
+    <div class="sub">when the conversations themselves were published — not when you archived them</div>
+    <div class="chart-wrap"><canvas id="uploadHist"></canvas></div>
+    <div id="coverageNote" style="font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:10px"></div>
+  </div>
+  <div class="cmpd-card">
+    <h3>Freshest uploads in your library</h3>
+    <div class="sub">sorted by YouTube publish date — useful for "what's the newest take I have on X"</div>
+    <div id="freshList"></div>
+  </div>
+</div>
+
+<div class="section-label"><span>What's compounding</span><span class="rule"></span></div>
+<div class="row-3">
+  <div class="cmpd-card">
+    <h3>Recurring people</h3>
+    <div class="sub">named in 2+ videos</div>
+    <div id="recurPeople"></div>
+  </div>
+  <div class="cmpd-card">
+    <h3>Recurring companies</h3>
+    <div class="sub">named in 2+ videos</div>
+    <div id="recurCos"></div>
+  </div>
+  <div class="cmpd-card">
+    <h3>Recurring speakers</h3>
+    <div class="sub">appeared as guest 2+ times</div>
+    <div id="recurSpeakers"></div>
+  </div>
+</div>
+
+<div class="section-label"><span>Predictions</span><span class="rule"></span></div>
+<div class="row-2">
+  <div class="cmpd-card">
+    <h3>Overdue for review</h3>
+    <div class="sub">revisit dates have arrived — score them</div>
+    <div id="overduePred"></div>
+  </div>
+  <div class="cmpd-card">
+    <h3>Due within 90 days</h3>
+    <div class="sub">put a calendar reminder</div>
+    <div id="duePred"></div>
+  </div>
+</div>
+
+<div class="section-label"><span>Latest activity</span><span class="rule"></span></div>
+<div class="cmpd-card">
+  <div class="recent" id="recent"></div>
+</div>
+
+<footer>
+  <span>Snapshot is read from <code style="background:var(--surface);padding:2px 6px;border-radius:4px;color:var(--accent)">library/tracker.json</code> — regenerate with <code style="background:var(--surface);padding:2px 6px;border-radius:4px;color:var(--accent)">python3 scripts/build_indexes.py</code></span>
+  <span><a href="./index.html">← back to library</a></span>
+</footer>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const fmtDate = (s) => s ? new Date(s).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+const fmtRel = (s) => {
+  if (!s) return '';
+  const diff = (Date.now() - new Date(s).getTime()) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return `${Math.floor(diff/60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff/3600)}h ago`;
+  if (diff < 86400*30) return `${Math.floor(diff/86400)}d ago`;
+  return new Date(s).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+};
+
+async function loadAll() {
+  const [tracker, predictions] = await Promise.all([
+    fetch('./tracker.json', {cache:'no-cache'}).then(r => r.json()),
+    fetch('./predictions.json', {cache:'no-cache'}).then(r => r.json()).catch(() => ({open:[], validated:[]}))
+  ]);
+  render(tracker, predictions);
+}
+
+function render(t, preds) {
+  const T = t.totals;
+  $('#snapshotTime').textContent = 'snapshot ' + fmtRel(t.snapshot_at);
+
+  // Top banner — pick a "what's new" message
+  const overdueCount = (t.predictions_overdue || []).length;
+  const dueCount = (t.predictions_due_within_90d || []).length;
+  const recurCount = (t.recurring_entities || []).length;
+  const recentCount = (t.recent_videos || []).length;
+  let msg;
+  if (T.videos === 0) {
+    msg = "Your library is empty. Add a YouTube URL to <strong>queue.txt</strong> or paste one into a Claude Code session to begin.";
+  } else if (T.videos === 1) {
+    msg = "You're at <strong>1 video</strong>. The tracker is mostly empty — that's expected. Compounding starts at video 3–5: people repeat, predictions accumulate, themes emerge.";
+  } else if (overdueCount > 0) {
+    msg = `<strong>${overdueCount} prediction${overdueCount===1?'':'s'} overdue</strong> for scoring. Mark them right or wrong below — calibration is the long-term payoff.`;
+  } else if (recurCount > 0) {
+    msg = `<strong>${recurCount} ${recurCount===1?'entity is':'entities are'} now compounding</strong> — same names appearing in multiple videos. Click through to see them.`;
+  } else if (recentCount > 0) {
+    msg = `<strong>${recentCount} new video${recentCount===1?'':'s'}</strong> added in the last two weeks. Keep going.`;
+  } else {
+    msg = `Library is quiet. <strong>${T.videos} videos, ${T.insights} insights</strong> archived. Add a video to keep the flywheel turning.`;
+  }
+  $('#signalText').innerHTML = msg;
+
+  // Stats
+  const U = t.uploads || {};
+  const spanLabel = U.span_days ? (U.span_days >= 365 ? `${(U.span_days/365).toFixed(1)}y` : `${U.span_days}d`) : '—';
+  const lagLabel = U.avg_processing_lag_days != null ? `${Math.round(U.avg_processing_lag_days)}d` : '—';
+  const stats = [
+    {l: 'videos', v: T.videos, unit: ''},
+    {l: 'insights', v: T.insights, unit: ''},
+    {l: 'hours archived', v: T.hours_archived, unit: 'h'},
+    {l: 'channels', v: T.channels, unit: ''},
+    {l: 'source-date span', v: spanLabel, unit: ''},
+    {l: 'avg lag (upload→archive)', v: lagLabel, unit: ''},
+    {l: 'open predictions', v: T.predictions_open, unit: ''},
+    {l: 'predictions validated', v: T.predictions_validated, unit: '', class: 'teal'}
+  ];
+  $('#stats').innerHTML = stats.map(s => `
+    <div class="stat"><div class="l">${s.l}</div><div class="v">${s.v}<span class="unit">${s.unit}</span></div></div>
+  `).join('');
+
+  // Signals — surface what's interesting
+  const signals = [];
+  if (overdueCount > 0) {
+    signals.push({class: 'mag', text: `<b>${overdueCount} prediction${overdueCount===1?'':'s'} overdue.</b> Their revisit dates have passed. <a href="./predictions.html" style="color:var(--accent-mag);text-decoration:underline">Score them →</a>`});
+  }
+  if (dueCount > 0) {
+    signals.push({class: 'accent', text: `<b>${dueCount} prediction${dueCount===1?'':'s'} due within 90 days.</b> Worth a calendar reminder. <a href="./predictions.html" style="color:var(--accent);text-decoration:underline">View →</a>`});
+  }
+  if (T.predictions_validated > 0) {
+    signals.push({class: 'teal', text: `<b>${T.predictions_validated} validated prediction${T.predictions_validated===1?'':'s'}</b> in the archive — a calibration record is forming.`});
+  }
+  for (const e of (t.recurring_entities||[]).slice(0, 3)) {
+    signals.push({class: 'blue', text: `<b>${e.name}</b> appears in <b>${e.video_count} videos</b> across your library. <a href="./entities.html#${e.slug}" style="color:var(--accent-blue);text-decoration:underline">See connections →</a>`});
+  }
+  for (const s of (t.recurring_speakers||[]).slice(0, 2)) {
+    signals.push({class: 'teal', text: `<b>${s.name}</b> has now appeared as guest in <b>${s.appearance_count} videos</b> — a dossier is taking shape. <a href="./speakers.html#${s.slug}" style="color:var(--accent-2);text-decoration:underline">Dossier →</a>`});
+  }
+  if (T.videos >= 2 && (t.recurring_entities||[]).length === 0) {
+    signals.push({class: 'accent', text: `No entities recur across videos yet. That's likely an extraction gap — entities are extracted from each artifact's <code>entities.json</code>.`});
+  }
+  if (signals.length === 0) {
+    signals.push({class: 'accent', text: `Quiet week. Nothing new to surface. Keep adding videos and the tracker fills in.`});
+  }
+  $('#signals').innerHTML = signals.map(s => `
+    <div class="signal ${s.class}">
+      <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+      <div class="text">${s.text}</div>
+    </div>
+  `).join('');
+
+  // Growth chart
+  initGrowth(t.growth_by_day || []);
+
+  // Channel chart
+  initChannels(t.recent_videos ? t : t);
+
+  // Upload histogram + coverage note
+  initUploadHist((t.uploads||{}).by_month || []);
+  const oldest = (t.uploads||{}).oldest_upload, newest = (t.uploads||{}).newest_upload;
+  $('#coverageNote').textContent = oldest && newest
+    ? `Source range · ${oldest} → ${newest} (${(t.uploads||{}).span_days||0} days)`
+    : 'add more videos to see coverage';
+
+  // Freshest list (by upload_date)
+  const fresh = t.recently_uploaded || [];
+  $('#freshList').innerHTML = fresh.length ? `<div class="list">${fresh.map(v => `
+    <a class="li" href="${v.path}">
+      <span class="name" style="font-size:13.5px">${v.title}</span>
+      <span class="meta">
+        <span class="badge">${v.upload_date||''}</span>
+      </span>
+    </a>`).join('')}</div>` : `<div class="empty-mini">no upload dates yet</div>`;
+
+  // Recurring lists
+  const pe = (t.recurring_entities||[]).filter(e => e.kind === 'people');
+  const co = (t.recurring_entities||[]).filter(e => e.kind === 'companies');
+  const sp = t.recurring_speakers || [];
+  $('#recurPeople').innerHTML = renderListOrEmpty(pe, (e) => `
+    <a class="li" href="./entities.html#${e.slug}">
+      <span class="name">${e.name}</span>
+      <span class="meta"><span class="badge">${e.video_count} videos</span></span>
+    </a>`, 'Not yet — keep adding videos and people will start to recur.');
+  $('#recurCos').innerHTML = renderListOrEmpty(co, (e) => `
+    <a class="li" href="./entities.html#${e.slug}">
+      <span class="name">${e.name}</span>
+      <span class="meta"><span class="badge">${e.video_count} videos</span></span>
+    </a>`, 'No companies recur yet.');
+  $('#recurSpeakers').innerHTML = renderListOrEmpty(sp, (s) => `
+    <a class="li" href="./speakers.html#${s.slug}">
+      <span class="name">${s.name}</span>
+      <span class="meta"><span class="badge">${s.appearance_count}×</span></span>
+    </a>`, 'Add a second video featuring a repeat guest.');
+
+  // Predictions
+  const overdue = t.predictions_overdue || [];
+  const due = (t.predictions_due_within_90d || []).filter(p => !overdue.find(o => o.id === p.id));
+  $('#overduePred').innerHTML = overdue.length ? overdue.slice(0,5).map(predCard).join('') : `<div class="empty-mini">Nothing overdue. ✓</div>`;
+  $('#duePred').innerHTML = due.length ? due.slice(0,5).map(predCard).join('') : `<div class="empty-mini">Nothing on deck for the next 90 days.</div>`;
+
+  // Recent
+  const recent = t.recent_videos || [];
+  $('#recent').innerHTML = recent.length ? recent.map(v => `
+    <a class="item" href="${v.path}">
+      <img src="${v.thumbnail||''}" alt="" loading="lazy">
+      <div>
+        <div class="c">${v.channel||''}</div>
+        <div class="t">${v.title}</div>
+      </div>
+      <div class="d">${fmtRel(v.processed_at)}</div>
+    </a>
+  `).join('') : `<div class="empty-mini">No recent activity in the last two weeks.</div>`;
+}
+
+function predCard(p) {
+  const nextDate = (p.revisit_dates||[])[0];
+  return `
+    <div class="pred-card">
+      <div class="claim">${p.claim}</div>
+      <div class="meta">
+        <span>${p.speaker||''}</span>
+        <span class="due">due ${fmtDate(nextDate)}</span>
+        <span><a href="${p.url}" target="_blank" rel="noopener" style="color:var(--accent)">source ↗</a></span>
+      </div>
+    </div>`;
+}
+
+function renderListOrEmpty(arr, fn, empty) {
+  if (!arr.length) return `<div class="empty-mini">${empty}</div>`;
+  return `<div class="list">${arr.slice(0, 8).map(fn).join('')}</div>`;
+}
+
+let charts = [];
+function initGrowth(daily) {
+  // Build cumulative
+  let cumV = 0, cumI = 0;
+  const labels = [], vidsData = [], insightsData = [];
+  if (daily.length === 0) {
+    labels.push(new Date().toISOString().slice(0,10));
+    vidsData.push(0); insightsData.push(0);
+  } else {
+    for (const d of daily) {
+      cumV += d.videos; cumI += d.insights;
+      labels.push(d.date);
+      vidsData.push(cumV); insightsData.push(cumI);
+    }
+  }
+  const css = getComputedStyle(document.documentElement);
+  const accent = css.getPropertyValue('--accent').trim();
+  const teal = css.getPropertyValue('--accent-2').trim();
+  const line = css.getPropertyValue('--line-strong').trim();
+  const muted = css.getPropertyValue('--muted').trim();
+  charts.push(new Chart($('#growthChart'), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        { label: 'insights', data: insightsData, borderColor: accent, backgroundColor: accent+'22', tension: 0.25, fill: true, yAxisID: 'y1' },
+        { label: 'videos', data: vidsData, borderColor: teal, backgroundColor: 'transparent', tension: 0.25, borderDash: [4,4], yAxisID: 'y' }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: muted, font: { size: 11, family: 'JetBrains Mono' } } } },
+      scales: {
+        x: { ticks: { color: muted, font: { size: 10 } }, grid: { display: false } },
+        y:  { position: 'right', grid: { display: false }, ticks: { color: teal, font: { size: 10 }, callback: v => v + ' vids' } },
+        y1: { position: 'left', grid: { color: line }, ticks: { color: accent, font: { size: 10 } } }
+      }
+    }
+  }));
+}
+function initUploadHist(byMonth) {
+  const css = getComputedStyle(document.documentElement);
+  const accent = css.getPropertyValue('--accent-2').trim();
+  const muted = css.getPropertyValue('--muted').trim();
+  const line = css.getPropertyValue('--line-strong').trim();
+  // Fill missing months between min and max so the histogram reads as a real timeline
+  let labels = byMonth.map(d => d.month);
+  let data = byMonth.map(d => d.videos);
+  if (byMonth.length >= 2) {
+    const [y0,m0] = byMonth[0].month.split('-').map(Number);
+    const [y1,m1] = byMonth[byMonth.length-1].month.split('-').map(Number);
+    const out = [];
+    let y=y0, m=m0;
+    while (y < y1 || (y===y1 && m <= m1)) {
+      const key = `${y}-${String(m).padStart(2,'0')}`;
+      const found = byMonth.find(b => b.month === key);
+      out.push({month: key, videos: found ? found.videos : 0});
+      m++; if (m > 12) { m = 1; y++; }
+    }
+    labels = out.map(d => d.month);
+    data = out.map(d => d.videos);
+  }
+  charts.push(new Chart($('#uploadHist'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data, backgroundColor: accent, borderRadius: 4, barThickness: 'flex', maxBarThickness: 36 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => `${c.parsed.y} video${c.parsed.y===1?'':'s'}` } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: muted, font: { size: 10 }, autoSkip: true, maxTicksLimit: 12 } },
+        y: { grid: { color: line }, ticks: { color: muted, font: { size: 10 }, precision: 0 } }
+      }
+    }
+  }));
+}
+function initChannels(t) {
+  const recent = t.recent_videos || [];
+  // Approximate from library entries via recent + tracker doesn't have all — recompute by fetching library
+  fetch('./library.json').then(r=>r.json()).then(lib => {
+    const byCh = {};
+    for (const v of lib) {
+      const c = v.channel || 'Unknown';
+      byCh[c] = (byCh[c] || 0) + (v.duration_seconds||0) / 3600;
+    }
+    const entries = Object.entries(byCh).sort((a,b) => b[1]-a[1]).slice(0, 8);
+    const css = getComputedStyle(document.documentElement);
+    const palette = ['--accent','--accent-2','--accent-mag','--accent-blue'].map(v=>css.getPropertyValue(v).trim());
+    charts.push(new Chart($('#channelChart'), {
+      type: 'doughnut',
+      data: {
+        labels: entries.map(e => e[0]),
+        datasets: [{ data: entries.map(e => +e[1].toFixed(1)), backgroundColor: entries.map((_,i) => palette[i%palette.length]), borderColor: css.getPropertyValue('--bg').trim(), borderWidth: 3 }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        cutout: '62%',
+        plugins: { legend: { position: 'right', labels: { color: css.getPropertyValue('--ink-2').trim(), font:{size:11}, boxWidth: 10, padding: 12 } },
+                   tooltip: { callbacks: { label: c => `${c.label}: ${c.parsed}h` } } }
+      }
+    }));
+  });
+}
+
+$('#themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  charts.forEach(c => c.destroy()); charts = [];
+  loadAll();
+};
+
+loadAll();
+</script>
+</body>
+</html>

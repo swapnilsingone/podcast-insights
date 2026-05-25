@@ -1,0 +1,271 @@
+{
+  "video": {
+    "id": "qTogNUV3CAI",
+    "title": "Demis Hassabis — Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+    "channel": "Dwarkesh Patel",
+    "duration_seconds": 3694,
+    "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+    "upload_date": "2024-02-28",
+    "display_title_html": "Demis Hassabis — Scaling, superhuman AIs, <em>AlphaZero atop LLMs</em>, AlphaFold"
+  },
+  "thesis": "Hassabis argues the most likely path to AGI is large multimodal models used as world-model priors with AlphaZero-style planning and search bolted on top — and that DeepMind is roughly on the 20-year timeline it set in 2010.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Nature of intelligence"
+    },
+    {
+      "start": 356,
+      "title": "RL atop LLMs"
+    },
+    {
+      "start": 991,
+      "title": "Scaling and alignment"
+    },
+    {
+      "start": 1453,
+      "title": "Timelines and intelligence explosion"
+    },
+    {
+      "start": 1722,
+      "title": "Gemini training"
+    },
+    {
+      "start": 2130,
+      "title": "Governance of superhuman AIs"
+    },
+    {
+      "start": 2442,
+      "title": "Safety, open source, and security of weights"
+    },
+    {
+      "start": 2820,
+      "title": "Multimodal and further progress"
+    },
+    {
+      "start": 3258,
+      "title": "Inside Google DeepMind"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "framework",
+      "headline": "AGI = LLM world-model prior + AlphaZero planning on top",
+      "body": "Hassabis's working bet: keep scaling LLMs as accurate world models, then layer AlphaZero-style planning and search to chain reasoning and explore large possibility spaces. He sees pure-RL-from-scratch as theoretically possible but slower than bootstrapping from web-scale priors.",
+      "start_seconds": 375,
+      "end_seconds": 990
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "Deep Blue: millions of moves; AlphaZero: ~10K; humans: ~hundreds",
+      "body": "AlphaZero beats world champions while searching ~tens of thousands of positions per move versus Deep Blue's millions, and top human grandmasters look at only a few hundred. Better world models compress search — so improving the model is leverage on search efficiency.",
+      "start_seconds": 446,
+      "end_seconds": 540
+    },
+    {
+      "id": 3,
+      "category": "counterintuitive",
+      "headline": "LLMs are 'unreasonably effective' and got concepts implicitly",
+      "body": "Five years ago Hassabis would have predicted an algorithmic breakthrough was needed for abstractions; instead, transformers acquired implicit concepts and even some grounding from text alone. He hypothesizes RLHF smuggles in grounding because human raters are themselves grounded.",
+      "start_seconds": 985,
+      "end_seconds": 1080
+    },
+    {
+      "id": 4,
+      "category": "prediction",
+      "headline": "AGI-like systems within a decade, on the original 20-year plan",
+      "body": "DeepMind was started in 2010 as an explicit 20-year project to build AGI. Hassabis says they're roughly on track and wouldn't be surprised by AGI-like systems within the next decade — a notable claim from someone who has historically been a timelines moderate.",
+      "start_seconds": 1453,
+      "end_seconds": 1490
+    },
+    {
+      "id": 5,
+      "category": "mental-model",
+      "headline": "Deception is a 'root node' trait to evaluate against",
+      "body": "Hassabis frames deception as a root-node bad trait because if a system honestly exposes what it thinks, you can use the system itself to explain its decisions (analogous to Kasparov explaining a move post-hoc). Current evals for deception and self-exfiltration are inadequate.",
+      "start_seconds": 1364,
+      "end_seconds": 1650
+    },
+    {
+      "id": 6,
+      "category": "framework",
+      "headline": "Scaling laws aren't autopilot — each order of magnitude is an art",
+      "body": "Hyperparameters and recipes have to be re-derived at each new scale, and capability step-functions don't always track training-loss curves. That's why labs scale roughly one order of magnitude per generation rather than jumping several at once.",
+      "start_seconds": 1722,
+      "end_seconds": 1830
+    },
+    {
+      "id": 7,
+      "category": "counterintuitive",
+      "headline": "Loss predictions ≠ downstream capability predictions",
+      "body": "Core metrics like training loss can be extrapolated far in advance (GPT-4 style), but actual benchmarks like MMLU or math don't move linearly with loss. New capabilities arrive as nonlinear step-functions, which is what makes scaling empirically interesting.",
+      "start_seconds": 1830,
+      "end_seconds": 1920
+    },
+    {
+      "id": 8,
+      "category": "mental-model",
+      "headline": "Half of DeepMind's compute goes to invention, not scaling",
+      "body": "Hassabis says roughly half their effort is pushing scale and half is inventing the next architectures and algorithms — and crucially, new ideas need real compute to test because some only work at scale. Exploration is compute-hungry, not just training runs.",
+      "start_seconds": 1920,
+      "end_seconds": 1980
+    },
+    {
+      "id": 9,
+      "category": "definition",
+      "headline": "Imagination = memory's reconstructive machinery, reused for planning",
+      "body": "Hassabis's 2007 neuroscience thesis showed human memory is reconstructive, not videotape — the brain reassembles ensembles. Imagination uses that same machinery to assemble novel scenarios for planning, a capability he thinks current LLMs still lack.",
+      "start_seconds": 2335,
+      "end_seconds": 2440
+    },
+    {
+      "id": 10,
+      "category": "actionable",
+      "headline": "Open-sourcing frontier weights has no good answer for rogue reuse",
+      "body": "Hassabis is a longtime open-science proponent (transformers, AlphaFold, GraphCast all published) but says he's heard no compelling answer to how proponents stop rogue actors or nation-states from repurposing fully open-sourced general-purpose models for harm.",
+      "start_seconds": 2620,
+      "end_seconds": 2720
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Air-gapped data centers coming within 3–5 years",
+      "body": "Beyond Google's existing cyber defenses, Hassabis expects frontier labs will need air gaps, hardened sandboxes, and specialized secure hardware within three to five years to protect weights from nation-state exfiltration.",
+      "start_seconds": 2545,
+      "end_seconds": 2620
+    },
+    {
+      "id": 12,
+      "category": "story",
+      "headline": "Robotics' data scarcity is a feature, not a bug",
+      "body": "OpenAI dropped robotics for lack of data; DeepMind kept going precisely because the data-poor regime forces work on sample efficiency, transfer learning, and sim-to-real — capabilities Hassabis believes will be needed everywhere. RT-2 and Gato treat actions as just another token.",
+      "start_seconds": 2880,
+      "end_seconds": 3020
+    },
+    {
+      "id": 13,
+      "category": "counterintuitive",
+      "headline": "Top AI can triage hypotheses but can't ask the right question",
+      "body": "Hassabis says current systems are good at searching combinatorial spaces with a clear objective (AlphaFold-style) but have no idea how to formulate the critical scientific question — which any top scientist will tell you is the hardest part of science.",
+      "start_seconds": 3060,
+      "end_seconds": 3160
+    },
+    {
+      "id": 14,
+      "category": "actionable",
+      "headline": "Move away from 'move fast and break things' for AI",
+      "body": "Hassabis wants the field to abandon live A/B testing of consequential systems on the world and use the scientific method — foresight, evals, controlled deployment — given the severity of possible unintended consequences. He sees responsible scaling policies as the right empirical commitment.",
+      "start_seconds": 3360,
+      "end_seconds": 3460
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I sort of look at the large models today and I think they're almost unreasonably effective for what they are.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 1000
+    },
+    {
+      "text": "I wouldn't be surprised if we had AGI-like systems within the next decade.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 1475
+    },
+    {
+      "text": "Our brains are not built for doing Monte Carlo tree search.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 615
+    },
+    {
+      "text": "Deception as being quite root node traits that you don't want.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 1605
+    },
+    {
+      "text": "I want us to move away as a field from sort of move fast and break things attitude.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 3413
+    },
+    {
+      "text": "The hardest part of science is actually asking the right question.",
+      "speaker": "Demis Hassabis",
+      "start_seconds": 3100
+    }
+  ],
+  "resources": [
+    {
+      "name": "Chris Olah",
+      "context": "cited for mechanistic interpretability work Hassabis admires"
+    },
+    {
+      "name": "Shane Legg",
+      "context": "DeepMind co-founder; 2009 thesis proposed Wikipedia compression as AI test"
+    },
+    {
+      "name": "AlphaFold",
+      "context": "DeepMind's protein-structure system, exemplar of AI-for-science impact"
+    },
+    {
+      "name": "AlphaZero / AlphaGo",
+      "context": "self-play RL systems used as the planning blueprint to layer atop LLMs"
+    },
+    {
+      "name": "Gato / RT-2",
+      "context": "DeepMind generalist and robotic-transformer systems treating actions as tokens"
+    },
+    {
+      "name": "GraphCast",
+      "context": "DeepMind weather prediction model open-sourced by the team"
+    },
+    {
+      "name": "Isomorphic Labs",
+      "context": "DeepMind spin-out applying AI to drug discovery"
+    },
+    {
+      "name": "UK AI Safety Summit (Bletchley)",
+      "context": "cited as a successful start to international AI governance dialogue"
+    },
+    {
+      "name": "Einstein",
+      "context": "used as the canonical example of intuition-led world-model simulation"
+    },
+    {
+      "name": "Deep Blue",
+      "context": "brute-force chess engine contrasted with AlphaZero's model-based search"
+    }
+  ],
+  "action_items": [
+    "If you take one thing from this conversation, treat 'LLM as world model + search/planning on top' as the working architecture for AGI, not pure scaling alone.",
+    "Build evals for root-node traits like deception and self-exfiltration before you need them — they're load-bearing for any honest safety case.",
+    "Don't conflate training-loss curves with capability forecasts; budget for nonlinear step-functions at each new scale.",
+    "If you work in AI policy, push for hardened-sandbox and weight-security standards now — air-gapped frontier infra is 3–5 years away on Hassabis's clock."
+  ],
+  "stats": [
+    {
+      "label": "AGI timeline",
+      "val": "<10y",
+      "unit": "from 2024",
+      "sub": "Hassabis 'wouldn't be surprised' by AGI-like systems within the decade."
+    },
+    {
+      "label": "AlphaZero search",
+      "val": "~10K",
+      "unit": "positions/move",
+      "sub": "Versus millions for Deep Blue and hundreds for human grandmasters."
+    },
+    {
+      "label": "DeepMind plan",
+      "val": "20yr",
+      "unit": "since 2010",
+      "sub": "Original project horizon Hassabis says they're 'on track' for."
+    },
+    {
+      "label": "Secure infra",
+      "val": "3–5y",
+      "unit": "horizon",
+      "sub": "Hassabis's window for air gaps and specialized secure hardware at frontier labs."
+    }
+  ]
+}

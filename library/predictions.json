@@ -1,0 +1,890 @@
+{
+  "open": [
+    {
+      "id": "qTogNUV3CAI-p2",
+      "claim": "True multimodality will become the default user experience over the next year to 18 months, with contextual camera/voice/touch interaction replacing chat as the primary modality.",
+      "speaker": "Demis Hassabis",
+      "category": "tech",
+      "start_seconds": 2830,
+      "stated_at": "2024-02-28",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2025-08-28"
+      ],
+      "status": "open",
+      "notes": "Tracks consumer adoption of multimodal assistants and glasses-class devices.",
+      "video_id": "qTogNUV3CAI",
+      "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2830s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p1",
+      "claim": "SpaceX closes its first day of trading with a market cap above $2T",
+      "speaker": "Polymarket (cited by Jason Calacanis)",
+      "category": "business",
+      "start_seconds": 2875,
+      "stated_at": "2026-05-22",
+      "horizon_label": "IPO day, expected ~June 12 2026",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "71% probability on Polymarket at time of recording.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2875s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p8",
+      "claim": "US CPI hits 4.2%+ in May 2026 (Fed forced to raise rates)",
+      "speaker": "Polymarket / professional forecasters (cited)",
+      "category": "macro",
+      "start_seconds": 4965,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 month (May 2026 CPI release)",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "Polymarket 99% probability; survey of professional forecasters projecting up to 6% CPI in Q2.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4965s"
+    },
+    {
+      "id": "5eqRuVp65eY-p2",
+      "claim": "Neural scaling laws will continue to hold predictively for next-token loss as models scale further beyond GPT-4.",
+      "speaker": "Welch (paraphrasing field consensus)",
+      "category": "ai",
+      "start_seconds": 640,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2029",
+      "revisit_dates": [
+        "2026-09-13",
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Already held across ~13 orders of magnitude; revisit as GPT-5-class and successor models publish loss curves.",
+      "video_id": "5eqRuVp65eY",
+      "video_title": "AI can't cross this line and we don't know why.",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=640s"
+    },
+    {
+      "id": "10MdOvK-aG4-p6",
+      "claim": "Every major frontier lab (US + Chinese) will have Mythos-level cyber capability within 3-6 months",
+      "speaker": "David Sacks",
+      "category": "ai-safety",
+      "start_seconds": 2755,
+      "stated_at": "2026-05-08",
+      "horizon_label": "3-6 months",
+      "revisit_dates": [
+        "2026-11-08"
+      ],
+      "status": "open",
+      "notes": "Near-term, falsifiable. Watch for capability reports.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2755s"
+    },
+    {
+      "id": "10MdOvK-aG4-p1",
+      "claim": "Anthropic will exit 2026 at ~$100B ARR and reach $1T ARR by 2027",
+      "speaker": "David Sacks",
+      "category": "ai-business",
+      "start_seconds": 900,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by end-2026 \u2192 2027",
+      "revisit_dates": [
+        "2027-01-15",
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": "Falsified if 2026 exit < $80B or growth deceleration breaks the 10\u00d7/yr cadence sustainedly. Compounds with Jensen's earlier 'Dario's $1T-by-2030 is too low' prediction \u2014 Sacks is actually more bullish on the timeline.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=900s"
+    },
+    {
+      "id": "10MdOvK-aG4-p7",
+      "claim": "No FDA-for-AI / pre-release approval regime will be enacted under the Trump administration",
+      "speaker": "David Sacks",
+      "category": "regulation",
+      "start_seconds": 2660,
+      "stated_at": "2026-05-08",
+      "horizon_label": "through this term",
+      "revisit_dates": [
+        "2027-01-20",
+        "2029-01-20"
+      ],
+      "status": "open",
+      "notes": "Strong, falsifiable. Polymarket has 21% chance of a federal AI review by May 31, 2026 as a near-term proxy.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2660s"
+    },
+    {
+      "id": "qTogNUV3CAI-p3",
+      "claim": "Within 3\u20135 years, frontier labs will need air-gapped data centers and specialized secure hardware to protect model weights.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 2560,
+      "stated_at": "2024-02-28",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2027-02-28",
+        "2029-02-28"
+      ],
+      "status": "open",
+      "notes": "Watch for public disclosures of air-gapped training infra at OpenAI, Anthropic, Google DeepMind.",
+      "video_id": "qTogNUV3CAI",
+      "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2560s"
+    },
+    {
+      "id": "qTogNUV3CAI-p4",
+      "claim": "AI systems will become the world's best research assistants for scientists and clinicians once factuality and grounding are fixed.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 2270,
+      "stated_at": "2024-02-28",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2027-02-28"
+      ],
+      "status": "open",
+      "notes": "No hard date given; revisit in three years to check if hallucination/grounding has been substantially solved.",
+      "video_id": "qTogNUV3CAI",
+      "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2270s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p2",
+      "claim": "Token cost drops by an order of magnitude every single year \u2014 Vera Rubin, then Ultra, then Feynman",
+      "speaker": "Jensen Huang",
+      "category": "compute",
+      "start_seconds": 3368,
+      "stated_at": "2026-04-15",
+      "horizon_label": "annual, through 2029",
+      "revisit_dates": [
+        "2027-04-15",
+        "2028-04-15",
+        "2029-04-15"
+      ],
+      "status": "open",
+      "notes": "Most concrete, falsifiable promise in the conversation. By 2028 should see ~1000\u00d7 cumulative reduction from Hopper baseline.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=3368s"
+    },
+    {
+      "id": "kYkIdXwW2AE-p2",
+      "claim": "Reliable agentic systems are impossible without the ability to predict the consequences of actions \u2014 pure LLM/VLA agents will not get there.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 2114,
+      "stated_at": "2026-05-02",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2027-05-02",
+        "2029-05-02"
+      ],
+      "status": "open",
+      "notes": "Falsifiable by a non-world-model agent reaching demonstrable long-horizon reliability.",
+      "video_id": "kYkIdXwW2AE",
+      "video_title": "Yann LeCun's $1B Bet Against LLMs",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=2114s"
+    },
+    {
+      "id": "kYkIdXwW2AE-p3",
+      "claim": "Self-supervised joint-embedding methods (DINO/JEPA line) will continue to overtake supervised baselines across vision tasks now that DINOv3 has reached parity on ImageNet.",
+      "speaker": "Welch Labs narrator (implicit framing)",
+      "category": "ai",
+      "start_seconds": 1659,
+      "stated_at": "2026-05-02",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-02",
+        "2028-05-02"
+      ],
+      "status": "open",
+      "notes": "Check next-gen DINO/JEPA leaderboards vs supervised SOTA on classification, detection, segmentation.",
+      "video_id": "kYkIdXwW2AE",
+      "video_title": "Yann LeCun's $1B Bet Against LLMs",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1659s"
+    },
+    {
+      "id": "10MdOvK-aG4-p3",
+      "claim": "SpaceX IPOs at $2T valuation, trades at 40-50\u00d7 revenue (vs Mag 5 at ~25\u00d7 earnings)",
+      "speaker": "Brad Gerstner",
+      "category": "ipo",
+      "start_seconds": 1390,
+      "stated_at": "2026-05-08",
+      "horizon_label": "near-term IPO",
+      "revisit_dates": [
+        "2027-05-08"
+      ],
+      "status": "open",
+      "notes": "Tests against actual SpaceX IPO pricing if/when it occurs.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1390s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p2",
+      "claim": "AI will be improving language models more than the humans in the loop \u2014 the 'recursive valley' is crossed",
+      "speaker": "All-In hosts",
+      "category": "ai-capability",
+      "start_seconds": 448,
+      "stated_at": "2026-05-22",
+      "horizon_label": "could already have occurred at Anthropic",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Chamath speculates this may have already happened; Freeberg uncertain on architecture path.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=448s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p4",
+      "claim": "Tesla and SpaceX merge into a single combined entity ($ELON or similar)",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3355,
+      "stated_at": "2026-05-22",
+      "horizon_label": "not if, but when",
+      "revisit_dates": [
+        "2027-05-22",
+        "2029-05-22"
+      ],
+      "status": "open",
+      "notes": "Would be 4th largest company in world; combined physical AI + space + compute moat.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3355s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p6",
+      "claim": "Cursor becomes the dominant AI coding platform within a year",
+      "speaker": "Gavin Baker / Jason Calacanis",
+      "category": "ai-product",
+      "start_seconds": 3130,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 year",
+      "revisit_dates": [
+        "2027-05-22"
+      ],
+      "status": "open",
+      "notes": "Composer 2.5 already Pareto-dominant. Next: new base model pre-trained with Cursor coding data on Colossus.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3130s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p7",
+      "claim": "Starship achieves rapid reusability (multiple flights per day of same vehicle)",
+      "speaker": "Gavin Baker",
+      "category": "space",
+      "start_seconds": 4230,
+      "stated_at": "2026-05-22",
+      "horizon_label": "1\u20132 years",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Rapid reusability (not just reusability) required for Mars colony and orbital compute. Gavin: consensus ~1-2 years.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4230s"
+    },
+    {
+      "id": "10MdOvK-aG4-p4",
+      "claim": "Tesla + SpaceX merge into 'Elon Corp' by end-2026 or mid-2027",
+      "speaker": "Chamath Palihapitiya",
+      "category": "corporate",
+      "start_seconds": 1450,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by mid-2027",
+      "revisit_dates": [
+        "2027-06-30"
+      ],
+      "status": "open",
+      "notes": "High-specificity timeline prediction. Easy to falsify.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1450s"
+    },
+    {
+      "id": "10MdOvK-aG4-p8",
+      "claim": "The 500-day margin reckoning: by late-2027 the market will need evidence AI is lifting S&P 500 operating margins \u2014 either via OpEx contraction or revenue expansion",
+      "speaker": "Chamath Palihapitiya",
+      "category": "macro",
+      "start_seconds": 4035,
+      "stated_at": "2026-05-08",
+      "horizon_label": "~500 days (late 2027)",
+      "revisit_dates": [
+        "2027-09-08",
+        "2028-05-08"
+      ],
+      "status": "open",
+      "notes": "Most macro-important prediction. Currently 'literally not a scintilla of evidence' of margin lift.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4035s"
+    },
+    {
+      "id": "5eqRuVp65eY-p3",
+      "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
+      "speaker": "Welch",
+      "category": "ai",
+      "start_seconds": 1310,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2027",
+      "revisit_dates": [
+        "2027-09-13"
+      ],
+      "status": "open",
+      "notes": "Active research debate \u2014 some recent work suggests emergence is partly an artifact of metric choice.",
+      "video_id": "5eqRuVp65eY",
+      "video_title": "AI can't cross this line and we don't know why.",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=1310s"
+    },
+    {
+      "id": "21EYKqUsPfg-p4",
+      "claim": "Current deep learning methods will continue to lack any built-in mechanism for good generalization or transfer until new algorithms explicitly target it.",
+      "speaker": "Richard Sutton",
+      "category": "ai",
+      "start_seconds": 2192,
+      "stated_at": "2025-09-26",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2027-09-26",
+        "2028-09-26"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "21EYKqUsPfg",
+      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2192s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p5",
+      "claim": "Premium-token (latency-priced) inference becomes a meaningful market segment",
+      "speaker": "Jensen Huang",
+      "category": "inference",
+      "start_seconds": 5560,
+      "stated_at": "2026-04-15",
+      "horizon_label": "1\u20132 years",
+      "revisit_dates": [
+        "2027-10-15",
+        "2028-04-15"
+      ],
+      "status": "open",
+      "notes": "Watch for tiered pricing announcements from OpenAI/Anthropic/Google. Groq's results inside CUDA the leading indicator.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5560s"
+    },
+    {
+      "id": "10MdOvK-aG4-p2",
+      "claim": "Anthropic becomes the most valuable company in human history \u2014 by itself exceeding Mag 7 combined",
+      "speaker": "David Sacks",
+      "category": "ai-business",
+      "start_seconds": 1916,
+      "stated_at": "2026-05-08",
+      "horizon_label": "~18 months",
+      "revisit_dates": [
+        "2027-11-08"
+      ],
+      "status": "open",
+      "notes": "Conditional on 10x ARR cadence continuing 18 more months. The 'biggest monopoly in human history' framing.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1916s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p2",
+      "claim": "Digital biology hits its ChatGPT moment \u2014 healthcare industry inflects",
+      "speaker": "Jensen Huang",
+      "category": "biology",
+      "start_seconds": 689,
+      "stated_at": "2026-03-19",
+      "horizon_label": "2 to 5 years",
+      "revisit_dates": [
+        "2028-03-19",
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": "Agriculture is already inflecting. Physical AI ~$10B/yr business at Nvidia.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=689s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p5",
+      "claim": "Compute demand goes another 100\u00d7 from agentic baseline (toward 1M\u00d7 total)",
+      "speaker": "Jensen Huang",
+      "category": "compute",
+      "start_seconds": 1410,
+      "stated_at": "2026-03-19",
+      "horizon_label": "2-3 years",
+      "revisit_dates": [
+        "2028-03-19"
+      ],
+      "status": "open",
+      "notes": "Currently at 10,000\u00d7 vs pre-training; agent population + spec-writing drives the next jump.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1410s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p6",
+      "claim": "Every engineer ends up directing ~100 agents",
+      "speaker": "Jensen Huang",
+      "category": "labor",
+      "start_seconds": 1605,
+      "stated_at": "2026-03-19",
+      "horizon_label": "2-3 years",
+      "revisit_dates": [
+        "2028-03-19"
+      ],
+      "status": "open",
+      "notes": "Programming becomes spec-writing + team orchestration.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1605s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p1",
+      "claim": "No supply-chain bottleneck (logic, memory, CoWoS, EUV) lasts more than 2\u20133 years once there's a real demand signal",
+      "speaker": "Jensen Huang",
+      "category": "supply-chain",
+      "start_seconds": 1442,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2\u20133 years per bottleneck",
+      "revisit_dates": [
+        "2028-04-15",
+        "2029-04-15"
+      ],
+      "status": "open",
+      "notes": "Testable: track which named bottleneck (EUV, HBM, CoWoS, fab capacity) is the binding constraint each year through 2029.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1442s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p3",
+      "claim": "Tool-use by agents will cause enterprise software companies (Cadence, Synopsys, Adobe, etc.) to skyrocket \u2014 not get commoditized",
+      "speaker": "Jensen Huang",
+      "category": "saas",
+      "start_seconds": 195,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2\u20134 years",
+      "revisit_dates": [
+        "2028-04-15",
+        "2030-04-15"
+      ],
+      "status": "open",
+      "notes": "Repeat of the All-In claim. Revenue at Cadence/Synopsys/Autodesk is the cleanest test.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=195s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p4",
+      "claim": "TPU + Trainium growth will remain a single-customer (Anthropic) story; no broader ASIC trend",
+      "speaker": "Jensen Huang",
+      "category": "competitors",
+      "start_seconds": 2229,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2\u20133 years",
+      "revisit_dates": [
+        "2028-04-15",
+        "2029-04-15"
+      ],
+      "status": "open",
+      "notes": "Falsified if a major non-Anthropic AI lab commits to TPU/Trainium for >30% of training compute.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2229s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p7",
+      "claim": "China's algorithm advances (DeepSeek, Qwen) plus abundant 7nm + energy fully offset the EUV gap for frontier models",
+      "speaker": "Jensen Huang",
+      "category": "geopolitics",
+      "start_seconds": 4283,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2\u20133 years",
+      "revisit_dates": [
+        "2028-04-15"
+      ],
+      "status": "open",
+      "notes": "Tests against Western labs' frontier-vs-Chinese-open-source gap over time.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=4283s"
+    },
+    {
+      "id": "kYkIdXwW2AE-p1",
+      "claim": "JEPA / world-model approaches will eventually replace large language models as the dominant AI paradigm.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 85,
+      "stated_at": "2026-05-02",
+      "horizon_label": "by 2032",
+      "revisit_dates": [
+        "2028-05-02",
+        "2032-05-02"
+      ],
+      "status": "open",
+      "notes": "LeCun frames this as the eventual outcome \u2014 initially complementary, later replacement.",
+      "video_id": "kYkIdXwW2AE",
+      "video_title": "Yann LeCun's $1B Bet Against LLMs",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=85s"
+    },
+    {
+      "id": "10MdOvK-aG4-p5",
+      "claim": "Distributed home compute (Tesla power walls + Pulte/Span/Base Power) becomes the 'next shoe to drop' in compute distribution",
+      "speaker": "Jason Calacanis",
+      "category": "compute",
+      "start_seconds": 1305,
+      "stated_at": "2026-05-08",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2028-05-08",
+        "2030-05-08"
+      ],
+      "status": "open",
+      "notes": "Tests against material residential compute deployment numbers.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1305s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p3",
+      "claim": "Orbital compute (space-based AI data centers) becomes commercially real",
+      "speaker": "Gavin Baker",
+      "category": "compute-infrastructure",
+      "start_seconds": 3995,
+      "stated_at": "2026-05-22",
+      "horizon_label": "H2 2028 to H1 2030",
+      "revisit_dates": [
+        "2028-12-31",
+        "2030-06-30"
+      ],
+      "status": "open",
+      "notes": "H100 already in space; NVIDIA making space-grade GPU variant; SpaceX Starship rapid reusability prerequisite.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3995s"
+    },
+    {
+      "id": "qTogNUV3CAI-p1",
+      "claim": "AGI-like systems will exist within the next decade.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 1475,
+      "stated_at": "2024-02-28",
+      "horizon_label": "by 2034",
+      "revisit_dates": [
+        "2029-02-28",
+        "2034-02-28"
+      ],
+      "status": "open",
+      "notes": "Stated as 'wouldn't be surprised' \u2014 softer than median; track against scaling+planning hybrid systems.",
+      "video_id": "qTogNUV3CAI",
+      "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1475s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p1",
+      "claim": "Robots will be all over the place \u2014 humanoid robots from existence-proof to real product",
+      "speaker": "Jensen Huang",
+      "category": "robotics",
+      "start_seconds": 3157,
+      "stated_at": "2026-03-19",
+      "horizon_label": "3 to 5 years",
+      "revisit_dates": [
+        "2029-03-19",
+        "2031-03-19"
+      ],
+      "status": "open",
+      "notes": "China leads the supply chain (motors, magnets, rare earth).",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3157s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p7",
+      "claim": "Enterprise SaaS usage 100\u00d7's rather than dies",
+      "speaker": "Jensen Huang",
+      "category": "saas",
+      "start_seconds": 1748,
+      "stated_at": "2026-03-19",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2029-03-19"
+      ],
+      "status": "open",
+      "notes": "Agents banging on SQL, Blender, Photoshop, Synopsys, Cadence.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1748s"
+    },
+    {
+      "id": "5eqRuVp65eY-p1",
+      "claim": "Average cross-entropy loss on the massive text dataset cannot drop below ~1.69 nats, no matter how large the model or dataset.",
+      "speaker": "Google DeepMind (cited)",
+      "category": "ai",
+      "start_seconds": 530,
+      "stated_at": "2024-09-13",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Empirical extrapolation; testable by future frontier models reporting per-token cross-entropy on a comparable corpus.",
+      "video_id": "5eqRuVp65eY",
+      "video_title": "AI can't cross this line and we don't know why.",
+      "channel": "Welch Labs",
+      "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=530s"
+    },
+    {
+      "id": "qTogNUV3CAI-p5",
+      "claim": "AGI, once it arrives, will help design and build the next versions of itself, potentially accelerating AI R&D significantly.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 1500,
+      "stated_at": "2024-02-28",
+      "horizon_label": "by 2034",
+      "revisit_dates": [
+        "2030-02-28",
+        "2034-02-28"
+      ],
+      "status": "open",
+      "notes": "Hassabis frames this as possible, not imminent; track measurable AI-R&D-from-AI contributions.",
+      "video_id": "qTogNUV3CAI",
+      "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1500s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p4",
+      "claim": "100% of driving by humans goes away (eventually)",
+      "speaker": "Jensen Huang",
+      "category": "self-driving",
+      "start_seconds": 3590,
+      "stated_at": "2026-03-19",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2030-03-19"
+      ],
+      "status": "open",
+      "notes": "15M US driving-related jobs affected. Chauffeurs morph into mobility assistants.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3590s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p8",
+      "claim": "No new accelerator architecture beats Nvidia's current roadmap when fully simulated \u2014 that's why Nvidia doesn't run parallel architectures (Cerebras-style, Dojo-style)",
+      "speaker": "Jensen Huang",
+      "category": "competitors",
+      "start_seconds": 5247,
+      "stated_at": "2026-04-15",
+      "horizon_label": "3\u20135 years",
+      "revisit_dates": [
+        "2030-04-15"
+      ],
+      "status": "open",
+      "notes": "Implicit prediction: no wafer-scale or fundamentally-different architecture overtakes Nvidia perf-per-TCO this decade.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5247s"
+    },
+    {
+      "id": "21EYKqUsPfg-p1",
+      "claim": "LLMs will be superseded by systems that learn continually from experience, in another instance of the Bitter Lesson.",
+      "speaker": "Richard Sutton",
+      "category": "ai",
+      "start_seconds": 668,
+      "stated_at": "2025-09-26",
+      "horizon_label": "by 2035",
+      "revisit_dates": [
+        "2030-09-26",
+        "2035-09-26"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "21EYKqUsPfg",
+      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=668s"
+    },
+    {
+      "id": "21EYKqUsPfg-p3",
+      "claim": "Cybersecurity \u2014 protecting an AI mind from corruption when integrating knowledge from spawned copies \u2014 will become a central problem in the era of digital intelligence.",
+      "speaker": "Richard Sutton",
+      "category": "tech",
+      "start_seconds": 3146,
+      "stated_at": "2025-09-26",
+      "horizon_label": "by 2035",
+      "revisit_dates": [
+        "2030-09-26",
+        "2035-09-26"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "21EYKqUsPfg",
+      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3146s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p5",
+      "claim": "SpaceX terrestrial data center revenue reaches $100\u2013200B by 2030\u20132032",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3720,
+      "stated_at": "2026-05-22",
+      "horizon_label": "2030\u20132032",
+      "revisit_dates": [
+        "2030-12-31",
+        "2032-12-31"
+      ],
+      "status": "open",
+      "notes": "Colossus deal cadence implies $40\u201345B in 2027, doubling year-over-year. Excludes orbital.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3720s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p3",
+      "claim": "Anthropic + OpenAI revenue exceeds Dario's $1T-by-2030 forecast",
+      "speaker": "Jensen Huang",
+      "category": "ai-business",
+      "start_seconds": 3370,
+      "stated_at": "2026-03-19",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-12-31"
+      ],
+      "status": "open",
+      "notes": "Reason: every enterprise SaaS becomes a value-added reseller of Anthropic/OpenAI tokens.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s"
+    },
+    {
+      "id": "gwW8GKwHB3I-p8",
+      "claim": "American AI tech stack reaches 90% global share",
+      "speaker": "Jensen Huang",
+      "category": "geopolitics",
+      "start_seconds": 2150,
+      "stated_at": "2026-03-19",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2030-12-31"
+      ],
+      "status": "open",
+      "notes": "Aspiration. Alternative: 'solar / rare earth / telecom' outcome \u2014 bad for national security.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2150s"
+    },
+    {
+      "id": "Hrbq66XqtCo-p6",
+      "claim": "Conceding China to Huawei/SMIC results in the global south adopting a non-American AI tech stack",
+      "speaker": "Jensen Huang",
+      "category": "geopolitics",
+      "start_seconds": 5400,
+      "stated_at": "2026-04-15",
+      "horizon_label": "5\u201310 years",
+      "revisit_dates": [
+        "2031-04-15"
+      ],
+      "status": "open",
+      "notes": "Jensen explicitly asks Dwarkesh to revisit this exact conversation. Adoption of Chinese vs American foundation models in India/Middle East/Africa/SEA is the metric.",
+      "video_id": "Hrbq66XqtCo",
+      "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5400s"
+    },
+    {
+      "id": "21EYKqUsPfg-p2",
+      "claim": "AI succession to digital or augmented intelligences is inevitable given no unified governance, eventual scientific understanding of intelligence, and the accumulation of power by the most intelligent agents.",
+      "speaker": "Richard Sutton",
+      "category": "ai",
+      "start_seconds": 3308,
+      "stated_at": "2025-09-26",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2045-09-26"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "21EYKqUsPfg",
+      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3308s"
+    }
+  ],
+  "validated": [
+    {
+      "id": "gwW8GKwHB3I-v1",
+      "claim": "Inference will explode by 1 billion\u00d7; world is wrong to focus on pre-training",
+      "speaker": "Jensen Huang",
+      "stated_at": "2025-03-19",
+      "validated_at": "2026-03-19",
+      "outcome": "right",
+      "note": "Stated a year earlier; now industry is inference-constrained per Jensen and per the conversation context.",
+      "video_id": "gwW8GKwHB3I",
+      "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "5eqRuVp65eY",
+  "predictions": [
+    {
+      "id": "5eqRuVp65eY-p1",
+      "claim": "Average cross-entropy loss on the massive text dataset cannot drop below ~1.69 nats, no matter how large the model or dataset.",
+      "speaker": "Google DeepMind (cited)",
+      "category": "ai",
+      "start_seconds": 530,
+      "stated_at": "2024-09-13",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Empirical extrapolation; testable by future frontier models reporting per-token cross-entropy on a comparable corpus."
+    },
+    {
+      "id": "5eqRuVp65eY-p2",
+      "claim": "Neural scaling laws will continue to hold predictively for next-token loss as models scale further beyond GPT-4.",
+      "speaker": "Welch (paraphrasing field consensus)",
+      "category": "ai",
+      "start_seconds": 640,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2029",
+      "revisit_dates": [
+        "2026-09-13",
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Already held across ~13 orders of magnitude; revisit as GPT-5-class and successor models publish loss curves."
+    },
+    {
+      "id": "5eqRuVp65eY-p3",
+      "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
+      "speaker": "Welch",
+      "category": "ai",
+      "start_seconds": 1310,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2027",
+      "revisit_dates": [
+        "2027-09-13"
+      ],
+      "status": "open",
+      "notes": "Active research debate — some recent work suggests emergence is partly an artifact of metric choice."
+    }
+  ],
+  "validated_predictions": []
+}

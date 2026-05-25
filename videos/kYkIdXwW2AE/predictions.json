@@ -1,0 +1,51 @@
+{
+  "video_id": "kYkIdXwW2AE",
+  "predictions": [
+    {
+      "id": "kYkIdXwW2AE-p1",
+      "claim": "JEPA / world-model approaches will eventually replace large language models as the dominant AI paradigm.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 85,
+      "stated_at": "2026-05-02",
+      "horizon_label": "by 2032",
+      "revisit_dates": [
+        "2028-05-02",
+        "2032-05-02"
+      ],
+      "status": "open",
+      "notes": "LeCun frames this as the eventual outcome — initially complementary, later replacement."
+    },
+    {
+      "id": "kYkIdXwW2AE-p2",
+      "claim": "Reliable agentic systems are impossible without the ability to predict the consequences of actions — pure LLM/VLA agents will not get there.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 2114,
+      "stated_at": "2026-05-02",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2027-05-02",
+        "2029-05-02"
+      ],
+      "status": "open",
+      "notes": "Falsifiable by a non-world-model agent reaching demonstrable long-horizon reliability."
+    },
+    {
+      "id": "kYkIdXwW2AE-p3",
+      "claim": "Self-supervised joint-embedding methods (DINO/JEPA line) will continue to overtake supervised baselines across vision tasks now that DINOv3 has reached parity on ImageNet.",
+      "speaker": "Welch Labs narrator (implicit framing)",
+      "category": "ai",
+      "start_seconds": 1659,
+      "stated_at": "2026-05-02",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-02",
+        "2028-05-02"
+      ],
+      "status": "open",
+      "notes": "Check next-gen DINO/JEPA leaderboards vs supervised SOTA on classification, detection, segmentation."
+    }
+  ],
+  "validated_predictions": []
+}

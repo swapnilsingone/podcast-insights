@@ -1,0 +1,123 @@
+{
+  "video_id": "HGbA6ze0_3M",
+  "predictions": [
+    {
+      "id": "HGbA6ze0_3M-p1",
+      "claim": "SpaceX closes its first day of trading with a market cap above $2T",
+      "speaker": "Polymarket (cited by Jason Calacanis)",
+      "category": "business",
+      "start_seconds": 2875,
+      "stated_at": "2026-05-22",
+      "horizon_label": "IPO day, expected ~June 12 2026",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "71% probability on Polymarket at time of recording."
+    },
+    {
+      "id": "HGbA6ze0_3M-p2",
+      "claim": "AI will be improving language models more than the humans in the loop — the 'recursive valley' is crossed",
+      "speaker": "All-In hosts",
+      "category": "ai-capability",
+      "start_seconds": 448,
+      "stated_at": "2026-05-22",
+      "horizon_label": "could already have occurred at Anthropic",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Chamath speculates this may have already happened; Freeberg uncertain on architecture path."
+    },
+    {
+      "id": "HGbA6ze0_3M-p3",
+      "claim": "Orbital compute (space-based AI data centers) becomes commercially real",
+      "speaker": "Gavin Baker",
+      "category": "compute-infrastructure",
+      "start_seconds": 3995,
+      "stated_at": "2026-05-22",
+      "horizon_label": "H2 2028 to H1 2030",
+      "revisit_dates": [
+        "2028-12-31",
+        "2030-06-30"
+      ],
+      "status": "open",
+      "notes": "H100 already in space; NVIDIA making space-grade GPU variant; SpaceX Starship rapid reusability prerequisite."
+    },
+    {
+      "id": "HGbA6ze0_3M-p4",
+      "claim": "Tesla and SpaceX merge into a single combined entity ($ELON or similar)",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3355,
+      "stated_at": "2026-05-22",
+      "horizon_label": "not if, but when",
+      "revisit_dates": [
+        "2027-05-22",
+        "2029-05-22"
+      ],
+      "status": "open",
+      "notes": "Would be 4th largest company in world; combined physical AI + space + compute moat."
+    },
+    {
+      "id": "HGbA6ze0_3M-p5",
+      "claim": "SpaceX terrestrial data center revenue reaches $100–200B by 2030–2032",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3720,
+      "stated_at": "2026-05-22",
+      "horizon_label": "2030–2032",
+      "revisit_dates": [
+        "2030-12-31",
+        "2032-12-31"
+      ],
+      "status": "open",
+      "notes": "Colossus deal cadence implies $40–45B in 2027, doubling year-over-year. Excludes orbital."
+    },
+    {
+      "id": "HGbA6ze0_3M-p6",
+      "claim": "Cursor becomes the dominant AI coding platform within a year",
+      "speaker": "Gavin Baker / Jason Calacanis",
+      "category": "ai-product",
+      "start_seconds": 3130,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 year",
+      "revisit_dates": [
+        "2027-05-22"
+      ],
+      "status": "open",
+      "notes": "Composer 2.5 already Pareto-dominant. Next: new base model pre-trained with Cursor coding data on Colossus."
+    },
+    {
+      "id": "HGbA6ze0_3M-p7",
+      "claim": "Starship achieves rapid reusability (multiple flights per day of same vehicle)",
+      "speaker": "Gavin Baker",
+      "category": "space",
+      "start_seconds": 4230,
+      "stated_at": "2026-05-22",
+      "horizon_label": "1–2 years",
+      "revisit_dates": [
+        "2027-05-22",
+        "2028-05-22"
+      ],
+      "status": "open",
+      "notes": "Rapid reusability (not just reusability) required for Mars colony and orbital compute. Gavin: consensus ~1-2 years."
+    },
+    {
+      "id": "HGbA6ze0_3M-p8",
+      "claim": "US CPI hits 4.2%+ in May 2026 (Fed forced to raise rates)",
+      "speaker": "Polymarket / professional forecasters (cited)",
+      "category": "macro",
+      "start_seconds": 4965,
+      "stated_at": "2026-05-22",
+      "horizon_label": "within 1 month (May 2026 CPI release)",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "Polymarket 99% probability; survey of professional forecasters projecting up to 6% CPI in Q2."
+    }
+  ],
+  "validated_predictions": []
+}

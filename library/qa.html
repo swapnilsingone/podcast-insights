@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ask the library — Podcast Insights</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./lib.css">
+<style>
+.askbox { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px; margin: 20px 0 28px; }
+.askbox input { width: 100%; background: var(--bg-2); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 14px 16px; font-size: 16px; font-family: var(--serif); outline: none; }
+.askbox input:focus { border-color: var(--accent); }
+.askbox .hint { margin-top: 12px; font-family: var(--mono); font-size: 11px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.askbox .hint .ex { background: var(--bg-2); padding: 4px 10px; border-radius: 999px; cursor: pointer; transition: color .15s; }
+.askbox .hint .ex:hover { color: var(--accent); }
+.results { display: flex; flex-direction: column; gap: 12px; }
+.result { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px; }
+.result .h { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.result h3 { font-family: var(--serif); font-size: 18px; color: var(--ink); margin: 0; line-height: 1.25; }
+.result .src { font-family: var(--mono); font-size: 10px; color: var(--muted); white-space: nowrap; letter-spacing: .04em; text-transform: uppercase; }
+.result .body { color: var(--ink-2); font-size: 14px; line-height: 1.55; }
+.result .body mark { background: rgba(244,192,66,.22); color: var(--ink); padding: 1px 3px; border-radius: 3px; }
+.result .footer { display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px dashed var(--line); font-family: var(--mono); font-size: 11px; }
+.result .footer .vid { color: var(--muted); }
+.result .footer a { color: var(--accent); }
+.result.quote { border-left: 3px solid var(--accent-mag); }
+.result.quote .h h3 { font-style: italic; font-weight: 400; font-size: 17px; color: var(--ink); }
+.result.quote .h h3::before { content: '"'; color: var(--accent-mag); font-size: 24px; font-weight: 700; margin-right: 4px; }
+.tabs { display: flex; gap: 6px; margin-bottom: 16px; }
+.tabs button { background: transparent; border: 1px solid var(--line); color: var(--muted); padding: 8px 14px; border-radius: 999px; font-family: var(--mono); font-size: 11px; cursor: pointer; }
+.tabs button.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.copy-claude { background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin-top: 14px; font-size: 13px; color: var(--ink-2); display: flex; gap: 14px; align-items: center; }
+.copy-claude svg { color: var(--accent); flex-shrink: 0; }
+.copy-claude button { background: var(--accent); color: #181000; border: 0; padding: 8px 14px; border-radius: 8px; font-family: inherit; font-weight: 600; font-size: 12px; cursor: pointer; margin-left: auto; white-space: nowrap; }
+.copy-claude button.copied { background: var(--accent-2); }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="topbar">
+  <div class="brand"><a href="./index.html"><span class="dot"></span>Podcast Insights</a></div>
+  <nav class="nav">
+    <a href="./index.html">Library</a><a href="./dashboard.html">Tracker</a>
+    <a href="./entities.html">Entities</a><a href="./predictions.html">Predictions</a>
+    <a href="./speakers.html">Speakers</a><a href="./qa.html" class="active">Ask</a>
+    <a href="./compare.html">Compare</a><a href="./highlights.html">Highlights</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</header>
+
+<header class="hero">
+  <div class="kicker"><span>Ask the library</span></div>
+  <h1>Search across <em>everything</em> you've archived.</h1>
+  <p class="lede">Keyword search over every insight and pull quote in your library. Results jump straight to the moment in the source video. For full semantic Q&amp;A, drop the query into a Claude Code session — there's a one-click copy below.</p>
+</header>
+
+<div class="askbox">
+  <input id="q" type="text" placeholder="e.g. 'open source AI'  ·  'robotics timeline'  ·  'inference cost'" autofocus>
+  <div class="hint">
+    <span>try:</span>
+    <span class="ex" data-q="agents">agents</span>
+    <span class="ex" data-q="open source">open source</span>
+    <span class="ex" data-q="robotics">robotics</span>
+    <span class="ex" data-q="prediction">predictions only</span>
+    <span class="ex" data-q="moat">moats</span>
+    <span class="ex" data-q="China">China</span>
+  </div>
+  <div class="copy-claude" id="claudeBox" style="display:none">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3M12 17h.01"/></svg>
+    <span>Want a synthesized answer drawing across multiple videos? Paste the prompt below into a Claude Code session running in this folder.</span>
+    <button id="copyBtn">copy prompt</button>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="active" data-t="all">all</button>
+  <button data-t="insights">insights only</button>
+  <button data-t="quotes">quotes only</button>
+</div>
+
+<div id="results" class="results"></div>
+
+<footer>
+  <span id="count"></span>
+  <span><a href="./dashboard.html">← back to tracker</a></span>
+</footer>
+</div>
+
+<script>
+let DATA = {insights:[], quotes:[]}, q = '', tab = 'all';
+async function load() {
+  DATA = await fetch('./insights.json',{cache:'no-cache'}).then(r=>r.json());
+  render();
+}
+function highlight(text, terms) {
+  if (!terms.length) return text;
+  let out = text;
+  for (const t of terms) {
+    const re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    out = out.replace(re, '<mark>$1</mark>');
+  }
+  return out;
+}
+function render() {
+  const terms = q.trim().toLowerCase().split(/\s+/).filter(t => t.length > 1);
+  let ins = DATA.insights, qs = DATA.quotes;
+  if (terms.length) {
+    const score = (text) => terms.reduce((s, t) => s + (text.toLowerCase().split(t).length - 1), 0);
+    ins = DATA.insights.map(i => ({...i, _s: score(i.headline+' '+i.body+' '+(i.category||''))})).filter(i => i._s > 0).sort((a,b) => b._s - a._s);
+    qs  = DATA.quotes.map(x => ({...x, _s: score(x.text)})).filter(x => x._s > 0).sort((a,b) => b._s - a._s);
+  }
+  let items = [];
+  if (tab === 'all' || tab === 'insights') items = items.concat(ins.map(i => ({type: 'insight', ...i})));
+  if (tab === 'all' || tab === 'quotes') items = items.concat(qs.map(x => ({type: 'quote', ...x})));
+  if (tab === 'all') items.sort((a,b) => (b._s||0) - (a._s||0));
+
+  document.getElementById('count').textContent = items.length + ' result' + (items.length===1?'':'s');
+  document.getElementById('claudeBox').style.display = q.length >= 3 ? 'flex' : 'none';
+  document.getElementById('results').innerHTML = items.length ? items.map(item => {
+    if (item.type === 'insight') {
+      return `<div class="result">
+        <div class="h"><h3>${highlight(item.headline, terms)}</h3><span class="src">${item.category}</span></div>
+        <div class="body">${highlight(item.body, terms)}</div>
+        <div class="footer"><span class="vid">${item.video_title||''}</span><a href="${item.url}" target="_blank" rel="noopener">jump to source ↗</a></div>
+      </div>`;
+    } else {
+      return `<div class="result quote">
+        <div class="h"><h3>${highlight(item.text, terms)}</h3></div>
+        <div class="footer"><span class="vid">${item.video_title||''}</span><a href="${item.url}" target="_blank" rel="noopener">jump to source ↗</a></div>
+      </div>`;
+    }
+  }).join('') : `<div class="empty"><h3>No results</h3><p>Try different terms, or paste your query into a Claude Code session for a synthesized answer across the full library.</p></div>`;
+
+  // Copy-to-Claude prompt
+  document.getElementById('copyBtn').onclick = async () => {
+    const prompt = `Using the podcast-insights library (library/insights.json contains every insight & quote across all archived videos, with video_title + url for citation), answer this question and cite specific videos and timestamps:\n\n"${q}"\n\nDo not invent claims. If the library doesn't contain enough material, say so.`;
+    await navigator.clipboard.writeText(prompt);
+    const b = document.getElementById('copyBtn');
+    b.textContent = 'copied!'; b.classList.add('copied');
+    setTimeout(() => { b.textContent = 'copy prompt'; b.classList.remove('copied'); }, 1600);
+  };
+}
+document.getElementById('q').addEventListener('input', e => { q = e.target.value; render(); });
+document.querySelectorAll('.ex').forEach(b => b.onclick = () => { document.getElementById('q').value = b.dataset.q; q = b.dataset.q; render(); });
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
+  tab = b.dataset.t;
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.toggle('active', x === b));
+  render();
+});
+document.addEventListener('keydown', e => { if (e.key === '/' && document.activeElement.id !== 'q') { e.preventDefault(); document.getElementById('q').focus(); } });
+document.getElementById('themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur==='dark'?'light':'dark');
+};
+load();
+</script>
+</body>
+</html>

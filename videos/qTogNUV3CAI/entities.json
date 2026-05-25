@@ -1,0 +1,241 @@
+{
+  "video_id": "qTogNUV3CAI",
+  "people": [
+    {
+      "name": "Demis Hassabis",
+      "role": "CEO, Google DeepMind",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 0,
+      "context": "Primary guest; argues for LLM+search path to AGI"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "role": "Host",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 0,
+      "context": "Interviewer"
+    },
+    {
+      "name": "Shane Legg",
+      "role": "DeepMind co-founder, Chief AGI Scientist",
+      "speaker": false,
+      "mentions": 4,
+      "first_seconds": 1340,
+      "context": "Cited for AGI timelines and compute-curve thinking"
+    },
+    {
+      "name": "Chris Olah",
+      "role": "Interpretability researcher",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 200,
+      "context": "Praised for mechanistic interpretability work"
+    },
+    {
+      "name": "Albert Einstein",
+      "role": "Physicist",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 633,
+      "context": "Exemplar of intuition-driven world-model simulation"
+    },
+    {
+      "name": "Garry Kasparov",
+      "role": "Chess world champion",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1635,
+      "context": "Used in analogy about explainable expert decisions"
+    },
+    {
+      "name": "Magnus Carlsen",
+      "role": "Chess world champion",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1640,
+      "context": "Used in the same explainability analogy"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "role": "Then OpenAI co-founder",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2880,
+      "context": "Cited for OpenAI dropping robotics due to data scarcity"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Google DeepMind",
+      "mentions": 8,
+      "first_seconds": 0,
+      "context": "Hassabis's lab; merged Brain and DeepMind"
+    },
+    {
+      "name": "Google",
+      "mentions": 6,
+      "first_seconds": 1860,
+      "context": "Parent company providing compute and security infra"
+    },
+    {
+      "name": "Google Brain",
+      "mentions": 2,
+      "first_seconds": 1110,
+      "context": "Merged with DeepMind to form Google DeepMind"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 1,
+      "first_seconds": 2880,
+      "context": "Cited via Ilya for abandoning robotics over data scarcity"
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 1,
+      "first_seconds": 2760,
+      "context": "Referenced for specializing in interpretability research"
+    },
+    {
+      "name": "Isomorphic Labs",
+      "mentions": 1,
+      "first_seconds": 2220,
+      "context": "DeepMind drug-discovery spin-out"
+    },
+    {
+      "name": "UK AI Safety Institute",
+      "mentions": 1,
+      "first_seconds": 2685,
+      "context": "Cited as an external red-teaming partner"
+    },
+    {
+      "name": "MIT",
+      "mentions": 1,
+      "first_seconds": 2025,
+      "context": "Cited for 1990s symbolic/expert-system approaches that didn't pan out"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "Gemini",
+      "type": "Multimodal foundation model",
+      "first_seconds": 25,
+      "context": "DeepMind's frontier model; first major Brain+DeepMind collaboration"
+    },
+    {
+      "name": "AlphaZero",
+      "type": "Self-play RL system",
+      "first_seconds": 460,
+      "context": "Template for planning layer atop LLMs"
+    },
+    {
+      "name": "AlphaGo",
+      "type": "Go-playing RL system",
+      "first_seconds": 720,
+      "context": "Earlier flagship that inspired others to scale"
+    },
+    {
+      "name": "AlphaFold",
+      "type": "Protein structure prediction",
+      "first_seconds": 1350,
+      "context": "Exemplar of AI-for-science impact"
+    },
+    {
+      "name": "DQN",
+      "type": "Deep Q-learning agent",
+      "first_seconds": 825,
+      "context": "First DeepMind system to master Atari from pixels"
+    },
+    {
+      "name": "Gato",
+      "type": "Generalist agent",
+      "first_seconds": 2880,
+      "context": "Treats actions/words/pixels as unified tokens"
+    },
+    {
+      "name": "RT-2 (Robotic Transformer)",
+      "type": "Robotics model",
+      "first_seconds": 2880,
+      "context": "Transfers language-model knowledge into robot control"
+    },
+    {
+      "name": "AlphaCode",
+      "type": "Code-generation system",
+      "first_seconds": 1510,
+      "context": "Cited as evidence AI can speed up AI R&D"
+    },
+    {
+      "name": "GraphCast",
+      "type": "Weather prediction model",
+      "first_seconds": 2580,
+      "context": "Recent open-sourced DeepMind release"
+    },
+    {
+      "name": "TPUs",
+      "type": "Custom AI accelerator",
+      "first_seconds": 1740,
+      "context": "Google's compute substrate alongside GPUs"
+    },
+    {
+      "name": "Transformers",
+      "type": "Neural architecture",
+      "first_seconds": 2080,
+      "context": "Invented at Google; enabled web-scale ingestion"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Experience replay",
+      "first_seconds": 250,
+      "summary": "Reusing past trajectories for sample-efficient RL; DeepMind innovation"
+    },
+    {
+      "name": "Mechanistic interpretability",
+      "first_seconds": 195,
+      "summary": "Hassabis's 'virtual brain analytics' — fMRI-like analysis of model internals"
+    },
+    {
+      "name": "Grounding via RLHF",
+      "first_seconds": 1060,
+      "summary": "Hypothesis that grounded human raters inject grounding into language models"
+    },
+    {
+      "name": "Hardened sandboxes",
+      "first_seconds": 1400,
+      "summary": "Cyber-secured simulation environments to contain and study capable AIs"
+    },
+    {
+      "name": "Responsible scaling policies",
+      "first_seconds": 2480,
+      "summary": "Pre-commitments to halt scaling unless safety thresholds are met"
+    },
+    {
+      "name": "Self-play / synthetic data",
+      "first_seconds": 720,
+      "summary": "Agents generating training signal by interacting with each other or simulators"
+    },
+    {
+      "name": "Memory as reconstruction",
+      "first_seconds": 2335,
+      "summary": "Hassabis's neuroscience claim that imagination reuses memory's reassembly machinery"
+    }
+  ],
+  "books_papers": [
+    {
+      "name": "Imagination and memory (PNAS-era paper)",
+      "author": "Demis Hassabis",
+      "context": "His 2007 neuroscience work linking episodic memory and imagination"
+    },
+    {
+      "name": "Machine Super Intelligence (thesis)",
+      "author": "Shane Legg",
+      "context": "2009 thesis proposing Wikipedia compression as an AI test"
+    },
+    {
+      "name": "Neuroscience-inspired AI",
+      "author": "Hassabis et al.",
+      "context": "2017 paper arguing attention and other brain concepts matter for AI"
+    }
+  ]
+}

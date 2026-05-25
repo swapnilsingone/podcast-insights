@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Library — Podcast Insights</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./lib.css">
+<style>
+* { box-sizing: border-box; min-width: 0; }
+html, body { overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
+
+/* Hero stats — more visual */
+header.hero { padding: 8px 0 28px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.lede { font-size: 17px; }
+.stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 22px; }
+@media (max-width: 720px) { .stats-row { grid-template-columns: repeat(2, 1fr); } }
+.stats-row .s { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; transition: border-color .15s; }
+.stats-row .s:hover { border-color: var(--line-strong); }
+.stats-row .v { font-family: var(--serif); font-weight: 700; font-size: 30px; color: var(--ink); letter-spacing: -0.02em; line-height: 1; }
+.stats-row .v .unit { font-size: 14px; color: var(--accent); margin-left: 4px; font-weight: 500; }
+.stats-row .l { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.stats-row .sub { font-size: 12px; color: var(--muted-2); font-family: var(--mono); margin-top: 2px; }
+
+/* Controls */
+.controls { display: flex; gap: 12px; align-items: center; margin: 18px 0 14px; flex-wrap: wrap; }
+.search { flex: 1; min-width: 220px; position: relative; }
+.search input { width: 100%; background: var(--surface); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 11px 14px 11px 38px; font-size: 14px; font-family: inherit; outline: none; transition: border-color .15s; }
+.search input:focus { border-color: var(--accent); }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--muted); }
+.search .kbd { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-family: var(--mono); font-size: 10px; color: var(--muted-2); padding: 2px 6px; border: 1px solid var(--line); border-radius: 4px; }
+.sort, .view-toggle { display: flex; gap: 6px; align-items: center; }
+.sort button, .view-toggle button { background: transparent; border: 1px solid var(--line); color: var(--muted); padding: 7px 12px; border-radius: 999px; font-family: var(--mono); font-size: 11px; letter-spacing: .04em; cursor: pointer; text-transform: lowercase; transition: all .15s; }
+.sort button:hover, .view-toggle button:hover { color: var(--ink-2); border-color: var(--line-strong); }
+.sort button.active, .view-toggle button.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.view-toggle button { padding: 7px 9px; }
+.view-toggle svg { width: 14px; height: 14px; vertical-align: middle; }
+
+/* Channel filter chips */
+.channels { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin: 0 0 18px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.channels-label { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.chan-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); font-family: var(--sans); font-size: 12px; cursor: pointer; transition: all .15s; background: transparent; }
+.chan-chip:hover { border-color: var(--line-strong); }
+.chan-chip.active { background: var(--accent); color: #181000; border-color: var(--accent); }
+.chan-chip .count { font-family: var(--mono); font-size: 10px; color: var(--muted); padding: 1px 5px; border-radius: 999px; background: var(--bg-2); }
+.chan-chip.active .count { background: rgba(0,0,0,0.15); color: rgba(0,0,0,0.7); }
+
+/* Featured card */
+.featured { display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; margin-bottom: 22px; transition: border-color .2s, transform .2s; position: relative; }
+@media (max-width: 880px) { .featured { grid-template-columns: 1fr; } }
+.featured:hover { border-color: var(--accent); transform: translateY(-1px); }
+.featured .feat-thumb { position: relative; aspect-ratio: 16/9; background: var(--bg-2); overflow: hidden; }
+.featured .feat-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.featured .feat-thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 50%, rgba(0,0,0,.5) 100%); pointer-events: none; }
+.featured .feat-tag { position: absolute; top: 14px; left: 14px; display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: var(--accent); color: #181000; border-radius: 999px; font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; z-index: 1; }
+.featured .feat-tag .pulse { width: 6px; height: 6px; background: #181000; border-radius: 50%; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.3;} }
+.featured .feat-dur { position: absolute; bottom: 12px; right: 12px; background: rgba(0,0,0,.7); color: white; font-family: var(--mono); font-size: 11px; padding: 4px 7px; border-radius: 5px; z-index: 1; }
+.featured .feat-body { padding: 26px 28px; display: flex; flex-direction: column; gap: 12px; }
+.featured .feat-channel { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 10px; align-items: center; }
+.featured .feat-channel .sep { color: var(--muted-2); }
+.featured h2.feat-title { font-family: var(--serif); font-weight: 700; font-size: clamp(22px, 2.2vw, 28px); line-height: 1.18; margin: 4px 0 0; letter-spacing: -0.015em; color: var(--ink); overflow-wrap: break-word; }
+.featured .feat-thesis { font-family: var(--serif); font-style: italic; font-size: 15px; color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 56ch; }
+.featured .feat-insights { margin-top: 6px; display: flex; flex-direction: column; gap: 7px; }
+.featured .feat-ins-row { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: var(--ink-2); line-height: 1.4; }
+.featured .feat-ins-row .cat-dot { flex-shrink: 0; width: 6px; height: 6px; border-radius: 50%; margin-top: 7px; }
+.featured .feat-foot { margin-top: auto; padding-top: 14px; border-top: 1px dashed var(--line); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; }
+.featured .feat-foot .count { color: var(--accent); }
+.featured .feat-foot .sep { color: var(--muted-2); }
+.featured .feat-foot .archived { color: var(--muted); }
+
+/* Compact grid cards */
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; transition: border-color .2s, transform .2s, box-shadow .2s; }
+.card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 12px 32px -16px rgba(0,0,0,.5); }
+.card .thumb { aspect-ratio: 16/9; background: var(--bg-2); position: relative; overflow: hidden; }
+.card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.card .dur { position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,.78); color: white; font-family: var(--mono); font-size: 10.5px; padding: 3px 6px; border-radius: 4px; }
+.card .channel-tag { position: absolute; top: 8px; left: 8px; background: rgba(0,0,0,.6); backdrop-filter: blur(8px); color: white; font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; }
+.card .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.card h3 { font-family: var(--serif); font-weight: 600; font-size: 17px; line-height: 1.22; margin: 0; letter-spacing: -0.01em; color: var(--ink); overflow-wrap: break-word; }
+.card .ins-peek { font-size: 12.5px; color: var(--muted); line-height: 1.45; margin: 2px 0 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .ins-peek strong { color: var(--ink-2); font-weight: 500; }
+.card .cat-strip { display: flex; gap: 3px; align-items: center; margin: 4px 0 0; flex-wrap: wrap; min-height: 8px; }
+.card .cat-pill { width: 18px; height: 4px; border-radius: 2px; opacity: 0.85; }
+.card .meta { margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--line); display: flex; justify-content: space-between; align-items: center; font-family: var(--mono); font-size: 10.5px; color: var(--muted); gap: 6px; }
+.card .meta .insights { color: var(--accent); }
+.card .meta .date { color: var(--muted-2); text-align: right; }
+
+/* List view — dense scannable */
+.list { display: flex; flex-direction: column; gap: 8px; }
+.list .row { display: grid; grid-template-columns: 110px 1fr auto; gap: 16px; align-items: center; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; transition: border-color .15s, transform .15s; }
+.list .row:hover { border-color: var(--accent); transform: translateX(2px); }
+.list .row .thumb { aspect-ratio: 16/9; background: var(--bg-2); border-radius: 8px; overflow: hidden; position: relative; }
+.list .row .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.list .row .info { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.list .row .l-channel { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.list .row .l-title { font-family: var(--serif); font-weight: 600; font-size: 16px; line-height: 1.25; color: var(--ink); letter-spacing: -0.01em; overflow-wrap: break-word; }
+.list .row .l-thesis { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink-2); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.list .row .l-meta { display: flex; gap: 14px; align-items: flex-end; font-family: var(--mono); font-size: 11px; color: var(--muted); flex-direction: column; text-align: right; white-space: nowrap; }
+.list .row .l-meta .big { font-family: var(--serif); font-weight: 700; font-size: 20px; color: var(--accent); line-height: 1; }
+.list .row .l-meta .l-meta-row { display: flex; gap: 10px; }
+@media (max-width: 640px) {
+  .list .row { grid-template-columns: 80px 1fr; }
+  .list .row .l-meta { grid-column: 1 / -1; flex-direction: row; justify-content: space-between; text-align: left; padding-top: 4px; border-top: 1px dashed var(--line); }
+}
+
+.empty { padding: 80px 28px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 14px; }
+.empty h2 { font-family: var(--serif); color: var(--ink); margin: 0 0 8px; font-size: 24px; }
+.empty p { margin: 8px 0; font-size: 14px; }
+.empty code { background: var(--surface); padding: 3px 8px; border-radius: 4px; font-family: var(--mono); font-size: 12px; color: var(--accent); border: 1px solid var(--line); }
+
+footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted-2); font-size: 12px; font-family: var(--mono); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+/* Category colors — match per-video pages */
+.cat-data-point { background: #5ea0ff; }
+.cat-counterintuitive { background: #ff7ab6; }
+.cat-prediction { background: #6fe3c4; }
+.cat-mental-model { background: #f4c042; }
+.cat-framework { background: #cbd1de; }
+.cat-story { background: #ddd6c4; }
+.cat-actionable { background: #6fe3c4; }
+.cat-definition { background: #cbd1de; }
+</style>
+</head>
+<body>
+<div class="container">
+<header class="topbar">
+  <div class="brand"><a href="./index.html"><span class="dot"></span>Podcast Insights</a></div>
+  <nav class="nav">
+    <a href="./index.html" class="active">Library</a>
+    <a href="./dashboard.html">Tracker</a>
+    <a href="./entities.html">Entities</a>
+    <a href="./predictions.html">Predictions</a>
+    <a href="./speakers.html">Speakers</a>
+    <a href="./qa.html">Ask</a>
+    <a href="./compare.html">Compare</a>
+    <a href="./highlights.html">Highlights</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn" title="Toggle theme">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</header>
+
+<header class="hero">
+  <div class="kicker">Your library</div>
+  <h1><em>Insights</em>, distilled from the things you watched.</h1>
+  <p class="lede">Each card opens a deep, browsable artifact — cards, charts, quotes, deep-links into the source video.</p>
+  <div class="stats-row" id="stats"></div>
+</header>
+
+<div class="channels" id="channels"></div>
+
+<div class="controls">
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="q" type="text" placeholder="Search titles, channels, theses, insights…" />
+    <span class="kbd">/</span>
+  </div>
+  <div class="sort" id="sort">
+    <button data-sort="recent" class="active">recent</button>
+    <button data-sort="uploaded">newest</button>
+    <button data-sort="insights">most insights</button>
+    <button data-sort="length">longest</button>
+    <button data-sort="title">a–z</button>
+  </div>
+  <div class="view-toggle" id="viewToggle">
+    <button data-view="grid" class="active" title="Grid view" aria-label="Grid">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+    </button>
+    <button data-view="list" title="List view" aria-label="List">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+    </button>
+  </div>
+</div>
+
+<div id="featured-wrap"></div>
+<div id="results-wrap" class="grid"></div>
+
+<footer>
+  <span id="count">0 videos</span>
+  <span>add URLs to <code style="color:var(--accent)">../queue.txt</code> or paste into a Claude Code session</span>
+</footer>
+</div>
+
+<script>
+const fmtDurShort = (s) => {
+  const h = Math.floor(s/3600), m = Math.floor((s%3600)/60), sec = s%60;
+  return h ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}` : `${m}:${String(sec).padStart(2,'0')}`;
+};
+const fmtDurApprox = (s) => {
+  const h = Math.floor(s/3600), m = Math.floor((s%3600)/60);
+  return h ? `${h}h ${m}m` : `${m}m`;
+};
+function relDays(iso) {
+  if (!iso) return '';
+  const diff = (Date.now() - new Date(iso).getTime()) / 86400000;
+  if (diff < 1) return 'today';
+  if (diff < 2) return 'yesterday';
+  if (diff < 30) return Math.floor(diff) + 'd ago';
+  if (diff < 365) return Math.floor(diff/30) + 'mo ago';
+  return Math.floor(diff/365) + 'y ago';
+}
+function escHTML(s) {
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+let LIB = [];
+let INSIGHTS = []; // flat list across all videos
+let sort = 'recent';
+let q = '';
+let view = 'grid';
+let activeChannel = 'all';
+
+async function load() {
+  try {
+    const [lr, ir] = await Promise.all([
+      fetch('./library.json', {cache:'no-cache'}),
+      fetch('./insights.json', {cache:'no-cache'})
+    ]);
+    LIB = await lr.json();
+    const idata = await ir.json();
+    INSIGHTS = idata.insights || [];
+  } catch (e) {
+    console.error(e);
+    LIB = []; INSIGHTS = [];
+  }
+  render();
+}
+
+function insightsFor(videoId, limit = 2) {
+  return INSIGHTS.filter(i => i.video_id === videoId).slice(0, limit);
+}
+function categoryBreakdownFor(videoId) {
+  const all = INSIGHTS.filter(i => i.video_id === videoId);
+  const counts = {};
+  all.forEach(i => { counts[i.category] = (counts[i.category]||0) + 1; });
+  return counts;
+}
+
+function renderStats() {
+  const totalInsights = LIB.reduce((s,x) => s + (x.insight_count||0), 0);
+  const totalHours = Math.round(LIB.reduce((s,x) => s + (x.duration_seconds||0), 0) / 3600 * 10) / 10;
+  const channels = new Set(LIB.map(x => x.channel)).size;
+  const totalQuotes = LIB.reduce((s,x) => s + (x.quote_count||0), 0);
+  document.getElementById('stats').innerHTML = `
+    <div class="s">
+      <div class="v">${LIB.length}</div>
+      <div class="l">videos archived</div>
+      <div class="sub">${channels} channel${channels===1?'':'s'}</div>
+    </div>
+    <div class="s">
+      <div class="v">${totalInsights}</div>
+      <div class="l">insights extracted</div>
+      <div class="sub">${totalQuotes} pull-quotes</div>
+    </div>
+    <div class="s">
+      <div class="v">${totalHours}<span class="unit">h</span></div>
+      <div class="l">hours of source</div>
+      <div class="sub">avg ${LIB.length ? Math.round(LIB.reduce((s,x)=>s+(x.duration_seconds||0),0)/LIB.length/60) : 0} min/video</div>
+    </div>
+    <div class="s">
+      <div class="v">${LIB.length ? Math.round(totalInsights / LIB.length) : 0}</div>
+      <div class="l">avg insights / video</div>
+      <div class="sub">${LIB.length ? Math.round(totalInsights / (LIB.reduce((s,x)=>s+(x.duration_seconds||0),0)/3600) * 10)/10 : 0} per hour</div>
+    </div>
+  `;
+}
+
+function renderChannels() {
+  const counts = {};
+  LIB.forEach(v => { counts[v.channel] = (counts[v.channel]||0) + 1; });
+  const channels = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const allBtn = `<button class="chan-chip ${activeChannel==='all'?'active':''}" data-chan="all">All <span class="count">${LIB.length}</span></button>`;
+  const chans = channels.map(([c,n]) => `<button class="chan-chip ${activeChannel===c?'active':''}" data-chan="${escHTML(c)}">${escHTML(c)} <span class="count">${n}</span></button>`).join('');
+  document.getElementById('channels').innerHTML = `<span class="channels-label">Channel</span>${allBtn}${chans}`;
+}
+
+function getFiltered() {
+  let items = LIB.slice();
+  const query = q.trim().toLowerCase();
+  if (query) {
+    items = items.filter(i => {
+      const inMeta = (i.title + ' ' + i.channel + ' ' + (i.thesis||'')).toLowerCase().includes(query);
+      const insHits = INSIGHTS.some(ins => ins.video_id === i.video_id && (ins.headline + ' ' + (ins.body||'')).toLowerCase().includes(query));
+      return inMeta || insHits;
+    });
+  }
+  if (activeChannel !== 'all') items = items.filter(i => i.channel === activeChannel);
+  if (sort === 'recent')   items.sort((a,b) => (b.processed_at||'').localeCompare(a.processed_at||''));
+  if (sort === 'uploaded') items.sort((a,b) => (b.upload_date||'').localeCompare(a.upload_date||''));
+  if (sort === 'insights') items.sort((a,b) => (b.insight_count||0) - (a.insight_count||0));
+  if (sort === 'length')   items.sort((a,b) => (b.duration_seconds||0) - (a.duration_seconds||0));
+  if (sort === 'title')    items.sort((a,b) => (a.title||'').localeCompare(b.title||''));
+  return items;
+}
+
+function renderFeatured(items) {
+  const wrap = document.getElementById('featured-wrap');
+  // Only feature the most recent when on default sort & no active filters
+  const shouldFeature = sort === 'recent' && activeChannel === 'all' && !q && items.length > 0;
+  if (!shouldFeature) { wrap.innerHTML = ''; return; }
+  const v = items[0];
+  const peeks = insightsFor(v.video_id, 3);
+  const upDate = v.upload_date ? new Date(v.upload_date).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+  wrap.innerHTML = `
+    <a class="featured" href="${escHTML(v.path)}">
+      <div class="feat-thumb">
+        <span class="feat-tag"><span class="pulse"></span> Most recent</span>
+        ${v.thumbnail ? `<img src="${escHTML(v.thumbnail)}" alt="" loading="lazy">` : ''}
+        <span class="feat-dur">${fmtDurShort(v.duration_seconds||0)}</span>
+      </div>
+      <div class="feat-body">
+        <div class="feat-channel">
+          <span>${escHTML(v.channel||'Unknown')}</span>
+          ${upDate ? `<span class="sep">·</span><span>${upDate}</span>` : ''}
+          ${v.processing_lag_days != null ? `<span class="sep">·</span><span>processed ${v.processing_lag_days}d later</span>` : ''}
+        </div>
+        <h2 class="feat-title">${escHTML(v.title)}</h2>
+        ${v.thesis ? `<p class="feat-thesis">${escHTML(v.thesis)}</p>` : ''}
+        ${peeks.length ? `<div class="feat-insights">
+          ${peeks.map(p => `<div class="feat-ins-row"><div class="cat-dot cat-${p.category}"></div><div>${escHTML(p.headline)}</div></div>`).join('')}
+        </div>` : ''}
+        <div class="feat-foot">
+          <span class="count">${v.insight_count||0} insights</span>
+          <span class="sep">·</span>
+          <span>${v.quote_count||0} quotes</span>
+          <span class="sep">·</span>
+          <span class="archived">archived ${relDays(v.processed_at)}</span>
+        </div>
+      </div>
+    </a>
+  `;
+  // Remove the first item from results since it's featured
+  return items.slice(1);
+}
+
+function renderGrid(items) {
+  const wrap = document.getElementById('results-wrap');
+  wrap.className = view;
+  if (LIB.length === 0) {
+    wrap.innerHTML = `<div class="empty"><h2>No videos yet</h2><p>Add a YouTube URL to <code>../queue.txt</code> or paste one into a Claude Code session.</p><p>Then say <code>process the queue</code>.</p></div>`;
+    return;
+  }
+  if (items.length === 0) {
+    wrap.innerHTML = `<div class="empty" style="grid-column: 1/-1"><p>No videos match your filters.</p></div>`;
+    return;
+  }
+
+  if (view === 'grid') {
+    wrap.innerHTML = items.map(v => {
+      const upDate = v.upload_date ? new Date(v.upload_date).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const archAgo = v.processed_at ? relDays(v.processed_at) : '';
+      const peek = insightsFor(v.video_id, 1)[0];
+      const cats = categoryBreakdownFor(v.video_id);
+      const catStrip = Object.entries(cats).map(([c, n]) => Array.from({length: n}, () => `<div class="cat-pill cat-${c}" title="${c}"></div>`).join('')).join('');
+      return `
+      <a class="card" href="${escHTML(v.path)}">
+        <div class="thumb">
+          ${v.thumbnail ? `<img src="${escHTML(v.thumbnail)}" alt="" loading="lazy">` : ''}
+          <span class="channel-tag">${escHTML(v.channel||'?')}</span>
+          <span class="dur">${fmtDurShort(v.duration_seconds||0)}</span>
+        </div>
+        <div class="body">
+          <h3>${escHTML(v.title)}</h3>
+          ${peek ? `<p class="ins-peek"><strong>↑</strong> ${escHTML(peek.headline)}</p>` : ''}
+          <div class="cat-strip">${catStrip}</div>
+          <div class="meta">
+            <span class="insights">${v.insight_count||0} insights · ${v.quote_count||0} quotes</span>
+            <span class="date" title="archived ${v.processed_at ? new Date(v.processed_at).toLocaleString() : ''}">${archAgo}${upDate ? ` · ${upDate.split(',')[0]}` : ''}</span>
+          </div>
+        </div>
+      </a>`;
+    }).join('');
+  } else {
+    // list view
+    wrap.innerHTML = items.map(v => {
+      const upDate = v.upload_date ? new Date(v.upload_date).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      const archAgo = v.processed_at ? relDays(v.processed_at) : '';
+      return `
+      <a class="row" href="${escHTML(v.path)}">
+        <div class="thumb">${v.thumbnail ? `<img src="${escHTML(v.thumbnail)}" alt="" loading="lazy">` : ''}</div>
+        <div class="info">
+          <div class="l-channel">${escHTML(v.channel||'?')} · ${fmtDurApprox(v.duration_seconds||0)}${upDate ? ` · ${upDate}` : ''}</div>
+          <div class="l-title">${escHTML(v.title)}</div>
+          ${v.thesis ? `<div class="l-thesis">${escHTML(v.thesis)}</div>` : ''}
+        </div>
+        <div class="l-meta">
+          <span class="big">${v.insight_count||0}</span>
+          <div class="l-meta-row"><span>insights</span><span style="color:var(--muted-2)">·</span><span>${v.quote_count||0} quotes</span></div>
+          <div style="color:var(--muted-2)">${archAgo}</div>
+        </div>
+      </a>`;
+    }).join('');
+  }
+}
+
+function render() {
+  renderStats();
+  renderChannels();
+  let items = getFiltered();
+  const remaining = renderFeatured(items);
+  if (remaining) items = remaining;
+  renderGrid(items);
+  const filteredCount = getFiltered().length;
+  document.getElementById('count').textContent = filteredCount + ' video' + (filteredCount === 1 ? '' : 's') + (activeChannel!=='all'||q ? ` · filtered from ${LIB.length}` : '');
+}
+
+document.getElementById('q').addEventListener('input', e => { q = e.target.value; render(); });
+document.getElementById('sort').addEventListener('click', e => {
+  if (e.target.tagName !== 'BUTTON') return;
+  sort = e.target.dataset.sort;
+  document.querySelectorAll('#sort button').forEach(b => b.classList.toggle('active', b === e.target));
+  render();
+});
+document.getElementById('viewToggle').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  view = btn.dataset.view;
+  document.querySelectorAll('#viewToggle button').forEach(b => b.classList.toggle('active', b === btn));
+  localStorage.setItem('lib.view', view);
+  render();
+});
+document.getElementById('channels').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  activeChannel = btn.dataset.chan;
+  render();
+});
+document.getElementById('themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  localStorage.setItem('lib.theme', cur === 'dark' ? 'light' : 'dark');
+};
+
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+    e.preventDefault();
+    document.getElementById('q').focus();
+  }
+  if (e.key === 'Escape') {
+    if (document.activeElement.id === 'q') document.getElementById('q').blur();
+    document.getElementById('q').value = '';
+    q = ''; render();
+  }
+});
+
+// Restore preferences
+const savedView = localStorage.getItem('lib.view');
+if (savedView === 'list') {
+  view = 'list';
+  document.querySelectorAll('#viewToggle button').forEach(b => b.classList.toggle('active', b.dataset.view === 'list'));
+}
+const savedTheme = localStorage.getItem('lib.theme');
+if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Predictions — Podcast Insights</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./lib.css">
+<style>
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 880px) { .cols { grid-template-columns: 1fr; } }
+.col h2 { font-family: var(--serif); font-size: 24px; margin: 0 0 16px; }
+.pred { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px; transition: border-color .15s; }
+.pred:hover { border-color: var(--line-strong); }
+.pred.overdue { border-color: rgba(255,122,182,.35); }
+.pred.due-soon { border-color: rgba(244,192,66,.35); }
+.pred.scored-right { border-color: rgba(111,227,196,.4); background: linear-gradient(135deg, var(--surface) 0%, rgba(111,227,196,.04) 100%); }
+.pred.scored-wrong { border-color: rgba(255,107,107,.4); background: linear-gradient(135deg, var(--surface) 0%, rgba(255,107,107,.04) 100%); }
+.pred .claim { font-family: var(--serif); font-size: 16px; line-height: 1.4; color: var(--ink); }
+.pred .meta { display: flex; gap: 14px; font-family: var(--mono); font-size: 11px; color: var(--muted); flex-wrap: wrap; align-items: center; }
+.pred .speaker { color: var(--ink-2); }
+.pred .horizon { color: var(--accent); }
+.pred .due { color: var(--accent-mag); }
+.pred .cat { background: var(--bg-2); padding: 2px 8px; border-radius: 4px; }
+.pred .actions { display: flex; gap: 6px; margin-top: 4px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.pred .actions button { background: transparent; border: 1px solid var(--line); color: var(--muted); padding: 6px 12px; border-radius: 6px; font-family: var(--mono); font-size: 11px; cursor: pointer; transition: all .15s; }
+.pred .actions button:hover { color: var(--ink); border-color: var(--line-strong); }
+.pred .actions button.right.active { background: var(--accent-2); color: var(--bg); border-color: var(--accent-2); }
+.pred .actions button.wrong.active { background: #ff6b6b; color: white; border-color: #ff6b6b; }
+.pred .actions button.partial.active { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.pred .actions a { margin-left: auto; color: var(--muted); font-family: var(--mono); font-size: 11px; text-decoration: none; }
+.pred .actions a:hover { color: var(--accent); }
+.pred .notes-area { margin-top: 8px; }
+.pred .notes-area textarea { width: 100%; background: var(--bg-2); border: 1px solid var(--line); color: var(--ink); border-radius: 6px; padding: 8px 10px; font-family: var(--sans); font-size: 13px; min-height: 50px; resize: vertical; outline: none; }
+.pred .notes-area textarea:focus { border-color: var(--accent); }
+.tally { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 28px; }
+@media (max-width: 720px) { .tally { grid-template-columns: repeat(2,1fr); } }
+.tally .t { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+.tally .t .l { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.tally .t .v { font-family: var(--serif); font-weight: 700; font-size: 28px; color: var(--ink); margin-top: 4px; letter-spacing: -0.02em; }
+.tally .t.right .v { color: var(--accent-2); }
+.tally .t.wrong .v { color: #ff6b6b; }
+.tally .t.partial .v { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="topbar">
+  <div class="brand"><a href="./index.html"><span class="dot"></span>Podcast Insights</a></div>
+  <nav class="nav">
+    <a href="./index.html">Library</a><a href="./dashboard.html">Tracker</a>
+    <a href="./entities.html">Entities</a><a href="./predictions.html" class="active">Predictions</a>
+    <a href="./speakers.html">Speakers</a><a href="./qa.html">Ask</a>
+    <a href="./compare.html">Compare</a><a href="./highlights.html">Highlights</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</header>
+
+<header class="hero">
+  <div class="kicker"><span>Prediction tracker</span></div>
+  <h1>Every <em>forecast</em> made on the record.</h1>
+  <p class="lede">Each guest's predictions, with the dates by which they should be scored. Mark them right, wrong, or partial. Over time this becomes a calibration record for each speaker — that's the whole point.</p>
+</header>
+
+<div id="tally" class="tally"></div>
+
+<div class="cols">
+  <div class="col">
+    <h2>Open</h2>
+    <div id="openList"></div>
+  </div>
+  <div class="col">
+    <h2>Scored</h2>
+    <div id="scoredList"></div>
+  </div>
+</div>
+
+<footer>
+  <span>Scores are saved in your browser's localStorage — they're personal. To make them durable across machines, copy from <code style="background:var(--surface);padding:2px 6px;border-radius:4px;color:var(--accent)">localStorage.podcastInsightsScores</code> into <code style="background:var(--surface);padding:2px 6px;border-radius:4px;color:var(--accent)">library/scores.json</code>.</span>
+  <span><a href="./dashboard.html">← back to tracker</a></span>
+</footer>
+</div>
+
+<script>
+const SCORES_KEY = 'podcastInsightsScores';
+let PREDS = {open: [], validated: []};
+let scores = JSON.parse(localStorage.getItem(SCORES_KEY) || '{}');
+const fmtDate = (s) => s ? new Date(s).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+const today = new Date().toISOString().slice(0,10);
+const in90 = new Date(Date.now()+90*86400000).toISOString().slice(0,10);
+
+async function load() {
+  PREDS = await fetch('./predictions.json',{cache:'no-cache'}).then(r=>r.json());
+  render();
+}
+function render() {
+  const all = [...PREDS.open];
+  const counts = { open: 0, due: 0, right: 0, wrong: 0, partial: 0 };
+  const open = [], scored = [];
+  for (const p of all) {
+    const s = scores[p.id];
+    if (s) { scored.push({...p, score: s}); counts[s.verdict] = (counts[s.verdict]||0)+1; }
+    else { open.push(p); counts.open++; const next = (p.revisit_dates||[])[0]; if (next && next <= in90) counts.due++; }
+  }
+  open.sort((a,b) => ((a.revisit_dates||['9999'])[0]).localeCompare((b.revisit_dates||['9999'])[0]));
+  scored.sort((a,b) => (b.score.scored_at||'').localeCompare(a.score.scored_at||''));
+
+  document.getElementById('tally').innerHTML = `
+    <div class="t"><div class="l">open</div><div class="v">${counts.open}</div></div>
+    <div class="t"><div class="l">due ≤ 90d</div><div class="v">${counts.due}</div></div>
+    <div class="t right"><div class="l">scored right</div><div class="v">${counts.right||0}</div></div>
+    <div class="t wrong"><div class="l">scored wrong</div><div class="v">${counts.wrong||0}</div></div>
+  `;
+
+  document.getElementById('openList').innerHTML = open.length ? open.map(predCard).join('') : `<div class="empty"><h3>No open predictions</h3><p>Nothing to score right now.</p></div>`;
+  document.getElementById('scoredList').innerHTML = scored.length ? scored.map(predCard).join('') : `<div class="empty"><h3>Nothing scored yet</h3><p>Mark predictions right/wrong/partial as their revisit dates arrive.</p></div>`;
+  bindActions();
+}
+function predCard(p) {
+  const next = (p.revisit_dates||[])[0];
+  const overdue = next && next <= today;
+  const dueSoon = next && next > today && next <= in90;
+  const sc = scores[p.id];
+  const klass = sc ? `scored-${sc.verdict}` : (overdue ? 'overdue' : dueSoon ? 'due-soon' : '');
+  return `
+    <div class="pred ${klass}" data-id="${p.id}">
+      <div class="claim">${p.claim}</div>
+      <div class="meta">
+        <span class="speaker">${p.speaker||''}</span>
+        <span class="cat">${p.category||''}</span>
+        <span class="horizon">${p.horizon_label||''}</span>
+        ${next ? `<span class="${overdue?'due':''}">${overdue?'overdue':'revisit'} ${fmtDate(next)}</span>` : ''}
+      </div>
+      ${p.notes ? `<div style="font-size:13px;color:var(--ink-2);line-height:1.4;font-style:italic">${p.notes}</div>` : ''}
+      <div class="actions">
+        <button class="right ${sc?.verdict==='right'?'active':''}" data-v="right" data-id="${p.id}">right</button>
+        <button class="partial ${sc?.verdict==='partial'?'active':''}" data-v="partial" data-id="${p.id}">partial</button>
+        <button class="wrong ${sc?.verdict==='wrong'?'active':''}" data-v="wrong" data-id="${p.id}">wrong</button>
+        ${sc ? `<button data-v="clear" data-id="${p.id}">clear</button>` : ''}
+        <a href="${p.url}" target="_blank" rel="noopener">source ↗</a>
+      </div>
+      <div class="notes-area"><textarea placeholder="Why? Evidence?" data-note="${p.id}">${sc?.note||''}</textarea></div>
+    </div>
+  `;
+}
+function bindActions() {
+  document.querySelectorAll('.pred .actions button').forEach(btn => {
+    btn.onclick = () => {
+      const id = btn.dataset.id, v = btn.dataset.v;
+      if (v === 'clear') { delete scores[id]; }
+      else { scores[id] = { verdict: v, scored_at: new Date().toISOString(), note: scores[id]?.note || '' }; }
+      localStorage.setItem(SCORES_KEY, JSON.stringify(scores));
+      render();
+    };
+  });
+  document.querySelectorAll('textarea[data-note]').forEach(t => {
+    t.oninput = () => {
+      const id = t.dataset.note;
+      scores[id] = { ...(scores[id]||{verdict:'',scored_at:''}), note: t.value };
+      localStorage.setItem(SCORES_KEY, JSON.stringify(scores));
+    };
+  });
+}
+document.getElementById('themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur==='dark'?'light':'dark');
+};
+load();
+</script>
+</body>
+</html>

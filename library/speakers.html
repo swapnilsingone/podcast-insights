@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Speakers — Podcast Insights</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./lib.css">
+<style>
+.spks { display: grid; grid-template-columns: 320px 1fr; gap: 24px; }
+@media (max-width: 880px) { .spks { grid-template-columns: 1fr; } }
+.spk-list { display: flex; flex-direction: column; gap: 6px; position: sticky; top: 20px; max-height: 80vh; overflow-y: auto; }
+.spk-list .s { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: all .15s; }
+.spk-list .s:hover { border-color: var(--line-strong); }
+.spk-list .s.active { border-color: var(--accent); background: var(--surface-2); }
+.spk-list .s .n { font-family: var(--serif); font-size: 15px; color: var(--ink); }
+.spk-list .s .r { font-family: var(--mono); font-size: 10px; color: var(--muted); }
+.spk-list .s .c { font-family: var(--mono); font-size: 10px; color: var(--accent); background: var(--bg-2); padding: 3px 7px; border-radius: 4px; }
+.dossier .name { font-family: var(--serif); font-size: 36px; letter-spacing: -0.02em; margin: 0; color: var(--ink); }
+.dossier .role { color: var(--muted); font-style: italic; margin-top: 4px; }
+.dossier h3 { font-family: var(--serif); font-size: 18px; margin: 26px 0 12px; color: var(--ink); border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+.app { display: flex; gap: 12px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; align-items: center; }
+.app img { width: 90px; height: 50px; object-fit: cover; border-radius: 6px; background: var(--bg-2); }
+.app .ch { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.app .t { font-family: var(--serif); font-size: 14px; color: var(--ink); line-height: 1.3; }
+.app .d { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted-2); }
+.claim { padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 6px; }
+.claim .h { font-family: var(--serif); font-size: 14.5px; color: var(--ink); line-height: 1.35; }
+.claim .m { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-top: 4px; display: flex; gap: 10px; }
+.claim .cat { color: var(--accent); }
+.claim a { color: var(--muted); }
+.claim a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="topbar">
+  <div class="brand"><a href="./index.html"><span class="dot"></span>Podcast Insights</a></div>
+  <nav class="nav">
+    <a href="./index.html">Library</a><a href="./dashboard.html">Tracker</a>
+    <a href="./entities.html">Entities</a><a href="./predictions.html">Predictions</a>
+    <a href="./speakers.html" class="active">Speakers</a><a href="./qa.html">Ask</a>
+    <a href="./compare.html">Compare</a><a href="./highlights.html">Highlights</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</header>
+
+<header class="hero">
+  <div class="kicker"><span>Speaker dossiers</span></div>
+  <h1>What each <em>guest</em> has said, in one place.</h1>
+  <p class="lede">Speakers compound the fastest. The second time someone appears, you can start comparing their claims against their own earlier ones. The fifth time, you have a worldview map.</p>
+</header>
+
+<div class="spks">
+  <div class="spk-list" id="spkList"></div>
+  <div class="dossier" id="dossier"></div>
+</div>
+
+<footer>
+  <span id="count"></span>
+  <span><a href="./dashboard.html">← back to tracker</a></span>
+</footer>
+</div>
+
+<script>
+let SPKS = [];
+async function load() {
+  SPKS = await fetch('./speakers.json',{cache:'no-cache'}).then(r=>r.json());
+  document.getElementById('count').textContent = SPKS.length + ' speakers';
+  document.getElementById('spkList').innerHTML = SPKS.map(s => `
+    <div class="s" data-slug="${s.slug}" onclick="show('${s.slug}')">
+      <div>
+        <div class="n">${s.name}</div>
+        <div class="r">${s.role||''}</div>
+      </div>
+      <span class="c">${s.appearance_count}×</span>
+    </div>
+  `).join('');
+  const initial = location.hash ? location.hash.slice(1) : (SPKS[0]?.slug);
+  if (initial) show(initial);
+}
+function show(slug) {
+  const s = SPKS.find(x => x.slug === slug);
+  if (!s) return;
+  document.querySelectorAll('.spk-list .s').forEach(el => el.classList.toggle('active', el.dataset.slug === slug));
+  history.replaceState(null, '', '#' + slug);
+  const spanLine = s.first_uploaded
+    ? (s.first_uploaded === s.last_uploaded
+        ? `<div class="role" style="margin-top:6px">In library since ${s.first_uploaded}</div>`
+        : `<div class="role" style="margin-top:6px">In library from <strong style="color:var(--accent)">${s.first_uploaded}</strong> to <strong style="color:var(--accent)">${s.last_uploaded}</strong> · span ${s.span_days} days</div>`)
+    : '';
+  document.getElementById('dossier').innerHTML = `
+    <h2 class="name">${s.name}</h2>
+    <div class="role">${s.role||''}</div>
+    ${spanLine}
+    <h3>Appearances · ${s.appearance_count}</h3>
+    ${s.appearances.map(a => `
+      <a class="app" href="../videos/${a.video_id}/index.html">
+        <img src="${a.thumbnail||''}" alt="" loading="lazy">
+        <div><div class="ch">${a.channel||''}</div><div class="t">${a.video_title||''}</div></div>
+        <span class="d">${a.upload_date||''}</span>
+      </a>
+    `).join('')}
+    ${s.claim_count > 0 ? `
+      <h3>Claims on record · ${s.claim_count}</h3>
+      ${s.claims.map(c => `
+        <div class="claim">
+          <div class="h">${c.headline}</div>
+          <div class="m"><span class="cat">${c.category}</span><span>${c.video_title}</span><span><a href="${c.url}" target="_blank" rel="noopener">jump ↗</a></span></div>
+        </div>
+      `).join('')}
+    ` : `<h3>Claims on record</h3><div class="empty"><p>No insights attributed yet — they accumulate as more videos featuring this speaker are processed.</p></div>`}
+  `;
+}
+document.getElementById('themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur==='dark'?'light':'dark');
+};
+load();
+</script>
+</body>
+</html>

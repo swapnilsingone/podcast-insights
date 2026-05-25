@@ -1,0 +1,265 @@
+{
+  "video_id": "kYkIdXwW2AE",
+  "people": [
+    {
+      "name": "Yann LeCun",
+      "role": "Meta Chief AI Scientist; JEPA originator",
+      "speaker": true,
+      "mentions": 20,
+      "first_seconds": 6,
+      "context": "Central subject; argues LLMs cannot reach general intelligence"
+    },
+    {
+      "name": "Stéphane Deny",
+      "role": "Postdoc at Meta, co-creator of Barlow Twins",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 1213,
+      "context": "Proposed applying Horace Barlow's redundancy-reduction idea to joint-embedding networks"
+    },
+    {
+      "name": "Horace Barlow",
+      "role": "Computational/theoretical neuroscientist",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 1240,
+      "context": "1961 hypothesis: vision neurons reduce redundancy; inspiration for Barlow Twins"
+    },
+    {
+      "name": "Alec Radford",
+      "role": "OpenAI researcher",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 320,
+      "context": "Modified a Google translation Transformer into the next-token-predictor that became GPT-1"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "role": "OpenAI co-founder",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 318,
+      "context": "Among those who saw the significance of the Transformer at OpenAI"
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "role": "Deep learning pioneer",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1230,
+      "context": "Cited as having explored similar information-content maximization ideas"
+    },
+    {
+      "name": "Welch Labs host",
+      "role": "Narrator",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 0,
+      "context": "Walks through the technical narrative and intersperses LeCun interview clips"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Meta (FAIR)",
+      "mentions": 4,
+      "first_seconds": 1210,
+      "context": "Employs LeCun; produced Barlow Twins, VicReg, DINO line, VJEPA"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 5,
+      "first_seconds": 296,
+      "context": "Originated as an RL lab; pivoted to language with GPT-1/2/3/ChatGPT"
+    },
+    {
+      "name": "Google",
+      "mentions": 3,
+      "first_seconds": 333,
+      "context": "Built the Transformer (translation) and 2020 ViT that hit 88.6% on ImageNet"
+    },
+    {
+      "name": "Google DeepMind",
+      "mentions": 1,
+      "first_seconds": 220,
+      "context": "Showcased RL renaissance with Atari and Go breakthroughs"
+    },
+    {
+      "name": "Tesla",
+      "mentions": 1,
+      "first_seconds": 1782,
+      "context": "L2 autonomous driving despite massive supervised data — LeCun's motivating example"
+    },
+    {
+      "name": "Hudson River Trading",
+      "mentions": 5,
+      "first_seconds": 539,
+      "context": "Video sponsor; applies transformers to trillions of order-book tokens"
+    },
+    {
+      "name": "Bell Labs",
+      "mentions": 1,
+      "first_seconds": 956,
+      "context": "Where LeCun built original Siamese networks in early 1990s for signature fraud"
+    },
+    {
+      "name": "Welch Labs",
+      "mentions": 2,
+      "first_seconds": 2179,
+      "context": "Publisher of the Illustrated Guide to AI book promoted at the end"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "JEPA",
+      "type": "AI architecture",
+      "first_seconds": 19,
+      "context": "Joint Embedding Predictive Architecture — predicts embeddings of future states"
+    },
+    {
+      "name": "VJEPA-2",
+      "type": "Video JEPA model",
+      "first_seconds": 1939,
+      "context": "Action-conditioned video JEPA used for robot arm planning"
+    },
+    {
+      "name": "VLJEPA",
+      "type": "Vision-Language JEPA",
+      "first_seconds": 2106,
+      "context": "Tackles multimodal tasks without generative LLM backbone"
+    },
+    {
+      "name": "LeWorldModel (Lay World Model)",
+      "type": "JEPA implementation",
+      "first_seconds": 2129,
+      "context": "Cited as the most complete picture of what JEPA-based systems can do"
+    },
+    {
+      "name": "DINO / DINOv3",
+      "type": "Self-supervised vision model",
+      "first_seconds": 1642,
+      "context": "Joint-embedding line from FAIR Paris; v3 reached 88.4% ImageNet"
+    },
+    {
+      "name": "Barlow Twins",
+      "type": "SSL training method",
+      "first_seconds": 1213,
+      "context": "Cross-correlation-to-identity loss for joint-embedding networks"
+    },
+    {
+      "name": "VicReg",
+      "type": "SSL training method",
+      "first_seconds": 1626,
+      "context": "Simplified Barlow Twins variant from LeCun's group"
+    },
+    {
+      "name": "Siamese networks",
+      "type": "Neural architecture",
+      "first_seconds": 916,
+      "context": "Two-tower networks producing comparable embeddings; LeCun's 1990s invention"
+    },
+    {
+      "name": "AlexNet",
+      "type": "CNN",
+      "first_seconds": 165,
+      "context": "2012 ImageNet breakthrough, ~59.3% baseline accuracy"
+    },
+    {
+      "name": "GPT-1 / GPT-2 / GPT-3 / ChatGPT",
+      "type": "LLMs",
+      "first_seconds": 393,
+      "context": "Generative pre-trained transformer line illustrating the LLM paradigm"
+    },
+    {
+      "name": "Transformer",
+      "type": "Neural architecture",
+      "first_seconds": 333,
+      "context": "Google's translation architecture co-opted by Radford for next-token prediction"
+    },
+    {
+      "name": "OpenAI Gym / Universe",
+      "type": "RL toolkits",
+      "first_seconds": 304,
+      "context": "Early OpenAI focus on reinforcement learning environments"
+    },
+    {
+      "name": "ImageNet",
+      "type": "Dataset/benchmark",
+      "first_seconds": 173,
+      "context": "Canonical image classification benchmark used to compare methods"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Self-supervised learning",
+      "first_seconds": 235,
+      "summary": "Training where labels are derived from the data itself (e.g., next-token prediction)"
+    },
+    {
+      "name": "Representation collapse",
+      "first_seconds": 1073,
+      "summary": "Failure mode where a joint-embedding network outputs the same vector for any input"
+    },
+    {
+      "name": "Contrastive learning",
+      "first_seconds": 1138,
+      "summary": "Use positive and negative example pairs to prevent collapse; scales poorly in high dims"
+    },
+    {
+      "name": "Cake analogy",
+      "first_seconds": 254,
+      "summary": "LeCun's hierarchy: SSL cake, supervised icing, RL cherry"
+    },
+    {
+      "name": "Linear probe evaluation",
+      "first_seconds": 1531,
+      "summary": "Freeze encoder, train one linear layer to measure representation quality"
+    },
+    {
+      "name": "World model",
+      "first_seconds": 1817,
+      "summary": "Model that predicts next world state given current state and an action"
+    },
+    {
+      "name": "Autoregressive generation",
+      "first_seconds": 729,
+      "summary": "Token-by-token prediction; works for language, fails visually as blur compounds"
+    },
+    {
+      "name": "Optimal control",
+      "first_seconds": 2017,
+      "summary": "Classical (1950s-60s) search over action sequences — JEPA's twist is learning the model"
+    }
+  ],
+  "books_papers": [
+    {
+      "name": "A Path Towards Autonomous Machine Intelligence",
+      "author": "Yann LeCun (2022)",
+      "context": "60-page position paper introducing JEPA and the world-model agenda"
+    },
+    {
+      "name": "Barlow Twins (2021)",
+      "author": "Zbontar, Jing, Misra, LeCun, Deny",
+      "context": "Cross-correlation identity loss to prevent representation collapse"
+    },
+    {
+      "name": "DINOv3 paper",
+      "author": "Meta FAIR (Aug 2025)",
+      "context": "First SSL model to match supervised ImageNet performance"
+    },
+    {
+      "name": "GPT-1 paper (Improving Language Understanding by Generative Pre-Training)",
+      "author": "Radford et al., OpenAI (2018)",
+      "context": "Self-supervised pre-training + supervised fine-tuning unlock"
+    },
+    {
+      "name": "Possible Principles Underlying the Transformations of Sensory Messages",
+      "author": "Horace Barlow (1961)",
+      "context": "Redundancy-reduction hypothesis cited as Barlow Twins' foundation"
+    },
+    {
+      "name": "Welch Labs Illustrated Guide to AI",
+      "author": "Welch Labs",
+      "context": "Promoted companion book covering AlexNet, scaling laws, diffusion"
+    }
+  ]
+}

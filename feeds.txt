@@ -1,0 +1,11 @@
+# Subscribe to YouTube channels — one URL per line.
+# Lines starting with # are ignored.
+#
+# Then: python3 scripts/ingest_feeds.py
+# (appends new uploads to queue.txt; you then say "process the queue")
+#
+# Examples (uncomment to use):
+# https://www.youtube.com/@allin
+# https://www.youtube.com/@DwarkeshPatel
+# https://www.youtube.com/@aDotB
+# https://www.youtube.com/@lexfridman

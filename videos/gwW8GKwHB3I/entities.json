@@ -1,0 +1,60 @@
+{
+  "video_id": "gwW8GKwHB3I",
+  "people": [
+    {"name": "Jensen Huang", "role": "Founder & CEO, Nvidia", "speaker": true, "mentions": 999, "first_seconds": 0},
+    {"name": "Chamath Palihapitiya", "role": "Host, All-In", "speaker": true, "first_seconds": 0},
+    {"name": "Jason Calacanis", "role": "Host, All-In", "speaker": true, "first_seconds": 0},
+    {"name": "David Sacks", "role": "Host, All-In", "speaker": true, "first_seconds": 0},
+    {"name": "David Friedberg", "role": "Host, All-In (Ohalo CEO)", "speaker": true, "first_seconds": 0},
+    {"name": "Brad Gerstner", "role": "Host, Altimeter (guest co-host)", "speaker": true, "first_seconds": 0},
+    {"name": "Dario Amodei", "role": "CEO, Anthropic", "mentions": 4, "first_seconds": 1252, "context": "Anthropic comms; $1T-by-2030 forecast Jensen calls conservative"},
+    {"name": "Elon Musk", "role": "CEO, Tesla", "mentions": 3, "first_seconds": 3150, "context": "Optimus, robots one-for-one with humans"},
+    {"name": "Peter Steinberger", "role": "Creator of Open Claw / governance contributor", "mentions": 2, "first_seconds": 942, "context": "Cited as architect of the agentic OS"},
+    {"name": "Andrej Karpathy", "role": "Independent researcher", "mentions": 1, "first_seconds": 1605, "context": "Auto-research 600 lines, PhD-thesis-quality result in 30 minutes"},
+    {"name": "President Trump", "role": "US President", "mentions": 4, "first_seconds": 1985, "context": "Export licenses to China"},
+    {"name": "Howard Lutnick", "role": "Secretary of Commerce", "mentions": 2, "first_seconds": 2018, "context": "Approved export licenses"},
+    {"name": "LeBron James", "role": "NBA athlete", "mentions": 1, "first_seconds": 1543, "context": "$1M/yr body maintenance analogy for token spend"},
+    {"name": "Dwarkesh Patel", "role": "Podcaster", "mentions": 1, "first_seconds": 3370, "context": "Source of Dario's $1T forecast"}
+  ],
+  "companies": [
+    {"name": "Nvidia", "mentions": 30, "first_seconds": 0},
+    {"name": "Groq", "mentions": 8, "first_seconds": 30, "context": "Acquired by Nvidia"},
+    {"name": "Anthropic", "mentions": 12, "first_seconds": 1252},
+    {"name": "OpenAI", "mentions": 8, "first_seconds": 803},
+    {"name": "Tesla", "mentions": 3, "first_seconds": 2400},
+    {"name": "Boston Dynamics", "mentions": 1, "first_seconds": 3120},
+    {"name": "AWS", "mentions": 2, "first_seconds": 2680},
+    {"name": "Meta", "mentions": 1, "first_seconds": 2710},
+    {"name": "Open Evidence", "mentions": 1, "first_seconds": 2980, "context": "Agentic medical diagnosis"},
+    {"name": "Hippocratic AI", "mentions": 1, "first_seconds": 2980, "context": "Agentic medical assistant"},
+    {"name": "Ohalo", "mentions": 1, "first_seconds": 1640, "context": "Freiberg's company, AI in agriculture"},
+    {"name": "BYD", "mentions": 1, "first_seconds": 2400},
+    {"name": "Uber", "mentions": 1, "first_seconds": 2400},
+    {"name": "Waymo", "mentions": 1, "first_seconds": 2440},
+    {"name": "Synopsys", "mentions": 2, "first_seconds": 1755},
+    {"name": "Cadence", "mentions": 2, "first_seconds": 1755},
+    {"name": "BitTensor (subnet 3)", "mentions": 1, "first_seconds": 1830, "context": "Distributed training of 4B llama model"},
+    {"name": "Dell", "mentions": 1, "first_seconds": 763, "context": "6800 workstation"}
+  ],
+  "products_tech": [
+    {"name": "Vera Rubin", "type": "Nvidia platform", "first_seconds": 198},
+    {"name": "Blackwell", "type": "Nvidia platform", "first_seconds": 1280},
+    {"name": "Dynamo", "type": "AI-factory OS", "first_seconds": 62},
+    {"name": "Omniverse", "type": "Physics simulator", "first_seconds": 339},
+    {"name": "CUDA", "type": "Compute platform", "first_seconds": 2660},
+    {"name": "Claude Code / Open Claw", "type": "Agentic runtime", "first_seconds": 803},
+    {"name": "ChatGPT", "type": "Product", "first_seconds": 803},
+    {"name": "Alpaca IO", "type": "Reasoning AV system", "first_seconds": 2480},
+    {"name": "Bluefield", "type": "Storage processor", "first_seconds": 270}
+  ],
+  "frameworks_concepts": [
+    {"name": "Three computers (training / simulation / edge)", "first_seconds": 314, "summary": "All physical-AI products require all three computing systems"},
+    {"name": "Disaggregated inference", "first_seconds": 104, "summary": "Different pipeline stages on different chips"},
+    {"name": "Tokens as engineer CapEx", "first_seconds": 1476, "summary": "Same logic as CAD tools or athlete body maintenance"},
+    {"name": "Insanely-hard filter", "first_seconds": 564, "summary": "Only build what is insanely hard + taps unique superpowers"},
+    {"name": "Radiologist parable", "first_seconds": 3795, "summary": "Tools replace tasks, not purposes — demand for the role rises"},
+    {"name": "Models are technology, not product", "first_seconds": 1894, "summary": "Closed and open weights coexist; both are A"},
+    {"name": "Agent runtime as a computer", "first_seconds": 858, "summary": "Memory + scheduling + IO + skills = computer"}
+  ],
+  "books_papers": []
+}

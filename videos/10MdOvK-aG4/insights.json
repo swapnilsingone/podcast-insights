@@ -1,0 +1,60 @@
+{
+  "video": {
+    "id": "10MdOvK-aG4",
+    "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+    "channel": "All-In Podcast",
+    "duration_seconds": 4921,
+    "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+    "upload_date": "2026-05-08",
+    "view_count": 531009
+  },
+  "thesis": "Anthropic just outran every comparable: $10B → $44B ARR in four months, with the only constraint being compute and power. The SpaceX-Anthropic deal solves that for both sides simultaneously, sets up SpaceX's IPO as a Mag-1 candidate, and shifts the AI story from 'will the revenue show up?' to 'is one company about to become the most powerful monopoly in human history?' Meanwhile the regulatory and PR backlash is building faster than the industry's response to it.",
+  "insights": [
+    {"id": 1, "category": "data-point", "headline": "Anthropic ARR: $10B → $30B → $44B in four months", "body": "From January 1 to March 31, Anthropic tripled ARR from ~$10B to $30B. April alone added another $14B to $44B. Trajectory implies ~$100B exiting 2026 and possibly $1T by 2027. \"Nobody in Silicon Valley has ever seen anything like it.\"", "start_seconds": 858, "end_seconds": 940},
+    {"id": 2, "category": "framework", "headline": "Anthropic & OpenAI revenue is 100% supply-constrained", "body": "Their growth has nothing to do with demand — it's gated by data-center capacity and power. \"If they had infinite power, revenues would be even more parabolic.\" All the forecast debate is noise; the only variable that matters is compute availability.", "start_seconds": 360, "end_seconds": 420},
+    {"id": 3, "category": "story", "headline": "Elon Web Services emerges with the Anthropic-Colossus deal", "body": "Elon leased all of Colossus 1 to Anthropic — 220K Nvidia GPUs, 300MW. Solves Anthropic's compute constraint and xAI's \"spending ahead of revenue\" problem in one stroke. Brad estimates an extra ~$45B revenue this year on top of the analyst ~$25B baseline.", "start_seconds": 1140, "end_seconds": 1300},
+    {"id": 4, "category": "framework", "headline": "SpaceX is a five-layer cake — launch, connectivity, compute, hyperscaler, applications", "body": "Sean Maguire's framing. The Colossus lease puts a structural core business under the SpaceX valuation that subsidizes Grok training, blunts the bear case on orbital data centers, and supports an IPO at 40-50× revenue against Mag-5's ~25× earnings.", "start_seconds": 1391, "end_seconds": 1430},
+    {"id": 5, "category": "counterintuitive", "headline": "Anthropic could become \"the most powerful monopoly in human history\"", "body": "Sacks' provocation: at this trajectory, in 18 months Anthropic would be larger than the rest of Mag 7 combined. Apple ~$420B, Microsoft ~$300B, Alphabet ~$390B, Amazon ~$700B, Nvidia ~$190B, Meta ~$185B, Tesla ~$110B = ~$2.3T total. Anthropic alone could match.", "start_seconds": 1916, "end_seconds": 2010},
+    {"id": 6, "category": "story", "headline": "The Rockefeller / Safe Oil parable", "body": "Sacks: imagine if Standard Oil had been called \"Safe Oil\" and Rockefeller had called for an FDA-style agency to regulate kerosene safety. Everyone would have argued wick thickness while he built the richest monopoly in history. Same playbook being run on AI safety today — regulatory capture as moat.", "start_seconds": 1735, "end_seconds": 1890},
+    {"id": 7, "category": "data-point", "headline": "AI ranks 29th of 39 issues in voter salience", "body": "AI is unpopular but not top of mind. Voter top concerns are cost of living and economy — both of which AI is improving. AI is deflationary, drove 75% of Q1 GDP growth, and is pushing 25-30% wage increases for construction workers building data centers.", "start_seconds": 3382, "end_seconds": 3520},
+    {"id": 8, "category": "mental-model", "headline": "Tech leaders are getting D-/F on AI PR", "body": "Chamath: there's a profound vibe shift on Main Street, now seeping into Washington. Nobody spends time articulating the upside case at scale. \"We're going to give three guys trillion-dollar net worths and let them control the keys?\" That's the framing tech is losing.", "start_seconds": 2470, "end_seconds": 2620},
+    {"id": 9, "category": "story", "headline": "The \"FDA for AI\" was fake news", "body": "NYT spin originated from Andrew Ross Sorkin commentary, then took on a life of its own. Sacks: \"no senior official supports it.\" Susie Wiles' statement shoots it down. Real concern is cyber capability — Mythos / OpenAI's equivalent — solvable in 3-6 months by hardening systems and shipping these models to CrowdStrike, Palo Alto, et al.", "start_seconds": 2660, "end_seconds": 2870},
+    {"id": 10, "category": "framework", "headline": "KYC on frontier-model APIs becomes the consensus solution", "body": "Anthropic and OpenAI already log API use and coordinate suspicious activity with the government (anti-distillation efforts especially). Preview-period KYC is emerging consensus. Avoids pre-release approval regimes while keeping a known-customer perimeter on dangerous capabilities.", "start_seconds": 2820, "end_seconds": 2960},
+    {"id": 11, "category": "counterintuitive", "headline": "The data-center protests are professionally organized", "body": "Brad: ~50% of the 9GW coming online this year is being protested — not by local communities, but by activists moving across the country. Same playbook as the 30-year shutdown of fission reactors. Electricity costs are dropping in Texas (where DCs are built) and rising in CA/NY (where they aren't).", "start_seconds": 698, "end_seconds": 810},
+    {"id": 12, "category": "prediction", "headline": "Tesla power walls + cars become the distributed-compute layer", "body": "Jason: Pulte Homes + Span just announced data centers beside every home. Tesla power walls already have compute. Cars have compute. Starlink delivers distributed networking. \"You could be paying people to put power walls with computers in them.\" Next shoe to drop.", "start_seconds": 1305, "end_seconds": 1410},
+    {"id": 13, "category": "prediction", "headline": "Tesla + SpaceX merge into \"Elon Corp\" by end-2026 or mid-2027", "body": "Chamath: when the merger happens, it creates a single asset valued at a premium for innovation — \"some will say unexplainable\" — at a time when everyone else has stopped innovating. The valuation premium is rational: pipeline + TAM + execution.", "start_seconds": 1450, "end_seconds": 1545},
+    {"id": 14, "category": "prediction", "headline": "The 500-day reckoning on AI margins", "body": "Chamath: \"literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500.\" In ~500 days a fork arrives: either OpEx shrinks (workforce contracts → margins expand) or revenues grow with OpEx flat. Two very different worlds for both markets and society.", "start_seconds": 4035, "end_seconds": 4170},
+    {"id": 15, "category": "data-point", "headline": "Public-market AI exposure is NOT trading at bubble multiples", "body": "Meta 17×, Nvidia 19×, Microsoft 20×, Google 24× fully-taxed GAAP earnings. Memory stocks at 5-7×: SK Hynix 5×, Samsung 6×, Micron 7×. S&P only up 8% YTD. Brad: \"This is not the stuff that bubbles are made of.\"", "start_seconds": 3705, "end_seconds": 3820},
+    {"id": 16, "category": "framework", "headline": "Give a piece of the AI cap table to every American", "body": "Jason: every AI IPO (SpaceX, Anthropic, OpenAI, Nvidia) should commit 1-5% to Invest America accounts (IPOK — IPO for Kids). Sacks: free electricity in Abilene if a data center is sited there. Without broad-based benefit delivery, the regulatory antibodies win.", "start_seconds": 3104, "end_seconds": 3300}
+  ],
+  "quotes": [
+    {"text": "Anthropic could become the most powerful monopoly ever created in human history.", "start_seconds": 1916},
+    {"text": "If they had infinite power, their revenues would probably be even more parabolic.", "start_seconds": 380},
+    {"text": "There is literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500.", "start_seconds": 4061},
+    {"text": "Nobody in Silicon Valley has ever seen anything like it.", "start_seconds": 880},
+    {"text": "Imagine if John D. Rockefeller had called his company Safe Oil.", "start_seconds": 1746},
+    {"text": "We're going to give three guys trillion-dollar net worths and we're going to allow them to control the keys?", "start_seconds": 2543},
+    {"text": "Markets are going to keep going up for a while. And then at some point they're going to go down.", "start_seconds": 4012},
+    {"text": "Nobody better on planet Earth than Elon at converting electrons to tokens.", "start_seconds": 528}
+  ],
+  "resources": [
+    {"name": "Anthropic", "context": "10× annual growth sustained at scale; the conversation's central character"},
+    {"name": "SpaceX / Elon Musk", "context": "Colossus 1 lease to Anthropic; Colossus 2, Macro Hard, Macro Harder facilities"},
+    {"name": "Sean Maguire", "context": "Source of the SpaceX five-layer-cake framing"},
+    {"name": "Mythos / Methuselah", "context": "Anthropic's cyber-capable preview model that triggered White House attention"},
+    {"name": "Pulte Homes + Span / Base Power / Zach Dell", "context": "Distributed-compute build-out at the residential layer"},
+    {"name": "CrowdStrike, Palo Alto Networks", "context": "The cybersecurity layer that should receive Mythos-class tools first"},
+    {"name": "Susie Wiles", "context": "White House Chief of Staff — issued the statement that defused the FDA-for-AI panic"},
+    {"name": "Andrew Ross Sorkin (NYT)", "context": "Original commentary that spun into the FDA-for-AI narrative"},
+    {"name": "Bernie Sanders", "context": "Endorsed the FDA-for-AI proposal; representative of the doomer-regulatory coalition"},
+    {"name": "Polymarket (Trump federal AI review by May 31)", "context": "Pricing at 21% as of the recording"}
+  ],
+  "action_items": [
+    "If you hold AI-adjacent public equities, the multiples are not bubble-level (5-24× earnings). The bear case is the 500-day margin reckoning, not the multiple.",
+    "Watch the cybersecurity vendors with cyber-AI tooling — they are the explicit beneficiaries of the Mythos-class capability becoming widespread in 3-6 months.",
+    "If you're operating an AI company with an API, get KYC working during preview periods now. It's the consensus middle ground that avoids pre-release approval regimes.",
+    "If you're a tech executive: the PR strategy is failing. The vibe shift is real and Washington responds to Main Street. Broad-based benefit delivery (cap-table giving, regional electricity benefits) is the only durable defuse.",
+    "Update your mental model of SpaceX's IPO. The five-layer cake means the comparable isn't Boeing or even Tesla — it's a multi-cloud + sovereign-launch + AI hyperscaler."
+  ]
+}

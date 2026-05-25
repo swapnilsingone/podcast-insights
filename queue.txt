@@ -1,0 +1,5 @@
+# Drop YouTube URLs here, one per line. Lines starting with # are ignored.
+# Then in a Claude Code session say: "process the queue"
+#
+# Example:
+# https://www.youtube.com/watch?v=dQw4w9WgXcQ

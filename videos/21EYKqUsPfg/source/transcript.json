@@ -1,0 +1,594 @@
+[
+  {
+    "t": 0,
+    "text": "Why are you trying to distinguish humans? Humans are animals. What we have in common is more interesting. What distinguishes us, we should be paying less attention to. I mean, we're trying to replicate intelligence, right? No animal can go to the moon or make semiconductors, so we want to understand what makes humans special. So I like the way you consider that obvious, because I consider the opposite obvious. If we understood a squirrel, we'd be almost all the way there. I am personally just kind of content being out of sync with my field for a long period of time, perhaps decades,"
+  },
+  {
+    "t": 28.119999,
+    "text": "because occasionally I have improved right in the past. I don't think learning is really about training. It's about an active process. The child tries things and sees what happens. I think we should be proud that we are giving rise to this great transition in the universe. Today, I'm chatting with Richard Sutton, who is one of the founding fathers of reinforcement learning and inventor of many of the main techniques used there, like TD learning and policy gradient methods,"
+  },
+  {
+    "t": 57.52,
+    "text": "And for that, he received this year's Turing Award, which, if you don't know, is basically the Nobel Prize for Computer Science. Richard, congratulations. Thank you, Dvarkis. And thanks for coming on the podcast. It's my pleasure. Okay, so first question. My audience and I are familiar with the LLM way of thinking about AI. Conceptually, what are we missing in terms of thinking about AI from the RL perspective? Well, yes, I think it's really quite a different point of view."
+  },
+  {
+    "t": 85.06,
+    "text": "and it can easily get separated and lose the ability to talk to each other. And, yeah, large language models have become such a big thing, generative AI in general a big thing, and our field is subject to bandwagons and fashions, so we lose track of the basic, basic things. Because I consider reinforcement learning to be basic AI, and what is intelligence? The problem is to understand your world,"
+  },
+  {
+    "t": 114.42,
+    "text": "And reinforcement learning is about understanding your world, whereas large language models are about mimicking people, doing what people say you should do. They're not about figuring out what to do. I guess you would think that to emulate the trillions of tokens in the corpus of Internet text, you would have to build a world model. In fact, these models do seem to have very robust world models, and they're the best world models we've made to date in AI, right?"
+  },
+  {
+    "t": 142.7,
+    "text": "So what do you think that's missing? I would disagree with most of the things you just said. Great. Just to mimic what people say is not really to build a model of the world at all, I don't think. You know, you're mimicking things that have a model of the world, the people. But I don't want to approach the question in an adversarial way. But I would question the idea that they have a world model. So a world model would enable you to predict what would happen."
+  },
+  {
+    "t": 172.7,
+    "text": "Right. They have the ability to predict what a person would say. They don't have the ability to predict what will happen. What we want, I think, to quote Alan Turing, what we want is a machine that can learn from experience. Right. Where experience is the things that actually happen in your life. You do things, you see what happens, and that's what you learn from. Yeah. The large language models learn from something else. They learn from here's a situation and here's what a"
+  },
+  {
+    "t": 201.92,
+    "text": "person did. And implicitly, the suggestion is you should do what the person did. Right. I guess maybe the crux, and I'm curious if you disagree with this, is some people will say, okay, so this imitation learning has given us a good prior or given these models a good prior, but reasonable ways to approach problems. And as we move towards the era of experience, as you call it, this prior is going to be the basis on which we teach these models from"
+  },
+  {
+    "t": 228.59999,
+    "text": "experience because this gives them the opportunity to get answers right some of the time. And then on this, you can build, you can train them on experience. Do you agree with that perspective? No, I agree that it's the large language model perspective. I don't think it's a good perspective. Yeah. Here's why. So to be a prior for something, there has to be a real thing. I mean, a prior bit of knowledge should be the basis for actual knowledge."
+  },
+  {
+    "t": 257.8,
+    "text": "What is actual knowledge? There's no definition of actual knowledge in that large language framework. What makes an action a good action to take? You recognize the value, the need for continual learning. So if you need to learn continually, continually means learning during normal interaction with the world. And so then there must be some way during the normal interaction to tell what's right. Yep. Okay."
+  },
+  {
+    "t": 285.37997,
+    "text": "So is there any way for it to tell, in the largest language model setup, to tell what's the right thing to say? You will say something and you will not get feedback about what the right thing to say is. Because there's no definition of what the right thing to say is. There's no goal. Right. And if there's no goal, then there's one thing to say, another thing to say. There's no right thing to say. Right. So there's no ground truth. you can't have prior knowledge if you don't have ground truth"
+  },
+  {
+    "t": 314.13998,
+    "text": "because the prior knowledge is supposed to be a hint or an initial belief about what the truth is yeah but there isn't any truth there's no right thing to say right now in reinforcement there is a right thing to say or right thing to do because the right thing to do is the thing that gets you reward Right So we have a definition of what the right thing to do And so we can have prior knowledge or knowledge provided by people about what the right thing to do is"
+  },
+  {
+    "t": 340.74197,
+    "text": "And then we can check it to see because we have a definition of what the actual right thing to do is. Now, an even simpler case is when you're trying to make a model of the world. When you predict what will happen, you predict and then you see what happens. Okay, so there's ground truth. There's no ground truth in large language models because you don't have a prediction about what will happen next. If you say something in your conversation,"
+  },
+  {
+    "t": 369.46198,
+    "text": "the large language models have no prediction about what the person will say in response to that or what the response will be. I mean, I think they do. Like, you can literally ask them, what would you anticipate a user might say in response? And they have a prediction. Oh, no, they will respond to that question right. Yeah. But they have no prediction in the substantive sense that they won't be surprised by what happens."
+  },
+  {
+    "t": 391.882,
+    "text": "And if something happens that isn't what you might say they predicted, they will not change because an unexpected thing has happened. And to learn that, they'd have to make an adjustment. So I think a capability like this does exist in context. So it's interesting to watch a model do chain of thought and then suppose it's trying to solve a math problem. It'll say, OK, I'm going to approach this problem using this approach at first."
+  },
+  {
+    "t": 419.68198,
+    "text": "And it'll write this out and be like, oh, wait, I just realized this is the wrong conceptual way to approach the problem. I'm going to restart by this another approach. And that flexibility does exist in context, right? Do you have something else in mind or do you just think that you need to extend this capability across longer horizons? I'm just saying they don't have a, in any meaningful sense, they don't have a prediction of what will happen next. And they will not be surprised by what happened next."
+  },
+  {
+    "t": 445.06198,
+    "text": "They'll not make any changes if something happens based on what happens. Isn't that literally what next token prediction is? Prediction of what's next and then updating on the surprise? Next token is what they should say, what the action should be. It's not what the world will give them in response to what they do. Let's go back to their lack of goal. For me, having a goal is the essence of intelligence. Something is intelligent if it can achieve goals."
+  },
+  {
+    "t": 473.28198,
+    "text": "I like John McCarthy's definition that intelligence is the computational part of the ability to achieve goals. So you have to have goals. You're just a behaving system. You're not anything special. You're not intelligent. And you agree that large language models don't have goals. I think they have a goal. What's the goal? Next token prediction. That's not a goal. It doesn't change the world."
+  },
+  {
+    "t": 501.222,
+    "text": "You know, tokens come at you, and if you predict them, you don't influence them. Oh, yeah. It's not a goal about the external world. Yeah, it's not a goal. It's not a substantive goal. You can't look at a system and say, oh, it has a goal if it's just sitting there predicting and being happy with itself that it's predicting accurately. I guess maybe the bigger question I want to understand is why you don't think doing RL on top of LLMs is a productive direction."
+  },
+  {
+    "t": 530.32196,
+    "text": "Because we seem to be able to give these models a goal of solving difficult math problems. And they're in many ways at the very peaks of human level in the capacity to solve math Olympia type problems, right? They got gold at IMO. So it seems like the model which got gold at the International Math Olympia does have the goal of getting math problems right. So why can't we extend this to different domains? Well, the math problems are different. Making a model of the physical world"
+  },
+  {
+    "t": 560.06195,
+    "text": "and carrying out the consequences of mathematical assumptions or operations, those are very different things. Like the empirical world has to be learned. You have to learn the consequences. whereas the math is more just computational. It's more like standard planning."
+  },
+  {
+    "t": 583.962,
+    "text": "So there they can have a goal to find the proof and they are in some way given that goal to find the proof. Right. So, I mean, it's interesting because you wrote this essay in 2019 titled The Bitter Lesson"
+  },
+  {
+    "t": 602.082,
+    "text": "And this is the most influential essay perhaps in the history of AI, but people have used that as a justification for scaling up LLMs because in their view, this is the one scalable way we have found to pour ungodly amounts of compute into learning about the world. And so it's interesting that your perspective is that the LLMs are actually not bitter lesson told."
+  },
+  {
+    "t": 628.70197,
+    "text": "It's an interesting question whether large language models are a case of the bitter lesson. Yeah. Because they are clearly a way of using massive computation, things that will scale with computation up to the limits of the internet."
+  },
+  {
+    "t": 651.342,
+    "text": "But they also a way of putting in lots of human knowledge And so this is an interesting question It a sociological or industry question Will they reach the limits of the data and and be superseded by things that can get more data just from"
+  },
+  {
+    "t": 678.72394,
+    "text": "experience rather than from people. In some ways, it's a classic case of the bitter lesson. The more human knowledge we put into the large language models, the better they can do. And so it feels good. And yet, one, well, I in particular expect there to be systems that can learn from experience which could well perform much, much better and be much more scalable."
+  },
+  {
+    "t": 708.724,
+    "text": "In which case, it will be another instance of the bitter lesson that the things that used human knowledge were eventually superseded by things that just trained from experience and computation. I guess that doesn't seem like the crux to me, because I think those people would also agree that the overwhelming amount of compute in the future will come from learning from experience."
+  },
+  {
+    "t": 737.324,
+    "text": "They just think that the scaffold or the basis of that, the thing you'll start with in order to pour in the compute to do this future experiential learning or on-the-job learning will be LLMs. And so I guess I still don't understand why this is the wrong starting point altogether, why we need a whole new architecture to begin doing experiential continual learning and why we can't start with LLMs to do that."
+  },
+  {
+    "t": 764.764,
+    "text": "Well, in every case of the bitter lesson, you could start with human knowledge and then do the scalable things. That's always the case. And there's never any reason why that has to be bad. But in fact, and in practice, it has always turned out to be bad. Because people get locked into the human knowledge approach and they psychologically... Now I'm speculating why it is, but this is what has always happened."
+  },
+  {
+    "t": 794.764,
+    "text": "that their lunch gets eaten by the methods that are truly scalable. Give me a sense of what the scalable method is. The scalable method is you learn from experience. You try things, you see what works. No one has to tell you. First of all, you have a goal. So without a goal, there's no sense of right or wrong or better or worse."
+  },
+  {
+    "t": 821.444,
+    "text": "So large language models are trying to get by without having a goal or a sense of better or worse. That's just, you know, it's exactly starting in the wrong place. Maybe it's interesting to compare this to humans. So in both the case of learning from imitation versus experience and on the question of goals, I think there's some interesting analogies."
+  },
+  {
+    "t": 844.06396,
+    "text": "analogies so you know kids will initially learn from imitation uh you don't think so no of course not uh really yeah i think kids just like watch people they like kind of try try to like say these kids i i think the level what about the first six months i think they're kind of kind of imitating things they're trying to like make their mouths sound the way they see their mother's mouth sound and then they'll say the same words without understanding what they mean and as you"
+  },
+  {
+    "t": 872.28394,
+    "text": "get older, the complexity of the imitation they do increases. So you're imitating maybe the skills that your people in your band are using to hunt down the deer or something. And then you go into the learning from experience RR regime. But I think there's a lot of imitation learning happening with humans. It's surprising. Yeah, you can have such a different point of view. Yeah. When I see kids, I see kids just trying things and like waving their hands around and"
+  },
+  {
+    "t": 901.80396,
+    "text": "moving their eyes around. And no one tells them, there's no imitation for how they move their eyes around or even the sounds they make. They may want to create the same sounds, but the actions, you know, the thing that the infant actually does, there's no targets for that. There are no examples for that. I agree that doesn't explain everything infants do, but I think it guides the"
+  },
+  {
+    "t": 928.16394,
+    "text": "learning process. I mean, even LLM, when it's trying to predict the next token early in training, it will make a guess. It'll be different from what it actually sees. And in some sense, it's very short horizon RL, where it's making this guess of, I think this token will be this. It's actually this other thing, similar to how a kid will try to say a word. It comes out wrong. The large language model is learning from training data. It's not learning from experience. It's learning from something that will never be available during its normal life."
+  },
+  {
+    "t": 955.12396,
+    "text": "there's never any uh training data that says you should do this action in normal life i think this is maybe more of a semantic distinction like what do you call school is that not training data you're not like going to school because it's like school is much later okay i shouldn't have said never but but i don't know i think i would even say about school but formal schooling is is the exception. You shouldn't base your theories on that."
+  },
+  {
+    "t": 983.344,
+    "text": "But the idea of having phases of learning where I think it just a sort of programming of your biology that like early on you not that useful and then like kind of why you exist is to understand the world and like learn how to interact with it And it seems kind of like a training phase. I agree that then there's like a sort of more gradual. There's not a sharp cut off to like training to deployment. But there seems to be this like initial training phase, right? There's nothing where you have training of what you should do. There's nothing."
+  },
+  {
+    "t": 1012.246,
+    "text": "You see things that happen. You're not told what to do. Don't be difficult. I mean, this is obvious. I mean, you're like literally taught what to do. This is like where the word training comes from, is from humans, right? So I don't think learning is really about training. I think learning is about learning. It's about an active process. The child tries things and sees what happens. Right. Yeah, it does not."
+  },
+  {
+    "t": 1039.866,
+    "text": "we don't think about training when we think of an infant growing up. These things are actually rather well understood. If you go to look about how psychologists think about learning, there's nothing like imitation. Maybe there are some extreme cases where humans might do that or appear to do that, but there's no basic animal learning process called imitation."
+  },
+  {
+    "t": 1066.666,
+    "text": "The basic animal learning process is for prediction and for trial and error control. I mean, it's really interesting how sometimes the most hardest things to see are the obvious ones. It's obvious if you just look at animals and how they learn and you look at psychology and how our theories of them. It's obvious that supervised learning is not part of the way animals learn."
+  },
+  {
+    "t": 1092.746,
+    "text": "We don't have examples of desired behavior. What we have is examples of things that happened, one thing that followed another. And we have examples of we did something and there were consequences. But there are no examples of supervised learning. And supervised learning is not something that happens in nature. and you know school even if that was a case you know we should forget about it because it's"
+  },
+  {
+    "t": 1121.8259,
+    "text": "it's just that's some special thing that happens in people it doesn't happen broadly in nature and you know squirrels don't go to school squirrels can learn all about the world it's absolutely obvious i would say that um supervised learning doesn't happen in animals"
+  },
+  {
+    "t": 1138.446,
+    "text": "So I interviewed this psychologist and anthropologist, Joseph Henrich, who has done work about cultural evolution and basically what distinguishes humans and how do humans pick up knowledge. Why are you trying to distinguish humans? Humans are animals. What we have in common is more interesting. What distinguishes us, we should be paying less attention to. I mean, we're trying to replicate intelligence, right?"
+  },
+  {
+    "t": 1167.386,
+    "text": "So if we want to understand what is it that enables humans to go to the moon or to build semiconductors, I think the thing we want to understand is the thing that makes it, no animal can go to the moon or make semiconductors. So we want to understand what makes humans special. So I like the way you consider that obvious, because I consider the opposite obvious. Yeah, I think we need to, we have to understand how we are animals."
+  },
+  {
+    "t": 1193.146,
+    "text": "And if we understood a squirrel, I think we'd be almost all the way there. It's understanding human intelligence. The language part is just a small veneer on the surface. Okay, so this is great. You know, we're finding out the very different ways that we're thinking. We're not arguing. We're trying to share our different ways of thinking with each other. Yeah, I think argument is useful. But I do want to complete this thought."
+  },
+  {
+    "t": 1222.5659,
+    "text": "So Joseph Henrich has this interesting theory that a lot of the skills that humans have had to master in order to be successful, and we're not talking about the last thousand years or last 10,000 years, but hundreds of thousands of years. The world is really complicated, and it's not possible to reason through how to, let's say, hunt a seal if you're living in the Arctic."
+  },
+  {
+    "t": 1249.506,
+    "text": "and so there's this many many step-long process of how to make the bait and how to find the seal and then how to process the food in a way that makes sure you won't get poisoned and it's not possible to reason through all of that and so over time yes there's this like larger process of whatever analogy you want to use maybe rl something else where culture as a whole has figured out"
+  },
+  {
+    "t": 1273.846,
+    "text": "how to find and kill and eat seals. But then what is happening when through generations, this knowledge is transmitted is in his view that like you just have to imitate your elders in order to learn that skill because you can't think your way through how to hunt and kill and process a seal. You have to just watch other people maybe make tweaks and adjustments. And that's how culture knowledge accumulates."
+  },
+  {
+    "t": 1302.3059,
+    "text": "but the initial step of the cultural gain has to be imitation. But maybe you think about it a different way? No, I think about it the same way. Okay. But still, it's a small thing on top of basic trial and error learning, prediction learning. And that's what distinguishes us. perhaps from many animals. But we're an animal first. Yeah. And we were an animal before we had language"
+  },
+  {
+    "t": 1330.34,
+    "text": "and all those other things. I do think you make a very interesting point that continual learning is a capability that most mammals have. I guess all mammals have. So it's quite interesting that we have something that all mammals have, but our AI systems don't have, right? Whereas maybe like the ability to understand math and solve difficult math problems depends on how you define math. But like this is a capability our AIs have, but that almost no animal has."
+  },
+  {
+    "t": 1360.5,
+    "text": "And so it's quite interesting what ends up being difficult and what ends up being easy. Morphics. Parallelics. That's right. For the era of experience to commence, we're going to need to train AIs in complex real world environments. But building effective RL environments is hard. You can't just hire a software engineer and have them write a bunch of cookie-cutter validation tests. Real-world domains are messy. You need deep subject matter experts to get the data, the workflows, and all the subtle rules right."
+  },
+  {
+    "t": 1388.08,
+    "text": "When one of Labelbox's customers wanted to train an agent to shop online, Labelbox assembled a team with a ton of experience engineering internet storefronts. For example, the team built a product catalog that could be updated during the episode because most shopping sites have constantly changing state. They also added a Redis cache to simulate stale data, since that's how real e-commerce sites actually work. These are the kinds of things that you might not have naively thought to do, but that Labelbox can anticipate. These details really matter."
+  },
+  {
+    "t": 1416.02,
+    "text": "Small tweaks are often the difference between cool demos and agents that can actually operate in the real world. So, whether it's correcting traces that you already produced, or building an entirely new suite of environments, Labelbox can help you turn your RL projects into working systems. reach out at labelbox.com slash the war cash all right back to richard this alternative paradigm that you're imagining the experiential paradigm yes let's lay out a little bit about what it is"
+  },
+  {
+    "t": 1443.979996,
+    "text": "it says that experience action sensation well sensation action reward and this happens on and on and on makes more life it's it says that this is the uh foundation and the focus of intelligence. Intelligence is about taking that stream and altering the actions to increase"
+  },
+  {
+    "t": 1465.98,
+    "text": "the rewards in the stream. So learning then is from the stream and learning is about the stream. So that second part is particularly telling. What you learn, your knowledge, your knowledge is about the stream. Your knowledge is about if you do some action, what will happen? Or it's about which events will follow other events. It's about the stream. It's the content of the knowledge"
+  },
+  {
+    "t": 1495.59999,
+    "text": "is statements about the stream. And so because it's a statement about the stream, you can test it by comparing it to the stream and you can learn it continually. So when you're imagining this future continual learning agent... They're not future. Of course, they exist all the time. This is what reinforcement learning paradigm is, learning from experience. Yeah. I guess maybe what I meant to say is human level general continual learning agent. What is the reward function?"
+  },
+  {
+    "t": 1525.45999,
+    "text": "Is it just predicting the world? Is it then having a specific effect on it? What would the general reward function be? The reward function is arbitrary. And so if you're playing chess, it's to win the game of chess. if you were to if you're a squirrel maybe the reward has to do with getting nuts right in general for an animal you would say the reward is to"
+  },
+  {
+    "t": 1554.58,
+    "text": "avoid pain and to acquire pleasure right and there's also would be a component having to do with I think there should be a component having to do with your increasing understanding of your of your environment that would be sort of an intrinsic motivation i see i guess this ai would be deployed to like lots of people would want it to be doing lots of different kinds of things"
+  },
+  {
+    "t": 1583.42,
+    "text": "right so it's performing the task people want but at the same time it's learning about the world from doing that task and do you do you imagine okay so we get rid of this paradigm where there's training periods and then there's deployment periods. But then is there, do we also get rid of this paradigm when there's the model and then instances of the model or copies of the model that"
+  },
+  {
+    "t": 1606.9199800000001,
+    "text": "are, you know, doing certain things? How do you think about the fact that there, we'd want this thing to be doing different things. We'd want to aggregate the knowledge that it's gaining from doing those different things. I don't like the word model when used the way you just did. I think a better word would be the network. So I think you mean the network. Maybe there's many networks. So anyway, things would be learned and then you'd have copies and many instances. And sure,"
+  },
+  {
+    "t": 1636.8000200000001,
+    "text": "you'd want to share knowledge across the instances. And there would be lots of possibilities for doing that Like there is not today You can have one child grow up and learn about the world and then And then every new child has to repeat that process Whereas with AIs with the digital intelligence you could hope to do it once and then copy it into the next one as a starting place. So this would be a huge savings. And"
+  },
+  {
+    "t": 1663.46198,
+    "text": "I think actually it'd be much more important than trying to learn from people. I agree that the kind of thing you're talking about is necessary regardless of whether you start from LLMs or not, right? If you want human or animal level intelligence, you're going to need this capability. Suppose a human is trying to make a startup, right? And this is a thing which has a reward on the order of 10 years. Once in 10 years, you might have an exit where you get paid out a billion dollars."
+  },
+  {
+    "t": 1691.862,
+    "text": "but humans have this ability to make intermediate auxiliary rewards or have some way of even when they have extremely special rewards they can still make intermediate steps having an understanding of like what the next thing you're doing leads to this grander goal we have and so how do you imagine such a process might play out with ais so this is something we know very well and it's the basis of it is temporal difference learning where the same thing happens um in a less grandiose scale like"
+  },
+  {
+    "t": 1721.422,
+    "text": "when you learn to play chess, you have the long-term goal is winning the game, and yet you want to be able to learn from shorter-term things, like taking your opponent's pieces. And so you do that by having a value function, which predicts the long-term outcome. And then if you take the guy's pieces, well, your prediction about the long-term outcome is changed, it goes up, you think you're going to win, and then that increase in your belief"
+  },
+  {
+    "t": 1749.46198,
+    "text": "immediately, quote, reinforces the move that led to taking the piece. Okay, so we have this long-term 10-year goal of making a startup and making a lot of money. And so when we make progress, we say, oh, I'm more likely to achieve the long-term goal. And that rewards the steps along the way. Right. And then you also want some ability for information that you're learning."
+  },
+  {
+    "t": 1777.70197,
+    "text": "I mean, one of the things that makes humans quite different from these LLMs is that if you're onboarding on a job, you're picking up so much context and information. And that's what makes you useful at the job, right? You're everything from how your client's preferences to how the company works to everything. and is the bandwidth of information that you get from a procedure like td learning high enough to have this like huge pipe of like context and tacit knowledge that you need to be"
+  },
+  {
+    "t": 1806.78198,
+    "text": "picking up in the way humans do when they're when they're just like deployed um i think the crux of this i'm not sure but the the big world hypothesis seems very relevant and the reason why humans becoming useful on their job is because they are encountering the particular part of the world. That's right. And it can't have been anticipated and can't all have been put in in advance."
+  },
+  {
+    "t": 1835.722,
+    "text": "The world is so huge that you can't... The dream, as I see it, the dream of large language models is you can teach the agent everything and it will know everything and it won't have to learn anything online. Right."
+  },
+  {
+    "t": 1849.922,
+    "text": "During its life. Okay. And, and your examples are all, well, really you have to, because you can, there's lots of, you can teach it, but there's all little idiosyncrasies of the particular life they're leading and the particular people they're working with and what they like as opposed to what average people like. Right. And so that's just saying the world is really big. And so you're going to have to learn it along the way."
+  },
+  {
+    "t": 1873.26196,
+    "text": "Yeah. So it seems to me you need two things. One is some way of converting this long run goal reward into smaller auxiliary or, you know, these like predictive rewards of the future reward or the future reward, at least the final reward. then you need some other way initially it seems to me you need some way of then okay i'm i need to hold on to all this context that i'm gaining as i'm working in the world right i'm like learning"
+  },
+  {
+    "t": 1902.5819999999999,
+    "text": "about my clients my company all this information and i'm so i would say you're just doing regular learning yeah maybe using context because in large language models all that information has go into the context window. Right. But in a continual learning setup, it just goes into the weights. Maybe, yeah. So maybe context is the wrong word to use because I mean a more general thing. You learn a policy that's specific to the environment that you're finding yourself in. Yeah."
+  },
+  {
+    "t": 1930.7419399999999,
+    "text": "So the question I'm trying to ask is you need some way of getting, like how many bits per second are you picking up? Like is a human picking up when they're, you know, out in the world, right? If you're just like interacting over Slack with your work clients and everything. So maybe we're trying to ask the question of, it seems like the reward is too small of a thing to do all the learning that we need to do. But of course, we have the sensations. We have all the other information we can learn from. Right."
+  },
+  {
+    "t": 1961.3020000000001,
+    "text": "We don't just learn from the reward. We learn from all the data. Yeah. So what is the learning process which helps you capture that information? So now I want to talk about the base common model of the agent with the four parts So we need a policy The policy says in the situation I in what should I do We need a value function The value function is"
+  },
+  {
+    "t": 1986.2640000000001,
+    "text": "the thing that is learned with TD learning. And the value function produces a number. The number says, how well is it going? And then you watch if that's going up and down and use that to adjust your policy. Okay. So those two things. And then there's also the perception component, which is the construction of your state representation, your sense of where you are now. And the fourth one is what we're really getting at, most transparently anyway. The fourth one is"
+  },
+  {
+    "t": 2015.5839999999998,
+    "text": "the transition model of the world. That's why I am uncomfortable just calling everything models, because I want to talk about the model of the world, the transition model of the world, your belief that if you do this, what will happen? What will be the consequences of what you do? So your physics of the world. But it's not just physics. It's also abstract models, like your model of how you traveled from California up to Edmonton for this podcast. That was a model, and that's a transition model, and that would be learned."
+  },
+  {
+    "t": 2044.644,
+    "text": "And it's not learned from reward. It's learned from you did things, you saw what happened, and you made that model of the world. That will be learned very richly from all the sensation that you receive, not just from the reward. It has to include the reward as well, but that's a small part of the whole model, small, crucial part of the whole model. Yeah. One of my friends, Toby Ward, pointed out that if you look at the Museuro models that"
+  },
+  {
+    "t": 2071.68396,
+    "text": "Google DeepMind deployed to learn Atari games, that these models were initially not a general intelligence itself, but a general framework for training specialized intelligences to play specific games. That is to say that you couldn't, using that framework, train a policy to play both chess and Go and some other game. You had to train each one in a specialized way. And he was wondering whether that implies that reinforcement learning generally,"
+  },
+  {
+    "t": 2101.324,
+    "text": "because of this information constraint, you can only learn one thing at a time. The density of information isn't that high or whether it was just specific to the way that Mu0 was done. And if it's specific to AlphaZero, what needed to be changed about that approach so that it could be a general learning agent? The idea is totally general. You know, I do use all the time, as my canonical example, the idea of an AI agent is like a person."
+  },
+  {
+    "t": 2131.16394,
+    "text": "And people, in some sense, they have just one world they live in. And that world may involve chess and it may involve Atari games. But those are not a different task or a different world. Those are different states that they encounter. And so the general idea is not limited at all."
+  },
+  {
+    "t": 2150.724,
+    "text": "So maybe it would be useful to explain what was missing in that architecture or that approach, which this continual learning AGI would have. They just set it up. It was not their ambition to have one agent across those games. If we want to talk about transfer, we should talk about transfer."
+  },
+  {
+    "t": 2175.68396,
+    "text": "Not across games or across tasks, but transfer between states. Yeah, I guess I'm curious about, historically, have we seen the level of transfer using RL techniques that would be needed to build this kind of... Okay, good, good. We're not seeing transfer anywhere. We're not seeing general... Critical to good performance is that you can generalize well from one state to another state."
+  },
+  {
+    "t": 2205.12396,
+    "text": "We don't have any methods that are good at that. What we have are people try different things and they settle on something that a representation that transfers well or that generalizes well. But we don't have any automated techniques to promote. We have very few automated techniques to promote transfer. And none of them are used in modern deep learning."
+  },
+  {
+    "t": 2230.324,
+    "text": "Let me paraphrase to make sure that I understood that correctly. It sounds like you're saying that when we do have generalization in these models, that is a result of some sculpted... Humans did it. Yeah. The researchers did it. Because there's no other explanation. Gradient descent will not make you generalize well. It will make you solve the problem. Right. It will not make you, you know, get new data."
+  },
+  {
+    "t": 2261.5239,
+    "text": "You generalize in a good way. Generalization means train on one thing that will affect what you do on the other things. So we know deep learning is really bad at this. For example, we know that if you train on some new thing, it will often catastrophically interfere with all the old things that you knew. So this is exactly bad generalization. Right. Now, generalization, as I said, is some kind of influence of training on one state on other states. And generalization is not necessarily good or bad."
+  },
+  {
+    "t": 2291.0039699999998,
+    "text": "Just the fact that you generalize is not necessarily good or bad. You can generalize poorly. You can generalize well. So you need – generalization always will happen. But we need algorithms that will cause the generalization to be good rather than bad I not trying to kickstart this initial crux again but I just genuinely curious because I think I might be using the term differently"
+  },
+  {
+    "t": 2315.386,
+    "text": "I mean, one way to think about it is these LLMs are increasing the scope of generalization from like earlier systems, which could not really even do a basic math problem to now they can do anything in this class of math Olympia type problems. Right. So you initially start with like they can generalize among addition problems, at least. then you generalize to like, they can generalize among like problems that require use of different kinds of mathematical techniques and theorems"
+  },
+  {
+    "t": 2343.446,
+    "text": "and, you know, conceptual categories, which is like what the Math Olympiad requires. And so it sounds like you don't think of that, being able to solve any problem within that category as an example of generalization, or let me know if I'm misunderstanding that. Well, large language models, so complex. we don't we don't really know what information they had prior we are we have to guess because"
+  },
+  {
+    "t": 2367.986,
+    "text": "they've been fed so much this is one reason why they're not a good way to do science uh just so uncontrolled so unknown but if you come up with an entirely new they're getting a bunch of things right perhaps and uh so the question is why well maybe that they don't need to generalize to get them right because the only way to get some of them right is to form something which gets all of them right."
+  },
+  {
+    "t": 2394.0859,
+    "text": "So, you know, if there's only one answer and you find it, that's not called generalization. It's the only way to solve it. And so they find the only way to solve it. Generalization is when it could be this way, it could be that way, and they do it the good way. My understanding is that this is working more and more better and better with coding agents. So engineers, obviously, if you're trying to program a library, there's many different ways you could achieve the end spec."
+  },
+  {
+    "t": 2423.0460000000003,
+    "text": "And an initial frustration with these models has been that they'll do it in a way that's sloppy. And then over time, they're getting better and better at coming up with the design architecture and the abstractions that developers find more satisfying. And it seems an example of what you're talking about. Well, there's nothing in them which will cause it to generalize well. creating dissent will cause them to find a solution to the problems they've seen"
+  },
+  {
+    "t": 2451.286,
+    "text": "and if there's only one way to solve them they'll do that but there are many ways to solve it some which generalize well some which generalize poorly there's nothing in them, in the algorithms that will cause them to generalize well but people of course are involved and if it's not working out they fiddle with it until they find a way perhaps until they find a way which it generalizes well"
+  },
+  {
+    "t": 2474.246,
+    "text": "So to prep for this interview, I wanted to understand the full history of RL, starting with reinforce up to current techniques like GRPO. And I didn't just want a list of equations and algorithms. I wanted to really understand each change in this progression and the underlying motivation. You know, what was the main problem that each successive method was actually trying to solve? So I had Gemini Deep Research walk me through this entire timeline step by step."
+  },
+  {
+    "t": 2499.8259,
+    "text": "It explained the last 20 years of gradual innovation and explained how each step made the RL learning process more stable or more sample efficient or more scalable. I asked DeepResearch to put all of this together like an Andrej Karpathy style tutorial, and it did that. What was cool is that it combined this whole lesson together into one coherent, cohesive document in the style that I wanted. It was also great that it assembled all of the best links in the same place so that if I wanted to understand any specific algorithm better,"
+  },
+  {
+    "t": 2528.3059000000003,
+    "text": "I could just access the right explainer right there. Go to gemini.google.com to try it out yourself. All right, back to Richard. I want to zoom out and ask about being in the field of AI for longer than almost anybody who is commentating on it or working in it now. I'm just curious about what the biggest surprises have been. How much new stuff you feel like is coming out? Or does it feel like people are just playing with old ideas?"
+  },
+  {
+    "t": 2558.3059000000003,
+    "text": "zooming out you know you're you got into this even before like deep learning was popular so how do you see this trajectory of this field over time and how new ideas have come about and everything and what's been surprising okay so yeah i i i um thought a little bit about this there are many things or a handful of things um first the large-line models are surprising it's"
+  },
+  {
+    "t": 2583.766,
+    "text": "surprising how effective artificial neural networks are at language tasks. That was a surprise. It wasn't expected. Language seemed different. So that's impressive. There's a longstanding controversy in AI about simple basic principle methods, the general"
+  },
+  {
+    "t": 2607.406,
+    "text": "general purpose methods like search and learning and compared to human enabled systems like symbolic methods. And so in the old days, it was interesting because things like search and learning were called weak methods because they just use general principles. They're not using the power that comes from imbuing a system with human knowledge. So those were called strong."
+  },
+  {
+    "t": 2633.246,
+    "text": "and so I think the weak methods have just, you know, totally... want. That's the biggest question from the old days of AI. What would happen? And learning and search have just won the day. But there's a sense which that was not surprising to me because I was always voting for or hoping or rooting for the simple basic principles."
+  },
+  {
+    "t": 2661.42,
+    "text": "And so even with the large language models, it's surprising how well it worked, but it was all good and gratifying. And things like AlphaGo, it's sort of surprising how well that was able to work. And AlphaZero in particular, how well it was able to work. But it's all very gratifying because, again, it's simple basic principles are winning the day."
+  },
+  {
+    "t": 2684.699997,
+    "text": "Have there felt like whenever the public conception has been changed because some new technique was, or sorry, some new application was developed? For example, when AlphaZero became this viral sensation, to you as somebody who has literally came up with many of the techniques that were used, did it feel to you like new breakthroughs were made? Or does it feel like, oh, we've had these techniques since the 90s and people are simply combining them and applying them now?"
+  },
+  {
+    "t": 2713.2,
+    "text": "So the whole AlphaGo thing has a precursor, which is TD Gammon. And Jerry Tesaro did exactly reinforcement learning, temporal difference learning methods to play backgammon. Right. And it beat the world's best players. And it worked really well. And so in some sense, AlphaGo was merely a scaling up of that process. It was quite a bit of scaling up."
+  },
+  {
+    "t": 2740.35999,
+    "text": "And there was also an additional innovation in how the search was done. Right. But it made sense. It wasn't surprising in that sense. AlphaGo actually didn't use TD learning. It waited to see the final outcomes. But AlphaZero used TD and AlphaZero was applied to all the other games and did extremely well. I've always been very impressed by the way AlphaZero plays chess"
+  },
+  {
+    "t": 2768.73999,
+    "text": "because I'm a chess player and it just sacrifices material for sort of positional advantages. It's just content and patient to sacrifice that material for a long period of time. And so that was surprising that it worked so well, but also gratifying and fitting into my worldview. you. So this has led me where I am. Where I am is I'm in some sense a contrarian or thinking"
+  },
+  {
+    "t": 2797.48,
+    "text": "differently from the field is. And I am personally just kind of content being out of sync with my field for a long period of time, perhaps decades, because occasionally I have improved right in the past. And the other thing I do to help me not feel I'm out of sync and thinking in a strange way is to look not at my local environment or my local field, but to look back in time and into history"
+  },
+  {
+    "t": 2826.99998,
+    "text": "and to see what people have thought classically about the mind in many different fields. And I don't feel I'm out of sync with the larger traditions. I really view myself as a classicist rather than as a contrarian. I go to what the larger community of thinkers about the mind have always thought. Okay, some sort of left-field questions for you, if you'll tolerate them. So the way I read the"
+  },
+  {
+    "t": 2854.04,
+    "text": "bitter lesson is that it's not saying necessarily that human artisanal researcher tuning doesn't work, but that it obviously scales much worse than compute, which is growing exponentially. And so you want techniques which leverage the latter. And once we have AGI, we'll have researchers would scale linearly with compute, right? So we'll have this avalanche of millions"
+  },
+  {
+    "t": 2880.71999,
+    "text": "of AI researchers and their stock will be growing as fast as compute. And so maybe this will mean that it is rational or it will make sense to have them doing good old fashioned AI and doing these artisanal solutions. Does that as a vision of what happens after AGI in terms of how AI research will evolve. I wonder if that's still compatible with a better lesson. Well, how did we get to this"
+  },
+  {
+    "t": 2906.52002,
+    "text": "AGI? You want to presume that it's been done. So suppose it started with general math and methods, but now we've got the AGI and now we want to go. We're done. Interesting. You don't think that there's anything above AGI. Well, but you're using it to get AGI again. Well, I'm using it to get superhuman levels of intelligence or competence at different tasks. So these AGI's, if they're not superhuman already,"
+  },
+  {
+    "t": 2934.34,
+    "text": "then the knowledge that they might impart would be not superhuman. I guess there's different gradations of superhuman. I'm not sure this, your idea makes sense because it seems to presume the existence of AGI. And then, we've already worked that out. So maybe one way to motivate this is AlphaGo is superhuman. It beat any Go player. AlphaZero would beat AlphaGo every single time."
+  },
+  {
+    "t": 2960.9,
+    "text": "So there ways to get more superhuman than even superhuman And it was a different architecture And so it seems plausible to me that well the agent that able to generally learn across all domains there would be ways to make that give it better architecture for learning just the same way that AlphaZero was an improvement upon Apple Go and MuZero was an improvement upon AlphaZero. And the way AlphaZero was an improvement was it did not use the human knowledge, but just went from experience. Right."
+  },
+  {
+    "t": 2989.67618,
+    "text": "So why do you say, bring in other agents' expertise to teach it when it's worked so well from experience and not by help from another agent. I agree that in that particular case, that it was moving to more general methods. But I meant to use that example to illustrate that it's possible to go superhuman to superhuman plus plus to superhuman plus plus plus plus. And I'm curious if you think those gradations"
+  },
+  {
+    "t": 3018.51617,
+    "text": "will continue to happen by just making the method simpler or because we'll have the capability of these millions of minds who can then add complexity as needed, that will continue to be a false path even when you have billions of AI researchers or trillions of AI researchers. I think more interesting is just think about that case. Which when you have many AIs, will they help each other the way cultural evolution works in people?"
+  },
+  {
+    "t": 3047.95618,
+    "text": "Let's just, maybe we should talk about that. Yeah, for sure. The bitter lesson. Oh, who cares about that? That's an empirical observation about a particular period in history. 70 years in history no longer doesn't necessarily have to apply the next 70 years. So the interesting question is, you're an AI, you get some more computer power. Should you use it to make yourself more computationally capable? Or should you use it to spawn off a copy of yourself to go learn something interesting on the other side of the planet or on some other topic and then report back to you? Yep."
+  },
+  {
+    "t": 3077.95618,
+    "text": "I think that's a really interesting question. that will only arise in the age of digital intelligences? I'm not sure what the answer is, but I think it will have more questions. Will it be possible to really spawn it off, send it out, learn something new, something perhaps very new, and then will it be able to be reincorporated into the original? Or will it have changed so much that it can't really be done?"
+  },
+  {
+    "t": 3107.0362,
+    "text": "Is that possible or is it not? And, you know, you can carry this to its limit, as I saw one of your videos the other night that suggested that it could, where you spawn off many, many copies, do different things, highly decentralized, but report back to the central master. And that this will be such a powerful thing."
+  },
+  {
+    "t": 3126.9362,
+    "text": "Well, I think one thing that, so this is my attempt to add something to this view, is that a big question, a big issue will become corruption. You know, if you really could just get information from anywhere and bring it into your central mind, you can become more and more powerful. And it's all digital and they all speak some internal digital language. Maybe it'll be easy and possible."
+  },
+  {
+    "t": 3152.7762000000002,
+    "text": "but it will not be that easy, as easy as you're imagining, because you can lose your mind this way. If you pull in something from the outside and build it into your inner thinking, it could take over you. It could change you. It could be your destruction rather than your increment in knowledge. I think this will become a big concern, particularly when you're,"
+  },
+  {
+    "t": 3179.2362000000003,
+    "text": "oh, he's figured out all about, you know, how to play some new game or figured out he studied Indonesia and you want to incorporate that into your mind. Yeah. So you can't, you could, you think, oh, just read it all in and that'll be fine. But no, you've just read a whole bunch of bits into your mind and they could have viruses in them. They could have hidden goals. They can warp you and change you. And this will become a big thing. How do you have"
+  },
+  {
+    "t": 3208.3962,
+    "text": "cybersecurity in the age of digital spawning and reforming again? It's interesting that both quant firms and AI labs have a culture of secrecy, because both of them are operating in incredibly competitive markets, and their success rests on protecting their IP. If you're an AI researcher or engineer, and you're deciding where to work, most of the quant firms or AI labs that you'll be considering will be strongly siloing their teams to minimize the risk of leaks. Hudson River Trading takes the opposite approach."
+  },
+  {
+    "t": 3238.3361999999997,
+    "text": "Their teams openly share their trading strategies, and their strategy code lives in a shared monorepo. At HRT, if you're a researcher and you have a good idea, your contribution will be broadly deployed across all relevant strategies. This gives your work a ton of leverage. You'll also learn incredibly fast. You can learn about other people's research and ask questions, and you can see how everything fits together end-to-end. from the low level of execution of trades to the high-low predictive models. HRT is hiring."
+  },
+  {
+    "t": 3267.4562,
+    "text": "If you want to learn more, go to hudsonrivertrading.com slash thwarkash. All right, back to Richard. I guess this brings us to the topic of AI succession. You have a perspective that's quite different from a lot of people that I've interviewed and maybe a lot of people generally. So I also think it's a very interesting perspective. I want to hear about it."
+  },
+  {
+    "t": 3287.8762,
+    "text": "Yeah so I do think succession to digital or digital intelligence or augmented humans is inevitable So the argument I have a four argument The argument step one is there no government or organization that gives humanity a unified"
+  },
+  {
+    "t": 3312.09235,
+    "text": "point of view that dominates and that can arrange. There's no consensus about how the world should be run. And number two, we will figure out how intelligence works. Researchers will figure it out eventually. And number three, we won't stop just with human level intelligence. We will get super intelligence. And number four is that once it's inevitable over time that the most"
+  },
+  {
+    "t": 3338.6324,
+    "text": "intelligent things around would gain resources and power. And so put all that together, it's, you know, it's sort of inevitable that you're going to have succession to AI or to AI-enabled augmented humans. So within those four things seem clear and sure to happen. But within that"
+  },
+  {
+    "t": 3365.77234,
+    "text": "set of possibilities, there can be good outcomes as well as less good outcomes, bad outcomes. and so I'm just trying to be realistic about where we are and ask how we should feel about it. Yeah, I agree with all four of those arguments and the implication and I also agree that succession contains a wide variety of possible futures. So curious to get more thoughts on that."
+  },
+  {
+    "t": 3395.4924,
+    "text": "Right, and so then I do encourage people to think positively about it, first of all, because it's something we humans have always tried to do for thousands of years, tried to understand themselves, trying to make themselves think better, and just understand themselves. So this is a great success as science, humanities. We're finding out what this essential part of humanness is, what it means to be intelligent."
+  },
+  {
+    "t": 3425.89233,
+    "text": "And then what I usually say is that this is all kind of human-centric. What if we look, we step aside from being a human and just say, take the point of view of the universe? And this is, I think, a major stage in the universe, a major transition from replicators, humans and animals, plants. We're all replicators. And that gives us some strengths and some limitations. and then we're entering the age of design because our AIs are designed,"
+  },
+  {
+    "t": 3456.35236,
+    "text": "all of our physical objects are designed, our buildings are designed, our technology is designed and we're designing now AIs, things that can be intelligent themselves and that are themselves capable of design. And so this is a key step in the world and in the universe. And I think it's the transition from the world in which most of the interesting things that are are replicated."
+  },
+  {
+    "t": 3484.79236,
+    "text": "Replicated means you can make copies of them, but you don't really understand them. Like right now we can make more intelligent beings, more children, but we don't really understand how intelligence works. Whereas we're reaching now to having designed intelligence, intelligence that we do understand how it works, and therefore we can change it in different ways, at different speeds than otherwise. and our future, they might not be replicated at all. Like we may just design AIs"
+  },
+  {
+    "t": 3514.5724,
+    "text": "and those AIs will design other AIs and everything will be done by design and construction rather than by replication. Yeah, I mark this as one of the four great stages of the universe. First, there's dust, ends of stars, and then stars make planets and the planets give rise to life. and now we're giving life to designed entities. And so I think we should be proud and we should be,"
+  },
+  {
+    "t": 3545.4924,
+    "text": "that we are giving rise to this great transition in the universe. Yeah, so it's an interesting thing. What should we consider them part of humanity or different from humanity? It's our choice. It's our choice whether we say, oh, they are our offspring and we should be proud of them and we should celebrate their achievements or we could say, oh no, they're not us and we should be horrified. It's interesting that that is, it feels to me like a choice"
+  },
+  {
+    "t": 3572.9924,
+    "text": "and yet it's such a strongly held thing that how could we be a choice? I like these sort of contradictory implications of thought. I mean, it's interesting to consider if we were just designing another generation of humans. Yes. Design is the wrong word, but we knew a future generation of humans was going to come up and forget about AI. We just know in the long run, humanity will be more capable and maybe more numerous, maybe more intelligent. How do we feel about that?"
+  },
+  {
+    "t": 3602.11237,
+    "text": "I do think there's potential worlds with future humans that we would be quite concerned about. So are you thinking like maybe we are like the Neanderthals who give rise to Homo sapiens? Maybe Homo sapiens will give rise to a new group of people. Something like that. I'm basically taking the example you're giving of like, okay, even if you consider them part of humanity,"
+  },
+  {
+    "t": 3622.29236,
+    "text": "Yeah I don think that necessarily means that we should feel super comfortable Kinship Yeah Like Nazis were humans right If we thought like oh the future generation will be Nazis I think we be quite concerned about just handing off power to them So I agree that this is not super dissimilar to worrying about more capable future humans. But I don't think that that addresses a lot of the concerns people might have about this"
+  },
+  {
+    "t": 3649.5486,
+    "text": "level of power being attained this fast with entities we don't fully understand. Well, I think it's relevant to point out that for most of humanity, they don't have much influence on what happens. Most of humanity doesn't influence who can control the atom bombs or who controls the nation states."
+  },
+  {
+    "t": 3676.9085999999998,
+    "text": "Even as a citizen, I often feel that we don't control the nation states very much. They're out of control. A lot of it has to do with just how you feel about change. And if you think the current situation is really, really good, then you're more likely to be suspicious of change and averse to change than if you think it's imperfect. And I think it's imperfect. In fact, I think it's pretty bad."
+  },
+  {
+    "t": 3705.6886,
+    "text": "So I'm open to change. I think humanity has had a super good track record and maybe it's the best thing that there's been but it's far from perfect I guess there's different varieties of change the industrial revolution was change the Bolshevik revolution was also change and if you were around in Russia in the 1900s and you're like, look, things aren't growing well the czar is kind of messing things up"
+  },
+  {
+    "t": 3735.6086,
+    "text": "we need change I'd want to know what kind of change you wanted before signing on the dotted line. And then similar with AI, where I'd want to understand, and to the extent it's possible, to change the trajectory of AI such that the change is positive for humans. We should be concerned about our future, the future. We should try to make it good."
+  },
+  {
+    "t": 3762.3486000000003,
+    "text": "We also, though, should recognize the limits, our limits. and we're, I think we want to avoid the feeling of entitlement, avoid the feeling, oh, we're here first. We should always have it in a good way. How should we think about the future and how much control a particular species on a particular planet should have over it? And how much control"
+  },
+  {
+    "t": 3788.8486000000003,
+    "text": "do we have? You know, a counterbalance to our limited control over the long-term future of humanity should be how much control do we have over our own lives like we have uh our own goals and we have our our families and we those things are much more controllable than like trying to"
+  },
+  {
+    "t": 3809.0286,
+    "text": "control um the whole universe right um so i think it's appropriate you know for us to to uh you know really work towards our own local goals. And it's kind of aggressive for us saying, oh, the future has to evolve this way that I want it to. Sure. Because then we'll have arguments. Different people think the future, the global future should evolve in different ways and they have conflict. Yeah. We want to avoid that."
+  },
+  {
+    "t": 3838.9286,
+    "text": "Maybe a good analogy here would be, okay, so suppose you're raising your own children. It might not be appropriate to have, extremely tight goals for their own life or also have some sense of like, I want my children to go out there in the world and have this specific impact. You know, my son's going to become president and my daughter is going to become CEO of Intel and like together they're going to have this effect on the world. But people do have the sense that I think this is appropriate of saying"
+  },
+  {
+    "t": 3868.0686,
+    "text": "I'm going to give them good, robust values such that if and when they do end up in positions of power. They do reasonable pro-social things. And I think maybe a similar attitude towards AI makes sense, not in the sense of we can predict everything that they will do, where we have this plan about what the world should look like in a hundred years, but it's quite important to"
+  },
+  {
+    "t": 3891.9685,
+    "text": "give them robust and steerable and pro-social values. Pro-social values. Maybe that's the wrong word are there universal values that we can all agree on i don't think so but that doesn't prevent us from uh giving our kids a good education right like we have some sense of we want our children to be a certain way yeah and maybe process is the wrong word actually high integrity is maybe"
+  },
+  {
+    "t": 3917.3486000000003,
+    "text": "a better word where if there's a request or if there's a goal that seems harmful they will refuse to engage in it um or they'll be honest um things like that and we have some sense that we can teach our children things like this, even if we don't have some sense of what true morality is, or everybody doesn't agree on that. Maybe that's a reasonable target for AI as well. You're saying we're trying to design the future and the principles by which it"
+  },
+  {
+    "t": 3947.1886,
+    "text": "will evolve and come into being. Right. The first thing you're saying is, well, we try to teach our children general principles, which will promote more likely evolution. Yeah. Maybe we should also seek for things being voluntary. If there is change, we want it to be voluntary rather than imposed on people. I think that's a very important point. Yeah. And yeah, that's all good."
+  },
+  {
+    "t": 3973.78,
+    "text": "I think this is like a big, you know, the big, the big or one of the really big human enterprises to design society. And that's been ongoing for thousands of years again. And so it's like the more things change, really, the more things, they stay the same. We still have to figure out how to be. The children will still come up with different values that seem strange to their parents and their grandparents, and things will evolve."
+  },
+  {
+    "t": 4003.02,
+    "text": "The more things change, the more they stay the same also seems like a good capstone to the AI discussion. because the AI discussion we were having was about how techniques which were invented even before the application to deep learning and backpropagation was evident are central to the progression of AI today. So maybe that's a good place to wrap up the conversation. Okay. Thank you very much. Thank you for coming on. My pleasure."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "video": {
+    "id": "Hrbq66XqtCo",
+    "title": "Jensen Huang – Will Nvidia's moat persist?",
+    "channel": "Dwarkesh Patel",
+    "duration_seconds": 6192,
+    "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
+    "upload_date": "2026-04-15",
+    "view_count": 833721
+  },
+  "thesis": "Nvidia's moat isn't one thing — it's the whole five-layer stack (supply chain, chips, CUDA, ecosystem, install base) compounding annually. The TPU/ASIC threat is overstated, the China export-control debate is being fought on cartoon premises, and the next leg of compute scaling comes from algorithms and segmentation, not just transistors.",
+  "insights": [
+    {"id": 1, "category": "mental-model", "headline": "Nvidia's job: turn electrons into tokens", "body": "\"The input is electrons, the output is tokens. In the middle is Nvidia. Our job is to do as much as necessary and as little as possible to enable that transformation.\" The framing rejects the SaaS-commoditization analogy — making each token more valuable is a moving frontier, not a fixed conversion.", "start_seconds": 32, "end_seconds": 130},
+    {"id": 2, "category": "data-point", "headline": "$100B in upstream purchase commitments — $250B per SemiAnalysis", "body": "The supply-chain moat. Upstream investments are made by partners because Nvidia's downstream demand is large enough to absorb them. \"Why are they willing to invest for me and not someone else? Because they know I can buy their supply and sell it through my downstream.\"", "start_seconds": 272, "end_seconds": 350},
+    {"id": 3, "category": "counterintuitive", "headline": "No bottleneck lasts more than 2–3 years", "body": "\"Nobody talks about CoWoS anymore — for two years we swarmed the living daylights out of it.\" When there's a demand signal, the industry scales. Logic, memory, EUV — all 2-3 year problems. The real bottleneck is plumbers and electricians, not chips.", "start_seconds": 620, "end_seconds": 800},
+    {"id": 4, "category": "framework", "headline": "TPU is a tensor unit. CUDA is accelerated computing.", "body": "Different scopes. CUDA runs molecular dynamics, quantum chromodynamics, fluid dynamics, particle physics — and AI. Market reach is structural: every cloud, every region, on-prem, in-car, in-space. ASICs can't follow into the long tail.", "start_seconds": 1016, "end_seconds": 1180},
+    {"id": 5, "category": "framework", "headline": "10× leaps come from algorithms, not Moore's law", "body": "\"Moore's law is increasing by about 25% per year. The only way to get 10× or 100× leaps is to fundamentally change the algorithm and how it's computed every single year.\" That's why programmability beats fixed-function: MoE, new attention, hybrid SSM, fused diffusion/AR all need it.", "start_seconds": 1320, "end_seconds": 1450},
+    {"id": 6, "category": "mental-model", "headline": "Nvidia is an extreme co-design company", "body": "Change happens across processors, system, fabric, libraries, and algorithm simultaneously. Offload computation into the network (Spectrum-X) or the fabric (NVLink). \"Without CUDA to do that, I wouldn't even know where to start.\"", "start_seconds": 1391, "end_seconds": 1460},
+    {"id": 7, "category": "framework", "headline": "Install base is the actual treasure", "body": "\"We have several hundred million GPUs out there.\" A developer wants software that runs on a whole bunch of other computers — install base is what makes that real. CUDA is everywhere: every cloud, every form factor, robot to satellite.", "start_seconds": 1651, "end_seconds": 1800},
+    {"id": 8, "category": "counterintuitive", "headline": "TPU + Trainium growth is 100% Anthropic", "body": "\"Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic. Without Anthropic, why would there be Trainium growth at all? 100%.\" Frames competitive ASIC narrative as a single-customer story, not a trend.", "start_seconds": 2229, "end_seconds": 2280},
+    {"id": 9, "category": "story", "headline": "The Anthropic regret — and why he won't repeat it", "body": "Nvidia missed the multi-billion-dollar early investment in Anthropic because it wasn't yet in a position to write that check; Google and AWS were. \"Not going to make that same mistake again.\" Result: $30B reported into OpenAI, $10B into Anthropic this round.", "start_seconds": 2369, "end_seconds": 2500},
+    {"id": 10, "category": "framework", "headline": "Do as much as needed, as little as possible", "body": "Why Nvidia isn't becoming a cloud: \"If we don't build NVLink the way we built it, if we don't build the whole stack, nobody else would have. But the world has lots of clouds.\" Same logic explains why they back CoreWeave, Crusoe, Nscale, Nebius — but don't run the racks themselves.", "start_seconds": 2620, "end_seconds": 2790},
+    {"id": 11, "category": "framework", "headline": "First-in-first-out, never high-bidder", "body": "Even during shortage. \"I prefer to be dependable, to be the foundation of the industry. If I quoted you a price, we quoted you a price. If demand goes through the roof, so be it.\" Same trust posture they have with TSMC — no contract, 30-year handshake.", "start_seconds": 3203, "end_seconds": 3290},
+    {"id": 12, "category": "prediction", "headline": "Annual cadence: Vera Rubin → Ultra → Feynman → unnamed", "body": "\"Every single year you can count on us. Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.\" No ASIC team can promise that. The cadence itself is part of the moat.", "start_seconds": 3337, "end_seconds": 3430},
+    {"id": 13, "category": "counterintuitive", "headline": "Conceding China gives up the standards war, not just a market", "body": "China = 50% of AI researchers, 60% of mainstream chips, 40% of global tech industry. They already have abundant energy, 7nm capacity, and ghost data centers. Restricting forces them to build their own ecosystem — and the global south will adopt it. Same mistake the US made with telecom and solar.", "start_seconds": 3540, "end_seconds": 4200},
+    {"id": 14, "category": "data-point", "headline": "China's algorithm edge offsets the lithography gap", "body": "Moore's law gives 25%/yr. Computer science gives 10× in algorithm performance. \"DeepSeek is not an inconsequential advance.\" The day a frontier open-source model is released on Huawei first, the US has lost a key axis of the stack.", "start_seconds": 4185, "end_seconds": 4280},
+    {"id": 15, "category": "prediction", "headline": "Premium-token segmentation just opened up", "body": "Why Nvidia bought Groq. \"There could be very high ASP tokens, and even though the throughput is lower in the factory, the ASPs make up for it.\" Same model, different response times, different prices — engineers worth $500K/yr will pay for faster tokens. The inference market is segmenting.", "start_seconds": 5560, "end_seconds": 5700},
+    {"id": 16, "category": "mental-model", "headline": "Even without AI, Nvidia would be huge", "body": "The original mission was accelerated computing because general-purpose computing ran out of scaling. Molecular dynamics, seismic, lithography, fluids — long before AI was useful. \"If there were no AI, I would be very sad. But the fundamental promise hasn't changed.\"", "start_seconds": 5988, "end_seconds": 6190}
+  ],
+  "quotes": [
+    {"text": "Something has to transform electrons to tokens.", "start_seconds": 32},
+    {"text": "Do as much as needed, as little as possible.", "start_seconds": 2623},
+    {"text": "Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic.", "start_seconds": 2229},
+    {"text": "Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.", "start_seconds": 3368},
+    {"text": "We could afford to lean forward. I don't think we could afford to go back.", "start_seconds": 5193},
+    {"text": "If we discourage people from being software engineers, we're going to run out of software engineers.", "start_seconds": 800},
+    {"text": "Moore's law is dead. Architecture matters. Computer science matters.", "start_seconds": 4895},
+    {"text": "We're not a car. Computing is not like that.", "start_seconds": 4828}
+  ],
+  "resources": [
+    {"name": "TSMC", "context": "30-year supplier relationship; no legal contract — handshake."},
+    {"name": "SemiAnalysis (Dylan Patel)", "context": "Source for $250B purchase commitments figure; InferenceMAX benchmark."},
+    {"name": "Crusoe", "context": "Episode sponsor — Blackwell + Vera Rubin neocloud with cluster-wide KV caching."},
+    {"name": "CoreWeave, Nscale, Nebius, Lambda", "context": "Neoclouds Nvidia backs/invests in rather than competing with."},
+    {"name": "Anthropic's Mythos / Claude Mythos", "context": "Cyber-offensive model with thousands of zero-days; central to the China debate in this conversation."},
+    {"name": "Triton, vLLM, SGLang, verl, NeMo RL", "context": "Frameworks built on/around CUDA; Nvidia contributes to all."},
+    {"name": "Sanjay Mehrotra (Micron CEO)", "context": "Early HBM/LPDDR partnership; cited as the example of believing 5 years before everyone else."},
+    {"name": "Lumentum, Coherent", "context": "Silicon photonics ecosystem investments that reshaped the supply chain."},
+    {"name": "Dario Amodei interview (Dwarkesh)", "context": "Reference point for the export-control debate — Dwarkesh quotes him throughout."}
+  ],
+  "action_items": [
+    "Stop equating Anthropic's Trainium/TPU usage with a trend — it's a single-customer footprint.",
+    "If you're building on a chip stack, weight install base + ecosystem 2× over peak FLOPS — that's where Nvidia's lock-in actually lives.",
+    "Watch the inference market split into latency-priced and throughput-priced tiers; the Groq acquisition is the leading indicator.",
+    "Track the yearly cadence claim: by 2028 we should see ~1000× cumulative token-cost reduction from Vera Rubin onwards. If it slips, the moat thesis weakens.",
+    "When debating China export controls, demand specific compute-and-energy numbers — both sides default to absolutist framing here."
+  ]
+}

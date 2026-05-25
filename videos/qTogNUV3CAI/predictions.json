@@ -1,0 +1,79 @@
+{
+  "video_id": "qTogNUV3CAI",
+  "predictions": [
+    {
+      "id": "qTogNUV3CAI-p1",
+      "claim": "AGI-like systems will exist within the next decade.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 1475,
+      "stated_at": "2024-02-28",
+      "horizon_label": "by 2034",
+      "revisit_dates": [
+        "2029-02-28",
+        "2034-02-28"
+      ],
+      "status": "open",
+      "notes": "Stated as 'wouldn't be surprised' — softer than median; track against scaling+planning hybrid systems."
+    },
+    {
+      "id": "qTogNUV3CAI-p2",
+      "claim": "True multimodality will become the default user experience over the next year to 18 months, with contextual camera/voice/touch interaction replacing chat as the primary modality.",
+      "speaker": "Demis Hassabis",
+      "category": "tech",
+      "start_seconds": 2830,
+      "stated_at": "2024-02-28",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2025-08-28"
+      ],
+      "status": "open",
+      "notes": "Tracks consumer adoption of multimodal assistants and glasses-class devices."
+    },
+    {
+      "id": "qTogNUV3CAI-p3",
+      "claim": "Within 3–5 years, frontier labs will need air-gapped data centers and specialized secure hardware to protect model weights.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 2560,
+      "stated_at": "2024-02-28",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2027-02-28",
+        "2029-02-28"
+      ],
+      "status": "open",
+      "notes": "Watch for public disclosures of air-gapped training infra at OpenAI, Anthropic, Google DeepMind."
+    },
+    {
+      "id": "qTogNUV3CAI-p4",
+      "claim": "AI systems will become the world's best research assistants for scientists and clinicians once factuality and grounding are fixed.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 2270,
+      "stated_at": "2024-02-28",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2027-02-28"
+      ],
+      "status": "open",
+      "notes": "No hard date given; revisit in three years to check if hallucination/grounding has been substantially solved."
+    },
+    {
+      "id": "qTogNUV3CAI-p5",
+      "claim": "AGI, once it arrives, will help design and build the next versions of itself, potentially accelerating AI R&D significantly.",
+      "speaker": "Demis Hassabis",
+      "category": "ai",
+      "start_seconds": 1500,
+      "stated_at": "2024-02-28",
+      "horizon_label": "by 2034",
+      "revisit_dates": [
+        "2030-02-28",
+        "2034-02-28"
+      ],
+      "status": "open",
+      "notes": "Hassabis frames this as possible, not imminent; track measurable AI-R&D-from-AI contributions."
+    }
+  ],
+  "validated_predictions": []
+}

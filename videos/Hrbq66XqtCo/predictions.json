@@ -1,0 +1,102 @@
+{
+  "video_id": "Hrbq66XqtCo",
+  "predictions": [
+    {
+      "id": "Hrbq66XqtCo-p1",
+      "claim": "No supply-chain bottleneck (logic, memory, CoWoS, EUV) lasts more than 2–3 years once there's a real demand signal",
+      "speaker": "Jensen Huang",
+      "category": "supply-chain",
+      "start_seconds": 1442,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2–3 years per bottleneck",
+      "revisit_dates": ["2028-04-15", "2029-04-15"],
+      "status": "open",
+      "notes": "Testable: track which named bottleneck (EUV, HBM, CoWoS, fab capacity) is the binding constraint each year through 2029."
+    },
+    {
+      "id": "Hrbq66XqtCo-p2",
+      "claim": "Token cost drops by an order of magnitude every single year — Vera Rubin, then Ultra, then Feynman",
+      "speaker": "Jensen Huang",
+      "category": "compute",
+      "start_seconds": 3368,
+      "stated_at": "2026-04-15",
+      "horizon_label": "annual, through 2029",
+      "revisit_dates": ["2027-04-15", "2028-04-15", "2029-04-15"],
+      "status": "open",
+      "notes": "Most concrete, falsifiable promise in the conversation. By 2028 should see ~1000× cumulative reduction from Hopper baseline."
+    },
+    {
+      "id": "Hrbq66XqtCo-p3",
+      "claim": "Tool-use by agents will cause enterprise software companies (Cadence, Synopsys, Adobe, etc.) to skyrocket — not get commoditized",
+      "speaker": "Jensen Huang",
+      "category": "saas",
+      "start_seconds": 195,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2–4 years",
+      "revisit_dates": ["2028-04-15", "2030-04-15"],
+      "status": "open",
+      "notes": "Repeat of the All-In claim. Revenue at Cadence/Synopsys/Autodesk is the cleanest test."
+    },
+    {
+      "id": "Hrbq66XqtCo-p4",
+      "claim": "TPU + Trainium growth will remain a single-customer (Anthropic) story; no broader ASIC trend",
+      "speaker": "Jensen Huang",
+      "category": "competitors",
+      "start_seconds": 2229,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2–3 years",
+      "revisit_dates": ["2028-04-15", "2029-04-15"],
+      "status": "open",
+      "notes": "Falsified if a major non-Anthropic AI lab commits to TPU/Trainium for >30% of training compute."
+    },
+    {
+      "id": "Hrbq66XqtCo-p5",
+      "claim": "Premium-token (latency-priced) inference becomes a meaningful market segment",
+      "speaker": "Jensen Huang",
+      "category": "inference",
+      "start_seconds": 5560,
+      "stated_at": "2026-04-15",
+      "horizon_label": "1–2 years",
+      "revisit_dates": ["2027-10-15", "2028-04-15"],
+      "status": "open",
+      "notes": "Watch for tiered pricing announcements from OpenAI/Anthropic/Google. Groq's results inside CUDA the leading indicator."
+    },
+    {
+      "id": "Hrbq66XqtCo-p6",
+      "claim": "Conceding China to Huawei/SMIC results in the global south adopting a non-American AI tech stack",
+      "speaker": "Jensen Huang",
+      "category": "geopolitics",
+      "start_seconds": 5400,
+      "stated_at": "2026-04-15",
+      "horizon_label": "5–10 years",
+      "revisit_dates": ["2031-04-15"],
+      "status": "open",
+      "notes": "Jensen explicitly asks Dwarkesh to revisit this exact conversation. Adoption of Chinese vs American foundation models in India/Middle East/Africa/SEA is the metric."
+    },
+    {
+      "id": "Hrbq66XqtCo-p7",
+      "claim": "China's algorithm advances (DeepSeek, Qwen) plus abundant 7nm + energy fully offset the EUV gap for frontier models",
+      "speaker": "Jensen Huang",
+      "category": "geopolitics",
+      "start_seconds": 4283,
+      "stated_at": "2026-04-15",
+      "horizon_label": "2–3 years",
+      "revisit_dates": ["2028-04-15"],
+      "status": "open",
+      "notes": "Tests against Western labs' frontier-vs-Chinese-open-source gap over time."
+    },
+    {
+      "id": "Hrbq66XqtCo-p8",
+      "claim": "No new accelerator architecture beats Nvidia's current roadmap when fully simulated — that's why Nvidia doesn't run parallel architectures (Cerebras-style, Dojo-style)",
+      "speaker": "Jensen Huang",
+      "category": "competitors",
+      "start_seconds": 5247,
+      "stated_at": "2026-04-15",
+      "horizon_label": "3–5 years",
+      "revisit_dates": ["2030-04-15"],
+      "status": "open",
+      "notes": "Implicit prediction: no wafer-scale or fundamentally-different architecture overtakes Nvidia perf-per-TCO this decade."
+    }
+  ],
+  "validated_predictions": []
+}

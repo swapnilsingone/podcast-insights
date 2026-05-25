@@ -1,0 +1,1209 @@
+[
+  {
+    "name": "Chamath Palihapitiya",
+    "role": "Host, All-In",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-05-22",
+    "slug": "chamath-palihapitiya",
+    "appearance_count": 3,
+    "claim_count": 0,
+    "span_days": 64
+  },
+  {
+    "name": "Jason Calacanis",
+    "role": "Host, All-In",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-05-22",
+    "slug": "jason-calacanis",
+    "appearance_count": 3,
+    "claim_count": 0,
+    "span_days": 64
+  },
+  {
+    "name": "Dwarkesh Patel",
+    "role": "Host",
+    "appearances": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
+        "upload_date": "2026-04-15",
+        "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
+        "upload_date": "2025-09-26",
+        "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+        "upload_date": "2024-02-28",
+        "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2024-02-28",
+    "last_uploaded": "2026-04-15",
+    "slug": "dwarkesh-patel",
+    "appearance_count": 3,
+    "claim_count": 0,
+    "span_days": 777
+  },
+  {
+    "name": "Jensen Huang",
+    "role": "Founder & CEO, Nvidia",
+    "appearances": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
+        "upload_date": "2026-04-15",
+        "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Nvidia's job: turn electrons into tokens",
+        "category": "mental-model",
+        "start_seconds": 32,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=32s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "$100B in upstream purchase commitments \u2014 $250B per SemiAnalysis",
+        "category": "data-point",
+        "start_seconds": 272,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=272s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "No bottleneck lasts more than 2\u20133 years",
+        "category": "counterintuitive",
+        "start_seconds": 620,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=620s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "TPU is a tensor unit. CUDA is accelerated computing.",
+        "category": "framework",
+        "start_seconds": 1016,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1016s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "10\u00d7 leaps come from algorithms, not Moore's law",
+        "category": "framework",
+        "start_seconds": 1320,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1320s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Nvidia is an extreme co-design company",
+        "category": "mental-model",
+        "start_seconds": 1391,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1391s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Install base is the actual treasure",
+        "category": "framework",
+        "start_seconds": 1651,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1651s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "TPU + Trainium growth is 100% Anthropic",
+        "category": "counterintuitive",
+        "start_seconds": 2229,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2229s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "The Anthropic regret \u2014 and why he won't repeat it",
+        "category": "story",
+        "start_seconds": 2369,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2369s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Do as much as needed, as little as possible",
+        "category": "framework",
+        "start_seconds": 2620,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2620s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "First-in-first-out, never high-bidder",
+        "category": "framework",
+        "start_seconds": 3203,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=3203s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Annual cadence: Vera Rubin \u2192 Ultra \u2192 Feynman \u2192 unnamed",
+        "category": "prediction",
+        "start_seconds": 3337,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=3337s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Conceding China gives up the standards war, not just a market",
+        "category": "counterintuitive",
+        "start_seconds": 3540,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=3540s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "China's algorithm edge offsets the lithography gap",
+        "category": "data-point",
+        "start_seconds": 4185,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=4185s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Premium-token segmentation just opened up",
+        "category": "prediction",
+        "start_seconds": 5560,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5560s"
+      },
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "headline": "Even without AI, Nvidia would be huge",
+        "category": "mental-model",
+        "start_seconds": 5988,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5988s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "A $50B factory makes the cheapest tokens",
+        "category": "counterintuitive",
+        "start_seconds": 471,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=471s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Compute demand is up 10,000\u00d7 in two years",
+        "category": "data-point",
+        "start_seconds": 1350,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1350s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "$250K of tokens is the new bar per engineer",
+        "category": "framework",
+        "start_seconds": 1476,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1476s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "An agent runtime is a computer",
+        "category": "mental-model",
+        "start_seconds": 858,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=858s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Only build what is insanely hard",
+        "category": "framework",
+        "start_seconds": 564,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=564s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Inference is the new constraint",
+        "category": "prediction",
+        "start_seconds": 404,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=404s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Under-adoption is the real AI risk",
+        "category": "counterintuitive",
+        "start_seconds": 1223,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1223s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Nvidia went from 95% to 0% in China",
+        "category": "data-point",
+        "start_seconds": 1990,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1990s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Models are technology, not product",
+        "category": "mental-model",
+        "start_seconds": 1894,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1894s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Enterprise SaaS doesn't die, it 100\u00d7's",
+        "category": "counterintuitive",
+        "start_seconds": 1748,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1748s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Physical AI needs three computers",
+        "category": "framework",
+        "start_seconds": 314,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=314s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Digital biology is at its ChatGPT moment",
+        "category": "prediction",
+        "start_seconds": 689,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=689s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Robots everywhere in 3 to 5 years",
+        "category": "prediction",
+        "start_seconds": 3157,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3157s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Dario's $1T-by-2030 is too low",
+        "category": "prediction",
+        "start_seconds": 3370,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3370s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "The radiologist parable",
+        "category": "story",
+        "start_seconds": 3795,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3795s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "The new moat is deep vertical specialization",
+        "category": "framework",
+        "start_seconds": 3470,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=3470s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "40% of Nvidia's business lives outside the cloud",
+        "category": "data-point",
+        "start_seconds": 2611,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=2611s"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "headline": "Programming becomes specification + orchestration",
+        "category": "mental-model",
+        "start_seconds": 1600,
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1600s"
+      }
+    ],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-04-15",
+    "slug": "jensen-huang",
+    "appearance_count": 2,
+    "claim_count": 34,
+    "span_days": 27
+  },
+  {
+    "name": "Brad Gerstner",
+    "role": "Host, Altimeter (guest co-host)",
+    "appearances": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Anthropic ARR: $10B \u2192 $30B \u2192 $44B in four months",
+        "category": "data-point",
+        "start_seconds": 858,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=858s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Anthropic & OpenAI revenue is 100% supply-constrained",
+        "category": "framework",
+        "start_seconds": 360,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=360s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Elon Web Services emerges with the Anthropic-Colossus deal",
+        "category": "story",
+        "start_seconds": 1140,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1140s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "SpaceX is a five-layer cake \u2014 launch, connectivity, compute, hyperscaler, applications",
+        "category": "framework",
+        "start_seconds": 1391,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1391s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Anthropic could become \"the most powerful monopoly in human history\"",
+        "category": "counterintuitive",
+        "start_seconds": 1916,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1916s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "The Rockefeller / Safe Oil parable",
+        "category": "story",
+        "start_seconds": 1735,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1735s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "AI ranks 29th of 39 issues in voter salience",
+        "category": "data-point",
+        "start_seconds": 3382,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3382s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Tech leaders are getting D-/F on AI PR",
+        "category": "mental-model",
+        "start_seconds": 2470,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2470s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "The \"FDA for AI\" was fake news",
+        "category": "story",
+        "start_seconds": 2660,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2660s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "KYC on frontier-model APIs becomes the consensus solution",
+        "category": "framework",
+        "start_seconds": 2820,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2820s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "The data-center protests are professionally organized",
+        "category": "counterintuitive",
+        "start_seconds": 698,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=698s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Tesla power walls + cars become the distributed-compute layer",
+        "category": "prediction",
+        "start_seconds": 1305,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1305s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Tesla + SpaceX merge into \"Elon Corp\" by end-2026 or mid-2027",
+        "category": "prediction",
+        "start_seconds": 1450,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1450s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "The 500-day reckoning on AI margins",
+        "category": "prediction",
+        "start_seconds": 4035,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4035s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Public-market AI exposure is NOT trading at bubble multiples",
+        "category": "data-point",
+        "start_seconds": 3705,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3705s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Give a piece of the AI cap table to every American",
+        "category": "framework",
+        "start_seconds": 3104,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3104s"
+      }
+    ],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-05-08",
+    "slug": "brad-gerstner",
+    "appearance_count": 2,
+    "claim_count": 16,
+    "span_days": 50
+  },
+  {
+    "name": "David Sacks",
+    "role": "Host, All-In",
+    "appearances": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-05-08",
+    "slug": "david-sacks",
+    "appearance_count": 2,
+    "claim_count": 0,
+    "span_days": 50
+  },
+  {
+    "name": "David Friedberg",
+    "role": "Host, All-In (Ohalo CEO)",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      },
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I",
+        "upload_date": "2026-03-19",
+        "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-05-22",
+    "slug": "david-friedberg",
+    "appearance_count": 2,
+    "claim_count": 0,
+    "span_days": 64
+  },
+  {
+    "name": "Richard Sutton",
+    "role": "RL pioneer, 2024 Turing Award winner, guest",
+    "appearances": [
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
+        "upload_date": "2025-09-26",
+        "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "LLMs have no world model, only a speaker model",
+        "category": "counterintuitive",
+        "start_seconds": 142,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=142s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "No goal means no ground truth, so no prior",
+        "category": "framework",
+        "start_seconds": 233,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=233s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Intelligence is the computational ability to achieve goals",
+        "category": "definition",
+        "start_seconds": 467,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=467s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "The four-part agent: policy, value, perception, world model",
+        "category": "mental-model",
+        "start_seconds": 1958,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1958s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Imitation isn't a basic learning process in animals",
+        "category": "counterintuitive",
+        "start_seconds": 996,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=996s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Study squirrels, not Shakespeare",
+        "category": "framework",
+        "start_seconds": 1095,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1095s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "The Era of Experience: a stream-based agent",
+        "category": "framework",
+        "start_seconds": 1443,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1443s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Deep learning has no mechanism for good generalization",
+        "category": "counterintuitive",
+        "start_seconds": 2192,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2192s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "TD learning turns 10-year goals into per-step rewards",
+        "category": "mental-model",
+        "start_seconds": 1717,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1717s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Cybersecurity becomes the central AI risk",
+        "category": "prediction",
+        "start_seconds": 3146,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3146s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Succession to AI in four steps",
+        "category": "framework",
+        "start_seconds": 3308,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3308s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Four cosmic stages: dust, stars, life, design",
+        "category": "mental-model",
+        "start_seconds": 3492,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3492s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "LLMs may be a fake instance of the Bitter Lesson",
+        "category": "counterintuitive",
+        "start_seconds": 624,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=624s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Train values, not life plans, for AI offspring",
+        "category": "actionable",
+        "start_seconds": 3852,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3852s"
+      }
+    ],
+    "first_uploaded": "2025-09-26",
+    "last_uploaded": "2025-09-26",
+    "slug": "richard-sutton",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "Gavin Baker",
+    "role": "CIO, Atreides Management",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Karpathy spent a quarter of his time labeling video data by hand",
+        "category": "story",
+        "start_seconds": 183,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=183s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Recursive self-improvement + continual learning = the two final frontiers",
+        "category": "framework",
+        "start_seconds": 386,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=386s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Anthropic + OpenAI combined are on ~$100B ARR at 80% gross margins",
+        "category": "data-point",
+        "start_seconds": 261,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=261s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Anti-AI sentiment is partly an anti-humanist psychological reaction, not just economics",
+        "category": "counterintuitive",
+        "start_seconds": 1348,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1348s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Zuckerberg recorded employees to train AI, then laid them off \u2014 and said it publicly",
+        "category": "counterintuitive",
+        "start_seconds": 2376,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2376s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Anthropic is paying SpaceX $1.25B/month \u2014 $45B over three years",
+        "category": "data-point",
+        "start_seconds": 2817,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2817s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "SpaceX builds data centers 46% faster each iteration: 122, 91, 66 days",
+        "category": "data-point",
+        "start_seconds": 2900,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2900s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Cursor has more coding tokens than exist on the public internet",
+        "category": "counterintuitive",
+        "start_seconds": 3040,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3040s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "The AI market is cross-sectionally inefficient: chips and cooling can't both be right",
+        "category": "framework",
+        "start_seconds": 4150,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4150s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "NVIDIA projected a $20B CPU business this year \u2014 overnight became a top-3 CPU maker",
+        "category": "data-point",
+        "start_seconds": 4470,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4470s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Older GPUs could have 10\u201315 year useful lives when paired with newer ASICs for decode",
+        "category": "counterintuitive",
+        "start_seconds": 4640,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4640s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "The harness is as important as the model in the agentic era",
+        "category": "mental-model",
+        "start_seconds": 3227,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3227s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Orbital compute becomes commercially real in second half of 2028 to early 2030",
+        "category": "prediction",
+        "start_seconds": 3980,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3980s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Strait of Hormuz closure is relatively good for America \u2014 oil shock as forced reindustrialization",
+        "category": "mental-model",
+        "start_seconds": 5330,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5330s"
+      }
+    ],
+    "first_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-22",
+    "slug": "gavin-baker",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "Yann LeCun",
+    "role": "Meta Chief AI Scientist; JEPA originator",
+    "appearances": [
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "channel": "Welch Labs",
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE",
+        "upload_date": "2026-05-02",
+        "thumbnail": "https://i.ytimg.com/vi/kYkIdXwW2AE/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "JEPA predicts embeddings, not pixels or tokens",
+        "category": "framework",
+        "start_seconds": 26,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=26s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Intelligence as a cake: SSL is the bulk",
+        "category": "mental-model",
+        "start_seconds": 254,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=254s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "OpenAI was an RL shop before Radford pivoted",
+        "category": "story",
+        "start_seconds": 296,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=296s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Video frame prediction blurs because of averaging",
+        "category": "counterintuitive",
+        "start_seconds": 752,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=752s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Possible next frames dwarf atoms in the universe",
+        "category": "data-point",
+        "start_seconds": 676,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=676s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Representation collapse: the trivial all-ones solution",
+        "category": "definition",
+        "start_seconds": 1073,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1073s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Barlow Twins: force cross-correlation to identity",
+        "category": "framework",
+        "start_seconds": 1194,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1194s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "DINOv3 hit 88.4% on ImageNet with no labels",
+        "category": "data-point",
+        "start_seconds": 1659,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1659s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Don't waste compute predicting unpredictable leaves",
+        "category": "mental-model",
+        "start_seconds": 1854,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1854s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Action-conditioned JEPA = learned world model for robots",
+        "category": "framework",
+        "start_seconds": 1916,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1916s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "A teen learns to drive in 20 hours; Tesla can't",
+        "category": "counterintuitive",
+        "start_seconds": 1772,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1772s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "JEPA will eventually replace LLMs",
+        "category": "prediction",
+        "start_seconds": 85,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=85s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Use linear probes to audit frozen representations",
+        "category": "actionable",
+        "start_seconds": 1531,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1531s"
+      },
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "headline": "Siamese nets started as 1990s signature fraud detection",
+        "category": "story",
+        "start_seconds": 916,
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=916s"
+      }
+    ],
+    "first_uploaded": "2026-05-02",
+    "last_uploaded": "2026-05-02",
+    "slug": "yann-lecun",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "Demis Hassabis",
+    "role": "CEO, Google DeepMind",
+    "appearances": [
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+        "upload_date": "2024-02-28",
+        "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "AGI = LLM world-model prior + AlphaZero planning on top",
+        "category": "framework",
+        "start_seconds": 375,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=375s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Deep Blue: millions of moves; AlphaZero: ~10K; humans: ~hundreds",
+        "category": "data-point",
+        "start_seconds": 446,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=446s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "LLMs are 'unreasonably effective' and got concepts implicitly",
+        "category": "counterintuitive",
+        "start_seconds": 985,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=985s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "AGI-like systems within a decade, on the original 20-year plan",
+        "category": "prediction",
+        "start_seconds": 1453,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1453s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Deception is a 'root node' trait to evaluate against",
+        "category": "mental-model",
+        "start_seconds": 1364,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1364s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Scaling laws aren't autopilot \u2014 each order of magnitude is an art",
+        "category": "framework",
+        "start_seconds": 1722,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1722s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Loss predictions \u2260 downstream capability predictions",
+        "category": "counterintuitive",
+        "start_seconds": 1830,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1830s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Half of DeepMind's compute goes to invention, not scaling",
+        "category": "mental-model",
+        "start_seconds": 1920,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=1920s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Imagination = memory's reconstructive machinery, reused for planning",
+        "category": "definition",
+        "start_seconds": 2335,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2335s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Open-sourcing frontier weights has no good answer for rogue reuse",
+        "category": "actionable",
+        "start_seconds": 2620,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2620s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Air-gapped data centers coming within 3\u20135 years",
+        "category": "prediction",
+        "start_seconds": 2545,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2545s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Robotics' data scarcity is a feature, not a bug",
+        "category": "story",
+        "start_seconds": 2880,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2880s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Top AI can triage hypotheses but can't ask the right question",
+        "category": "counterintuitive",
+        "start_seconds": 3060,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=3060s"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "headline": "Move away from 'move fast and break things' for AI",
+        "category": "actionable",
+        "start_seconds": 3360,
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=3360s"
+      }
+    ],
+    "first_uploaded": "2024-02-28",
+    "last_uploaded": "2024-02-28",
+    "slug": "demis-hassabis",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "Welch",
+    "role": "Host of Welch Labs",
+    "appearances": [
+      {
+        "video_id": "5eqRuVp65eY",
+        "video_title": "AI can't cross this line and we don't know why.",
+        "channel": "Welch Labs",
+        "url": "https://www.youtube.com/watch?v=5eqRuVp65eY",
+        "upload_date": "2024-09-13",
+        "thumbnail": "https://i.ytimg.com/vi/5eqRuVp65eY/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2024-09-13",
+    "last_uploaded": "2024-09-13",
+    "slug": "welch",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Welch Labs host",
+    "role": "Narrator",
+    "appearances": [
+      {
+        "video_id": "kYkIdXwW2AE",
+        "video_title": "Yann LeCun's $1B Bet Against LLMs",
+        "channel": "Welch Labs",
+        "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE",
+        "upload_date": "2026-05-02",
+        "thumbnail": "https://i.ytimg.com/vi/kYkIdXwW2AE/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-02",
+    "last_uploaded": "2026-05-02",
+    "slug": "welch-labs-host",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  }
+]

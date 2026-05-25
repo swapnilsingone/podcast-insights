@@ -1,0 +1,594 @@
+{
+  "video": {
+    "id": "kYkIdXwW2AE",
+    "title": "Yann LeCun's $1B Bet Against LLMs",
+    "channel": "Welch Labs",
+    "duration_seconds": 2244,
+    "thumbnail": "https://i.ytimg.com/vi/kYkIdXwW2AE/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE",
+    "upload_date": "2026-05-02",
+    "display_title_html": "Yann LeCun's $1B Bet <em>Against LLMs</em>"
+  },
+  "thesis": "LeCun argues that LLMs are a dead-end for general intelligence and that JEPA — a non-generative, joint-embedding world-model architecture — is the right substrate for agents that can predict the consequences of their actions.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Intro"
+    },
+    {
+      "start": 148,
+      "title": "The Problem with Deep Learning"
+    },
+    {
+      "start": 257,
+      "title": "Intelligence is a Cake"
+    },
+    {
+      "start": 315,
+      "title": "The Rise of Generative AI"
+    },
+    {
+      "start": 480,
+      "title": "Blurry Images"
+    },
+    {
+      "start": 534,
+      "title": "HRT is an awesome place to work"
+    },
+    {
+      "start": 676,
+      "title": "But why so Blurry?"
+    },
+    {
+      "start": 810,
+      "title": "Do our models need to be generative?"
+    },
+    {
+      "start": 916,
+      "title": "Siamese Networks"
+    },
+    {
+      "start": 1073,
+      "title": "Representation Collapse"
+    },
+    {
+      "start": 1194,
+      "title": "Yann's Epiphany & Barlow Twins"
+    },
+    {
+      "start": 1642,
+      "title": "DINO"
+    },
+    {
+      "start": 1738,
+      "title": "JEPA & World Models"
+    },
+    {
+      "start": 2049,
+      "title": "But is JEPA good?"
+    },
+    {
+      "start": 2179,
+      "title": "Welch Labs Book"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "framework",
+      "headline": "JEPA predicts embeddings, not pixels or tokens",
+      "body": "Instead of predicting outputs Y directly from inputs X, JEPA passes both X and Y through encoders and trains a third 'predictor' model to map the embedding of X to the embedding of Y. This sidesteps generation entirely.",
+      "start_seconds": 26,
+      "end_seconds": 95
+    },
+    {
+      "id": 2,
+      "category": "mental-model",
+      "headline": "Intelligence as a cake: SSL is the bulk",
+      "body": "LeCun's 2015 meme slide: self-supervised learning is the cake, supervised learning is the icing, reinforcement learning is the cherry. He used it to argue RL alone could never reach human or animal intelligence — too inefficient.",
+      "start_seconds": 254,
+      "end_seconds": 290
+    },
+    {
+      "id": 3,
+      "category": "story",
+      "headline": "OpenAI was an RL shop before Radford pivoted",
+      "body": "OpenAI initially focused on RL (Gym, Universe, video games). Alec Radford modified a Google translation Transformer into a next-token predictor trained on 7,000 internal books — that became GPT-1, the unlock that freed models from labeled data.",
+      "start_seconds": 296,
+      "end_seconds": 425
+    },
+    {
+      "id": 4,
+      "category": "counterintuitive",
+      "headline": "Video frame prediction blurs because of averaging",
+      "body": "If a ball can bounce many directions, a pixel-level model forced to output one frame predicts the average of outcomes — which looks like blurry mush. LLMs avoid this because they have independent probability outputs per token.",
+      "start_seconds": 752,
+      "end_seconds": 810
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "Possible next frames dwarf atoms in the universe",
+      "body": "A full-HD frame has ~10^15,000,000 possible pixel configurations vs GPT-2's 50,257-token vocabulary. Enumerating outputs the way LLMs do is mathematically hopeless for video.",
+      "start_seconds": 676,
+      "end_seconds": 728
+    },
+    {
+      "id": 6,
+      "category": "definition",
+      "headline": "Representation collapse: the trivial all-ones solution",
+      "body": "Joint-embedding networks trained only to maximize similarity discover they can output the same vector for every input. Similarity is perfect, nothing useful is learned. This is the central problem JEPA architectures must solve.",
+      "start_seconds": 1073,
+      "end_seconds": 1135
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "Barlow Twins: force cross-correlation to identity",
+      "body": "Stéphane Deny and LeCun (2020) built a loss that pushes the cross-correlation matrix between two encoders' neuron outputs toward the identity — diagonal correlations high (matched pairs agree), off-diagonals near zero (neurons stay non-redundant). Derived from Horace Barlow's 1961 neuroscience hypothesis.",
+      "start_seconds": 1194,
+      "end_seconds": 1472
+    },
+    {
+      "id": 8,
+      "category": "data-point",
+      "headline": "DINOv3 hit 88.4% on ImageNet with no labels",
+      "body": "Released August 2025, DINOv3 reached 88.4% ImageNet accuracy — comparable to the best supervised models (88.6% for the 2020 Google ViT). Authors call it the first time self-supervised matched weakly/supervised on classification.",
+      "start_seconds": 1659,
+      "end_seconds": 1730
+    },
+    {
+      "id": 9,
+      "category": "mental-model",
+      "headline": "Don't waste compute predicting unpredictable leaves",
+      "body": "LeCun's dashcam example: a pixel-generative video model burns most of its capacity predicting random leaf motion. Embeddings let the predictor focus only on salient, predictable features of the scene.",
+      "start_seconds": 1854,
+      "end_seconds": 1900
+    },
+    {
+      "id": 10,
+      "category": "framework",
+      "headline": "Action-conditioned JEPA = learned world model for robots",
+      "body": "VJEPA-2 conditions the embedding-space predictor on robot arm control signals. Given a goal-state embedding, a classical optimal-control search over imagined action sequences finds actions whose predicted future embedding matches the goal.",
+      "start_seconds": 1916,
+      "end_seconds": 2049
+    },
+    {
+      "id": 11,
+      "category": "counterintuitive",
+      "headline": "A teen learns to drive in 20 hours; Tesla can't",
+      "body": "LeCun's challenge: millions of hours of supervised driving data only get you to L2, but a 17-year-old reaches competence in a few hours. The missing ingredient, he claims, is a world model that predicts consequences of actions.",
+      "start_seconds": 1772,
+      "end_seconds": 1820
+    },
+    {
+      "id": 12,
+      "category": "prediction",
+      "headline": "JEPA will eventually replace LLMs",
+      "body": "Asked whether world-model approaches will replace LLMs, LeCun says: initially they solve different problems, eventually they'll replace LLMs — because LLMs are only good where language itself is the substrate of reasoning.",
+      "start_seconds": 85,
+      "end_seconds": 130
+    },
+    {
+      "id": 13,
+      "category": "actionable",
+      "headline": "Use linear probes to audit frozen representations",
+      "body": "Barlow Twins was evaluated by freezing the encoder and training a single linear layer on ImageNet — that frozen+probe setup hit 73.2%, beating AlexNet's 59.3% supervised baseline. It's the standard recipe for testing whether SSL learned useful features.",
+      "start_seconds": 1531,
+      "end_seconds": 1620
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "headline": "Siamese nets started as 1990s signature fraud detection",
+      "body": "LeCun's joint-embedding lineage traces to Bell Labs in the early 1990s: two copies of a network produced embeddings for pairs of signatures, trained with contrastive positive/negative pairs to detect forgery. Same architecture, 30+ years later, is the path to world models.",
+      "start_seconds": 916,
+      "end_seconds": 1000
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Initially, they'll solve different problems. Eventually, they'll replace LLMs.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 85
+    },
+    {
+      "text": "If intelligence is a cake, the bulk of the cake is self-supervised learning, the icing on the cake, supervised learning, and the cherry on the cake, reinforcement learning.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 263
+    },
+    {
+      "text": "I do not understand how you can even think of building an agentic system without an agentic system having the ability of predicting the consequences of its actions.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 2114
+    },
+    {
+      "text": "They just take the action and then après moi le déluge, as some famous French kings said.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 2147
+    },
+    {
+      "text": "It will spend most of its resources predicting the random motion of the leaves on the trees that are bordering the road.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 1860
+    },
+    {
+      "text": "What is even less classical is you learn a representation of the input that computes a state, an abstract state representation. And you learn the model in that state. And that's JEPA.",
+      "speaker": "Yann LeCun",
+      "start_seconds": 2017
+    }
+  ],
+  "resources": [
+    {
+      "name": "A Path Towards Autonomous Machine Intelligence (2022)",
+      "context": "LeCun's 60-page position paper laying out the JEPA + world-model vision"
+    },
+    {
+      "name": "Barlow Twins paper (Zbontar, Deny, LeCun et al., 2021)",
+      "context": "Cross-correlation-to-identity loss that fixed representation collapse"
+    },
+    {
+      "name": "DINOv3 paper (Meta FAIR, Aug 2025)",
+      "context": "First SSL model to match supervised ImageNet accuracy (88.4%)"
+    },
+    {
+      "name": "VJEPA-2",
+      "context": "Action-conditioned video JEPA used for robot arm planning"
+    },
+    {
+      "name": "Horace Barlow (1961)",
+      "context": "Computational neuroscientist whose redundancy-reduction hypothesis inspired Barlow Twins"
+    },
+    {
+      "name": "Hudson River Trading",
+      "context": "Sponsor; applies transformer architectures to order-book data with trillions of tokens"
+    },
+    {
+      "name": "Welch Labs Illustrated Guide to AI",
+      "context": "Companion book; chapters on AlexNet, scaling laws, diffusion models"
+    }
+  ],
+  "action_items": [
+    "If you're building agentic systems, ask whether your model can predict the consequence of an action before taking it — if not, you don't have a world model, you have an autocomplete.",
+    "When benchmarking self-supervised representations, freeze the encoder and use a linear probe — that's how Barlow Twins/DINO showed their features actually generalize.",
+    "Stop trying to predict at the pixel level for video tasks; predict in embedding space so the model can ignore unpredictable noise like wind in leaves.",
+    "Read LeCun's 'A Path Towards Autonomous Machine Intelligence' (2022) to see the full architecture argument, not just JEPA in isolation."
+  ],
+  "stats": [
+    {
+      "label": "LeCun's raise",
+      "val": "$1B",
+      "unit": "",
+      "sub": "Funding for a non-LLM, non-generative approach to AI built around JEPA"
+    },
+    {
+      "label": "DINOv3 ImageNet",
+      "val": "88.4%",
+      "unit": "top-1",
+      "sub": "First self-supervised model to match supervised ViT (88.6%) — no human labels used"
+    },
+    {
+      "label": "Possible next video frames",
+      "val": "10^15M",
+      "unit": "configs",
+      "sub": "Full-HD frame combinatorics that make next-frame enumeration hopeless vs GPT-2's 50,257 tokens"
+    },
+    {
+      "label": "Barlow Twins probe",
+      "val": "73.2%",
+      "unit": "ImageNet",
+      "sub": "Frozen encoder + linear probe beat fully-supervised AlexNet (59.3%) by 13.9 points"
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Yann LeCun",
+        "role": "Meta Chief AI Scientist; JEPA originator",
+        "speaker": true,
+        "mentions": 20,
+        "first_seconds": 6,
+        "context": "Central subject; argues LLMs cannot reach general intelligence"
+      },
+      {
+        "name": "Stéphane Deny",
+        "role": "Postdoc at Meta, co-creator of Barlow Twins",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 1213,
+        "context": "Proposed applying Horace Barlow's redundancy-reduction idea to joint-embedding networks"
+      },
+      {
+        "name": "Horace Barlow",
+        "role": "Computational/theoretical neuroscientist",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 1240,
+        "context": "1961 hypothesis: vision neurons reduce redundancy; inspiration for Barlow Twins"
+      },
+      {
+        "name": "Alec Radford",
+        "role": "OpenAI researcher",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 320,
+        "context": "Modified a Google translation Transformer into the next-token-predictor that became GPT-1"
+      },
+      {
+        "name": "Ilya Sutskever",
+        "role": "OpenAI co-founder",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 318,
+        "context": "Among those who saw the significance of the Transformer at OpenAI"
+      },
+      {
+        "name": "Geoffrey Hinton",
+        "role": "Deep learning pioneer",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1230,
+        "context": "Cited as having explored similar information-content maximization ideas"
+      },
+      {
+        "name": "Welch Labs host",
+        "role": "Narrator",
+        "speaker": true,
+        "mentions": 1,
+        "first_seconds": 0,
+        "context": "Walks through the technical narrative and intersperses LeCun interview clips"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Meta (FAIR)",
+        "mentions": 4,
+        "first_seconds": 1210,
+        "context": "Employs LeCun; produced Barlow Twins, VicReg, DINO line, VJEPA"
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 5,
+        "first_seconds": 296,
+        "context": "Originated as an RL lab; pivoted to language with GPT-1/2/3/ChatGPT"
+      },
+      {
+        "name": "Google",
+        "mentions": 3,
+        "first_seconds": 333,
+        "context": "Built the Transformer (translation) and 2020 ViT that hit 88.6% on ImageNet"
+      },
+      {
+        "name": "Google DeepMind",
+        "mentions": 1,
+        "first_seconds": 220,
+        "context": "Showcased RL renaissance with Atari and Go breakthroughs"
+      },
+      {
+        "name": "Tesla",
+        "mentions": 1,
+        "first_seconds": 1782,
+        "context": "L2 autonomous driving despite massive supervised data — LeCun's motivating example"
+      },
+      {
+        "name": "Hudson River Trading",
+        "mentions": 5,
+        "first_seconds": 539,
+        "context": "Video sponsor; applies transformers to trillions of order-book tokens"
+      },
+      {
+        "name": "Bell Labs",
+        "mentions": 1,
+        "first_seconds": 956,
+        "context": "Where LeCun built original Siamese networks in early 1990s for signature fraud"
+      },
+      {
+        "name": "Welch Labs",
+        "mentions": 2,
+        "first_seconds": 2179,
+        "context": "Publisher of the Illustrated Guide to AI book promoted at the end"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "JEPA",
+        "type": "AI architecture",
+        "first_seconds": 19,
+        "context": "Joint Embedding Predictive Architecture — predicts embeddings of future states"
+      },
+      {
+        "name": "VJEPA-2",
+        "type": "Video JEPA model",
+        "first_seconds": 1939,
+        "context": "Action-conditioned video JEPA used for robot arm planning"
+      },
+      {
+        "name": "VLJEPA",
+        "type": "Vision-Language JEPA",
+        "first_seconds": 2106,
+        "context": "Tackles multimodal tasks without generative LLM backbone"
+      },
+      {
+        "name": "LeWorldModel (Lay World Model)",
+        "type": "JEPA implementation",
+        "first_seconds": 2129,
+        "context": "Cited as the most complete picture of what JEPA-based systems can do"
+      },
+      {
+        "name": "DINO / DINOv3",
+        "type": "Self-supervised vision model",
+        "first_seconds": 1642,
+        "context": "Joint-embedding line from FAIR Paris; v3 reached 88.4% ImageNet"
+      },
+      {
+        "name": "Barlow Twins",
+        "type": "SSL training method",
+        "first_seconds": 1213,
+        "context": "Cross-correlation-to-identity loss for joint-embedding networks"
+      },
+      {
+        "name": "VicReg",
+        "type": "SSL training method",
+        "first_seconds": 1626,
+        "context": "Simplified Barlow Twins variant from LeCun's group"
+      },
+      {
+        "name": "Siamese networks",
+        "type": "Neural architecture",
+        "first_seconds": 916,
+        "context": "Two-tower networks producing comparable embeddings; LeCun's 1990s invention"
+      },
+      {
+        "name": "AlexNet",
+        "type": "CNN",
+        "first_seconds": 165,
+        "context": "2012 ImageNet breakthrough, ~59.3% baseline accuracy"
+      },
+      {
+        "name": "GPT-1 / GPT-2 / GPT-3 / ChatGPT",
+        "type": "LLMs",
+        "first_seconds": 393,
+        "context": "Generative pre-trained transformer line illustrating the LLM paradigm"
+      },
+      {
+        "name": "Transformer",
+        "type": "Neural architecture",
+        "first_seconds": 333,
+        "context": "Google's translation architecture co-opted by Radford for next-token prediction"
+      },
+      {
+        "name": "OpenAI Gym / Universe",
+        "type": "RL toolkits",
+        "first_seconds": 304,
+        "context": "Early OpenAI focus on reinforcement learning environments"
+      },
+      {
+        "name": "ImageNet",
+        "type": "Dataset/benchmark",
+        "first_seconds": 173,
+        "context": "Canonical image classification benchmark used to compare methods"
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Self-supervised learning",
+        "first_seconds": 235,
+        "summary": "Training where labels are derived from the data itself (e.g., next-token prediction)"
+      },
+      {
+        "name": "Representation collapse",
+        "first_seconds": 1073,
+        "summary": "Failure mode where a joint-embedding network outputs the same vector for any input"
+      },
+      {
+        "name": "Contrastive learning",
+        "first_seconds": 1138,
+        "summary": "Use positive and negative example pairs to prevent collapse; scales poorly in high dims"
+      },
+      {
+        "name": "Cake analogy",
+        "first_seconds": 254,
+        "summary": "LeCun's hierarchy: SSL cake, supervised icing, RL cherry"
+      },
+      {
+        "name": "Linear probe evaluation",
+        "first_seconds": 1531,
+        "summary": "Freeze encoder, train one linear layer to measure representation quality"
+      },
+      {
+        "name": "World model",
+        "first_seconds": 1817,
+        "summary": "Model that predicts next world state given current state and an action"
+      },
+      {
+        "name": "Autoregressive generation",
+        "first_seconds": 729,
+        "summary": "Token-by-token prediction; works for language, fails visually as blur compounds"
+      },
+      {
+        "name": "Optimal control",
+        "first_seconds": 2017,
+        "summary": "Classical (1950s-60s) search over action sequences — JEPA's twist is learning the model"
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "A Path Towards Autonomous Machine Intelligence",
+        "author": "Yann LeCun (2022)",
+        "context": "60-page position paper introducing JEPA and the world-model agenda"
+      },
+      {
+        "name": "Barlow Twins (2021)",
+        "author": "Zbontar, Jing, Misra, LeCun, Deny",
+        "context": "Cross-correlation identity loss to prevent representation collapse"
+      },
+      {
+        "name": "DINOv3 paper",
+        "author": "Meta FAIR (Aug 2025)",
+        "context": "First SSL model to match supervised ImageNet performance"
+      },
+      {
+        "name": "GPT-1 paper (Improving Language Understanding by Generative Pre-Training)",
+        "author": "Radford et al., OpenAI (2018)",
+        "context": "Self-supervised pre-training + supervised fine-tuning unlock"
+      },
+      {
+        "name": "Possible Principles Underlying the Transformations of Sensory Messages",
+        "author": "Horace Barlow (1961)",
+        "context": "Redundancy-reduction hypothesis cited as Barlow Twins' foundation"
+      },
+      {
+        "name": "Welch Labs Illustrated Guide to AI",
+        "author": "Welch Labs",
+        "context": "Promoted companion book covering AlexNet, scaling laws, diffusion"
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "kYkIdXwW2AE-p1",
+      "claim": "JEPA / world-model approaches will eventually replace large language models as the dominant AI paradigm.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 85,
+      "stated_at": "2026-05-02",
+      "horizon_label": "by 2032",
+      "revisit_dates": [
+        "2028-05-02",
+        "2032-05-02"
+      ],
+      "status": "open",
+      "notes": "LeCun frames this as the eventual outcome — initially complementary, later replacement."
+    },
+    {
+      "id": "kYkIdXwW2AE-p2",
+      "claim": "Reliable agentic systems are impossible without the ability to predict the consequences of actions — pure LLM/VLA agents will not get there.",
+      "speaker": "Yann LeCun",
+      "category": "ai",
+      "start_seconds": 2114,
+      "stated_at": "2026-05-02",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2027-05-02",
+        "2029-05-02"
+      ],
+      "status": "open",
+      "notes": "Falsifiable by a non-world-model agent reaching demonstrable long-horizon reliability."
+    },
+    {
+      "id": "kYkIdXwW2AE-p3",
+      "claim": "Self-supervised joint-embedding methods (DINO/JEPA line) will continue to overtake supervised baselines across vision tasks now that DINOv3 has reached parity on ImageNet.",
+      "speaker": "Welch Labs narrator (implicit framing)",
+      "category": "ai",
+      "start_seconds": 1659,
+      "stated_at": "2026-05-02",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-02",
+        "2028-05-02"
+      ],
+      "status": "open",
+      "notes": "Check next-gen DINO/JEPA leaderboards vs supervised SOTA on classification, detection, segmentation."
+    }
+  ]
+}

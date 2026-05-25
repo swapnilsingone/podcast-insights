@@ -1,0 +1,102 @@
+{
+  "video_id": "10MdOvK-aG4",
+  "predictions": [
+    {
+      "id": "10MdOvK-aG4-p1",
+      "claim": "Anthropic will exit 2026 at ~$100B ARR and reach $1T ARR by 2027",
+      "speaker": "David Sacks",
+      "category": "ai-business",
+      "start_seconds": 900,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by end-2026 → 2027",
+      "revisit_dates": ["2027-01-15", "2027-12-31"],
+      "status": "open",
+      "notes": "Falsified if 2026 exit < $80B or growth deceleration breaks the 10×/yr cadence sustainedly. Compounds with Jensen's earlier 'Dario's $1T-by-2030 is too low' prediction — Sacks is actually more bullish on the timeline."
+    },
+    {
+      "id": "10MdOvK-aG4-p2",
+      "claim": "Anthropic becomes the most valuable company in human history — by itself exceeding Mag 7 combined",
+      "speaker": "David Sacks",
+      "category": "ai-business",
+      "start_seconds": 1916,
+      "stated_at": "2026-05-08",
+      "horizon_label": "~18 months",
+      "revisit_dates": ["2027-11-08"],
+      "status": "open",
+      "notes": "Conditional on 10x ARR cadence continuing 18 more months. The 'biggest monopoly in human history' framing."
+    },
+    {
+      "id": "10MdOvK-aG4-p3",
+      "claim": "SpaceX IPOs at $2T valuation, trades at 40-50× revenue (vs Mag 5 at ~25× earnings)",
+      "speaker": "Brad Gerstner",
+      "category": "ipo",
+      "start_seconds": 1390,
+      "stated_at": "2026-05-08",
+      "horizon_label": "near-term IPO",
+      "revisit_dates": ["2027-05-08"],
+      "status": "open",
+      "notes": "Tests against actual SpaceX IPO pricing if/when it occurs."
+    },
+    {
+      "id": "10MdOvK-aG4-p4",
+      "claim": "Tesla + SpaceX merge into 'Elon Corp' by end-2026 or mid-2027",
+      "speaker": "Chamath Palihapitiya",
+      "category": "corporate",
+      "start_seconds": 1450,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by mid-2027",
+      "revisit_dates": ["2027-06-30"],
+      "status": "open",
+      "notes": "High-specificity timeline prediction. Easy to falsify."
+    },
+    {
+      "id": "10MdOvK-aG4-p5",
+      "claim": "Distributed home compute (Tesla power walls + Pulte/Span/Base Power) becomes the 'next shoe to drop' in compute distribution",
+      "speaker": "Jason Calacanis",
+      "category": "compute",
+      "start_seconds": 1305,
+      "stated_at": "2026-05-08",
+      "horizon_label": "2-4 years",
+      "revisit_dates": ["2028-05-08", "2030-05-08"],
+      "status": "open",
+      "notes": "Tests against material residential compute deployment numbers."
+    },
+    {
+      "id": "10MdOvK-aG4-p6",
+      "claim": "Every major frontier lab (US + Chinese) will have Mythos-level cyber capability within 3-6 months",
+      "speaker": "David Sacks",
+      "category": "ai-safety",
+      "start_seconds": 2755,
+      "stated_at": "2026-05-08",
+      "horizon_label": "3-6 months",
+      "revisit_dates": ["2026-11-08"],
+      "status": "open",
+      "notes": "Near-term, falsifiable. Watch for capability reports."
+    },
+    {
+      "id": "10MdOvK-aG4-p7",
+      "claim": "No FDA-for-AI / pre-release approval regime will be enacted under the Trump administration",
+      "speaker": "David Sacks",
+      "category": "regulation",
+      "start_seconds": 2660,
+      "stated_at": "2026-05-08",
+      "horizon_label": "through this term",
+      "revisit_dates": ["2027-01-20", "2029-01-20"],
+      "status": "open",
+      "notes": "Strong, falsifiable. Polymarket has 21% chance of a federal AI review by May 31, 2026 as a near-term proxy."
+    },
+    {
+      "id": "10MdOvK-aG4-p8",
+      "claim": "The 500-day margin reckoning: by late-2027 the market will need evidence AI is lifting S&P 500 operating margins — either via OpEx contraction or revenue expansion",
+      "speaker": "Chamath Palihapitiya",
+      "category": "macro",
+      "start_seconds": 4035,
+      "stated_at": "2026-05-08",
+      "horizon_label": "~500 days (late 2027)",
+      "revisit_dates": ["2027-09-08", "2028-05-08"],
+      "status": "open",
+      "notes": "Most macro-important prediction. Currently 'literally not a scintilla of evidence' of margin lift."
+    }
+  ],
+  "validated_predictions": []
+}

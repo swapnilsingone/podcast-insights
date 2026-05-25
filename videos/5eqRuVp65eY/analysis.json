@@ -1,0 +1,485 @@
+{
+  "video": {
+    "id": "5eqRuVp65eY",
+    "title": "AI can't cross this line and we don't know why.",
+    "channel": "Welch Labs",
+    "duration_seconds": 1447,
+    "thumbnail": "https://i.ytimg.com/vi/5eqRuVp65eY/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5eqRuVp65eY",
+    "upload_date": "2024-09-13",
+    "display_title_html": "AI can't cross <em>this line</em> and we don't know why."
+  },
+  "thesis": "Neural scaling laws describe a startlingly simple power-law relationship between compute, data, model size and model loss — and the manifold hypothesis offers a compelling but incomplete theoretical reason why this 'compute-efficient frontier' exists at all.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "The compute-efficient frontier"
+    },
+    {
+      "start": 84,
+      "title": "OpenAI's 2020 scaling laws & GPT-3 bet"
+    },
+    {
+      "start": 200,
+      "title": "Why loss is cross-entropy, not L1"
+    },
+    {
+      "start": 400,
+      "title": "Entropy of natural language"
+    },
+    {
+      "start": 535,
+      "title": "DeepMind's irreducible loss term & GPT-4"
+    },
+    {
+      "start": 760,
+      "title": "The manifold hypothesis"
+    },
+    {
+      "start": 1010,
+      "title": "Resolution-limited scaling theory"
+    },
+    {
+      "start": 1240,
+      "title": "Theory vs observation & what's next"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "framework",
+      "headline": "Three scaling laws govern model error",
+      "body": "Error rate scales as a power law with compute, model size, and dataset size — and remarkably, the trend is largely independent of model architecture or algorithmic details, as long as choices are reasonable.",
+      "start_seconds": 29,
+      "end_seconds": 75
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "GPT-3: 175B params, 3,640 petaflop-days",
+      "body": "OpenAI scaled from a 1.5B-parameter model trained on ~10 petaflop-days to GPT-3 at 175B parameters and 3,640 petaflop-days, using a Microsoft supercomputer with 10,000 NVIDIA V100 GPUs.",
+      "start_seconds": 137,
+      "end_seconds": 172
+    },
+    {
+      "id": 3,
+      "category": "counterintuitive",
+      "headline": "GPT-3 still hadn't hit any scaling wall",
+      "body": "GPT-3's performance hit the trendline predicted six months earlier almost exactly — but the curve didn't flatten, meaning even larger models would keep improving, leaving the actual ceiling unknown.",
+      "start_seconds": 168,
+      "end_seconds": 195
+    },
+    {
+      "id": 4,
+      "category": "definition",
+      "headline": "Cross-entropy loss is just negative log probability",
+      "body": "For autoregressive LLMs, loss is the negative natural log of the probability the model assigned to the correct next token. A 90% confident model has loss ≈0.1; near-zero confidence sends loss shooting toward infinity.",
+      "start_seconds": 339,
+      "end_seconds": 408
+    },
+    {
+      "id": 5,
+      "category": "mental-model",
+      "headline": "Loss can't hit zero because language is ambiguous",
+      "body": "Most next-word predictions have many valid answers — e.g. 'a neural network is a ___' has dozens of legitimate continuations. This irreducible uncertainty is the entropy of natural language, and it's a hard floor on cross-entropy loss.",
+      "start_seconds": 408,
+      "end_seconds": 455
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "DeepMind estimates language's floor at 1.69 nats",
+      "body": "Google DeepMind's fit splits loss into model-size, dataset-size, and irreducible terms — implying an infinitely large model with infinite data still couldn't push average cross-entropy on their massive text corpus below 1.69.",
+      "start_seconds": 506,
+      "end_seconds": 555
+    },
+    {
+      "id": 7,
+      "category": "story",
+      "headline": "OpenAI predicted GPT-4 loss before training it",
+      "body": "Before spending reportedly $100M+ to train GPT-4, OpenAI fit power laws to much smaller experiments and nailed GPT-4's final performance — extrapolating across roughly 13 orders of magnitude of compute.",
+      "start_seconds": 555,
+      "end_seconds": 650
+    },
+    {
+      "id": 8,
+      "category": "data-point",
+      "headline": "GPT-4 training: 200,000+ petaflop-days",
+      "body": "Leaks suggest GPT-4 required over 200,000 petaflop-days of compute, reportedly using 25,000 NVIDIA A100 GPUs running for more than three months — roughly 55× the compute used for GPT-3.",
+      "start_seconds": 621,
+      "end_seconds": 654
+    },
+    {
+      "id": 9,
+      "category": "mental-model",
+      "headline": "Training data lives on a low-dim manifold",
+      "body": "MNIST images live in 784-dimensional pixel space, but valid digits occupy only a tiny lower-dimensional 'shape' inside it. Neural networks effectively learn this manifold — and similar concepts cluster as neighborhoods on it.",
+      "start_seconds": 760,
+      "end_seconds": 920
+    },
+    {
+      "id": 10,
+      "category": "framework",
+      "headline": "Resolution-limited scaling explains the exponents",
+      "body": "If models linearly interpolate between training points on a smooth manifold, average test error scales as data^(-2/d) for L1 loss, and (because cross-entropy ≈ distance squared near the truth) as data^(-4/d) for cross-entropy.",
+      "start_seconds": 1010,
+      "end_seconds": 1180
+    },
+    {
+      "id": 11,
+      "category": "counterintuitive",
+      "headline": "Same -4/d law also predicts model-size scaling",
+      "body": "The resolution-limited theory predicts the identical fourth-power relationship for model size: more parameters let the network fit the data manifold at higher resolution, mirroring what more data does.",
+      "start_seconds": 1180,
+      "end_seconds": 1210
+    },
+    {
+      "id": 12,
+      "category": "data-point",
+      "headline": "Language's intrinsic dimension: ~42 vs measured ~100",
+      "body": "Plugging OpenAI's observed exponent (-0.095) into the -4/d theory implies natural language has intrinsic dimension ~42. But direct measurement of the learned manifold puts it closer to 100 — the inequality holds, but the theory isn't tight.",
+      "start_seconds": 1240,
+      "end_seconds": 1290
+    },
+    {
+      "id": 13,
+      "category": "counterintuitive",
+      "headline": "Capabilities don't scale — they pop in",
+      "body": "While next-token loss tracks scaling laws smoothly, specific abilities like word unscrambling, arithmetic, and multi-step reasoning seem to appear suddenly at certain scales rather than improving gradually.",
+      "start_seconds": 1310,
+      "end_seconds": 1340
+    },
+    {
+      "id": 14,
+      "category": "mental-model",
+      "headline": "Physicists are hunting for an 'ideal gas law' of AI",
+      "body": "Many scaling-law authors come from physics, treating model behavior as a search for unifying principles akin to the ideal gas law — a mindset that has already delivered astonishingly predictive empirical results.",
+      "start_seconds": 1340,
+      "end_seconds": 1395
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI models can't cross this boundary, and we don't know why.",
+      "speaker": "Welch",
+      "start_seconds": 0
+    },
+    {
+      "text": "Even with data from the largest language models, we cannot yet obtain a meaningful estimate for the entropy of natural language.",
+      "speaker": "OpenAI (quoted)",
+      "start_seconds": 487
+    },
+    {
+      "text": "Neural scaling laws appear to hold across an incredible range of scales, something like 13 orders of magnitude.",
+      "speaker": "Welch",
+      "start_seconds": 645
+    },
+    {
+      "text": "The vast majority of points in this high-dimensional space are not handwritten digits.",
+      "speaker": "Welch",
+      "start_seconds": 855
+    },
+    {
+      "text": "Abilities on tasks like word unscrambling, arithmetic, and multi-step reasoning seem to just pop into existence at various scales.",
+      "speaker": "Welch",
+      "start_seconds": 1318
+    }
+  ],
+  "resources": [
+    {
+      "name": "OpenAI scaling laws paper (Jan 2020)",
+      "context": "First clear power-law fits across compute, data, and model size for language models"
+    },
+    {
+      "name": "OpenAI October 2020 follow-up",
+      "context": "Extended scaling laws to image, video, and other modalities; estimated irreducible entropy"
+    },
+    {
+      "name": "Google DeepMind scaling experiments",
+      "context": "Fit a three-term scaling law with an irreducible 1.69-nat floor for natural language"
+    },
+    {
+      "name": "GPT-4 Technical Report (Pi Day 2023)",
+      "context": "Demonstrated extrapolation of scaling from small experiments to the full GPT-4 run"
+    },
+    {
+      "name": "Manifold-hypothesis scaling theory",
+      "context": "Resolution-limited derivation of the L ∝ d^(-4/D) cross-entropy scaling law"
+    },
+    {
+      "name": "Brilliant.org LLM course",
+      "context": "Sponsor — referenced for hands-on intuition building on next-token prediction"
+    },
+    {
+      "name": "Welch Labs imaginary numbers book",
+      "context": "Author's upcoming book, pre-order linked in description"
+    }
+  ],
+  "action_items": [
+    "If you take one thing from this video, internalize that loss = -log(probability of the correct next token) — that single equation explains why language model performance is bounded by the entropy of natural language.",
+    "When evaluating new AI architectures, ask whether their gains beat the scaling-law extrapolation from existing methods at equal compute — most 'breakthroughs' don't.",
+    "Build intuition for manifold learning by training a small network on MNIST and projecting an intermediate layer with UMAP to see digit clusters emerge."
+  ],
+  "stats": [
+    {
+      "label": "GPT-3 parameters",
+      "val": "175B",
+      "unit": "params",
+      "sub": "Trained on 10,000 V100 GPUs using 3,640 petaflop-days of compute."
+    },
+    {
+      "label": "GPT-4 compute (leaked)",
+      "val": "200K+",
+      "unit": "petaflop-days",
+      "sub": "Reportedly 25,000 A100 GPUs running for over three months."
+    },
+    {
+      "label": "Scaling-law range",
+      "val": "13",
+      "unit": "orders of magnitude",
+      "sub": "Power laws hold from 10⁻⁸ petaflop-days up to GPT-4 scale."
+    },
+    {
+      "label": "Irreducible language loss",
+      "val": "1.69",
+      "unit": "nats",
+      "sub": "DeepMind's estimated floor on cross-entropy for natural text, even with infinite data and model size."
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Welch",
+        "role": "Host of Welch Labs",
+        "speaker": true,
+        "mentions": 1,
+        "first_seconds": 0,
+        "context": "Narrates the explainer and pitches his upcoming imaginary numbers book"
+      }
+    ],
+    "companies": [
+      {
+        "name": "OpenAI",
+        "mentions": 8,
+        "first_seconds": 78,
+        "context": "Published the foundational 2020 scaling-law papers and GPT-3/GPT-4"
+      },
+      {
+        "name": "Microsoft",
+        "mentions": 1,
+        "first_seconds": 145,
+        "context": "Partnered with OpenAI on the 10,000-V100 supercomputer that trained GPT-3"
+      },
+      {
+        "name": "Google DeepMind",
+        "mentions": 2,
+        "first_seconds": 506,
+        "context": "Ran massive scaling experiments and fit the three-term law with a 1.69-nat floor"
+      },
+      {
+        "name": "NVIDIA",
+        "mentions": 2,
+        "first_seconds": 130,
+        "context": "V100 and A100 GPUs powered GPT-3 and GPT-4 training"
+      },
+      {
+        "name": "Meta",
+        "mentions": 1,
+        "first_seconds": 440,
+        "context": "Llama model used as an example of top-5 next-word probability outputs"
+      },
+      {
+        "name": "Brilliant",
+        "mentions": 4,
+        "first_seconds": 700,
+        "context": "Video sponsor offering interactive lessons including an LLM course"
+      },
+      {
+        "name": "Welch Labs",
+        "mentions": 2,
+        "first_seconds": 1380,
+        "context": "Channel and store selling Activation Atlas posters and the imaginary numbers book"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "GPT-3",
+        "type": "Large language model",
+        "first_seconds": 150,
+        "context": "175B-param model whose performance matched OpenAI's January 2020 scaling extrapolation"
+      },
+      {
+        "name": "GPT-4",
+        "type": "Large language model",
+        "first_seconds": 555,
+        "context": "Performance predicted ahead of time from smaller-scale fits; >200K petaflop-days to train"
+      },
+      {
+        "name": "NVIDIA V100",
+        "type": "GPU",
+        "first_seconds": 130,
+        "context": "30 TFLOPS, $10K — 10,000 used for GPT-3"
+      },
+      {
+        "name": "NVIDIA A100",
+        "type": "GPU",
+        "first_seconds": 630,
+        "context": "Reportedly 25,000 used for GPT-4 over three months"
+      },
+      {
+        "name": "MNIST",
+        "type": "Dataset",
+        "first_seconds": 770,
+        "context": "28×28 handwritten digits used to illustrate the manifold hypothesis"
+      },
+      {
+        "name": "Llama",
+        "type": "Large language model",
+        "first_seconds": 442,
+        "context": "Used to show top-5 next-token probability distributions"
+      },
+      {
+        "name": "UMAP",
+        "type": "Dimensionality reduction",
+        "first_seconds": 928,
+        "context": "Projects the 16-D MNIST manifold to 2-D while preserving structure"
+      },
+      {
+        "name": "ReLU",
+        "type": "Activation function",
+        "first_seconds": 1102,
+        "context": "Enables piecewise-linear interpolation between training points"
+      },
+      {
+        "name": "Softmax",
+        "type": "Normalization",
+        "first_seconds": 235,
+        "context": "Normalizes the model's probability vector to sum to 1"
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Compute-efficient frontier",
+        "first_seconds": 17,
+        "summary": "The empirical lower-loss boundary no model has crossed at a given compute budget"
+      },
+      {
+        "name": "Neural scaling laws",
+        "first_seconds": 29,
+        "summary": "Power-law relationships between loss and compute, data, or model size"
+      },
+      {
+        "name": "Petaflop-day",
+        "first_seconds": 110,
+        "summary": "One quadrillion FLOPs/sec sustained for 24 hours — the canonical unit for AI training scale"
+      },
+      {
+        "name": "Cross-entropy loss",
+        "first_seconds": 332,
+        "summary": "Negative log probability of the true token; the standard LLM training objective"
+      },
+      {
+        "name": "Entropy of natural language",
+        "first_seconds": 420,
+        "summary": "Irreducible ambiguity in next-word prediction that lower-bounds achievable loss"
+      },
+      {
+        "name": "Manifold hypothesis",
+        "first_seconds": 760,
+        "summary": "Real data occupies a low-dimensional manifold inside a high-dimensional input space"
+      },
+      {
+        "name": "Resolution-limited scaling",
+        "first_seconds": 1190,
+        "summary": "Theory deriving the -4/d cross-entropy scaling exponent from manifold geometry"
+      },
+      {
+        "name": "Intrinsic dimension",
+        "first_seconds": 1240,
+        "summary": "True dimensionality of a dataset's manifold — estimated ~100 for natural language"
+      },
+      {
+        "name": "Emergent capabilities",
+        "first_seconds": 1310,
+        "summary": "Skills like arithmetic and reasoning that appear discontinuously with scale"
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Scaling Laws for Neural Language Models (Jan 2020)",
+        "author": "Kaplan et al., OpenAI",
+        "context": "Original power-law fits across compute, data, and model size"
+      },
+      {
+        "name": "Scaling Laws for Autoregressive Generative Modeling (Oct 2020)",
+        "author": "Henighan et al., OpenAI",
+        "context": "Extended scaling to images, video, and multimodal data with irreducible loss terms"
+      },
+      {
+        "name": "Training Compute-Optimal Large Language Models (Chinchilla)",
+        "author": "Hoffmann et al., DeepMind",
+        "context": "Three-term scaling law with the 1.69-nat irreducible language loss estimate"
+      },
+      {
+        "name": "GPT-4 Technical Report",
+        "author": "OpenAI",
+        "context": "Released Pi Day 2023; showed loss-prediction extrapolation but withheld model details"
+      },
+      {
+        "name": "A Neural Scaling Law from the Dimension of the Data Manifold",
+        "author": "Sharma & Kaplan",
+        "context": "Resolution-limited theoretical derivation of the -4/d exponent"
+      },
+      {
+        "name": "Imaginary Numbers (forthcoming)",
+        "author": "Welch",
+        "context": "Welch Labs book, expanded from the 2016 YouTube series, pre-orderable now"
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "5eqRuVp65eY-p1",
+      "claim": "Average cross-entropy loss on the massive text dataset cannot drop below ~1.69 nats, no matter how large the model or dataset.",
+      "speaker": "Google DeepMind (cited)",
+      "category": "ai",
+      "start_seconds": 530,
+      "stated_at": "2024-09-13",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Empirical extrapolation; testable by future frontier models reporting per-token cross-entropy on a comparable corpus."
+    },
+    {
+      "id": "5eqRuVp65eY-p2",
+      "claim": "Neural scaling laws will continue to hold predictively for next-token loss as models scale further beyond GPT-4.",
+      "speaker": "Welch (paraphrasing field consensus)",
+      "category": "ai",
+      "start_seconds": 640,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2029",
+      "revisit_dates": [
+        "2026-09-13",
+        "2029-09-13"
+      ],
+      "status": "open",
+      "notes": "Already held across ~13 orders of magnitude; revisit as GPT-5-class and successor models publish loss curves."
+    },
+    {
+      "id": "5eqRuVp65eY-p3",
+      "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
+      "speaker": "Welch",
+      "category": "ai",
+      "start_seconds": 1310,
+      "stated_at": "2024-09-13",
+      "horizon_label": "by 2027",
+      "revisit_dates": [
+        "2027-09-13"
+      ],
+      "status": "open",
+      "notes": "Active research debate — some recent work suggests emergence is partly an artifact of metric choice."
+    }
+  ]
+}

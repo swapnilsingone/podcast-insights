@@ -1,0 +1,192 @@
+{
+  "video_id": "5eqRuVp65eY",
+  "people": [
+    {
+      "name": "Welch",
+      "role": "Host of Welch Labs",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 0,
+      "context": "Narrates the explainer and pitches his upcoming imaginary numbers book"
+    }
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "mentions": 8,
+      "first_seconds": 78,
+      "context": "Published the foundational 2020 scaling-law papers and GPT-3/GPT-4"
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 1,
+      "first_seconds": 145,
+      "context": "Partnered with OpenAI on the 10,000-V100 supercomputer that trained GPT-3"
+    },
+    {
+      "name": "Google DeepMind",
+      "mentions": 2,
+      "first_seconds": 506,
+      "context": "Ran massive scaling experiments and fit the three-term law with a 1.69-nat floor"
+    },
+    {
+      "name": "NVIDIA",
+      "mentions": 2,
+      "first_seconds": 130,
+      "context": "V100 and A100 GPUs powered GPT-3 and GPT-4 training"
+    },
+    {
+      "name": "Meta",
+      "mentions": 1,
+      "first_seconds": 440,
+      "context": "Llama model used as an example of top-5 next-word probability outputs"
+    },
+    {
+      "name": "Brilliant",
+      "mentions": 4,
+      "first_seconds": 700,
+      "context": "Video sponsor offering interactive lessons including an LLM course"
+    },
+    {
+      "name": "Welch Labs",
+      "mentions": 2,
+      "first_seconds": 1380,
+      "context": "Channel and store selling Activation Atlas posters and the imaginary numbers book"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "GPT-3",
+      "type": "Large language model",
+      "first_seconds": 150,
+      "context": "175B-param model whose performance matched OpenAI's January 2020 scaling extrapolation"
+    },
+    {
+      "name": "GPT-4",
+      "type": "Large language model",
+      "first_seconds": 555,
+      "context": "Performance predicted ahead of time from smaller-scale fits; >200K petaflop-days to train"
+    },
+    {
+      "name": "NVIDIA V100",
+      "type": "GPU",
+      "first_seconds": 130,
+      "context": "30 TFLOPS, $10K — 10,000 used for GPT-3"
+    },
+    {
+      "name": "NVIDIA A100",
+      "type": "GPU",
+      "first_seconds": 630,
+      "context": "Reportedly 25,000 used for GPT-4 over three months"
+    },
+    {
+      "name": "MNIST",
+      "type": "Dataset",
+      "first_seconds": 770,
+      "context": "28×28 handwritten digits used to illustrate the manifold hypothesis"
+    },
+    {
+      "name": "Llama",
+      "type": "Large language model",
+      "first_seconds": 442,
+      "context": "Used to show top-5 next-token probability distributions"
+    },
+    {
+      "name": "UMAP",
+      "type": "Dimensionality reduction",
+      "first_seconds": 928,
+      "context": "Projects the 16-D MNIST manifold to 2-D while preserving structure"
+    },
+    {
+      "name": "ReLU",
+      "type": "Activation function",
+      "first_seconds": 1102,
+      "context": "Enables piecewise-linear interpolation between training points"
+    },
+    {
+      "name": "Softmax",
+      "type": "Normalization",
+      "first_seconds": 235,
+      "context": "Normalizes the model's probability vector to sum to 1"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Compute-efficient frontier",
+      "first_seconds": 17,
+      "summary": "The empirical lower-loss boundary no model has crossed at a given compute budget"
+    },
+    {
+      "name": "Neural scaling laws",
+      "first_seconds": 29,
+      "summary": "Power-law relationships between loss and compute, data, or model size"
+    },
+    {
+      "name": "Petaflop-day",
+      "first_seconds": 110,
+      "summary": "One quadrillion FLOPs/sec sustained for 24 hours — the canonical unit for AI training scale"
+    },
+    {
+      "name": "Cross-entropy loss",
+      "first_seconds": 332,
+      "summary": "Negative log probability of the true token; the standard LLM training objective"
+    },
+    {
+      "name": "Entropy of natural language",
+      "first_seconds": 420,
+      "summary": "Irreducible ambiguity in next-word prediction that lower-bounds achievable loss"
+    },
+    {
+      "name": "Manifold hypothesis",
+      "first_seconds": 760,
+      "summary": "Real data occupies a low-dimensional manifold inside a high-dimensional input space"
+    },
+    {
+      "name": "Resolution-limited scaling",
+      "first_seconds": 1190,
+      "summary": "Theory deriving the -4/d cross-entropy scaling exponent from manifold geometry"
+    },
+    {
+      "name": "Intrinsic dimension",
+      "first_seconds": 1240,
+      "summary": "True dimensionality of a dataset's manifold — estimated ~100 for natural language"
+    },
+    {
+      "name": "Emergent capabilities",
+      "first_seconds": 1310,
+      "summary": "Skills like arithmetic and reasoning that appear discontinuously with scale"
+    }
+  ],
+  "books_papers": [
+    {
+      "name": "Scaling Laws for Neural Language Models (Jan 2020)",
+      "author": "Kaplan et al., OpenAI",
+      "context": "Original power-law fits across compute, data, and model size"
+    },
+    {
+      "name": "Scaling Laws for Autoregressive Generative Modeling (Oct 2020)",
+      "author": "Henighan et al., OpenAI",
+      "context": "Extended scaling to images, video, and multimodal data with irreducible loss terms"
+    },
+    {
+      "name": "Training Compute-Optimal Large Language Models (Chinchilla)",
+      "author": "Hoffmann et al., DeepMind",
+      "context": "Three-term scaling law with the 1.69-nat irreducible language loss estimate"
+    },
+    {
+      "name": "GPT-4 Technical Report",
+      "author": "OpenAI",
+      "context": "Released Pi Day 2023; showed loss-prediction extrapolation but withheld model details"
+    },
+    {
+      "name": "A Neural Scaling Law from the Dimension of the Data Manifold",
+      "author": "Sharma & Kaplan",
+      "context": "Resolution-limited theoretical derivation of the -4/d exponent"
+    },
+    {
+      "name": "Imaginary Numbers (forthcoming)",
+      "author": "Welch",
+      "context": "Welch Labs book, expanded from the 2016 YouTube series, pre-orderable now"
+    }
+  ]
+}
