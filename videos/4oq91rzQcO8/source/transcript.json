@@ -1,0 +1,1777 @@
+[
+  {
+    "t": 0.516,
+    "speaker": "SPEAKER_04",
+    "text": "Okay, we are gathered here today in holy unity, brothers and sisters, to convene and discuss on this most holy day, the day the All In podcast drops, many topics, AI data centers, China, justice, human dignity. Dario unwinding these SPVs hasn't been good for the Vatican. We got in at 20 billion. That was a 50 bagger for us."
+  },
+  {
+    "t": 31.377,
+    "speaker": "SPEAKER_04",
+    "text": "So let's get started."
+  },
+  {
+    "t": 32.797,
+    "speaker": "SPEAKER_01",
+    "text": "Jason, I'm pretty sure you believed you were the vicar of God before the encyclical. So this is nothing new for you. I'm going all in."
+  },
+  {
+    "t": 57.446,
+    "speaker": "SPEAKER_04",
+    "text": "The smoke has risen from Chamath's pool house and from the poker room."
+  },
+  {
+    "t": 64.228,
+    "speaker": "SPEAKER_03",
+    "text": "He's staying in my pool house. He's been there for the last three days."
+  },
+  {
+    "t": 67.389,
+    "speaker": "SPEAKER_04",
+    "text": "It's been magnificent. He didn't know. You know what? I understand where OJ was coming from."
+  },
+  {
+    "t": 72.911,
+    "speaker": "SPEAKER_03",
+    "text": "You know, you put Kato Kaelin in your house for long enough, you just lose your shit at some point."
+  },
+  {
+    "t": 77.392,
+    "speaker": "SPEAKER_05",
+    "text": "At some point, somebody's getting whacked."
+  },
+  {
+    "t": 81.46,
+    "speaker": "SPEAKER_04",
+    "text": "All right, enough with the shenanigans. But it's been great staying at the house because there's actually, Chamath is not aware of this, there's an iPad in the kitchen, and that's logged in to Uber Eats, DoorDash, Instacart, Amazon, Laura Piana."
+  },
+  {
+    "t": 95.171,
+    "speaker": "SPEAKER_03",
+    "text": "Shut the f*** up. Come on, stop."
+  },
+  {
+    "t": 96.512,
+    "speaker": "SPEAKER_04",
+    "text": "No, there is. It's literally every single service. And I told the house manager, like, listen, any packages that come in the next 72 hours, right to the pool house. If it says J-Cow, right to the pool house. So all these packages have been coming. Then I relabeled them, gave them back, sent them to the ranch. And now the house manager is sending that stuff to the ranch."
+  },
+  {
+    "t": 118.704,
+    "speaker": "SPEAKER_03",
+    "text": "Laurel Piano wants to know why my inseam went from 36 to 12."
+  },
+  {
+    "t": 124.147,
+    "speaker": "SPEAKER_04",
+    "text": "Your waist size went from 32 to 36. All right, welcome to the program, everybody. David Sachs is here. How are you doing, David? I'm good. Chamath Palihapitiya is back at the 8090 office. I was at the 8090 office the last couple of days, and it's a vibe. What do you think? It's a vibe. It's a vibe. There's like a great culture going on. If you're a bestie and you show up at that office though, everybody there is a huge fan of the pod."
+  },
+  {
+    "t": 150.67,
+    "speaker": "SPEAKER_04",
+    "text": "So I was like, it was like being royalty and stopped by everybody. Hey, I'm a developer here. I'm a big fan of the show. Thank you for giving it to Chamath. We can't give it to him because he pays our mortgage and everything. But every time you stick it to Chamath, we love it. We're cheering for you in the secret Slack room. There's a secret Slack room. There is definitely a secret Slack room going on. No, but it was great. The vibes were awesome. You're building a lot of software, a lot of young talent."
+  },
+  {
+    "t": 178.93,
+    "speaker": "SPEAKER_04",
+    "text": "I don't want to say that where your secret source is, but there's a secret source of talent you have. And man, those are some smart kids."
+  },
+  {
+    "t": 187.535,
+    "speaker": "SPEAKER_03",
+    "text": "I'm happy to say it. Look, when I was at Facebook, we became the most aggressive recruiter of Waterloo co-ops. And so I went back to the well. Yeah, we recruit more interns every quarter than we have full-time engineers, which we do on purpose because it puts a ton of pressure on the product actually being good. We had 400 people apply this quarter for internships."
+  },
+  {
+    "t": 209.944,
+    "speaker": "SPEAKER_04",
+    "text": "Wow. It's very interesting with us sitting in for Friedberg, who's busy with some potato seed this week, doing great stuff at Ohalo. The one, the only. Bill Gurley is here. He's been running down a dream. If you haven't bought the book, get the book. It's incredible. And you're off book tour, so now you have time for us, yeah?"
+  },
+  {
+    "t": 230.907,
+    "speaker": "SPEAKER_00",
+    "text": "Yes. And, you know, I had told you if you ever talk about the Pope, I'd love to hop on."
+  },
+  {
+    "t": 236.712,
+    "speaker": "SPEAKER_04",
+    "text": "Yes, you were like... Well, you know, Bill's an evangelical. I'm a Catholic, so we do have some common ground here. When's the last time you were at church, Bill? Have you thought now that you're out of the full time?"
+  },
+  {
+    "t": 250.438,
+    "speaker": "SPEAKER_01",
+    "text": "I don't like when J. Cal gets sacrilegious. I got to come on there and make sure J. Cal doesn't get out of line with the Pope."
+  },
+  {
+    "t": 261.542,
+    "speaker": "SPEAKER_04",
+    "text": "Listen, the Pope is God's messenger on earth. We should give him a base level of respect. By the way, that's us imitating Bill Gurley. It's not actually Bill Gurley. Just for those of you listening, you think they were confused? They were. Literally, they were confused. We don't want to put words in your mouth. But just a point of clarification. Hey, everybody knows you handed the baton over at Benchmark after a very successful couple of decades in venture capital. You wrote the book."
+  },
+  {
+    "t": 291.832,
+    "speaker": "SPEAKER_04",
+    "text": "You've now got a nonprofit. You're doing your own spin, I think, on maybe what Peter Thiel does with his fellowship. You started your own running down a dream fellowship, I understand."
+  },
+  {
+    "t": 301.623,
+    "speaker": "SPEAKER_00",
+    "text": "Yeah, it's targeted at a different demographic. It's called rdad.org, runningdownadream.org. There's a website we can give a link to. We're going to do $5,000 grants to people who want to chase their dreams but need some help. And so there is an application process like... Teal Fellows and other programs, and we've been out talking to those people. But we're actually live. We went live last week for the application."
+  },
+  {
+    "t": 328.5,
+    "speaker": "SPEAKER_00",
+    "text": "So if you know people who have read the book and are inspired and need some help, have them apply."
+  },
+  {
+    "t": 334.25,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. All right, folks. Good for you, BG."
+  },
+  {
+    "t": 337.971,
+    "speaker": "SPEAKER_00",
+    "text": "Yeah, it's great. So I did a TED Talk, which will come out soon, that's related to the book. There's a professor in Miami that's built a course around the book, which I'm excited about. And he's doing it in kind of an open source way so that other people can borrow that as well. And so if there's anyone out there, I'd love to help them do that."
+  },
+  {
+    "t": 359.897,
+    "speaker": "SPEAKER_03",
+    "text": "What's your take on all of this doomerism? Like if you're a young person and you're in college or you're in high school, is this much ado about nothing? Or how do you run down a dream in the face of something like that?"
+  },
+  {
+    "t": 371.703,
+    "speaker": "SPEAKER_00",
+    "text": "Yeah, well, I started the book before this happened and I've been asked the question a lot and it came up in the TED Talk. I fear that a lot of people are in jobs they actually don't care about that much. And... there's a Gallup poll that backs this up. They came up with that word, quiet quitters. They're like 59% of the people they surveyed are kind of ambivalent about their job. And when you're ambivalent about your job, you're not high agency. And so you don't lean in."
+  },
+  {
+    "t": 400.996,
+    "speaker": "SPEAKER_00",
+    "text": "You know, if you look at how Jason talks about how they implemented AI and all of his different working groups. You hear that enthusiasm and that high agency, and then you want to go try these things. And I think the best way to protect yourself from AI is to be the most AI-enabled version of yourself you can be. But if you're ambivalent about your job, you're probably not doing that. And you could be a sitting duck."
+  },
+  {
+    "t": 429.672,
+    "speaker": "SPEAKER_00",
+    "text": "So I think it's the mindset that's the problem."
+  },
+  {
+    "t": 432.673,
+    "speaker": "SPEAKER_04",
+    "text": "I created an associate in training program for my firm because we want to help people get into venture capital. And we gave them a choice of assignments. One of them was to write coverage of one of our portfolio companies that's breaking out. Micro One is the name of it. And just give us like, hey, here's a competitive landscape, basically write a deal memo and coverage of that company. And then we gave them another option to vibe code a very specific project I've wanted to have for our venture firm for a long time, you know, on competitive intelligence."
+  },
+  {
+    "t": 461.181,
+    "speaker": "SPEAKER_04",
+    "text": "And I would say, I think like maybe 80% of the students applying, and we had four or 500 people apply for six positions, 80% of them did the vibe coding. And I was shocked. I thought it would be the exact opposite. Anybody can write, anybody can throw shit in chat GPT and get some output, but they actually built software. And that's the scary thing. The students who graduated, at least this is my perception, Chamath, the students who graduated like five, 10 years ago before AI,"
+  },
+  {
+    "t": 490.39,
+    "speaker": "SPEAKER_04",
+    "text": "They're not AI first. They feel lost in a drift. They don't have agency. But the group coming out of college right now that cheated their way through school using ChatGPT, doing their assignments, like using those tools. I'm joking, cheating, but I mean hacking. I agree with that. So they were hacking. Yeah. And they're just like, I know how to use these tools to get through my finals."
+  },
+  {
+    "t": 511.356,
+    "speaker": "SPEAKER_03",
+    "text": "Gurley, I think you're saying something super important. I said this last week, which is nobody asks the warehouse worker at Amazon whether they actually want that job. And so to your point, job satisfaction isn't some external person judging your job to be valid and saying you must be able to have it. I think it should be asking the person that does the job, do you like it? And do you want to keep it? Those are two very different questions. And yeah."
+  },
+  {
+    "t": 535.203,
+    "speaker": "SPEAKER_03",
+    "text": "I think that all of this AI doom and gloom was a lot and too much, frankly, of the former and not enough of the latter. And now this whole lie is kind of getting undone. I think Sachs posted about it this week as well. The Goldman Sachs CEO said it. And now in this crazy twist of fate, now that we need to have trillion dollar IPOs, the entire frontier labs are all like, wow, it's going to be a bonanza of jobs."
+  },
+  {
+    "t": 559.118,
+    "speaker": "SPEAKER_00",
+    "text": "Mark Cuban had a great quote. He said, there are two types of people in the world, those that use AI to learn faster than they ever could before, and those that use AI to avoid learning altogether. And I think it's this notion of high agency or not."
+  },
+  {
+    "t": 573.865,
+    "speaker": "SPEAKER_03",
+    "text": "That's pretty good."
+  },
+  {
+    "t": 574.726,
+    "speaker": "SPEAKER_00",
+    "text": "Are you leaning in and using this stuff to be ever more powerful in what you try and accomplish? Are you using it as a cheat code? And if you're in the latter, yeah, you're probably at risk."
+  },
+  {
+    "t": 587.0,
+    "speaker": "SPEAKER_03",
+    "text": "You get asked a lot about how to educate yourself if you're a parent of kids so that you can put them on a path to launch and do well and chase their dreams. Do you have a good answer for that question?"
+  },
+  {
+    "t": 598.689,
+    "speaker": "SPEAKER_00",
+    "text": "I mean, the second chapter of the book is all about lifetime learning. And it's kind of a requirement that you're following your fascination because the lifetime learning comes for free if you're fascinated with something. Like you just constantly soak up and devour new information. And I do think... that a lot of kids get exhausted because we've made high school and college such a grind that they think the learning ends the day they walk out with their diploma."
+  },
+  {
+    "t": 626.547,
+    "speaker": "SPEAKER_00",
+    "text": "And as we all know, the best and brightest in all of our fields are on a constant learning journey. And when something new comes out, they dive in and try and figure it out, right? And every single person in the book that we profiled has that kind of attitude about their craft, you know, in every day. And so I think the real test is if you're not proactively self-learning, then you're probably not tilting against something that you really adore and are fascinated by."
+  },
+  {
+    "t": 656.876,
+    "speaker": "SPEAKER_01",
+    "text": "Sacks, you wanted to jump in there? With respect to new college grads, I was going to say that I think the single most marketable skill in the economy right now has got to be proficiency and clod. If you're going into a firm right now and you're the only one who knows Claude, it would be like you're the only one who knows how to work a spreadsheet or a word processor. The advantage would be enormous. Now, I think that's probably a short-term arbitrage because eventually everyone's going to have to figure out how to use these tools."
+  },
+  {
+    "t": 686.474,
+    "speaker": "SPEAKER_01",
+    "text": "But as a young college graduate right now, you have such an advantage if you're an AI native. just knowing how to use these tools. And this thought partially occurred to me when I saw what our producer, Nick, has been doing with using Cloud for, you know, he's been creating this daily briefing document."
+  },
+  {
+    "t": 706.825,
+    "speaker": "SPEAKER_04",
+    "text": "We've been doing it for three months. I just read it for the first time. Apparently, I didn't know this thing existed."
+  },
+  {
+    "t": 713.25,
+    "speaker": "SPEAKER_01",
+    "text": "Well, you've been busy. Well, I thought it would just be AI slop and it would just kind of give me a roundup of news that I was getting in my X feed anyway. But actually, the thing that was really impressive about it was that it predicted topics that I would specifically be interested in based on my previous comments on the pod. And also, it went back and looked at..."
+  },
+  {
+    "t": 738.389,
+    "speaker": "SPEAKER_01",
+    "text": "previous transcripts and what I had said and then had updates to those topics based on specific things I had said. So again, it was highly, highly contextual. But then I asked Nick, how do you generate that? And he showed me the custom prompt that he designed for Cloud and then the skills document. And they were very long and detailed documents. They weren't written in code, but they were very technical. And I just realized, looking at that, that the average person is not going to be able to generate this."
+  },
+  {
+    "t": 766.469,
+    "speaker": "SPEAKER_01",
+    "text": "I mean, this is why this idea that you're just going to be able to, like, throw AI into an organization, and it's just magically going to generate value is not true. You have to know how to get value out of it. I mean, maybe we could just show these documents on the screen."
+  },
+  {
+    "t": 779.455,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. I mean, the interesting thing, Sax, is you can. You just have to ask your AI. You ask Claude or ChatGPT or whatever you're using. hey, I want you to make me a mega prompt and you're like a mega pint. Give me a mega prompt of you're a producer of a podcast. These are the four characters on the podcast. What would be a great prompt for me? And it will actually suggest a prompt and then you can refine the prompt."
+  },
+  {
+    "t": 806.404,
+    "speaker": "SPEAKER_04",
+    "text": "So you actually have a dialogue about a prompt as opposed to writing the prompt yourself. And so I've started doing this and it is extraordinary."
+  },
+  {
+    "t": 814.468,
+    "speaker": "SPEAKER_01",
+    "text": "Well, Nick, can you show on the screen to scroll through the training rules? And then also there's the skills document that was written on how to be a producer for this podcast, which I thought was really impressive."
+  },
+  {
+    "t": 828.04,
+    "speaker": "SPEAKER_00",
+    "text": "By the way, David, what you said I think is true of almost every single job type. Like it's not just tech or programming. If you're in marketing, if you're in legal, if you're in accounting, like any role you might have at a firm, sales, if you're the most AI savvy person of all your peers, you are golden. Like you are golden. Like in your company."
+  },
+  {
+    "t": 852.764,
+    "speaker": "SPEAKER_04",
+    "text": "You're 10x more valuable than the next person who's not, basically."
+  },
+  {
+    "t": 855.625,
+    "speaker": "SPEAKER_00",
+    "text": "Yes, yes. And I don't think it goes away because I think you learn how to get better at it over time. So having an early advantage, I think, will extend for a while. Because you can learn more and more things you can accomplish. Should we let producer Nick describe what we were just looking at?"
+  },
+  {
+    "t": 875.222,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, go ahead, producer."
+  },
+  {
+    "t": 876.502,
+    "speaker": "SPEAKER_02",
+    "text": "Producer Nick, explain the process. Yeah. Once we got access to Claude cowork and it had that like further expanded memory access, I thought it would be interesting to just start feeding every transcript into it and seeing if it could actually contextualize new stories that were coming out based on past things that you guys have said. And I gave it like a general prompt of what I wanted. And I said, how would you write a skills file or some training rules for this? And it wrote all of it for me."
+  },
+  {
+    "t": 903.409,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah. Oh, so you were less good than I thought. Yeah. I thought you wrote all that."
+  },
+  {
+    "t": 908.593,
+    "speaker": "SPEAKER_04",
+    "text": "No, it's a hack. It's a hack."
+  },
+  {
+    "t": 910.214,
+    "speaker": "SPEAKER_01",
+    "text": "You use AI to make the skills. But you've been updating that over time, right? As you've been iterating and learning."
+  },
+  {
+    "t": 915.156,
+    "speaker": "SPEAKER_02",
+    "text": "Every single day. And every single day it gets smarter and better. The recursiveness of this is incredible."
+  },
+  {
+    "t": 919.778,
+    "speaker": "SPEAKER_01",
+    "text": "So you need someone to manage that process, right? Because the four besties are not going to do that. So you need a producer of the show to do that. This is why people think, oh, is this going to wipe out all the jobs? No, someone still has to supervise, iterate, validate, you know, all those kinds of things."
+  },
+  {
+    "t": 935.184,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. And it's... It's really interesting. The people who are coming into the workforce right now are super aware of this, and they're putting the tools to work, and it's much easier for them to get a job. I mean, I literally looked at the top nine candidates for this associate and training program I have. We're going to do it every year. Every summer we start it. We do it for a year. We pay you to learn."
+  },
+  {
+    "t": 961.449,
+    "speaker": "SPEAKER_04",
+    "text": "It was just extraordinary how you could tell immediately if the person had systems thinking facts. They understood the process of venture capital, that there was a structure to it. You had to source deals. You had to make decisions on which ones to invest in. You had to do diligence. You had to double down on investments. They just understood the process. And then if you just talk to one of these LLMs, it will tell you what to do. So you can say, I don't know what I'm doing. What should I do next?"
+  },
+  {
+    "t": 990.224,
+    "speaker": "SPEAKER_04",
+    "text": "And then it actually tells you what to do next. So for people who are intimidated about this and maybe think like I'm already too far behind. I encourage you to pop up Claude, go into co-work and say, what can I do to be better at my job and just start talking? And literally, the more you talk and you can use voice, you know, text to voice. I use WhisperFlow is a really cool program for this. And I have a foot pedal to do it. You just ramble and ramble and ramble and keep adding stuff. You don't have to be structured."
+  },
+  {
+    "t": 1019.969,
+    "speaker": "SPEAKER_04",
+    "text": "It will build the structure around. The two or three paragraphs that you give it as instructions, that's the thing people are getting caught up on now is, Bill, they think they have to type when, in fact, if you just blather on and on, a skill I have a unique ability to do, you just blather on. It's a superpower. You blather on, and the thing makes sense of it. It is unbelievable what the blather on prompt can get in terms of output."
+  },
+  {
+    "t": 1048.231,
+    "speaker": "SPEAKER_04",
+    "text": "Thanks for coming to my TED Talk. All right, let's get started. There's a lot to talk about, and we've got a big docket today. We're going to start with the Pope. The Pope is dope, and the Pope, Leo, he's the 14th, released his first encyclical. Encyclical. on AI, and it was long, 235 pages, over 42,000 words. Just to give you an idea, Bill Gurley's book."
+  },
+  {
+    "t": 1077.18,
+    "speaker": "SPEAKER_03",
+    "text": "When did he write it, do you think? When did he put that together?"
+  },
+  {
+    "t": 1079.701,
+    "speaker": "SPEAKER_04",
+    "text": "Well, no, no, I think he used ChatGPT. That's what it says here in the notes. No, I mean, I'm guessing."
+  },
+  {
+    "t": 1085.444,
+    "speaker": "SPEAKER_03",
+    "text": "How long did it take for him to write this in between all of his other tasks?"
+  },
+  {
+    "t": 1088.745,
+    "speaker": "SPEAKER_04",
+    "text": "I think it's a six-month process to do this, but I'm sure he had collaborators. Bill, your book, I'm assuming, was 60 years. He didn't write it? I'm sure there was a team that wrote it. But Bill, your book's 60, 70,000 words, I'm guessing. So this is almost a literal book, right?"
+  },
+  {
+    "t": 1103.31,
+    "speaker": "SPEAKER_03",
+    "text": "Mm-hmm."
+  },
+  {
+    "t": 1104.13,
+    "speaker": "SPEAKER_04",
+    "text": "in terms of how long it is. And it's called Magnifica Humanitas, or Magnificent Humanity. In it, he warns business leaders to safeguard humanity from AI. His core argument is, AI is not inherently evil, but technology is never neutral. And that technology takes on the characteristics... wait for it, of those who build, finance, and control it. And I don't think he thinks super highly of that group of people."
+  },
+  {
+    "t": 1131.757,
+    "speaker": "SPEAKER_04",
+    "text": "The Pope called for regulation of AI companies. Obviously, we're going to have that debate here. Some of the things he called for, I think, are not very... debatable, and there's a lot of consensus around worker retrainment, safety for children and guardrails, a ban on autonomous weapons. That's the Skynet rule. Don't build Terminators with your AI. But he was joined by Anthropic co-founder Chris Ola."
+  },
+  {
+    "t": 1159.009,
+    "speaker": "SPEAKER_04",
+    "text": "I don't know how many co-founders there are of this company, but apparently there's dozens. And Ola is not Catholic, according to a Vanity Fair profile. He was raised evangelical, and now he's an atheist. The folks at Amazon, Google, and Meta lobbied the Vatican on April 29th to soften the language in his missive, and he was not swayed."
+  },
+  {
+    "t": 1181.32,
+    "speaker": "SPEAKER_04",
+    "text": "His central question, Sachs, is, will AI be used to concentrate power in the hands of a few, or will it serve everyone? Something you brought up when you mentioned monopolies, duopolies, et cetera, two weeks ago on this very podcast. What's your take on the Pope and his interest and his missives on AI and promoting a bit of AI regulation?"
+  },
+  {
+    "t": 1207.348,
+    "speaker": "SPEAKER_01",
+    "text": "Well, I very much agree with the Pope that the biggest risk of AI is a centralization of power and then its misuse against us in some Orwellian way. I think it's government that's going to do that, not necessarily an individual actor because it's governments that ultimately have the power. So I do worry about the potential for AI to be used to surveil us, censor us, control us. as Orwell described in 1984."
+  },
+  {
+    "t": 1236.908,
+    "speaker": "SPEAKER_01",
+    "text": "So if that's where the Pope is going with this, I very much agree with him. Maybe where we end up in different places is he thinks that government regulation is the way to prevent this, and I would just say that we have to be careful not to empower government too much, because if you give government the power to regulate or approve AI development..."
+  },
+  {
+    "t": 1259.948,
+    "speaker": "SPEAKER_01",
+    "text": "if you create, say, an FDA for AI, as many people are calling on, that will give government the power to approve models and therefore give notes to model developers. And very soon, this definition of safety... will expand because the government always takes an expansive view of its powers."
+  },
+  {
+    "t": 1279.2,
+    "speaker": "SPEAKER_01",
+    "text": "And we saw this during the social media wars where the definition of trust and safety expanded to issues like psychological safety, microaggressions, disinformation, transphobia, and so on that, you know, again, the social media companies were told that they had to stamp out all of those threats to safety and it ended up becoming a censorship agenda."
+  },
+  {
+    "t": 1303.197,
+    "speaker": "SPEAKER_01",
+    "text": "So I get very worried about, you know, what if some government agency can give notes to the model developers and they start telling the model developers that your definition of safety is not expansive enough. You have to, again, protect the public from disinformation or, you know, psychological harms. So again, I think we just have to be careful not to aggrandize government because that's going to be the most likely culprit in terms of the centralization of power."
+  },
+  {
+    "t": 1331.143,
+    "speaker": "SPEAKER_01",
+    "text": "I know the Vatican likes Latin. This is a problem of political philosophy that goes all the way back to Socrates. It's called quis custodiat ipsos custodes, which is who will guard the guardians. In other words, if we entrust a set of guardians to protect us from a bunch of threats, what's to stop them from becoming tyrannical and from becoming the new threat against us? And I mean, this is the central dilemma of political power. Who watches the watchers?"
+  },
+  {
+    "t": 1361.389,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah, who watches the watchers or who guards the guardians, meaning who's going to protect us against our guardians if they turn against us? The genius of the American founding, by the way, is that it was a second order solution to this question. The founders... of America very much understood this. And what they came up with is we have to have the guardians guard against each other. And so they came up with the idea of separation of powers. We'd have separation of federal and state."
+  },
+  {
+    "t": 1386.337,
+    "speaker": "SPEAKER_01",
+    "text": "We'd have the three branches of the government, even within the legislative branch, it was a bicameral legislature. So they divided up the powers in a way that hopefully the guardians would check against each other as opposed to becoming tyrannical against us. And that is kind of my view on AI is that ultimately we have to have a solution of checks and balances."
+  },
+  {
+    "t": 1409.255,
+    "speaker": "SPEAKER_01",
+    "text": "If the AI market becomes monopolized and falls into the hands of one or two companies, I would use antitrust law very aggressively as a check and balance against their power. Right now, we have a very competitive market. We have five frontier labs competing very aggressively. As long as the market is competitive, I would use that because I think competition generates the best outcomes. It helps us win against China."
+  },
+  {
+    "t": 1434.474,
+    "speaker": "SPEAKER_01",
+    "text": "But it also protects the population because these companies, if they get out of line, there's some competitor that can offer something better."
+  },
+  {
+    "t": 1441.159,
+    "speaker": "SPEAKER_04",
+    "text": "Consumers can opt out of it. If they don't trust ChatGPT, they can use Anthropic. Or if they don't trust Anthropic, they can go to Grok. Bill, you had the number one rated talk at the All In Summit in history, 2,851 miles. You have been famously against regulatory capture. In light of the Pope's comments of, hey, regulating, what do you think is common sense? Because AI is everything. AI can help people make bioweapons."
+  },
+  {
+    "t": 1469.127,
+    "speaker": "SPEAKER_04",
+    "text": "It can also help people get their term paper in or be a better salesperson at Oracle. We're talking about paper. We're talking about oxygen here. This is like a fundamental horizontal technology. So where do you think... There is a case to regulating AI, if at all. And where do you think, hey, yeah, free market, we'll figure it out."
+  },
+  {
+    "t": 1491.571,
+    "speaker": "SPEAKER_00",
+    "text": "Well, I have two takes, one on the Pope and one on Anthropic. So your question's more about Anthropic. Which one's more powerful? Let's go with the more powerful entity."
+  },
+  {
+    "t": 1499.816,
+    "speaker": "SPEAKER_04",
+    "text": "Let me talk about the Pope first. You want to go in reverse. The least powerful of the two."
+  },
+  {
+    "t": 1505.138,
+    "speaker": "SPEAKER_00",
+    "text": "So this Pope said, and I have to learn how to pronounce all these Latin words like you, that this encyclical... was mirrored after one done by Leo XIII in 1891. And he invoked that. He even said he chose the name because he's so enamored with Leo XIII. Leo XIII in cyclical warned that the Industrial Revolution was going to be bad for people. So let me tell you what happened. from 1891 till today."
+  },
+  {
+    "t": 1534.098,
+    "speaker": "SPEAKER_00",
+    "text": "The work week went from over 60 hours to 34 hours globally. Real wages went up 8 to 10x, adjusted for inflation. The medium worker now earns more than a doctor did in 1891. Global GDP per capita went from 1,500 to 20k. Child labor in the U.S. went from 18% to zero. Work place deaths fell by 40x."
+  },
+  {
+    "t": 1557.643,
+    "speaker": "SPEAKER_00",
+    "text": "Life expectancy went up 60%, and global poverty went from 75% of humanity to under 10%. All those things happened because of technology, innovation, and capitalism, which is exactly what Leo XIII was warning against. So he got it dead wrong. He got the whole thing precisely wrong. So it's an interesting thing to say you're borrowing from."
+  },
+  {
+    "t": 1582.058,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. So now on to – Anthropic. Yeah, anthropic and just common sense around do you think they're – how would you regulate and or protect against – maybe we'll broaden the term here. Protect against – nefarious uses of the technology. Obviously, we all want children to be protected. We want to have truth and honesty in terms of facts and all of us sharing some basic truths."
+  },
+  {
+    "t": 1609.682,
+    "speaker": "SPEAKER_04",
+    "text": "And we obviously don't want people using this technology for bioweapons in the Terminator scenario."
+  },
+  {
+    "t": 1614.163,
+    "speaker": "SPEAKER_00",
+    "text": "I have to tell you that Anthropic is a mystery to me. I've never, ever seen a company that is both leading their field and the most negatively outspoken commenter on what they do. I've just never seen it. And my initial theory was the regulatory capture theory, that they just want to ensure there's regulation. And quite frankly, I think they're very close to achieving that."
+  },
+  {
+    "t": 1643.744,
+    "speaker": "SPEAKER_00",
+    "text": "They have stirred up a frantic... But position, especially in America, American consumers are definitely afraid of AI. I think I've talked to you guys in the past about, you know, the book that Jonathan Haidt's written about social media. And there's a whole bunch of state legislators that think we should have regulated social media. And so now they're destined to want to get in front of it."
+  },
+  {
+    "t": 1669.402,
+    "speaker": "SPEAKER_00",
+    "text": "And we know that Anthropic's one of the most aggressive lobbying company startups of all time. You know, the amount of effort that they're putting in, the amount of money, state by state basis. So that was always my first theory. But then they just they got so loud that I literally in the past. 30 days, read everything I can about anthropic, and I've come up with a new theory. Okay, new breaking theory. I call it the Dr. Frankenstein theory."
+  },
+  {
+    "t": 1699.593,
+    "speaker": "SPEAKER_00",
+    "text": "You remember when Elon had that conversation with Larry Page? Yes, I was literally sitting next to him when he called him. Will you explain the story real quick?"
+  },
+  {
+    "t": 1709.397,
+    "speaker": "SPEAKER_04",
+    "text": "Well, we were at a birthday party, and... You know, Elon was like, listen, humanity needs to be protected from the stuff at DeepMind because at DeepMind, they had an example of the AI having tried to break out, to jailbreak out of its computer and not be turned off and, you know, had some sentience or some, you know, inkling of sentience. And he said, you know, we have to protect the human species. And he said, well, Larry said, well, what do you think? That's specious because you care about the human species over AI."
+  },
+  {
+    "t": 1739.484,
+    "speaker": "SPEAKER_04",
+    "text": "This is at least 15 years ago."
+  },
+  {
+    "t": 1741.485,
+    "speaker": "SPEAKER_01",
+    "text": "No, this is right before Elon co-founded OpenAI, right? It's back in 2015 or something."
+  },
+  {
+    "t": 1746.975,
+    "speaker": "SPEAKER_04",
+    "text": "The actual story here is... Elon and Google had backed Demis and the team at DeepMind when they were an independent company. Then Elon was like, oh my God, Google's going to buy this. And I remember having the conversation with Elon about this. We have to figure out a way for DeepMind not to go to Google. We have to block this somehow. And he begged those folks to not sell to Google because Google was running the table on everything and he wanted this technology to be independent and he was on the board of the company."
+  },
+  {
+    "t": 1777.386,
+    "speaker": "SPEAKER_00",
+    "text": "And he also said this was his motivation to launch OpenAI as a nonprofit."
+  },
+  {
+    "t": 1781.51,
+    "speaker": "SPEAKER_04",
+    "text": "And when Google got it, he just said, this technology is too powerful for any one person. So, like, once again, you got to give Elon a lot of credit. He saw the writing on the wall. If one person can – and he saw it 15, 20 years ago. And him and Sam Harris used to debate this over dinner. You know, what happens if somebody controls this?"
+  },
+  {
+    "t": 1797.585,
+    "speaker": "SPEAKER_03",
+    "text": "Right."
+  },
+  {
+    "t": 1798.045,
+    "speaker": "SPEAKER_04",
+    "text": "and they run away with it. It would be extremely dangerous. It has to be available to all the people. Essentially, the Pope's position, it has to be in the service of humanity, not ruled by one person. It's far too powerful."
+  },
+  {
+    "t": 1809.33,
+    "speaker": "SPEAKER_00",
+    "text": "So the reason I call this the Dr. Frankenstein theory is the more I dig, I've met people who I dare say think it's their... responsibility and they're excited about building a species that's superior to humans. And I would just encourage people to read, you know, as much as they can about anthropic. Chris Ola worked on this thing called the Constitution. It's about 80 pages. It's hard to get through. But I would encourage you to read it."
+  },
+  {
+    "t": 1839.206,
+    "speaker": "SPEAKER_00",
+    "text": "Amanda Askell, who is the chief philosopher, has started doing podcasts. I would encourage you to listen to them and listen to her language. And then Dario wrote this blog post called Machines of Loving Grace. And it was based on a poem. And the poem is kind of weird. We should put a link to the poem. It's quite short."
+  },
+  {
+    "t": 1861.657,
+    "speaker": "SPEAKER_00",
+    "text": "But the last stanza of the poem says, I like to think of a cybernetic ecology where we are free of our labors and joined back to nature, returned to our mammal brothers and sisters. I don't know what that means. Like we're going to go live in the fields where the mammals live. And then the kicker, and all watched over by machines of loving grace. Sounds like overlord to me. And then in Dario's post, he says,"
+  },
+  {
+    "t": 1892.023,
+    "speaker": "SPEAKER_00",
+    "text": "near the end. And it's very long. You read it, Jamal. I mean, Machines of Love and Grace is very long. But he's talking about in the future, what are humans going to do? Because he believes in the massive abundance and UBI and that we won't have to work. I don't believe in any of those things, but he does. And then he says..."
+  },
+  {
+    "t": 1908.97,
+    "speaker": "SPEAKER_00",
+    "text": "It could be a capitalist economy of AI systems, which then give out resources to humans based on some secondary economy of what the AI systems think makes sense to reward in humans. So that's envisioning a deity of sorts that's going to break ties and decide what humans get."
+  },
+  {
+    "t": 1932.194,
+    "speaker": "SPEAKER_03",
+    "text": "It's a computational reward function for humans. It decides how much you're worth."
+  },
+  {
+    "t": 1936.885,
+    "speaker": "SPEAKER_00",
+    "text": "Yeah, so I don't think they think they're writing software. I think they're midwifing a deity gear. And I don't know which one I'm more afraid of, the regulatory capture or this second theory I call the Dr. Frankenstein theory. It's more scary to me, I think, the second thing."
+  },
+  {
+    "t": 1955.388,
+    "speaker": "SPEAKER_04",
+    "text": "These are delusions of grandeur. Let's call it what it is. They believe that they are so intelligent. I know some of these folks, the Burning Man sort of offshoot of it, transhumanism. They believe that they're so powerful, these individuals, that they can create God. And that by creating God, they are like this Prometheus kind of species. It literally is... the ultimate level of narcissism and delusion of grandeur to think you can create God."
+  },
+  {
+    "t": 1984.69,
+    "speaker": "SPEAKER_04",
+    "text": "And that then the God you create, like you're saying, Bill, is going to be so benevolent and perfect that you constructed the perfect God that will give you your pellet, will give you your little Skinnerian..."
+  },
+  {
+    "t": 1997.482,
+    "speaker": "SPEAKER_00",
+    "text": "I just would correct you. I didn't say it. Dario said it."
+  },
+  {
+    "t": 2000.323,
+    "speaker": "SPEAKER_04",
+    "text": "Right. But to your point of just taking them at their word, they actually believe that they can create God and that they'll create a God so good that it's better than humanity. Sax, your thoughts?"
+  },
+  {
+    "t": 2010.485,
+    "speaker": "SPEAKER_01",
+    "text": "Well, I guess the question then is, why are they pushing for the, let's call it red capture agenda, where..."
+  },
+  {
+    "t": 2018.067,
+    "speaker": "SPEAKER_03",
+    "text": "I know one. Go ahead. Jamal, go ahead. That is very reductive game theory. So if you want to be unexploitable, I think the best thing that you could do if you're trying to build a super god is have three or four entities in a room, close the door behind you, and then dominate those other three or four entities, and then you set the rules. And because your counterparty is unable to track at the level of technical capability that you would have..."
+  },
+  {
+    "t": 2046.306,
+    "speaker": "SPEAKER_03",
+    "text": "you create this massive asymmetry that allows you to exploit them. That's just simple game theory optimization. And you know what Bill said is so powerful. I've read these things and it's laborious and it takes time, but every time they put these things out, just take the time to read it. And what I have said before, Bill, I don't know your point of view on this, but I initially thought that this is mostly game theory."
+  },
+  {
+    "t": 2069.058,
+    "speaker": "SPEAKER_03",
+    "text": "that a lot of their reactions, I thought, were less rooted in their dogmatic beliefs and more rooted in a GTO approach to either raising capital or putting pressure on competitors. Either way, both could be true, what your framing is and my framing, although mine's more tactical than yours, to be fair. Because I've always thought that these moves make sense through that lens. How do you absorb most of the capital?"
+  },
+  {
+    "t": 2095.601,
+    "speaker": "SPEAKER_03",
+    "text": "How then do you make sure that you are in a position to disproportionately affect the rules? And how do you create an oversight body that is less capable and intellectually aware as you are about the actual details. Because- The referees don't understand the game, right, Shama? If the refs don't understand the game, you'll run over the game."
+  },
+  {
+    "t": 2118.552,
+    "speaker": "SPEAKER_00",
+    "text": "You'll run over- By the way, one thing they have achieved by doing this is, I think that if you polled the, let's just call it the intellectual elite, so everyone in the media and whatnot, and the professors and all those- and they were to rank the different AI players by who they think is most caring, I think they'd probably put Anthropic first because they've been out with the doomerism talk."
+  },
+  {
+    "t": 2144.492,
+    "speaker": "SPEAKER_00",
+    "text": "And so it's given them a halo with the people that may matter to what they want to accomplish. It's simultaneously creating a lot of trouble, like with the data centers and whatnot. Like there's negative ramification."
+  },
+  {
+    "t": 2158.921,
+    "speaker": "SPEAKER_03",
+    "text": "What you're saying is so important because on the one hand, they create empathy. And then they write these documents that expose what they think, and nobody actually connects the dots."
+  },
+  {
+    "t": 2169.216,
+    "speaker": "SPEAKER_01",
+    "text": "To steel man their position for a second, I mean, I think probably the way they think about it is that they are creating something very powerful, something godlike, and therefore it needs to be safe. and that they care the most about that out of everybody. Nobody else takes this seriously. Remember that Anthropic was basically a spin out of OpenAI and they felt that Sam and the company leadership weren't taking their point of view seriously enough."
+  },
+  {
+    "t": 2195.708,
+    "speaker": "SPEAKER_04",
+    "text": "It was the most woke portion of OpenAI. Well, let's not say woke."
+  },
+  {
+    "t": 2199.65,
+    "speaker": "SPEAKER_03",
+    "text": "We're still manning. Yeah, we're still manning for a second."
+  },
+  {
+    "t": 2202.491,
+    "speaker": "SPEAKER_01",
+    "text": "So they see the power of it. They're the ones who are concerned about safety. And they care the most. And therefore, they're in the best position to do that. Now, I think the issue is just you can see how this can lead to red capture, right? Which is... If you brand yourself as the safe AI company and then try to characterize everybody else as a reckless player,"
+  },
+  {
+    "t": 2227.019,
+    "speaker": "SPEAKER_01",
+    "text": "and reckless AI needs to be stopped, you can see how this would basically further your monopolistic control over this industry. And if you see AI through the lens that really, frankly, the Pope and I see it, which is centralization versus decentralization, I do think that is one of the key lenses we should have on the technology is whether you want..."
+  },
+  {
+    "t": 2250.956,
+    "speaker": "SPEAKER_01",
+    "text": "this to be a centralized or decentralized technology, this way of viewing the world leads to more centralization. And I think that's dangerous. I mean, if AI is this very powerful technology, I think it needs to be decentralized so that... all of us can protect ourselves to some degree, right? We need to be able to run the AI ourselves on our own hardware if we so choose so we're not beholden to a single company that might be in bed with a deep state."
+  },
+  {
+    "t": 2280.975,
+    "speaker": "SPEAKER_03",
+    "text": "Let's say it very pointedly. If benefits... and compensation and economic support were all of a sudden tied to some algorithmic decision. This is a dystopian episode of Black Mirror that we're dealing with. And to your point, Sax, you want 100 or 1,000 or 100,000 versions of what that answer is so that there's actually a way to refute..."
+  },
+  {
+    "t": 2304.322,
+    "speaker": "SPEAKER_03",
+    "text": "A singular answer, a singular answer to these kinds of questions, which is effectively what some folks would want, is incredibly dangerous."
+  },
+  {
+    "t": 2312.433,
+    "speaker": "SPEAKER_04",
+    "text": "And this is something that is in control, I think, of humanity. I've been talking about AI sovereignty here for a bit. just in terms of how much more cost effective it is and how you're not training other people's AIs with your knowledge and your insights."
+  },
+  {
+    "t": 2328.906,
+    "speaker": "SPEAKER_04",
+    "text": "This is why it's super important that open source, open source agents and local hardware be able to run these models and that consumers and companies learn how to roll their own language models, how to make a small language model, an SML, a VSML, a verticalized one and run it on your Apple hardware because Apple actually has taken a principled approach. historically to your sovereignty for your data. Data sovereignty- They care a lot about privacy. Yes, and now it's intelligence sovereignty."
+  },
+  {
+    "t": 2357.654,
+    "speaker": "SPEAKER_04",
+    "text": "The intelligence sovereignty is different than privacy. Privacy is, oh, you can't see my photos, you can't peek into my notes app and what I wrote there in my journal. Now, intelligence sovereignty is you can't tell me what to think. You can't use your AI to analyze my photos, to analyze my emails, to analyze my messages, and tell me how to interpret the world. That's actually going to be the next key piece here. This is why I think Apple is just... the dark horse in this entire race."
+  },
+  {
+    "t": 2384.969,
+    "speaker": "SPEAKER_04",
+    "text": "If there is an open source product that can run on this hardware, the M5s, the 48 gigs, 128 gigs, the new Mac Studio coming out with supposedly a terabyte, that changes the whole game. And this is so paradoxical, Bill, that our adversary, the Chinese, of all people, the Communist Party, is leading the open source movement. And the United States is centralizing."
+  },
+  {
+    "t": 2410.013,
+    "speaker": "SPEAKER_03",
+    "text": "They're leading the open weight movement. It's not open source. Just the distinction is important."
+  },
+  {
+    "t": 2415.5,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah. Look, Jacob, I agree with you about the importance of open source because open source means software freedom. You can run the program yourself on your own hardware. You don't have to – share, you don't have to give up your data sovereignty, you don't have to give up your privacy to, again, to some monopolist who's going to be in bed with the government or the deep state, right? So that's the thing we're all afraid of. And if that's the only AI that's available is from the monopoly or duopoly,"
+  },
+  {
+    "t": 2442.342,
+    "speaker": "SPEAKER_01",
+    "text": "then your choices are to live off the grid and not participate in the modern economy or give up control, right, to some social credit system. So I think the open source is really important. And by the way, that was Elon's instinct in creating open AI. He was afraid that Google was going to monopolize AI. So he's like, let's create... open AI so that it's not dominated by a single company."
+  },
+  {
+    "t": 2465.791,
+    "speaker": "SPEAKER_01",
+    "text": "But that is, I think, the right answer here is I know people want to, I think their instinct to the idea of powerful AI is to clamp down and just control it. But actually, you have to have multiple players. That's the only way you're going to be protected is to have multiple players."
+  },
+  {
+    "t": 2481.955,
+    "speaker": "SPEAKER_03",
+    "text": "This next wave of the market evolution, I think, is going to be extremely high stakes and messy. Nick, just throw this up because I just want these guys to react to it. So this is a company that I just ran into on X called Rogo. And what they did was they created a test bench and a set of evals to be a financial analyst, essentially, and tested all of the frontier models."
+  },
+  {
+    "t": 2505.667,
+    "speaker": "SPEAKER_03",
+    "text": "And it was so interesting because they summarized, I read their paper that they published, and I quoted the most interesting part because I see it everywhere now across all evals, which is this one phrase, there is no single best model anymore. At the top of the leaderboard, Opus 47, GPT-55, Sonnet 46 appear almost indistinguishable. Separated by less than, in this case, you know, three tenths of a percentage point overall. Read superficially, the results suggest convergence."
+  },
+  {
+    "t": 2533.728,
+    "speaker": "SPEAKER_03",
+    "text": "Three frontier systems reaching roughly the same level of capability. Okay, why is that interesting? Well, you got trillions of dollars going into each of these guys to trying to create these next super brain, but increasingly, our existing set of evals and our existing capabilities when applied on these models, roughly produce the same thing, which theoretically says that these things are getting commoditized way too quickly. And then you'd say, well, what's the ROI on all this incremental spend? Which is a very interesting economic and investment question."
+  },
+  {
+    "t": 2563.564,
+    "speaker": "SPEAKER_03",
+    "text": "So I don't know, like Gurley, what do you think happens if these evals continue to asymptote and we need more and more and more money for training?"
+  },
+  {
+    "t": 2574.769,
+    "speaker": "SPEAKER_00",
+    "text": "Some of the smarter people in the open source community have suggested to me that we need more open source connectors of type. So MCP is actually run by the Linux Foundation. And if you think about any surface area where a model might interact with other software, the more of those connectors that can be open source and commoditized, it would lower... This is what..."
+  },
+  {
+    "t": 2600.191,
+    "speaker": "SPEAKER_00",
+    "text": "Google did with Kubernetes to try and commoditize where workflows live off of AWS and to make it easy to migrate. And so the more you can create systems that make that type of exchange you just described super easy so that you can plug and play the model and you have to worry about things like context and how does context come in and data and stuff that like Glean and Databricks do, but how..."
+  },
+  {
+    "t": 2628.162,
+    "speaker": "SPEAKER_00",
+    "text": "Anyway, if you can do that, if you can create more of those connectors like that, then the models become swappable. And certainly with the model companies trying to move up the stack, you have massive desire from the app layer players to try and figure this out. And we already, you know, have watched what Cursor's doing and playing with their own model and being forced to kind of reckon with the fact that they're coming up the stack fast. So I think that's a really good insight that this gentleman shared with me. And I think..."
+  },
+  {
+    "t": 2657.921,
+    "speaker": "SPEAKER_00",
+    "text": "the founders and developers that are out there should work on more of these interfaces and throw them into the open source world just to make it more exchangeable, swappable."
+  },
+  {
+    "t": 2667.069,
+    "speaker": "SPEAKER_01",
+    "text": "Is there an issue right now with we don't have a good harness for open source? I mean, the way that like Claude is a... Harness for 4.7."
+  },
+  {
+    "t": 2674.996,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, there's people making open source versions of this or building companies around harnessing and building the integrations into it. But open source is always like the last to build the fit and finish around the product. They focus on the core. of the product, right? So like, Linux for your desktop never really took off, because the interface was never polished, the UI was never like perfect. But there are companies building that. And I'll just I'll show you one company that we invested in. This is a company called abacus."
+  },
+  {
+    "t": 2704.198,
+    "speaker": "SPEAKER_04",
+    "text": "And they had a very simple idea, they came up with their own hardware stack, they came up with their own platform. And now they are sold out of these boxes that they're building. for insurance, healthcare, and everybody wants to run AI inside the organization and then start building their own models. We actually incubated this in our incubator. And you can check it out go abacus.co. They're just basically saying it and organizations cannot get enough of this product."
+  },
+  {
+    "t": 2732.858,
+    "speaker": "SPEAKER_04",
+    "text": "It is crazy how savvy these organizations are getting. And Chamath, you're doing it with 8090 as well, I think, where they're just like, we have to build headless products so that we don't get locked into any one provider."
+  },
+  {
+    "t": 2748.553,
+    "speaker": "SPEAKER_03",
+    "text": "Whenever we go into the Fortune 1000, we never compete with OpenAI or Anthropic. They'll have a preference sometimes of what they want to see under the hood. So our control plane can basically hot swap, as Bill said, between one or the other. We've also started to lay the seeds for open source and open weights. But the reason is because they don't want to be tied into one of these critical frontier labs. They want to be able to ride the wave of innovation, but they're afraid of two things."
+  },
+  {
+    "t": 2775.814,
+    "speaker": "SPEAKER_03",
+    "text": "They're afraid that one technology leapfrogs the other too quickly for them to participate and they pick the wrong one. And the second thing that they're increasingly afraid of is terms of service and being at the sake of... a frontier lab in the political philosophy that they may be in the crosshairs of accidentally, right? So you're a hospital system in Canada, you support the euthanasia laws in Canada, but this frontier model in America says, no, can't do it. So now we shut you off, right? That's an example. I'm not saying one is right or wrong."
+  },
+  {
+    "t": 2805.692,
+    "speaker": "SPEAKER_03",
+    "text": "It's just to illustrate the case. So a lot of the folks that we see now in the Fortune 1000 and increasingly the global 1000, They want, as Gurley said, abstraction above it. They want to sit, as Sachs said, in a control plane. They want to be at this level and they want to have the flexibility because they don't know how it's going to shake out. They see all the money being invested at the model layers, but they see the model quality asymptote. So they're like, wait a minute, what are we supposed to do just from a risk perspective?"
+  },
+  {
+    "t": 2832.338,
+    "speaker": "SPEAKER_04",
+    "text": "And regulated industries are particularly sensitive to these kind of issues you're bringing up."
+  },
+  {
+    "t": 2837.9,
+    "speaker": "SPEAKER_03",
+    "text": "Hugely, hugely sensitive."
+  },
+  {
+    "t": 2839.621,
+    "speaker": "SPEAKER_04",
+    "text": "And so if you just follow what finance, healthcare, you know, and those kind of folks are doing, they're just like, this has to be on-prem. And they're very concerned about a data leak. And they're very concerned about HIPAA compliance. They're very concerned about training a model. Like what if... You know, all of a sudden somebody does, you know, a query or writes a prompt and it pulls some information from that Canadian healthcare system. And all of a sudden somebody gets a result. And that sounds farcical. Remember stable diffusion?"
+  },
+  {
+    "t": 2870.676,
+    "speaker": "SPEAKER_04",
+    "text": "built themselves on Getty images. And all of a sudden, the Getty image watermark was in the output."
+  },
+  {
+    "t": 2878.381,
+    "speaker": "SPEAKER_03",
+    "text": "Look, to be fair, you see anthropic and open AI in all of these Fortune 1000s at the developer layer. Because most of the developers have their own credit cards. They're allowed to sign up for them. You eventually wrap them in an enterprise license. So it's a typical PLG-led market motion like we saw in Slack. We've seen it everywhere. The interesting thing is not that, but it's the unwind that happens then when you have these huge licenses, you have these huge buckets of spend. You can't really tick and tie it together."
+  },
+  {
+    "t": 2906.118,
+    "speaker": "SPEAKER_03",
+    "text": "The CEOs then wake up and are told by the CFO, hey, FYI, here's where we are. Uber was one example. A second... I don't know, Nick, if you have this tweet, but from Vivek Garapalli, the founder of Clover. Yeah, this was just yesterday. Overheard from a Fortune 20 company. CEO asked for a billion in AI-generated OPEC savings at the beginning of the year. So we're six months in. The team has spent $200 million on tokens and with minimal results."
+  },
+  {
+    "t": 2934.482,
+    "speaker": "SPEAKER_03",
+    "text": "And so now they're in this weird motion now where the CEO is pulling the budget back and now you're having to cut the licenses. You just saw Microsoft announce that they're killing the cloud licenses. It's a super dynamic market right now. And I don't think we know what the terminal solution looks like."
+  },
+  {
+    "t": 2950.992,
+    "speaker": "SPEAKER_00",
+    "text": "And by the way, I would add, Claude is really good at product. Like, Claude for Excel is better than Copilot, not by a little, by a lot. By a lot. And so, you know, anyone that's going to run against them, they are a worthy foe, I should say."
+  },
+  {
+    "t": 2968.416,
+    "speaker": "SPEAKER_03",
+    "text": "Yeah, I think Claude is exceptional, by the way. I mean, I use it every day. Yesterday, I hit my token limit on my pro plan. I had to put in my credit card, spent another couple thousand bucks, and I'm like, I was so angry, but I did it because it's so good."
+  },
+  {
+    "t": 2980.928,
+    "speaker": "SPEAKER_00",
+    "text": "Yeah."
+  },
+  {
+    "t": 2981.829,
+    "speaker": "SPEAKER_03",
+    "text": "Yeah."
+  },
+  {
+    "t": 2983.131,
+    "speaker": "SPEAKER_04",
+    "text": "Go ahead, Sax. Wrap us up here."
+  },
+  {
+    "t": 2984.913,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah. Well, just to wrap up, let me just connect a couple of ideas. So one is that in terms of the red capture agenda that you're seeing in Washington, I think where it's all leading to is an effort to ban open source models. or open weight models. There's a lot of breadcrumbs leading here. I think people who want this are being a little bit circumspect. They don't feel like they're quite there in terms of being able to justify it yet."
+  },
+  {
+    "t": 3009.079,
+    "speaker": "SPEAKER_03",
+    "text": "Can you explain it?"
+  },
+  {
+    "t": 3009.999,
+    "speaker": "SPEAKER_01",
+    "text": "Sure. You look at a lot of the rhetoric around how models need to have guardrails and that with open source models, the guardrails can be removed and therefore they're dangerous. You see this rhetoric already in anthropics blog posts. So, you know, any threat... that they described that kind of go out of their way to take that shot at open source models. You saw it with respect to cyber, for example, or with respect to bio threats, things like that."
+  },
+  {
+    "t": 3036.576,
+    "speaker": "SPEAKER_01",
+    "text": "I mean, I've seen that type of language repeatedly that open models lack guardrails or the guardrails can be taken off and therefore it's a problem. And I think, again, they're trying to create ideas or put predicate facts in the public record to justify an action later on. And I think it's just a matter of time before they feel like they're at a position where maybe they can push for that type of ban directly."
+  },
+  {
+    "t": 3066.307,
+    "speaker": "SPEAKER_01",
+    "text": "They're not quite there yet."
+  },
+  {
+    "t": 3067.808,
+    "speaker": "SPEAKER_03",
+    "text": "But what does that do then to the rest of the market? Like, let's just say America bans open source and open weight. Okay, well, what about the rest of the world? Oh, they'll still use it."
+  },
+  {
+    "t": 3076.923,
+    "speaker": "SPEAKER_01",
+    "text": "Sure. They're going to leapfrog us. Sure, you'll put the U.S. on an island. Well, first of all, as we all know, what does it mean to ban an open-weight model? It's a file. It's a bunch of numbers that you can run on your laptop. But what it will do is you think about all the cloud service providers who run open models, they will stop doing that because they've got to comply with the law. And so all this infrastructure that's been built up It will get much harder to use open models in the United States."
+  },
+  {
+    "t": 3106.346,
+    "speaker": "SPEAKER_01",
+    "text": "Now the rest of the world will continue to benefit from them because there's a tremendous benefit in terms of cost and customization and control that you get with an open model."
+  },
+  {
+    "t": 3116.494,
+    "speaker": "SPEAKER_03",
+    "text": "And we're on a completely different price curve and we haven't talked about this yet. There was an economic and capital moat to training. that is going away. It's going away in two ways. One is because we're getting these domain specific architectures at the silicon layer. And then second, we're rebuilding all of the core components."
+  },
+  {
+    "t": 3134.204,
+    "speaker": "SPEAKER_03",
+    "text": "I don't know if you guys saw yesterday, but Elon was like, we've written the entire training complex and see, and it's an order of magnitude increase, and we can run it on 220,000 GPUs at the scale of what they're trying to do those kinds of innovations. are going to make the cost of model training so much cheaper that it's like, why would we stick to the $10 billion training runs when we can have the $10 million training runs?"
+  },
+  {
+    "t": 3158.726,
+    "speaker": "SPEAKER_04",
+    "text": "Well, if it got 1% better, just as a thought experiment. Nick, can you find Elon's tweet?"
+  },
+  {
+    "t": 3163.772,
+    "speaker": "SPEAKER_03",
+    "text": "Yeah, but just as a thought experiment. Okay."
+  },
+  {
+    "t": 3166.636,
+    "speaker": "SPEAKER_04",
+    "text": "If it got 1% better, that's the equivalent of 2,000 GPUs, which is the equivalent of hundreds of millions of dollars in compute. So every 1% equals hundreds of millions in compute. If he gets 10%, 20% more efficient every quarter, every six months, it's going to be crazy."
+  },
+  {
+    "t": 3185.441,
+    "speaker": "SPEAKER_03",
+    "text": "The speed improvement versus JAX for training runs is now an order of magnitude. When you think about then the CapEx build-out, the OpEx, the power... the cabling, the copper, all of it."
+  },
+  {
+    "t": 3201.302,
+    "speaker": "SPEAKER_03",
+    "text": "And now this is a closed source model, but I'm pretty sure that just that tweet is going to get read by enough people where there's going to be five or six open source stacks for training that are rebuilt closest to the bare metal as possible. Why wouldn't you do that now? And so to your point, Sax, cutting that off so that we lose that kind of innovation makes no sense to me."
+  },
+  {
+    "t": 3223.337,
+    "speaker": "SPEAKER_01",
+    "text": "I agree. And like I said, I don't know that the forces who want to ban open source are strong enough or have made the case or created the predicate facts necessary yet to ban open source. But I do think it is on the agenda and it's where all the breadcrumb trails are leading. So just watch out for that."
+  },
+  {
+    "t": 3241.538,
+    "speaker": "SPEAKER_00",
+    "text": "I agree totally with what David just said. And I wrote a blog post recently on open source and made the exact same point."
+  },
+  {
+    "t": 3249.843,
+    "speaker": "SPEAKER_04",
+    "text": "I read that too. That was a good one too. That's on Above the Crowd. No, it's not. I actually did it. It's not."
+  },
+  {
+    "t": 3257.627,
+    "speaker": "SPEAKER_00",
+    "text": "It was on the Santa Fe Institute. It's the P3 Institute, which is my new institute. Anyway, same exact thing. conclusion, which is rest of the world ends up running on Chinese models if they're able to succeed at what you just said."
+  },
+  {
+    "t": 3276.64,
+    "speaker": "SPEAKER_04",
+    "text": "And if you want to know the canary in the coal mine, Sachs, obviously, the place they love regulation most is the EU. So EU has already done volley after volley of proposed... regulation for AI and open source is particularly in the crosshairs there because nobody's in charge of it. So are you going to get a bunch of open source contributors having to vet their model with the EU regulators? Like that's obviously not going to happen. Nobody's in charge of it. There's just a bunch of contributors."
+  },
+  {
+    "t": 3306.038,
+    "speaker": "SPEAKER_04",
+    "text": "But open source is the solution, I think, too. Yes, I agree."
+  },
+  {
+    "t": 3310.7,
+    "speaker": "SPEAKER_01",
+    "text": "It is the backstop. It is the backstop. I mean, unless you want to live off the grid. I mean, if you want to participate in the modern economy, it is the backstop. And let me just make one other final point that kind of maybe leads into our next topic is I do think that there is the potential for the monopolization of this market to a greater degree than people may be pricing in right now. First of all, we've seen that every other major tech category has led to a monopoly or duopoly situation. seems to be the way that these things work out."
+  },
+  {
+    "t": 3338.672,
+    "speaker": "SPEAKER_01",
+    "text": "But also, if you look at the growth rates right now, Anthropic does seem to be pulling away. There was an article in the information showing the latest numbers where I think Anthropic's now at, they seem to have pulled away from OpenAI, which is not surprising. It's something I predicted. Look, if you have one company that's growing at 10x year over year, and another company that's growing at 3x year over year, within two years, the first company will have 90% market share. This is the power of compounding, right? Is just do the math on it."
+  },
+  {
+    "t": 3368.78,
+    "speaker": "SPEAKER_01",
+    "text": "10 times 10 is 100, three times three is nine. So again, if you just are able to outgrow your competitor at that rate for two years, you will achieve monopoly market share. Now, there are reasons to believe that Anthropic cannot continue that growth rate for two years. There's going to be a competitive response. It's already happened. Also, there may not be enough compute to support that kind of growth."
+  },
+  {
+    "t": 3390.432,
+    "speaker": "SPEAKER_01",
+    "text": "There may be physical constraints, but you'd always rather be the company that has that inertia that's on that trajectory than the one that has to do something different to then knock that leader off its current trajectory."
+  },
+  {
+    "t": 3404.433,
+    "speaker": "SPEAKER_03",
+    "text": "You guys see what just hit the wire? Nick, can you throw it up from Polymarket? This is insanity. Polymarket puts out there that an AI consultant revealed that one of their clients accidentally spent half a billion dollars in a single month after failing to set employee limits on clock usage. Look at this. Look, 16.6 million per day, almost 700,000 per hour. Oh, my God."
+  },
+  {
+    "t": 3433.952,
+    "speaker": "SPEAKER_01",
+    "text": "Well, there seems to be a new meme taking shape that somehow all this token spend is wasteful and basically useless. We're constantly oscillating between narratives like AI is going to put everyone out of work to AI is useless and it's a bubble. The doomers can't seem to make up their minds whether AI is going to be our new god or whether it's basically a total waste of money and it's going to lead to a bust."
+  },
+  {
+    "t": 3456.826,
+    "speaker": "SPEAKER_01",
+    "text": "But in any event, yeah, I think there's no question that token efficiency is going to be a big theme over the next year because the spend has been ramping up way faster than... enterprise customers thought, and there's going to be a drive for efficiency. Does that fundamentally change the dynamics? I don't think so, but it might temper the growth to some degree."
+  },
+  {
+    "t": 3478.582,
+    "speaker": "SPEAKER_04",
+    "text": "Well, and they've done a tremendous job making people believe that tokens are free by giving them these crazy deals, like $20 a month, you can do whatever you want, $200 a month, you can do whatever you want. And it's like, everybody's leaving the hose on, everybody's watering."
+  },
+  {
+    "t": 3493.088,
+    "speaker": "SPEAKER_03",
+    "text": "And then you get a modal that says you've hit your usage. And it's like, come back at 2.30. I'm like, 2.30? It's 10.30. I can't do anything between 10.30 and 2.30. And then it says, well, you can put in your credit card. And so I did."
+  },
+  {
+    "t": 3504.633,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, but I mean, it's literally like, the first 10,000 gallons of water are free, basically. And then all of a sudden, it's like, okay, it's a penny a gallon. And then everybody in the organization, and this has literally happened in our organization, one person built like an interface for the Foundry University program. Another person built one. Then another person was like, well, those two people got credit at the management team meeting. So I'm going to build an interface. And the next person builds an interface. And then everybody's shipping."
+  },
+  {
+    "t": 3532.702,
+    "speaker": "SPEAKER_04",
+    "text": "Like interfaces, and I literally had three different people on the team make three different versions of like a Foundry University portal. And I'm like, we don't need three. Can we get coordinated here? And it didn't get to the point of like spending thousands of dollars, but it certainly got to the point of spending hundreds of dollars, and it would have gotten to tens of thousands."
+  },
+  {
+    "t": 3550.373,
+    "speaker": "SPEAKER_03",
+    "text": "Are we still on the first topic? What are we doing?"
+  },
+  {
+    "t": 3552.234,
+    "speaker": "SPEAKER_04",
+    "text": "No, we kind of merged like two or three of them together. Oh, we did? Okay. And it's super interesting, trust me."
+  },
+  {
+    "t": 3556.696,
+    "speaker": "SPEAKER_03",
+    "text": "It's super interesting. I think what Gurley said is one of the most interesting things I have heard. in a long time."
+  },
+  {
+    "t": 3563.83,
+    "speaker": "SPEAKER_04",
+    "text": "Take people by their word and if you read their words- If you just read their words and you can understand what they're saying, you don't have to guess about why they want to have a digital God. Well, now I'm not the sharpest arrow in the quiver, but I can take down a buck and I can tell you that this don't make a lot of sense to me. Even the dullest arrow can take a buck down. All right, let's get back to- It's so great having you here, Bill."
+  },
+  {
+    "t": 3593.574,
+    "speaker": "SPEAKER_04",
+    "text": "We missed you."
+  },
+  {
+    "t": 3594.715,
+    "speaker": "SPEAKER_01",
+    "text": "I got you. I got you. We missed you, brother. We're going to transition to the next topic. There is some evidence that Dario is mitigating his Doomer rhetoric. Did you see this?"
+  },
+  {
+    "t": 3604.441,
+    "speaker": "SPEAKER_04",
+    "text": "Let me get to it. Yeah, yeah. I got to it here. All right. We're going to have to talk for the 16th time in the last 18 months about AI's impact on labor because, again, this chaotic, schizophrenic... interpretation of the data continues. Cloudflare, as we talked about last week, shout out Matt Prince, Chamath's favorite CEO."
+  },
+  {
+    "t": 3626.373,
+    "speaker": "SPEAKER_03",
+    "text": "Letter of the year. Letter of the year."
+  },
+  {
+    "t": 3628.654,
+    "speaker": "SPEAKER_04",
+    "text": "Letter of the year. He cut 20%."
+  },
+  {
+    "t": 3630.114,
+    "speaker": "SPEAKER_03",
+    "text": "He wins the award for the letter of the year."
+  },
+  {
+    "t": 3632.715,
+    "speaker": "SPEAKER_04",
+    "text": "1100 making friends every week, Chamath, here on the program. So they both blamed AI explicitly and specifically. And Zuck then paired his 8,000... cuts at Meta with the fact that he has put spyware on everybody's laptop to study every employee to make their training data better. That got leaked and people thought, hey, that's a Black Mirror episode."
+  },
+  {
+    "t": 3659.168,
+    "speaker": "SPEAKER_04",
+    "text": "We're working at Meta in order to get our two-year severance package. But on the other side of the table, Goldman Sachs' CEO, David Solomon, wrote an op-ed in the New York Times. I'm the CEO of Goldman Sachs, period. The AI job apocalypse is overblown, period. Obviously, he might be fighting for that anthropic or open AI IPO in the coming months, or maybe he's doing it right now. He made three points."
+  },
+  {
+    "t": 3688.39,
+    "speaker": "SPEAKER_04",
+    "text": "AI won't eliminate 25% of jobs. It's going to automate 25% of work hours, and workers will fill that time with higher-level tasks. Obviously, that didn't happen in the case of Zuckerberg's layoffs. Just because a job can be replaced doesn't mean it will be. Bank tellers increased after ATMs, live entertainment became more popular after TV, and the U.S. labor market creates and destroys 25 to 35 million jobs annually, and the gross churn dwarfs net losses."
+  },
+  {
+    "t": 3716.064,
+    "speaker": "SPEAKER_04",
+    "text": "New categories like agentic AI management are already hiring, yada, yada, yada. A publication called Fortune is apparently still publishing AI slop, and they say both Sam Watman and Dario have walked back their AI job apocalypse. predictions as they gear up for an IPO. Sachs, have at it. You've been saying, and your prediction was, you took the other side, hey, we're going to create more jobs."
+  },
+  {
+    "t": 3741.735,
+    "speaker": "SPEAKER_04",
+    "text": "There was a recent, one of the job boards put out some stats that the number of software jobs is going up, the number of listings of other jobs going down. So I guess you're probably in the camp of creative destruction and churn at this point, Sachs?"
+  },
+  {
+    "t": 3757.63,
+    "speaker": "SPEAKER_01",
+    "text": "I think you should be giving me more credit than that because my most contrarian take back in January on our prediction show is that AI would lead to job gains, not job loss. Over the past week, you've now seen the narrative shift. I'd say almost completely towards that position. So you have the CEO of Goldman Sachs writing this in the New York Times. You know, I don't think he'd be doing that if he felt like he was completely stepping out on a limb."
+  },
+  {
+    "t": 3784.307,
+    "speaker": "SPEAKER_01",
+    "text": "Maybe even more importantly, you had Sam and even Dario now walking back their claims of massive job loss. And they explained why. Dario said it's kind of like the 25% of work hours thing. He said..."
+  },
+  {
+    "t": 3798.414,
+    "speaker": "SPEAKER_01",
+    "text": "that AI might automate away 90% of someone's tasks, but the other 10% will expand to do a whole bunch of new tasks and new things, which is very similar to the types of arguments that people like me have been saying, and actually that Jensen's been saying, that just because you automate away some tasks doesn't mean that you automate away the purpose of a job, and now the worker is freed up to do new things, to do the higher complexity tasks that..."
+  },
+  {
+    "t": 3827.166,
+    "speaker": "SPEAKER_01",
+    "text": "David Solomon, the Goldman CEO, is talking about. So the fact that Dario is now walking this back and coming around to my position, I think that's kind of amazing. And where do I go to get my apology?"
+  },
+  {
+    "t": 3842.997,
+    "speaker": "SPEAKER_04",
+    "text": "We're going to have an official apology form that you can fill out. It's got checkboxes. I was wrong."
+  },
+  {
+    "t": 3850.962,
+    "speaker": "SPEAKER_01",
+    "text": "Some mornings I woke up thinking, why am I going out defending these guys, these idiots? I mean, they're scaring the public with all these dire predictions about an apocalyptic future. There was no data to support that. I mean, we can all debate what's going to happen in the future, and we probably should be humble about what is going to happen in the future because we don't completely know. and this industry is very dynamic. But you have to look at what is the data that we have so far in the current situation."
+  },
+  {
+    "t": 3877.992,
+    "speaker": "SPEAKER_01",
+    "text": "And we do not see data that supports massive job loss. You can cite this layoff or that layoff, J-Cal, those are anecdotes, and the plural of anecdotes is not data. If you look at the actual data like Yale Budget Lab did, they said no discernible disruption in the labor market in the last three years. Due to AI, they've done a comprehensive study. You look at job postings for software engineers, it's up 15% year over year."
+  },
+  {
+    "t": 3903.01,
+    "speaker": "SPEAKER_01",
+    "text": "Job postings for software developers have hit a new three-year high, despite the fact that coding is the single breakout use case of AI this year. So if AI has not caused job elimination for software developers, what category has it caused? I mean, code is now the number one use case, I think, of AI in the enterprise."
+  },
+  {
+    "t": 3926.244,
+    "speaker": "SPEAKER_03",
+    "text": "Let's be honest. Over the last five or ten years, a lot of companies overhired. They mishired. These CEOs did not have a good handle on it. Their OpEx budgets completely got bloated, inflated. And they need to sort of get back to where they were, get back to a fighting weight. And it's this old adage of never- Never waste a crisis. Never let a good crisis go to waste. Exactly. And so they point to this thing. It's very simple to say."
+  },
+  {
+    "t": 3955.8,
+    "speaker": "SPEAKER_03",
+    "text": "It's AI. It's two letters. And say, we're going to fire people. But underneath that is not AI. Because we know this. It hasn't done anything measurable yet. At the end consumption of these tokens, nobody is standing there and saying, look at my filing. here's the lift that I've got. Nobody has said that yet. That's very important to observe."
+  },
+  {
+    "t": 3976.274,
+    "speaker": "SPEAKER_03",
+    "text": "And so instead, what people are doing is realizing, okay, I have this cover now to go and clean up what was very poor management and mismanagement over the last five and 10 years, where I overhired and I mishired. That's what's happening today."
+  },
+  {
+    "t": 3989.522,
+    "speaker": "SPEAKER_04",
+    "text": "Okay, Bill Gurley, I'm going to let you chime in here. You've got two besties saying, hey, this is all hogwash. It's AI washing. These jobs were just, you know, the strategy, obviously, in Silicon Valley was to hire- They needed a scapegoat."
+  },
+  {
+    "t": 4002.644,
+    "speaker": "SPEAKER_03",
+    "text": "They needed a scapegoat."
+  },
+  {
+    "t": 4003.525,
+    "speaker": "SPEAKER_04",
+    "text": "They hired two years ahead of time, billed for the future, and it was a vanity metric, and you were blocking talent from working on other startups or competitors, the Google strategy. That's the thing. Hold on."
+  },
+  {
+    "t": 4012.906,
+    "speaker": "SPEAKER_03",
+    "text": "Wait, wait, wait. You just said the critical thing. That is exactly why they did it."
+  },
+  {
+    "t": 4016.408,
+    "speaker": "SPEAKER_04",
+    "text": "Yes, that was the explicit strategy from Google."
+  },
+  {
+    "t": 4018.711,
+    "speaker": "SPEAKER_03",
+    "text": "That's the actual strategy. These guys were awash in cash. And so part of it is you were just hoarding talent or what you thought was talent. Yes, and just keeping them off the market. And now you're jettisoning it because the reality is as companies get bigger, their growth rates monotonically decrease and you get to like a GDP plus some number and your valuation frameworks change and there's nothing you can do to fight that law of gravity in the public markets. Okay. And so as each of these CEOs who at some point thought they were different and the rules didn't apply to them..."
+  },
+  {
+    "t": 4047.813,
+    "speaker": "SPEAKER_03",
+    "text": "are now realizing you're just like everybody else."
+  },
+  {
+    "t": 4050.455,
+    "speaker": "SPEAKER_04",
+    "text": "Okay, we have to stay humble, as Sachs said, but Bill Gurley, would you like to apologize for Sachs and or give him credit for his incredible non-consensus prediction?"
+  },
+  {
+    "t": 4059.18,
+    "speaker": "SPEAKER_01",
+    "text": "Hold on, he wasn't the one promoting the jobs apocalypse. No, you were. It was you. No, no, it was you."
+  },
+  {
+    "t": 4065.144,
+    "speaker": "SPEAKER_04",
+    "text": "I will give my thoughts in a moment. I'm being a great host. You should be apologizing. Bill Gurley, your take first, then I'll give mine. Bill Gurley, you first."
+  },
+  {
+    "t": 4074.029,
+    "speaker": "SPEAKER_01",
+    "text": "You always represent the legacy media on our show, J. Cal. I do not represent the legacy media. I represent myself."
+  },
+  {
+    "t": 4080.752,
+    "speaker": "SPEAKER_04",
+    "text": "You're the New York blue-haired, you know. I'm just giving you the statistics, guys. I'm just presenting the numbers. Now, let's remember."
+  },
+  {
+    "t": 4087.936,
+    "speaker": "SPEAKER_01",
+    "text": "Let's remember. Actually, let me give you an important statistic. Let me give you a very important statistic. No, no, no. Hold on. This is really important."
+  },
+  {
+    "t": 4094.399,
+    "speaker": "SPEAKER_04",
+    "text": "We have to let Bill Gurley comment. Do you use ketamine? I don't use ketamine. That's a terrible drug. Do not use ketamine, folks. Bill Gurley, you have the floor."
+  },
+  {
+    "t": 4106.346,
+    "speaker": "SPEAKER_00",
+    "text": "I would just touch on two things that I already said earlier. One, historically, innovation has led to more prosperity for humans. And I gave those numbers from 1891 to today. I see no reason why that won't happen here. In the short run, from a bottom-up perspective, every human that wants to protect themselves needs to be the most AI-enabled version of themselves they can be."
+  },
+  {
+    "t": 4130.785,
+    "speaker": "SPEAKER_00",
+    "text": "And the people that might be a threat of job loss are someone who stands hard, fast, and refuses to use AI. And I would just say that's simply like saying, I'm not going to use email. I'm not going to use a spreadsheet. I'm not going to use a computer. And you probably are at risk."
+  },
+  {
+    "t": 4150.427,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, the paradigm will shift. To give you actually my position, which is always – would you like me to give my position or do you just want to jump in?"
+  },
+  {
+    "t": 4157.529,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah, I do, but I never got to finish that point. But I can do it after you."
+  },
+  {
+    "t": 4160.69,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. So I will give my position on this, which is – and it's always been the same, which is there's going to be a massive job displacement that occurs. And that massive job displacement is going to come because CEOs – in many cases believe that this technology is going to make people more efficient, they can do more with less, and they will be rewarded by the public market by just having higher earnings. And we see that for every single company. Now, I fully concur."
+  },
+  {
+    "t": 4189.329,
+    "speaker": "SPEAKER_04",
+    "text": "It was because of bloating, and I gave my position there. I know specifically... that Sergey and Larry took that strategy of taking talent off the market so there wasn't a Google competitor. That was literally explained to me by those individuals. We hire people and then we figure out what to do with them later. That strategy just became the standard in Silicon Valley and now it's being reversed. Now, there will be wholesale jobs that will be retired."
+  },
+  {
+    "t": 4214.849,
+    "speaker": "SPEAKER_04",
+    "text": "If you look at self-driving, that's obviously happening with Waymo with 3,000 vehicles, and there'll be many more on the roads. That job will be eliminated. We will be sitting here in but five, 10 years, and the idea of somebody driving a taxi is gonna seem silly and dangerous. We will see the same exact thing happen with Optimus. You may have seen the figure robot sorting packages. All those sorting jobs at Amazon factories are going away."
+  },
+  {
+    "t": 4240.107,
+    "speaker": "SPEAKER_04",
+    "text": "Amazon themselves, these are the savviest people in the world, said, we are gonna eliminate 600,000 future positions. And we are going to cut positions. And Andy Jassy said, this is going to be a reoccurring theme. As we deploy AI, we will do more with less. You will see the headcount at all these big companies dramatically decrease or stay the same as earnings massively increase. And you can take the position, Sax, that, oh, my God, the numbers are in my favor. They're not. The numbers are in my favor."
+  },
+  {
+    "t": 4269.143,
+    "speaker": "SPEAKER_04",
+    "text": "The job loss is tremendous. And there are numbers associated with that. 8,000 people that met it after 20,000 before that. And if you look at the steady state of these companies, they will keep decreasing. Let me finish."
+  },
+  {
+    "t": 4281.269,
+    "speaker": "SPEAKER_03",
+    "text": "No, no, no. We are beyond that."
+  },
+  {
+    "t": 4283.97,
+    "speaker": "SPEAKER_04",
+    "text": "We are beyond that."
+  },
+  {
+    "t": 4284.69,
+    "speaker": "SPEAKER_03",
+    "text": "They are now getting rid of people."
+  },
+  {
+    "t": 4286.131,
+    "speaker": "SPEAKER_04",
+    "text": "When they say they're getting rid of measurers, you can take them at their word. When they say they're getting rid of middle managers, you can take them on their word. That is, you've given your position already, I'm giving mine. My position is, they are obsessed with this technology, they're obsessed with earnings, and they will continue that."
+  },
+  {
+    "t": 4301.598,
+    "speaker": "SPEAKER_04",
+    "text": "Now, on the other side of the ledger, I believe we'll have a Cambrian explosion in startups, and all this talent, if they embrace the tools, to Bill Gurley's point, are going to be able to solve more problems and create small companies of five or ten people who are laid off from Amazon or Meta, and make... double their salary or have a better job that they control. I believe that is going to be the ultimate solution, but that transition is going to be extremely painful and we should have some humility on this fucking podcast for the people impacted."
+  },
+  {
+    "t": 4330.714,
+    "speaker": "SPEAKER_04",
+    "text": "Every cab driver is losing their job. Every truck driver is losing their job in the next 10 years. Anybody sorting packages is losing their job. You can say all you want, Shamath, you can say all you want, hold on, let me finish my thought. You can say all you want, Shamath, that those people don't want those jobs, but they may need those jobs. And you are an elitist by definition. We are all elitists on this program. We are elite performers."
+  },
+  {
+    "t": 4352.447,
+    "speaker": "SPEAKER_01",
+    "text": "And these people are going to lose their jobs and they may not get a job very quickly."
+  },
+  {
+    "t": 4357.57,
+    "speaker": "SPEAKER_03",
+    "text": "By being able to call something what we think it is, is not being elitist. It's actually telling the truth. Meta over hire. You could have stopped the company at 3,000 people when I left and it would not have changed the outcome of that company. There was no need to go to 90,000 people and burn $50 billion on VR. They did it because they had the freedom to do it. That's allowed. It's capitalism. They're coming back to realize that there's a more efficient version of what they are."
+  },
+  {
+    "t": 4387.054,
+    "speaker": "SPEAKER_03",
+    "text": "That has nothing to do with AI. That's the only point I'm trying to make. All you have to do is just say that."
+  },
+  {
+    "t": 4393.64,
+    "speaker": "SPEAKER_04",
+    "text": "I think you're wrong. And let me explain to you why you're wrong. I believe you're wrong. I believe Zuckerberg is putting that software on people's computers in order to find more jobs to eliminate, to increase it. And the surface area problems in the world is not decreasing. But what is... decreasing is the number of humans to take on the next opportunity. And that's going to continue. And I think the companies that will be rewarded and their stock prices will be rewarded are the ones who do much more with much less."
+  },
+  {
+    "t": 4423.827,
+    "speaker": "SPEAKER_04",
+    "text": "And they're going to keep eliminating these jobs. And I take them at their word. You don't have to explain everything with conspiracy."
+  },
+  {
+    "t": 4430.351,
+    "speaker": "SPEAKER_03",
+    "text": "Maybe they just mismanaged for a period. I agree."
+  },
+  {
+    "t": 4434.514,
+    "speaker": "SPEAKER_04",
+    "text": "We've already agreed on that. I think that explains the post-COVID two or three years. I think what we're seeing this year is actually the tools working. The tools are working and there are jobs that are no longer needed. The measures, as Matthew Prince pointed out, or product managers or designers, those have all been consolidated into one job. Somebody who ships a product. And it doesn't require 12 people. It requires two people now. I know this."
+  },
+  {
+    "t": 4459.827,
+    "speaker": "SPEAKER_03",
+    "text": "I don't think that's been consolidated. I see it in Fortune 1000 companies all the time. I don't think what you're saying is true."
+  },
+  {
+    "t": 4464.77,
+    "speaker": "SPEAKER_04",
+    "text": "The slowest adopters. You're talking about the slowest adopters. I'm on the front line with startups."
+  },
+  {
+    "t": 4468.913,
+    "speaker": "SPEAKER_03",
+    "text": "These are where all the jobs are. But I'm sorry, but a startup is not going to go and enter a regulated market and put JP Morgan out of business. Not going to happen."
+  },
+  {
+    "t": 4476.556,
+    "speaker": "SPEAKER_04",
+    "text": "They will eventually displace those companies. It happens all the time. Not going to happen. We're going to agree to disagree on this one."
+  },
+  {
+    "t": 4483.778,
+    "speaker": "SPEAKER_03",
+    "text": "Good luck to the startup trying to disrupt Boeing. Good luck. I'm going to take Boeing. Okay. Well, some people might take SpaceX. Good luck making drugs out of an Excel spreadsheet. I'll take the regulated pharma company. Good luck."
+  },
+  {
+    "t": 4496.502,
+    "speaker": "SPEAKER_04",
+    "text": "Listen, there are some industries that are so much regular."
+  },
+  {
+    "t": 4499.243,
+    "speaker": "SPEAKER_03",
+    "text": "Where all the jobs just converge into one and you're going to show up at the FDA and like, okay, where's your team? Oh, it's just me. I do it all."
+  },
+  {
+    "t": 4504.915,
+    "speaker": "SPEAKER_04",
+    "text": "Me and my model, look at this. You joke. Somebody just did that. It's not a joke."
+  },
+  {
+    "t": 4509.059,
+    "speaker": "SPEAKER_03",
+    "text": "It's not a joke and it's not going to happen because that's not the way society wants safety, predictability, governance, auditability to work."
+  },
+  {
+    "t": 4516.606,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. There's a distinct difference. between drugs and software and services in the world. I think we can agree on that. And listen, truck driving is one of the most regulated industries out there. So is cab driving and taxis, as Bill and I well know. And those jobs are being eliminated. Bill, I'm going to give you the final word, then Sachs, I'll give you the second final word."
+  },
+  {
+    "t": 4536.135,
+    "speaker": "SPEAKER_01",
+    "text": "I never got a chance to respond. Let's do Sachs."
+  },
+  {
+    "t": 4538.298,
+    "speaker": "SPEAKER_04",
+    "text": "Okay, Sachs, then Bill. Go."
+  },
+  {
+    "t": 4539.719,
+    "speaker": "SPEAKER_01",
+    "text": "Well, first of all, Jake, you remind me of the Trotskyite who, when confronted with the fact that none of Trotsky's predictions had come true, said that that simply proved how farsighted Trotsky was."
+  },
+  {
+    "t": 4550.942,
+    "speaker": "SPEAKER_04",
+    "text": "I didn't go to graduate school. You're going to need another reference."
+  },
+  {
+    "t": 4553.182,
+    "speaker": "SPEAKER_01",
+    "text": "In other words, none of your predictions about job loss have come true. In fact, the data. None. Zero. The data. Except for what Matt just did last week. But go ahead. That's an anecdote. That is not."
+  },
+  {
+    "t": 4563.885,
+    "speaker": "SPEAKER_04",
+    "text": "It's not. You're calling 8,000 people losing their jobs an anecdote? You don't know that that is."
+  },
+  {
+    "t": 4570.006,
+    "speaker": "SPEAKER_01",
+    "text": "Hold on a second."
+  },
+  {
+    "t": 4570.867,
+    "speaker": "SPEAKER_04",
+    "text": "It's not an anecdote. 8,000 people lost their jobs."
+  },
+  {
+    "t": 4573.23,
+    "speaker": "SPEAKER_01",
+    "text": "Can I make my case? I heard you about the metadata point. First of all, those jobs, that job loss was not directly attributable to AI. It just wasn't. That's something you've invented and put in the data. No, that's something Zuckerberg said. No, they clarified that. He said it was related to they were trying to balance additional spend in CapEx, but it was not directly related to AI."
+  },
+  {
+    "t": 4595.849,
+    "speaker": "SPEAKER_01",
+    "text": "But even if it were, even if it were 100% the case that was due to AI, you're not netting those jobs against all the other jobs that are being created because of AI and all the new companies that are being created right now because of AI. So you're just cherry picking one statistic. You're attributing 100% of that to AI. And then you're not basically netting it and presenting a balance you've got."
+  },
+  {
+    "t": 4619.139,
+    "speaker": "SPEAKER_04",
+    "text": "I'm not cherry picking it. I am reading the news and I'm describing what the CEO said. Jack at Block said he's doing this because of AI. Matthew Prince said it's AI. Zuckerberg said it's AI. I'm just taking them on their word."
+  },
+  {
+    "t": 4633.925,
+    "speaker": "SPEAKER_01",
+    "text": "Yes, exactly. So Jack Dorsey came out and said that he was going to do a 50% elimination because of AI. Okay. And within 24 hours, all the financial analysts on X said that Jack was AI washing and that block had horribly overstaffed during COVID. It was running much more inefficiently than all of its other peers in this category. And they've needed to do a 50% job cut for a long time. So pretty much everyone thought that was pure AI washing. In fact, you've just proven my point."
+  },
+  {
+    "t": 4663.813,
+    "speaker": "SPEAKER_01",
+    "text": "And what exactly are the efficiencies that Jack is getting? I mean, this is the most hand wavy thing ever that, oh, we're just magically going to be able to eliminate half our cost structure right now."
+  },
+  {
+    "t": 4673.656,
+    "speaker": "SPEAKER_04",
+    "text": "Okay, so Jack, Matthew Prince, Zuckerberg, and Andy Jassy are all lying and doing AI washing."
+  },
+  {
+    "t": 4679.458,
+    "speaker": "SPEAKER_01",
+    "text": "Zuck did not say this was due to AI. He just did it. That's your reading of it. But like I said, even if you attribute those specific job losses to AI, which is questionable, you're not netting it against all the job creation that's happening and also the new company creation. Furthermore, let me just give you some actual statistics."
+  },
+  {
+    "t": 4700.487,
+    "speaker": "SPEAKER_04",
+    "text": "I specifically attributed... that the future and the new jobs will come from startups. So don't misrepresent my point. Thank you."
+  },
+  {
+    "t": 4705.579,
+    "speaker": "SPEAKER_01",
+    "text": "Okay. We currently have a 4.3% unemployment rate in the economy. Economists consider 5% to be full employment. So basically, unemployment is at or near record lows right now, despite the fact that we're over three years into this AI wave. Second, and again, this is the point I wanted to make earlier with respect to coding. Coding is the single job category most impacted by AI right now. We are at the point where AI is writing most of the code."
+  },
+  {
+    "t": 4735.728,
+    "speaker": "SPEAKER_01",
+    "text": "We have almost complete automation of code writing. You would think that if you could look at this in a simple Malthusian way, all the software developers would be getting laid off right now. Is that happening? No. Software developers are not being laid off on net. In fact, job postings, job recs for software developers are at a three-year high. growing 15% year over year. Now, why is this? I think the explanation is really, really important, okay?"
+  },
+  {
+    "t": 4765.177,
+    "speaker": "SPEAKER_01",
+    "text": "You look at code commits on GitHub, which is the leading code repository. There were 1 billion code commits last year. In the past month, there's been 1.1 billion. So in other words- Make something easier, more people do it. Right. We have basically a 14x year-over-year increase in code generation. That code has to be managed by somebody. You still need humans to look under the hood."
+  },
+  {
+    "t": 4789.452,
+    "speaker": "SPEAKER_01",
+    "text": "And when the amount of code explodes and you get 10x or 100x more code, the complexity also rises as well. So look, we're not hiring 10 times more engineers, but you do need more engineers now to manage all of that code. The other thing that's happening is that there's been an explosion of the use of code across the economy by different businesses, different applications, and different use cases. I'm hearing from people who are now... hiring software engineers who never would have hired them before."
+  },
+  {
+    "t": 4818.374,
+    "speaker": "SPEAKER_01",
+    "text": "I was talking to a fund manager, and he said that his next two hires were not going to be data analysts. They were going to be software developers because they're now deploying code for the first time in ways that they were not before. This goes back to my point about cloud proficiency being the most marketable skill right now in the economy. People are using these tools in entirely new ways."
+  },
+  {
+    "t": 4840.693,
+    "speaker": "SPEAKER_01",
+    "text": "I think that we're at the outset of a boom right now caused by bespoke software proliferating throughout the economy and being used by firms that never thought of themselves as tech firms before, all of which is leading to more productivity, and that leads to a healthier economy, and that leads to more job creation. And you're seeing that again in the aggregate numbers. And that doesn't even include the blue-collar boom that's happening right now."
+  },
+  {
+    "t": 4866.034,
+    "speaker": "SPEAKER_01",
+    "text": "With the development of all this infrastructure, the data centers, and the new energy and power generation, we are seeing hundreds of thousands of new construction jobs being created. Among blue collars, Jay Kahn, I'm sure you don't want them losing their jobs by turning this boom off. So again- No, I never advocated."
+  },
+  {
+    "t": 4882.557,
+    "speaker": "SPEAKER_04",
+    "text": "Maybe in the future- You like to misconstrue my position. I am very clear. There's job displacement going on. And the job displacement is related to AI. But net, I do think the economy will grow. Bill Gurley-"
+  },
+  {
+    "t": 4894.64,
+    "speaker": "SPEAKER_01",
+    "text": "Maybe at some point in the future, you'll be right. Like the Trotskyite, communism has never been tried. Maybe it'll work in the future."
+  },
+  {
+    "t": 4899.963,
+    "speaker": "SPEAKER_04",
+    "text": "Nobody knows your Trotskyite references, okay? You lost 95% of the audience. Just speak like a normal person."
+  },
+  {
+    "t": 4905.866,
+    "speaker": "SPEAKER_01",
+    "text": "Chamath laughed. Chamath understood it. Okay, great. I know Trotsky. The audience is smarter than you give them credit for."
+  },
+  {
+    "t": 4911.629,
+    "speaker": "SPEAKER_04",
+    "text": "Okay. No, I just think you're just making these deep polls to try to sound smarter than you actually are. The reality is the reality. These people are being laid off because of AI. Bill Gurley, of 20 million people in the United States driving cabs and trucks and doing that as a job right now, how many of those do you think will lose their jobs to self-driving in the next decade or two based on just being in there? And I'm not trying to lead the witness here in any way. Obviously, some people prefer a human driver, but what's your take on that specific part of the economy?"
+  },
+  {
+    "t": 4940.12,
+    "speaker": "SPEAKER_00",
+    "text": "I think it's impossible to go with 100% automated solution. Because the economics don't work well. And so I think like some of the other examples that were given, ATMs and whatnot, I think the use of non-ownership cars is going to go way up. So it's going to keep growing through this. And humans are going to be used for like 50% of it instead of 100."
+  },
+  {
+    "t": 4967.372,
+    "speaker": "SPEAKER_00",
+    "text": "And so I might not be surprised if the number actually stays the same or grows. And let's remember, these jobs didn't exist before because regulation had limited what the taxi market was capable of. And getting around that actually led to job creation. And so I'm not a big fan of the doomerism because around jobs, you know, there's a word Luddite that kind of is used to talk about it."
+  },
+  {
+    "t": 4997.083,
+    "speaker": "SPEAKER_00",
+    "text": "And I don't have high confidence in any government program for skills retraining. So it's not clear to me what, okay, yes, it's happened. What do we do now? It's not clear to me. I think the thing you can do the most, one, we already talked about, use the new tools, know what it's capable of in your field, like get out there. And then two, if your job is going to go away and maybe it's a job you don't care about, start thinking about where there are opportunities. Everyone's talking about it."
+  },
+  {
+    "t": 5025.319,
+    "speaker": "SPEAKER_00",
+    "text": "The skilled trades are like, we're short of people."
+  },
+  {
+    "t": 5029.622,
+    "speaker": "SPEAKER_04",
+    "text": "Massive shortage for plumbing, electricians, HVAC, all that."
+  },
+  {
+    "t": 5033.364,
+    "speaker": "SPEAKER_01",
+    "text": "It's amazing how J. Cal uses facts that haven't happened yet as support for his argument. You just state that, oh, all the truck drivers are losing their jobs. All the drivers are losing their jobs. And then you say that this proves my... Yeah, I know it's your belief, but that is not proof. Do you understand the difference?"
+  },
+  {
+    "t": 5050.311,
+    "speaker": "SPEAKER_04",
+    "text": "No, the proof I gave was Amazon and Andy Jassy, Shopify... Toby Lucky, Mark Benioff."
+  },
+  {
+    "t": 5056.334,
+    "speaker": "SPEAKER_03",
+    "text": "There are no automated Amazon deliveries. Do you see that? Is there some Amazon car delivering your socks?"
+  },
+  {
+    "t": 5064.238,
+    "speaker": "SPEAKER_01",
+    "text": "You cherry pick anecdotes and then misattribute them to AI."
+  },
+  {
+    "t": 5066.98,
+    "speaker": "SPEAKER_04",
+    "text": "They literally have a self-driving division. It's called Zoox. You're the biggest AI washer there is. They are the largest... user of robotics in the world. So yes, Chamath, they are pursuing robotics massively more than anybody. And they are pursuing self-driving."
+  },
+  {
+    "t": 5082.291,
+    "speaker": "SPEAKER_03",
+    "text": "You just like mishmash all these words together. At one point, it's a warehouse worker, then it's a driver, then it's Amazon, then it's Meta."
+  },
+  {
+    "t": 5090.156,
+    "speaker": "SPEAKER_04",
+    "text": "It's not mishmashing. You can personally attack me all you want. The issue here is self-driving is going to take away, I believe, the majority of drivers. Okay, that's the key word."
+  },
+  {
+    "t": 5101.284,
+    "speaker": "SPEAKER_03",
+    "text": "Great. Let's put it there as a belief. Who knows? You don't know and I don't know. Okay. And I think the same thing with robotics. But I will take people at their word. Nobody knows. I would take people at their word this year."
+  },
+  {
+    "t": 5111.111,
+    "speaker": "SPEAKER_04",
+    "text": "I'm curious, Bill, your take on these large enterprises. You've heard two positions here. I have a question for you, J. Cal. Hold on."
+  },
+  {
+    "t": 5117.616,
+    "speaker": "SPEAKER_01",
+    "text": "I have a legit question for you."
+  },
+  {
+    "t": 5118.857,
+    "speaker": "SPEAKER_04",
+    "text": "Can I just let the guest be involved, please?"
+  },
+  {
+    "t": 5121.099,
+    "speaker": "SPEAKER_01",
+    "text": "I'm actually engaging with your perspective. Let me truly ask you. Explain to me why job postings for software engineers are up 15% year over year, despite the fact that code has now been fully automated."
+  },
+  {
+    "t": 5136.051,
+    "speaker": "SPEAKER_04",
+    "text": "Oh, I think there's a Cambrian explosion in software. You're absolutely correct. And I believe people who know how to vibe code or who are non-developers are making bespoke software. I've said that 100 times on this podcast over the last two years, and I predicted it. So absolutely, I believe that will be an area of job growth. I believe the positions that are being removed or just I know based on what we're hearing is product managers, middle managers, what Matthew Prince called measures, what other people call mid-management."
+  },
+  {
+    "t": 5165.519,
+    "speaker": "SPEAKER_04",
+    "text": "Everybody believes that the recording and this daily stand-ups and the Zoom calls, all of that... is turning into people management is being done better by AI and people are more self-directed. Then the stack of people to build products is being consolidated. The typical designer can now vibe code, the developer can do front-end design in UX, and they can project manage themselves."
+  },
+  {
+    "t": 5192.085,
+    "speaker": "SPEAKER_04",
+    "text": "There are a series of jobs that will increase and a series of jobs that will be eliminated, just like the mailroom got eliminated. And bike messengers got eliminated. I don't think anyone disputes that."
+  },
+  {
+    "t": 5202.273,
+    "speaker": "SPEAKER_01",
+    "text": "And the typing pool got eliminated. But on net, on net, do you think they'll be masked? That's my position. Do you think they'll be on – well, your position is shifting a little bit. Do you think on net – Same position. Do you think on net there'll be mass job loss?"
+  },
+  {
+    "t": 5214.235,
+    "speaker": "SPEAKER_04",
+    "text": "I think there is a chance that we're going to see job loss increase in the short to midterm and then eventually – The displaced people are going to have to learn or leave the workforce, which is what happened during other revolutions like this. Some people went with the paradigm and adapted, and some people didn't and just retired. I saw that firsthand in the PC revolution as but one example."
+  },
+  {
+    "t": 5236.551,
+    "speaker": "SPEAKER_04",
+    "text": "Some lawyers just would never use these tools, and they just retired at 55, 65, and they moved on, and then other attorneys were PC first, and they just took that work."
+  },
+  {
+    "t": 5246.034,
+    "speaker": "SPEAKER_03",
+    "text": "By the way, did you guys see the news that Kirkland Nellis is going to spend half a billion dollars to roll their own frontier model?"
+  },
+  {
+    "t": 5252.077,
+    "speaker": "SPEAKER_04",
+    "text": "Makes total sense. That was like to our earlier point today is that people are doing on-prem and going to make their own models. Bill, I have one specific question for you. And thank you for the good engagement there, Sax. It lacked the ad hominem that usually starts every conversation we have."
+  },
+  {
+    "t": 5265.227,
+    "speaker": "SPEAKER_01",
+    "text": "I don't usually call you an idiot."
+  },
+  {
+    "t": 5266.868,
+    "speaker": "SPEAKER_04",
+    "text": "That's because it's in our minds, okay? We're thinking about it."
+  },
+  {
+    "t": 5269.41,
+    "speaker": "SPEAKER_03",
+    "text": "We're just not saying it."
+  },
+  {
+    "t": 5270.691,
+    "speaker": "SPEAKER_04",
+    "text": "Good. I like it better. I like it better. Bill, specifically. when Andy Jassy last spring said, hey, we're going to do more with less. We're going to be AI first. And they said, we're not going to hire these 600,000 jobs. When you see Tubby Lucky say, you have to do AI first before you ask for a headcount and prove to me that you tried AI first before hiring somebody. Do you think this is a sign that these organizations are AI washing?"
+  },
+  {
+    "t": 5297.159,
+    "speaker": "SPEAKER_04",
+    "text": "Or do you think these recent ones are more, hey, we're going to do more with less and the size of these companies will be smaller? because of AI."
+  },
+  {
+    "t": 5305.028,
+    "speaker": "SPEAKER_00",
+    "text": "One thing that I think that last question misses, and I think a lot of the AI doomerism stuff misses, is that competition exists. And so if you, I don't think there's any scenario where you just do more for less and all of a sudden everyone has 70% operating margins. That's not going to happen. Someone else is going to come along and do more for less and lower the price."
+  },
+  {
+    "t": 5332.585,
+    "speaker": "SPEAKER_00",
+    "text": "And so the thing that could happen is we could have a productivity boom from lower priced goods and services. And the basket of goods that humans are able to buy gets cheaper and cheaper and cheaper. And that's been true in many categories. Unfortunately, it's offset by what happens in health care and other regulated industries. Yeah, education. But yeah, so I expect products to get cheaper and people to be able to create more with less."
+  },
+  {
+    "t": 5360.063,
+    "speaker": "SPEAKER_00",
+    "text": "But I don't think it leads to obscene profits because it'll be whittled away in competition."
+  },
+  {
+    "t": 5367.653,
+    "speaker": "SPEAKER_01",
+    "text": "By the way, just on this AI washing point, there's a trial lawyer named Donnie King. He's a securities litigation partner at a firm called Ackerman. He and his colleagues have started to warn that we could start seeing shareholder lawsuits. against companies that engage in this type of AI washing because he thinks it's a type of puffery, right?"
+  },
+  {
+    "t": 5390.523,
+    "speaker": "SPEAKER_01",
+    "text": "Because essentially what the company is doing is attributing their own non-performance or their operational issues to AI when in fact there are real problems in the business and therefore it could be a form of securities fraud."
+  },
+  {
+    "t": 5403.488,
+    "speaker": "SPEAKER_03",
+    "text": "Wait, securities fraud? Yeah. I want to double click on this. Did you see the CEO voice today in his note about layoffs? No. Who's Wix? Find me the AI washing in there, Wix."
+  },
+  {
+    "t": 5413.212,
+    "speaker": "SPEAKER_04",
+    "text": "Oh, yeah, that's the website builder. Yeah, I mean, you can build websites with Claude. Yeah, the whole website business is challenged."
+  },
+  {
+    "t": 5421.914,
+    "speaker": "SPEAKER_03",
+    "text": "Interesting that he just talked about operational details. Did he? I didn't read the note. Of course you didn't read the note."
+  },
+  {
+    "t": 5428.877,
+    "speaker": "SPEAKER_04",
+    "text": "You said it just happened. Pretty long. I will read it. This is today's May 28th. This broke at 9.25 this morning."
+  },
+  {
+    "t": 5437.688,
+    "speaker": "SPEAKER_01",
+    "text": "I think it's really interesting that this lawyer thinks there's so much AI washing going on that he thinks it could constitute securities fraud and he's warning clients not to engage in it. But look, J. Cal, you're like the last person who hasn't gotten the memo on this. There was a huge narrative shift this week. Sam is backing off this. Even Dario's walking it back. You got the Goldman Sachs CEO. You got the explosion in job postings. Everyone's coming around to the idea that the job apocalypse is massively overblown."
+  },
+  {
+    "t": 5467.628,
+    "speaker": "SPEAKER_04",
+    "text": "I mean, it could be overblown."
+  },
+  {
+    "t": 5468.709,
+    "speaker": "SPEAKER_03",
+    "text": "Whenever you want to give me your apology, I'm happy to accept it."
+  },
+  {
+    "t": 5471.853,
+    "speaker": "SPEAKER_04",
+    "text": "No need for an apology. My position has always been it's displacement. You're going to have some displaced in the short to midterm, and then eventually there'll be more problems to solve and people will have to reallocate. I do think... We're being, you know, I think the tech industry itself doesn't have enough empathy or enough thoughtfulness when discussing this because these are real people losing real jobs. And you can point at statistics and you think they're spinning, but these are real people losing real jobs who may not make the transition."
+  },
+  {
+    "t": 5502.051,
+    "speaker": "SPEAKER_04",
+    "text": "Jason, I got it. I got it."
+  },
+  {
+    "t": 5503.552,
+    "speaker": "SPEAKER_01",
+    "text": "Do you think it's more empathetic to be scaring the bejesus out of people that they're going to lose their jobs?"
+  },
+  {
+    "t": 5507.713,
+    "speaker": "SPEAKER_04",
+    "text": "No, and I'm not in the scaring camp. I'm not in the scaring camp. I am in the enabling camp. That's why I keep saying, if you've been laid off, you should start a company and you should embrace the tools. So I'm all about empowering people. I think if they learn the tools, they'll have 10 job offers and they'll start their own company. So I do think there's a solution to it. I just think we're going to go through low millions of jobs. being lost or being retired and transitioned out. I want to go over this next couple of years."
+  },
+  {
+    "t": 5534.261,
+    "speaker": "SPEAKER_00",
+    "text": "I was just going to be empathetic and offer some solutions. So we talked about the skills trade deficit of people working in that. Mike Rowe has a foundation called Mike Rowe Works. where they funded $16 million, 2,600 people get a free scholarship for it to become a plumber, welder, or electrician. So go check that out if you want to reskill."
+  },
+  {
+    "t": 5558.832,
+    "speaker": "SPEAKER_04",
+    "text": "Generation tool belt, yeah."
+  },
+  {
+    "t": 5560.352,
+    "speaker": "SPEAKER_00",
+    "text": "I think it's better than having the government fix things. And then as we started and talked about, I've got a new grant program myself to help people. Yes."
+  },
+  {
+    "t": 5570.834,
+    "speaker": "SPEAKER_04",
+    "text": "kind of tilt their career in a different direction go do something you love and and apply and maybe i can help fund your you moving in that direction and as to your vibe shift i think it's because candidly people's houses have been molotov cocktailed because they're doomerism and people specifically are citing that when they shoot at their houses and throw mollets of cocktails at them twice in the same week And if you're IPOing and you're coming out saying, hey, jobs are going away, jobs are going away. That's just a really bad look."
+  },
+  {
+    "t": 5599.398,
+    "speaker": "SPEAKER_03",
+    "text": "And or it's because we called it out and they got caught. And so now they're telling the truth."
+  },
+  {
+    "t": 5604.397,
+    "speaker": "SPEAKER_04",
+    "text": "All right, everybody. This has been another amazing episode of the All In Podcast. Thanks for coming, Bill Gurley."
+  },
+  {
+    "t": 5610.82,
+    "speaker": "SPEAKER_03",
+    "text": "No, no, no. Sorry, I need to do one thing. Just doing at the end of this. Oh, yes. She's a friend of ours. I just want to just give a huge shout out to Tulsi Gabbard and specifically her husband, Abraham. Oh, yes, tragic. Going through some really tough stuff with cancer. He is going to kick its ass. I just wanted to say we love you. Yeah, Tulsi's great."
+  },
+  {
+    "t": 5632.328,
+    "speaker": "SPEAKER_04",
+    "text": "She's amazing. That's episode 275 in the can. We'll see you next time. Bye-bye."
+  },
+  {
+    "t": 5636.896,
+    "speaker": "SPEAKER_05",
+    "text": "Love you, booze."
+  },
+  {
+    "t": 5679.363,
+    "speaker": "SPEAKER_05",
+    "text": "Wet your feet. We need to get merch."
+  }
+]

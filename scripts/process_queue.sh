@@ -10,6 +10,14 @@
 #       Or flip the default for the whole run via env:
 #         TRANSCRIPTION_DEFAULT=groq ./scripts/process_queue.sh
 #
+# Re-process already-archived videos (e.g. to switch Groq -> WhisperX):
+#       REPROCESS=1 ./scripts/process_queue.sh
+#   Clears stale per-video outputs (transcript.*, analysis.json, insights.json,
+#   entities/predictions.json, index.html, raw <id>.{whisperx,groq}.json) before
+#   the run so BOTH transcription and analysis actually re-execute. The audio
+#   (.m4a) and metadata (.info.json) are kept and reused. Cleared files are moved
+#   to videos/<id>/.reprocess-backup/ first, not deleted.
+#
 # Failure markers in queue.txt (URL line is rewritten, preserving any [backend] prefix):
 #   # FAILED-METADATA:      yt-dlp couldn't fetch info
 #   # FAILED-TRANSCRIPTION: transcription step failed (key/auth/api/quota)
@@ -30,7 +38,7 @@ if [ -f "$ENV_FILE" ]; then
 fi
 
 # ── Locked policy ────────────────────────────────────────────────────────────
-REQUIRED_MODEL="claude-opus-4-7"
+REQUIRED_MODEL="claude-opus-4-8"
 export CLAUDE_MODEL="$REQUIRED_MODEL"
 
 # Default transcription backend. Override via TRANSCRIPTION_DEFAULT=groq, or
@@ -39,6 +47,15 @@ TRANSCRIPTION_DEFAULT="${TRANSCRIPTION_DEFAULT:-whisperx}"
 case "$TRANSCRIPTION_DEFAULT" in
   groq|whisperx) : ;;
   *) echo "✗ TRANSCRIPTION_DEFAULT must be 'groq' or 'whisperx' (got: $TRANSCRIPTION_DEFAULT)" >&2; exit 2 ;;
+esac
+
+# Force a true re-run of already-archived videos. When REPROCESS=1, stale
+# per-video outputs are cleared (after backing them up) so the skip guards below
+# don't short-circuit and both transcription + analysis re-execute.
+REPROCESS="${REPROCESS:-0}"
+case "$REPROCESS" in
+  0|1) : ;;
+  *) echo "✗ REPROCESS must be 0 or 1 (got: $REPROCESS)" >&2; exit 2 ;;
 esac
 
 if [ "$#" -gt 0 ]; then
@@ -93,6 +110,7 @@ done <<< "$RAW_LINES"
 echo "▶ Processing $LINE_COUNT URL(s)"
 echo "  model: $REQUIRED_MODEL"
 echo "  default backend: $TRANSCRIPTION_DEFAULT (override per URL with [groq]/[whisperx])"
+[ "$REPROCESS" = "1" ] && echo "  reprocess: ON (stale per-video outputs cleared before re-run; audio + metadata kept)"
 $NEEDS_GROQ     && echo "  some URLs need: groq"
 $NEEDS_WHISPERX && echo "  some URLs need: whisperx"
 echo
@@ -178,6 +196,22 @@ process_one() {
 
   local VDIR="$PROJECT_DIR/videos/$VID"
   echo "  ┌─ $VID  [backend=$BACKEND]  ($URL)"
+
+  # REPROCESS=1: clear stale outputs (after backing them up) so the skip guards
+  # below don't short-circuit and transcription + analysis both re-run. Keep the
+  # audio (.m4a) and metadata (.info.json) so they're reused, not re-fetched.
+  if [ "$REPROCESS" = "1" ] && [ -d "$VDIR" ]; then
+    local BK="$VDIR/.reprocess-backup"
+    mkdir -p "$BK/source"
+    local moved=0
+    for f in index.html insights.json entities.json predictions.json analysis.json; do
+      [ -f "$VDIR/$f" ] && mv -f "$VDIR/$f" "$BK/$f" && moved=$((moved+1))
+    done
+    for f in transcript.txt transcript.json "$VID.whisperx.json" "$VID.groq.json"; do
+      [ -f "$VDIR/source/$f" ] && mv -f "$VDIR/source/$f" "$BK/source/$f" && moved=$((moved+1))
+    done
+    echo "  │  reprocess: cleared $moved stale file(s) -> .reprocess-backup/"
+  fi
 
   if [ -f "$VDIR/index.html" ] && [ -f "$VDIR/insights.json" ]; then
     echo "  │  already processed — skipping"

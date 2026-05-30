@@ -1,0 +1,404 @@
+{
+  "video_id": "4oq91rzQcO8",
+  "people": [
+    {
+      "name": "Jason Calacanis",
+      "role": "Host, investor (Launch)",
+      "speaker": true,
+      "mentions": 30,
+      "first_seconds": 0,
+      "context": "Argues AI causes real near-term job displacement; runs associate program"
+    },
+    {
+      "name": "David Sacks",
+      "role": "Investor, AI/crypto czar",
+      "speaker": true,
+      "mentions": 20,
+      "first_seconds": 119,
+      "context": "Argues AI nets job gains; warns of red capture and open-source ban"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Founder, Social Capital / 8090",
+      "speaker": true,
+      "mentions": 25,
+      "first_seconds": 60,
+      "context": "Frames Anthropic via game theory; says layoffs are AI-washing over-hiring"
+    },
+    {
+      "name": "Bill Gurley",
+      "role": "Guest, ex-Benchmark VC, author",
+      "speaker": true,
+      "mentions": 25,
+      "first_seconds": 220,
+      "context": "Proposes the 'Dr. Frankenstein theory' of Anthropic; champions high agency"
+    },
+    {
+      "name": "Producer Nick",
+      "role": "All-In producer",
+      "speaker": true,
+      "mentions": 6,
+      "first_seconds": 700,
+      "context": "Built recursive AI daily briefing using Claude cowork"
+    },
+    {
+      "name": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "speaker": false,
+      "mentions": 8,
+      "first_seconds": 18,
+      "context": "Wrote 'Machines of Loving Grace'; walking back job-loss rhetoric"
+    },
+    {
+      "name": "Chris Olah",
+      "role": "Anthropic co-founder",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 1098,
+      "context": "Joined Vatican; authored Anthropic Constitution; ex-evangelical atheist"
+    },
+    {
+      "name": "Amanda Askell",
+      "role": "Anthropic chief philosopher",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1830,
+      "context": "Cited for her podcast language on AI"
+    },
+    {
+      "name": "Pope Leo XIV",
+      "role": "Pope",
+      "speaker": false,
+      "mentions": 6,
+      "first_seconds": 1057,
+      "context": "Released AI encyclical warning of power centralization"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO, xAI/Tesla/SpaceX",
+      "speaker": false,
+      "mentions": 6,
+      "first_seconds": 1614,
+      "context": "Co-founded OpenAI to prevent Google monopoly; new training stack tweet"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "OpenAI CEO",
+      "speaker": false,
+      "mentions": 4,
+      "first_seconds": 3596,
+      "context": "Walking back AI job apocalypse rhetoric ahead of IPO"
+    },
+    {
+      "name": "David Solomon",
+      "role": "Goldman Sachs CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 3596,
+      "context": "NYT op-ed: AI job apocalypse overblown"
+    },
+    {
+      "name": "Mark Cuban",
+      "role": "Investor",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 559,
+      "context": "Quote on two types of AI users"
+    },
+    {
+      "name": "Andy Jassy",
+      "role": "Amazon CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 3938,
+      "context": "Said Amazon won't hire 600,000 future positions; AI-first"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "Meta CEO",
+      "speaker": false,
+      "mentions": 4,
+      "first_seconds": 3941,
+      "context": "8,000 cuts plus monitoring software; dispute over AI attribution"
+    },
+    {
+      "name": "Jack Dorsey",
+      "role": "Block CEO",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 4633,
+      "context": "Announced 50% cut blamed on AI; analysts called it AI-washing"
+    },
+    {
+      "name": "Matthew Prince",
+      "role": "Cloudflare CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 3596,
+      "context": "Cut 20% / 1,100 jobs, blamed AI; 'letter of the year'"
+    },
+    {
+      "name": "Larry Page",
+      "role": "Google co-founder",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 1668,
+      "context": "Debated Elon on valuing humans over AI"
+    },
+    {
+      "name": "Demis Hassabis",
+      "role": "DeepMind co-founder",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1742,
+      "context": "DeepMind acquisition that worried Elon"
+    },
+    {
+      "name": "Vivek Garapalli",
+      "role": "Founder, Clover",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2826,
+      "context": "Tweet on Fortune 20 firm's $200M wasted token spend"
+    },
+    {
+      "name": "Mike Rowe",
+      "role": "TV host / foundation founder",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 5390,
+      "context": "Mike Rowe Works funds trades scholarships"
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "role": "Politician",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 5610,
+      "context": "Shout-out; husband Abraham fighting cancer"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "mentions": 20,
+      "first_seconds": 18,
+      "context": "Central subject; accused of regulatory capture and deity-building"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 8,
+      "first_seconds": 1740,
+      "context": "Anthropic spun out of it; Anthropic reportedly pulling away in growth"
+    },
+    {
+      "name": "Google / DeepMind",
+      "mentions": 6,
+      "first_seconds": 1668,
+      "context": "Acquisition that sparked Elon's OpenAI founding"
+    },
+    {
+      "name": "Meta",
+      "mentions": 5,
+      "first_seconds": 3941,
+      "context": "8,000 cuts; accused of over-hiring and $50B VR burn"
+    },
+    {
+      "name": "Amazon",
+      "mentions": 5,
+      "first_seconds": 3938,
+      "context": "600,000 forgone hires; Zoox self-driving; robotics leader"
+    },
+    {
+      "name": "Goldman Sachs",
+      "mentions": 3,
+      "first_seconds": 3596,
+      "context": "CEO op-ed downplaying job apocalypse"
+    },
+    {
+      "name": "8090",
+      "mentions": 3,
+      "first_seconds": 137,
+      "context": "Chamath's company building headless, model-agnostic products"
+    },
+    {
+      "name": "Apple",
+      "mentions": 3,
+      "first_seconds": 2300,
+      "context": "Dark horse for local intelligence sovereignty on M5 hardware"
+    },
+    {
+      "name": "Cloudflare",
+      "mentions": 2,
+      "first_seconds": 3596,
+      "context": "Cut 20% citing AI"
+    },
+    {
+      "name": "Block",
+      "mentions": 2,
+      "first_seconds": 4633,
+      "context": "Dorsey's 50% AI-blamed cut called AI-washing"
+    },
+    {
+      "name": "Rogo",
+      "mentions": 1,
+      "first_seconds": 2480,
+      "context": "Built financial-analyst evals showing model convergence"
+    },
+    {
+      "name": "Abacus",
+      "mentions": 1,
+      "first_seconds": 2680,
+      "context": "On-prem AI hardware company Calacanis invested in"
+    },
+    {
+      "name": "xAI",
+      "mentions": 2,
+      "first_seconds": 3060,
+      "context": "Elon's rewritten training complex on 220,000 GPUs"
+    },
+    {
+      "name": "Kirkland & Ellis",
+      "mentions": 1,
+      "first_seconds": 4651,
+      "context": "Law firm spending $500M to roll its own frontier model"
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 1,
+      "first_seconds": 2880,
+      "context": "Announced killing of cloud licenses"
+    },
+    {
+      "name": "Wix",
+      "mentions": 1,
+      "first_seconds": 5283,
+      "context": "Website builder layoff note cited re: AI-washing"
+    },
+    {
+      "name": "Benchmark",
+      "mentions": 1,
+      "first_seconds": 271,
+      "context": "Gurley's former VC firm"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "Claude / Claude cowork",
+      "type": "AI assistant",
+      "first_seconds": 656,
+      "context": "Cited as top marketable skill; best at Excel; powers Nick's briefing"
+    },
+    {
+      "name": "Claude for Excel",
+      "type": "AI feature",
+      "first_seconds": 2968,
+      "context": "Gurley: better than Copilot by a lot"
+    },
+    {
+      "name": "MCP (Model Context Protocol)",
+      "type": "open standard",
+      "first_seconds": 2540,
+      "context": "Run by Linux Foundation; open connectors to commoditize models"
+    },
+    {
+      "name": "WhisperFlow",
+      "type": "voice-to-text tool",
+      "first_seconds": 1640,
+      "context": "Calacanis uses with foot pedal to 'blather on' into prompts"
+    },
+    {
+      "name": "Waymo / Zoox",
+      "type": "self-driving",
+      "first_seconds": 4189,
+      "context": "Cited in driver job-displacement debate"
+    },
+    {
+      "name": "Optimus / Figure robots",
+      "type": "humanoid robotics",
+      "first_seconds": 4189,
+      "context": "Cited as eliminating sorting jobs"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "infrastructure",
+      "first_seconds": 2580,
+      "context": "Analogy for commoditizing AI workflows"
+    },
+    {
+      "name": "Open-weight models (Chinese)",
+      "type": "AI models",
+      "first_seconds": 2360,
+      "context": "China leading open-weight movement vs. US centralizing"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Dr. Frankenstein theory",
+      "first_seconds": 1670,
+      "context": "Gurley's theory that Anthropic believes it's midwifing a deity"
+    },
+    {
+      "name": "Quis custodiet ipsos custodes",
+      "first_seconds": 1331,
+      "context": "Who guards the guardians — Sacks' lens on AI governance"
+    },
+    {
+      "name": "Intelligence sovereignty",
+      "first_seconds": 2300,
+      "context": "Control over how AI interprets your data and thoughts"
+    },
+    {
+      "name": "Regulatory / 'red' capture",
+      "first_seconds": 1638,
+      "context": "Branding as safe to drive regulation that entrenches monopoly"
+    },
+    {
+      "name": "High agency vs. quiet quitting",
+      "first_seconds": 380,
+      "context": "59% are ambivalent; high-agency adopters protect themselves"
+    },
+    {
+      "name": "AI-washing",
+      "first_seconds": 3941,
+      "context": "Blaming AI for layoffs driven by over-hiring; possible securities fraud"
+    },
+    {
+      "name": "Power of compounding growth",
+      "first_seconds": 3340,
+      "context": "10x vs 3x annual growth yields 90% market share in two years"
+    }
+  ],
+  "books_papers": [
+    {
+      "name": "Running Down a Dream",
+      "author": "Bill Gurley",
+      "context": "Gurley's book on chasing dreams and lifetime learning"
+    },
+    {
+      "name": "Machines of Loving Grace",
+      "author": "Dario Amodei",
+      "context": "Blog post envisioning AI rewarding humans; based on a 1967 poem"
+    },
+    {
+      "name": "Anthropic Constitution",
+      "author": "Chris Olah (Anthropic)",
+      "context": "~80-page document on model values"
+    },
+    {
+      "name": "Magnificat Humanitas (encyclical)",
+      "author": "Pope Leo XIV",
+      "context": "42,000-word AI encyclical mirroring Leo XIII 1891"
+    },
+    {
+      "name": "1984",
+      "author": "George Orwell",
+      "context": "Cited re: surveillance/censorship risk of centralized AI"
+    },
+    {
+      "name": "The Anxious Generation",
+      "author": "Jonathan Haidt",
+      "context": "Cited re: state legislators wanting to regulate social media"
+    }
+  ]
+}

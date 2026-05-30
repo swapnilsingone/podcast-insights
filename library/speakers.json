@@ -4,6 +4,14 @@
     "role": "All-In host / investor",
     "appearances": [
       {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg"
+      },
+      {
         "video_id": "HGbA6ze0_3M",
         "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
         "channel": "All-In Podcast",
@@ -28,19 +36,252 @@
         "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
       }
     ],
-    "claims": [],
+    "claims": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "AI revenue is gated by power, not demand",
+        "category": "counterintuitive",
+        "start_seconds": 360,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=360s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Elon leases Colossus One to Anthropic",
+        "category": "story",
+        "start_seconds": 279,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=279s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Elon Web Services blunts the SpaceX bear case",
+        "category": "framework",
+        "start_seconds": 467,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=467s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Anthropic ARR: $10B to $44B in four months",
+        "category": "data-point",
+        "start_seconds": 858,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=858s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Anthropic could become the biggest monopoly ever",
+        "category": "prediction",
+        "start_seconds": 970,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=970s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "The 'Safe Oil' Rockefeller thought experiment",
+        "category": "mental-model",
+        "start_seconds": 1687,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1687s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "'FDA for AI' was largely fabricated news",
+        "category": "counterintuitive",
+        "start_seconds": 2580,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2580s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "KYC, not pre-approval, for frontier models",
+        "category": "framework",
+        "start_seconds": 2776,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2776s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Cyber capabilities in every frontier model within months",
+        "category": "prediction",
+        "start_seconds": 2716,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2716s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Data center protests are organized, not local",
+        "category": "counterintuitive",
+        "start_seconds": 660,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=660s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "AI is 75% of Q1 GDP growth",
+        "category": "data-point",
+        "start_seconds": 3406,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3406s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "No evidence AI has lifted S&P margins yet",
+        "category": "counterintuitive",
+        "start_seconds": 4014,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4014s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Elon gets a premium because rivals stopped innovating",
+        "category": "framework",
+        "start_seconds": 1390,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1390s"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "headline": "Tesla and SpaceX will merge into 'Elon Corp'",
+        "category": "prediction",
+        "start_seconds": 1462,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1462s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Anthropic hit EBIT-positive at ~$100B ARR pace",
+        "category": "data-point",
+        "start_seconds": 275,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=275s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Recursive self-improvement plus continual learning are AI's two final frontiers",
+        "category": "framework",
+        "start_seconds": 359,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=359s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Stop asking model-makers; ask the factory worker and the nurse",
+        "category": "counterintuitive",
+        "start_seconds": 884,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=884s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "AI backlash mirrors the post-nuclear distrust of science",
+        "category": "mental-model",
+        "start_seconds": 1106,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1106s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "A father used LLMs to find an existing drug that revived his daughter's neurons",
+        "category": "story",
+        "start_seconds": 945,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=945s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Anthropic pays SpaceX $1.25B/month to rent Colossus",
+        "category": "data-point",
+        "start_seconds": 2820,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2820s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "The $2T SpaceX case is a flywheel of capital, tech, and execution moats",
+        "category": "framework",
+        "start_seconds": 5947,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5947s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Cursor's Composer 2.5 went Pareto-dominant after ~3 weeks of RL",
+        "category": "data-point",
+        "start_seconds": 2960,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2960s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "A 'harness' is now as important as the model itself",
+        "category": "definition",
+        "start_seconds": 3204,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3204s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Nvidia's 'share loss to ASICs' story is a benchmarking shadow",
+        "category": "counterintuitive",
+        "start_seconds": 4500,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4500s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "The Nvidia quarter single-handedly saved the neoclouds",
+        "category": "mental-model",
+        "start_seconds": 4753,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4753s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "A closing Strait of Hormuz is relatively good for America",
+        "category": "counterintuitive",
+        "start_seconds": 5907,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5907s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Bond yields and inflation forecasts are flashing red globally",
+        "category": "data-point",
+        "start_seconds": 4945,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4945s"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "headline": "Own \u22645 high-conviction companies; don't speculate on the rest",
+        "category": "actionable",
+        "start_seconds": 5958,
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5958s"
+      }
+    ],
     "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-29",
     "slug": "chamath-palihapitiya",
-    "appearance_count": 3,
-    "claim_count": 0,
-    "span_days": 64
+    "appearance_count": 4,
+    "claim_count": 28,
+    "span_days": 71
   },
   {
     "name": "Jason Calacanis",
     "role": "All-In host / investor",
     "appearances": [
       {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg"
+      },
+      {
         "video_id": "HGbA6ze0_3M",
         "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
         "channel": "All-In Podcast",
@@ -67,11 +308,11 @@
     ],
     "claims": [],
     "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-29",
     "slug": "jason-calacanis",
-    "appearance_count": 3,
+    "appearance_count": 4,
     "claim_count": 0,
-    "span_days": 64
+    "span_days": 71
   },
   {
     "name": "Dwarkesh Patel",
@@ -401,141 +642,12 @@
         "thumbnail": "https://i.ytimg.com/vi/gwW8GKwHB3I/maxresdefault.jpg"
       }
     ],
-    "claims": [
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Anthropic ARR: $10B \u2192 $30B \u2192 $44B in four months",
-        "category": "data-point",
-        "start_seconds": 858,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=858s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Anthropic & OpenAI revenue is 100% supply-constrained",
-        "category": "framework",
-        "start_seconds": 360,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=360s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Elon Web Services emerges with the Anthropic-Colossus deal",
-        "category": "story",
-        "start_seconds": 1140,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1140s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "SpaceX is a five-layer cake \u2014 launch, connectivity, compute, hyperscaler, applications",
-        "category": "framework",
-        "start_seconds": 1391,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1391s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Anthropic could become \"the most powerful monopoly in human history\"",
-        "category": "counterintuitive",
-        "start_seconds": 1916,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1916s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "The Rockefeller / Safe Oil parable",
-        "category": "story",
-        "start_seconds": 1735,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1735s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "AI ranks 29th of 39 issues in voter salience",
-        "category": "data-point",
-        "start_seconds": 3382,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3382s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Tech leaders are getting D-/F on AI PR",
-        "category": "mental-model",
-        "start_seconds": 2470,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2470s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "The \"FDA for AI\" was fake news",
-        "category": "story",
-        "start_seconds": 2660,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2660s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "KYC on frontier-model APIs becomes the consensus solution",
-        "category": "framework",
-        "start_seconds": 2820,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2820s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "The data-center protests are professionally organized",
-        "category": "counterintuitive",
-        "start_seconds": 698,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=698s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Tesla power walls + cars become the distributed-compute layer",
-        "category": "prediction",
-        "start_seconds": 1305,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1305s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Tesla + SpaceX merge into \"Elon Corp\" by end-2026 or mid-2027",
-        "category": "prediction",
-        "start_seconds": 1450,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1450s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "The 500-day reckoning on AI margins",
-        "category": "prediction",
-        "start_seconds": 4035,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4035s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Public-market AI exposure is NOT trading at bubble multiples",
-        "category": "data-point",
-        "start_seconds": 3705,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3705s"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "headline": "Give a piece of the AI cap table to every American",
-        "category": "framework",
-        "start_seconds": 3104,
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3104s"
-      }
-    ],
+    "claims": [],
     "first_uploaded": "2026-03-19",
     "last_uploaded": "2026-05-08",
     "slug": "brad-gerstner",
     "appearance_count": 2,
-    "claim_count": 16,
+    "claim_count": 0,
     "span_days": 50
   },
   {
@@ -569,7 +681,7 @@
   },
   {
     "name": "Richard Sutton",
-    "role": "RL pioneer, 2024 Turing Award winner, guest",
+    "role": "RL pioneer, 2024 Turing Award recipient",
     "appearances": [
       {
         "video_id": "21EYKqUsPfg",
@@ -584,114 +696,114 @@
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "LLMs have no world model, only a speaker model",
+        "headline": "LLMs have no world model \u2014 only a model of speakers",
         "category": "counterintuitive",
-        "start_seconds": 142,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=142s"
+        "start_seconds": 130,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=130s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "No goal means no ground truth, so no prior",
+        "headline": "No goal means no ground truth means no prior",
         "category": "framework",
-        "start_seconds": 233,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=233s"
+        "start_seconds": 240,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=240s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Intelligence is the computational ability to achieve goals",
+        "headline": "LLMs are not surprised, therefore they don't learn",
+        "category": "counterintuitive",
+        "start_seconds": 360,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=360s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "The Era of Experience: stream as both data and target",
         "category": "definition",
-        "start_seconds": 467,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=467s"
+        "start_seconds": 1437,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1437s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "The four-part agent: policy, value, perception, world model",
+        "headline": "Imitation is a thin veneer on animal trial-and-error",
         "category": "mental-model",
-        "start_seconds": 1958,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1958s"
+        "start_seconds": 1037,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1037s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Imitation isn't a basic learning process in animals",
-        "category": "counterintuitive",
-        "start_seconds": 996,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=996s"
-      },
-      {
-        "video_id": "21EYKqUsPfg",
-        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Study squirrels, not Shakespeare",
+        "headline": "Four-part agent: policy, value, perception, world model",
         "category": "framework",
-        "start_seconds": 1095,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1095s"
-      },
-      {
-        "video_id": "21EYKqUsPfg",
-        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "The Era of Experience: a stream-based agent",
-        "category": "framework",
-        "start_seconds": 1443,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1443s"
+        "start_seconds": 1956,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1956s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
         "headline": "Deep learning has no mechanism for good generalization",
         "category": "counterintuitive",
-        "start_seconds": 2192,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2192s"
+        "start_seconds": 2155,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2155s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "TD learning turns 10-year goals into per-step rewards",
+        "headline": "The Big World Hypothesis makes pre-training insufficient",
         "category": "mental-model",
-        "start_seconds": 1717,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1717s"
+        "start_seconds": 1816,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1816s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Cybersecurity becomes the central AI risk",
-        "category": "prediction",
-        "start_seconds": 3146,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3146s"
+        "headline": "AlphaZero echoed TD-Gammon's playbook decades later",
+        "category": "story",
+        "start_seconds": 2738,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2738s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Succession to AI in four steps",
+        "headline": "Sutton's four-step argument for AI succession",
         "category": "framework",
-        "start_seconds": 3308,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3308s"
+        "start_seconds": 3290,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3290s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Four cosmic stages: dust, stars, life, design",
+        "headline": "Cybersecurity becomes the bottleneck for digital minds",
+        "category": "prediction",
+        "start_seconds": 3140,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3140s"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "headline": "Replication era ends; design era begins",
         "category": "mental-model",
-        "start_seconds": 3492,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3492s"
+        "start_seconds": 3450,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3450s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "LLMs may be a fake instance of the Bitter Lesson",
+        "headline": "Understanding the squirrel gets you most of the way to AGI",
         "category": "counterintuitive",
-        "start_seconds": 624,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=624s"
+        "start_seconds": 1162,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1162s"
       },
       {
         "video_id": "21EYKqUsPfg",
         "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "headline": "Train values, not life plans, for AI offspring",
+        "headline": "Stop calling everything a 'model' \u2014 say 'network'",
         "category": "actionable",
-        "start_seconds": 3852,
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3852s"
+        "start_seconds": 1620,
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=1620s"
       }
     ],
     "first_uploaded": "2025-09-26",
@@ -702,135 +814,135 @@
     "span_days": 0
   },
   {
-    "name": "Gavin Baker",
-    "role": "CIO, Atreides Management",
+    "name": "David Sacks",
+    "role": "Investor, AI/crypto czar",
     "appearances": [
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
         "channel": "All-In Podcast",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
-        "upload_date": "2026-05-22",
-        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg"
       }
     ],
     "claims": [
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Karpathy spent a quarter of his time labeling video data by hand",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "AI-native grads who 'cheated' now have agency edge",
+        "category": "counterintuitive",
+        "start_seconds": 420,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=420s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Two types: learn faster vs. avoid learning",
+        "category": "mental-model",
+        "start_seconds": 559,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=559s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Claude proficiency is today's spreadsheet skill",
+        "category": "actionable",
+        "start_seconds": 656,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=656s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Producer Nick's recursive AI briefing built by AI",
         "category": "story",
-        "start_seconds": 183,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=183s"
+        "start_seconds": 700,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=700s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Recursive self-improvement + continual learning = the two final frontiers",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Quis custodiet \u2014 checks and balances for AI",
         "category": "framework",
-        "start_seconds": 386,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=386s"
+        "start_seconds": 1331,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=1331s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Anthropic + OpenAI combined are on ~$100B ARR at 80% gross margins",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Leo XIII got the Industrial Revolution dead wrong",
         "category": "data-point",
-        "start_seconds": 261,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=261s"
+        "start_seconds": 1505,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=1505s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Anti-AI sentiment is partly an anti-humanist psychological reaction, not just economics",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "The Dr. Frankenstein theory of Anthropic",
         "category": "counterintuitive",
-        "start_seconds": 1348,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1348s"
+        "start_seconds": 1614,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=1614s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Zuckerberg recorded employees to train AI, then laid them off \u2014 and said it publicly",
-        "category": "counterintuitive",
-        "start_seconds": 2376,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2376s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Anthropic is paying SpaceX $1.25B/month \u2014 $45B over three years",
-        "category": "data-point",
-        "start_seconds": 2817,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2817s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "SpaceX builds data centers 46% faster each iteration: 122, 91, 66 days",
-        "category": "data-point",
-        "start_seconds": 2900,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2900s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Cursor has more coding tokens than exist on the public internet",
-        "category": "counterintuitive",
-        "start_seconds": 3040,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3040s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "The AI market is cross-sectionally inefficient: chips and cooling can't both be right",
-        "category": "framework",
-        "start_seconds": 4150,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4150s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "NVIDIA projected a $20B CPU business this year \u2014 overnight became a top-3 CPU maker",
-        "category": "data-point",
-        "start_seconds": 4470,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4470s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Older GPUs could have 10\u201315 year useful lives when paired with newer ASICs for decode",
-        "category": "counterintuitive",
-        "start_seconds": 4640,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4640s"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "The harness is as important as the model in the agentic era",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Game theory of building a 'super god'",
         "category": "mental-model",
-        "start_seconds": 3227,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3227s"
+        "start_seconds": 1980,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=1980s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Orbital compute becomes commercially real in second half of 2028 to early 2030",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Intelligence sovereignty is the next privacy",
+        "category": "definition",
+        "start_seconds": 2300,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2300s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Red capture aims to ban open-source models",
         "category": "prediction",
-        "start_seconds": 3980,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3980s"
+        "start_seconds": 2944,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2944s"
       },
       {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "headline": "Strait of Hormuz closure is relatively good for America \u2014 oil shock as forced reindustrialization",
-        "category": "mental-model",
-        "start_seconds": 5330,
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5330s"
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Frontier models have converged \u2014 'no single best'",
+        "category": "data-point",
+        "start_seconds": 2480,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2480s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Fortune 20 CEO: $200M tokens, minimal results",
+        "category": "story",
+        "start_seconds": 2826,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2826s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Coding is most-automated yet job postings rose 15%",
+        "category": "data-point",
+        "start_seconds": 4023,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=4023s"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "headline": "Layoffs are AI-washing for COVID over-hiring",
+        "category": "counterintuitive",
+        "start_seconds": 3941,
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3941s"
       }
     ],
-    "first_uploaded": "2026-05-22",
-    "last_uploaded": "2026-05-22",
-    "slug": "gavin-baker",
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-05-29",
+    "slug": "david-sacks",
     "appearance_count": 1,
     "claim_count": 14,
     "span_days": 0
@@ -1104,8 +1216,142 @@
     "span_days": 0
   },
   {
-    "name": "David Sacks",
-    "role": "Host, All-In; White House AI & Crypto Czar",
+    "name": "Francois Chaubard",
+    "role": "YC Visiting Partner, host",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Inference speed is the new ceiling on intelligence",
+        "category": "mental-model",
+        "start_seconds": 328,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=328s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "RL now exceeds pretraining's compute demands",
+        "category": "data-point",
+        "start_seconds": 301,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=301s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Speculative decoding works because verifying beats generating",
+        "category": "framework",
+        "start_seconds": 463,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=463s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "SSD parallelizes drafting and verification across hardware",
+        "category": "framework",
+        "start_seconds": 727,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=727s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "SSD hits 300 tokens/sec on Llama 70B, 4xH100",
+        "category": "data-point",
+        "start_seconds": 1016,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=1016s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Diffusion-MPC factorizes action proposal from dynamics",
+        "category": "framework",
+        "start_seconds": 1213,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=1213s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Stronger models let you simplify the planner",
+        "category": "counterintuitive",
+        "start_seconds": 1572,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=1572s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "World models are a 1990 idea in new packaging",
+        "category": "story",
+        "start_seconds": 1940,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=1940s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "SIGREG: keep latents Gaussian to avoid collapse",
+        "category": "definition",
+        "start_seconds": 2370,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=2370s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "World models can quantify their own surprise",
+        "category": "counterintuitive",
+        "start_seconds": 2527,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=2527s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Generalization isn't a mystery \u2014 it's PAC-Bayes",
+        "category": "mental-model",
+        "start_seconds": 2663,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=2663s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Ensembles beat one big model when data-constrained",
+        "category": "counterintuitive",
+        "start_seconds": 3328,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=3328s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Joint scaling buys a 5x data-efficiency win",
+        "category": "data-point",
+        "start_seconds": 3679,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=3679s"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "headline": "Self-distillation beats the regularized asymptote",
+        "category": "counterintuitive",
+        "start_seconds": 3597,
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=3597s"
+      }
+    ],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "francois-chaubard",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
+    "name": "David Sachs",
+    "role": "Investor; White House AI/crypto czar",
     "appearances": [
       {
         "video_id": "10MdOvK-aG4",
@@ -1119,7 +1365,91 @@
     "claims": [],
     "first_uploaded": "2026-05-08",
     "last_uploaded": "2026-05-08",
-    "slug": "david-sacks",
+    "slug": "david-sachs",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Kevin Hassett",
+    "role": "Director, National Economic Council",
+    "appearances": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-05-08",
+    "slug": "kevin-hassett",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Scott Bessent",
+    "role": "Treasury Secretary",
+    "appearances": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+        "upload_date": "2026-05-08",
+        "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-05-08",
+    "slug": "scott-bessent",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Bill Gurley",
+    "role": "Guest, ex-Benchmark VC, author",
+    "appearances": [
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-05-29",
+    "slug": "bill-gurley",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Producer Nick",
+    "role": "All-In producer",
+    "appearances": [
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-05-29",
+    "slug": "producer-nick",
     "appearance_count": 1,
     "claim_count": 0,
     "span_days": 0
@@ -1146,6 +1476,69 @@
     "span_days": 0
   },
   {
+    "name": "Gavin Baker",
+    "role": "Guest; CIO, Atreides Management",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-22",
+    "slug": "gavin-baker",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "role": "CEO, Meta",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-22",
+    "slug": "mark-zuckerberg",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Shyam Sankar",
+    "role": "CTO, Palantir",
+    "appearances": [
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M",
+        "upload_date": "2026-05-22",
+        "thumbnail": "https://i.ytimg.com/vi/HGbA6ze0_3M/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-22",
+    "last_uploaded": "2026-05-22",
+    "slug": "shyam-sankar",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
     "name": "Welch Labs host",
     "role": "Narrator",
     "appearances": [
@@ -1162,6 +1555,111 @@
     "first_uploaded": "2026-05-02",
     "last_uploaded": "2026-05-02",
     "slug": "welch-labs-host",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Tanishq Kumar",
+    "role": "Stanford grad student",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "tanishq-kumar",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Guangyao (Stannis) Zhou",
+    "role": "Staff research scientist, Google DeepMind",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "guangyao--stannis--zhou",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Isaac Ward",
+    "role": "Stanford researcher, world models",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "isaac-ward",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Akshay Vegesna",
+    "role": "Co-founder / president, QLabs",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "akshay-vegesna",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Konwoo Kim",
+    "role": "Researcher (Stanford)",
+    "appearances": [
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+        "upload_date": "2026-05-28",
+        "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-28",
+    "last_uploaded": "2026-05-28",
+    "slug": "konwoo-kim",
     "appearance_count": 1,
     "claim_count": 0,
     "span_days": 0

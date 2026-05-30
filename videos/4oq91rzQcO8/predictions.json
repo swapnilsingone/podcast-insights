@@ -1,0 +1,118 @@
+{
+  "video_id": "4oq91rzQcO8",
+  "predictions": [
+    {
+      "id": "4oq91rzQcO8-p1",
+      "claim": "The US is headed toward a ban on open-source/open-weight AI models, justified by 'guardrail' and bio/cyber-threat rhetoric being seeded now.",
+      "speaker": "David Sacks",
+      "category": "ai",
+      "start_seconds": 2944,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "4oq91rzQcO8-p2",
+      "claim": "If the US bans open models, the rest of the world will end up running on Chinese open-weight models.",
+      "speaker": "Bill Gurley",
+      "category": "macro",
+      "start_seconds": 3260,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-01-01"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "4oq91rzQcO8-p3",
+      "claim": "Cheaper, closer-to-bare-metal training stacks (an order-of-magnitude speedup) will shift training from $10B runs to $10M runs, spawning multiple open-source training stacks.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "tech",
+      "start_seconds": 3140,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "4oq91rzQcO8-p4",
+      "claim": "The AI market will monopolize into a duopoly, with Anthropic potentially pulling away — 10x vs 3x growth yields ~90% share within two years if sustained.",
+      "speaker": "David Sacks",
+      "category": "business",
+      "start_seconds": 3320,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": "Sacks flags compute and competitive constraints may break the growth rate."
+    },
+    {
+      "id": "4oq91rzQcO8-p5",
+      "claim": "The majority of cab and truck drivers (of ~20M in the US) will lose their jobs to self-driving within the next decade or two.",
+      "speaker": "Jason Calacanis",
+      "category": "macro",
+      "start_seconds": 4150,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2036-05-29"
+      ],
+      "status": "open",
+      "notes": "Gurley counters that human drivers may persist for ~50% of rides and total numbers could stay flat or grow."
+    },
+    {
+      "id": "4oq91rzQcO8-p6",
+      "claim": "AI will lead to net job gains, not job loss, with a Cambrian explosion of bespoke software and new company creation; unemployment stays near record lows.",
+      "speaker": "David Sacks",
+      "category": "macro",
+      "start_seconds": 3596,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "4oq91rzQcO8-p7",
+      "claim": "Token efficiency will be the dominant enterprise AI theme over the next year as spend ramps faster than expected, tempering growth.",
+      "speaker": "David Sacks",
+      "category": "business",
+      "start_seconds": 3450,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "4oq91rzQcO8-p8",
+      "claim": "AI-driven productivity will make goods and services cheaper through competition rather than producing obscene profits or 70% operating margins.",
+      "speaker": "Bill Gurley",
+      "category": "macro",
+      "start_seconds": 4710,
+      "stated_at": "2026-05-29",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Caveats that healthcare and regulated industries may not see the same price declines."
+    }
+  ],
+  "validated_predictions": []
+}

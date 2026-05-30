@@ -19,40 +19,59 @@
       "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2830s"
     },
     {
-      "id": "HGbA6ze0_3M-p1",
-      "claim": "SpaceX closes its first day of trading with a market cap above $2T",
-      "speaker": "Polymarket (cited by Jason Calacanis)",
+      "id": "HGbA6ze0_3M-p2",
+      "claim": "SpaceX will close its first day of public trading above a $2T market cap.",
+      "speaker": "Polymarket (cited by hosts, 71% odds)",
       "category": "business",
-      "start_seconds": 2875,
+      "start_seconds": 2853,
       "stated_at": "2026-05-22",
-      "horizon_label": "IPO day, expected ~June 12 2026",
+      "horizon_label": "weeks (IPO ~June 12)",
       "revisit_dates": [
-        "2026-06-15"
+        "2026-06-30"
       ],
       "status": "open",
-      "notes": "71% probability on Polymarket at time of recording.",
+      "notes": "IPO expected mid-June, likely June 12; ticker SPCX.",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2875s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2853s"
     },
     {
-      "id": "HGbA6ze0_3M-p8",
-      "claim": "US CPI hits 4.2%+ in May 2026 (Fed forced to raise rates)",
-      "speaker": "Polymarket / professional forecasters (cited)",
-      "category": "macro",
-      "start_seconds": 4965,
-      "stated_at": "2026-05-22",
-      "horizon_label": "within 1 month (May 2026 CPI release)",
+      "id": "10MdOvK-aG4-p4",
+      "claim": "Within three to six months, all major frontier labs\u2014including Chinese and open-source models\u2014will have Mythos-level cyber capabilities.",
+      "speaker": "David Sachs",
+      "category": "tech",
+      "start_seconds": 2716,
+      "stated_at": "2026-05-08",
+      "horizon_label": "3-6 months",
       "revisit_dates": [
-        "2026-06-15"
+        "2026-08-08",
+        "2026-11-08"
       ],
       "status": "open",
-      "notes": "Polymarket 99% probability; survey of professional forecasters projecting up to 6% CPI in Q2.",
+      "notes": "",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2716s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p7",
+      "claim": "US May CPI will come in at 4.2% or higher, with professional forecasters projecting CPI toward 6% in Q2 \u2014 flipping the Fed narrative from cuts to possible hikes.",
+      "speaker": "Jason Calacanis (citing Polymarket / Survey of Professional Forecasters)",
+      "category": "macro",
+      "start_seconds": 5052,
+      "stated_at": "2026-05-22",
+      "horizon_label": "1 quarter",
+      "revisit_dates": [
+        "2026-08-22"
+      ],
+      "status": "open",
+      "notes": "Polymarket cited at 99% for the \u22654.2% May print.",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4965s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5052s"
     },
     {
       "id": "5eqRuVp65eY-p2",
@@ -74,60 +93,98 @@
       "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=640s"
     },
     {
-      "id": "10MdOvK-aG4-p6",
-      "claim": "Every major frontier lab (US + Chinese) will have Mythos-level cyber capability within 3-6 months",
-      "speaker": "David Sacks",
-      "category": "ai-safety",
-      "start_seconds": 2755,
+      "id": "21EYKqUsPfg-p4",
+      "claim": "Current deep learning has no algorithmic mechanism producing good generalization or transfer; without a new technique, scaled LLMs will continue to rely on researcher hand-tuning rather than emergent generalization.",
+      "speaker": "Richard Sutton",
+      "category": "ai",
+      "start_seconds": 2155,
+      "stated_at": "2025-09-26",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2026-09-26",
+        "2028-09-26"
+      ],
+      "status": "open",
+      "notes": "Testable as transfer benchmarks evolve.",
+      "video_id": "21EYKqUsPfg",
+      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2155s"
+    },
+    {
+      "id": "10MdOvK-aG4-p7",
+      "claim": "Spencer Pratt will win the Los Angeles mayoral election.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "politics",
+      "start_seconds": 78,
       "stated_at": "2026-05-08",
-      "horizon_label": "3-6 months",
+      "horizon_label": "indefinite",
       "revisit_dates": [
         "2026-11-08"
       ],
       "status": "open",
-      "notes": "Near-term, falsifiable. Watch for capability reports.",
+      "notes": "",
       "video_id": "10MdOvK-aG4",
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2755s"
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=78s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p8",
+      "claim": "Rising global long-term yields (Japan 30-year at 5.1%, US 10-year at 4.6%) could be the catalyst for a credit crisis via unwinding carry trades.",
+      "speaker": "David Friedberg",
+      "category": "macro",
+      "start_seconds": 5076,
+      "stated_at": "2026-05-22",
+      "horizon_label": "indefinite / 1-2 years",
+      "revisit_dates": [
+        "2026-11-22",
+        "2027-05-22"
+      ],
+      "status": "open",
+      "notes": "Hedged as something for active market participants/economists to confirm.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=5076s"
     },
     {
       "id": "10MdOvK-aG4-p1",
-      "claim": "Anthropic will exit 2026 at ~$100B ARR and reach $1T ARR by 2027",
-      "speaker": "David Sacks",
-      "category": "ai-business",
-      "start_seconds": 900,
+      "claim": "Anthropic will hit its 10x growth forecast this year, exiting ~$100B ARR, and could reach a trillion in ARR by 2027\u2014becoming the most valuable tech company in history.",
+      "speaker": "David Sachs",
+      "category": "ai",
+      "start_seconds": 894,
       "stated_at": "2026-05-08",
-      "horizon_label": "by end-2026 \u2192 2027",
+      "horizon_label": "by 2027",
       "revisit_dates": [
-        "2027-01-15",
+        "2026-12-31",
         "2027-12-31"
       ],
       "status": "open",
-      "notes": "Falsified if 2026 exit < $80B or growth deceleration breaks the 10\u00d7/yr cadence sustainedly. Compounds with Jensen's earlier 'Dario's $1T-by-2030 is too low' prediction \u2014 Sacks is actually more bullish on the timeline.",
+      "notes": "",
       "video_id": "10MdOvK-aG4",
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=900s"
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=894s"
     },
     {
-      "id": "10MdOvK-aG4-p7",
-      "claim": "No FDA-for-AI / pre-release approval regime will be enacted under the Trump administration",
-      "speaker": "David Sacks",
-      "category": "regulation",
-      "start_seconds": 2660,
+      "id": "10MdOvK-aG4-p3",
+      "claim": "Tesla and SpaceX will merge into a single 'Elon Corp' by the end of this year or the middle of next year.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 1462,
       "stated_at": "2026-05-08",
-      "horizon_label": "through this term",
+      "horizon_label": "1-2 years",
       "revisit_dates": [
-        "2027-01-20",
-        "2029-01-20"
+        "2026-12-31",
+        "2027-07-08"
       ],
       "status": "open",
-      "notes": "Strong, falsifiable. Polymarket has 21% chance of a federal AI review by May 31, 2026 as a near-term proxy.",
+      "notes": "",
       "video_id": "10MdOvK-aG4",
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2660s"
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1462s"
     },
     {
       "id": "qTogNUV3CAI-p3",
@@ -243,134 +300,187 @@
       "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=1659s"
     },
     {
-      "id": "10MdOvK-aG4-p3",
-      "claim": "SpaceX IPOs at $2T valuation, trades at 40-50\u00d7 revenue (vs Mag 5 at ~25\u00d7 earnings)",
+      "id": "10MdOvK-aG4-p2",
+      "claim": "The SpaceX IPO will trade at 40-50x revenue, reaching roughly a $2 trillion valuation on $40-50B of next-year revenue.",
       "speaker": "Brad Gerstner",
-      "category": "ipo",
-      "start_seconds": 1390,
+      "category": "business",
+      "start_seconds": 1387,
       "stated_at": "2026-05-08",
-      "horizon_label": "near-term IPO",
+      "horizon_label": "1-2 years",
       "revisit_dates": [
-        "2027-05-08"
+        "2027-05-08",
+        "2028-05-08"
       ],
       "status": "open",
-      "notes": "Tests against actual SpaceX IPO pricing if/when it occurs.",
+      "notes": "",
       "video_id": "10MdOvK-aG4",
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1390s"
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1387s"
     },
     {
-      "id": "HGbA6ze0_3M-p2",
-      "claim": "AI will be improving language models more than the humans in the loop \u2014 the 'recursive valley' is crossed",
-      "speaker": "All-In hosts",
-      "category": "ai-capability",
-      "start_seconds": 448,
+      "id": "HGbA6ze0_3M-p1",
+      "claim": "AI model quality will improve roughly 10x (an order of magnitude) per year as recursive self-improvement takes hold \u2014 and that figure may prove conservative.",
+      "speaker": "Chamath Palihapitiya (Gavin Baker concurs)",
+      "category": "ai",
+      "start_seconds": 254,
       "stated_at": "2026-05-22",
-      "horizon_label": "could already have occurred at Anthropic",
-      "revisit_dates": [
-        "2027-05-22",
-        "2028-05-22"
-      ],
-      "status": "open",
-      "notes": "Chamath speculates this may have already happened; Freeberg uncertain on architecture path.",
-      "video_id": "HGbA6ze0_3M",
-      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=448s"
-    },
-    {
-      "id": "HGbA6ze0_3M-p4",
-      "claim": "Tesla and SpaceX merge into a single combined entity ($ELON or similar)",
-      "speaker": "Chamath Palihapitiya",
-      "category": "business",
-      "start_seconds": 3355,
-      "stated_at": "2026-05-22",
-      "horizon_label": "not if, but when",
-      "revisit_dates": [
-        "2027-05-22",
-        "2029-05-22"
-      ],
-      "status": "open",
-      "notes": "Would be 4th largest company in world; combined physical AI + space + compute moat.",
-      "video_id": "HGbA6ze0_3M",
-      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3355s"
-    },
-    {
-      "id": "HGbA6ze0_3M-p6",
-      "claim": "Cursor becomes the dominant AI coding platform within a year",
-      "speaker": "Gavin Baker / Jason Calacanis",
-      "category": "ai-product",
-      "start_seconds": 3130,
-      "stated_at": "2026-05-22",
-      "horizon_label": "within 1 year",
+      "horizon_label": "1 year",
       "revisit_dates": [
         "2027-05-22"
       ],
       "status": "open",
-      "notes": "Composer 2.5 already Pareto-dominant. Next: new base model pre-trained with Cursor coding data on Colossus.",
+      "notes": "Baker said the 10x-per-year claim 'might seem conservative' if recursive self-improvement is unlocked.",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3130s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=254s"
     },
     {
-      "id": "HGbA6ze0_3M-p7",
-      "claim": "Starship achieves rapid reusability (multiple flights per day of same vehicle)",
+      "id": "HGbA6ze0_3M-p4",
+      "claim": "SpaceX will achieve rapid (multiple-times-per-day) reusability of Starship within a year or two.",
       "speaker": "Gavin Baker",
-      "category": "space",
-      "start_seconds": 4230,
+      "category": "tech",
+      "start_seconds": 4148,
       "stated_at": "2026-05-22",
-      "horizon_label": "1\u20132 years",
+      "horizon_label": "1-2 years",
       "revisit_dates": [
         "2027-05-22",
         "2028-05-22"
       ],
       "status": "open",
-      "notes": "Rapid reusability (not just reusability) required for Mars colony and orbital compute. Gavin: consensus ~1-2 years.",
+      "notes": "Stated ahead of a Starbase launch he was attending that day; 'maybe sooner.'",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4230s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4148s"
     },
     {
-      "id": "10MdOvK-aG4-p4",
-      "claim": "Tesla + SpaceX merge into 'Elon Corp' by end-2026 or mid-2027",
-      "speaker": "Chamath Palihapitiya",
-      "category": "corporate",
-      "start_seconds": 1450,
-      "stated_at": "2026-05-08",
-      "horizon_label": "by mid-2027",
+      "id": "HGbA6ze0_3M-p9",
+      "claim": "Cursor (with its proprietary coding data on Colossus) plus Grok could become the dominant AI/coding player within a year.",
+      "speaker": "Jason Calacanis / Gavin Baker",
+      "category": "ai",
+      "start_seconds": 3104,
+      "stated_at": "2026-05-22",
+      "horizon_label": "1 year",
       "revisit_dates": [
-        "2027-06-30"
+        "2027-05-22"
       ],
       "status": "open",
-      "notes": "High-specificity timeline prediction. Easy to falsify.",
-      "video_id": "10MdOvK-aG4",
-      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "notes": "Premised on Composer 2.5's Pareto-dominant jump after ~3 weeks of RL.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1450s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3104s"
     },
     {
-      "id": "10MdOvK-aG4-p8",
-      "claim": "The 500-day margin reckoning: by late-2027 the market will need evidence AI is lifting S&P 500 operating margins \u2014 either via OpEx contraction or revenue expansion",
+      "id": "wE1ZgJdt4uM-p1",
+      "claim": "Within one to three years, inference will be seen primarily as a capability rather than a cost or convenience lever, with tokens/sec equating to deliverable intelligence.",
+      "speaker": "Tanishq Kumar",
+      "category": "ai",
+      "start_seconds": 355,
+      "stated_at": "2026-05-28",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2027-05-28",
+        "2029-05-28"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wE1ZgJdt4uM",
+      "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=355s"
+    },
+    {
+      "id": "4oq91rzQcO8-p1",
+      "claim": "The US is headed toward a ban on open-source/open-weight AI models, justified by 'guardrail' and bio/cyber-threat rhetoric being seeded now.",
+      "speaker": "David Sacks",
+      "category": "ai",
+      "start_seconds": 2944,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2944s"
+    },
+    {
+      "id": "4oq91rzQcO8-p3",
+      "claim": "Cheaper, closer-to-bare-metal training stacks (an order-of-magnitude speedup) will shift training from $10B runs to $10M runs, spawning multiple open-source training stacks.",
       "speaker": "Chamath Palihapitiya",
+      "category": "tech",
+      "start_seconds": 3140,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3140s"
+    },
+    {
+      "id": "4oq91rzQcO8-p4",
+      "claim": "The AI market will monopolize into a duopoly, with Anthropic potentially pulling away \u2014 10x vs 3x growth yields ~90% share within two years if sustained.",
+      "speaker": "David Sacks",
+      "category": "business",
+      "start_seconds": 3320,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": "Sacks flags compute and competitive constraints may break the growth rate.",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3320s"
+    },
+    {
+      "id": "4oq91rzQcO8-p6",
+      "claim": "AI will lead to net job gains, not job loss, with a Cambrian explosion of bespoke software and new company creation; unemployment stays near record lows.",
+      "speaker": "David Sacks",
       "category": "macro",
-      "start_seconds": 4035,
-      "stated_at": "2026-05-08",
-      "horizon_label": "~500 days (late 2027)",
+      "start_seconds": 3596,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
       "revisit_dates": [
-        "2027-09-08",
-        "2028-05-08"
+        "2027-05-29"
       ],
       "status": "open",
-      "notes": "Most macro-important prediction. Currently 'literally not a scintilla of evidence' of margin lift.",
-      "video_id": "10MdOvK-aG4",
-      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "notes": "",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4035s"
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3596s"
+    },
+    {
+      "id": "4oq91rzQcO8-p7",
+      "claim": "Token efficiency will be the dominant enterprise AI theme over the next year as spend ramps faster than expected, tempering growth.",
+      "speaker": "David Sacks",
+      "category": "business",
+      "start_seconds": 3450,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-05-29"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3450s"
     },
     {
       "id": "5eqRuVp65eY-p3",
@@ -391,23 +501,22 @@
       "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=1310s"
     },
     {
-      "id": "21EYKqUsPfg-p4",
-      "claim": "Current deep learning methods will continue to lack any built-in mechanism for good generalization or transfer until new algorithms explicitly target it.",
-      "speaker": "Richard Sutton",
-      "category": "ai",
-      "start_seconds": 2192,
-      "stated_at": "2025-09-26",
-      "horizon_label": "1-3 years",
+      "id": "10MdOvK-aG4-p5",
+      "claim": "Markets will keep rising for a while, then within hundreds of days (~500) there will be a reckoning moment where token-buyers must show measurable ROI or margins/markets correct.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "macro",
+      "start_seconds": 4090,
+      "stated_at": "2026-05-08",
+      "horizon_label": "1-2 years",
       "revisit_dates": [
-        "2027-09-26",
-        "2028-09-26"
+        "2027-09-20"
       ],
       "status": "open",
-      "notes": "",
-      "video_id": "21EYKqUsPfg",
-      "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-      "channel": "Dwarkesh Patel",
-      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=2192s"
+      "notes": "Chamath cites ~500 days as the window for the AI ROI reckoning.",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=4090s"
     },
     {
       "id": "Hrbq66XqtCo-p5",
@@ -427,24 +536,6 @@
       "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
       "channel": "Dwarkesh Patel",
       "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5560s"
-    },
-    {
-      "id": "10MdOvK-aG4-p2",
-      "claim": "Anthropic becomes the most valuable company in human history \u2014 by itself exceeding Mag 7 combined",
-      "speaker": "David Sacks",
-      "category": "ai-business",
-      "start_seconds": 1916,
-      "stated_at": "2026-05-08",
-      "horizon_label": "~18 months",
-      "revisit_dates": [
-        "2027-11-08"
-      ],
-      "status": "open",
-      "notes": "Conditional on 10x ARR cadence continuing 18 more months. The 'biggest monopoly in human history' framing.",
-      "video_id": "10MdOvK-aG4",
-      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1916s"
     },
     {
       "id": "Hrbq66XqtCo-p1",
@@ -541,42 +632,96 @@
       "url": "https://www.youtube.com/watch?v=kYkIdXwW2AE&t=85s"
     },
     {
-      "id": "10MdOvK-aG4-p5",
-      "claim": "Distributed home compute (Tesla power walls + Pulte/Span/Base Power) becomes the 'next shoe to drop' in compute distribution",
-      "speaker": "Jason Calacanis",
-      "category": "compute",
-      "start_seconds": 1305,
-      "stated_at": "2026-05-08",
-      "horizon_label": "2-4 years",
-      "revisit_dates": [
-        "2028-05-08",
-        "2030-05-08"
-      ],
-      "status": "open",
-      "notes": "Tests against material residential compute deployment numbers.",
-      "video_id": "10MdOvK-aG4",
-      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1305s"
-    },
-    {
-      "id": "HGbA6ze0_3M-p3",
-      "claim": "Orbital compute (space-based AI data centers) becomes commercially real",
-      "speaker": "Gavin Baker",
-      "category": "compute-infrastructure",
-      "start_seconds": 3995,
+      "id": "HGbA6ze0_3M-p6",
+      "claim": "Tesla will eventually be merged into SpaceX/Elon's combined entity ('$ELON').",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 3711,
       "stated_at": "2026-05-22",
-      "horizon_label": "H2 2028 to H1 2030",
+      "horizon_label": "indefinite",
       "revisit_dates": [
-        "2028-12-31",
-        "2030-06-30"
+        "2028-05-22"
       ],
       "status": "open",
-      "notes": "H100 already in space; NVIDIA making space-grade GPU variant; SpaceX Starship rapid reusability prerequisite.",
+      "notes": "Combined market cap would rank ~4th largest company in the world per the hosts.",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3995s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3711s"
+    },
+    {
+      "id": "wE1ZgJdt4uM-p2",
+      "claim": "The amount of human-generated internet text will grow ~3% per year while pretraining compute grows 4-5x per year, so compute spent per data point will rise ~4x year over year, making data the binding constraint.",
+      "speaker": "Konwoo Kim",
+      "category": "ai",
+      "start_seconds": 3192,
+      "stated_at": "2026-05-28",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2028-05-28",
+        "2030-05-28"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wE1ZgJdt4uM",
+      "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=3192s"
+    },
+    {
+      "id": "wE1ZgJdt4uM-p3",
+      "claim": "The joint regularization-plus-ensembling data-efficiency win (~5x) will stay roughly constant even at seed token scales of 10 trillion tokens if the data scaling laws extrapolate.",
+      "speaker": "Konwoo Kim",
+      "category": "ai",
+      "start_seconds": 3739,
+      "stated_at": "2026-05-28",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-05-28"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wE1ZgJdt4uM",
+      "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=3739s"
+    },
+    {
+      "id": "4oq91rzQcO8-p8",
+      "claim": "AI-driven productivity will make goods and services cheaper through competition rather than producing obscene profits or 70% operating margins.",
+      "speaker": "Bill Gurley",
+      "category": "macro",
+      "start_seconds": 4710,
+      "stated_at": "2026-05-29",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Caveats that healthcare and regulated industries may not see the same price declines.",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=4710s"
+    },
+    {
+      "id": "HGbA6ze0_3M-p3",
+      "claim": "Orbital/space-based compute will become a reality between the second half of 2028 and the first half of 2030.",
+      "speaker": "Gavin Baker",
+      "category": "tech",
+      "start_seconds": 6669,
+      "stated_at": "2026-05-22",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2028-07-01",
+        "2030-06-30"
+      ],
+      "status": "open",
+      "notes": "Baker notes a working Nvidia H100 is already in orbit, trained on and used for inference by Karpathy.",
+      "video_id": "HGbA6ze0_3M",
+      "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=6669s"
     },
     {
       "id": "qTogNUV3CAI-p1",
@@ -634,6 +779,42 @@
       "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=530s"
     },
     {
+      "id": "10MdOvK-aG4-p6",
+      "claim": "Combined AI revenue of the market leaders will reach about a trillion dollars by 2029 (Dario Amodei's forecast, cited approvingly).",
+      "speaker": "Brad Gerstner (citing Dario Amodei)",
+      "category": "ai",
+      "start_seconds": 1503,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by 2029",
+      "revisit_dates": [
+        "2029-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "10MdOvK-aG4",
+      "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1503s"
+    },
+    {
+      "id": "4oq91rzQcO8-p2",
+      "claim": "If the US bans open models, the rest of the world will end up running on Chinese open-weight models.",
+      "speaker": "Bill Gurley",
+      "category": "macro",
+      "start_seconds": 3260,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-01-01"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3260s"
+    },
+    {
       "id": "qTogNUV3CAI-p5",
       "claim": "AGI, once it arrives, will help design and build the next versions of itself, potentially accelerating AI R&D significantly.",
       "speaker": "Demis Hassabis",
@@ -689,11 +870,29 @@
       "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5247s"
     },
     {
+      "id": "wE1ZgJdt4uM-p4",
+      "claim": "Finding the right inductive biases via classical theory could close the large sample-efficiency gap between AI and humans, yielding major capability gains.",
+      "speaker": "Akshay Vegesna",
+      "category": "ai",
+      "start_seconds": 2980,
+      "stated_at": "2026-05-28",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-05-28"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wE1ZgJdt4uM",
+      "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=2980s"
+    },
+    {
       "id": "21EYKqUsPfg-p1",
-      "claim": "LLMs will be superseded by systems that learn continually from experience, in another instance of the Bitter Lesson.",
+      "claim": "LLMs will be superseded by systems that learn directly from experience rather than from human-generated text, repeating the historical pattern of the Bitter Lesson.",
       "speaker": "Richard Sutton",
       "category": "ai",
-      "start_seconds": 668,
+      "start_seconds": 697,
       "stated_at": "2025-09-26",
       "horizon_label": "by 2035",
       "revisit_dates": [
@@ -701,18 +900,18 @@
         "2035-09-26"
       ],
       "status": "open",
-      "notes": "",
+      "notes": "Sutton frames this as inevitable but doesn't give a tight date \u2014 uses decade-scale framing.",
       "video_id": "21EYKqUsPfg",
       "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
       "channel": "Dwarkesh Patel",
-      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=668s"
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=697s"
     },
     {
       "id": "21EYKqUsPfg-p3",
-      "claim": "Cybersecurity \u2014 protecting an AI mind from corruption when integrating knowledge from spawned copies \u2014 will become a central problem in the era of digital intelligence.",
+      "claim": "Cybersecurity between digital minds \u2014 preventing hidden goals or 'viruses' from corrupting an AI that incorporates outside knowledge \u2014 will become a major concern in the age of digital spawning.",
       "speaker": "Richard Sutton",
       "category": "tech",
-      "start_seconds": 3146,
+      "start_seconds": 3140,
       "stated_at": "2025-09-26",
       "horizon_label": "by 2035",
       "revisit_dates": [
@@ -720,30 +919,30 @@
         "2035-09-26"
       ],
       "status": "open",
-      "notes": "",
+      "notes": "Novel reframing of AI safety as inter-agent cybersecurity.",
       "video_id": "21EYKqUsPfg",
       "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
       "channel": "Dwarkesh Patel",
-      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3146s"
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3140s"
     },
     {
       "id": "HGbA6ze0_3M-p5",
-      "claim": "SpaceX terrestrial data center revenue reaches $100\u2013200B by 2030\u20132032",
+      "claim": "SpaceX's terrestrial data-center business alone will reach $100-200B in revenue by 2030-2032.",
       "speaker": "Chamath Palihapitiya",
       "category": "business",
-      "start_seconds": 3720,
+      "start_seconds": 3727,
       "stated_at": "2026-05-22",
-      "horizon_label": "2030\u20132032",
+      "horizon_label": "by 2032",
       "revisit_dates": [
         "2030-12-31",
         "2032-12-31"
       ],
       "status": "open",
-      "notes": "Colossus deal cadence implies $40\u201345B in 2027, doubling year-over-year. Excludes orbital.",
+      "notes": "Used to justify buying SpaceX at ~20x revenue on terrestrial data centers alone.",
       "video_id": "HGbA6ze0_3M",
       "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
       "channel": "All-In Podcast",
-      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3720s"
+      "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=3727s"
     },
     {
       "id": "gwW8GKwHB3I-p3",
@@ -837,21 +1036,40 @@
     },
     {
       "id": "21EYKqUsPfg-p2",
-      "claim": "AI succession to digital or augmented intelligences is inevitable given no unified governance, eventual scientific understanding of intelligence, and the accumulation of power by the most intelligent agents.",
+      "claim": "Succession from humans to digital or AI-augmented intelligences is inevitable, given that no global governance exists, intelligence will be understood, capabilities will exceed human level, and intelligent entities accrue power.",
       "speaker": "Richard Sutton",
       "category": "ai",
-      "start_seconds": 3308,
+      "start_seconds": 3290,
       "stated_at": "2025-09-26",
       "horizon_label": "indefinite",
       "revisit_dates": [
-        "2045-09-26"
+        "2035-09-26",
+        "2050-09-26"
       ],
       "status": "open",
-      "notes": "",
+      "notes": "Framed as structurally inevitable rather than dated.",
       "video_id": "21EYKqUsPfg",
       "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
       "channel": "Dwarkesh Patel",
-      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3308s"
+      "url": "https://www.youtube.com/watch?v=21EYKqUsPfg&t=3290s"
+    },
+    {
+      "id": "4oq91rzQcO8-p5",
+      "claim": "The majority of cab and truck drivers (of ~20M in the US) will lose their jobs to self-driving within the next decade or two.",
+      "speaker": "Jason Calacanis",
+      "category": "macro",
+      "start_seconds": 4150,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2036-05-29"
+      ],
+      "status": "open",
+      "notes": "Gurley counters that human drivers may persist for ~50% of rides and total numbers could stay flat or grow.",
+      "video_id": "4oq91rzQcO8",
+      "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=4150s"
     }
   ],
   "validated": []

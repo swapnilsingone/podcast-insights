@@ -1,0 +1,698 @@
+{
+  "video": {
+    "id": "wE1ZgJdt4uM",
+    "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+    "channel": "Y Combinator",
+    "duration_seconds": 4038,
+    "thumbnail": "https://i.ytimg.com/vi/wE1ZgJdt4uM/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+    "upload_date": "2026-05-28",
+    "display_title_html": "Inference, Diffusion, <em>World Models</em>, and More | YC Paper Club"
+  },
+  "thesis": "Five researchers walk through frontier papers showing that the next gains in AI come less from bigger pretraining and more from rethinking the stack — parallelizing inference for capability, factorized diffusion world models for control, elegant anti-collapse regularizers, classical generalization theory, and trading infinite compute for scarce data.",
+  "chapters": [
+    {
+      "start": 12,
+      "title": "Intro from YC Visiting Partner Francois Chaubard"
+    },
+    {
+      "start": 229,
+      "title": "Tanishq Kumar — Speculative Speculative Decoding"
+    },
+    {
+      "start": 1113,
+      "title": "Guangyao (Stannis) Zhou — Diffusion-MPC"
+    },
+    {
+      "start": 1826,
+      "title": "Isaac Ward — LeWorldModeling"
+    },
+    {
+      "start": 2634,
+      "title": "Akshay Vegesna — Deep Learning is Not So Mysterious or Different"
+    },
+    {
+      "start": 3084,
+      "title": "Konwoo Kim — Pretraining Under Infinite Compute"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "mental-model",
+      "headline": "Inference speed is the new ceiling on intelligence",
+      "body": "Tanishq Kumar argues inference is treated as a cost/convenience lever, but within 1-3 years it becomes a capability: if a method's performance scales with how much it thinks, then tokens-per-second is literally the peak intelligence you can deliver. He frames the goal as a datacenter of 20,000 B200s working on the Riemann hypothesis.",
+      "start_seconds": 328,
+      "end_seconds": 408
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "RL now exceeds pretraining's compute demands",
+      "body": "Kumar notes that not only do inference costs dominate training when serving billions of users (trillions of tokens), but within training, RL is starting to exceed the compute requirements of pretraining — and RL is itself just a wrapper on inference.",
+      "start_seconds": 301,
+      "end_seconds": 328
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "Speculative decoding works because verifying beats generating",
+      "body": "A small draft model autoregressively guesses tokens; the big target model verifies them in a single parallel forward pass and accepts those it would plausibly have generated. The key asymmetry is a transformer feature: you can score many tokens in parallel but can only generate one at a time.",
+      "start_seconds": 463,
+      "end_seconds": 544
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "SSD parallelizes drafting and verification across hardware",
+      "body": "Speculative Speculative Decoding breaks the sequential dependency by having the draft model anticipate the most likely verification outcomes and start drafting the next round on separate hardware while the big model verifies — hiding drafting latency entirely. It predicts verification outcomes correctly 80-90% of the time using the draft's own unsampled token distributions.",
+      "start_seconds": 727,
+      "end_seconds": 890
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "SSD hits 300 tokens/sec on Llama 70B, 4xH100",
+      "body": "Kumar's hand-rolled inference engine running SSD beats SGLang (the fastest engine they tested with speculative decoding) and wins on both latency and throughput — sampling Llama 3 70B at 300 tokens/second on four H100s.",
+      "start_seconds": 1016,
+      "end_seconds": 1052
+    },
+    {
+      "id": 6,
+      "category": "framework",
+      "headline": "Diffusion-MPC factorizes action proposal from dynamics",
+      "body": "Stannis Zhou's Diffusion-MPC uses diffusion models to learn multi-step action proposals and multi-step dynamics separately. Because the dynamics model is factored out, when a walker's left ankle 'breaks,' you can adapt only the dynamics model on a little play data and recover performance — something joint-modeling approaches can't do.",
+      "start_seconds": 1213,
+      "end_seconds": 1525
+    },
+    {
+      "id": 7,
+      "category": "counterintuitive",
+      "headline": "Stronger models let you simplify the planner",
+      "body": "Zhou found empirically that using diffusion models — powerful multi-modal data modelers — for both proposals and dynamics let them replace complex planning with a very simple sampling-based planner and still outperform prior state-of-the-art.",
+      "start_seconds": 1572,
+      "end_seconds": 1640
+    },
+    {
+      "id": 8,
+      "category": "story",
+      "headline": "World models are a 1990 idea in new packaging",
+      "body": "Isaac Ward traces 'world models' back to a NeurIPS 1990 paper — older than the average attendee — and to Richard Sutton's exact description of a black box that takes situation plus action and outputs the next situation. The label is new advertising on an old idea, now backed by Yann LeCun's $1.03B March raise.",
+      "start_seconds": 1940,
+      "end_seconds": 1965
+    },
+    {
+      "id": 9,
+      "category": "definition",
+      "headline": "SIGREG: keep latents Gaussian to avoid collapse",
+      "body": "Lay World Model's contribution is a single regularizer — Sketched Isotropic Gaussian regularization — that takes 1D slices over high-dimensional embeddings and forces each to be Gaussian distributed, cheaply enforcing a healthy non-collapsed latent space with one loss term and one hyperparameter instead of elaborate tricks.",
+      "start_seconds": 2370,
+      "end_seconds": 2396
+    },
+    {
+      "id": 10,
+      "category": "counterintuitive",
+      "headline": "World models can quantify their own surprise",
+      "body": "When Ward's team teleports or recolors the T in a push-T task, the world model's prediction error spikes detectably at the exact moment of perturbation — giving model-based agents uncertainty estimates that model-free policies don't natively provide. Lay World Model also runs 50x faster than competitors on under 24GB VRAM with just 15M parameters.",
+      "start_seconds": 2527,
+      "end_seconds": 2600
+    },
+    {
+      "id": 11,
+      "category": "mental-model",
+      "headline": "Generalization isn't a mystery — it's PAC-Bayes",
+      "body": "Akshay Vegesna presents Andrew Gordon Wilson's argument that overparameterization, benign overfitting, and double descent are explained by classical PAC-Bayes bounds (training loss plus a compression term). Bigger models find flatter minima, whose volume grows exponentially with parameters, and flat minima are more compressible — yielding non-vacuous generalization bounds even at billion-parameter scale.",
+      "start_seconds": 2663,
+      "end_seconds": 2860
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Ensembles beat one big model when data-constrained",
+      "body": "Konwoo Kim shows that under fixed data, training a 5-ensemble of small models beats training a single compute-matched large model. Both regularization (weight decay ~30x larger than compute-optimal) and ensembling yield clean power laws with measurable asymptotes; standard recipes overfit and have no asymptote at all.",
+      "start_seconds": 3328,
+      "end_seconds": 3526
+    },
+    {
+      "id": 13,
+      "category": "data-point",
+      "headline": "Joint scaling buys a 5x data-efficiency win",
+      "body": "Kim's joint regularization-plus-ensembling recipe yields roughly 5x effective data efficiency over the standard recipe, projected to hold even at 10 trillion seed tokens. An 8-ensemble can be distilled into a single 300M model retaining ~83% of the gain, and on continued pretraining, 4B math tokens match training on the full 73B (a 17x win).",
+      "start_seconds": 3679,
+      "end_seconds": 3906
+    },
+    {
+      "id": 14,
+      "category": "counterintuitive",
+      "headline": "Self-distillation beats the regularized asymptote",
+      "body": "Kim shows distilling a 300M model into a fresh 300M model improves loss and even beats the asymptote of the regularized recipe — counterintuitive, but connected to prior work viewing self-distillation as implicitly training a two-member ensemble.",
+      "start_seconds": 3597,
+      "end_seconds": 3649
+    }
+  ],
+  "quotes": [
+    {
+      "text": "In one, two, three years, inference is going to be seen as a capability... the speed at which you can do inference, the tokens per second, is exactly the peak intelligence that you can deliver.",
+      "speaker": "Tanishq Kumar",
+      "start_seconds": 355
+    },
+    {
+      "text": "What is RL but a wrapper on inference, right?",
+      "speaker": "Tanishq Kumar",
+      "start_seconds": 314
+    },
+    {
+      "text": "This is a paper that I think is older than the average age of this room, from NeurIPS 1990.",
+      "speaker": "Isaac Ward",
+      "start_seconds": 1940
+    },
+    {
+      "text": "By the no free lunch theorem, the only way that we get improvements in learning efficiency is through inductive biases.",
+      "speaker": "Akshay Vegesna",
+      "start_seconds": 2967
+    },
+    {
+      "text": "If your goal is just to train the best 1.5 billion parameter model, it's better to train an ensemble of a bunch of small models when you're data constrained than to train one really large model.",
+      "speaker": "Konwoo Kim",
+      "start_seconds": 3526
+    },
+    {
+      "text": "Basically sitting right there would be me, Andrew Karpathy, Wojciech Zaremba, and Greg Brockman, because they were starting this thing called OpenAI.",
+      "speaker": "Francois Chaubard",
+      "start_seconds": 81
+    }
+  ],
+  "resources": [
+    {
+      "name": "Tri Dao & Avner May",
+      "context": "Collaborators with Tanishq Kumar on Speculative Speculative Decoding"
+    },
+    {
+      "name": "Andrew Gordon Wilson",
+      "context": "Author of 'Deep Learning is Not So Mysterious or Different,' the generalization paper presented"
+    },
+    {
+      "name": "Yann LeCun / JEPA",
+      "context": "Lay World Model comes out of LeCun's group; $1.03B March raise to train world models"
+    },
+    {
+      "name": "Lotfi et al.",
+      "context": "Compression methods showing negative correlation between bits to encode training set and parameter count"
+    },
+    {
+      "name": "Chris Ré lab (Stanford)",
+      "context": "Where the 'fixed data, infinite compute' generalization question is pursued; Francois's lab"
+    },
+    {
+      "name": "Percy Liang, Tatsunori Hashimoto, Suhas",
+      "context": "Co-authors with Konwoo Kim on Pretraining Under Infinite Compute"
+    },
+    {
+      "name": "Chinchilla scaling laws",
+      "context": "Compute-optimal recipe that the infinite-compute work departs from"
+    },
+    {
+      "name": "DCLM",
+      "context": "General web dataset used to simulate the data-constrained pretraining setting"
+    }
+  ],
+  "action_items": [
+    "If you take one thing: treat inference speed as a capability lever, not just a cost — methods whose performance scales with thinking make tokens/sec the real intelligence ceiling.",
+    "When data-constrained but compute-rich, abandon the single-big-model instinct: combine aggressive regularization with ensembling, then distill back down for cheap inference.",
+    "Factorize action proposal from dynamics in robotics control so you can adapt to changed dynamics with a little play data instead of retraining everything.",
+    "Stop calling generalization a mystery — reach for classical PAC-Bayes and soft inductive biases before inventing new explanations."
+  ],
+  "stats": [
+    {
+      "label": "SSD throughput",
+      "val": "300",
+      "unit": "tok/s",
+      "sub": "Llama 3 70B on 4xH100s via Speculative Speculative Decoding, beating SGLang on latency and throughput."
+    },
+    {
+      "label": "LeCun world-model raise",
+      "val": "$1.03B",
+      "unit": "Mar 2026",
+      "sub": "Yann LeCun's raise primarily to train world models, the backdrop for the Lay World Model paper."
+    },
+    {
+      "label": "Lay World Model speed",
+      "val": "50x",
+      "unit": "faster",
+      "sub": "Versus competing world models, running on <24GB VRAM with only 15M parameters by working in latent space."
+    },
+    {
+      "label": "Continued-pretraining win",
+      "val": "17x",
+      "unit": "data eff.",
+      "sub": "4B math tokens matched training on the full 73B-token corpus using aggressive epoching and ensembling."
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Francois Chaubard",
+        "role": "YC Visiting Partner, host",
+        "speaker": true,
+        "mentions": 8,
+        "first_seconds": 7,
+        "context": "Hosts the first YC Paper Club; Stanford (Chris Ré lab); wants to 'make Pioneer great again.'"
+      },
+      {
+        "name": "Tanishq Kumar",
+        "role": "Stanford grad student",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 219,
+        "context": "Presents Speculative Speculative Decoding, evangelizing inference as capability."
+      },
+      {
+        "name": "Guangyao (Stannis) Zhou",
+        "role": "Staff research scientist, Google DeepMind",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 1093,
+        "context": "Co-leads world-modeling-for-robotics; presents Diffusion-MPC."
+      },
+      {
+        "name": "Isaac Ward",
+        "role": "Stanford researcher, world models",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 1786,
+        "context": "Presents Lay World Model from Yann LeCun's group; 'most world-model-pilled person.'"
+      },
+      {
+        "name": "Akshay Vegesna",
+        "role": "Co-founder / president, QLabs",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2610,
+        "context": "Presents Andrew Gordon Wilson's generalization paper; works with Wilson at QLabs."
+      },
+      {
+        "name": "Konwoo Kim",
+        "role": "Researcher (Stanford)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 3070,
+        "context": "Co-led Pretraining Under Infinite Compute with Suhas, Percy, and Tatsunori."
+      },
+      {
+        "name": "Yann LeCun",
+        "role": "AI researcher, world model advocate",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 1814,
+        "context": "JEPA author; $1.03B raise to train world models; Lay World Model from his group."
+      },
+      {
+        "name": "Andrew Gordon Wilson",
+        "role": "ML professor / generalization researcher",
+        "speaker": false,
+        "mentions": 4,
+        "first_seconds": 2634,
+        "context": "Author of 'Deep Learning is Not So Mysterious or Different.'"
+      },
+      {
+        "name": "Richard S. Sutton",
+        "role": "RL pioneer",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1958,
+        "context": "Cited for describing a modern world model decades ago."
+      },
+      {
+        "name": "Tri Dao",
+        "role": "Researcher",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 235,
+        "context": "Collaborator on Speculative Speculative Decoding."
+      },
+      {
+        "name": "Avner May",
+        "role": "Researcher",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 235,
+        "context": "Collaborator on Speculative Speculative Decoding."
+      },
+      {
+        "name": "Percy Liang",
+        "role": "Stanford professor",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 3082,
+        "context": "Co-author on Pretraining Under Infinite Compute."
+      },
+      {
+        "name": "Tatsunori Hashimoto",
+        "role": "Stanford professor",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 3082,
+        "context": "Co-author ('Potsu') on the infinite-compute paper."
+      },
+      {
+        "name": "Suhas",
+        "role": "Researcher",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 3082,
+        "context": "Co-lead on Pretraining Under Infinite Compute."
+      },
+      {
+        "name": "Sam Altman",
+        "role": "OpenAI CEO",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 110,
+        "context": "Ran YC during Francois's W16 batch."
+      },
+      {
+        "name": "Andrej Karpathy",
+        "role": "AI researcher",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 81,
+        "context": "Sat near Francois at Pioneer while OpenAI was forming."
+      },
+      {
+        "name": "Greg Brockman",
+        "role": "OpenAI co-founder",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 81,
+        "context": "Among those starting OpenAI at Pioneer."
+      },
+      {
+        "name": "Wojciech Zaremba",
+        "role": "OpenAI co-founder",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 81,
+        "context": "Among the early OpenAI team at Pioneer."
+      },
+      {
+        "name": "Harj Taggar",
+        "role": "YC partner",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 95,
+        "context": "Co-conspirator on reviving the Pioneer space for Paper Club."
+      },
+      {
+        "name": "Chris Ré",
+        "role": "Stanford professor",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 3091,
+        "context": "His lab pursues the fixed-data/infinite-compute generalization question."
+      },
+      {
+        "name": "Chris Manning",
+        "role": "Stanford NLP professor",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 64,
+        "context": "Joked as the only person near 300k citations."
+      }
+    ],
+    "companies": [
+      {
+        "name": "Y Combinator",
+        "mentions": 5,
+        "first_seconds": 24,
+        "context": "Host of the first-ever YC Paper Club at the Pioneer building."
+      },
+      {
+        "name": "Google DeepMind",
+        "mentions": 4,
+        "first_seconds": 1098,
+        "context": "Stannis Zhou's employer; produced Dreamer and the original division-policy work."
+      },
+      {
+        "name": "QLabs",
+        "mentions": 2,
+        "first_seconds": 2624,
+        "context": "Akshay Vegesna's startup working with Andrew Wilson on generalization."
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 3,
+        "first_seconds": 81,
+        "context": "Formed at Pioneer during Francois's batch; O1 brought reasoning."
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 2,
+        "first_seconds": 175,
+        "context": "RLHF (2022) cited as the advent of alignment."
+      },
+      {
+        "name": "DeepGram",
+        "mentions": 1,
+        "first_seconds": 122,
+        "context": "Steve's company, in Francois's W16 batch."
+      },
+      {
+        "name": "Cursor",
+        "mentions": 1,
+        "first_seconds": 170,
+        "context": "Named among SF AI companies."
+      },
+      {
+        "name": "Tesla",
+        "mentions": 1,
+        "first_seconds": 187,
+        "context": "Among Palo Alto AI players near Pioneer."
+      },
+      {
+        "name": "xAI",
+        "mentions": 1,
+        "first_seconds": 187,
+        "context": "Named among local AI companies."
+      },
+      {
+        "name": "Thinking Machines",
+        "mentions": 1,
+        "first_seconds": 187,
+        "context": "Named among Palo Alto AI companies."
+      },
+      {
+        "name": "Rappi",
+        "mentions": 1,
+        "first_seconds": 128,
+        "context": "Unicorn from Francois's W16 batch."
+      },
+      {
+        "name": "Nvidia",
+        "mentions": 1,
+        "first_seconds": 333,
+        "context": "B200/A100/H100 GPUs referenced throughout inference talks."
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Speculative Speculative Decoding (SSD)",
+        "type": "inference algorithm",
+        "first_seconds": 232,
+        "context": "Parallelizes drafting and verification across hardware to hide drafting latency."
+      },
+      {
+        "name": "vLLM",
+        "type": "inference engine",
+        "first_seconds": 405,
+        "context": "Open-source baseline for autoregressive and speculative decoding."
+      },
+      {
+        "name": "SGLang",
+        "type": "inference engine",
+        "first_seconds": 988,
+        "context": "Fastest open engine with speculative decoding, beaten by SSD."
+      },
+      {
+        "name": "Diffusion-MPC (DMPC)",
+        "type": "robotics control method",
+        "first_seconds": 1185,
+        "context": "Diffusion-based multi-step action proposals and dynamics for model predictive control."
+      },
+      {
+        "name": "Lay World Model",
+        "type": "world model",
+        "first_seconds": 1814,
+        "context": "JEPA-style world model using SIGREG to avoid latent collapse; 15M params, 50x faster."
+      },
+      {
+        "name": "SIGREG",
+        "type": "regularizer",
+        "first_seconds": 2370,
+        "context": "Sketched Isotropic Gaussian regularization enforcing healthy latent distribution."
+      },
+      {
+        "name": "Push-T",
+        "type": "benchmark task",
+        "first_seconds": 2331,
+        "context": "Toy 2D task for world models and diffusion policy."
+      },
+      {
+        "name": "DCLM",
+        "type": "dataset",
+        "first_seconds": 3309,
+        "context": "General web data used in the data-constrained pretraining experiments."
+      },
+      {
+        "name": "Llama 3 70B",
+        "type": "language model",
+        "first_seconds": 1042,
+        "context": "Model used in SSD's 300 tok/s benchmark."
+      },
+      {
+        "name": "Dino World Model",
+        "type": "world model",
+        "first_seconds": 2241,
+        "context": "Wins on 3D tasks thanks to a large foundational image backbone."
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Inference as capability",
+        "first_seconds": 328,
+        "summary": "Tokens/sec equals peak deliverable intelligence when performance scales with thinking."
+      },
+      {
+        "name": "Speculative decoding",
+        "first_seconds": 463,
+        "summary": "Small model drafts, big model verifies in parallel; verifying is cheaper than generating."
+      },
+      {
+        "name": "Model predictive control (MPC)",
+        "first_seconds": 1138,
+        "summary": "Receding-horizon control using a dynamics model plus planner to maximize a known objective."
+      },
+      {
+        "name": "JEPA",
+        "first_seconds": 2348,
+        "summary": "Joint Embedding Predictive Architecture predicting next latent rather than next image."
+      },
+      {
+        "name": "Representational collapse",
+        "first_seconds": 2123,
+        "summary": "Trivial latent-space minimum where every state maps the same; world models must avoid it."
+      },
+      {
+        "name": "PAC-Bayes generalization bound",
+        "first_seconds": 2663,
+        "summary": "Bounds test loss by training loss plus a compression term; explains overparameterization."
+      },
+      {
+        "name": "Soft inductive bias",
+        "first_seconds": 2849,
+        "summary": "Expressive models that bias toward simpler/compressible solutions to generalize."
+      },
+      {
+        "name": "Scaling laws / asymptotes",
+        "first_seconds": 3274,
+        "summary": "Power-law fits whose asymptote estimates best-possible loss under infinite compute."
+      },
+      {
+        "name": "Ensembling under data constraint",
+        "first_seconds": 3461,
+        "summary": "Multiple small models beat one compute-matched large model when data is fixed."
+      },
+      {
+        "name": "Self-distillation",
+        "first_seconds": 3597,
+        "summary": "Distilling a model into a fresh same-size model improves loss, acting as implicit ensemble."
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Deep Learning is Not So Mysterious or Different",
+        "author": "Andrew Gordon Wilson",
+        "context": "Argues classical theory (PAC-Bayes, soft inductive bias) explains DL generalization."
+      },
+      {
+        "name": "Pretraining Under Infinite Compute",
+        "author": "Konwoo Kim, Suhas, Percy Liang, Tatsunori Hashimoto",
+        "context": "Recipes for data-constrained, compute-unconstrained pretraining."
+      },
+      {
+        "name": "NeurIPS 1990 world model paper",
+        "author": "(early RL literature, incl. Sutton)",
+        "context": "Cited as proof world models are an old idea in new packaging."
+      },
+      {
+        "name": "Diffuser / Decision Diffuser",
+        "author": "(robotics diffusion literature)",
+        "context": "Prior joint-modeling and observation-only diffusion control approaches."
+      },
+      {
+        "name": "Lotfi et al. compression work",
+        "author": "Lotfi et al.",
+        "context": "Shows more parameters yield more compressible solutions, supporting PAC-Bayes view."
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "wE1ZgJdt4uM-p1",
+      "claim": "Within one to three years, inference will be seen primarily as a capability rather than a cost or convenience lever, with tokens/sec equating to deliverable intelligence.",
+      "speaker": "Tanishq Kumar",
+      "category": "ai",
+      "start_seconds": 355,
+      "stated_at": "2026-05-28",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2027-05-28",
+        "2029-05-28"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "wE1ZgJdt4uM-p2",
+      "claim": "The amount of human-generated internet text will grow ~3% per year while pretraining compute grows 4-5x per year, so compute spent per data point will rise ~4x year over year, making data the binding constraint.",
+      "speaker": "Konwoo Kim",
+      "category": "ai",
+      "start_seconds": 3192,
+      "stated_at": "2026-05-28",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2028-05-28",
+        "2030-05-28"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "wE1ZgJdt4uM-p3",
+      "claim": "The joint regularization-plus-ensembling data-efficiency win (~5x) will stay roughly constant even at seed token scales of 10 trillion tokens if the data scaling laws extrapolate.",
+      "speaker": "Konwoo Kim",
+      "category": "ai",
+      "start_seconds": 3739,
+      "stated_at": "2026-05-28",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-05-28"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "wE1ZgJdt4uM-p4",
+      "claim": "Finding the right inductive biases via classical theory could close the large sample-efficiency gap between AI and humans, yielding major capability gains.",
+      "speaker": "Akshay Vegesna",
+      "category": "ai",
+      "start_seconds": 2980,
+      "stated_at": "2026-05-28",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-05-28"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}

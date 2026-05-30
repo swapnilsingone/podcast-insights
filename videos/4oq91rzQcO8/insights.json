@@ -1,0 +1,259 @@
+{
+  "video": {
+    "id": "4oq91rzQcO8",
+    "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+    "channel": "All-In Podcast",
+    "duration_seconds": 5697,
+    "thumbnail": "https://i.ytimg.com/vi/4oq91rzQcO8/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
+    "upload_date": "2026-05-29",
+    "display_title_html": "Anthropic's <em>Digital God</em>, Pope vs AI, and the Coming Open-Source Crackdown"
+  },
+  "thesis": "The besties and Bill Gurley argue that AI's real danger is centralization of power — whether via Anthropic's 'safety' branding driving regulatory capture or a government ban on open-source models — while the job-apocalypse narrative is collapsing into a story about high-agency adoption and corporate over-hiring.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bill Gurley joins the show!"
+    },
+    {
+      "start": 360,
+      "title": "Making yourself valuable in the age of AI, first class of \"AI Natives\""
+    },
+    {
+      "start": 1057,
+      "title": "Reacting to Pope Leo's AI encyclical: Who guards the guardians?"
+    },
+    {
+      "start": 1614,
+      "title": "Anthropic's Digital God: Do they believe they are creating a superior species?"
+    },
+    {
+      "start": 2312,
+      "title": "AI sovereignty, the next era of privacy, open-source crackdown coming?"
+    },
+    {
+      "start": 3596,
+      "title": "The Great AI Jobs Debate: Dario and Sam flip their rhetoric"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "counterintuitive",
+      "headline": "AI-native grads who 'cheated' now have agency edge",
+      "body": "Calacanis says 80% of 400-500 applicants for his 6-position associate program chose to vibe-code a project over writing a deal memo, shocking him. He argues grads who hacked through school with ChatGPT are more tool-fluent and high-agency than those who graduated 5-10 years ago pre-AI.",
+      "start_seconds": 420,
+      "end_seconds": 511
+    },
+    {
+      "id": 2,
+      "category": "mental-model",
+      "headline": "Two types: learn faster vs. avoid learning",
+      "body": "Bill Gurley cites Mark Cuban: there are those who use AI to learn faster than ever and those who use it to avoid learning altogether. Gurley ties this to 'high agency' — the cheat-code users are the ones at risk, not the leaners.",
+      "start_seconds": 559,
+      "end_seconds": 587
+    },
+    {
+      "id": 3,
+      "category": "actionable",
+      "headline": "Claude proficiency is today's spreadsheet skill",
+      "body": "Sacks argues the single most marketable skill right now is proficiency in Claude — being the only AI-native in a firm is like being the only person who could work a spreadsheet. He concedes it's a short-term arbitrage as everyone eventually adapts.",
+      "start_seconds": 656,
+      "end_seconds": 745
+    },
+    {
+      "id": 4,
+      "category": "story",
+      "headline": "Producer Nick's recursive AI briefing built by AI",
+      "body": "Using Claude cowork's expanded memory, Nick fed every All-In transcript in to generate a daily briefing that predicts topics each bestie cares about. He had Claude itself write the skills file and training rules, updating it daily so it 'gets smarter and better.'",
+      "start_seconds": 700,
+      "end_seconds": 919
+    },
+    {
+      "id": 5,
+      "category": "framework",
+      "headline": "Quis custodiet — checks and balances for AI",
+      "body": "Sacks frames AI governance via 'who guards the guardians,' citing the American founding's separation of powers as a second-order solution. His applied answer: keep the AI market competitive with five frontier labs, and use antitrust aggressively if it monopolizes.",
+      "start_seconds": 1331,
+      "end_seconds": 1441
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Leo XIII got the Industrial Revolution dead wrong",
+      "body": "Gurley notes Pope Leo XIV's encyclical mirrors Leo XIII's 1891 warning against industrialization. Since then: workweek 60→34 hrs, real wages up 8-10x, child labor 18%→0, workplace deaths down 40x, life expectancy up 60%, global poverty 75%→under 10%.",
+      "start_seconds": 1505,
+      "end_seconds": 1582
+    },
+    {
+      "id": 7,
+      "category": "counterintuitive",
+      "headline": "The Dr. Frankenstein theory of Anthropic",
+      "body": "Gurley says after reading Anthropic's Constitution, Amanda Askell's podcasts, and Dario's 'Machines of Loving Grace,' he believes some there feel it's their responsibility to build a species superior to humans — 'midwifing a deity,' not writing software.",
+      "start_seconds": 1614,
+      "end_seconds": 1955
+    },
+    {
+      "id": 8,
+      "category": "mental-model",
+      "headline": "Game theory of building a 'super god'",
+      "body": "Chamath argues the unexploitable move is to get three or four labs in a room, dominate them, and set the rules — creating asymmetry because counterparties can't track your technical capability. 'If the refs don't understand the game, you'll run over the game.'",
+      "start_seconds": 1980,
+      "end_seconds": 2118
+    },
+    {
+      "id": 9,
+      "category": "definition",
+      "headline": "Intelligence sovereignty is the next privacy",
+      "body": "Calacanis distinguishes data sovereignty (you can't see my photos) from intelligence sovereignty (you can't use AI to interpret my world and tell me what to think). He pegs Apple as the dark horse, with M5 hardware (48-128GB, rumored 1TB Mac Studio) running local open models.",
+      "start_seconds": 2300,
+      "end_seconds": 2384
+    },
+    {
+      "id": 10,
+      "category": "prediction",
+      "headline": "Red capture aims to ban open-source models",
+      "body": "Sacks says breadcrumbs in Anthropic blog posts (open models lack guardrails, enable cyber/bio threats) are predicate facts laying groundwork for a future U.S. ban on open-weight models — which would just hand the rest of the world to Chinese models.",
+      "start_seconds": 2944,
+      "end_seconds": 3276
+    },
+    {
+      "id": 11,
+      "category": "data-point",
+      "headline": "Frontier models have converged — 'no single best'",
+      "body": "Chamath cites Rogo's financial-analyst eval: Opus 4.7, GPT-5.5, and Sonnet 4.6 separated by under 0.3 percentage points. With trillions going into training and quality asymptoting, models are commoditizing fast — raising the ROI question on incremental spend.",
+      "start_seconds": 2480,
+      "end_seconds": 2533
+    },
+    {
+      "id": 12,
+      "category": "story",
+      "headline": "Fortune 20 CEO: $200M tokens, minimal results",
+      "body": "Chamath relays a Vivek Garapalli tweet: a Fortune 20 CEO asked for $1B in AI OpEx savings, but six months in the team spent $200M on tokens with minimal results, now pulling budgets and cutting licenses. A Polymarket post claims one client accidentally spent half a billion in a month.",
+      "start_seconds": 2826,
+      "end_seconds": 3413
+    },
+    {
+      "id": 13,
+      "category": "data-point",
+      "headline": "Coding is most-automated yet job postings rose 15%",
+      "body": "Sacks: despite AI writing most code, software developer job postings hit a 3-year high, up 15% YoY. GitHub commits went from ~1B last year to 1.1B last month (a ~14x annualized surge) — more code means more humans needed to manage rising complexity.",
+      "start_seconds": 4023,
+      "end_seconds": 4189
+    },
+    {
+      "id": 14,
+      "category": "counterintuitive",
+      "headline": "Layoffs are AI-washing for COVID over-hiring",
+      "body": "Chamath argues Meta, Block, and others over-hired and mis-hired post-COVID — often to hoard talent off the market (the Google strategy) — and now blame AI as a convenient two-letter scapegoat. A securities lawyer warns AI-washing could constitute shareholder fraud.",
+      "start_seconds": 3941,
+      "end_seconds": 5390
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't think they think they're writing software. I think they're midwifing a deity.",
+      "speaker": "Bill Gurley",
+      "start_seconds": 1928
+    },
+    {
+      "text": "If the refs don't understand the game, you'll run over the game.",
+      "speaker": "Chamath Palihapitiya",
+      "start_seconds": 2108
+    },
+    {
+      "text": "Now, intelligence sovereignty is you can't tell me what to think.",
+      "speaker": "Jason Calacanis",
+      "start_seconds": 2350
+    },
+    {
+      "text": "There is no single best model anymore.",
+      "speaker": "Chamath Palihapitiya",
+      "start_seconds": 2491
+    },
+    {
+      "text": "The plural of anecdotes is not data.",
+      "speaker": "David Sacks",
+      "start_seconds": 4031
+    },
+    {
+      "text": "The best way to protect yourself from AI is to be the most AI-enabled version of yourself you can be.",
+      "speaker": "Bill Gurley",
+      "start_seconds": 412
+    }
+  ],
+  "resources": [
+    {
+      "name": "Running Down a Dream (book & rdad.org fellowship)",
+      "context": "Gurley's book and new $5,000 grant program for chasing dreams"
+    },
+    {
+      "name": "Pope Leo XIV — encyclical 'Magnificat Humanitas'",
+      "context": "235-page, 42,000-word missive warning leaders to safeguard humanity from AI"
+    },
+    {
+      "name": "Dario Amodei — 'Machines of Loving Grace'",
+      "context": "blog post envisioning AI economy rewarding humans; cited as deity-building evidence"
+    },
+    {
+      "name": "Chris Olah — Anthropic Constitution (~80 pages)",
+      "context": "Anthropic co-founder's document Gurley urges people to read"
+    },
+    {
+      "name": "Amanda Askell",
+      "context": "Anthropic's chief philosopher, cited for her podcast language"
+    },
+    {
+      "name": "Rogo",
+      "context": "built financial-analyst evals showing frontier model convergence"
+    },
+    {
+      "name": "Mark Cuban",
+      "context": "quote: two types — use AI to learn faster vs. avoid learning"
+    },
+    {
+      "name": "David Solomon (Goldman Sachs) NYT op-ed",
+      "context": "argued AI job apocalypse is overblown"
+    },
+    {
+      "name": "Mike Rowe Works Foundation",
+      "context": "$16M funding 2,600 scholarships for skilled trades reskilling"
+    },
+    {
+      "name": "Abacus (go abacus.co)",
+      "context": "on-prem AI hardware/platform company Calacanis invested in"
+    }
+  ],
+  "action_items": [
+    "Become the most AI-enabled version of yourself — be the most Claude-proficient person among your peers, because that early advantage compounds and makes you 10x more valuable.",
+    "Don't write prompts from scratch — ask the AI to write your mega-prompt and skills file, then iterate daily, because the tool builds better structure than you can from a blank page.",
+    "If your industry is regulated (finance, healthcare, legal), build a model-agnostic control plane that can hot-swap providers, because terms-of-service and political risk can shut you off.",
+    "If your job is at risk, reskill into AI fluency or the skilled trades (plumbing, welding, electrical) where there's a massive labor shortage, rather than waiting on a government retraining program."
+  ],
+  "stats": [
+    {
+      "label": "Anthropic encyclical",
+      "val": "42,000",
+      "unit": "words",
+      "sub": "Pope Leo XIV's 235-page first encyclical on AI"
+    },
+    {
+      "label": "Model convergence",
+      "val": "<0.3",
+      "unit": "pts",
+      "sub": "spread between Opus 4.7, GPT-5.5 and Sonnet 4.6 on Rogo's analyst eval"
+    },
+    {
+      "label": "Dev job postings",
+      "val": "+15%",
+      "unit": "YoY",
+      "sub": "software developer recs at a 3-year high despite code automation"
+    },
+    {
+      "label": "Wasted token spend",
+      "val": "$200M",
+      "unit": "/ 6mo",
+      "sub": "Fortune 20 firm spent it on tokens with minimal results vs. a $1B savings goal"
+    }
+  ]
+}
