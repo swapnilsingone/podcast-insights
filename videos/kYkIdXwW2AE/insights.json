@@ -279,5 +279,8 @@
       "unit": "ImageNet",
       "sub": "Frozen encoder + linear probe beat fully-supervised AlexNet (59.3%) by 13.9 points"
     }
+  ],
+  "topics": [
+    "ai"
   ]
 }

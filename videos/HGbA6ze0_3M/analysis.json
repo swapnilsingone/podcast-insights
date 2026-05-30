@@ -763,5 +763,10 @@
       "status": "open",
       "notes": "Premised on Composer 2.5's Pareto-dominant jump after ~3 weeks of RL."
     }
+  ],
+  "topics": [
+    "finance",
+    "ai",
+    "macro"
   ]
 }

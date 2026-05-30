@@ -8,9 +8,14 @@
     "duration_seconds": 5697,
     "upload_date": "2026-05-29",
     "thesis": "The besties and Bill Gurley argue that AI's real danger is centralization of power \u2014 whether via Anthropic's 'safety' branding driving regulatory capture or a government ban on open-source models \u2014 while the job-apocalypse narrative is collapsing into a story about high-agency adoption and corporate over-hiring.",
+    "topics": [
+      "ai",
+      "macro",
+      "business"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T06:20:17.351005Z",
+    "processed_at": "2026-05-30T15:54:53.706377Z",
     "processing_lag_days": 1,
     "path": "../videos/4oq91rzQcO8/index.html"
   },
@@ -23,9 +28,12 @@
     "duration_seconds": 4038,
     "upload_date": "2026-05-28",
     "thesis": "Five researchers walk through frontier papers showing that the next gains in AI come less from bigger pretraining and more from rethinking the stack \u2014 parallelizing inference for capability, factorized diffusion world models for control, elegant anti-collapse regularizers, classical generalization theory, and trading infinite compute for scarce data.",
+    "topics": [
+      "ai"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T07:39:56.256645Z",
+    "processed_at": "2026-05-30T15:54:53.720118Z",
     "processing_lag_days": 2,
     "path": "../videos/wE1ZgJdt4uM/index.html"
   },
@@ -38,10 +46,15 @@
     "duration_seconds": 6120,
     "upload_date": "2026-05-22",
     "thesis": "AI economics have flipped from speculative to undeniably profitable \u2014 Anthropic is EBIT-positive and SpaceX's S-1 reveals a $15B/yr compute-rental business \u2014 yet public sentiment, geopolitics, and a brewing bond crisis are turning into the real constraints on the boom.",
+    "topics": [
+      "finance",
+      "ai",
+      "macro"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-26T11:45:46.824152Z",
-    "processing_lag_days": 4,
+    "processed_at": "2026-05-30T15:54:53.711140Z",
+    "processing_lag_days": 8,
     "path": "../videos/HGbA6ze0_3M/index.html"
   },
   {
@@ -53,10 +66,15 @@
     "duration_seconds": 4921,
     "upload_date": "2026-05-08",
     "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute\u2014not demand\u2014and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
+    "topics": [
+      "ai",
+      "business",
+      "finance"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-26T08:43:01.780214Z",
-    "processing_lag_days": 18,
+    "processed_at": "2026-05-30T15:54:53.701239Z",
+    "processing_lag_days": 22,
     "path": "../videos/10MdOvK-aG4/index.html"
   },
   {
@@ -68,10 +86,13 @@
     "duration_seconds": 2244,
     "upload_date": "2026-05-02",
     "thesis": "LeCun argues that LLMs are a dead-end for general intelligence and that JEPA \u2014 a non-generative, joint-embedding world-model architecture \u2014 is the right substrate for agents that can predict the consequences of their actions.",
+    "topics": [
+      "ai"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-24T15:55:41.456121Z",
-    "processing_lag_days": 22,
+    "processed_at": "2026-05-30T15:54:53.716350Z",
+    "processing_lag_days": 28,
     "path": "../videos/kYkIdXwW2AE/index.html"
   },
   {
@@ -83,10 +104,15 @@
     "duration_seconds": 6192,
     "upload_date": "2026-04-15",
     "thesis": "Nvidia's moat isn't one thing \u2014 it's the whole five-layer stack (supply chain, chips, CUDA, ecosystem, install base) compounding annually. The TPU/ASIC threat is overstated, the China export-control debate is being fought on cartoon premises, and the next leg of compute scaling comes from algorithms and segmentation, not just transistors.",
+    "topics": [
+      "ai",
+      "business",
+      "tech"
+    ],
     "insight_count": 16,
     "quote_count": 8,
-    "processed_at": "2026-05-22T14:51:40.176059Z",
-    "processing_lag_days": 37,
+    "processed_at": "2026-05-30T15:54:53.713614Z",
+    "processing_lag_days": 45,
     "path": "../videos/Hrbq66XqtCo/index.html"
   },
   {
@@ -98,10 +124,14 @@
     "duration_seconds": 3966,
     "upload_date": "2026-03-19",
     "thesis": "Jensen Huang argues Nvidia has evolved from a GPU company into an AI-factory company whose moat is the full CUDA stack across every compute layer, and that agentic AI plus physical AI represent a vastly larger market than analysts model \u2014 so the industry's real risk is self-inflicted doomerism, not technology.",
+    "topics": [
+      "ai",
+      "business"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-25T16:37:35.155620Z",
-    "processing_lag_days": 67,
+    "processed_at": "2026-05-30T15:54:53.714428Z",
+    "processing_lag_days": 72,
     "path": "../videos/gwW8GKwHB3I/index.html"
   },
   {
@@ -113,10 +143,13 @@
     "duration_seconds": 4029,
     "upload_date": "2025-09-26",
     "thesis": "Turing Award winner Richard Sutton argues LLMs are a conceptual dead-end because they mimic human outputs without a goal, ground truth, or world model, and that true intelligence will come from agents that learn continually from experience \u2014 and that succession to designed AI is inevitable and worth embracing.",
+    "topics": [
+      "ai"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-28T04:48:41.235686Z",
-    "processing_lag_days": 244,
+    "processed_at": "2026-05-30T15:54:53.704152Z",
+    "processing_lag_days": 246,
     "path": "../videos/21EYKqUsPfg/index.html"
   },
   {
@@ -128,10 +161,14 @@
     "duration_seconds": 1447,
     "upload_date": "2024-09-13",
     "thesis": "Neural scaling laws describe a startlingly simple power-law relationship between compute, data, model size and model loss \u2014 and the manifold hypothesis offers a compelling but incomplete theoretical reason why this 'compute-efficient frontier' exists at all.",
+    "topics": [
+      "ai",
+      "science"
+    ],
     "insight_count": 14,
     "quote_count": 5,
-    "processed_at": "2026-05-24T15:57:10.501900Z",
-    "processing_lag_days": 618,
+    "processed_at": "2026-05-30T15:54:53.709029Z",
+    "processing_lag_days": 624,
     "path": "../videos/5eqRuVp65eY/index.html"
   },
   {
@@ -143,10 +180,14 @@
     "duration_seconds": 3694,
     "upload_date": "2024-02-28",
     "thesis": "Hassabis argues the most likely path to AGI is large multimodal models used as world-model priors with AlphaZero-style planning and search bolted on top \u2014 and that DeepMind is roughly on the 20-year timeline it set in 2010.",
+    "topics": [
+      "ai",
+      "science"
+    ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-24T15:58:54.133014Z",
-    "processing_lag_days": 816,
+    "processed_at": "2026-05-30T15:54:53.718219Z",
+    "processing_lag_days": 822,
     "path": "../videos/qTogNUV3CAI/index.html"
   }
 ]

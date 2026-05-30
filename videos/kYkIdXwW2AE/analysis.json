@@ -590,5 +590,8 @@
       "status": "open",
       "notes": "Check next-gen DINO/JEPA leaderboards vs supervised SOTA on classification, detection, segmentation."
     }
+  ],
+  "topics": [
+    "ai"
   ]
 }

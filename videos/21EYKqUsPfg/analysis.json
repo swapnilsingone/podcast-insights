@@ -508,5 +508,8 @@
       "status": "open",
       "notes": "Testable as transfer benchmarks evolve."
     }
+  ],
+  "topics": [
+    "ai"
   ]
 }

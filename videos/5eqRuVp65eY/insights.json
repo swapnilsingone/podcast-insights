@@ -245,5 +245,9 @@
       "unit": "nats",
       "sub": "DeepMind's estimated floor on cross-entropy for natural text, even with infinite data and model size."
     }
+  ],
+  "topics": [
+    "ai",
+    "science"
   ]
 }

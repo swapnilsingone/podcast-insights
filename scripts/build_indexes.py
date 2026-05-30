@@ -88,6 +88,7 @@ def main():
             "duration_seconds": v.get("duration_seconds"),
             "upload_date": upload_date,
             "thesis": ins.get("thesis"),
+            "topics": ins.get("topics", []),
             "insight_count": len(ins.get("insights", [])),
             "quote_count": len(ins.get("quotes", [])),
             "processed_at": processed_at,
@@ -225,6 +226,12 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     soon = now + datetime.timedelta(days=90)
     recent = now - datetime.timedelta(days=14)
+    topic_counts = defaultdict(int)
+    for v in library:
+        for t in v.get("topics", []):
+            topic_counts[t] += 1
+    topics_summary = [{"topic": t, "video_count": n}
+                      for t, n in sorted(topic_counts.items(), key=lambda kv: (-kv[1], kv[0]))]
     recurring_entities = [e for e in entities_out if e["video_count"] >= 2]
     recurring_speakers = [s for s in speakers_out if s["appearance_count"] >= 2]
     due_predictions = [p for p in predictions if p.get("status") == "open" and any(
@@ -264,6 +271,7 @@ def main():
             "predictions_validated": len(validated)
         },
         "uploads": upload_stats,
+        "topics": topics_summary,
         "recurring_entities": recurring_entities[:20],
         "recurring_speakers": recurring_speakers[:10],
         "predictions_due_within_90d": due_predictions,

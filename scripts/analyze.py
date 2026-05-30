@@ -60,6 +60,7 @@ Produce a SINGLE JSON object with this exact shape:
     "display_title_html": "..."
   }},
   "thesis": "One sentence — what is this video actually arguing or teaching? Specific, not generic.",
+  "topics": ["ai", "finance"],
   "chapters": [
     {{ "start": 0, "title": "..." }}
   ],
@@ -109,6 +110,13 @@ Produce a SINGLE JSON object with this exact shape:
 }}
 
 # Constraints
+- `topics` — 1-3 video-level topics, MOST important first, from this exact vocabulary:
+  `ai` (AI/ML capability, research, models), `finance` (markets, stocks, valuations,
+  investing, earnings), `business` (company strategy, deals, org moves), `macro`
+  (economy, policy, geopolitics, regulation), `tech` (non-AI technology, hardware,
+  infra), `science` (research outside AI), `crypto`. Use `finance` for episodes that
+  dwell on stock prices, market caps, selloffs, or investment theses. Pick only what
+  the episode genuinely centers on — do not tag all seven.
 - 8-14 insights. Skip filler. Every insight cites a timestamp range from the transcript — never fabricate.
 - Categories MUST be from the enum listed above.
 - `display_title_html` is the editorial-styled title, optionally with one `<em>...</em>` around a key phrase for visual emphasis. Fall back to the plain title if there's no obvious emphasis.

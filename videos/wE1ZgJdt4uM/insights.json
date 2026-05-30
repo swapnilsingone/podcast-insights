@@ -247,5 +247,8 @@
       "unit": "data eff.",
       "sub": "4B math tokens matched training on the full 73B-token corpus using aggressive epoching and ensembling."
     }
+  ],
+  "topics": [
+    "ai"
   ]
 }

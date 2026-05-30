@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-05-30T07:39:56.692442Z",
+  "snapshot_at": "2026-05-30T15:54:53.958830Z",
   "totals": {
     "videos": 10,
     "insights": 142,
@@ -15,8 +15,8 @@
     "oldest_upload": "2024-02-28",
     "newest_upload": "2026-05-29",
     "span_days": 821,
-    "avg_processing_lag_days": 182.9,
-    "median_processing_lag_days": 37,
+    "avg_processing_lag_days": 187.0,
+    "median_processing_lag_days": 45,
     "by_month": [
       {
         "month": "2024-02",
@@ -44,6 +44,32 @@
       }
     ]
   },
+  "topics": [
+    {
+      "topic": "ai",
+      "video_count": 10
+    },
+    {
+      "topic": "business",
+      "video_count": 4
+    },
+    {
+      "topic": "finance",
+      "video_count": 2
+    },
+    {
+      "topic": "macro",
+      "video_count": 2
+    },
+    {
+      "topic": "science",
+      "video_count": 2
+    },
+    {
+      "topic": "tech",
+      "video_count": 1
+    }
+  ],
   "recurring_entities": [
     {
       "name": "OpenAI",
@@ -2157,9 +2183,14 @@
       "duration_seconds": 5697,
       "upload_date": "2026-05-29",
       "thesis": "The besties and Bill Gurley argue that AI's real danger is centralization of power \u2014 whether via Anthropic's 'safety' branding driving regulatory capture or a government ban on open-source models \u2014 while the job-apocalypse narrative is collapsing into a story about high-agency adoption and corporate over-hiring.",
+      "topics": [
+        "ai",
+        "macro",
+        "business"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-30T06:20:17.351005Z",
+      "processed_at": "2026-05-30T15:54:53.706377Z",
       "processing_lag_days": 1,
       "path": "../videos/4oq91rzQcO8/index.html"
     },
@@ -2172,9 +2203,12 @@
       "duration_seconds": 4038,
       "upload_date": "2026-05-28",
       "thesis": "Five researchers walk through frontier papers showing that the next gains in AI come less from bigger pretraining and more from rethinking the stack \u2014 parallelizing inference for capability, factorized diffusion world models for control, elegant anti-collapse regularizers, classical generalization theory, and trading infinite compute for scarce data.",
+      "topics": [
+        "ai"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-30T07:39:56.256645Z",
+      "processed_at": "2026-05-30T15:54:53.720118Z",
       "processing_lag_days": 2,
       "path": "../videos/wE1ZgJdt4uM/index.html"
     },
@@ -2187,10 +2221,15 @@
       "duration_seconds": 6120,
       "upload_date": "2026-05-22",
       "thesis": "AI economics have flipped from speculative to undeniably profitable \u2014 Anthropic is EBIT-positive and SpaceX's S-1 reveals a $15B/yr compute-rental business \u2014 yet public sentiment, geopolitics, and a brewing bond crisis are turning into the real constraints on the boom.",
+      "topics": [
+        "finance",
+        "ai",
+        "macro"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-26T11:45:46.824152Z",
-      "processing_lag_days": 4,
+      "processed_at": "2026-05-30T15:54:53.711140Z",
+      "processing_lag_days": 8,
       "path": "../videos/HGbA6ze0_3M/index.html"
     },
     {
@@ -2202,10 +2241,15 @@
       "duration_seconds": 4921,
       "upload_date": "2026-05-08",
       "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute\u2014not demand\u2014and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
+      "topics": [
+        "ai",
+        "business",
+        "finance"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-26T08:43:01.780214Z",
-      "processing_lag_days": 18,
+      "processed_at": "2026-05-30T15:54:53.701239Z",
+      "processing_lag_days": 22,
       "path": "../videos/10MdOvK-aG4/index.html"
     },
     {
@@ -2217,10 +2261,13 @@
       "duration_seconds": 2244,
       "upload_date": "2026-05-02",
       "thesis": "LeCun argues that LLMs are a dead-end for general intelligence and that JEPA \u2014 a non-generative, joint-embedding world-model architecture \u2014 is the right substrate for agents that can predict the consequences of their actions.",
+      "topics": [
+        "ai"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-24T15:55:41.456121Z",
-      "processing_lag_days": 22,
+      "processed_at": "2026-05-30T15:54:53.716350Z",
+      "processing_lag_days": 28,
       "path": "../videos/kYkIdXwW2AE/index.html"
     }
   ],
@@ -2234,9 +2281,14 @@
       "duration_seconds": 5697,
       "upload_date": "2026-05-29",
       "thesis": "The besties and Bill Gurley argue that AI's real danger is centralization of power \u2014 whether via Anthropic's 'safety' branding driving regulatory capture or a government ban on open-source models \u2014 while the job-apocalypse narrative is collapsing into a story about high-agency adoption and corporate over-hiring.",
+      "topics": [
+        "ai",
+        "macro",
+        "business"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-30T06:20:17.351005Z",
+      "processed_at": "2026-05-30T15:54:53.706377Z",
       "processing_lag_days": 1,
       "path": "../videos/4oq91rzQcO8/index.html"
     },
@@ -2249,9 +2301,12 @@
       "duration_seconds": 4038,
       "upload_date": "2026-05-28",
       "thesis": "Five researchers walk through frontier papers showing that the next gains in AI come less from bigger pretraining and more from rethinking the stack \u2014 parallelizing inference for capability, factorized diffusion world models for control, elegant anti-collapse regularizers, classical generalization theory, and trading infinite compute for scarce data.",
+      "topics": [
+        "ai"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-30T07:39:56.256645Z",
+      "processed_at": "2026-05-30T15:54:53.720118Z",
       "processing_lag_days": 2,
       "path": "../videos/wE1ZgJdt4uM/index.html"
     },
@@ -2264,10 +2319,15 @@
       "duration_seconds": 6120,
       "upload_date": "2026-05-22",
       "thesis": "AI economics have flipped from speculative to undeniably profitable \u2014 Anthropic is EBIT-positive and SpaceX's S-1 reveals a $15B/yr compute-rental business \u2014 yet public sentiment, geopolitics, and a brewing bond crisis are turning into the real constraints on the boom.",
+      "topics": [
+        "finance",
+        "ai",
+        "macro"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-26T11:45:46.824152Z",
-      "processing_lag_days": 4,
+      "processed_at": "2026-05-30T15:54:53.711140Z",
+      "processing_lag_days": 8,
       "path": "../videos/HGbA6ze0_3M/index.html"
     },
     {
@@ -2279,10 +2339,15 @@
       "duration_seconds": 4921,
       "upload_date": "2026-05-08",
       "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute\u2014not demand\u2014and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
+      "topics": [
+        "ai",
+        "business",
+        "finance"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-26T08:43:01.780214Z",
-      "processing_lag_days": 18,
+      "processed_at": "2026-05-30T15:54:53.701239Z",
+      "processing_lag_days": 22,
       "path": "../videos/10MdOvK-aG4/index.html"
     },
     {
@@ -2294,43 +2359,21 @@
       "duration_seconds": 2244,
       "upload_date": "2026-05-02",
       "thesis": "LeCun argues that LLMs are a dead-end for general intelligence and that JEPA \u2014 a non-generative, joint-embedding world-model architecture \u2014 is the right substrate for agents that can predict the consequences of their actions.",
+      "topics": [
+        "ai"
+      ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-05-24T15:55:41.456121Z",
-      "processing_lag_days": 22,
+      "processed_at": "2026-05-30T15:54:53.716350Z",
+      "processing_lag_days": 28,
       "path": "../videos/kYkIdXwW2AE/index.html"
     }
   ],
   "growth_by_day": [
     {
-      "date": "2026-05-22",
-      "videos": 1,
-      "insights": 16
-    },
-    {
-      "date": "2026-05-24",
-      "videos": 3,
-      "insights": 42
-    },
-    {
-      "date": "2026-05-25",
-      "videos": 1,
-      "insights": 14
-    },
-    {
-      "date": "2026-05-26",
-      "videos": 2,
-      "insights": 28
-    },
-    {
-      "date": "2026-05-28",
-      "videos": 1,
-      "insights": 14
-    },
-    {
       "date": "2026-05-30",
-      "videos": 2,
-      "insights": 28
+      "videos": 10,
+      "insights": 142
     }
   ]
 }

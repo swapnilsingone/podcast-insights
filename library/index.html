@@ -48,6 +48,17 @@ header.hero { padding: 8px 0 28px; border-bottom: 1px solid var(--line); margin-
 .chan-chip .count { font-family: var(--mono); font-size: 10px; color: var(--muted); padding: 1px 5px; border-radius: 999px; background: var(--bg-2); }
 .chan-chip.active .count { background: rgba(0,0,0,0.15); color: rgba(0,0,0,0.7); }
 
+/* Topic filter chips — same shape as channels, distinct active color */
+.topics-bar { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin: 0 0 18px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.topics-label { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); font-family: var(--sans); font-size: 12px; cursor: pointer; transition: all .15s; background: transparent; text-transform: capitalize; }
+.topic-chip:hover { border-color: var(--line-strong); }
+.topic-chip.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.topic-chip .count { font-family: var(--mono); font-size: 10px; color: var(--muted); padding: 1px 5px; border-radius: 999px; background: var(--bg-2); }
+.topic-chip.active .count { background: rgba(255,255,255,0.18); color: var(--bg); }
+.card .topic-tags, .featured .topic-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+.topic-tag { font-family: var(--mono); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px; }
+
 /* Featured card */
 .featured { display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; margin-bottom: 22px; transition: border-color .2s, transform .2s; position: relative; }
 @media (max-width: 880px) { .featured { grid-template-columns: 1fr; } }
@@ -155,6 +166,7 @@ footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line);
 </header>
 
 <div class="channels" id="channels"></div>
+<div class="topics-bar" id="topics" hidden></div>
 
 <div class="controls">
   <div class="search">
@@ -216,6 +228,7 @@ let sort = 'recent';
 let q = '';
 let view = 'grid';
 let activeChannel = 'all';
+let activeTopic = 'all';
 
 async function load() {
   try {
@@ -281,6 +294,18 @@ function renderChannels() {
   document.getElementById('channels').innerHTML = `<span class="channels-label">Channel</span>${allBtn}${chans}`;
 }
 
+function renderTopics() {
+  const counts = {};
+  LIB.forEach(v => (v.topics||[]).forEach(t => { counts[t] = (counts[t]||0) + 1; }));
+  const topics = Object.entries(counts).sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+  const bar = document.getElementById('topics');
+  if (topics.length === 0) { bar.hidden = true; bar.innerHTML = ''; return; }
+  bar.hidden = false;
+  const allBtn = `<button class="topic-chip ${activeTopic==='all'?'active':''}" data-topic="all">All <span class="count">${LIB.length}</span></button>`;
+  const chips = topics.map(([t,n]) => `<button class="topic-chip ${activeTopic===t?'active':''}" data-topic="${escHTML(t)}">${escHTML(t)} <span class="count">${n}</span></button>`).join('');
+  bar.innerHTML = `<span class="topics-label">Topic</span>${allBtn}${chips}`;
+}
+
 function getFiltered() {
   let items = LIB.slice();
   const query = q.trim().toLowerCase();
@@ -292,6 +317,7 @@ function getFiltered() {
     });
   }
   if (activeChannel !== 'all') items = items.filter(i => i.channel === activeChannel);
+  if (activeTopic !== 'all') items = items.filter(i => (i.topics||[]).includes(activeTopic));
   if (sort === 'recent')   items.sort((a,b) => (b.processed_at||'').localeCompare(a.processed_at||''));
   if (sort === 'uploaded') items.sort((a,b) => (b.upload_date||'').localeCompare(a.upload_date||''));
   if (sort === 'insights') items.sort((a,b) => (b.insight_count||0) - (a.insight_count||0));
@@ -303,7 +329,7 @@ function getFiltered() {
 function renderFeatured(items) {
   const wrap = document.getElementById('featured-wrap');
   // Only feature the most recent when on default sort & no active filters
-  const shouldFeature = sort === 'recent' && activeChannel === 'all' && !q && items.length > 0;
+  const shouldFeature = sort === 'recent' && activeChannel === 'all' && activeTopic === 'all' && !q && items.length > 0;
   if (!shouldFeature) { wrap.innerHTML = ''; return; }
   const v = items[0];
   const peeks = insightsFor(v.video_id, 3);
@@ -368,6 +394,7 @@ function renderGrid(items) {
         </div>
         <div class="body">
           <h3>${escHTML(v.title)}</h3>
+          ${(v.topics&&v.topics.length) ? `<div class="topic-tags">${v.topics.map(t=>`<span class="topic-tag">${escHTML(t)}</span>`).join('')}</div>` : ''}
           ${peek ? `<p class="ins-peek"><strong>↑</strong> ${escHTML(peek.headline)}</p>` : ''}
           <div class="cat-strip">${catStrip}</div>
           <div class="meta">
@@ -403,12 +430,13 @@ function renderGrid(items) {
 function render() {
   renderStats();
   renderChannels();
+  renderTopics();
   let items = getFiltered();
   const remaining = renderFeatured(items);
   if (remaining) items = remaining;
   renderGrid(items);
   const filteredCount = getFiltered().length;
-  document.getElementById('count').textContent = filteredCount + ' video' + (filteredCount === 1 ? '' : 's') + (activeChannel!=='all'||q ? ` · filtered from ${LIB.length}` : '');
+  document.getElementById('count').textContent = filteredCount + ' video' + (filteredCount === 1 ? '' : 's') + (activeChannel!=='all'||activeTopic!=='all'||q ? ` · filtered from ${LIB.length}` : '');
 }
 
 document.getElementById('q').addEventListener('input', e => { q = e.target.value; render(); });
@@ -430,6 +458,12 @@ document.getElementById('channels').addEventListener('click', e => {
   const btn = e.target.closest('button');
   if (!btn) return;
   activeChannel = btn.dataset.chan;
+  render();
+});
+document.getElementById('topics').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  activeTopic = btn.dataset.topic;
   render();
 });
 document.getElementById('themeBtn').onclick = () => {

@@ -248,5 +248,10 @@
       "unit": "GCP YoY",
       "sub": "Google Cloud on ~$80B run rate; AWS ~$150B at 28%, Azure ~$108B at 39%."
     }
+  ],
+  "topics": [
+    "ai",
+    "business",
+    "finance"
   ]
 }
