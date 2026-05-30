@@ -1,0 +1,255 @@
+[00:00:04] SPEAKER_13: Bloomberg Tech is live from coast to coast with Caroline Hyde in New York and Ed Ludlow in San Francisco.
+
+[00:00:15] SPEAKER_03: I'm Tim Stenevek, in for Caroline and Ed today. This is Bloomberg Tech. Coming up, SpaceX coming back down to Earth with a slightly lower valuation in its IPO. We'll break down why. Plus, Anthropic closing a funding round at a whopping $965 billion valuation. It surpasses OpenAI for the first time in the AI race. And Dell surges after the hardware giant's outlook far surpassed Wall Street estimates. We're going to hear from the CFO just a little later this hour.
+
+[00:00:43] SPEAKER_03: First, though, let's take a check on these markets on this holiday shortened trading week this Friday morning. The Nasdaq 100 continuing to push to new records with the market buoyed by hopes that a ceasefire deal could bring an end to the Iran conflict as well as the relentless AI optimism trade. The tech benchmark index up about 3% on the week, more than 10% just this month. This is AI enthusiasm since Dell shares to a new record, climbing today more than 30% higher by 29% right now.
+
+[00:01:13] SPEAKER_03: Dell gave an outlook for annual sales that far surpassed analysts estimates it fueled by demand for servers that power AI work. Let's also take a look at today's big number. It is $1.8 trillion. It's the valuation SpaceX is said to be targeting for its IPO. That's according to sources. That figure, though, down from the more than $2 trillion valuation Bloomberg reported the company was seeking back in April. Let's get more with Bloomberg Space and Aviation Managing Editor Benedict Camel.
+
+[00:01:41] SPEAKER_03: Benedict, talk to us a little bit about why we're seeing somewhat of a revision lower for a potential valuation for SpaceX when it is expected to go public next month.
+
+[00:01:52] SPEAKER_14: Yeah. So the listing is not far off. It's a couple of days off. So the pricing will settle in the next couple of days. And I think what we're seeing right now is sort of the market trying to figure out which way things will fall. It's a little lower is the latest number we're hearing, as you said, 1.8 trillion, which, you know, if you think about trillions, that's almost a rounding error compared to the more than 2 trillion. So this is probably sort of
+
+[00:02:16] SPEAKER_14: that both sides, on the investment banking side, but also on the buyer side, trying to sort of get a sense of the momentum. It might also be a case of sort of coming with low expectations and then beat them. So that might be part of that. So it's difficult to say at this point. Also, importantly, Musk did come out a short while ago with a single word response saying false. So we'll have to see who's right in the end. But this is probably...
+
+[00:02:45] SPEAKER_14: as I said, sort of a positioning game going on right now. You don't want to come in with your guns blazing too soon. But having said that, it's been about a week now since we got sort of a good sense of the numbers as part of the listing. And these are pretty mind-boggling figures that we've read. The value is one of them, but then also the total addressable market is $28 trillion. These are sort of utopist numbers in some cases.
+
+[00:03:15] SPEAKER_14: So whether it's 1.8 trillion, whether it's 2 trillion, the difference isn't that big.
+
+[00:03:20] SPEAKER_03: Some might say sort of like out of this world, maybe, you know, planetary expansion, who knows. Before we let you go, just on that number, if it had $18.7 billion in revenue in 2025, up from $14 billion... you know, in 2024, that would, if it were valued at $1.8 trillion, that would be a price to sales multiple of like 96, which is pretty huge. I mean, you know, software companies are typically, what, 10x?
+
+[00:03:50] SPEAKER_03: So even if this is a more conservative valuation for a market cap, this is still, you know, huge. I guess people are, you know, think this is a huge opportunity. Is that realistic?
+
+[00:04:02] SPEAKER_14: I think you're absolutely right. The key word is opportunity here. And I think people are buying into this, not sort of where things stand right now, but rather what this business might be in five years and 10 years and 20 years. And if there's one thing that Elon Musk has shown and has proven, he can build a market from very little or nothing. He's done so with Tesla. He might do so again now with space exploration. Obviously, there's a lot of things that have to go right.
+
+[00:04:27] SPEAKER_14: Again, some of the things in the prospectus included items like we want to have a million people on Mars. So, you know, that is sort of future fantasies, future thinking. But if you can pull off some of those things, then maybe that valuation might not seem quite as lofty as it is now.
+
+[00:04:44] SPEAKER_03: Okay. Well, we'll have to wait and see. Benedict Campbell joining us from Berlin. Thanks, Benedict. Well, speaking of valuations, Anthropic closing a funding round at a whopping $965 billion valuation. It surpasses OpenAI for the first time in the AI race. The large round came together in a matter of weeks. It's a sign of strong demand for Claude and for, of course, Anthropic. Bloomberg's Shereen Ghaffari joining us now with more.
+
+[00:05:08] SPEAKER_03: Shereen, what I find notable in your piece is we're getting some insight into just how much revenue for Anthropic has increased in just the last few months. Talk to us about the doubling that we saw in such a short period of time
+
+[00:05:21] SPEAKER_16: That's right. So Anthropic is nearing 50 billion of run rate revenue, and that's a projection of their annual revenue. The growth has been incredible. I mean, just three years ago, Anthropic was not even really a product that was selling any software.
+
+[00:05:39] SPEAKER_16: So that rate is something that investors are very excited about and why you're seeing them able to command evaluation that is now surpassing OpenAI at 900 billion pre-money. OpenAI was last valued earlier this spring at north of 700 billion pre-money. So that's how... You know, you're seeing now these companies really being neck and neck.
+
+[00:06:05] SPEAKER_16: Of course, it's still early in the AI game, and these companies are constantly surpassing each other with each model release.
+
+[00:06:13] SPEAKER_03: Shereen, could this be the final fundraising round before this company IPOs?
+
+[00:06:19] SPEAKER_16: It very well could be both OpenAI and Anthropic are eyeing IPOs as soon as this fall, as we have reported. So the timing here will be critical in terms of how are these companies stacking up, if and when they do actually move forward with that public listing.
+
+[00:06:37] SPEAKER_03: Okay, so the question about the products that OpenAI has and the products that Anthropic has, some people could say, wait a second, we kind of look at these as commodities. What are these companies doing to try to differentiate themselves from one another? And why is Anthropic seemingly the hot one right now versus OpenAI or even other model makers?
+
+[00:06:59] SPEAKER_16: I think Anthropic has had a very strong offering with their coding agents, CloudCode. There were early adopters in the software industry, and then we started to see that roll out to Fortune 500s and other major business customers who started taking up Anthropic's automated software AI tools. Now, that being said, again, it's always a fierce race. We've seen Google so improve its coding agents, open AI's codex tools, so picking up steam.
+
+[00:07:27] SPEAKER_16: But Anthropic really did focus on securing those business use cases for AI earlier on and kind of narrowly focus its attention there. And that's been its real strength, I think, in the market.
+
+[00:07:39] SPEAKER_03: Bloomberg's Shereen Ghaffari. Follow Shereen for more on Bloomberg.com and, of course, on the Bloomberg Terminal. Let's stay with Anthropic because Apollo and Blackstone are working to bring additional investors into a roughly $36 billion debt financing deal to help Anthropic build out its AI infrastructure. Bloomberg's Silas Brown has the details. Silas, this could be one of the largest ever private credit deals, also one of the biggest chip financing debt transactions. Take us into the numbers here.
+
+[00:08:06] SPEAKER_07: Yeah, no, I mean, they're kind of extraordinary numbers and symptomatic, I think, of the interest that private credit funds like Apollo and Blackstone and notable others like Blue Owl have in lending to build out the kind of AI infrastructure around these transactions. And so this is... I think the largest so far. It's going into syndication now and probably being sold down to insurance companies, some of which Apollo owns, and also other asset managers too.
+
+[00:08:34] SPEAKER_07: But it's become this kind of, I guess, like two-track thing amongst private credit funds where the larger ones will take big positions initially and then seek to sell down some of the risk through syndication. It's quite an interesting development in private investment-grade credit.
+
+[00:08:53] SPEAKER_03: Well, as we were just covering with Shireen, if you look at the equity side of this and the way venture capitalists are so excited to invest in Anthropic, what can you tell us about demand on the credit side?
+
+[00:09:05] SPEAKER_07: Well, it may well be the next great savior of private credit because, I mean, you know, the big problem that they've had over the last year is a kind of building of concentration around software and software as a service. And a lot of questions and concerns about, you know, say 20 percent, 25 percent portfolio concentration in software as a service. And what better? what better place to park your money in the very thing that seems to be disrupting the SaaS industry.
+
+[00:09:34] SPEAKER_07: So I think you're seeing quite a lot of demand from the larger asset managers, think Aries, think Apollo, think Blackstone, to try to help fund, build out anything to connect the insurance capital that they manage with these sort of opportunities is very much the topic du jour in private credit at the moment.
+
+[00:09:55] SPEAKER_03: Yes, I'm glad you brought up sort of the irony of investing in the thing that's disrupting those existing investments, the idea of software being disrupted by what cloud can do and what open AI can do as well. Before we let you go, just give us a general overview. You know, if we were talking in a different world, we'd be talking about all the challenges that the private credit industry has faced. Could this be the great savior for private credit?
+
+[00:10:20] SPEAKER_07: Well, look, I mean, I think my general view is like, you know, what do the leading private credit firms want to speak about at the moment? The thing that they don't want to speak about is, I guess, like leverage finance, kind of sub-investment grade, kind of traditional direct lending, what private credit is known for. What they want to speak about is investment grade opportunities, pushing into these areas like AI energy transition. I mean, that's where they see the opportunity set. And I think, you know...
+
+[00:10:48] SPEAKER_07: I guess like to not to not sort of, you know, to not to be overly sycophantic, but sort of the visionaries in private credit, I think we'd see the lasting opportunity set being more in the investment grade space. And that is AI, that's energy transition. It's all of those sort of opportunities that help match insurance capital with, you know, with these kind of private investment grade opportunities.
+
+[00:11:12] SPEAKER_03: Silas Brown joining us from London, our Bloomberg News Bureau there. Silas, good to see you. Have a great weekend. Well, coming up next, Dell is soaring. The company's full-year sales outlook crushed Wall Street's estimates. Look at that. The stock up more than 30%. We're going to have much more on this next. This is Bloomberg Tech.
+
+[00:11:42] SPEAKER_03: Shares of Dell are surging. This after the hardware giant's outlook far surpassed Wall Street estimates. It boosted its full-year sales outlook to a massive $167 billion. Shares up right now by 31.5%. It's the top performer in the S&P 500. It's having its best day ever. It's all fueled by a $60 billion forecast for AI servers alone. Here's what Dell CFO David Kennedy had to say post-earnings.
+
+[00:12:07] SPEAKER_09: 88% revenue growth, 214% EPS growth and record cash flows built on real, durable and accelerating globally the amount of infrastructure that's needed out there. If you look at this really production at scale, All of those things have given us confidence, as you say, to add to that full year guide. Adding $27 billion to the revenue, $167 billion now. Almost 50% increase year on year.
+
+[00:12:36] SPEAKER_09: EPS is $17.90. Really strong and really looking forward to the year ahead.
+
+[00:12:42] SPEAKER_15: David, is this coming from sort of one single hyperscaler customer? Is it the Neo clouds or is there more sort of granularity you can give me about what is actually happening in the world? Completely acknowledge that the CPU server is back, right? That's clear in the quarter gone. But there must be something more happening under the surface here.
+
+[00:13:03] SPEAKER_09: Yes, this is more broad-based and more prevalent across the ecosystem and our solutions. So CSG growth, 17% growth in Q1. We're guiding to almost similar in Q2. You mentioned the traditional server networking business grew 92% in Q1. We're expecting a strong guide as we go through the year. Obviously, we've taken up our AI storage guide, our server guide to $60 billion. And storage will grow every single quarter as we go through the year.
+
+[00:13:29] SPEAKER_09: So it's more prevalent across our products, across our verticals, across our customer base. It's a really more broad base. And AI demand, if you like, beyond the GPU in terms of the opportunities ahead.
+
+[00:13:42] SPEAKER_15: Can you quantify that, the AI demand beyond the GPU?
+
+[00:13:47] SPEAKER_09: Yeah, if you look at our guide, it's up $27 billion. We've taken our AI guide up $10 billion from $50 billion to $60 billion. So obviously the rest is in our core business, and it's more prevalent across CSG, traditional server, and the storage market. So strong across the board.
+
+[00:14:03] SPEAKER_15: Have you set yourself a new baseline going forward of what the world is like for particularly the AI server business?
+
+[00:14:12] SPEAKER_09: Yeah, I think it goes beyond the AI server business. I think it's AI demand in total across the solution and infrastructure stack that's there. If you look at the broad-based opportunities that are appearing, I think as we move from training models into inferencing, those inferencing workloads are creating a net new environment, a net new TAM, if you like, that's there to go attack and go balance from a customer perspective. We're seeing that and those education elements are coming in as part of the opportunity that's in front of us.
+
+[00:14:41] SPEAKER_09: We're excited by that. And I think that makes it a more broad-based, durable growth over the long term for us as we see that.
+
+[00:14:47] SPEAKER_15: I appreciate that you've outlined twice that it's broad-based. Was there one big customer or even sector in the quarter gone or one big customer or sector for the outlook in the year that has changed the trajectory for you?
+
+[00:15:00] SPEAKER_09: No, it's, again, more broad-based. If you look at our segments, Neoclouds, Sovereign, those enterprise customers you'll have heard and spoke with Michael last week in relation to our 5,000 customers in the enterprise side in relation to AI, as we broad-based out those AI factories, there's growing. If you look at our five-quarter pipeline, all individual verticals are growing in their own right, and it shows, again, the scale and the opportunity that's both geo- and vertical-based.
+
+[00:15:31] SPEAKER_03: That was Dell CFO David Kennedy speaking with Bloomberg's Ed Ludlow just yesterday. Well, Dell's message was clear. AI spending is not slowing. Let's bring in Janet Mui, head of market analysis over at RBC Bruin Dolphin, who says that we're moving from the build phase of AI to the deployment phase. I want to talk about what the deployment phase looks like. But first, I just want to talk a little bit about big picture, you know, results that you'd see from a company like Dell when you see shares up this year by 232 percent. You look at the chart here, Janet. This thing
+
+[00:16:00] SPEAKER_03: is parabolic. Does this give you any pause when you look at historically the way valuations have risen in the past in such a short time and then what happens afterward?
+
+[00:16:11] SPEAKER_01: Thanks for having me. Well, I think the AI theme is really strong. I think the results from Dell is simply stunning, but it's not just Dell. I mean, if you look across the earnings season in Q1, I think almost all the players in the AI ecosystem, particularly in hardware, semiconductors they all delivered uh stunning results that you know handily beat expectations so what you're talking about is really exponential growth in the entire ai ecosystem
+
+[00:16:40] SPEAKER_01: So that's a very deep profit pool that we are talking about. The companies in there, they all need each other. So that's why we're seeing this growth is really broadening out. So I think this is still a very much a strong secular theme. And in terms of valuation, of course, there are companies that valuations could look a little bit elevated or even frothy. But if you look at the foster child, Nvidia, you know, TSMC, they're still having forward PE in the 20s.
+
+[00:17:10] SPEAKER_01: So I don't see it as a bubble, and I still see it as a very strong investable theme.
+
+[00:17:17] SPEAKER_03: Where are the investable areas right now? I mean, if somebody looks at what Dell is doing today, for example, up 32%, maybe they think, OK, well, maybe I missed that boat. But where else, if this is indeed broadening out, and if it's broadening out from the build phase to the deployment phase, as you view it, where are the opportunities?
+
+[00:17:35] SPEAKER_01: Yeah, sure. So I think broadly speaking, the most visibility is still in the AI hardware and semiconductor space. So we definitely acknowledge that there has been stunning returns, but it could still go on. I think we shouldn't really fight the trend there with the most visible of the earnings and growth there.
+
+[00:17:55] SPEAKER_01: I think memory is another interesting area, given that if you hear from the tech executives, they're all saying memory is the bottleneck and it could last for the next at least two years. So I think that's a very interesting part. And I think in terms of AI deployment, we're really seeing real tangible benefits for companies.
+
+[00:18:18] SPEAKER_01: And I think for some areas of software, there has been quite significant sell-off, which presents opportunities. for those companies that truly owns the ecosystem to enable that enterprise AI deployment and rollout. So we see some opportunities in those companies, but we really have to be very selective in terms of the software space.
+
+[00:18:41] SPEAKER_03: Yeah, we have a chart of Micron up 4.6% today. That stock, that company surpassing a trillion dollar market cap this week. SK Hynix over in Korea doing much of the same. What about a broadening out to companies that are not necessarily within technology? And I ask this because if we talk to the executives at any company right now, whether it's in payments, whether it's in consumer packaged goods, whether it's in banking, they're going to all tell us the same thing.
+
+[00:19:09] SPEAKER_03: We are harnessing AI right now to make our product better and to make us more efficient. When do we start to see those companies be the real beneficiaries of the technology that these tech companies are building and deploying?
+
+[00:19:23] SPEAKER_01: Yeah, of course, we are already starting to see that, right? So I think we see that across many top players in a broad range of industries. But I think the key is that those players, they do have to have the capital to spend on AI. to make sure that you have the lead over other players. And I also think that they do have to have some sort of competitive edge themselves that they could realize those AI potential.
+
+[00:19:52] SPEAKER_01: Because I think that the danger is that if all of the companies, if they're not big enough, if they don't have competitive edge, they spend on AI. And if everyone spends on AI, then the economic value, the surplus will be captured ultimately by consumers. rather than those companies sell. So I think the core thesis is that those companies they originally they do have to have a competitive edge to start with.
+
+[00:20:17] SPEAKER_01: That's why we've always preferred companies who have mold who have a quality bias and who are big players and top top tier players in the industries.
+
+[00:20:27] SPEAKER_03: Janet Mui of RBC Bruin Dolphin joining us today from London. Thanks so much, Janet. Appreciate your time. Well, coming up, Lenovo logging its best month in more than a quarter century. We're going to tell you why right after this. This is Bloomberg Tech.
+
+[00:21:01] SPEAKER_03: It's time now for Talking Tech. First up, Lenovo, logging its best month in more than a quarter century. Shares doubled in May as a massive AI infrastructure rally catches fire across Asia. Following Dell's blockbuster forecast, investors are increasingly viewing Lenovo as a potential AI infrastructure play. Plus, Japan's finance minister announced that the country's megabanks will get access to OpenAI's latest model to continue to counter escalating cyber threats.
+
+[00:21:28] SPEAKER_03: That move coming as Japan's biggest banks are also set to start using Anthropic's mythos. And Taiwan is forecasting its fastest export growth in 50 years. The tech hub just revised its 2026 GDP growth outlook to 9.64%, fueled by an expected 40% explosion in exports. The economy of the hub for advanced tech like semiconductors has been one of the biggest beneficiaries of the AI era.
+
+[00:21:54] SPEAKER_03: Well, coming up next, Anthropic surpassing OpenAI for the first time in the AI race with a whopping $965 billion valuation. We're going to have the details on that in just a minute. In the meantime, taking a look at the S&P 500. Up right now by three-tenths of 1%. The NASDAQ composite up by two-tenths. The Dow on this day up by more than seven-tenths of 1%. The SOX flat on the day today. And Dell, well, look at that.
+
+[00:22:22] SPEAKER_03: up on earnings and that outlook a whopping 30% right now, and the NASDAQ 100 up three-tenths of 1%. More on Anthropic in just a minute. It is halftime, and this is Bloomberg Tech.
+
+[00:22:52] SPEAKER_03: I'm Tim Stenevec in for Caroline and Ed today. Welcome back to Bloomberg Tech. Let's get a check back on these markets and highlight the record highs for tech indexes such as the Nasdaq 100. That benchmark set to post another gain on the week, taking the monthly rally to more than 10 percent. Look at that over the last month, 11.6 percent higher on the Nasdaq 100. This is the AI stock boom continues with positive earnings fueling optimism across Asian, European and U.S. equities.
+
+[00:23:21] SPEAKER_03: Well, speaking of optimism, let's get back to Anthropic. The company raised a massive $65 billion in its latest funding round, exploding its valuation to nearly a trillion dollars and eclipsing rival OpenAI for the first time. Bloomberg's Rebecca Torrance can tell us more. I have to look at these numbers twice, Rebecca, because what we're talking about is so astronomical. you know, if a few years ago we were talking about this, nobody would believe. Not just these fundraising rounds, but also these valuations.
+
+[00:23:47] SPEAKER_03: Demand to get into Anthropic, even right now, at close to a trillion dollars, still massive from these venture capitalists?
+
+[00:23:56] SPEAKER_12: It's pretty remarkable. I mean, we reported just a month ago that Anthropic was fielding investor inbound at more than a $900 billion valuation and wasn't sure yet if it was going to take it. And then this round came together in a matter of weeks. The original target for the round was around $30 billion. And closing at 65, including commitments from strategic investors, including hyperscalers like Google and Amazon. So it's both a mix of those previous commitments, but also a lot of excess demand from these financial firms.
+
+[00:24:25] SPEAKER_12: There are four leads in this round, typical Silicon Valley venture capital firms. But the full list is very long as people are piling into this one.
+
+[00:24:33] SPEAKER_03: Are people, are investors in these firms piling in right now? I mean, in other cycles we've talked about in the past, let's call them Web 2.0, for example. We saw investors come in late because they wanted to be part of something that was like almost at that point guaranteed to be some sort of home run. How much is new money coming in versus existing investors here?
+
+[00:24:54] SPEAKER_12: We've got new and existing investors on this cap table. I mean, this is a real mix of, you know, sort of longtime believers in Anthropic and, you know, sort of Silicon Valley heavyweights and crossovers in anticipation of a potential IPO for Anthropic later this year. And as we reported, Anthropic's IPO timeline remains unchanged by this fundraise, despite, you know, the $65 billion in new money coming in. The company is not planning to delay its IPO at all and could go public as soon as later this year.
+
+[00:25:24] SPEAKER_12: That's similar to what OpenAI is planning as well. So we could have a crop of, you know, really massive IPOs later this year, of course, following SpaceX sooner rather than later.
+
+[00:25:35] SPEAKER_03: All right. Say what you want about valuations right now. It's an exciting time to be covering venture capital for sure. Bloomberg's Rebecca Torrance. Thanks so much, Rebecca. Good to see you. The question, how much of an impact will AI have on the workforce? It's the million or maybe even trillion dollar question. And according to Muddy Waters Capital CEO Carson Block, it could affect more than one in 10 knowledge workers. Here's what he told Bloomberg's Haslinda Amin this week.
+
+[00:25:58] SPEAKER_02: Our house view is that we're going to see 15 percent displacement of knowledge workers. You know, we think it could be as soon as three years. Is it four? Is it five? At some point, and it's in the single digit number of years, this will be a factor or this will occur in our view.
+
+[00:26:20] SPEAKER_02: And yes, there will be jobs that are created by AI, but we're talking about net losses because the technology is increasing in capability faster than we humans are able to adapt to it.
+
+[00:26:34] SPEAKER_03: Muddy Waters CEO Carson Block there to his Slenderman just earlier this week. Well, our next guest thinks that AI could boost productivity at the national level and that over the next 10 years, the trend rate of real GDP growth for the U.S. could rise to 2.4 percent. Goldman Sachs Managing Director Matthew Weir joins us now for more.
+
+[00:26:52] SPEAKER_03: so matthew where where does this happen this is what everybody's trying to figure out including the federal reserve jay powell was asked about this all the time in i can imagine the kevin warshley fed chair will be asked about this all the time where where does the productivity hit in the economy and when Sure.
+
+[00:27:07] SPEAKER_08: So we think in contrast to the last few that was expressed, the productivity boost to the economy will come gradually over the course of the next 10 years. We do think and these are views from our economists at Goldman Sachs that about 25 percent of tasks. in the U.S. economy could potentially be automated. Now, at the headline level, that is a scary number because that would suggest, oh gosh, 25% of jobs are going to be lost.
+
+[00:27:33] SPEAKER_08: But in reality, the vast majority of those tasks will be automated, which will free up workers to pivot to higher productive tasks. Not all of them will lead to job losses. When we think about where that's going to exist, we've done a lot of detailed work in terms of sector by sector, which sectors have the most tasks that can be automated. Some sectors are very immune. Some sectors are quite more vulnerable. But we do think over 10 years, it'll be a gradual process.
+
+[00:28:01] SPEAKER_08: There will be new jobs created as well that will also be higher productive.
+
+[00:28:04] SPEAKER_03: Well, I'm glad you brought up the nuance and sort of the distinction, Matt, between actually losing jobs and then people being freed up to do stuff that's more productive. In terms of the vulnerabilities that you and your team have identified, what are they? Are they certain jobs? Are they certain industries? What should people be prepared for in terms of disruption?
+
+[00:28:23] SPEAKER_08: Sure. Well, it's I think the jobs that are most client or human facing that are probably the safest. It's the jobs, though, that have more repetitive tasks that are probably the most vulnerable at this point. We have some colleagues at Goldman Sachs Research. who have identified specific areas where there are more vulnerabilities and there are specific segments. But we do think in some cases, some of the concern with regards to job losses are well overdone.
+
+[00:28:50] SPEAKER_08: You've seen references in certain media publications referring to the jobs. Apocalypse, our chair and CEO at Goldman Sachs, David Solomon, published an op-ed this piece. which is the view, and we very much believe it here at Goldman Sachs, that in aggregate, there will be more jobs created than jobs lost. But we shouldn't take away from the fact that this will be a painful transition at the individual level in certain sectors.
+
+[00:29:13] SPEAKER_03: Is there a certain historical corollary we can look at? I mean, in the past, we've heard this era as referred to as like a new industrial revolution. But in terms of the tech that, in your view, you believe is being deployed as a result of this investment and as a result of what's happening to infrastructure right now, what's a good historical corollary for us to think about?
+
+[00:29:37] SPEAKER_08: Well, one historical corollary that we really like to point to, and this is work by MIT, if you look at occupations that exist today, so 170 million jobs in the US economy, the majority of those jobs or occupations, I should say, didn't actually exist in 1940. The innovation, technological progress of the US economy is one of the reasons the US economy is so dynamic.
+
+[00:30:01] SPEAKER_08: New jobs are always created each and every year, and more jobs are created than jobs are lost. I think one other thing we should be pointing to is that there has been a deindustrialization of the US economy over several decades. There are many new jobs that exist today that didn't exist before. I think we should think about over the last 25 years, the digital economy, the Internet. That's created a lot of new occupations that didn't exist before. Think of influencers. Think of gig workers. Think of the video game sector.
+
+[00:30:31] SPEAKER_08: There are millions and millions of new jobs that didn't actually exist before. These were also occupations that didn't exist. We don't think this time is any different. The U.S. economy will adapt and be creating new jobs.
+
+[00:30:42] SPEAKER_03: I hesitate to even ask this question because it's opening a real can of worms with just a minute left, Matt. But what if it doesn't? What if the promises that have been made and that investors are betting on don't actually come to fruition?
+
+[00:30:56] SPEAKER_08: Yeah, that's a very, very important question right now because one of the things we're seeing is that we need to see the enterprise users of AI generating profits on the back of the investment that they've been making. If that occurs, then you have a self-perpetuating economic ecosystem for the AI complex. Right now, all of the funding is primarily coming from external investors as well as cash flow from other businesses. Think of the hyperscalers. But right now, the only...
+
+[00:31:25] SPEAKER_08: part of the stack that's generating a lot of profits on the back of AI are the semiconductor companies. So as we think about the stock prices of the semiconductor companies, as well as the valuations, for example, of some of the private companies you mentioned earlier, there is some vulnerability here if we don't start to see enterprise users generate the profits that are necessary for them to continue investing, which will generate revenues for the application companies, the model companies, infrastructure, and then the semiconductor companies.
+
+[00:31:54] SPEAKER_03: Matt Weir, very thoughtful conversation. Appreciate you taking the time and joining us this morning. That's Goldman Sachs Managing Director Matt Weir joining us in San Francisco. Well, what began as a rocket startup, now a big bet on satellites, AI, and yeah, Mars. With a projected valuation close to $2 trillion, SpaceX's IPO could reshape markets. But is Wall Street rushing in too fast? Bloomberg Originals took a deep dive.
+
+[00:32:21] SPEAKER_05: SpaceX is taking off. And we're not just talking about rockets. We've never seen anything like this. SpaceX's initial public offering is expected to raise as much as $75 billion, more than double the record-setting $29.4 billion raised by Saudi Aramco in 2019. This is the biggest IPO of all time.
+
+[00:32:46] SPEAKER_17: We're looking at $2 trillion in valuation.
+
+[00:32:50] SPEAKER_06: Elon Long had said that he didn't really plan on taking SpaceX public, but that was before the merger with XAI, before he needed tens of billions of dollars to build out these ambitions.
+
+[00:33:02] SPEAKER_05: But this massive valuation is also a test. Could all this hype make it seem worth more than it is?
+
+[00:33:08] SPEAKER_00: If it's preordained, then it becomes hard to predict how much of the buyers are buying because the fundamentals are the valuation. So then that kind of distorts the market.
+
+[00:33:19] SPEAKER_05: Investors are buying the dream. Sure, we all know the dream, but what about the reality?
+
+[00:33:29] SPEAKER_03: SpaceX in the age of the giant IPO. Check out the full episode over at Bloomberg.com or on YouTube. And let's just talk about that reality. SpaceX does seem to be coming back down to Earth ever so slightly after cutting its IPO valuation goal to at least $1.8 trillion instead of above $2 trillion. That's according to sources. Let's break it down with Bloomberg Intelligence analyst George Ferguson. George, I can't help but smile when I see those. Numbers because, I mean, coming back down to Earth, it's all relative when we're talking about this blockbuster, what could be the biggest IPO ever.
+
+[00:33:59] SPEAKER_03: $1.8 trillion. You have spent many years valuing companies in aerospace. What is the valuation promise of a $1.8 trillion market cap when SpaceX has revenue in 2024 of $14 billion?
+
+[00:34:20] SPEAKER_04: Yeah, so obviously those numbers are quite lofty. You know, we're spending some time right now doing our sort of sum of the parts analysis on SpaceX's value. And my friends, Mandeep and his team in the AI side of Bloomberg Intelligence, they're sort of at a $400 billion...
+
+[00:34:42] SPEAKER_04: for XAI and John Butler, who runs our telecommunications analysis, he's at sort of 600 billion for the communications, for the satellite constellation. And on the launch side, we're looking at companies like Rocket Lab that are 90 times revenue. And when we look at what we think revenue is,
+
+[00:35:10] SPEAKER_04: for SpaceX to launch business, including their internal launch, which they don't put in the revenue numbers you cited. We think that the market says it's worth $1.2 trillion. Again, that's a multiple of revenue, which is always aggressive. It's a very high multiple of revenue that gets them to around $2 trillion, and a lot of it built on the rocket launch business.
+
+[00:35:39] SPEAKER_04: definitely some very lofty valuations.
+
+[00:35:41] SPEAKER_03: Well, it brings us to the Musk factor here, George. And I think there are a lot of people over the last decade who have said, you know, that Tesla is not valued as an auto company and you really have to divorce the traditional valuation metrics in order to get to a number that we believe is the opportunity for Tesla. I know you cover aerospace and your background is in aerospace and defense, but is that the extra $600 billion here? Is that Elon Musk?
+
+[00:36:08] SPEAKER_04: So I think you have to, in order to buy into this IPO valuation, I think you have to believe in Elon Musk and the dream, as you mentioned earlier. And look, I think there's good reasons to believe in them. You have to decide what value you're willing to pay for it. You know, like we saw yesterday, we saw Blue Origin had one of their engines blow up on the pad down in Cape Canaveral yesterday.
+
+[00:36:37] SPEAKER_04: You know, they're about three launches deep on New Glenn. It's not as easy as Elon Musk has made it look. His company shot off almost 170 rockets last year with minimal problems compared to what's going on right now at Blue Origin. So there is a track record of success from Elon Musk and his companies. I'm not saying that makes the valuation correct, but you have to buy into that.
+
+[00:37:07] SPEAKER_04: And Elon has shown a lot of success in what he's done.
+
+[00:37:10] SPEAKER_03: And maybe if it goes into the index, we'll all have to buy into it, whether we want to or not. George Ferguson of Bloomberg Intelligence. George, thanks so much. George did mention Blue Origin. We're going to be talking about that with Lauren Grush in a few minutes. Coming up, though, before that, we're going to hear from Google DeepMind's head of robotics, Caroline Parada, on her take on the future of embodied AI. This is Bloomberg Tech.
+
+[00:37:43] SPEAKER_03: Google DeepMind says humanoid robotics is one of the key focus areas. Carolina Parada, who leads the company's robot mobility and robot vision group, spoke with Bloomberg Tech Asia's Sherry Ahn at the Humanoid Summit in Tokyo about why she sees embodied AI as the next frontier.
+
+[00:38:00] SPEAKER_11: We've been working on bringing Gemini into the physical world. And what that does is that it brings all of Gemini's world understanding, multimodality, in order to enable robots to understand their environment, to reason, and to be able to take action to the level of precision of a human expert.
+
+[00:38:15] SPEAKER_10: I just mentioned the partnership with Boston Dynamics. So Gemini will go into Atlas. We're going to spot the little dog as well. Yeah. Tell us a little bit about what the future looks like for DeepMind and Gemini Robotics.
+
+[00:38:27] SPEAKER_11: Yeah, so we're really excited about Gemini Robotics bringing all of that intelligence from Gemini to the physical world, but there's still a lot of work to do. Gemini Robotics is able to give you that reasoning, it's able to give you that interactivity, it's able to give you multimodality, but it's not yet able to... What we're pushing the boundary on is on doing highly dexterous tasks, like, for example, folding origami or packing a lunchbox. That requires a lot of dexterity that humans have, and we don't really realize it, but it's incredibly important to make robots useful.
+
+[00:38:57] SPEAKER_10: When it comes to scalability of the industry itself and competing also with dozens of these new companies, not only in the US but dozens in China as well, where is the edge?
+
+[00:39:10] SPEAKER_11: So there is a really exciting time right now for robotics all over the world. I think that the really hard problem that people don't realize is that the edge is at understanding the nuance and complexity of the human world. Actually, a lot of what you see out there is predefined sequences, memorized sequences that the robots are doing. The actual intelligence needs to be there in order for robots to operate in all of our environments. Our environments are constantly changing. There's humans in them. They're unstructured.
+
+[00:39:40] SPEAKER_11: That is what's needed in order to get robots to be really helpful in the physical world.
+
+[00:39:44] SPEAKER_03: That was Google DeepMind vice president and head of humanoid robotics, Carolina Parada, along with our own Sherry On in Tokyo. Coming up, a major setback for Jeff Bezos' space ambitions after Blue Origin's new Glenn rocket explodes during a test in Florida. Lauren Grush joins us on that next. This is Bloomberg.
+
+[00:40:21] SPEAKER_03: Let's get to Blue Origin, the company's new Glenn rocket. You see it right there exploding in a massive fireball while undergoing a test on a Florida launch pad. Blue Origin writing in a post on X, quote, we experienced an anomaly during today's hot fire test. All personnel have been accounted for. We will provide updates as we learn more. Bloomberg's Lauren Grush joins us now with more. The word anomaly can mean a lot of different things, Lauren. What do we know about what happened last night?
+
+[00:40:49] SPEAKER_17: Well, I think the details are still trickling in. We don't know a whole lot, but we do have some very vivid imagery of this event. This is probably one of the largest explosions I've ever covered on a rocket in my time being a reporter. But yes, we still don't know a lot. All we know is that they were conducting a test. They were preparing for their fourth launch of New Glenn. which was supposed to launch a batch of Amazon satellites for the Amazon Leo. Fortunately for Amazon, those satellites were not on board.
+
+[00:41:18] SPEAKER_17: And as you mentioned, you know, there were no personnel were hurt or there were no injuries. So that's all good. But this is a pretty catastrophic moment for New Glenn, for sure.
+
+[00:41:29] SPEAKER_03: Yeah. What about setback? I mean, in terms of months? Years to a mission or to at least a goal for New Glenn, what does it do to the program?
+
+[00:41:42] SPEAKER_17: Sure. In terms of the timeline, obviously that's subjective. It will depend on if they are able to figure out the origin of the problem pretty quickly, how fast they can fix it. But this is very certain to have a very big impact on the schedule for Blue Origin moving forward. It's also kind of hard to understate just how important New Glenn is for everything that Blue Origin wants to do, right? It's their main orbital rocket.
+
+[00:42:10] SPEAKER_17: It's supposed to launch future satellites for the company. As Blue Origin has touted, they have a $10 billion backlog on this vehicle with customer contracts. It's a key rocket for launching Blue Origin's lunar lander, which is a key component of NASA's Artemis program to send humans back to the moon. And all of that is likely to suffer delays. Also, damage to the launch pad will probably take that out of operation for some time, too. So it's not just the rocket they have to fix.
+
+[00:42:40] SPEAKER_17: It's all the infrastructure that just got exploded in the meantime as well.
+
+[00:42:45] SPEAKER_03: Yeah, at the risk of mixing metaphors, I don't want to put the cart before the horse here, Lauren. But if we consider NASA's reliance on Blue Origin for the Artemis program, as you just referenced, does NASA plan for setbacks like this? Or would they have to go and say, you know, maybe we have to rely on a different partner?
+
+[00:43:04] SPEAKER_17: Certainly. Actually, NASA did kind of work this into their decision making because, you know, Blue Origin isn't the only partner that NASA has. Obviously, when it comes to building a lunar lander, it's both Blue Origin and SpaceX that are developing landers for the Artemis program. And they do that on purpose because of unforeseen problems that might arise like this one. They like to have different options that they can turn to. And so SpaceX is that other option that they can turn to.
+
+[00:43:33] SPEAKER_17: But again, it's still too early to say if they will actually use SpaceX's lander over Blue Origin. Perhaps they can turn this around more quickly than we think, but it's gonna be some time.
+
+[00:43:46] SPEAKER_03: Bloomberg's Lauren Grush joining us with that. Check out Lauren's reporting and the entire space team's reporting on the Bloomberg Terminal and at Bloomberg.com. That is going to do it for this edition of Bloomberg Tech. Don't forget to check out our podcast, find it on the Terminal, Apple, Spotify, and iHeart. This is Bloomberg.

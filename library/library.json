@@ -20,6 +20,26 @@
     "path": "../videos/4oq91rzQcO8/index.html"
   },
   {
+    "video_id": "u1upVgkVKVQ",
+    "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+    "title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+    "channel": "Bloomberg Technology",
+    "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg",
+    "duration_seconds": 2646,
+    "upload_date": "2026-05-29",
+    "thesis": "The AI capital cycle is colliding with record valuations across the board \u2014 SpaceX trims its IPO target to $1.8T, Anthropic eclipses OpenAI at ~$965B, and Dell's blowout guide signals AI spending is moving from build-out to deployment, even as analysts warn enterprise users must finally turn AI into profits.",
+    "topics": [
+      "finance",
+      "ai",
+      "business"
+    ],
+    "insight_count": 15,
+    "quote_count": 6,
+    "processed_at": "2026-05-30T17:09:47.491819Z",
+    "processing_lag_days": 1,
+    "path": "../videos/u1upVgkVKVQ/index.html"
+  },
+  {
     "video_id": "wE1ZgJdt4uM",
     "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
     "title": "Inference, Diffusion, World Models, and More | YC Paper Club",

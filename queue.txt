@@ -13,5 +13,3 @@
 #   TRANSCRIPTION_DEFAULT=groq ./scripts/process_queue.sh
 #
 # See SETUP.md for first-time setup of either backend.
-
-

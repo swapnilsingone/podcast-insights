@@ -1,0 +1,784 @@
+{
+  "video": {
+    "id": "u1upVgkVKVQ",
+    "title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 2646,
+    "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+    "upload_date": "2026-05-29",
+    "display_title_html": "SpaceX <em>Lowers IPO Valuation Target</em> | Bloomberg Tech 5/29/2026"
+  },
+  "thesis": "The AI capital cycle is colliding with record valuations across the board — SpaceX trims its IPO target to $1.8T, Anthropic eclipses OpenAI at ~$965B, and Dell's blowout guide signals AI spending is moving from build-out to deployment, even as analysts warn enterprise users must finally turn AI into profits.",
+  "topics": [
+    "finance",
+    "ai",
+    "business"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech Begins"
+    },
+    {
+      "start": 98,
+      "title": "Benedikt Kammel, Bloomberg News"
+    },
+    {
+      "start": 305,
+      "title": "Shirin Ghaffary, Bloomberg News"
+    },
+    {
+      "start": 476,
+      "title": "Silas Brown, Bloomberg News"
+    },
+    {
+      "start": 725,
+      "title": "David Kennedy, Dell Technologies"
+    },
+    {
+      "start": 940,
+      "title": "Janet Mui, RBC Brewin Dolphin"
+    },
+    {
+      "start": 1413,
+      "title": "Rebecca Torrence, Bloomberg News"
+    },
+    {
+      "start": 1601,
+      "title": "Matthew Weir, Goldman Sachs"
+    },
+    {
+      "start": 2020,
+      "title": "George Ferguson, Bloomberg Intelligence"
+    },
+    {
+      "start": 2279,
+      "title": "Carolina Parada, Google DeepMind"
+    },
+    {
+      "start": 2440,
+      "title": "Loren Grush, Bloomberg News"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "SpaceX trims IPO target from $2T to $1.8T",
+      "body": "Sources say SpaceX is now targeting a $1.8 trillion valuation for its IPO, down from the $2T-plus reported in April. Musk responded to the report with a single word: 'false.' Bloomberg's Kammel frames the gap as 'almost a rounding error' and a pre-listing positioning game.",
+      "start_seconds": 100,
+      "end_seconds": 195
+    },
+    {
+      "id": 2,
+      "category": "counterintuitive",
+      "headline": "A $1.8T SpaceX implies a ~96x price-to-sales multiple",
+      "body": "On 2025 revenue of $18.7B (up from $14B in 2024), a $1.8T valuation implies a price-to-sales multiple near 96 — versus roughly 10x for typical software companies. Buyers are paying for the opportunity over 5, 10, 20 years, including a stated goal of a million people on Mars.",
+      "start_seconds": 200,
+      "end_seconds": 287
+    },
+    {
+      "id": 3,
+      "category": "data-point",
+      "headline": "Anthropic surpasses OpenAI at ~$965B valuation",
+      "body": "Anthropic closed a $65B round (original target ~$30B) at roughly $965B / $900B pre-money, eclipsing OpenAI's ~$700B+ pre-money for the first time. The round came together in weeks, with hyperscalers Google and Amazon among strategic investors.",
+      "start_seconds": 285,
+      "end_seconds": 480
+    },
+    {
+      "id": 4,
+      "category": "data-point",
+      "headline": "Anthropic nearing $50B run-rate revenue",
+      "body": "Shereen Ghaffary reports Anthropic is approaching $50B of run-rate (annualized) revenue, having roughly doubled in a few months — striking for a company that wasn't selling software three years ago. Coding agents (Claude Code) and early Fortune 500 enterprise adoption are cited as the differentiator.",
+      "start_seconds": 320,
+      "end_seconds": 460
+    },
+    {
+      "id": 5,
+      "category": "framework",
+      "headline": "Private credit pivots to AI infrastructure as its 'savior'",
+      "body": "Apollo and Blackstone are syndicating a ~$36B debt financing for Anthropic's AI build-out — potentially one of the largest private credit deals ever. Silas Brown notes the irony: funds over-concentrated in SaaS are now parking insurance capital in the very technology disrupting SaaS, chasing investment-grade AI and energy-transition exposure.",
+      "start_seconds": 476,
+      "end_seconds": 690
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Dell raises full-year guide to $167B, stock up ~30%",
+      "body": "Dell boosted its annual sales outlook by $27B to $167B (nearly 50% YoY growth), with AI server guidance lifted $10B to $60B. The stock surged ~30%+ to a record, its best day ever, with 88% revenue growth and 214% EPS growth in the quarter.",
+      "start_seconds": 700,
+      "end_seconds": 880
+    },
+    {
+      "id": 7,
+      "category": "mental-model",
+      "headline": "AI is shifting from training build-out to inference deployment",
+      "body": "Dell CFO David Kennedy and Janet Mui both frame a transition from the 'build phase' to the 'deployment phase.' Kennedy says inferencing workloads create a 'net new TAM' beyond the GPU, with broad-based demand across CSG, traditional servers (up 92% in Q1), and storage.",
+      "start_seconds": 800,
+      "end_seconds": 1010
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "If everyone buys AI, consumers capture the surplus",
+      "body": "Janet Mui warns that AI value accrues to firms only if they have a pre-existing competitive moat and capital to deploy; if every company adopts AI without differentiation, the economic surplus gets competed away to consumers rather than captured as corporate profit.",
+      "start_seconds": 1100,
+      "end_seconds": 1217
+    },
+    {
+      "id": 9,
+      "category": "data-point",
+      "headline": "Memory is the AI bottleneck for at least two years",
+      "body": "Mui flags memory as an interesting investable area, with executives saying it is the bottleneck for the next two years. Micron crossed a $1 trillion market cap this week and SK Hynix rallied similarly.",
+      "start_seconds": 1075,
+      "end_seconds": 1130
+    },
+    {
+      "id": 10,
+      "category": "prediction",
+      "headline": "Goldman: AI lifts US trend GDP growth to 2.4%",
+      "body": "Goldman's Matthew Weir argues ~25% of US economy tasks could be automated, but gradually over 10 years, freeing workers for higher-productivity tasks and lifting trend real GDP growth to 2.4%. He cites MIT work showing most of today's 170M US jobs didn't exist in 1940.",
+      "start_seconds": 1601,
+      "end_seconds": 1830
+    },
+    {
+      "id": 11,
+      "category": "counterintuitive",
+      "headline": "Muddy Waters: 15% of knowledge workers displaced",
+      "body": "Muddy Waters CEO Carson Block predicts 15% net displacement of knowledge workers, possibly in as little as three years, because AI capability is improving faster than humans can adapt — a sharply more bearish view than Goldman's gradual-transition thesis.",
+      "start_seconds": 1555,
+      "end_seconds": 1600
+    },
+    {
+      "id": 12,
+      "category": "framework",
+      "headline": "Only semiconductors currently profit from the AI stack",
+      "body": "Weir warns the AI complex isn't yet self-perpetuating: funding comes from external investors and hyperscaler cash flow, and only the chip companies generate real profit today. Sustainability requires enterprise AI users to start generating profits that flow back up to model, infrastructure, and semiconductor firms.",
+      "start_seconds": 1856,
+      "end_seconds": 1914
+    },
+    {
+      "id": 13,
+      "category": "framework",
+      "headline": "SpaceX sum-of-the-parts: launch business carries the valuation",
+      "body": "Bloomberg Intelligence's George Ferguson pegs ~$400B for xAI and ~$600B for the satellite constellation, with the rocket launch business (valued against Rocket Lab's ~90x revenue) carrying ~$1.2T — the bulk of a ~$2T total resting on launch, including internal launches excluded from reported revenue.",
+      "start_seconds": 2060,
+      "end_seconds": 2200
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "headline": "Blue Origin's New Glenn explodes in hot-fire test",
+      "body": "Blue Origin's New Glenn rocket exploded in a massive fireball during a hot-fire test in Florida, with no injuries and the Amazon Leo satellites not on board. It threatens a $10B contract backlog and NASA's Artemis lunar lander timeline; SpaceX is NASA's fallback lander partner.",
+      "start_seconds": 2440,
+      "end_seconds": 2620
+    },
+    {
+      "id": 15,
+      "category": "mental-model",
+      "headline": "Robotics' real edge is unstructured human-world nuance",
+      "body": "Google DeepMind's Carolina Parada says much of what looks like robot intelligence is memorized, predefined sequences. The hard, differentiating problem is dexterity and reasoning in constantly changing, human-filled environments — folding origami or packing a lunchbox at human precision via Gemini Robotics.",
+      "start_seconds": 2279,
+      "end_seconds": 2440
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Musk did come out a short while ago with a single word response saying false.",
+      "speaker": "Benedikt Kammel",
+      "start_seconds": 156
+    },
+    {
+      "text": "What better place to park your money in the very thing that seems to be disrupting the SaaS industry.",
+      "speaker": "Silas Brown",
+      "start_seconds": 565
+    },
+    {
+      "text": "If everyone spends on AI, then the economic value, the surplus will be captured ultimately by consumers rather than those companies.",
+      "speaker": "Janet Mui",
+      "start_seconds": 1140
+    },
+    {
+      "text": "Right now, the only part of the stack that's generating a lot of profits on the back of AI are the semiconductor companies.",
+      "speaker": "Matthew Weir",
+      "start_seconds": 1880
+    },
+    {
+      "text": "A lot of what you see out there is predefined sequences, memorized sequences that the robots are doing.",
+      "speaker": "Carolina Parada",
+      "start_seconds": 2310
+    },
+    {
+      "text": "This is probably one of the largest explosions I've ever covered on a rocket in my time being a reporter.",
+      "speaker": "Loren Grush",
+      "start_seconds": 2455
+    }
+  ],
+  "resources": [
+    {
+      "name": "Carson Block / Muddy Waters Capital",
+      "context": "Predicts 15% displacement of knowledge workers in single-digit years"
+    },
+    {
+      "name": "David Solomon, Goldman Sachs CEO",
+      "context": "Op-ed arguing AI will create more jobs than it destroys"
+    },
+    {
+      "name": "MIT occupations research",
+      "context": "Cited by Goldman: majority of today's 170M US jobs didn't exist in 1940"
+    },
+    {
+      "name": "Bloomberg Originals",
+      "context": "Deep-dive episode on SpaceX's giant IPO"
+    },
+    {
+      "name": "Rocket Lab",
+      "context": "Comparable trading at ~90x revenue, used to value SpaceX's launch arm"
+    },
+    {
+      "name": "Boston Dynamics (Atlas, Spot)",
+      "context": "Partnership to embed Gemini Robotics into humanoid and quadruped robots"
+    }
+  ],
+  "action_items": [
+    "If you take one thing away: don't read these valuations as priced on current fundamentals — SpaceX at ~96x sales and Anthropic near $1T are bets on opportunity 5–20 years out, so size positions to that uncertainty.",
+    "Watch whether enterprise AI users start generating profits; per Goldman, that's the single hinge that turns today's externally-funded AI capex into a self-sustaining ecosystem.",
+    "Track memory/semiconductor names (Micron, SK Hynix) as the bottleneck and the only profitable layer of the AI stack right now.",
+    "Favor AI-deploying companies with pre-existing moats and capital — without a competitive edge, the surplus from AI adoption leaks to consumers."
+  ],
+  "stats": [
+    {
+      "label": "SpaceX IPO target",
+      "val": "$1.8T",
+      "unit": "down from $2T",
+      "sub": "Revised-lower valuation goal ahead of next month's listing; ~96x price-to-sales on 2025 revenue."
+    },
+    {
+      "label": "Anthropic valuation",
+      "val": "$965B",
+      "unit": "post-$65B round",
+      "sub": "Surpasses OpenAI (~$700B+ pre-money) for the first time; nearing $50B run-rate revenue."
+    },
+    {
+      "label": "Dell FY sales guide",
+      "val": "$167B",
+      "unit": "+$27B",
+      "sub": "Nearly 50% YoY growth, including $60B for AI servers; stock up ~30% to a record."
+    },
+    {
+      "label": "Private credit AI debt deal",
+      "val": "$36B",
+      "unit": "for Anthropic",
+      "sub": "Apollo and Blackstone syndicating one of the largest-ever private credit / chip-financing transactions."
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Tim Stenevec",
+        "role": "Bloomberg Tech host (in for Caroline & Ed)",
+        "speaker": true,
+        "mentions": 8,
+        "first_seconds": 15,
+        "context": "Anchors the episode and conducts the interviews."
+      },
+      {
+        "name": "Benedikt Kammel",
+        "role": "Bloomberg Space & Aviation Managing Editor",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 98,
+        "context": "Breaks down SpaceX's lowered IPO valuation target."
+      },
+      {
+        "name": "Shereen Ghaffary",
+        "role": "Bloomberg News reporter",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 305,
+        "context": "Reports Anthropic's $965B valuation and run-rate revenue."
+      },
+      {
+        "name": "Silas Brown",
+        "role": "Bloomberg News reporter (London)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 476,
+        "context": "Covers the ~$36B private credit financing for Anthropic."
+      },
+      {
+        "name": "David Kennedy",
+        "role": "Dell Technologies CFO",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 725,
+        "context": "Explains Dell's broad-based AI demand and raised guidance."
+      },
+      {
+        "name": "Janet Mui",
+        "role": "Head of Market Analysis, RBC Brewin Dolphin",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 940,
+        "context": "Argues AI is moving from build to deployment phase."
+      },
+      {
+        "name": "Rebecca Torrence",
+        "role": "Bloomberg News reporter",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1413,
+        "context": "Details Anthropic's $65B round and IPO timeline."
+      },
+      {
+        "name": "Matthew Weir",
+        "role": "Goldman Sachs Managing Director",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1601,
+        "context": "Forecasts AI-driven productivity and 2.4% trend GDP growth."
+      },
+      {
+        "name": "George Ferguson",
+        "role": "Bloomberg Intelligence analyst (aerospace)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2020,
+        "context": "Provides SpaceX sum-of-the-parts valuation."
+      },
+      {
+        "name": "Carolina Parada",
+        "role": "VP & Head of Robotics, Google DeepMind",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2279,
+        "context": "On embodied AI and Gemini Robotics' real edge."
+      },
+      {
+        "name": "Loren Grush",
+        "role": "Bloomberg News space reporter",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2440,
+        "context": "Reports the New Glenn explosion and its fallout."
+      },
+      {
+        "name": "Elon Musk",
+        "role": "CEO of SpaceX, Tesla, xAI",
+        "speaker": false,
+        "mentions": 6,
+        "first_seconds": 156,
+        "context": "Called the lowered-valuation report 'false'; the 'Musk factor' driving the dream premium."
+      },
+      {
+        "name": "Carson Block",
+        "role": "CEO, Muddy Waters Capital",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1535,
+        "context": "Predicts 15% knowledge-worker displacement."
+      },
+      {
+        "name": "David Solomon",
+        "role": "Goldman Sachs Chairman & CEO",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1730,
+        "context": "Op-ed: AI creates more jobs than it destroys."
+      },
+      {
+        "name": "Ed Ludlow",
+        "role": "Bloomberg Tech co-host",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 921,
+        "context": "Interviewed Dell's CFO; regular co-anchor."
+      },
+      {
+        "name": "Sherry Ahn",
+        "role": "Bloomberg Tech Asia reporter",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 2279,
+        "context": "Interviewed Carolina Parada in Tokyo."
+      },
+      {
+        "name": "Haslinda Amin",
+        "role": "Bloomberg anchor",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1535,
+        "context": "Interviewed Carson Block."
+      },
+      {
+        "name": "Jeff Bezos",
+        "role": "Founder of Blue Origin",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2410,
+        "context": "His space ambitions hit by the New Glenn explosion."
+      },
+      {
+        "name": "Mandeep Singh",
+        "role": "Bloomberg Intelligence AI analyst",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2080,
+        "context": "Values xAI at ~$400B."
+      },
+      {
+        "name": "John Butler",
+        "role": "Bloomberg Intelligence telecom analyst",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2095,
+        "context": "Values SpaceX satellite constellation at ~$600B."
+      },
+      {
+        "name": "Kevin Warsh",
+        "role": "Incoming Fed Chair (referenced)",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1610,
+        "context": "Will face AI-productivity questions like Powell did."
+      }
+    ],
+    "companies": [
+      {
+        "name": "SpaceX",
+        "mentions": 12,
+        "first_seconds": 30,
+        "context": "Targeting a lowered $1.8T IPO valuation; biggest IPO ever potential."
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 12,
+        "first_seconds": 30,
+        "context": "Closed $65B round at ~$965B, surpassing OpenAI; nearing $50B run-rate."
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 6,
+        "first_seconds": 30,
+        "context": "Surpassed by Anthropic; ~$700B+ pre-money, eyeing fall IPO; model used by Japan's megabanks."
+      },
+      {
+        "name": "Dell Technologies",
+        "mentions": 10,
+        "first_seconds": 30,
+        "context": "Raised FY guide to $167B; stock up ~30% on AI server demand."
+      },
+      {
+        "name": "Blue Origin",
+        "mentions": 5,
+        "first_seconds": 2410,
+        "context": "New Glenn exploded in a hot-fire test, threatening a $10B backlog and Artemis timeline."
+      },
+      {
+        "name": "Apollo",
+        "mentions": 4,
+        "first_seconds": 476,
+        "context": "Leading the ~$36B private credit financing for Anthropic."
+      },
+      {
+        "name": "Blackstone",
+        "mentions": 3,
+        "first_seconds": 476,
+        "context": "Co-arranging Anthropic's debt financing."
+      },
+      {
+        "name": "Google / Google DeepMind",
+        "mentions": 4,
+        "first_seconds": 305,
+        "context": "Strategic Anthropic investor; DeepMind building Gemini Robotics."
+      },
+      {
+        "name": "Amazon",
+        "mentions": 3,
+        "first_seconds": 1430,
+        "context": "Anthropic strategic investor; Leo satellites were to launch on New Glenn."
+      },
+      {
+        "name": "Nvidia",
+        "mentions": 1,
+        "first_seconds": 990,
+        "context": "Cited with forward PE in the 20s, argued against a bubble."
+      },
+      {
+        "name": "TSMC",
+        "mentions": 1,
+        "first_seconds": 990,
+        "context": "Cited alongside Nvidia with forward PE in the 20s."
+      },
+      {
+        "name": "Micron",
+        "mentions": 2,
+        "first_seconds": 1085,
+        "context": "Up 4.6%; crossed a $1 trillion market cap this week on memory demand."
+      },
+      {
+        "name": "SK Hynix",
+        "mentions": 1,
+        "first_seconds": 1095,
+        "context": "Korean memory maker rallying alongside Micron."
+      },
+      {
+        "name": "Lenovo",
+        "mentions": 2,
+        "first_seconds": 1240,
+        "context": "Best month in over a quarter century; shares doubled in May as an AI infra play."
+      },
+      {
+        "name": "Tesla",
+        "mentions": 2,
+        "first_seconds": 247,
+        "context": "Cited as proof Musk can build a market from nothing; valuation analogy for SpaceX."
+      },
+      {
+        "name": "xAI",
+        "mentions": 2,
+        "first_seconds": 1980,
+        "context": "Merged with SpaceX; valued ~$400B in BI's sum-of-the-parts."
+      },
+      {
+        "name": "Rocket Lab",
+        "mentions": 1,
+        "first_seconds": 2110,
+        "context": "Trades at ~90x revenue, benchmark for valuing SpaceX launch."
+      },
+      {
+        "name": "Blue Owl",
+        "mentions": 1,
+        "first_seconds": 500,
+        "context": "Among private credit funds interested in AI infrastructure lending."
+      },
+      {
+        "name": "Ares",
+        "mentions": 1,
+        "first_seconds": 620,
+        "context": "Cited among large asset managers chasing AI infra credit deals."
+      },
+      {
+        "name": "Goldman Sachs",
+        "mentions": 4,
+        "first_seconds": 1601,
+        "context": "Source of AI productivity and GDP forecasts."
+      },
+      {
+        "name": "Boston Dynamics",
+        "mentions": 1,
+        "first_seconds": 2300,
+        "context": "Partnership to put Gemini into Atlas and Spot robots."
+      },
+      {
+        "name": "NASA",
+        "mentions": 3,
+        "first_seconds": 2540,
+        "context": "Relies on Blue Origin and SpaceX landers for the Artemis program."
+      },
+      {
+        "name": "Saudi Aramco",
+        "mentions": 1,
+        "first_seconds": 2330,
+        "context": "Its $29.4B 2019 IPO is the record SpaceX could more than double."
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Claude / Claude Code",
+        "type": "AI model & coding agent",
+        "first_seconds": 380,
+        "context": "Anthropic's coding agents drove early enterprise/Fortune 500 adoption."
+      },
+      {
+        "name": "Gemini Robotics",
+        "type": "Embodied AI model",
+        "first_seconds": 2279,
+        "context": "Brings Gemini's multimodal reasoning into physical robots."
+      },
+      {
+        "name": "New Glenn",
+        "type": "Orbital rocket",
+        "first_seconds": 2440,
+        "context": "Blue Origin's main orbital rocket; exploded during a hot-fire test."
+      },
+      {
+        "name": "Starlink / satellite constellation",
+        "type": "Satellite broadband",
+        "first_seconds": 2095,
+        "context": "SpaceX comms business valued ~$600B by BI."
+      },
+      {
+        "name": "Codex",
+        "type": "Coding agent",
+        "first_seconds": 420,
+        "context": "OpenAI's coding tools picking up steam against Claude Code."
+      },
+      {
+        "name": "Atlas / Spot",
+        "type": "Humanoid & quadruped robots",
+        "first_seconds": 2300,
+        "context": "Boston Dynamics robots to run Gemini."
+      },
+      {
+        "name": "AI servers",
+        "type": "Data-center hardware",
+        "first_seconds": 700,
+        "context": "$60B of Dell's guide; core of the AI infrastructure rally."
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Build phase to deployment phase",
+        "first_seconds": 940,
+        "summary": "Mui and Kennedy frame AI's shift from infrastructure build-out toward inference deployment and real enterprise use."
+      },
+      {
+        "name": "Consumer surplus capture",
+        "first_seconds": 1140,
+        "summary": "If all firms adopt AI without a moat, the economic surplus flows to consumers rather than corporate profits."
+      },
+      {
+        "name": "Sum-of-the-parts valuation",
+        "first_seconds": 2060,
+        "summary": "BI values SpaceX by segment: ~$400B xAI + ~$600B satellites + ~$1.2T launch."
+      },
+      {
+        "name": "Self-perpetuating AI ecosystem",
+        "first_seconds": 1856,
+        "summary": "AI capex becomes sustainable only when enterprise users generate profits that flow back up the stack."
+      },
+      {
+        "name": "Price-to-sales multiple",
+        "first_seconds": 215,
+        "summary": "Used to expose how lofty SpaceX (~96x) and Rocket Lab (~90x) valuations are vs ~10x software norms."
+      },
+      {
+        "name": "Embodied AI",
+        "first_seconds": 2279,
+        "summary": "AI operating in the unstructured physical world, where dexterity and real-time reasoning are the differentiators."
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Op-ed on AI and jobs",
+        "author": "David Solomon (Goldman Sachs)",
+        "context": "Argues AI will create more jobs in aggregate than it destroys."
+      },
+      {
+        "name": "MIT study on occupations since 1940",
+        "author": "MIT researchers",
+        "context": "Most of today's 170M US jobs/occupations didn't exist in 1940, cited as innovation precedent."
+      },
+      {
+        "name": "SpaceX IPO prospectus",
+        "author": "SpaceX",
+        "context": "States a $28T TAM and goal of a million people on Mars."
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "u1upVgkVKVQ-p1",
+      "claim": "SpaceX will price its IPO at around $1.8 trillion, going public next month.",
+      "speaker": "Benedikt Kammel",
+      "category": "finance",
+      "start_seconds": 100,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 months",
+      "revisit_dates": [
+        "2026-07-29"
+      ],
+      "status": "open",
+      "notes": "Musk publicly called the lower figure 'false'; pricing expected within days."
+    },
+    {
+      "id": "u1upVgkVKVQ-p2",
+      "claim": "Both Anthropic and OpenAI could IPO as soon as this fall, with this likely Anthropic's final private round.",
+      "speaker": "Shereen Ghaffary / Rebecca Torrence",
+      "category": "business",
+      "start_seconds": 380,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": "Anthropic's IPO timeline reportedly unchanged by the $65B raise."
+    },
+    {
+      "id": "u1upVgkVKVQ-p3",
+      "claim": "About 25% of US economy tasks could be automated, raising trend real GDP growth to 2.4% over the next 10 years, with more jobs created than lost.",
+      "speaker": "Matthew Weir (Goldman Sachs)",
+      "category": "macro",
+      "start_seconds": 1601,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2036",
+      "revisit_dates": [
+        "2031-05-29",
+        "2036-05-29"
+      ],
+      "status": "open",
+      "notes": "Gradual transition thesis; painful at the individual/sector level."
+    },
+    {
+      "id": "u1upVgkVKVQ-p4",
+      "claim": "AI will cause a net 15% displacement of knowledge workers, possibly within three years.",
+      "speaker": "Carson Block (Muddy Waters)",
+      "category": "macro",
+      "start_seconds": 1555,
+      "stated_at": "2026-05-29",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2029-05-29",
+        "2031-05-29"
+      ],
+      "status": "open",
+      "notes": "Directly contradicts Goldman's optimistic net-jobs view."
+    },
+    {
+      "id": "u1upVgkVKVQ-p5",
+      "claim": "Memory will remain the AI bottleneck for at least the next two years.",
+      "speaker": "Janet Mui (RBC Brewin Dolphin)",
+      "category": "tech",
+      "start_seconds": 1075,
+      "stated_at": "2026-05-29",
+      "horizon_label": "2+ years",
+      "revisit_dates": [
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Underpins bullish thesis on Micron and SK Hynix."
+    },
+    {
+      "id": "u1upVgkVKVQ-p6",
+      "claim": "The New Glenn explosion will cause significant delays across Blue Origin's launch schedule, satellite backlog, and the NASA Artemis lunar lander timeline.",
+      "speaker": "Loren Grush",
+      "category": "tech",
+      "start_seconds": 2540,
+      "stated_at": "2026-05-29",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2026-11-29"
+      ],
+      "status": "open",
+      "notes": "Launch-pad infrastructure damage compounds the rocket rebuild; SpaceX is NASA's fallback lander."
+    },
+    {
+      "id": "u1upVgkVKVQ-p7",
+      "claim": "The AI capex cycle is sustainable only if enterprise users start generating profits; otherwise semiconductor valuations and AI private companies face vulnerability.",
+      "speaker": "Matthew Weir (Goldman Sachs)",
+      "category": "finance",
+      "start_seconds": 1856,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29",
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Currently only chip companies profit from the AI stack."
+    }
+  ]
+}

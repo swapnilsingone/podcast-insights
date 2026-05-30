@@ -1,0 +1,107 @@
+{
+  "video_id": "u1upVgkVKVQ",
+  "predictions": [
+    {
+      "id": "u1upVgkVKVQ-p1",
+      "claim": "SpaceX will price its IPO at around $1.8 trillion, going public next month.",
+      "speaker": "Benedikt Kammel",
+      "category": "finance",
+      "start_seconds": 100,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 months",
+      "revisit_dates": [
+        "2026-07-29"
+      ],
+      "status": "open",
+      "notes": "Musk publicly called the lower figure 'false'; pricing expected within days."
+    },
+    {
+      "id": "u1upVgkVKVQ-p2",
+      "claim": "Both Anthropic and OpenAI could IPO as soon as this fall, with this likely Anthropic's final private round.",
+      "speaker": "Shereen Ghaffary / Rebecca Torrence",
+      "category": "business",
+      "start_seconds": 380,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": "Anthropic's IPO timeline reportedly unchanged by the $65B raise."
+    },
+    {
+      "id": "u1upVgkVKVQ-p3",
+      "claim": "About 25% of US economy tasks could be automated, raising trend real GDP growth to 2.4% over the next 10 years, with more jobs created than lost.",
+      "speaker": "Matthew Weir (Goldman Sachs)",
+      "category": "macro",
+      "start_seconds": 1601,
+      "stated_at": "2026-05-29",
+      "horizon_label": "by 2036",
+      "revisit_dates": [
+        "2031-05-29",
+        "2036-05-29"
+      ],
+      "status": "open",
+      "notes": "Gradual transition thesis; painful at the individual/sector level."
+    },
+    {
+      "id": "u1upVgkVKVQ-p4",
+      "claim": "AI will cause a net 15% displacement of knowledge workers, possibly within three years.",
+      "speaker": "Carson Block (Muddy Waters)",
+      "category": "macro",
+      "start_seconds": 1555,
+      "stated_at": "2026-05-29",
+      "horizon_label": "3-5 years",
+      "revisit_dates": [
+        "2029-05-29",
+        "2031-05-29"
+      ],
+      "status": "open",
+      "notes": "Directly contradicts Goldman's optimistic net-jobs view."
+    },
+    {
+      "id": "u1upVgkVKVQ-p5",
+      "claim": "Memory will remain the AI bottleneck for at least the next two years.",
+      "speaker": "Janet Mui (RBC Brewin Dolphin)",
+      "category": "tech",
+      "start_seconds": 1075,
+      "stated_at": "2026-05-29",
+      "horizon_label": "2+ years",
+      "revisit_dates": [
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Underpins bullish thesis on Micron and SK Hynix."
+    },
+    {
+      "id": "u1upVgkVKVQ-p6",
+      "claim": "The New Glenn explosion will cause significant delays across Blue Origin's launch schedule, satellite backlog, and the NASA Artemis lunar lander timeline.",
+      "speaker": "Loren Grush",
+      "category": "tech",
+      "start_seconds": 2540,
+      "stated_at": "2026-05-29",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2026-11-29"
+      ],
+      "status": "open",
+      "notes": "Launch-pad infrastructure damage compounds the rocket rebuild; SpaceX is NASA's fallback lander."
+    },
+    {
+      "id": "u1upVgkVKVQ-p7",
+      "claim": "The AI capex cycle is sustainable only if enterprise users start generating profits; otherwise semiconductor valuations and AI private companies face vulnerability.",
+      "speaker": "Matthew Weir (Goldman Sachs)",
+      "category": "finance",
+      "start_seconds": 1856,
+      "stated_at": "2026-05-29",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-29",
+        "2028-05-29"
+      ],
+      "status": "open",
+      "notes": "Currently only chip companies profit from the AI stack."
+    }
+  ],
+  "validated_predictions": []
+}
