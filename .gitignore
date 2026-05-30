@@ -26,6 +26,13 @@ videos/*/source/*.whisperx.json
 # Local session state
 library/.last_seen_tracker.json
 
+# Runtime logs (regenerable; transient)
+*.log
+
+# Per-video reprocess/backend-switch backups (local recovery only)
+videos/*/.groq-backup/
+videos/*/.reprocess-backup/
+
 # Editors
 .vscode/
 .idea/

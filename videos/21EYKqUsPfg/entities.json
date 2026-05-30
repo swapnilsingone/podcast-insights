@@ -3,220 +3,190 @@
   "people": [
     {
       "name": "Richard Sutton",
-      "role": "RL pioneer, 2024 Turing Award winner, guest",
+      "role": "RL pioneer, 2024 Turing Award recipient",
       "speaker": true,
-      "mentions": 8,
-      "first_seconds": 65,
-      "context": "Argues LLMs are a dead end and lays out the experiential paradigm"
+      "mentions": 40,
+      "first_seconds": 0,
+      "context": "Argues LLMs are a dead-end and pitches the Era of Experience"
     },
     {
       "name": "Dwarkesh Patel",
       "role": "Podcast host",
       "speaker": true,
-      "mentions": 5,
-      "first_seconds": 0,
-      "context": "Pushes back with LLM-as-prior and imitation-learning framings"
+      "mentions": 30,
+      "first_seconds": 8,
+      "context": "Pushes back from the LLM-pilled perspective"
     },
     {
       "name": "Alan Turing",
-      "role": "Computer science founder",
+      "role": "Computing pioneer",
       "speaker": false,
       "mentions": 1,
-      "first_seconds": 168,
+      "first_seconds": 175,
       "context": "Quoted on machines that learn from experience"
     },
     {
       "name": "John McCarthy",
-      "role": "AI pioneer",
+      "role": "AI founder",
       "speaker": false,
       "mentions": 1,
-      "first_seconds": 471,
-      "context": "Source of Sutton's preferred definition of intelligence"
+      "first_seconds": 470,
+      "context": "Definition of intelligence as computational part of achieving goals"
+    },
+    {
+      "name": "Jerry Tesauro",
+      "role": "Researcher who built TD-Gammon",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2738,
+      "context": "TD-Gammon as the precursor to AlphaGo/AlphaZero"
     },
     {
       "name": "Joseph Henrich",
       "role": "Anthropologist of cultural evolution",
       "speaker": false,
       "mentions": 2,
-      "first_seconds": 1116,
-      "context": "Cited for the theory that human knowledge accumulates via cultural imitation"
+      "first_seconds": 1144,
+      "context": "Cited on humans learning multi-step skills via imitation"
     },
     {
-      "name": "Jerry Tesauro",
-      "role": "IBM researcher",
+      "name": "Toby Ord",
+      "role": "Philosopher / AI thinker",
       "speaker": false,
       "mentions": 1,
-      "first_seconds": 2735,
-      "context": "Built TD-Gammon, the RL backgammon system that prefigured AlphaGo"
-    },
-    {
-      "name": "Toby Ward",
-      "role": "Friend of the host",
-      "speaker": false,
-      "mentions": 1,
-      "first_seconds": 2031,
-      "context": "Raised the MuZero generalization question"
-    },
-    {
-      "name": "Andrej Karpathy",
-      "role": "AI educator",
-      "speaker": false,
-      "mentions": 1,
-      "first_seconds": 2491,
-      "context": "Style reference for the Gemini Deep Research RL tutorial ad"
+      "first_seconds": 2065,
+      "context": "Observation about MuZero training one specialist per game"
     }
   ],
   "companies": [
     {
       "name": "Google DeepMind",
       "mentions": 1,
-      "first_seconds": 2031,
-      "context": "Built MuZero / AlphaGo / AlphaZero, referenced as the canonical RL systems"
-    },
-    {
-      "name": "Anthropic / OpenAI / frontier labs",
-      "mentions": 1,
-      "first_seconds": 525,
-      "context": "Implicit referents — gold-medal IMO LLMs cited as 'goal-directed math solvers'"
+      "first_seconds": 2065,
+      "context": "MuZero / AlphaZero developer"
     },
     {
       "name": "Labelbox",
-      "mentions": 1,
-      "first_seconds": 1364,
-      "context": "Sponsor; pitched as a builder of bespoke RL training environments"
-    },
-    {
-      "name": "Gemini / Google",
-      "mentions": 1,
-      "first_seconds": 2491,
-      "context": "Sponsor; Deep Research used to build an RL history tutorial"
+      "mentions": 2,
+      "first_seconds": 1380,
+      "context": "Sponsor — builds RL training environments with SME teams"
     },
     {
       "name": "Hudson River Trading",
       "mentions": 1,
-      "first_seconds": 3275,
-      "context": "Sponsor; pitched as a quant firm with an open shared-research culture"
+      "first_seconds": 3220,
+      "context": "Sponsor — open-research quant firm"
     },
     {
-      "name": "IBM",
+      "name": "Google (Gemini)",
       "mentions": 1,
-      "first_seconds": 2735,
-      "context": "Implicit home of Jerry Tesauro's TD-Gammon work"
+      "first_seconds": 2495,
+      "context": "Gemini Deep Research used to prep RL history"
     },
     {
       "name": "Intel",
       "mentions": 1,
-      "first_seconds": 3870,
-      "context": "Used as an example CEO role when discussing parental ambitions"
+      "first_seconds": 3855,
+      "context": "Hypothetical example in parenting analogy"
     }
   ],
   "products_tech": [
     {
-      "name": "Large language models",
-      "type": "AI architecture",
-      "first_seconds": 88,
-      "context": "Sutton's target of critique: mimic people, lack goals, lack world models"
+      "name": "Large Language Models",
+      "type": "AI paradigm",
+      "first_seconds": 60,
+      "context": "The target of Sutton's critique"
     },
     {
       "name": "TD-Gammon",
       "type": "RL system",
-      "first_seconds": 2735,
-      "context": "Backgammon program that learned via temporal-difference learning and beat top humans"
+      "first_seconds": 2738,
+      "context": "1990s backgammon player using TD learning"
     },
     {
       "name": "AlphaGo",
       "type": "RL system",
-      "first_seconds": 2705,
-      "context": "Used supervised + RL; precursor to AlphaZero"
+      "first_seconds": 2660,
+      "context": "Used supervised + RL; superhuman Go play"
     },
     {
       "name": "AlphaZero",
       "type": "RL system",
-      "first_seconds": 2770,
-      "context": "Pure self-play; Sutton's favored example of the bitter lesson and ablation of human data"
+      "first_seconds": 2748,
+      "context": "Pure self-play TD learning; generalized across games"
     },
     {
       "name": "MuZero",
       "type": "RL system",
-      "first_seconds": 2031,
-      "context": "DeepMind's model-based RL system that learns the dynamics; used to debate transfer"
+      "first_seconds": 2065,
+      "context": "Framework for training game-specific agents"
     },
     {
       "name": "GRPO",
       "type": "RL algorithm",
-      "first_seconds": 2467,
-      "context": "Mentioned as the modern endpoint of the RL algorithm lineage"
+      "first_seconds": 2495,
+      "context": "Mentioned in host's RL-history prep"
     },
     {
       "name": "REINFORCE",
       "type": "RL algorithm",
-      "first_seconds": 2463,
-      "context": "Mentioned as the historical starting point of policy gradient methods"
+      "first_seconds": 2495,
+      "context": "Earliest endpoint of host's RL-history timeline"
     },
     {
-      "name": "Redis cache (in shopping RL env)",
-      "type": "Engineering detail",
-      "first_seconds": 1424,
-      "context": "Labelbox example of simulating stale-data realism in an RL environment"
+      "name": "Redis cache",
+      "type": "Infra",
+      "first_seconds": 1404,
+      "context": "Labelbox shopping-agent env detail"
     }
   ],
   "frameworks_concepts": [
     {
       "name": "The Bitter Lesson",
-      "first_seconds": 561,
-      "summary": "Sutton's thesis that general methods leveraging computation eventually beat methods leveraging human knowledge"
+      "first_seconds": 564,
+      "summary": "Sutton's 2019 essay: general methods leveraging compute beat human-knowledge approaches"
     },
     {
       "name": "Era of Experience",
-      "first_seconds": 1443,
-      "summary": "Sutton's proposed paradigm: agents learn continually from a single stream of sensation, action, and reward"
+      "first_seconds": 1437,
+      "summary": "Agents learn continually from a stream of sensation, action, and reward"
     },
     {
-      "name": "Temporal-difference (TD) learning",
-      "first_seconds": 1717,
-      "summary": "Method for learning value functions from successive predictions, bridging short- and long-term reward"
+      "name": "Temporal Difference (TD) learning",
+      "first_seconds": 1707,
+      "summary": "Bootstraps long-term value predictions from intermediate state changes"
     },
     {
-      "name": "Four-part agent model",
-      "first_seconds": 1958,
-      "summary": "Policy, value function, perception (state representation), and transition (world) model"
+      "name": "Common model of the agent",
+      "first_seconds": 1956,
+      "summary": "Policy + value function + perception + world transition model"
     },
     {
       "name": "Big World Hypothesis",
-      "first_seconds": 1834,
-      "summary": "The world is too large to pre-program; agents must learn the idiosyncratic specifics in deployment"
+      "first_seconds": 1816,
+      "summary": "World is too large to bake into weights; deployment-time learning is unavoidable"
     },
     {
       "name": "Catastrophic interference",
-      "first_seconds": 2253,
-      "summary": "Deep nets overwrite old skills when trained on new ones — symptom of bad generalization"
-    },
-    {
-      "name": "Imitation vs. trial-and-error learning",
-      "first_seconds": 996,
-      "summary": "Sutton's claim that animal learning is fundamentally trial-and-error and prediction, not imitation"
+      "first_seconds": 2270,
+      "summary": "Deep nets overwrite old knowledge when trained on new data — evidence of poor generalization"
     },
     {
       "name": "AI succession",
-      "first_seconds": 3308,
-      "summary": "The thesis that more-capable digital or augmented intelligences will inevitably take over from biological humans"
+      "first_seconds": 3275,
+      "summary": "Inevitable handoff of resources/power to superintelligent designed entities"
+    },
+    {
+      "name": "Replication-to-design transition",
+      "first_seconds": 3450,
+      "summary": "Cosmic stage where designed minds replace replicated ones"
     }
   ],
   "books_papers": [
     {
       "name": "The Bitter Lesson",
       "author": "Richard Sutton",
-      "context": "2019 essay invoked throughout the conversation"
-    },
-    {
-      "name": "The Era of Experience",
-      "author": "Richard Sutton & David Silver",
-      "context": "Position paper articulating the experiential-stream paradigm"
-    },
-    {
-      "name": "Computing Machinery and Intelligence",
-      "author": "Alan Turing",
-      "context": "Source of the 'learn from experience' framing Sutton paraphrases"
+      "context": "2019 essay invoked throughout — Sutton questions whether LLMs actually exemplify it"
     }
   ]
 }

@@ -144,3 +144,6 @@ After secrets are in `../.env.local`:
 ```
 
 To actually process something, drop a URL in `queue.txt` and run again. Use a short video for the first WhisperX test — even a 10-min clip is a meaningful smoke test (~10–15 min wall time, dominated by diarization).
+
+## 6. Watching realtime progress of Transcription and Diarization
+.venv/bin/python -u scripts/transcribe_whisperx.py <id>

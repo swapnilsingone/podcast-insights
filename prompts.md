@@ -1,0 +1,1 @@
+- do the analysis using opus 4.8 -> change in process_queue.py to lock 4.8

@@ -1,0 +1,751 @@
+{
+  "video": {
+    "id": "10MdOvK-aG4",
+    "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+    "channel": "All-In Podcast",
+    "duration_seconds": 4921,
+    "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
+    "upload_date": "2026-05-08",
+    "display_title_html": "Elon's Anthropic Deal, The Next <em>AI Monopoly</em>?, \"FDA for AI\" Panic, Trading the AI Boom"
+  },
+  "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute—not demand—and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bestie intros! Thoughts on the LA mayor election"
+    },
+    {
+      "start": 278,
+      "title": "SpaceX-Anthropic deal, Elon Web Services, SpaceX IPO valuation, Anthropic's insane growth trajectory"
+    },
+    {
+      "start": 1608,
+      "title": "Is Anthropic the next great monopoly? Early signals or major overreaction?"
+    },
+    {
+      "start": 2121,
+      "title": "\"FDA for AI\" freakout, how the White House thinks about AI safety"
+    },
+    {
+      "start": 3121,
+      "title": "Flipping AI's negative perception: Giving, healthcare and education innovation"
+    },
+    {
+      "start": 3604,
+      "title": "Trading the AI market, state of the economy"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "counterintuitive",
+      "headline": "AI revenue is gated by power, not demand",
+      "body": "Chamath argues Anthropic and OpenAI's revenue performance 'has nothing to do with demand, zero'—it is entirely constrained by data center supply and power. With infinite power, he says revenues would be even more parabolic, so beating or missing forecasts is meaningless.",
+      "start_seconds": 360,
+      "end_seconds": 412
+    },
+    {
+      "id": 2,
+      "category": "story",
+      "headline": "Elon leases Colossus One to Anthropic",
+      "body": "Elon leased the entirety of his Colossus One data center to Anthropic, adding over 220,000 NVIDIA GPUs and 300+ megawatts of capacity. The deal immediately let Anthropic double Claude Code rate limits, remove peak caps for paid users, and raise API volumes for Opus models.",
+      "start_seconds": 279,
+      "end_seconds": 333
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "Elon Web Services blunts the SpaceX bear case",
+      "body": "By leasing terrestrial compute, Elon creates a 'structural core business' that subsidizes training Grok and de-risks the speculative orbital-data-center valuation in the SpaceX roadshow. Brad estimates this adds $4-5B of incremental revenue this year on top of mid-$20B analyst estimates.",
+      "start_seconds": 467,
+      "end_seconds": 588
+    },
+    {
+      "id": 4,
+      "category": "data-point",
+      "headline": "Anthropic ARR: $10B to $44B in four months",
+      "body": "Sachs says Anthropic grew from roughly $10B ARR on Jan 1 to $30B by March 31, then accelerated to $44B in April—after three years of 10x annual growth. He calls it growth at scale nobody in Silicon Valley has ever seen.",
+      "start_seconds": 858,
+      "end_seconds": 901
+    },
+    {
+      "id": 5,
+      "category": "prediction",
+      "headline": "Anthropic could become the biggest monopoly ever",
+      "body": "Sachs argues if Anthropic sustains its exponential to ~$100B ARR this year and a trillion by 2027, it would be the most valuable tech company in history—possibly worth more than the rest of the Mag7 combined. Chamath notes the Mag7 total only ~$2.3-2.35T, so it would be the 'Mag 1.'",
+      "start_seconds": 970,
+      "end_seconds": 1032
+    },
+    {
+      "id": 6,
+      "category": "mental-model",
+      "headline": "The 'Safe Oil' Rockefeller thought experiment",
+      "body": "Sachs argues if John D. Rockefeller had been good at PR, he would have rebranded Standard Oil as 'Safe Oil,' demanded a government agency to regulate kerosene safety, and called himself an effective altruist—distracting everyone from the monopoly he was building. His point: safety rhetoric can mask consolidation.",
+      "start_seconds": 1687,
+      "end_seconds": 1786
+    },
+    {
+      "id": 7,
+      "category": "counterintuitive",
+      "headline": "'FDA for AI' was largely fabricated news",
+      "body": "Both Sachs and Brad spoke to Kevin Hassett, who said he only invoked the FDA analogy to mean labs should show models for coordination—not an approval regime. Sachs traces the panic to a New York Times piece and Andrew Ross Sorkin commentary that 'took on a life of its own'; Susie Wiles' statement shot it down.",
+      "start_seconds": 2580,
+      "end_seconds": 2657
+    },
+    {
+      "id": 8,
+      "category": "framework",
+      "headline": "KYC, not pre-approval, for frontier models",
+      "body": "Chamath and Sachs converge on requiring know-your-customer wrappers before granting API access to powerful models like Mythos—especially during preview periods—so labs can screen out state actors. Brad notes labs already track API use and flag suspicious activity to government.",
+      "start_seconds": 2776,
+      "end_seconds": 2980
+    },
+    {
+      "id": 9,
+      "category": "prediction",
+      "headline": "Cyber capabilities in every frontier model within months",
+      "body": "Sachs says within three to six months all major frontier labs, plus Chinese and open-source models, will have Mythos-level cyber capabilities. Because offense and defense use the same toolset, he calls for getting these tools into cybersecurity firms like CrowdStrike and Palo Alto Networks first.",
+      "start_seconds": 2716,
+      "end_seconds": 2812
+    },
+    {
+      "id": 10,
+      "category": "counterintuitive",
+      "headline": "Data center protests are organized, not local",
+      "body": "Brad argues the protests delaying nearly half of the ~9 gigawatts coming online this year aren't organic—they're highly organized activists moving across the country, the same playbook that killed US fission reactor construction 30 years ago. He says electricity bills are rising in non-building states (NY, CA) and falling in Texas.",
+      "start_seconds": 660,
+      "end_seconds": 753
+    },
+    {
+      "id": 11,
+      "category": "data-point",
+      "headline": "AI is 75% of Q1 GDP growth",
+      "body": "Sachs cites that AI accounts for 75% of GDP growth in Q1, with the boom extending beyond Silicon Valley into a construction and blue-collar boom featuring 25-30% wage increases for construction workers. He notes AI ranked only 29th of 39 issues in voter salience despite its unpopularity.",
+      "start_seconds": 3406,
+      "end_seconds": 3434
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "No evidence AI has lifted S&P margins yet",
+      "body": "Chamath insists there is 'not a scintilla of evidence' AI has lifted S&P 500 operating margins, predicting a reckoning in ~500 days where buyers of tokens must show measurable benefit. Brad counters margins rose 200bps to 13% with flat 3% headcount growth, but concedes it could be post-COVID 'age of fitness' rather than AI.",
+      "start_seconds": 4014,
+      "end_seconds": 4135
+    },
+    {
+      "id": 13,
+      "category": "framework",
+      "headline": "Elon gets a premium because rivals stopped innovating",
+      "body": "Chamath says Apple, Google, Meta and Amazon are fairly valued—'Elon World gets a premium' because everyone else has stopped innovating and only knows how to 'draw more blood from the stone.' The market and retail are signaling that incremental ad-targeting does nothing for society.",
+      "start_seconds": 1390,
+      "end_seconds": 1525
+    },
+    {
+      "id": 14,
+      "category": "prediction",
+      "headline": "Tesla and SpaceX will merge into 'Elon Corp'",
+      "body": "Chamath predicts Tesla and SpaceX merge into a single 'Elon Corp' by end of year or mid next year, creating one asset trading at an unexplainable premium. He frames the eventual SpaceX IPO trading at 40-50x revenue—~$2T on $40-50B next-year revenue.",
+      "start_seconds": 1462,
+      "end_seconds": 1525
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Anthropic and OpenAI's revenue performance has nothing to do with demand, zero. It is entirely to do with the supply constraints that exist in data centers and specifically in power.",
+      "speaker": "Chamath Palihapitiya",
+      "start_seconds": 367
+    },
+    {
+      "text": "Let me be the first to congratulate Dario on winning the AI race.",
+      "speaker": "David Sachs",
+      "start_seconds": 819
+    },
+    {
+      "text": "Dario calls it AGI. I call it the biggest monopoly in human history.",
+      "speaker": "David Sachs",
+      "start_seconds": 988
+    },
+    {
+      "text": "There's nobody better on planet Earth than Elon at converting electrons to tokens.",
+      "speaker": "Brad Gerstner",
+      "start_seconds": 533
+    },
+    {
+      "text": "There is literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500.",
+      "speaker": "Chamath Palihapitiya",
+      "start_seconds": 4030
+    },
+    {
+      "text": "I think the markets are going to keep going up for a while. And then at some point, they're going to go down.",
+      "speaker": "Chamath Palihapitiya",
+      "start_seconds": 4031
+    }
+  ],
+  "resources": [
+    {
+      "name": "Sean McGuire",
+      "context": "Tweet describing SpaceX's 'five-layer cake': launch, connectivity, compute, hyperscaler/space data centers, applications/models, other bets"
+    },
+    {
+      "name": "Dwarkesh Patel (Dworkish)",
+      "context": "Podcast where Dario Amodei said combined AI market-leader revenue would be ~$1T by 2029"
+    },
+    {
+      "name": "Pulte Homes + Span",
+      "context": "Deal placing NVIDIA GPU data centers beside every home for distributed compute"
+    },
+    {
+      "name": "BasePower / Zach Dell",
+      "context": "Cited by Brad as doing distributed home power/compute"
+    },
+    {
+      "name": "Jamin Ball",
+      "context": "Altimeter analyst who published cloud hyperscaler growth data on Twitter"
+    },
+    {
+      "name": "There Will Be Blood",
+      "context": "Film Sachs references as essentially about Rockefeller-style ruthless monopolists"
+    },
+    {
+      "name": "PJ O'Rourke",
+      "context": "Quoted: 'If you think healthcare is expensive now, just wait until you make it free'"
+    },
+    {
+      "name": "Andrew Ross Sorkin",
+      "context": "Commentator Sachs blames for originating the 'FDA for AI' framing"
+    }
+  ],
+  "action_items": [
+    "When evaluating AI lab revenue, judge it against power and compute supply—not demand—because that is the true binding constraint.",
+    "Track the ~500-day 'reckoning' window Chamath flags: watch for enterprises tracing spend (X) directly to higher margins (Y) before assuming AI ROI is real.",
+    "If you invest around the AI boom, note the relative cheapness of memory stocks (SK Hynix ~5x, Samsung ~6x, Micron ~7x) versus hyperscalers, per Altimeter's positioning.",
+    "Demand KYC—not pre-release approval—as the practical safety guardrail for frontier model API access, especially during preview periods.",
+    "Discount headlines about an 'FDA for AI' and AI job destruction; verify against primary sources, since both were contested as fake or premature on this episode."
+  ],
+  "stats": [
+    {
+      "label": "Anthropic ARR jump",
+      "val": "$10B→$44B",
+      "unit": "in 4mo",
+      "sub": "Jan 1 to April 2026; after three years of 10x annual growth, with a ~$100B exit and trillion-by-2027 forecast."
+    },
+    {
+      "label": "Colossus One to Anthropic",
+      "val": "220,000",
+      "unit": "GPUs",
+      "sub": "Plus 300+ megawatts; let Anthropic double Claude Code limits and lift Opus API caps."
+    },
+    {
+      "label": "AI share of Q1 GDP growth",
+      "val": "75%",
+      "unit": "of growth",
+      "sub": "Driving a construction/blue-collar boom with 25-30% wage gains for construction workers."
+    },
+    {
+      "label": "Hyperscaler cloud growth",
+      "val": "63%",
+      "unit": "GCP YoY",
+      "sub": "Google Cloud on ~$80B run rate; AWS ~$150B at 28%, Azure ~$108B at 39%."
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Jason Calacanis",
+        "role": "Host / moderator, angel investor",
+        "speaker": true,
+        "mentions": 40,
+        "first_seconds": 35,
+        "context": "Moderates the episode; pushes minimum wage, universal healthcare, and IPO-giving ideas."
+      },
+      {
+        "name": "Chamath Palihapitiya",
+        "role": "Investor, Social Capital",
+        "speaker": true,
+        "mentions": 20,
+        "first_seconds": 360,
+        "context": "Argues power is the binding constraint and AI hasn't lifted S&P margins yet."
+      },
+      {
+        "name": "David Sachs",
+        "role": "Investor; White House AI/crypto czar",
+        "speaker": true,
+        "mentions": 30,
+        "first_seconds": 95,
+        "context": "Frames Anthropic as a potential monopoly and delivers the 'Safe Oil' Rockefeller analogy."
+      },
+      {
+        "name": "Brad Gerstner",
+        "role": "Founder/CEO, Altimeter Capital (8090)",
+        "speaker": true,
+        "mentions": 25,
+        "first_seconds": 145,
+        "context": "Fifth bestie; bullish on the AI market and Elon's hyperscaler pivot."
+      },
+      {
+        "name": "David Friedberg",
+        "role": "Bestie (absent this episode)",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 50,
+        "context": "Sick with a 'socialist-related flu'; returns next week with interviews."
+      },
+      {
+        "name": "Elon Musk",
+        "role": "CEO, SpaceX/Tesla/xAI",
+        "speaker": false,
+        "mentions": 20,
+        "first_seconds": 279,
+        "context": "Leased Colossus One to Anthropic, emerging as 'Elon Web Services' hyperscaler."
+      },
+      {
+        "name": "Dario Amodei",
+        "role": "CEO, Anthropic",
+        "speaker": false,
+        "mentions": 10,
+        "first_seconds": 295,
+        "context": "'Congratulated' for winning the AI race; predicted ~$1T combined AI revenue by 2029."
+      },
+      {
+        "name": "Kevin Hassett",
+        "role": "Director, National Economic Council",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 2169,
+        "context": "Raised FDA analogy on Fox Business; later told hosts he meant coordination, not approval."
+      },
+      {
+        "name": "Scott Bessent",
+        "role": "Treasury Secretary",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2210,
+        "context": "Clip on balancing AI innovation with government's charge to keep things safe."
+      },
+      {
+        "name": "Spencer Pratt",
+        "role": "LA mayoral candidate",
+        "speaker": false,
+        "mentions": 5,
+        "first_seconds": 62,
+        "context": "Viral ads and debate performance; hosts predict he wins the LA mayor race."
+      },
+      {
+        "name": "Karen Bass",
+        "role": "LA Mayor",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 94,
+        "context": "Incumbent described as extremely left-wing, challenged by Pratt."
+      },
+      {
+        "name": "Ken Griffin",
+        "role": "Founder, Citadel",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 219,
+        "context": "Said he's leaving for Florida over personal-safety fears after Mamdani targeted his house."
+      },
+      {
+        "name": "Zohran Mamdani",
+        "role": "NYC politician",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 219,
+        "context": "Criticized for an attack video filmed at Ken Griffin's house."
+      },
+      {
+        "name": "Bernie Sanders",
+        "role": "US Senator",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 3050,
+        "context": "Praised the FDA-for-AI idea; called for a moratorium banning data centers."
+      },
+      {
+        "name": "Donald Trump",
+        "role": "US President (47th admin)",
+        "speaker": false,
+        "mentions": 5,
+        "first_seconds": 2169,
+        "context": "Considering an AI working-group executive order; credited for pro-innovation/energy policy."
+      },
+      {
+        "name": "Susie Wiles",
+        "role": "White House Chief of Staff",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2603,
+        "context": "Issued a statement Sachs says shoots down the FDA-for-AI report."
+      },
+      {
+        "name": "John D. Rockefeller",
+        "role": "Standard Oil founder (historical)",
+        "speaker": false,
+        "mentions": 5,
+        "first_seconds": 1687,
+        "context": "Central figure in Sachs' 'Safe Oil' monopoly thought experiment."
+      },
+      {
+        "name": "Tim Cook",
+        "role": "CEO, Apple",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 1474,
+        "context": "Cited by Jason as emblematic of Apple's lack of innovation (Apple TV as 'Netflix knockoff')."
+      },
+      {
+        "name": "Andrew Ross Sorkin",
+        "role": "Journalist/commentator",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2632,
+        "context": "Blamed by Sachs for originating the 'FDA for AI' framing."
+      }
+    ],
+    "companies": [
+      {
+        "name": "Anthropic",
+        "mentions": 30,
+        "first_seconds": 295,
+        "context": "Leased Colossus One; ARR surged to $44B; framed as a potential historic monopoly."
+      },
+      {
+        "name": "SpaceX",
+        "mentions": 15,
+        "first_seconds": 278,
+        "context": "Leasing terrestrial compute to Anthropic; roadshow valuation supported by 'Elon Web Services.'"
+      },
+      {
+        "name": "xAI",
+        "mentions": 8,
+        "first_seconds": 520,
+        "context": "Trains Grok on Colossus 2; tied up with Cursor; lacks a coding product/revenue."
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 10,
+        "first_seconds": 363,
+        "context": "Growing 3-4x; pivoted to Codex on GPT-5.5 (base model 'Spud'); one of only two AI revenue leaders."
+      },
+      {
+        "name": "NVIDIA",
+        "mentions": 6,
+        "first_seconds": 310,
+        "context": "Supplies the 220,000 GPUs; trading ~19x earnings, ~$190B revenue."
+      },
+      {
+        "name": "Google / Alphabet",
+        "mentions": 8,
+        "first_seconds": 555,
+        "context": "Google Cloud grew 63%; strong coding team; ~$390B revenue, 24x earnings."
+      },
+      {
+        "name": "Amazon / AWS",
+        "mentions": 6,
+        "first_seconds": 555,
+        "context": "AWS on ~$150B run rate, 28% growth; Amazon ~$700B revenue."
+      },
+      {
+        "name": "Microsoft / Azure",
+        "mentions": 5,
+        "first_seconds": 555,
+        "context": "Azure on ~$108B run rate, 39% growth; trades ~20x earnings."
+      },
+      {
+        "name": "Tesla",
+        "mentions": 4,
+        "first_seconds": 1265,
+        "context": "Factory/battery expertise central to Elon's compute thesis; ~$110B revenue; merger candidate."
+      },
+      {
+        "name": "Meta",
+        "mentions": 3,
+        "first_seconds": 996,
+        "context": "~$185B revenue; trades 17x fully-taxed GAAP earnings."
+      },
+      {
+        "name": "Apple",
+        "mentions": 4,
+        "first_seconds": 994,
+        "context": "~$420B revenue; criticized for lack of innovation post-Jobs."
+      },
+      {
+        "name": "Altimeter Capital",
+        "mentions": 3,
+        "first_seconds": 3636,
+        "context": "Brad's firm; 80%+ exposure in compute/AI/memory, 25% in memory stocks."
+      },
+      {
+        "name": "CrowdStrike",
+        "mentions": 2,
+        "first_seconds": 2785,
+        "context": "Named as a top cyber-defense company to arm with frontier model tools."
+      },
+      {
+        "name": "Palo Alto Networks",
+        "mentions": 2,
+        "first_seconds": 2785,
+        "context": "Cited alongside CrowdStrike as best-in-world cybersecurity defense."
+      },
+      {
+        "name": "SK Hynix",
+        "mentions": 1,
+        "first_seconds": 3743,
+        "context": "Memory stock in Altimeter's portfolio trading ~5x earnings."
+      },
+      {
+        "name": "Samsung",
+        "mentions": 1,
+        "first_seconds": 3744,
+        "context": "Memory stock trading ~6x fully-taxed earnings."
+      },
+      {
+        "name": "Micron",
+        "mentions": 1,
+        "first_seconds": 3745,
+        "context": "Memory stock trading ~7x earnings."
+      },
+      {
+        "name": "Cursor",
+        "mentions": 2,
+        "first_seconds": 522,
+        "context": "Coding tool xAI partnered with to catch up in enterprise/coding revenue."
+      },
+      {
+        "name": "Citadel",
+        "mentions": 1,
+        "first_seconds": 219,
+        "context": "Ken Griffin's firm relocating efforts to Florida."
+      },
+      {
+        "name": "Pulte Homes",
+        "mentions": 2,
+        "first_seconds": 1287,
+        "context": "Homebuilder in a deal with Span to place GPU data centers beside homes."
+      },
+      {
+        "name": "Uber",
+        "mentions": 1,
+        "first_seconds": 3617,
+        "context": "Cited as a consumer bellwether blowing out growth."
+      },
+      {
+        "name": "Disney",
+        "mentions": 1,
+        "first_seconds": 3617,
+        "context": "Cited as a consumer bellwether blowing out growth."
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Colossus / Colossus One & Two",
+        "type": "Data center cluster",
+        "first_seconds": 279,
+        "context": "Elon's xAI data centers; Colossus One leased to Anthropic, Colossus Two runs Grok."
+      },
+      {
+        "name": "Mythos",
+        "type": "Frontier AI model",
+        "first_seconds": 1957,
+        "context": "Anthropic model with powerful cyber capabilities that spooked the White House."
+      },
+      {
+        "name": "GPT-5.5 / Codex (base model 'Spud')",
+        "type": "AI model / coding tool",
+        "first_seconds": 1162,
+        "context": "OpenAI's accelerating coding stack, reportedly improving growth."
+      },
+      {
+        "name": "Grok",
+        "type": "AI model",
+        "first_seconds": 504,
+        "context": "xAI's model, now subsidized by Elon's terrestrial compute business."
+      },
+      {
+        "name": "Claude Code",
+        "type": "Coding product",
+        "first_seconds": 320,
+        "context": "Doubled rate limits after the Colossus compute deal."
+      },
+      {
+        "name": "Powerwall",
+        "type": "Home battery",
+        "first_seconds": 1287,
+        "context": "Jason's speculation about embedding compute fabs into home Powerwalls for distributed compute."
+      },
+      {
+        "name": "Starlink",
+        "type": "Satellite connectivity",
+        "first_seconds": 718,
+        "context": "SpaceX's profitable telecom business enabling distributed home compute."
+      },
+      {
+        "name": "MacroHard & MacroHarder",
+        "type": "Data center facilities",
+        "first_seconds": 587,
+        "context": "Elon's two Blackwell facilities (1.2GW); H100 capacity went to Anthropic."
+      },
+      {
+        "name": "Polymarket",
+        "type": "Prediction market",
+        "first_seconds": 2940,
+        "context": "Showed 21% odds Trump orders a federal AI-model review by May 31."
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Elon Web Services (EWS)",
+        "first_seconds": 333,
+        "context": "Elon's emergence as a hyperscaler competing with AWS, Azure, and GCP via leased compute."
+      },
+      {
+        "name": "Safe Oil (Rockefeller analogy)",
+        "first_seconds": 1687,
+        "context": "Sachs' thought experiment that safety branding can mask monopoly-building."
+      },
+      {
+        "name": "KYC for AI models",
+        "first_seconds": 2776,
+        "context": "Know-your-customer wrappers on frontier model API access instead of pre-approval."
+      },
+      {
+        "name": "FDA for AI",
+        "first_seconds": 2113,
+        "context": "Disputed proposal for a government agency to pre-approve AI models before release."
+      },
+      {
+        "name": "The OPEX/revenue fork in the road",
+        "first_seconds": 4090,
+        "context": "Chamath's two-path model: margins rise via shrinking workforce vs. growing through it."
+      },
+      {
+        "name": "Age of excess to age of fitness",
+        "first_seconds": 4287,
+        "context": "Brad's framing of post-COVID layoffs that may be confused with AI-driven efficiency."
+      },
+      {
+        "name": "Converting electrons to tokens",
+        "first_seconds": 533,
+        "context": "Brad's framing of Elon's core advantage in AI infrastructure."
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "There Will Be Blood",
+        "author": "Paul Thomas Anderson (film)",
+        "context": "Referenced as essentially depicting Rockefeller-style ruthless monopolists."
+      },
+      {
+        "name": "Wall Street Journal: 'College graduates are finally catching a break in this job market'",
+        "author": "Wall Street Journal",
+        "context": "Headline Sachs cites to refute the AI-kills-entry-level-jobs narrative."
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "10MdOvK-aG4-p1",
+      "claim": "Anthropic will hit its 10x growth forecast this year, exiting ~$100B ARR, and could reach a trillion in ARR by 2027—becoming the most valuable tech company in history.",
+      "speaker": "David Sachs",
+      "category": "ai",
+      "start_seconds": 894,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by 2027",
+      "revisit_dates": [
+        "2026-12-31",
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "10MdOvK-aG4-p2",
+      "claim": "The SpaceX IPO will trade at 40-50x revenue, reaching roughly a $2 trillion valuation on $40-50B of next-year revenue.",
+      "speaker": "Brad Gerstner",
+      "category": "business",
+      "start_seconds": 1387,
+      "stated_at": "2026-05-08",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-05-08",
+        "2028-05-08"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "10MdOvK-aG4-p3",
+      "claim": "Tesla and SpaceX will merge into a single 'Elon Corp' by the end of this year or the middle of next year.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "business",
+      "start_seconds": 1462,
+      "stated_at": "2026-05-08",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2026-12-31",
+        "2027-07-08"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "10MdOvK-aG4-p4",
+      "claim": "Within three to six months, all major frontier labs—including Chinese and open-source models—will have Mythos-level cyber capabilities.",
+      "speaker": "David Sachs",
+      "category": "tech",
+      "start_seconds": 2716,
+      "stated_at": "2026-05-08",
+      "horizon_label": "3-6 months",
+      "revisit_dates": [
+        "2026-08-08",
+        "2026-11-08"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "10MdOvK-aG4-p5",
+      "claim": "Markets will keep rising for a while, then within hundreds of days (~500) there will be a reckoning moment where token-buyers must show measurable ROI or margins/markets correct.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "macro",
+      "start_seconds": 4090,
+      "stated_at": "2026-05-08",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-09-20"
+      ],
+      "status": "open",
+      "notes": "Chamath cites ~500 days as the window for the AI ROI reckoning."
+    },
+    {
+      "id": "10MdOvK-aG4-p6",
+      "claim": "Combined AI revenue of the market leaders will reach about a trillion dollars by 2029 (Dario Amodei's forecast, cited approvingly).",
+      "speaker": "Brad Gerstner (citing Dario Amodei)",
+      "category": "ai",
+      "start_seconds": 1503,
+      "stated_at": "2026-05-08",
+      "horizon_label": "by 2029",
+      "revisit_dates": [
+        "2029-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "10MdOvK-aG4-p7",
+      "claim": "Spencer Pratt will win the Los Angeles mayoral election.",
+      "speaker": "Chamath Palihapitiya",
+      "category": "politics",
+      "start_seconds": 78,
+      "stated_at": "2026-05-08",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2026-11-08"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}

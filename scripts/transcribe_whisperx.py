@@ -29,6 +29,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
 import warnings
 from pathlib import Path
@@ -102,6 +103,22 @@ def chunk_with_speakers(segments: list[dict], target: float = 30.0) -> list[dict
     return chunks
 
 
+def _heartbeat(label: str, audio_dur: float, stop_event: threading.Event, interval: float = 30.0):
+    """Print elapsed wallclock + moving × realtime every `interval` seconds.
+
+    Used to make opaque pyannote/whisperx phases observable in piped logs (where
+    tqdm bars are silenced). Runs on a daemon thread; stop via stop_event.set().
+    """
+    t0 = time.time()
+    while not stop_event.wait(interval):
+        elapsed = time.time() - t0
+        rt = audio_dur / elapsed if elapsed > 0 else 0.0
+        print(
+            f"    [{label}] {elapsed:.0f}s elapsed · {rt:.2f}× realtime so far",
+            file=sys.stderr, flush=True,
+        )
+
+
 # ── WhisperX pipeline ────────────────────────────────────────────────────────
 
 def transcribe_whisperx(
@@ -130,7 +147,9 @@ def transcribe_whisperx(
 
     print(f"  transcribing ({audio_dur/60:.1f} min)...")
     t0 = time.time()
-    result = model.transcribe(audio, batch_size=batch_size)
+    # print_progress=True → faster-whisper emits per-chunk progress to stderr,
+    # visible even when piped (e.g., through process_queue.sh's sed wrapper).
+    result = model.transcribe(audio, batch_size=batch_size, print_progress=True)
     dt = time.time() - t0
     print(f"    transcribed in {dt:.1f}s ({audio_dur/dt:.1f}× realtime)")
 
@@ -164,7 +183,20 @@ def transcribe_whisperx(
             if max_speakers is not None:
                 kwargs["max_speakers"] = max_speakers
             print(f"    diarizing ({audio_dur/60:.1f} min)...")
-            diarize_df = diarize_pipeline(audio, **kwargs)
+            # Heartbeat: pyannote's pipeline call is opaque (no progress events),
+            # so a 30s-tick thread prints elapsed + observed × realtime to stderr
+            # — early warning if you're on the slow track (0.1×) vs fast (0.7×).
+            stop = threading.Event()
+            hb = threading.Thread(
+                target=_heartbeat, args=("diarize", audio_dur, stop),
+                daemon=True,
+            )
+            hb.start()
+            try:
+                diarize_df = diarize_pipeline(audio, **kwargs)
+            finally:
+                stop.set()
+                hb.join(timeout=1)
             dt = time.time() - t0
             print(f"    diarized in {dt:.1f}s ({audio_dur/dt:.1f}× realtime)")
             result = whisperx.assign_word_speakers(diarize_df, result)
