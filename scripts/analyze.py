@@ -9,10 +9,10 @@ Outputs (under videos/<id>/):
   - analysis.json    (single combined Claude output, kept for debugging)
 
 Usage:
-  python3 scripts/analyze.py <video_id> [--model claude-opus-4-7|claude-sonnet-4-6]
+  python3 scripts/analyze.py <video_id> [--model claude-opus-4-8|claude-sonnet-4-6]
 
 The Claude model is controlled by CLAUDE_MODEL env var or --model flag, defaulting
-to whatever the local claude CLI uses. Sonnet 4.6 is ~5x cheaper than Opus 4.7
+to whatever the local claude CLI uses. Sonnet 4.6 is ~5x cheaper than Opus 4.8
 and good enough for most transcripts; Opus extracts subtler insights.
 """
 import argparse
@@ -138,7 +138,7 @@ def fmt_chapters(chapters):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("video_id")
-    ap.add_argument("--model", help="claude model id (e.g. claude-sonnet-4-6, claude-opus-4-7)")
+    ap.add_argument("--model", help="claude model id (e.g. claude-sonnet-4-6, claude-opus-4-8)")
     ap.add_argument("--force", action="store_true", help="re-analyze even if analysis.json exists")
     args = ap.parse_args()
 

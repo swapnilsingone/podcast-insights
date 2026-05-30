@@ -2,7 +2,7 @@
 # Process every URL in queue.txt end-to-end without a Claude Code session.
 #
 # Locked policy (see CLAUDE.md — do not change loosely):
-#   - Analysis model: claude-opus-4-7  (no flags, no aliases, no env overrides)
+#   - Analysis model: claude-opus-4-8  (no flags, no aliases, no env overrides)
 #   - Default transcription backend: whisperx  (local; speaker diarization on)
 #       Override per URL in queue.txt with a prefix:
 #         [groq]     https://www.youtube.com/watch?v=...   # fast, no speakers
@@ -21,7 +21,7 @@
 # Failure markers in queue.txt (URL line is rewritten, preserving any [backend] prefix):
 #   # FAILED-METADATA:      yt-dlp couldn't fetch info
 #   # FAILED-TRANSCRIPTION: transcription step failed (key/auth/api/quota)
-#   # FAILED-MODEL:         claude -p (opus 4.7) analysis failed
+#   # FAILED-MODEL:         claude -p (opus 4.8) analysis failed
 #   # FAILED-MODEL+TRANSCRIPTION: both failed in preflight
 #
 # Successful URLs are removed from queue.txt.
@@ -260,7 +260,7 @@ process_one() {
     echo "  │  [2/5] transcript already present"
   fi
 
-  # 3. LLM analysis — opus 4.7 ONLY, no fallback.
+  # 3. LLM analysis — opus 4.8 ONLY, no fallback.
   echo "  │  [3/5] analyze (claude -p, model=$REQUIRED_MODEL, locked)"
   if ! python3 "$PROJECT_DIR/scripts/analyze.py" "$VID" --model "$REQUIRED_MODEL" 2>&1 \
        | sed 's/^/  │       /'; then

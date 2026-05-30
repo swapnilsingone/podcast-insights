@@ -24,7 +24,7 @@ Used by every video — `yt-dlp` fetches the audio + metadata, `ffmpeg` does any
 
 ## 2. Analysis model — Claude Code CLI
 
-The pipeline locks the analysis step to `claude-opus-4-7`. You need the `claude` CLI on your PATH and authenticated.
+The pipeline locks the analysis step to `claude-opus-4-8`. You need the `claude` CLI on your PATH and authenticated.
 
 ```bash
 claude --version           # any 1.x is fine

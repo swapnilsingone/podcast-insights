@@ -25,7 +25,7 @@ Two paths, same outputs.
 Drop URLs into `queue.txt`, run the script, walk away. Handles everything: yt-dlp → transcription → `claude -p` analysis → render → append to `history.jsonl` → symlink → rebuild indexes → de-queue.
 
 **Locked policy:**
-- **Model:** `claude-opus-4-7`. Hardcoded. Do not pass model arguments or export `CLAUDE_MODEL`.
+- **Model:** `claude-opus-4-8`. Hardcoded. Do not pass model arguments or export `CLAUDE_MODEL`.
 - **Default transcription:** `whisperx`. Switchable per run (`TRANSCRIPTION_DEFAULT=groq`) or per URL.
 
 Per-URL override syntax in `queue.txt`:
@@ -41,7 +41,7 @@ Failure markers written back to `queue.txt`:
 | Marker | Meaning |
 |---|---|
 | `# FAILED-TRANSCRIPTION: <line>` | Transcription failed |
-| `# FAILED-MODEL: <line>` | `claude -p` with `claude-opus-4-7` failed |
+| `# FAILED-MODEL: <line>` | `claude -p` with `claude-opus-4-8` failed |
 | `# FAILED-MODEL+TRANSCRIPTION: <line>` | Both failed |
 | `# FAILED-METADATA: <line>` | yt-dlp could not fetch metadata |
 
@@ -83,9 +83,9 @@ The video and library page designs are **locked**. Canonical template: `scripts/
 
 Chrome blocks `fetch()` between local files. Library pages silently fail when opened directly. See `instructions.md` for server startup commands.
 
-## Model choice — locked to Opus 4.7
+## Model choice — locked to Opus 4.8
 
-Locked to `claude-opus-4-7` for insight quality. If unavailable, the URL fails with `# FAILED-MODEL:` — fix auth, don't switch models.
+Locked to `claude-opus-4-8` for insight quality. If unavailable, the URL fails with `# FAILED-MODEL:` — fix auth, don't switch models.
 
 ## Transcription backends
 

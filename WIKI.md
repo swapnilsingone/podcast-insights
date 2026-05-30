@@ -41,7 +41,7 @@ YouTube URL
     │      → output: [00:01:23] "The key insight here is…"
     │
     ▼
-[3] Analysis: claude-opus-4-7 reads transcript → insights, entities, predictions
+[3] Analysis: claude-opus-4-8 reads transcript → insights, entities, predictions
     │
     ▼
 [4] Render: build_video.py → index.html + insights.json / entities.json / predictions.json
@@ -59,7 +59,7 @@ YouTube URL
 | ASR | Whisper large-v3 | Local CPU (WhisperX) or Groq API | ~22 min local / ~30s Groq |
 | Alignment | wav2vec2 (built into WhisperX) | Local CPU | ~80s |
 | Diarization | pyannote/speaker-diarization-3.1 | Local CPU | ~52 min ← bottleneck |
-| Analysis | claude-opus-4-7 | Anthropic API | ~90s |
+| Analysis | claude-opus-4-8 | Anthropic API | ~90s |
 
 The ~75 min total for a 60-min podcast using WhisperX is almost entirely diarization on CPU. Groq skips alignment and diarization, finishing in ~30 seconds but producing no speaker labels.
 
