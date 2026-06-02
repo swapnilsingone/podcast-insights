@@ -599,7 +599,28 @@ const DATA = {
   "topics": [
     "ai"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Math tokens to match full-corpus training",
+      "sub": "Continued pretraining: 4B tokens matched the full 73B-token corpus — a 17x data-efficiency win",
+      "caption": "Source: Konwoo Kim · 59:39",
+      "unit": "B tokens",
+      "labels": [
+        "Aggressive epoching + ensembling",
+        "Full corpus (standard)"
+      ],
+      "series": [
+        {
+          "name": "Tokens trained (B tokens)",
+          "data": [
+            4,
+            73
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);

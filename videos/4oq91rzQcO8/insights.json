@@ -261,5 +261,73 @@
     "macro",
     "business"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Industrial Revolution outcomes since Leo XIII (1891)",
+      "sub": "Gurley's rebuttal to the encyclical's anti-industrialization warning",
+      "caption": "Source: Bill Gurley · 25:05",
+      "unit": "%",
+      "labels": [
+        "Child labor rate",
+        "Global poverty rate"
+      ],
+      "series": [
+        {
+          "name": "Then / 1891 (%)",
+          "data": [
+            18,
+            75
+          ]
+        },
+        {
+          "name": "Now (%)",
+          "data": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Average workweek collapsed since 1891",
+      "sub": "One of Gurley's industrialization-was-good data points",
+      "caption": "Source: Bill Gurley · 25:05",
+      "unit": "hrs",
+      "labels": [
+        "1891 (Leo XIII)",
+        "Today"
+      ],
+      "series": [
+        {
+          "name": "Workweek (hrs)",
+          "data": [
+            60,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Fortune 20 AI mandate: goal vs. actual",
+      "sub": "$1B OpEx-savings target vs. $200M burned on tokens in 6 months",
+      "caption": "Source: Chamath (Vivek Garapalli tweet) · 47:06",
+      "unit": "$M",
+      "labels": [
+        "Savings goal",
+        "Spent on tokens (6mo)"
+      ],
+      "series": [
+        {
+          "name": "Amount ($M)",
+          "data": [
+            1000,
+            200
+          ]
+        }
+      ]
+    }
+  ]
 }

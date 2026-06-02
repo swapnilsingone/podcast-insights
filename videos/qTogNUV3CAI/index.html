@@ -620,7 +620,30 @@ const DATA = {
     "ai",
     "science"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "Positions searched per move",
+      "sub": "Better world models compress search: AlphaZero beats champions while evaluating far fewer positions than Deep Blue",
+      "caption": "Source: Demis Hassabis · 07:26",
+      "unit": "positions/move",
+      "labels": [
+        "Deep Blue",
+        "AlphaZero",
+        "Human grandmaster"
+      ],
+      "series": [
+        {
+          "name": "Positions per move (positions/move)",
+          "data": [
+            1000000,
+            10000,
+            200
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);

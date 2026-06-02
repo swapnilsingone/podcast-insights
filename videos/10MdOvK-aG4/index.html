@@ -602,7 +602,74 @@ const DATA = {
     "business",
     "finance"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "line",
+      "title": "Anthropic ARR: $10B → $44B in four months",
+      "sub": "Jan 1 to April 2026, after three years of 10x annual growth",
+      "caption": "Source: Sachs · 14:18",
+      "unit": "$B",
+      "labels": [
+        "Jan 1",
+        "Mar 31",
+        "April"
+      ],
+      "series": [
+        {
+          "name": "Anthropic ARR ($B)",
+          "data": [
+            10,
+            30,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hbar",
+      "title": "Hyperscaler cloud run rates",
+      "sub": "Approximate annualized cloud revenue",
+      "caption": "Source: episode stats (hyperscaler cloud growth)",
+      "unit": "$B",
+      "labels": [
+        "AWS",
+        "Azure",
+        "Google Cloud"
+      ],
+      "series": [
+        {
+          "name": "Cloud run rate ($B)",
+          "data": [
+            150,
+            108,
+            80
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Hyperscaler cloud growth, YoY",
+      "sub": "Google Cloud leading on a smaller base",
+      "caption": "Source: episode stats (hyperscaler cloud growth)",
+      "unit": "%",
+      "labels": [
+        "Google Cloud",
+        "Azure",
+        "AWS"
+      ],
+      "series": [
+        {
+          "name": "YoY cloud growth (%)",
+          "data": [
+            63,
+            39,
+            28
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);

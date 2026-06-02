@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-06-02T05:26:21.275070Z",
+  "snapshot_at": "2026-06-02T05:46:37.053241Z",
   "totals": {
     "videos": 11,
     "insights": 156,
@@ -2342,7 +2342,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.248962Z",
+      "processed_at": "2026-06-02T05:44:13.631747Z",
       "processing_lag_days": 4,
       "path": "../videos/4oq91rzQcO8/index.html"
     },
@@ -2380,7 +2380,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.262678Z",
+      "processed_at": "2026-06-02T05:46:13.838014Z",
       "processing_lag_days": 5,
       "path": "../videos/wE1ZgJdt4uM/index.html"
     },
@@ -2400,7 +2400,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.252125Z",
+      "processed_at": "2026-06-02T05:44:49.227477Z",
       "processing_lag_days": 11,
       "path": "../videos/HGbA6ze0_3M/index.html"
     },
@@ -2420,7 +2420,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.243940Z",
+      "processed_at": "2026-06-02T05:43:37.931372Z",
       "processing_lag_days": 25,
       "path": "../videos/10MdOvK-aG4/index.html"
     }
@@ -2442,7 +2442,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.248962Z",
+      "processed_at": "2026-06-02T05:44:13.631747Z",
       "processing_lag_days": 4,
       "path": "../videos/4oq91rzQcO8/index.html"
     },
@@ -2480,7 +2480,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.262678Z",
+      "processed_at": "2026-06-02T05:46:13.838014Z",
       "processing_lag_days": 5,
       "path": "../videos/wE1ZgJdt4uM/index.html"
     },
@@ -2500,7 +2500,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.252125Z",
+      "processed_at": "2026-06-02T05:44:49.227477Z",
       "processing_lag_days": 11,
       "path": "../videos/HGbA6ze0_3M/index.html"
     },
@@ -2520,7 +2520,7 @@
       ],
       "insight_count": 14,
       "quote_count": 6,
-      "processed_at": "2026-06-02T05:22:59.243940Z",
+      "processed_at": "2026-06-02T05:43:37.931372Z",
       "processing_lag_days": 25,
       "path": "../videos/10MdOvK-aG4/index.html"
     }

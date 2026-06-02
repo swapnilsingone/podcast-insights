@@ -613,7 +613,70 @@ const DATA = {
     "ai",
     "macro"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "bar",
+      "title": "SpaceX's profit engine vs. its AI drag",
+      "sub": "Starlink operating income against the AI segment's operating loss, per the S-1",
+      "caption": "Source: SpaceX S-1 via Gavin Baker · ~47:00",
+      "unit": "$B",
+      "labels": [
+        "Starlink",
+        "AI segment"
+      ],
+      "series": [
+        {
+          "name": "Operating income ($B)",
+          "data": [
+            4.4,
+            -6.4
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "SpaceX's two biggest revenue lines",
+      "sub": "Starlink subscriptions vs. the Anthropic/Colossus compute-rental contract (annualized)",
+      "caption": "Source: SpaceX S-1 / Anthropic-Colossus deal · ~47:00",
+      "unit": "$B/yr",
+      "labels": [
+        "Starlink revenue",
+        "Anthropic compute rental"
+      ],
+      "series": [
+        {
+          "name": "Annual revenue ($B/yr)",
+          "data": [
+            11.4,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Nvidia's quarter, by the numbers",
+      "sub": "Revenue, net income, and free cash flow for the reported quarter",
+      "caption": "Source: Nvidia quarterly results via Gavin Baker · ~1:15:00",
+      "unit": "$B",
+      "labels": [
+        "Revenue",
+        "Net income",
+        "Free cash flow"
+      ],
+      "series": [
+        {
+          "name": "Amount ($B)",
+          "data": [
+            81.6,
+            58,
+            48
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);

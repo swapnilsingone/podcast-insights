@@ -593,5 +593,31 @@
   ],
   "topics": [
     "ai"
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "ImageNet top-1 accuracy: self-supervised vs supervised",
+      "sub": "DINOv3 (no labels) matches supervised ViT; Barlow Twins frozen probe beats supervised AlexNet",
+      "caption": "Source: LeCun episode · 27:39 & 25:31",
+      "unit": "%",
+      "labels": [
+        "Supervised ViT (Google, 2020)",
+        "DINOv3 self-supervised (Aug 2025)",
+        "Barlow Twins frozen + linear probe",
+        "AlexNet (supervised baseline)"
+      ],
+      "series": [
+        {
+          "name": "ImageNet top-1 (%)",
+          "data": [
+            88.6,
+            88.4,
+            73.2,
+            59.3
+          ]
+        }
+      ]
+    }
   ]
 }

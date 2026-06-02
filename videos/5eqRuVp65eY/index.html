@@ -598,7 +598,50 @@ const DATA = {
     "ai",
     "science"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Training compute per GPT generation",
+      "sub": "Petaflop-days, spanning ~4 orders of magnitude",
+      "caption": "Source: narrator, OpenAI/GPT-4 leaks · 02:17–10:21",
+      "unit": "petaflop-days",
+      "labels": [
+        "1.5B model",
+        "GPT-3 (175B)",
+        "GPT-4"
+      ],
+      "series": [
+        {
+          "name": "Compute (petaflop-days)",
+          "data": [
+            10,
+            3640,
+            200000
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Language's intrinsic dimension: theory vs measured",
+      "sub": "Resolution-limited theory underestimates the measured manifold",
+      "caption": "Source: narrator on -4/d scaling theory · 20:40",
+      "unit": "dimensions",
+      "labels": [
+        "Implied by exponent (theory)",
+        "Direct measurement"
+      ],
+      "series": [
+        {
+          "name": "Intrinsic dimension",
+          "data": [
+            42,
+            100
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);

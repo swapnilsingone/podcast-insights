@@ -572,7 +572,70 @@ const DATA = {
     "business",
     "tech"
   ],
-  "charts": []
+  "charts": [
+    {
+      "type": "bar",
+      "title": "China's weight in the global tech stack",
+      "sub": "Why export controls cede the standards war, not just a market",
+      "caption": "Source: Jensen Huang · 59:00",
+      "unit": "%",
+      "labels": [
+        "AI researchers",
+        "Mainstream chips",
+        "Global tech industry"
+      ],
+      "series": [
+        {
+          "name": "China share (%)",
+          "data": [
+            50,
+            60,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Nvidia's investment this round",
+      "sub": "After the Anthropic regret — won't miss the early check again",
+      "caption": "Source: Jensen Huang · 39:29",
+      "unit": "$B",
+      "labels": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "series": [
+        {
+          "name": "Reported investment ($B)",
+          "data": [
+            30,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Upstream purchase commitments — two estimates",
+      "sub": "The supply-chain moat, as stated vs. as tallied by SemiAnalysis",
+      "caption": "Source: Jensen Huang / SemiAnalysis · 04:32",
+      "unit": "$B",
+      "labels": [
+        "Stated (Nvidia)",
+        "SemiAnalysis"
+      ],
+      "series": [
+        {
+          "name": "Commitments ($B)",
+          "data": [
+            100,
+            250
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);
