@@ -1,0 +1,369 @@
+{
+  "video": {
+    "id": "wVKL_SpY2Uc",
+    "title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 2645,
+    "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+    "upload_date": "2026-06-01",
+    "display_title_html": "Nvidia Gets Into the PC Market With a <em>New Chip</em>"
+  },
+  "thesis": "Jensen Huang's Computex keynote re-ignites the AI trade on two fronts — Nvidia attacking the Intel/AMD PC market with an ARM-based RTX Spark CPU and arguing AI agents become software's biggest customers — while SpaceX's looming mega-IPO forces index providers to rewrite their rulebooks.",
+  "topics": [
+    "finance",
+    "ai",
+    "business"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech"
+    },
+    {
+      "start": 44,
+      "title": "Market Check"
+    },
+    {
+      "start": 94,
+      "title": "Nvidia Unveils New AI Chip"
+    },
+    {
+      "start": 341,
+      "title": "Software Stocks Rise"
+    },
+    {
+      "start": 573,
+      "title": "Nasdaq 100"
+    },
+    {
+      "start": 650,
+      "title": "SpaceX's IPO Reshaping Wall Street"
+    },
+    {
+      "start": 835,
+      "title": "Apple Aims to Disrupt New Market"
+    },
+    {
+      "start": 1094,
+      "title": "Luma AI CEO"
+    },
+    {
+      "start": 1283,
+      "title": "Physical AI Needs to Train Open-Source Data: Luma AI CEO"
+    },
+    {
+      "start": 1403,
+      "title": "Jensen Huang's Message to Computex"
+    },
+    {
+      "start": 1515,
+      "title": "Nvidia Takes on Intel with PC Chip"
+    },
+    {
+      "start": 1826,
+      "title": "MediaTek Senior Vice President Vince Hu"
+    },
+    {
+      "start": 1988,
+      "title": "NYC Tech Week"
+    },
+    {
+      "start": 2186,
+      "title": "Tech: NYC CEO Julie Samuels"
+    },
+    {
+      "start": 2335,
+      "title": "SpaceX Valuation Nears $2T"
+    },
+    {
+      "start": 2576,
+      "title": "Amazon Wants to Make Groceries a Habit"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "Nvidia attacks Intel and AMD with an ARM PC chip",
+      "body": "The RTX Spark super chip pairs a Blackwell RTX GPU (6,144 CUDA cores, one petaflop of AI performance) with a custom 20-core Grace CPU built with MediaTek, fused by NVLink, plus 128GB of unified memory. It is ARM-based rather than x86; Arm rose 16% while Intel and AMD fell.",
+      "start_seconds": 60,
+      "end_seconds": 113
+    },
+    {
+      "id": 2,
+      "category": "story",
+      "headline": "Nvidia won't say why its chip beats x86 — 'wait and see'",
+      "body": "Bloomberg's Ian King says reporters repeatedly asked for a head-to-head comparison and Nvidia only answered 'wait and see' until devices ship. The 4% stock pop is the market betting on Nvidia's brand and resources, not on disclosed specs.",
+      "start_seconds": 145,
+      "end_seconds": 183
+    },
+    {
+      "id": 3,
+      "category": "counterintuitive",
+      "headline": "ARM in the PC has failed before — even for Nvidia",
+      "body": "King notes this isn't a revolutionary idea: Nvidia itself tried ARM PCs over a decade ago and it didn't work, and most ARM-PC attempts have flopped apart from Apple's. Separately, IDC forecasts the overall PC market will decline 11% in calendar 2026.",
+      "start_seconds": 192,
+      "end_seconds": 473
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "SpaceX is forcing index providers to cut seasoning periods",
+      "body": "To accommodate SpaceX, Nasdaq narrowed its post-IPO waiting period from three months to 15 days, the FTSE to five days, and the S&P is consulting on cutting from 12 months to six. Critics warn this skips normal price discovery for a famously volatile new listing.",
+      "start_seconds": 646,
+      "end_seconds": 697
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "Index funds may be forced to buy ~$20B of SpaceX",
+      "body": "Index-tracking funds are estimated to buy nearly $20 billion of SpaceX, with 30% of the offering reserved for retail — even as Reddit traders ask why they'd buy directly when it lands in their index funds within months. The categorization (industrials, tech, or communications) is still unknown.",
+      "start_seconds": 715,
+      "end_seconds": 735
+    },
+    {
+      "id": 6,
+      "category": "mental-model",
+      "headline": "Tesla + SpaceX = an over-concentrated bet on Elon",
+      "body": "Isabel Lee argues that owning both Tesla and SpaceX is really a single concentrated bet on Elon Musk, despite different valuations and technicals. With OpenAI and Anthropic also coming, ordinary brokerage accounts risk huge, correlated tech concentration.",
+      "start_seconds": 756,
+      "end_seconds": 808
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "Apple is running the Apple Watch playbook on glasses",
+      "body": "Mark Gurman notes the Apple Watch upended the mid-tier mechanical watch industry (Movado, Fossil, Swatch) while the high end (Patek, Rolex, AP) thrived. He expects the same in eyewear: non-smart mid-tier brands like Ray-Ban and Warby Parker get wiped out, while high-end makers (Maison Bonnet, Cartier) survive.",
+      "start_seconds": 823,
+      "end_seconds": 914
+    },
+    {
+      "id": 8,
+      "category": "definition",
+      "headline": "'Generalization' is robotics' missing LLM moment",
+      "body": "Luma AI CEO Amit Jain defines the core gap: robots are still trained one specific task at a time, unlike language models that handle unseen problems. Generalization means letting robots solve essentially any task, including scenarios seen for the first time.",
+      "start_seconds": 1018,
+      "end_seconds": 1098
+    },
+    {
+      "id": 9,
+      "category": "mental-model",
+      "headline": "Open physical AI is an economic, not just moral, stance",
+      "body": "Jain argues it's 'completely untenable' for one or two companies to control the stack that will run homes, hospitals and manufacturing. He claims nations won't tolerate foreign firms owning their means of production, making open-source an economically sound, not merely philosophical, position. Luma raised a $900M Series C.",
+      "start_seconds": 1178,
+      "end_seconds": 1284
+    },
+    {
+      "id": 10,
+      "category": "counterintuitive",
+      "headline": "Billions of AI agents become software's biggest customers",
+      "body": "Huang's pitch: an experienced engineer becomes a manager of AI agents, and those billions of agents are themselves the largest users — and therefore customers — of software. The thesis drove rallies in ServiceNow and Adobe and reframes software as a beneficiary, not a victim, of AI.",
+      "start_seconds": 1481,
+      "end_seconds": 1710
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Huang calls AI job-loss fears 'complete nonsense'",
+      "body": "Jensen Huang says AI is causing more software engineers to be hired because output is so incredible, and frames agentic AI as a GDP generator that creates jobs. MediaTek's Vince Hu echoes this, saying his firm is expanding engineering headcount, not cutting it.",
+      "start_seconds": 1603,
+      "end_seconds": 1623
+    },
+    {
+      "id": 12,
+      "category": "framework",
+      "headline": "Software thesis holds: no clean-slate disintermediation",
+      "body": "Mandeep Singh says Datadog, Snowflake and MongoDB earnings show agentic AI is built on top of existing software, not from scratch — the UI gets more conversational but systems of record stay. He cites a 1:200-to-1:210 multiplier in agent-driven software consumption.",
+      "start_seconds": 1645,
+      "end_seconds": 1815
+    },
+    {
+      "id": 13,
+      "category": "story",
+      "headline": "IBM jumps 10% on a six-month-old Trump video",
+      "body": "IBM surged nearly 10% on a roughly six-month-old clip of President Trump praising its CEO, recirculated by dozens of X accounts over the weekend; one Polymarket post drew 700,000 views. Hosts flag it as a sign of speculative mania.",
+      "start_seconds": 1898,
+      "end_seconds": 1927
+    },
+    {
+      "id": 14,
+      "category": "data-point",
+      "headline": "New York is hiring tech talent 2x faster than SF",
+      "body": "TechNYC's Julie Samuels says New York is hiring at twice the rate of San Francisco and four times Boston, with over 9,000 startups and venture funding up 40–50% year over year. Frontier labs OpenAI and Anthropic are signing large NYC real estate deals.",
+      "start_seconds": 1954,
+      "end_seconds": 1992
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Everything we've learned over 33 years distilled into one chip.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 82
+    },
+    {
+      "text": "People talk about AI reducing jobs. Complete nonsense. It's causing more software engineers to be hired because the output is so incredible.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1603
+    },
+    {
+      "text": "It's completely untenable that one or two people control this entire stack.",
+      "speaker": "Amit Jain",
+      "start_seconds": 1190
+    },
+    {
+      "text": "A play on Tesla and a play on SpaceX is really just a belief on Elon.",
+      "speaker": "Isabel Lee",
+      "start_seconds": 779
+    },
+    {
+      "text": "There's a lot of voodoo, I think, inside valuing AI companies.",
+      "speaker": "George Ferguson",
+      "start_seconds": 2435
+    },
+    {
+      "text": "When you're in San Francisco, you meet tech people who live in San Francisco. When you're in New York you meet New Yorkers who work in tech.",
+      "speaker": "Julie Samuels",
+      "start_seconds": 2185
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ian King",
+      "context": "Bloomberg semiconductor reporter breaking down the RTX Spark super chip"
+    },
+    {
+      "name": "Matt Whitmer (Allspring Global Investments)",
+      "context": "Portfolio manager on diversifying across the five-layer AI value chain"
+    },
+    {
+      "name": "Isabel Lee",
+      "context": "Bloomberg tech equity reporter on SpaceX reshaping index rules"
+    },
+    {
+      "name": "Mark Gurman — Power On",
+      "context": "Bloomberg Apple coverage applying the Apple Watch playbook to eyewear"
+    },
+    {
+      "name": "Amit Jain (Luma AI)",
+      "context": "CEO on generalization in robotics and an open physical-AI research lab"
+    },
+    {
+      "name": "Mandeep Singh (Bloomberg Intelligence)",
+      "context": "On the AI-PC category and why software isn't disintermediated"
+    },
+    {
+      "name": "Vince Hu (MediaTek)",
+      "context": "Corporate SVP on AI data-center chip growth and Taiwan's boom"
+    },
+    {
+      "name": "Julie Samuels (TechNYC)",
+      "context": "President/CEO on New York's rising tech-hub status during NYC Tech Week"
+    },
+    {
+      "name": "George Ferguson (Bloomberg Intelligence)",
+      "context": "Sum-of-the-parts framework valuing SpaceX near $2 trillion"
+    },
+    {
+      "name": "Matt Day",
+      "context": "Bloomberg deep dive on Amazon's Whole Foods grocery push"
+    }
+  ],
+  "action_items": [
+    "If you hold both Tesla and SpaceX (and soon OpenAI/Anthropic via index funds), check your portfolio for hidden over-concentration — multiple positions can collapse into a single bet on a few names.",
+    "Treat Nvidia's RTX Spark hype skeptically until shipping benchmarks exist, because the company itself declined to give any x86 performance comparison.",
+    "When valuing SpaceX, separate the segments: launch (~80–90x revenue) versus Starlink (~30–40x) versus AI — blended TAM headlines obscure very different multiples."
+  ],
+  "stats": [
+    {
+      "label": "SpaceX claimed TAM",
+      "val": "$28.5T",
+      "unit": "",
+      "sub": "Musk's pitched market opportunity combining rockets and AI, the show's big number."
+    },
+    {
+      "label": "SpaceX SOTP valuation",
+      "val": "~$2T",
+      "unit": "",
+      "sub": "Bloomberg Intelligence comparables: ~$1T launch + ~$600B Starlink + ~$400B AI."
+    },
+    {
+      "label": "Nvidia market cap",
+      "val": "$5.3T",
+      "unit": "",
+      "sub": "Stock rose more than 4% on the Computex keynote, its biggest move in weeks."
+    },
+    {
+      "label": "Index demand for SpaceX",
+      "val": "~$20B",
+      "unit": "",
+      "sub": "Estimated forced buying by index-tracking funds once SpaceX enters benchmarks."
+    }
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "SpaceX sum-of-the-parts valuation",
+      "sub": "How Bloomberg Intelligence comparables build toward a ~$2T figure",
+      "caption": "Source: George Ferguson, Bloomberg Intelligence · 39:39",
+      "unit": "$B",
+      "labels": [
+        "Launch (80–90x rev)",
+        "Starlink (30–40x rev)",
+        "AI business"
+      ],
+      "series": [
+        {
+          "name": "Implied value ($B)",
+          "data": [
+            1000,
+            600,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Post-IPO seasoning periods, rewritten for SpaceX",
+      "sub": "Waiting days before index inclusion, narrowed by major benchmark providers",
+      "caption": "Source: Isabel Lee, Bloomberg · 10:46",
+      "unit": "days",
+      "labels": [
+        "Nasdaq 100 (from ~90)",
+        "FTSE Russell",
+        "S&P (from 365, proposed)"
+      ],
+      "series": [
+        {
+          "name": "New waiting period (days)",
+          "data": [
+            15,
+            5,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "title": "Taiwan GDP growth amid the AI boom",
+      "sub": "MediaTek SVP on Taiwan's 'heyday' as the center of the high-tech world",
+      "caption": "Source: Vince Hu / Stephen Engel · 30:33",
+      "unit": "%",
+      "labels": [
+        "Last year",
+        "This year (forecast)"
+      ],
+      "series": [
+        {
+          "name": "GDP growth (%)",
+          "data": [
+            7,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

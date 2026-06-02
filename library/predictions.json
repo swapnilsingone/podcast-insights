@@ -203,6 +203,24 @@
       "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=388s"
     },
     {
+      "id": "wVKL_SpY2Uc-p3",
+      "claim": "SpaceX's sum-of-the-parts valuation could reach close to $2 trillion (~$1T launch, ~$600B Starlink, ~$400B AI).",
+      "speaker": "George Ferguson",
+      "category": "finance",
+      "start_seconds": 2379,
+      "stated_at": "2026-06-01",
+      "horizon_label": "around its IPO debut (months)",
+      "revisit_dates": [
+        "2026-12-01"
+      ],
+      "status": "open",
+      "notes": "Ferguson cautions the comparables look rich and aren't necessarily the right price.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=2379s"
+    },
+    {
       "id": "10MdOvK-aG4-p1",
       "claim": "Anthropic will hit its 10x growth forecast this year, exiting ~$100B ARR, and could reach a trillion in ARR by 2027\u2014becoming the most valuable tech company in history.",
       "speaker": "David Sachs",
@@ -239,6 +257,24 @@
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
       "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1462s"
+    },
+    {
+      "id": "wVKL_SpY2Uc-p2",
+      "claim": "The overall PC market will decline 11% in calendar year 2026.",
+      "speaker": "Ed Ludlow (citing IDC forecast)",
+      "category": "tech",
+      "start_seconds": 463,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2027-01-31"
+      ],
+      "status": "open",
+      "notes": "IDC forecast cited amid flat DRAM/NAND pricing.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=463s"
     },
     {
       "id": "u1upVgkVKVQ-p7",
@@ -555,6 +591,62 @@
       "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3450s"
     },
     {
+      "id": "wVKL_SpY2Uc-p4",
+      "claim": "MediaTek's AI data-center chip revenue will multiply next year and the company feels set through the 2030 horizon.",
+      "speaker": "Vince Hu",
+      "category": "business",
+      "start_seconds": 1791,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2027-06-01",
+        "2030-06-01"
+      ],
+      "status": "open",
+      "notes": "Tied to tier-one hyperscaler customers and expanding engineering headcount.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1791s"
+    },
+    {
+      "id": "wVKL_SpY2Uc-p5",
+      "claim": "Agentic AI will be a net job and GDP generator, leading companies to hire more software engineers rather than fewer.",
+      "speaker": "Jensen Huang",
+      "category": "macro",
+      "start_seconds": 1603,
+      "stated_at": "2026-06-01",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2027-06-01",
+        "2029-06-01"
+      ],
+      "status": "open",
+      "notes": "Echoed by MediaTek's Vince Hu citing Taiwan's ~10% GDP growth.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1603s"
+    },
+    {
+      "id": "wVKL_SpY2Uc-p7",
+      "claim": "Software incumbents (system-of-record players) won't be disintermediated by agentic AI; agents will build on top of existing software, driving more consumption.",
+      "speaker": "Mandeep Singh",
+      "category": "tech",
+      "start_seconds": 1700,
+      "stated_at": "2026-06-01",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-01"
+      ],
+      "status": "open",
+      "notes": "Based on Datadog, Snowflake and MongoDB ARR-growth acceleration.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1700s"
+    },
+    {
       "id": "5eqRuVp65eY-p3",
       "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
       "speaker": "Welch",
@@ -795,6 +887,24 @@
       "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1070s"
     },
     {
+      "id": "wVKL_SpY2Uc-p6",
+      "claim": "Physical AI will be deployed even faster than LLMs because of the economic impact it will have.",
+      "speaker": "Amit Jain",
+      "category": "ai",
+      "start_seconds": 1241,
+      "stated_at": "2026-06-01",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2028-06-01"
+      ],
+      "status": "open",
+      "notes": "Argued in support of an open-source approach to physical AI.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1241s"
+    },
+    {
       "id": "HGbA6ze0_3M-p3",
       "claim": "Orbital/space-based compute will become a reality between the second half of 2028 and the first half of 2030.",
       "speaker": "Gavin Baker",
@@ -995,6 +1105,24 @@
       "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
       "channel": "Y Combinator",
       "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=2980s"
+    },
+    {
+      "id": "wVKL_SpY2Uc-p1",
+      "claim": "Apple and other smart-glasses makers will wipe out the mid-tier non-smart eyewear market (Ray-Ban, Warby Parker style), while high-end makers like Maison Bonnet and Cartier survive.",
+      "speaker": "Mark Gurman",
+      "category": "business",
+      "start_seconds": 863,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-06-01"
+      ],
+      "status": "open",
+      "notes": "Analogy to how the Apple Watch upended mid-tier mechanical watches.",
+      "video_id": "wVKL_SpY2Uc",
+      "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=863s"
     },
     {
       "id": "21EYKqUsPfg-p1",

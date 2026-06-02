@@ -1,21 +1,21 @@
 {
-  "snapshot_at": "2026-06-02T05:46:37.053241Z",
+  "snapshot_at": "2026-06-02T06:10:04.167668Z",
   "totals": {
-    "videos": 11,
-    "insights": 156,
-    "quotes": 67,
-    "hours_archived": 12.5,
+    "videos": 12,
+    "insights": 170,
+    "quotes": 73,
+    "hours_archived": 13.2,
     "channels": 5,
-    "entities": 438,
-    "speakers": 38,
-    "predictions_open": 65,
+    "entities": 473,
+    "speakers": 50,
+    "predictions_open": 72,
     "predictions_validated": 0
   },
   "uploads": {
     "oldest_upload": "2024-02-28",
-    "newest_upload": "2026-05-29",
-    "span_days": 821,
-    "avg_processing_lag_days": 173.1,
+    "newest_upload": "2026-06-01",
+    "span_days": 824,
+    "avg_processing_lag_days": 158.8,
     "median_processing_lag_days": 31,
     "by_month": [
       {
@@ -41,21 +41,25 @@
       {
         "month": "2026-05",
         "videos": 6
+      },
+      {
+        "month": "2026-06",
+        "videos": 1
       }
     ]
   },
   "topics": [
     {
       "topic": "ai",
-      "video_count": 11
+      "video_count": 12
     },
     {
       "topic": "business",
-      "video_count": 5
+      "video_count": 6
     },
     {
       "topic": "finance",
-      "video_count": 3
+      "video_count": 4
     },
     {
       "topic": "macro",
@@ -184,12 +188,23 @@
           "mentions": 5,
           "role": null,
           "context": "Surpassed by Anthropic; eyeing fall IPO; model used by Japan banks"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=808s",
+          "first_seconds": 808,
+          "mentions": 2,
+          "role": null,
+          "context": "Signing large NYC real estate deals; future index entrant."
         }
       ],
-      "total_mentions": 60,
+      "total_mentions": 62,
       "first_uploaded": "2024-02-28",
-      "last_uploaded": "2026-05-29",
-      "video_count": 10,
+      "last_uploaded": "2026-06-01",
+      "video_count": 11,
       "slug": "openai",
       "upload_dates": [
         "2024-02-28",
@@ -200,9 +215,10 @@
         "2026-05-08",
         "2026-05-22",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 821
+      "span_days": 824
     },
     {
       "name": "Anthropic",
@@ -295,12 +311,23 @@
           "mentions": 10,
           "role": null,
           "context": "$965B valuation, $65B round, $36B debt deal"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=808s",
+          "first_seconds": 808,
+          "mentions": 2,
+          "role": null,
+          "context": "Growing NYC headcount; cited as future index entrant."
         }
       ],
-      "total_mentions": 104,
+      "total_mentions": 106,
       "first_uploaded": "2024-02-28",
-      "last_uploaded": "2026-05-29",
-      "video_count": 8,
+      "last_uploaded": "2026-06-01",
+      "video_count": 9,
       "slug": "anthropic",
       "upload_dates": [
         "2024-02-28",
@@ -309,9 +336,10 @@
         "2026-05-08",
         "2026-05-22",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 821
+      "span_days": 824
     },
     {
       "name": "Nvidia",
@@ -393,12 +421,23 @@
           "mentions": 1,
           "role": null,
           "context": "Cited with ~20s forward PE as not bubble-like"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=15s",
+          "first_seconds": 15,
+          "mentions": 12,
+          "role": null,
+          "context": "Unveils RTX Spark to enter the PC CPU market; cap back at $5.3T."
         }
       ],
-      "total_mentions": 134,
+      "total_mentions": 146,
       "first_uploaded": "2024-09-13",
-      "last_uploaded": "2026-05-29",
-      "video_count": 7,
+      "last_uploaded": "2026-06-01",
+      "video_count": 8,
       "slug": "nvidia",
       "upload_dates": [
         "2024-09-13",
@@ -407,9 +446,10 @@
         "2026-05-08",
         "2026-05-22",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 623
+      "span_days": 626
     },
     {
       "name": "Tesla",
@@ -491,12 +531,23 @@
           "mentions": 2,
           "role": null,
           "context": "Musk precedent for building a market from nothing"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=756s",
+          "first_seconds": 756,
+          "mentions": 3,
+          "role": null,
+          "context": "Cited for Elon over-concentration risk alongside SpaceX."
         }
       ],
-      "total_mentions": 15,
+      "total_mentions": 18,
       "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-29",
-      "video_count": 7,
+      "last_uploaded": "2026-06-01",
+      "video_count": 8,
       "slug": "tesla",
       "upload_dates": [
         "2026-03-19",
@@ -505,9 +556,10 @@
         "2026-05-08",
         "2026-05-22",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 71
+      "span_days": 74
     },
     {
       "name": "Elon Musk",
@@ -578,21 +630,33 @@
           "mentions": 5,
           "role": "CEO, SpaceX / Tesla / XAI",
           "context": "Replied 'false' to valuation report; central to the SpaceX dream"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=650s",
+          "first_seconds": 650,
+          "mentions": 4,
+          "role": "SpaceX / Tesla CEO",
+          "context": "Pitching SpaceX's $28.5T TAM ahead of its mega-IPO."
         }
       ],
-      "total_mentions": 48,
+      "total_mentions": 52,
       "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-29",
-      "video_count": 6,
+      "last_uploaded": "2026-06-01",
+      "video_count": 7,
       "slug": "elon-musk",
       "upload_dates": [
         "2026-03-19",
         "2026-04-15",
         "2026-05-08",
         "2026-05-22",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 71
+      "span_days": 74
     },
     {
       "name": "Google",
@@ -926,6 +990,68 @@
       "span_days": 71
     },
     {
+      "name": "Jensen Huang",
+      "kind": "people",
+      "occurrences": [
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-03-19",
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
+          "first_seconds": 0,
+          "mentions": 30,
+          "role": "Co-founder & CEO, Nvidia",
+          "context": "Guest; lays out Nvidia's AI-factory strategy"
+        },
+        {
+          "video_id": "Hrbq66XqtCo",
+          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+          "channel": "Dwarkesh Patel",
+          "upload_date": "2026-04-15",
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
+          "first_seconds": 0,
+          "mentions": 999,
+          "role": "Founder & CEO, Nvidia",
+          "context": null
+        },
+        {
+          "video_id": "HGbA6ze0_3M",
+          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-22",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1051s",
+          "first_seconds": 1051,
+          "mentions": 6,
+          "role": "CEO, Nvidia",
+          "context": "Frustrated at stock vs. record numbers; wants a DC-to-DC design partner"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=82s",
+          "first_seconds": 82,
+          "mentions": 6,
+          "role": "Nvidia CEO",
+          "context": "Computex keynote unveiling RTX Spark and the 'agentic age' thesis."
+        }
+      ],
+      "total_mentions": 1041,
+      "first_uploaded": "2026-03-19",
+      "last_uploaded": "2026-06-01",
+      "video_count": 4,
+      "slug": "jensen-huang",
+      "upload_dates": [
+        "2026-03-19",
+        "2026-04-15",
+        "2026-05-22",
+        "2026-06-01"
+      ],
+      "span_days": 74
+    },
+    {
       "name": "Jason Calacanis",
       "kind": "people",
       "occurrences": [
@@ -1050,6 +1176,130 @@
       "span_days": 71
     },
     {
+      "name": "SpaceX",
+      "kind": "companies",
+      "occurrences": [
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=278s",
+          "first_seconds": 278,
+          "mentions": 15,
+          "role": null,
+          "context": "Leasing terrestrial compute to Anthropic; roadshow valuation supported by 'Elon Web Services.'"
+        },
+        {
+          "video_id": "HGbA6ze0_3M",
+          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-22",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=21s",
+          "first_seconds": 21,
+          "mentions": 20,
+          "role": null,
+          "context": "Filed S-1 to raise $75B at $1.75T; Starlink, Space, and AI/Colossus units"
+        },
+        {
+          "video_id": "u1upVgkVKVQ",
+          "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-05-29",
+          "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=30s",
+          "first_seconds": 30,
+          "mentions": 12,
+          "role": null,
+          "context": "Lowered IPO target to $1.8T; potential largest IPO ever"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=25s",
+          "first_seconds": 25,
+          "mentions": 12,
+          "role": null,
+          "context": "Mega-IPO reshaping index rules; SOTP valuation near $2T."
+        }
+      ],
+      "total_mentions": 59,
+      "first_uploaded": "2026-05-08",
+      "last_uploaded": "2026-06-01",
+      "video_count": 4,
+      "slug": "spacex",
+      "upload_dates": [
+        "2026-05-08",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-01"
+      ],
+      "span_days": 24
+    },
+    {
+      "name": "Donald Trump",
+      "kind": "people",
+      "occurrences": [
+        {
+          "video_id": "gwW8GKwHB3I",
+          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-03-19",
+          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
+          "first_seconds": 0,
+          "mentions": 4,
+          "role": "U.S. President",
+          "context": "Framed as wanting U.S. tech to lead globally"
+        },
+        {
+          "video_id": "10MdOvK-aG4",
+          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-08",
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2169s",
+          "first_seconds": 2169,
+          "mentions": 5,
+          "role": "US President (47th admin)",
+          "context": "Considering an AI working-group executive order; credited for pro-innovation/energy policy."
+        },
+        {
+          "video_id": "HGbA6ze0_3M",
+          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "channel": "All-In Podcast",
+          "upload_date": "2026-05-22",
+          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1642s",
+          "first_seconds": 1642,
+          "mentions": 4,
+          "role": "US President",
+          "context": "Pulled an AI executive order over federal-oversight provisions"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1898s",
+          "first_seconds": 1898,
+          "mentions": 1,
+          "role": "US President",
+          "context": "Old video praising IBM's CEO that fueled a 10% stock pop."
+        }
+      ],
+      "total_mentions": 14,
+      "first_uploaded": "2026-03-19",
+      "last_uploaded": "2026-06-01",
+      "video_count": 4,
+      "slug": "donald-trump",
+      "upload_dates": [
+        "2026-03-19",
+        "2026-05-08",
+        "2026-05-22",
+        "2026-06-01"
+      ],
+      "span_days": 74
+    },
+    {
       "name": "Meta",
       "kind": "companies",
       "occurrences": [
@@ -1110,106 +1360,6 @@
         "2026-05-29"
       ],
       "span_days": 623
-    },
-    {
-      "name": "Jensen Huang",
-      "kind": "people",
-      "occurrences": [
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-          "first_seconds": 0,
-          "mentions": 30,
-          "role": "Co-founder & CEO, Nvidia",
-          "context": "Guest; lays out Nvidia's AI-factory strategy"
-        },
-        {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
-          "first_seconds": 0,
-          "mentions": 999,
-          "role": "Founder & CEO, Nvidia",
-          "context": null
-        },
-        {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1051s",
-          "first_seconds": 1051,
-          "mentions": 6,
-          "role": "CEO, Nvidia",
-          "context": "Frustrated at stock vs. record numbers; wants a DC-to-DC design partner"
-        }
-      ],
-      "total_mentions": 1035,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-22",
-      "video_count": 3,
-      "slug": "jensen-huang",
-      "upload_dates": [
-        "2026-03-19",
-        "2026-04-15",
-        "2026-05-22"
-      ],
-      "span_days": 64
-    },
-    {
-      "name": "SpaceX",
-      "kind": "companies",
-      "occurrences": [
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=278s",
-          "first_seconds": 278,
-          "mentions": 15,
-          "role": null,
-          "context": "Leasing terrestrial compute to Anthropic; roadshow valuation supported by 'Elon Web Services.'"
-        },
-        {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=21s",
-          "first_seconds": 21,
-          "mentions": 20,
-          "role": null,
-          "context": "Filed S-1 to raise $75B at $1.75T; Starlink, Space, and AI/Colossus units"
-        },
-        {
-          "video_id": "u1upVgkVKVQ",
-          "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-          "channel": "Bloomberg Technology",
-          "upload_date": "2026-05-29",
-          "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=30s",
-          "first_seconds": 30,
-          "mentions": 12,
-          "role": null,
-          "context": "Lowered IPO target to $1.8T; potential largest IPO ever"
-        }
-      ],
-      "total_mentions": 47,
-      "first_uploaded": "2026-05-08",
-      "last_uploaded": "2026-05-29",
-      "video_count": 3,
-      "slug": "spacex",
-      "upload_dates": [
-        "2026-05-08",
-        "2026-05-22",
-        "2026-05-29"
-      ],
-      "span_days": 21
     },
     {
       "name": "Dwarkesh Patel",
@@ -1312,54 +1462,54 @@
       "span_days": 64
     },
     {
-      "name": "Donald Trump",
-      "kind": "people",
+      "name": "Apple",
+      "kind": "companies",
       "occurrences": [
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-          "first_seconds": 0,
-          "mentions": 4,
-          "role": "U.S. President",
-          "context": "Framed as wanting U.S. tech to lead globally"
-        },
         {
           "video_id": "10MdOvK-aG4",
           "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
           "channel": "All-In Podcast",
           "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2169s",
-          "first_seconds": 2169,
-          "mentions": 5,
-          "role": "US President (47th admin)",
-          "context": "Considering an AI working-group executive order; credited for pro-innovation/energy policy."
+          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=994s",
+          "first_seconds": 994,
+          "mentions": 4,
+          "role": null,
+          "context": "~$420B revenue; criticized for lack of innovation post-Jobs."
         },
         {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+          "video_id": "4oq91rzQcO8",
+          "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
           "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1642s",
-          "first_seconds": 1642,
+          "upload_date": "2026-05-29",
+          "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2300s",
+          "first_seconds": 2300,
+          "mentions": 3,
+          "role": null,
+          "context": "Dark horse for local intelligence sovereignty on M5 hardware"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=823s",
+          "first_seconds": 823,
           "mentions": 4,
-          "role": "US President",
-          "context": "Pulled an AI executive order over federal-oversight provisions"
+          "role": null,
+          "context": "Running its Apple Watch disruption playbook in the eyewear market."
         }
       ],
-      "total_mentions": 13,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-22",
+      "total_mentions": 11,
+      "first_uploaded": "2026-05-08",
+      "last_uploaded": "2026-06-01",
       "video_count": 3,
-      "slug": "donald-trump",
+      "slug": "apple",
       "upload_dates": [
-        "2026-03-19",
         "2026-05-08",
-        "2026-05-22"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 64
+      "span_days": 24
     },
     {
       "name": "Cursor",
@@ -1412,104 +1562,53 @@
       "span_days": 20
     },
     {
-      "name": "Andrej Karpathy",
-      "kind": "people",
-      "occurrences": [
-        {
-          "video_id": "gwW8GKwHB3I",
-          "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-03-19",
-          "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=1611s",
-          "first_seconds": 1611,
-          "mentions": 1,
-          "role": "AI researcher",
-          "context": "Referenced for 'auto-research' (chapter context)"
-        },
-        {
-          "video_id": "HGbA6ze0_3M",
-          "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-          "channel": "All-In Podcast",
-          "upload_date": "2026-05-22",
-          "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=30s",
-          "first_seconds": 30,
-          "mentions": 8,
-          "role": "AI researcher joining Anthropic",
-          "context": "Leading new pre-training team on recursive self-improvement; coined 'vibe coding'"
-        },
-        {
-          "video_id": "wE1ZgJdt4uM",
-          "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
-          "channel": "Y Combinator",
-          "upload_date": "2026-05-28",
-          "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=81s",
-          "first_seconds": 81,
-          "mentions": 1,
-          "role": "AI researcher",
-          "context": "Sat near Francois at Pioneer while OpenAI was forming."
-        }
-      ],
-      "total_mentions": 10,
-      "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-05-28",
-      "video_count": 3,
-      "slug": "andrej-karpathy",
-      "upload_dates": [
-        "2026-03-19",
-        "2026-05-22",
-        "2026-05-28"
-      ],
-      "span_days": 70
-    },
-    {
-      "name": "SK Hynix",
+      "name": "Amazon",
       "kind": "companies",
       "occurrences": [
         {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "upload_date": "2026-04-15",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=6s",
-          "first_seconds": 6,
-          "mentions": 1,
-          "role": null,
-          "context": null
-        },
-        {
-          "video_id": "10MdOvK-aG4",
-          "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+          "video_id": "4oq91rzQcO8",
+          "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
           "channel": "All-In Podcast",
-          "upload_date": "2026-05-08",
-          "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3743s",
-          "first_seconds": 3743,
-          "mentions": 1,
+          "upload_date": "2026-05-29",
+          "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3938s",
+          "first_seconds": 3938,
+          "mentions": 5,
           "role": null,
-          "context": "Memory stock in Altimeter's portfolio trading ~5x earnings."
+          "context": "600,000 forgone hires; Zoox self-driving; robotics leader"
         },
         {
           "video_id": "u1upVgkVKVQ",
           "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
           "channel": "Bloomberg Technology",
           "upload_date": "2026-05-29",
-          "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1100s",
-          "first_seconds": 1100,
-          "mentions": 1,
+          "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1450s",
+          "first_seconds": 1450,
+          "mentions": 3,
           "role": null,
-          "context": "Korean memory maker riding the same rally"
+          "context": "Strategic Anthropic investor; Leo satellites tied to New Glenn"
+        },
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "upload_date": "2026-06-01",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=2576s",
+          "first_seconds": 2576,
+          "mentions": 3,
+          "role": null,
+          "context": "Pushing Whole Foods same-day grocery with in-cart prompts."
         }
       ],
-      "total_mentions": 3,
-      "first_uploaded": "2026-04-15",
-      "last_uploaded": "2026-05-29",
+      "total_mentions": 11,
+      "first_uploaded": "2026-05-29",
+      "last_uploaded": "2026-06-01",
       "video_count": 3,
-      "slug": "sk-hynix",
+      "slug": "amazon",
       "upload_dates": [
-        "2026-04-15",
-        "2026-05-08",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ],
-      "span_days": 44
+      "span_days": 3
     }
   ],
   "recurring_speakers": [
@@ -1829,46 +1928,17 @@
       "span_days": 71
     },
     {
-      "name": "Dwarkesh Patel",
-      "role": "Host",
-      "appearances": [
-        {
-          "video_id": "Hrbq66XqtCo",
-          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-          "channel": "Dwarkesh Patel",
-          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
-          "upload_date": "2026-04-15",
-          "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
-        },
-        {
-          "video_id": "21EYKqUsPfg",
-          "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-          "channel": "Dwarkesh Patel",
-          "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
-          "upload_date": "2025-09-26",
-          "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
-        },
-        {
-          "video_id": "qTogNUV3CAI",
-          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
-          "channel": "Dwarkesh Patel",
-          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
-          "upload_date": "2024-02-28",
-          "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
-        }
-      ],
-      "claims": [],
-      "first_uploaded": "2024-02-28",
-      "last_uploaded": "2026-04-15",
-      "slug": "dwarkesh-patel",
-      "appearance_count": 3,
-      "claim_count": 0,
-      "span_days": 777
-    },
-    {
       "name": "Jensen Huang",
-      "role": "Co-founder & CEO, Nvidia",
+      "role": "Nvidia CEO",
       "appearances": [
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+          "upload_date": "2026-06-01",
+          "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+        },
         {
           "video_id": "Hrbq66XqtCo",
           "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
@@ -2129,11 +2199,48 @@
         }
       ],
       "first_uploaded": "2026-03-19",
-      "last_uploaded": "2026-04-15",
+      "last_uploaded": "2026-06-01",
       "slug": "jensen-huang",
-      "appearance_count": 2,
+      "appearance_count": 3,
       "claim_count": 30,
-      "span_days": 27
+      "span_days": 74
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "role": "Host",
+      "appearances": [
+        {
+          "video_id": "Hrbq66XqtCo",
+          "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+          "channel": "Dwarkesh Patel",
+          "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
+          "upload_date": "2026-04-15",
+          "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
+        },
+        {
+          "video_id": "21EYKqUsPfg",
+          "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+          "channel": "Dwarkesh Patel",
+          "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
+          "upload_date": "2025-09-26",
+          "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
+        },
+        {
+          "video_id": "qTogNUV3CAI",
+          "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+          "channel": "Dwarkesh Patel",
+          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+          "upload_date": "2024-02-28",
+          "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
+        }
+      ],
+      "claims": [],
+      "first_uploaded": "2024-02-28",
+      "last_uploaded": "2026-04-15",
+      "slug": "dwarkesh-patel",
+      "appearance_count": 3,
+      "claim_count": 0,
+      "span_days": 777
     },
     {
       "name": "Brad Gerstner",
@@ -2192,6 +2299,35 @@
       "appearance_count": 2,
       "claim_count": 0,
       "span_days": 64
+    },
+    {
+      "name": "George Ferguson",
+      "role": "Bloomberg Intelligence analyst",
+      "appearances": [
+        {
+          "video_id": "wVKL_SpY2Uc",
+          "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+          "channel": "Bloomberg Technology",
+          "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+          "upload_date": "2026-06-01",
+          "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+        },
+        {
+          "video_id": "u1upVgkVKVQ",
+          "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+          "channel": "Bloomberg Technology",
+          "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+          "upload_date": "2026-05-29",
+          "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
+        }
+      ],
+      "claims": [],
+      "first_uploaded": "2026-05-29",
+      "last_uploaded": "2026-06-01",
+      "slug": "george-ferguson",
+      "appearance_count": 2,
+      "claim_count": 0,
+      "span_days": 3
     }
   ],
   "predictions_due_within_90d": [
@@ -2327,6 +2463,26 @@
   ],
   "recent_videos": [
     {
+      "video_id": "wVKL_SpY2Uc",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+      "title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg",
+      "duration_seconds": 2645,
+      "upload_date": "2026-06-01",
+      "thesis": "Jensen Huang's Computex keynote re-ignites the AI trade on two fronts \u2014 Nvidia attacking the Intel/AMD PC market with an ARM-based RTX Spark CPU and arguing AI agents become software's biggest customers \u2014 while SpaceX's looming mega-IPO forces index providers to rewrite their rulebooks.",
+      "topics": [
+        "finance",
+        "ai",
+        "business"
+      ],
+      "insight_count": 14,
+      "quote_count": 6,
+      "processed_at": "2026-06-02T06:10:03.684365Z",
+      "processing_lag_days": 1,
+      "path": "../videos/wVKL_SpY2Uc/index.html"
+    },
+    {
       "video_id": "4oq91rzQcO8",
       "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
       "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
@@ -2403,30 +2559,30 @@
       "processed_at": "2026-06-02T05:44:49.227477Z",
       "processing_lag_days": 11,
       "path": "../videos/HGbA6ze0_3M/index.html"
-    },
-    {
-      "video_id": "10MdOvK-aG4",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
-      "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "channel": "All-In Podcast",
-      "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg",
-      "duration_seconds": 4921,
-      "upload_date": "2026-05-08",
-      "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute\u2014not demand\u2014and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
-      "topics": [
-        "ai",
-        "business",
-        "finance"
-      ],
-      "insight_count": 14,
-      "quote_count": 6,
-      "processed_at": "2026-06-02T05:43:37.931372Z",
-      "processing_lag_days": 25,
-      "path": "../videos/10MdOvK-aG4/index.html"
     }
   ],
   "recently_uploaded": [
     {
+      "video_id": "wVKL_SpY2Uc",
+      "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+      "title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+      "channel": "Bloomberg Technology",
+      "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg",
+      "duration_seconds": 2645,
+      "upload_date": "2026-06-01",
+      "thesis": "Jensen Huang's Computex keynote re-ignites the AI trade on two fronts \u2014 Nvidia attacking the Intel/AMD PC market with an ARM-based RTX Spark CPU and arguing AI agents become software's biggest customers \u2014 while SpaceX's looming mega-IPO forces index providers to rewrite their rulebooks.",
+      "topics": [
+        "finance",
+        "ai",
+        "business"
+      ],
+      "insight_count": 14,
+      "quote_count": 6,
+      "processed_at": "2026-06-02T06:10:03.684365Z",
+      "processing_lag_days": 1,
+      "path": "../videos/wVKL_SpY2Uc/index.html"
+    },
+    {
       "video_id": "4oq91rzQcO8",
       "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
       "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
@@ -2503,33 +2659,13 @@
       "processed_at": "2026-06-02T05:44:49.227477Z",
       "processing_lag_days": 11,
       "path": "../videos/HGbA6ze0_3M/index.html"
-    },
-    {
-      "video_id": "10MdOvK-aG4",
-      "url": "https://www.youtube.com/watch?v=10MdOvK-aG4",
-      "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "channel": "All-In Podcast",
-      "thumbnail": "https://i.ytimg.com/vi/10MdOvK-aG4/maxresdefault.jpg",
-      "duration_seconds": 4921,
-      "upload_date": "2026-05-08",
-      "thesis": "SpaceX leasing its Colossus data center to Anthropic reveals that AI revenue is gated by power and compute\u2014not demand\u2014and signals both Elon's emergence as a hyperscaler and Anthropic's trajectory toward an unprecedented, politically combustible monopoly.",
-      "topics": [
-        "ai",
-        "business",
-        "finance"
-      ],
-      "insight_count": 14,
-      "quote_count": 6,
-      "processed_at": "2026-06-02T05:43:37.931372Z",
-      "processing_lag_days": 25,
-      "path": "../videos/10MdOvK-aG4/index.html"
     }
   ],
   "growth_by_day": [
     {
       "date": "2026-06-02",
-      "videos": 11,
-      "insights": 156
+      "videos": 12,
+      "insights": 170
     }
   ]
 }

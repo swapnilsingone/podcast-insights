@@ -1,0 +1,851 @@
+{
+  "video": {
+    "id": "wVKL_SpY2Uc",
+    "title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 2645,
+    "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+    "upload_date": "2026-06-01",
+    "display_title_html": "Nvidia Gets Into the PC Market With a <em>New Chip</em>"
+  },
+  "thesis": "Jensen Huang's Computex keynote re-ignites the AI trade on two fronts — Nvidia attacking the Intel/AMD PC market with an ARM-based RTX Spark CPU and arguing AI agents become software's biggest customers — while SpaceX's looming mega-IPO forces index providers to rewrite their rulebooks.",
+  "topics": [
+    "finance",
+    "ai",
+    "business"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech"
+    },
+    {
+      "start": 44,
+      "title": "Market Check"
+    },
+    {
+      "start": 94,
+      "title": "Nvidia Unveils New AI Chip"
+    },
+    {
+      "start": 341,
+      "title": "Software Stocks Rise"
+    },
+    {
+      "start": 573,
+      "title": "Nasdaq 100"
+    },
+    {
+      "start": 650,
+      "title": "SpaceX's IPO Reshaping Wall Street"
+    },
+    {
+      "start": 835,
+      "title": "Apple Aims to Disrupt New Market"
+    },
+    {
+      "start": 1094,
+      "title": "Luma AI CEO"
+    },
+    {
+      "start": 1283,
+      "title": "Physical AI Needs to Train Open-Source Data: Luma AI CEO"
+    },
+    {
+      "start": 1403,
+      "title": "Jensen Huang's Message to Computex"
+    },
+    {
+      "start": 1515,
+      "title": "Nvidia Takes on Intel with PC Chip"
+    },
+    {
+      "start": 1826,
+      "title": "MediaTek Senior Vice President Vince Hu"
+    },
+    {
+      "start": 1988,
+      "title": "NYC Tech Week"
+    },
+    {
+      "start": 2186,
+      "title": "Tech: NYC CEO Julie Samuels"
+    },
+    {
+      "start": 2335,
+      "title": "SpaceX Valuation Nears $2T"
+    },
+    {
+      "start": 2576,
+      "title": "Amazon Wants to Make Groceries a Habit"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "Nvidia attacks Intel and AMD with an ARM PC chip",
+      "body": "The RTX Spark super chip pairs a Blackwell RTX GPU (6,144 CUDA cores, one petaflop of AI performance) with a custom 20-core Grace CPU built with MediaTek, fused by NVLink, plus 128GB of unified memory. It is ARM-based rather than x86; Arm rose 16% while Intel and AMD fell.",
+      "start_seconds": 60,
+      "end_seconds": 113
+    },
+    {
+      "id": 2,
+      "category": "story",
+      "headline": "Nvidia won't say why its chip beats x86 — 'wait and see'",
+      "body": "Bloomberg's Ian King says reporters repeatedly asked for a head-to-head comparison and Nvidia only answered 'wait and see' until devices ship. The 4% stock pop is the market betting on Nvidia's brand and resources, not on disclosed specs.",
+      "start_seconds": 145,
+      "end_seconds": 183
+    },
+    {
+      "id": 3,
+      "category": "counterintuitive",
+      "headline": "ARM in the PC has failed before — even for Nvidia",
+      "body": "King notes this isn't a revolutionary idea: Nvidia itself tried ARM PCs over a decade ago and it didn't work, and most ARM-PC attempts have flopped apart from Apple's. Separately, IDC forecasts the overall PC market will decline 11% in calendar 2026.",
+      "start_seconds": 192,
+      "end_seconds": 473
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "SpaceX is forcing index providers to cut seasoning periods",
+      "body": "To accommodate SpaceX, Nasdaq narrowed its post-IPO waiting period from three months to 15 days, the FTSE to five days, and the S&P is consulting on cutting from 12 months to six. Critics warn this skips normal price discovery for a famously volatile new listing.",
+      "start_seconds": 646,
+      "end_seconds": 697
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "Index funds may be forced to buy ~$20B of SpaceX",
+      "body": "Index-tracking funds are estimated to buy nearly $20 billion of SpaceX, with 30% of the offering reserved for retail — even as Reddit traders ask why they'd buy directly when it lands in their index funds within months. The categorization (industrials, tech, or communications) is still unknown.",
+      "start_seconds": 715,
+      "end_seconds": 735
+    },
+    {
+      "id": 6,
+      "category": "mental-model",
+      "headline": "Tesla + SpaceX = an over-concentrated bet on Elon",
+      "body": "Isabel Lee argues that owning both Tesla and SpaceX is really a single concentrated bet on Elon Musk, despite different valuations and technicals. With OpenAI and Anthropic also coming, ordinary brokerage accounts risk huge, correlated tech concentration.",
+      "start_seconds": 756,
+      "end_seconds": 808
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "Apple is running the Apple Watch playbook on glasses",
+      "body": "Mark Gurman notes the Apple Watch upended the mid-tier mechanical watch industry (Movado, Fossil, Swatch) while the high end (Patek, Rolex, AP) thrived. He expects the same in eyewear: non-smart mid-tier brands like Ray-Ban and Warby Parker get wiped out, while high-end makers (Maison Bonnet, Cartier) survive.",
+      "start_seconds": 823,
+      "end_seconds": 914
+    },
+    {
+      "id": 8,
+      "category": "definition",
+      "headline": "'Generalization' is robotics' missing LLM moment",
+      "body": "Luma AI CEO Amit Jain defines the core gap: robots are still trained one specific task at a time, unlike language models that handle unseen problems. Generalization means letting robots solve essentially any task, including scenarios seen for the first time.",
+      "start_seconds": 1018,
+      "end_seconds": 1098
+    },
+    {
+      "id": 9,
+      "category": "mental-model",
+      "headline": "Open physical AI is an economic, not just moral, stance",
+      "body": "Jain argues it's 'completely untenable' for one or two companies to control the stack that will run homes, hospitals and manufacturing. He claims nations won't tolerate foreign firms owning their means of production, making open-source an economically sound, not merely philosophical, position. Luma raised a $900M Series C.",
+      "start_seconds": 1178,
+      "end_seconds": 1284
+    },
+    {
+      "id": 10,
+      "category": "counterintuitive",
+      "headline": "Billions of AI agents become software's biggest customers",
+      "body": "Huang's pitch: an experienced engineer becomes a manager of AI agents, and those billions of agents are themselves the largest users — and therefore customers — of software. The thesis drove rallies in ServiceNow and Adobe and reframes software as a beneficiary, not a victim, of AI.",
+      "start_seconds": 1481,
+      "end_seconds": 1710
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Huang calls AI job-loss fears 'complete nonsense'",
+      "body": "Jensen Huang says AI is causing more software engineers to be hired because output is so incredible, and frames agentic AI as a GDP generator that creates jobs. MediaTek's Vince Hu echoes this, saying his firm is expanding engineering headcount, not cutting it.",
+      "start_seconds": 1603,
+      "end_seconds": 1623
+    },
+    {
+      "id": 12,
+      "category": "framework",
+      "headline": "Software thesis holds: no clean-slate disintermediation",
+      "body": "Mandeep Singh says Datadog, Snowflake and MongoDB earnings show agentic AI is built on top of existing software, not from scratch — the UI gets more conversational but systems of record stay. He cites a 1:200-to-1:210 multiplier in agent-driven software consumption.",
+      "start_seconds": 1645,
+      "end_seconds": 1815
+    },
+    {
+      "id": 13,
+      "category": "story",
+      "headline": "IBM jumps 10% on a six-month-old Trump video",
+      "body": "IBM surged nearly 10% on a roughly six-month-old clip of President Trump praising its CEO, recirculated by dozens of X accounts over the weekend; one Polymarket post drew 700,000 views. Hosts flag it as a sign of speculative mania.",
+      "start_seconds": 1898,
+      "end_seconds": 1927
+    },
+    {
+      "id": 14,
+      "category": "data-point",
+      "headline": "New York is hiring tech talent 2x faster than SF",
+      "body": "TechNYC's Julie Samuels says New York is hiring at twice the rate of San Francisco and four times Boston, with over 9,000 startups and venture funding up 40–50% year over year. Frontier labs OpenAI and Anthropic are signing large NYC real estate deals.",
+      "start_seconds": 1954,
+      "end_seconds": 1992
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Everything we've learned over 33 years distilled into one chip.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 82
+    },
+    {
+      "text": "People talk about AI reducing jobs. Complete nonsense. It's causing more software engineers to be hired because the output is so incredible.",
+      "speaker": "Jensen Huang",
+      "start_seconds": 1603
+    },
+    {
+      "text": "It's completely untenable that one or two people control this entire stack.",
+      "speaker": "Amit Jain",
+      "start_seconds": 1190
+    },
+    {
+      "text": "A play on Tesla and a play on SpaceX is really just a belief on Elon.",
+      "speaker": "Isabel Lee",
+      "start_seconds": 779
+    },
+    {
+      "text": "There's a lot of voodoo, I think, inside valuing AI companies.",
+      "speaker": "George Ferguson",
+      "start_seconds": 2435
+    },
+    {
+      "text": "When you're in San Francisco, you meet tech people who live in San Francisco. When you're in New York you meet New Yorkers who work in tech.",
+      "speaker": "Julie Samuels",
+      "start_seconds": 2185
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ian King",
+      "context": "Bloomberg semiconductor reporter breaking down the RTX Spark super chip"
+    },
+    {
+      "name": "Matt Whitmer (Allspring Global Investments)",
+      "context": "Portfolio manager on diversifying across the five-layer AI value chain"
+    },
+    {
+      "name": "Isabel Lee",
+      "context": "Bloomberg tech equity reporter on SpaceX reshaping index rules"
+    },
+    {
+      "name": "Mark Gurman — Power On",
+      "context": "Bloomberg Apple coverage applying the Apple Watch playbook to eyewear"
+    },
+    {
+      "name": "Amit Jain (Luma AI)",
+      "context": "CEO on generalization in robotics and an open physical-AI research lab"
+    },
+    {
+      "name": "Mandeep Singh (Bloomberg Intelligence)",
+      "context": "On the AI-PC category and why software isn't disintermediated"
+    },
+    {
+      "name": "Vince Hu (MediaTek)",
+      "context": "Corporate SVP on AI data-center chip growth and Taiwan's boom"
+    },
+    {
+      "name": "Julie Samuels (TechNYC)",
+      "context": "President/CEO on New York's rising tech-hub status during NYC Tech Week"
+    },
+    {
+      "name": "George Ferguson (Bloomberg Intelligence)",
+      "context": "Sum-of-the-parts framework valuing SpaceX near $2 trillion"
+    },
+    {
+      "name": "Matt Day",
+      "context": "Bloomberg deep dive on Amazon's Whole Foods grocery push"
+    }
+  ],
+  "action_items": [
+    "If you hold both Tesla and SpaceX (and soon OpenAI/Anthropic via index funds), check your portfolio for hidden over-concentration — multiple positions can collapse into a single bet on a few names.",
+    "Treat Nvidia's RTX Spark hype skeptically until shipping benchmarks exist, because the company itself declined to give any x86 performance comparison.",
+    "When valuing SpaceX, separate the segments: launch (~80–90x revenue) versus Starlink (~30–40x) versus AI — blended TAM headlines obscure very different multiples."
+  ],
+  "stats": [
+    {
+      "label": "SpaceX claimed TAM",
+      "val": "$28.5T",
+      "unit": "",
+      "sub": "Musk's pitched market opportunity combining rockets and AI, the show's big number."
+    },
+    {
+      "label": "SpaceX SOTP valuation",
+      "val": "~$2T",
+      "unit": "",
+      "sub": "Bloomberg Intelligence comparables: ~$1T launch + ~$600B Starlink + ~$400B AI."
+    },
+    {
+      "label": "Nvidia market cap",
+      "val": "$5.3T",
+      "unit": "",
+      "sub": "Stock rose more than 4% on the Computex keynote, its biggest move in weeks."
+    },
+    {
+      "label": "Index demand for SpaceX",
+      "val": "~$20B",
+      "unit": "",
+      "sub": "Estimated forced buying by index-tracking funds once SpaceX enters benchmarks."
+    }
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "SpaceX sum-of-the-parts valuation",
+      "sub": "How Bloomberg Intelligence comparables build toward a ~$2T figure",
+      "caption": "Source: George Ferguson, Bloomberg Intelligence · 39:39",
+      "unit": "$B",
+      "labels": [
+        "Launch (80–90x rev)",
+        "Starlink (30–40x rev)",
+        "AI business"
+      ],
+      "series": [
+        {
+          "name": "Implied value ($B)",
+          "data": [
+            1000,
+            600,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Post-IPO seasoning periods, rewritten for SpaceX",
+      "sub": "Waiting days before index inclusion, narrowed by major benchmark providers",
+      "caption": "Source: Isabel Lee, Bloomberg · 10:46",
+      "unit": "days",
+      "labels": [
+        "Nasdaq 100 (from ~90)",
+        "FTSE Russell",
+        "S&P (from 365, proposed)"
+      ],
+      "series": [
+        {
+          "name": "New waiting period (days)",
+          "data": [
+            15,
+            5,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "title": "Taiwan GDP growth amid the AI boom",
+      "sub": "MediaTek SVP on Taiwan's 'heyday' as the center of the high-tech world",
+      "caption": "Source: Vince Hu / Stephen Engel · 30:33",
+      "unit": "%",
+      "labels": [
+        "Last year",
+        "This year (forecast)"
+      ],
+      "series": [
+        {
+          "name": "GDP growth (%)",
+          "data": [
+            7,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Caroline Hyde",
+        "role": "Bloomberg Tech co-host (New York)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 4,
+        "context": "Anchors the show alongside Ed Ludlow."
+      },
+      {
+        "name": "Ed Ludlow",
+        "role": "Bloomberg Tech co-host (San Francisco)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 4,
+        "context": "Co-anchor; presses guests on Nvidia, SpaceX and NYC tech."
+      },
+      {
+        "name": "Jensen Huang",
+        "role": "Nvidia CEO",
+        "speaker": true,
+        "mentions": 6,
+        "first_seconds": 82,
+        "context": "Computex keynote unveiling RTX Spark and the 'agentic age' thesis."
+      },
+      {
+        "name": "Ian King",
+        "role": "Bloomberg semiconductor reporter",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 113,
+        "context": "Analyzes the RTX Spark super chip and ARM-in-PC history."
+      },
+      {
+        "name": "Matt Whitmer",
+        "role": "Allspring Global Investments portfolio manager",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 245,
+        "context": "Argues for diversifying across the five-layer AI value chain."
+      },
+      {
+        "name": "Isabel Lee",
+        "role": "Bloomberg tech equity reporter",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 646,
+        "context": "Reports on SpaceX forcing index rule changes and Elon concentration risk."
+      },
+      {
+        "name": "Mark Gurman",
+        "role": "Bloomberg Apple reporter, Power On author",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 823,
+        "context": "Applies the Apple Watch disruption playbook to smart glasses."
+      },
+      {
+        "name": "Amit Jain",
+        "role": "Luma AI CEO",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1018,
+        "context": "Launching an open physical-AI lab to solve robotics generalization."
+      },
+      {
+        "name": "Mandeep Singh",
+        "role": "Bloomberg Intelligence analyst",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 1305,
+        "context": "On the AI-PC category and why software won't be disintermediated."
+      },
+      {
+        "name": "Stephen Engel",
+        "role": "Bloomberg News reporter (Taipei)",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1375,
+        "context": "Reports from Computex and interviews MediaTek's Vince Hu."
+      },
+      {
+        "name": "Vince Hu",
+        "role": "MediaTek corporate senior vice president",
+        "speaker": true,
+        "mentions": 1,
+        "first_seconds": 1791,
+        "context": "Says AI is expanding hiring and Taiwan is in unprecedented growth."
+      },
+      {
+        "name": "Julie Samuels",
+        "role": "TechNYC President and CEO",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1988,
+        "context": "Pitches New York's rising tech-hub status during NYC Tech Week."
+      },
+      {
+        "name": "George Ferguson",
+        "role": "Bloomberg Intelligence analyst",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 2335,
+        "context": "Builds the sum-of-the-parts SpaceX valuation near $2 trillion."
+      },
+      {
+        "name": "Matt Day",
+        "role": "Bloomberg reporter",
+        "speaker": true,
+        "mentions": 1,
+        "first_seconds": 2545,
+        "context": "Deep dive on Amazon's Whole Foods same-day grocery push."
+      },
+      {
+        "name": "Elon Musk",
+        "role": "SpaceX / Tesla CEO",
+        "speaker": false,
+        "mentions": 4,
+        "first_seconds": 650,
+        "context": "Pitching SpaceX's $28.5T TAM ahead of its mega-IPO."
+      },
+      {
+        "name": "Fei-Fei Li",
+        "role": "World Labs founder",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1283,
+        "context": "Cited as a competing leader in physical/spatial AI."
+      },
+      {
+        "name": "Donald Trump",
+        "role": "US President",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1898,
+        "context": "Old video praising IBM's CEO that fueled a 10% stock pop."
+      }
+    ],
+    "companies": [
+      {
+        "name": "Nvidia",
+        "mentions": 12,
+        "first_seconds": 15,
+        "context": "Unveils RTX Spark to enter the PC CPU market; cap back at $5.3T."
+      },
+      {
+        "name": "Intel",
+        "mentions": 4,
+        "first_seconds": 86,
+        "context": "Traditional x86 incumbent traded off on the Nvidia PC threat."
+      },
+      {
+        "name": "AMD",
+        "mentions": 3,
+        "first_seconds": 86,
+        "context": "x86 rival also fell on the RTX Spark announcement."
+      },
+      {
+        "name": "Arm",
+        "mentions": 3,
+        "first_seconds": 86,
+        "context": "Architecture behind RTX Spark; stock up 16%."
+      },
+      {
+        "name": "MediaTek",
+        "mentions": 4,
+        "first_seconds": 113,
+        "context": "Co-built the RTX Spark's 20-core Grace CPU; expanding headcount."
+      },
+      {
+        "name": "Qualcomm",
+        "mentions": 2,
+        "first_seconds": 159,
+        "context": "Prior ARM-PC chip supplier; framed as another competitive casualty."
+      },
+      {
+        "name": "Apple",
+        "mentions": 4,
+        "first_seconds": 823,
+        "context": "Running its Apple Watch disruption playbook in the eyewear market."
+      },
+      {
+        "name": "SpaceX",
+        "mentions": 12,
+        "first_seconds": 25,
+        "context": "Mega-IPO reshaping index rules; SOTP valuation near $2T."
+      },
+      {
+        "name": "Tesla",
+        "mentions": 3,
+        "first_seconds": 756,
+        "context": "Cited for Elon over-concentration risk alongside SpaceX."
+      },
+      {
+        "name": "Starlink",
+        "mentions": 2,
+        "first_seconds": 2400,
+        "context": "SpaceX unit valued ~30–40x revenue, about $600B."
+      },
+      {
+        "name": "Rocket Lab",
+        "mentions": 2,
+        "first_seconds": 2375,
+        "context": "Public comparable used for SpaceX's launch-business multiple."
+      },
+      {
+        "name": "Luma AI",
+        "mentions": 3,
+        "first_seconds": 1094,
+        "context": "Launching open robotics-generalization lab; raised $900M Series C."
+      },
+      {
+        "name": "World Labs",
+        "mentions": 1,
+        "first_seconds": 1283,
+        "context": "Fei-Fei Li's company, named as a Luma competitor."
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 2,
+        "first_seconds": 808,
+        "context": "Signing large NYC real estate deals; future index entrant."
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 2,
+        "first_seconds": 808,
+        "context": "Growing NYC headcount; cited as future index entrant."
+      },
+      {
+        "name": "ServiceNow",
+        "mentions": 1,
+        "first_seconds": 341,
+        "context": "Software name rallying on Huang's agents-as-customers thesis."
+      },
+      {
+        "name": "Adobe",
+        "mentions": 1,
+        "first_seconds": 341,
+        "context": "Software name rising on the Computex software narrative."
+      },
+      {
+        "name": "IBM",
+        "mentions": 2,
+        "first_seconds": 1898,
+        "context": "Up ~10% on a recirculated old Trump praise video."
+      },
+      {
+        "name": "Wise",
+        "mentions": 1,
+        "first_seconds": 2226,
+        "context": "Shares tumble amid a Belgian $518M money-laundering probe."
+      },
+      {
+        "name": "Meituan",
+        "mentions": 1,
+        "first_seconds": 2247,
+        "context": "Posted a narrower $961M operating loss amid China price war."
+      },
+      {
+        "name": "Uber",
+        "mentions": 1,
+        "first_seconds": 2270,
+        "context": "Paying $100M for a stake in Gulf super app Careem."
+      },
+      {
+        "name": "Amazon",
+        "mentions": 3,
+        "first_seconds": 2576,
+        "context": "Pushing Whole Foods same-day grocery with in-cart prompts."
+      },
+      {
+        "name": "Dell",
+        "mentions": 1,
+        "first_seconds": 1403,
+        "context": "Will ship RTX Spark high-end laptops/desktops this fall."
+      },
+      {
+        "name": "Lenovo",
+        "mentions": 1,
+        "first_seconds": 1403,
+        "context": "Named as an RTX Spark launch OEM partner."
+      },
+      {
+        "name": "ASML",
+        "mentions": 1,
+        "first_seconds": 520,
+        "context": "Cited as a key non-US name in the AI buildout."
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "RTX Spark super chip",
+        "type": "ARM-based PC system-on-chip",
+        "first_seconds": 82,
+        "context": "Blackwell RTX GPU + 20-core Grace CPU + 128GB unified memory via NVLink."
+      },
+      {
+        "name": "Blackwell RTX GPU",
+        "type": "GPU",
+        "first_seconds": 82,
+        "context": "6,144 CUDA cores, one petaflop of AI performance inside RTX Spark."
+      },
+      {
+        "name": "Grace CPU",
+        "type": "CPU",
+        "first_seconds": 82,
+        "context": "Custom 20-core CPU co-developed with MediaTek."
+      },
+      {
+        "name": "Vera Rubin",
+        "type": "AI supercomputing platform",
+        "first_seconds": 1403,
+        "context": "Nvidia's most ambitious platform, now in full production."
+      },
+      {
+        "name": "Apple Watch",
+        "type": "Wearable",
+        "first_seconds": 823,
+        "context": "2015 launch that upended mid-tier mechanical watches."
+      },
+      {
+        "name": "Vision Pro",
+        "type": "Mixed-reality headset",
+        "first_seconds": 914,
+        "context": "$3,500 heavy device contrasted with lighter, cheaper future glasses."
+      },
+      {
+        "name": "x86",
+        "type": "CPU architecture",
+        "first_seconds": 159,
+        "context": "Legacy PC architecture that RTX Spark's ARM design challenges."
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Generalization (robotics)",
+        "first_seconds": 1018,
+        "summary": "Letting robots solve any task, including unseen ones, instead of one task at a time."
+      },
+      {
+        "name": "Agentic AI / the agentic age",
+        "first_seconds": 1403,
+        "summary": "Huang's framing of useful AI where agents do work and become software customers."
+      },
+      {
+        "name": "Five-layer AI value chain",
+        "first_seconds": 359,
+        "summary": "Energy/power, compute infrastructure, hyperscalers, models, and the application layer."
+      },
+      {
+        "name": "Sum-of-the-parts valuation",
+        "first_seconds": 2335,
+        "summary": "Valuing SpaceX by segment multiples: launch, Starlink, and AI."
+      },
+      {
+        "name": "Seasoning period",
+        "first_seconds": 646,
+        "summary": "Post-IPO waiting window before index inclusion, now shortened for SpaceX."
+      },
+      {
+        "name": "Concentration risk",
+        "first_seconds": 252,
+        "summary": "Danger of correlated exposure to a few names (e.g. Elon's companies)."
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Power On",
+        "author": "Mark Gurman",
+        "context": "Bloomberg newsletter detailing Apple's eyewear disruption playbook."
+      },
+      {
+        "name": "Big Take",
+        "author": "Bloomberg",
+        "context": "Feature on how SpaceX is reshaping Wall Street valuation rules."
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "wVKL_SpY2Uc-p1",
+      "claim": "Apple and other smart-glasses makers will wipe out the mid-tier non-smart eyewear market (Ray-Ban, Warby Parker style), while high-end makers like Maison Bonnet and Cartier survive.",
+      "speaker": "Mark Gurman",
+      "category": "business",
+      "start_seconds": 863,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-06-01"
+      ],
+      "status": "open",
+      "notes": "Analogy to how the Apple Watch upended mid-tier mechanical watches."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p2",
+      "claim": "The overall PC market will decline 11% in calendar year 2026.",
+      "speaker": "Ed Ludlow (citing IDC forecast)",
+      "category": "tech",
+      "start_seconds": 463,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2027-01-31"
+      ],
+      "status": "open",
+      "notes": "IDC forecast cited amid flat DRAM/NAND pricing."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p3",
+      "claim": "SpaceX's sum-of-the-parts valuation could reach close to $2 trillion (~$1T launch, ~$600B Starlink, ~$400B AI).",
+      "speaker": "George Ferguson",
+      "category": "finance",
+      "start_seconds": 2379,
+      "stated_at": "2026-06-01",
+      "horizon_label": "around its IPO debut (months)",
+      "revisit_dates": [
+        "2026-12-01"
+      ],
+      "status": "open",
+      "notes": "Ferguson cautions the comparables look rich and aren't necessarily the right price."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p4",
+      "claim": "MediaTek's AI data-center chip revenue will multiply next year and the company feels set through the 2030 horizon.",
+      "speaker": "Vince Hu",
+      "category": "business",
+      "start_seconds": 1791,
+      "stated_at": "2026-06-01",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2027-06-01",
+        "2030-06-01"
+      ],
+      "status": "open",
+      "notes": "Tied to tier-one hyperscaler customers and expanding engineering headcount."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p5",
+      "claim": "Agentic AI will be a net job and GDP generator, leading companies to hire more software engineers rather than fewer.",
+      "speaker": "Jensen Huang",
+      "category": "macro",
+      "start_seconds": 1603,
+      "stated_at": "2026-06-01",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2027-06-01",
+        "2029-06-01"
+      ],
+      "status": "open",
+      "notes": "Echoed by MediaTek's Vince Hu citing Taiwan's ~10% GDP growth."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p6",
+      "claim": "Physical AI will be deployed even faster than LLMs because of the economic impact it will have.",
+      "speaker": "Amit Jain",
+      "category": "ai",
+      "start_seconds": 1241,
+      "stated_at": "2026-06-01",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2028-06-01"
+      ],
+      "status": "open",
+      "notes": "Argued in support of an open-source approach to physical AI."
+    },
+    {
+      "id": "wVKL_SpY2Uc-p7",
+      "claim": "Software incumbents (system-of-record players) won't be disintermediated by agentic AI; agents will build on top of existing software, driving more consumption.",
+      "speaker": "Mandeep Singh",
+      "category": "tech",
+      "start_seconds": 1700,
+      "stated_at": "2026-06-01",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-01"
+      ],
+      "status": "open",
+      "notes": "Based on Datadog, Snowflake and MongoDB ARR-growth acceleration."
+    }
+  ]
+}

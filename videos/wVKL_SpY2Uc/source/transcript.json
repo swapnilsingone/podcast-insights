@@ -1,0 +1,682 @@
+[
+  {
+    "t": 4.937,
+    "speaker": "SPEAKER_13",
+    "text": "Bloomberg Tech is live from coast to coast with Caroline Hyde in New York and Ed Lovelow in San Francisco."
+  },
+  {
+    "t": 15.459,
+    "speaker": "SPEAKER_12",
+    "text": "This is Bloomberg Tech. Coming up, NVIDIA's next target, the PC. A new AI chip sends NVIDIA and friends soaring while rivals slide after Jensen Wang's Computex keynote."
+  },
+  {
+    "t": 25.181,
+    "speaker": "SPEAKER_02",
+    "text": "Plus, all eyes on SpaceX. We'll dive into how the upcoming mega IPO is already reshaping Wall Street."
+  },
+  {
+    "t": 31.883,
+    "speaker": "SPEAKER_12",
+    "text": "And New York Tech Week kicks off today. We'll be joined by Tech NYC CEO Julie Samuels on what to expect."
+  },
+  {
+    "t": 37.805,
+    "speaker": "SPEAKER_02",
+    "text": "First, we check in on how the market is trying to digest. Once again, concerns about the Middle East conflict, concerns that ceasefire is getting further away to have any sort of long-term perspective with the U.S. and Iranian talks seeming to break down at this current moment. We're looking at we're two-tenths of a percent higher than the last 100. Big tech is trying to shake off the geopolitical risk and more broadly. Take a look at it."
+  },
+  {
+    "t": 60.473,
+    "speaker": "SPEAKER_12",
+    "text": "Yeah, NVIDIA taking on the PC market. For decades, you find NVIDIA GPUs in the PC, all about gaming. Now, it is the CPU. It's based on ARM architecture, ARM's up 16%. It takes on the traditional market of Intel and AMD. They are down significantly. NVIDIA outlined the specs. Here they are."
+  },
+  {
+    "t": 82.485,
+    "speaker": "SPEAKER_04",
+    "text": "Introducing RTX Spark. Everything we've learned over 33 years distilled into one chip. Blackwell RTX GPU with 6,144 CUDA cores. One petaflop of AI performance. A custom 20 core grace CPU built in partnership with MediaTek. Fused by MVLink. 128 gigabytes of unified memory."
+  },
+  {
+    "t": 114.548,
+    "speaker": "SPEAKER_12",
+    "text": "Bloomberg's Ian King with us, leads our coverage of semiconductors. That was classically NVIDIA, typically Jensen in its presentation. What do we need to know about RTX Spark Super Chip?"
+  },
+  {
+    "t": 125.311,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, I mean, this has been rumored for a long time that NVIDIA would directly get into this market with a CPU. And now we've finally seen it. And the way he's packaged it is he's saying, look, if AI is coming to the laptop, if we're going to start talking to our laptops, if we're going to start expecting them to think, we'll need a different kind of chip. And here's one I prepared earlier."
+  },
+  {
+    "t": 145.563,
+    "speaker": "SPEAKER_02",
+    "text": "And why is it so significant that it's better than x86? Why is this such a competitive threat, as the market seems to think, to the likes of Intel, to the likes even of Qualcomm?"
+  },
+  {
+    "t": 154.893,
+    "speaker": "SPEAKER_07",
+    "text": "We asked them repeatedly, give us a comparison. How is it better? Tell us exactly what it does that the others can't. And what they said was, wait and see. We'll show you when these devices come out. But the market is taking this as, look, there's been lots of attempts to get ARM architecture into the PC market. None of them have gone particularly well, apart from arguably Apple's. But guess what? This is NVIDIA. This is a company with all the resources it needs with an established brand in PCs."
+  },
+  {
+    "t": 183.34,
+    "speaker": "SPEAKER_07",
+    "text": "and with a real target and a technology that can differentiate itself with. So that's why we're seeing Intel and AMD trading off."
+  },
+  {
+    "t": 192.297,
+    "speaker": "SPEAKER_12",
+    "text": "NVIDIA is holding its gains at 4%. I find that a really interesting reaction. If you remember, Ian, and I know it was a while ago, didn't you and I spend a whole month testing AI PCs? They're out there. They exist. In that case, it was Qualcomm inside. What do you make of that? Jensen's kind of introducing this as a brand new category, but I thought it was really there."
+  },
+  {
+    "t": 213.644,
+    "speaker": "SPEAKER_07",
+    "text": "No, I mean, it isn't. ARM in the PC is not there. NVIDIA itself tried it more than a decade ago, didn't work out. So this isn't a revolutionary idea at a fundamental level. But again, this is NVIDIA. This is the biggest company in the world."
+  },
+  {
+    "t": 229.287,
+    "speaker": "SPEAKER_02",
+    "text": "And this is MediaTek and this is Arm and all the other companies are getting a bathed bit in the glory as well. Ian King, it's so great to have you on the show to start us off. Look, Nvidia clearly remains at the very center of the AI trade. But as the technology matures, investors have been diversifying their bets. So what are the future opportunities? Please say Matt Whitmer's here with us, All Spring Global Investments Portfolio Manager. I mean, we had seen a bit of a plateauing of Nvidia's rise of late, but now it managed to re-kickstart."
+  },
+  {
+    "t": 257.501,
+    "speaker": "SPEAKER_02",
+    "text": "How much do you still need to be in the very infrastructure, the bowels of the AI trade?"
+  },
+  {
+    "t": 262.504,
+    "speaker": "SPEAKER_06",
+    "text": "Well, it's a great, important question right now. And you talked a little bit about kind of some of the uncertainty in the market. I think it's really forcing investors to remain in some of those safe haven names. Large cap tech makes sense, strong visibility with cash flows and their positioning. But we think diversification is going to be important going forward. Concentration risk is real. So we're taking a holistic approach to tech in the AI ecosystem as those capex dollars start to spread across the AI value chain."
+  },
+  {
+    "t": 292.254,
+    "speaker": "SPEAKER_06",
+    "text": "So big cap tech names like the MAG7 are going to play an important part with the evolution of AI. But it's important to start allocating some of those investment dollars to other areas of the market."
+  },
+  {
+    "t": 302.828,
+    "speaker": "SPEAKER_12",
+    "text": "Matt, how seriously are you taking this NVIDIA entry into the PC market with a CPU?"
+  },
+  {
+    "t": 310.556,
+    "speaker": "SPEAKER_06",
+    "text": "Well, it's important. That edge kind of compute as that insatiable demand for more performance kind of extends to those end products. they're going to have to be more capable. And so as we move to inference and agentic AI and physical AI, we're going to see different parts of the market with different requirements and eventually new winners. So I think it's important to have opportunities and different solution sets to handle that."
+  },
+  {
+    "t": 337.395,
+    "speaker": "SPEAKER_06",
+    "text": "And I think NVIDIA coming into the market there is going to play an important role."
+  },
+  {
+    "t": 341.58,
+    "speaker": "SPEAKER_02",
+    "text": "We've seen entire adjacent industries take off that are at the heart of the bottlenecks. We think of the energy trade that has picked up, even nuclear companies. We've seen the focus on new types of bets when it comes to photonics, Matt. But where are the opportunities that haven't already been ridden in this wave?"
+  },
+  {
+    "t": 359.111,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, and we're focusing a lot of our time on the application layer right now. Look, we kind of look and view as the AI."
+  },
+  {
+    "t": 367.409,
+    "speaker": "SPEAKER_06",
+    "text": "value chain is having kind of five important layers you've got energy and power like you talked about you talked about the the infrastructure with chips computing infrastructure you've got the hyperscalers you've got those ai models and then on top of that is the application layers those are those those those adopters and the abilities for industries where they're going to be able to drive automation decision support and kind of productivity gains They're going to need software to do a lot of that for them. And that's where we've been spending a lot of our time and focus from an investment perspective."
+  },
+  {
+    "t": 397.538,
+    "speaker": "SPEAKER_02",
+    "text": "Oh, I don't want to front run where Ed is going to take this conversation just after this, Matt. But software has been getting a bid today. So are you a believer that there are going to be ultimate winners out of us? Can you get more detailed on the application there for us?"
+  },
+  {
+    "t": 411.129,
+    "speaker": "SPEAKER_06",
+    "text": "Well, I think so. I mean, I think companies are starting to focus on how important it is to have that AI is going to be an important driver of what they're going to be able to do. And they're going to need software to come along with them along that journey."
+  },
+  {
+    "t": 424.739,
+    "speaker": "SPEAKER_06",
+    "text": "And so those companies that have robust access to that data, that have the operational scale and are fully embedded within their customer suites, I think are going to be important to have that ecosystem help get them to where they're going to be going when it comes to productivity enhancement or whatever they're going to use AI for."
+  },
+  {
+    "t": 444.17,
+    "speaker": "SPEAKER_12",
+    "text": "It's a very difficult morning to make sense of what's going on in the world. I got some DRAM and NAND flash data. We took a kind of breather in May. Pricing slowed down flat on NAND. There is still an ongoing situation in the Middle East. IDC has this forecast for the PC market that the PC market overall is going to decline 11% in calendar 26. When you have a big moment like Computex and Jensen Wong, probably the most important person in the world of technology, is on stage and the market reacts like it does today."
+  },
+  {
+    "t": 473.636,
+    "speaker": "SPEAKER_12",
+    "text": "Do you actually learn anything useful from that, Matt?"
+  },
+  {
+    "t": 476.918,
+    "speaker": "SPEAKER_06",
+    "text": "Well, I think it just gets back to the diversification point that we want to make sure that our clients are paying attention to. You need to have a holistic approach to whatever you're doing from an investment perspective, whether it be across all 10 sectors. But I also think it's important just within the AI ecosystem itself. to make sure you're spreading your bets across all those layers, to make sure when there are big moves, when there are those bottlenecks that are going to force pricing up. and really, you know, force the agenda."
+  },
+  {
+    "t": 505.685,
+    "speaker": "SPEAKER_06",
+    "text": "I think you need to make sure that you have exposure to all five layers to make sure that you don't lose out on any opportunities that are out there."
+  },
+  {
+    "t": 512.968,
+    "speaker": "SPEAKER_02",
+    "text": "And Matt, we become very myopic sat in the United States with the biggest winners being U.S. names. But this is a global supply chain and we've seen huge wins in South Korea, over in Japan and Europe. Where are you thinking geographically?"
+  },
+  {
+    "t": 525.734,
+    "speaker": "SPEAKER_06",
+    "text": "Well, I think it starts here primarily here in the U.S., but I think there are some names outside of the US. ASML, I think, is a great example of that. It's going to play an important part of the build-out and their ability to help provide what these big customers need to drive those product sets in the right direction."
+  },
+  {
+    "t": 545.035,
+    "speaker": "SPEAKER_12",
+    "text": "Matt, just really, really quick, you don't stay up at night worried about memory bottlenecks, or you do lose a lot of sleep because of that?"
+  },
+  {
+    "t": 551.696,
+    "speaker": "SPEAKER_06",
+    "text": "I do. I absolutely do. I think these cycles are probably the duration of these cycles are going to continue to evolve and move out further down the timeline. And I think a lot of that has to do with the fact that these clean rooms are, there's only a few of them out there. And they're taking up time. These green fields are going to take two to three years before they come online. So I think the memory names are going to continue to drive pricing in the direction that they needed to do for the stocks to work."
+  },
+  {
+    "t": 582.346,
+    "speaker": "SPEAKER_12",
+    "text": "Matt Wimmer of Allspring, great to have you back on the show. Thank you very much. Coming up, we're going to discuss how the SpaceX IPO is already changing the world of finance. Details next. The other big story out of Computex and in the markets is software. Look at the gains, for example, on ServiceNow and Adobe. Very simply put, Jensen Wang arguing that the biggest users of software will be AI agents. Later in the show, we'll dig in. This is Bloomberg Tech."
+  },
+  {
+    "t": 619.835,
+    "speaker": "SPEAKER_02",
+    "text": "even before it begins trading. SpaceX is reshaping Wall Street. Elon Musk is pitching investors on a company that combines rockets and AI with a claimed market opportunity of $28.5 trillion. That is today's big number. That scale is challenging long-held assumptions about how companies are valued, who ultimately drives stock market demand. Bloomberg's tech equity reporter, Isabel Lee, is one of the team on today's big take. All about how..."
+  },
+  {
+    "t": 646.217,
+    "speaker": "SPEAKER_01",
+    "text": "already spacex is just so large so consequential that benchmarks having to tear up their rule books as to how they let them start trading i couldn't have put it better tearing up the rule book or revising if you want to be more diplomatic so the companies behind the most familiar names you can think of like nasdaq 100 and footsie russell they've already changed the rule book from nasdaq the seasoning period or the call the waiting period when the company debuts they go public They have to sit there for a while before three months before they'll consider you to be part of the Nasdaq 100."
+  },
+  {
+    "t": 676.334,
+    "speaker": "SPEAKER_01",
+    "text": "They've narrowed that down to 15 days. For the FTSE it's five days. The S&P is in consultation from 12 months to six months. So of course you have proponents saying yes this is what we want because it will reflect the market. But you have critics saying but wait when companies go public they're usually volatile and don't you want to wait and see first. You know have a normal price discovery. So of course just like with anything there's."
+  },
+  {
+    "t": 697.592,
+    "speaker": "SPEAKER_02",
+    "text": "critics and they're also supporters and the critics are worried perhaps about protections for retail investors or new entrants. Meanwhile SpaceX is all about the retail investor. I mean 30 percent allocation towards them. How are we seeing this managing to go into sometimes Elon Musk's criticism himself of passive investments."
+  },
+  {
+    "t": 715.125,
+    "speaker": "SPEAKER_01",
+    "text": "Exactly. So index tracking funds are estimated to buy nearly $20 billion worth of SpaceX. That's massive. I don't think we've seen that before. And going with retail traders, I went on Reddit, which is the most reliable source on Earth. That's obviously a joke. I'm smiling if people are just listening. And some people were like, why will we even buy this if it will be in our brokerage?"
+  },
+  {
+    "t": 735.246,
+    "speaker": "SPEAKER_01",
+    "text": "in the index funds in just a few months so there is that thinking of like how will this reshape passive investing will traditional money managers have to reallocate because they don't want to be too overweight on one thing i mean where is SpaceX going to be categorized under even industrials tech or communication so lots of unknown but definitely consequential"
+  },
+  {
+    "t": 756.55,
+    "speaker": "SPEAKER_12",
+    "text": "Isabel, tough decisions need to be made. We spent a lot of last week talking about Tesla and the idea that SpaceX merges with Tesla in the future. You just showed a quote from Scott Solzhenitsyn. One point he makes is that actually Tesla and Bitcoin is examples. You and I talked about the Bitcoin holdings at SpaceX last week. They might actually get hit by this. Why?"
+  },
+  {
+    "t": 779.43,
+    "speaker": "SPEAKER_01",
+    "text": "Because a play on Tesla and a play on SpaceX is really just a belief on Elon. And if you're invested in Tesla and SpaceX, are you too over-concentrated on Elon? Now, I know that these are two separate companies, and within those two companies are multiple companies, it feels like. And they have different valuations, different technicals, but it's all really Elon at the end of the day. That's what one analyst was telling me also, like if you're into Tesla, would you sell that because you're going to be in SpaceX? And SpaceX, of course, is also in the index. So really lots of over-concentrated risk."
+  },
+  {
+    "t": 808.95,
+    "speaker": "SPEAKER_01",
+    "text": "And it's not just Tesla. I mean, soon we'll see OpenAI, we'll see Anthropic, which the show has covered a lot. What's that going to mean for your brokerage as an ordinary American? I mean, you're going to have such a huge concentration of tech. And do you want that for your portfolio?"
+  },
+  {
+    "t": 823.278,
+    "speaker": "SPEAKER_12",
+    "text": "Bloomberg's Isabella Lee, top stuff. Thank you very much. Now, when the Apple Watch went on sale in 2015, it took on not just other high-tech wearables, but also the wider mechanical watch market. And as you can see, that meant a hit to sales of traditional players in that space. Now Apple's aiming to use that playbook in the eyewear market. Bloomberg's Mark Gurman leads our coverage of Apple, and that's the subject of this weekend's Power On."
+  },
+  {
+    "t": 848.073,
+    "speaker": "SPEAKER_12",
+    "text": "We've talked about this before, you know, why, how Apple in the eyewear market, but that historic playbook, you broke it down. What do we need to know?"
+  },
+  {
+    "t": 856.764,
+    "speaker": "SPEAKER_05",
+    "text": "Yeah, it's interesting. When the Apple Watch launched, you saw within a few years the entire mid-tier mechanical watch industry get completely upended, right? There was Movado, there was Fossil, there was Swatch, and those companies are still around, but their revenues are considerably lower than they were a decade ago. The high end of the watch market, companies like Patek, Rolex, AP, all the hot ones right now in the COVID luxury boom, They did fine."
+  },
+  {
+    "t": 886.359,
+    "speaker": "SPEAKER_05",
+    "text": "And what you're going to see is the same thing play out in glasses, I believe, where Apple and therefore other smart glasses makers are going to completely disrupt that mid-tier market. Brands like Ray-Ban, Warby Parker, etc. Now, you've seen Ray-Ban, Warby Parker pivot to smart. So really, the non-smart glasses, I think, are going to get wiped out. But the very high-end, Maison Bonnet, Cartier, etc., those guys, I think, are going to be okay."
+  },
+  {
+    "t": 914.068,
+    "speaker": "SPEAKER_02",
+    "text": "I mean we really do see how Ray Ban has positioned himself like Zotico more broadly alongside Meta. But where do you think has also managed to start to get in ahead of the curve from a digital tech perspective not having to just depend on weird tie ups like we see with AP and Swatch for example which does prove pretty successful."
+  },
+  {
+    "t": 932.752,
+    "speaker": "SPEAKER_05",
+    "text": "Yeah, no, I mean, Meta has done a great job. Obviously, they've pioneered the space there. They're going to be launching new smart glasses, I guess it's June 1st already. So later this month, they have partnerships with Exorba Exotica. I would expect them to eventually roll out new designs that are in-house form factors. So certainly, it's going to be a pretty booming space. And Apple coming into the space with an iPhone-exclusive pair of smart glasses is going to drive interest for the rest of the industry. And I think Meta has a strong chance for the Android side of the world."
+  },
+  {
+    "t": 962.945,
+    "speaker": "SPEAKER_12",
+    "text": "Very, very quick, Mark. Is there anything that we learn from the Vision Pro story about how they'll approach glasses?"
+  },
+  {
+    "t": 970.771,
+    "speaker": "SPEAKER_05",
+    "text": "You know, I think that there's really, it's really two different stories. You know, the Vision Pro, obviously $3,500, very heavy, very tech tour de force. On the glasses, something quite lighter and a lot cheaper. So I think they're two distinct categories."
+  },
+  {
+    "t": 990.127,
+    "speaker": "SPEAKER_02",
+    "text": "Really is, again, one of the most read things over the course of the weekend. Bloomberg's Mark Gurman, thank you very much. All things power on. Next coming up, from video generation to robotics. Luma AI CEO Amit Jain is going to be joining us on the next frontier in artificial intelligence. This is Bloomberg Tech."
+  },
+  {
+    "t": 1018.717,
+    "speaker": "SPEAKER_12",
+    "text": "Another NVIDIA message at Computex, the next AI race is in the physical world. That brings us to Luma AI, which is launching an open research lab focused on solving generalization in robotics. Joining us now, CEO Amit Jain. We've talked quite a bit on this program about the challenge. The challenge is that in the physical world, models need to be multimodal. But I think let's start by defining the problem, generalization. That might be a newer term. What are you getting at there?"
+  },
+  {
+    "t": 1049.023,
+    "speaker": "SPEAKER_00",
+    "text": "Thanks for having me, first of all. Currently, pretty much all robots are trained by showing a few examples of specific tasks. So the entire field basically trains one task at a time. If you compare that to the world of language models where you train a large model and then it's able to handle a wide variety of tasks, unseen problems as well. So that is an example of generalization. And in robotics, we have this critical gap where we are just stuck in the valley of specific tasks."
+  },
+  {
+    "t": 1077.825,
+    "speaker": "SPEAKER_00",
+    "text": "In order for robotics to be impactful in the world and for us to be able to just talk to them and ask them, like, hey, okay, do this. Then, like, you know, when you're done with that, go take care of that thing."
+  },
+  {
+    "t": 1088.251,
+    "speaker": "SPEAKER_12",
+    "text": "And it may be a new scenario being presented to them for the first time."
+  },
+  {
+    "t": 1091.313,
+    "speaker": "SPEAKER_00",
+    "text": "For the first time. So generalization is this problem of how do we allow robots to solve generally any task."
+  },
+  {
+    "t": 1098.943,
+    "speaker": "SPEAKER_12",
+    "text": "Even in a world where you have access to a lot of synthetic or virtual data, having a grounding in physics, the real physics of the world, is a principal challenge. So why is it that having an open science physical AI lab is a solution? It sounds somewhat abstract, with respect."
+  },
+  {
+    "t": 1113.658,
+    "speaker": "SPEAKER_00",
+    "text": "Right. So, I mean, there's two aspects to this. One, that it is open. And the second is the work that we are specifically doing to solve... Open being open source, you mean? Open being, open science, open source, both of those aspects. So first of all, what the solution actually looks like from our perspective."
+  },
+  {
+    "t": 1130.913,
+    "speaker": "SPEAKER_00",
+    "text": "Currently, the best solution is brute forcing this approach, which is gather data on every single task you can imagine in combination of tasks, everything humans do, from picking up cups to, you know, digging, like, you know, mines, all of these things, and gather data one piece at a time. That's a practically impossible solution."
+  },
+  {
+    "t": 1148.846,
+    "speaker": "SPEAKER_00",
+    "text": "On the other hand, the teams at Luma, the work we have been doing for the past four years is in building out these general systems out of multimodal data, internet scale multimodal data, and extracting signals from that that allows control, that allows simulation of reality, and that allows physical control. So this lab's job is to leverage that skill into physical AI. And the second aspect of this is open. And I think we would not be doing it any other way. And I think this is really, really significant."
+  },
+  {
+    "t": 1178.509,
+    "speaker": "SPEAKER_00",
+    "text": "If you think about what physical AI would mean for the world, it will be everywhere. It will be in our houses. These systems, robots, will be manufacturing everything we depend upon, everything we eat. They will be in our hospitals. They will be in scientific labs. They will be on our streets. Right. It's completely untenable that one or two people control this entire stack."
+  },
+  {
+    "t": 1201.646,
+    "speaker": "SPEAKER_00",
+    "text": "So we want to live in a world and we want to affect a world where a small group of people can take these technologies and build them into productive systems. And that's why it is an open initiative."
+  },
+  {
+    "t": 1213.241,
+    "speaker": "SPEAKER_02",
+    "text": "This seems like more of a philosophical push of yours, the idea that we shouldn't have so much control. I mean, it's almost akin to the encyclical by the Pope. But Meta at one point was pushing open source, and then it moved away from that, just the sheer amount of money that needs to be made. How are you going to fund this? How do you commit to open science when everyone's so worried about China and geopolitical tensions?"
+  },
+  {
+    "t": 1237.248,
+    "speaker": "SPEAKER_00",
+    "text": "Right. I think, first of all, it has to be philosophical because it is not just a tool. This is going to be technology. I mean, AI already is immensely impactful in our world beyond what anybody imagined even two years ago. Physical AI will be deployed even faster because of the economic impact it's going to have. So a philosophical stance is absolutely necessary. But you're absolutely right, funding these systems."
+  },
+  {
+    "t": 1262.036,
+    "speaker": "SPEAKER_00",
+    "text": "So what we believe, actually, is that this level of control over means of production is actually not a tenable economic situation anyway. You know, nations would not be happy with... one or two companies outside their borders controlling their means of production. So we believe, actually, this is not just a philosophical stance. This is an economically sound stance."
+  },
+  {
+    "t": 1284.09,
+    "speaker": "SPEAKER_00",
+    "text": "And building an ecosystem where chip partners, the model brain providers like Luma, and deployment partners work together to build these out into systems of productive work is the right economic path. And currently, intelligence, especially LLMs, are going on the wrong path here."
+  },
+  {
+    "t": 1301.42,
+    "speaker": "SPEAKER_02",
+    "text": "I mean, we've got 30 seconds, but... You've raised 900 million Series C. We're just seeing the output that Luma creates. But why are you the right person when you've got World Labs, for example, with Fei-Fei Li?"
+  },
+  {
+    "t": 1312.996,
+    "speaker": "SPEAKER_00",
+    "text": "I think just like LLMs or language models were not solved by linguists, we believe to solve physical AI, you need the systems of large-scale multimodal data infrastructure. This is what Luma does. This is our bread and butter. And we have produced some of the best models in this space on 3D, on images, on video, taking raw Internet data. This skill is, I think, what is essential to solving this problem. And that's why we think we are one of the best-suited companies in the world to solve it."
+  },
+  {
+    "t": 1341.762,
+    "speaker": "SPEAKER_02",
+    "text": "Appreciate you coming on and bringing us the news. I'm at Jane of Luma AI. Have a great day. Meanwhile, coming up, we're going to dive into the impact on software and look at the stocks. And currently seeing after Jensen Huang remarks over at Computex, he was talking about how software lives on in the age of generative AI. And you're just going to be using more of it under agentic. From New York, from San Francisco, this is Blue Bag Tech."
+  },
+  {
+    "t": 1375.49,
+    "speaker": "SPEAKER_10",
+    "text": "NVIDIA CEO Jensen Huang calls agentic AI useful AI and says it's going to be the next main driver of AI adoption and AI investment. He calls it the agentic age. Huang was in full salesman mode here at Computex in Taipei. NVIDIA, of course, is a dominant player in AI data centers, and Huang says its latest AI supercomputing platform, Vera Rubin, is now in full production."
+  },
+  {
+    "t": 1404.204,
+    "speaker": "SPEAKER_10",
+    "text": "NVIDIA's most ambitious endeavor to date, he says. Now, NVIDIA is also launching a reboot into home computers. He wants to, quote, reinvent the PC with its new RTX Spark super chip built with Taiwan's MediaTek that will be offered in high-end laptops and desktops from the likes of Dell and Lenovo this fall."
+  },
+  {
+    "t": 1427.675,
+    "speaker": "SPEAKER_10",
+    "text": "It's NVIDIA's stab at loosening the stranglehold of Intel and move the humble home computer into the agentic AI age. Oh, and you know all that talk of late about AI eliminating jobs? Well, Jensen Huang calls that notion complete nonsense. He says agentic AI is going to be a generator of GDP, and that creates jobs. Stephen Engel, Bloomberg News, at Computex in Taipei."
+  },
+  {
+    "t": 1457.548,
+    "speaker": "SPEAKER_02",
+    "text": "We welcome you back to Bloomberg Tech. And look, Stephen said it all. NVIDIA once again being bullish and the market is bullish in response. We're up more than 4% on the name. That's the biggest move in a couple of weeks. We're seeing it back at $5.3 trillion. A lot of analysis out there. Bank of America is saying it's continually strengthening NVIDIA's systems moat. We've got Citi saying there's a number of positives, but it does have an effect on the rest of the market."
+  },
+  {
+    "t": 1481.308,
+    "speaker": "SPEAKER_12",
+    "text": "Yeah, and there is a massive rally in software names. As Jensen Wong says, it's an incredible time to be a software company. We're going to dig into it in detail soon. But basically, he's arguing the billions of AI agents will be the biggest users of software and so the biggest customers of those companies that you see rallying on your screen. Let's get more on the impact of NVIDIA's announcement. The demand in the AI PC category is growing. Bloomberg Intelligence's Mandeep Singh joins us for more."
+  },
+  {
+    "t": 1507.575,
+    "speaker": "SPEAKER_12",
+    "text": "So interesting because actually like in aggregate, the PC market's under pressure, right, Mandeep, because of the memory pricing issue, because of generations to generations of hardware out there. Just bring the BI thesis on how you respond to the Spark Superchip and what you think it will do for the AI PC category."
+  },
+  {
+    "t": 1525.402,
+    "speaker": "SPEAKER_08",
+    "text": "Look i mean what we have seen with the ai server category you Know server used to be a low to mid single digit growth market And look at what they have done you know on the server side and The data center side with this ai server category and nvidia is Much more of a household name now than it was probably a few Years back so It makes sense for them to try out whether they can have some traction on the PC side."
+  },
+  {
+    "t": 1553.479,
+    "speaker": "SPEAKER_08",
+    "text": "And the specs are way different than the current crop of PCs. I mean, 132 gigabytes of DRAM. Look, these are the type of things that they were the first ones to build on the server side. It really took off. And with agentic AI, one thing we know is it requires a lot more compute across the board. So I think it's an interesting area that they're trying to get into."
+  },
+  {
+    "t": 1581.431,
+    "speaker": "SPEAKER_08",
+    "text": "But I think the big picture here is they want to address physical AI, client PCs, and really create an ecosystem where they can work across the board."
+  },
+  {
+    "t": 1592.694,
+    "speaker": "SPEAKER_02",
+    "text": "Work across the board and people then question about the role of their own work. It's interesting that, well, once again, Johnson Huang really trying to outline his view that it won't reduce jobs. Just take a listen."
+  },
+  {
+    "t": 1603.834,
+    "speaker": "SPEAKER_04",
+    "text": "People talk about AI reducing jobs. Complete nonsense. It's causing more software engineers to be hired because the output is so incredible. People want to hire more software engineers. This is going to show up in our economy somehow soon. And so the first thing is useful AI has arrived."
+  },
+  {
+    "t": 1623.041,
+    "speaker": "SPEAKER_02",
+    "text": "Mandy, do you align yourself that, yes, more engineers will be there, so more software is used, so this is positive for the software names, or have they just been so beaten up ahead of this that people are willing to dip their toe in if Jensen says to?"
+  },
+  {
+    "t": 1635.611,
+    "speaker": "SPEAKER_08",
+    "text": "I mean, what we saw this earnings season with Datadog, Snowflake, MongoDB is, you know, it's hard to think of a thesis where software gets completely disintermediated and everything is built from scratch in terms of agentic AI coming up and"
+  },
+  {
+    "t": 1652.163,
+    "speaker": "SPEAKER_08",
+    "text": "really doing things you know in terms of the plumbing work and everything no this will be built on top of existing software yes the ui will change it will be a lot more conversational natural language but you know in terms of system of record and you know things that are that have been built over the years no one is talking about that anymore and that's where you know some of these companies have shown that in their numbers with arr growth accelerating and"
+  },
+  {
+    "t": 1680.395,
+    "speaker": "SPEAKER_08",
+    "text": "If Jensen is saying you would require a lot more software folks, then probably it is the right sort of thesis, at least for now, that it will be positive and not as disruptive that everyone thought a few months back when it comes to the software stocks."
+  },
+  {
+    "t": 1696.538,
+    "speaker": "SPEAKER_12",
+    "text": "Mandeep, NVIDIA's pitch, if you just boil it down, is that if you're an experienced software engineer, you become a manager of a team of AI agents. And then last night, his further pitch is that those AI agents, the billions and billions of them, are users of software. The agents become the customers of the software company. The BI take on that, your take on that?"
+  },
+  {
+    "t": 1718.095,
+    "speaker": "SPEAKER_08",
+    "text": "I mean, there will be a multiplier effect. So when you think about how any technical knowledge worker would do their jobs going forward, they will be using a lot more of these agents. And there will be one is 210 or one is 200 in terms of the multiplier effect. So from that perspective, you could see a lot more consumption of the software. Now, what that means in terms of end-to-end automation"
+  },
+  {
+    "t": 1743.719,
+    "speaker": "SPEAKER_08",
+    "text": "That's the part that, you know, we still need to figure out how It's going to impact the overall employment picture because, Look, the college graduates that are passing out, they were Trained in a certain way, they moved up, you know, in a certain Way in terms of their skill set. That, i think, notion in terms Of how the evolution took place has changed and it will change More with agentic ai."
+  },
+  {
+    "t": 1766.788,
+    "speaker": "SPEAKER_02",
+    "text": "Bloomberg Intelligence's Mandeep Singh. Fascinating. Thanks for joining us. Look, Huang's comments on the job market, they're actually echoed by NVIDIA's partner. It's MediaTek, the company which is helping build that new RTX Spark superchip. Well, it expects its AI data center chip revenue to multiply next year, impacting its own headcount. Now, Vince Hu is the company's corporate senior vice president, spoke to Bloomberg's Stephen Engel over at Computech."
+  },
+  {
+    "t": 1791.443,
+    "speaker": "SPEAKER_03",
+    "text": "So as Jensen mentioned, AI is not going to kill jobs. It's actually going to create jobs. And I think one of the things we're seeing is our business is taking off on a number of fronts. And a number of new businesses like automotive, IoT, data center, and wearables. Our existing businesses are also increasing in future momentum because of the introduction of more AI capabilities to change the user experience."
+  },
+  {
+    "t": 1820.917,
+    "speaker": "SPEAKER_03",
+    "text": "So actually, we're in a situation where we're not reducing the number of engineers, but actually expanding and hiring the number of engineers. And we're chasing a lot more opportunities. So I see this boding very well for us."
+  },
+  {
+    "t": 1833.162,
+    "speaker": "SPEAKER_10",
+    "text": "Do you agree with what Jensen said as well today? He says AI and what they're doing is a GDP generator. I think the latest numbers that did come out of the forecast for Taiwan is almost 10% growth this year in GDP on top of 7% last year."
+  },
+  {
+    "t": 1848.268,
+    "speaker": "SPEAKER_03",
+    "text": "And now we're going to see potentially $1 trillion in value probably this year or next year. And I would say, without knowing the exact data, probably Taiwan is experiencing its heyday and unprecedented growth here in technology. And it's probably the center of the high-tech world here now because of the AI revolution. Most of the customers we're working to get today are tier one hyperscalers."
+  },
+  {
+    "t": 1877.814,
+    "speaker": "SPEAKER_03",
+    "text": "I feel very good about the fundamentals of the business we're pursuing, and I think we're pretty set, at least through the 2030 horizon."
+  },
+  {
+    "t": 1886.403,
+    "speaker": "SPEAKER_12",
+    "text": "That was MediaTek's Vince Hu speaking with Bloomberg's Stephen Engel at Computex. Coming up, New York Tech Week kicks off today. TechNYC CEO Julie Samuels joins us to discuss what happens and what to expect. Carrie."
+  },
+  {
+    "t": 1898.555,
+    "speaker": "SPEAKER_02",
+    "text": "I'm actually looking at a New York-based company that is... rallying pretty hard today ibm up almost 10 but the weird thing ed is it's all based on a nearly six month old video it seems of donald trump president trump praising ibm ceo that sent the stock surging over the weekend we saw many accounts dozens of them on x recirculating that video And Polymarket Money actually racked up 700,000 views on it. Why now? Why the win now?"
+  },
+  {
+    "t": 1927.399,
+    "speaker": "SPEAKER_02",
+    "text": "It seems to be the speculative mania some are talking of in our analysis. This is Bloomberg Tech. New York Tech Week officially kicks off today with a record 1,500 events gathering thousands of founders of venture capitalists, innovators across the city. Joining us now to discuss the city's really rising status as a global tech hub, Julie Samuels, President and CEO of TechNYC."
+  },
+  {
+    "t": 1954.572,
+    "speaker": "SPEAKER_14",
+    "text": "is it a rising status what data can we look at to feel that ai and all the tailwinds are benefiting this city well first of all it is absolutely rising it's booming it's booming of course in a lot of tech hubs right now but new york is absolutely feeling the benefit we've got we're hiring at twice the rate of san francisco four times the rate of boston in our tech sector here You know, last count, we had over 9000 startups. We're raising venture year over year. It's just I think it's doubled like 40, 50 percent."
+  },
+  {
+    "t": 1985.895,
+    "speaker": "SPEAKER_14",
+    "text": "And that's, of course, against the backdrop of this entire AI boom that is just putting so much oxygen into the tech sector."
+  },
+  {
+    "t": 1992.261,
+    "speaker": "SPEAKER_02",
+    "text": "And is that why New York gets that oxygen is because look. If it is financial industries, they're going to be disrupted. Well, you want to be where that industry is. If it is going to be health care, you want to be that industry."
+  },
+  {
+    "t": 2002.186,
+    "speaker": "SPEAKER_14",
+    "text": "I think that's a huge piece. There's a couple of things happening. Number one, of course, is that once the companies are building within sectors, they have to be here. Like you just said, you need the expertise. You need the smart capital. You know, you need not just disrupting those industries, but those industries are the clients. They're the customers. They're also going to be your mentors. You know, that's how you build network."
+  },
+  {
+    "t": 2022.633,
+    "speaker": "SPEAKER_14",
+    "text": "But what we also see at the higher level, and we're at this point that we saw in the early 2000s to early 2010s, when the big tech companies and the big platforms build their technology on the West Coast, they often come here when it's time to figure out how do you monetize it? Who's going to buy it? How are they going to use it? Those are New York questions to get answered. So I feel very great about where New York sits right now in the ecosystem."
+  },
+  {
+    "t": 2048.462,
+    "speaker": "SPEAKER_12",
+    "text": "Julie, I was going to say that, you know, a year ago, the headline probably was that, you know, Silicon Valley and SF in the AI era where tech companies are born, they go to New York to mature. What in the last sort of 12 months of data would either reinforce that for you or do you think it isn't quite that story yet?"
+  },
+  {
+    "t": 2066.717,
+    "speaker": "SPEAKER_14",
+    "text": "I think that's very true. I think you've got two things happening in parallel that underscore that trend. First of all, the largest frontier labs are hiring and growing in New York like crazy. Open AI, Anthropic, huge new real estate deals, they're hiring here. So you see that. And then you also just see the startups just, again, they're coming here as well. But it's a slightly different flavor of startups that you get in San Francisco. And I think that's okay. You know, I think that's good for the country."
+  },
+  {
+    "t": 2095.132,
+    "speaker": "SPEAKER_14",
+    "text": "In San Francisco, you get a lot of really, really hard tech. And here in New York, again, it's slightly more integrated into existing sectors. I feel very bullish about that. I think that's long-term, incredibly healthy place for our city and our states today. economy to be. We actually see a lot of open source AI happening here in New York which is interesting. We're seeing a lot of infrastructure happening here. Also interesting."
+  },
+  {
+    "t": 2121.078,
+    "speaker": "SPEAKER_14",
+    "text": "You know people are really excited right now and people want to be in New York City. I guess that is the underlying"
+  },
+  {
+    "t": 2126.686,
+    "speaker": "SPEAKER_12",
+    "text": "Well, Julie, let's finish on the experience of the highly paid tech employee, software engineer or otherwise, who has options. Part of the story in SF has been the city being a place where people want to spend their money and live alongside locality to their employer. What's the New York City pitch equivalent?"
+  },
+  {
+    "t": 2147.837,
+    "speaker": "SPEAKER_14",
+    "text": "Well, New York City does urbanism like no other city in the world. Surely in the United States, but I would argue the entire world. And I think there's so much about the tech sector culture. So many people building in tech want to be here. They want to be where there's functioning public transit, where the density of this city lends itself to the kind of... creativity and excitement and diversity that you really can only get in a city as dense as New York. And you see that this is, as Caroline said, this is the first day of Tech Week."
+  },
+  {
+    "t": 2176.758,
+    "speaker": "SPEAKER_14",
+    "text": "Our Tech Week is much, much bigger than San Francisco's Tech Week. And that's because here you can bounce from event to event."
+  },
+  {
+    "t": 2182.24,
+    "speaker": "SPEAKER_12",
+    "text": "Julie, every week is Tech Week in San Francisco, I think is the point."
+  },
+  {
+    "t": 2185.32,
+    "speaker": "SPEAKER_14",
+    "text": "Perhaps, perhaps. But you know, one quick little anecdote that might be a little too cute by half, but I think it's very true. When you're in San Francisco, you meet people who... work in tech tech people who live in San Francisco. When you're in New York you meet New Yorkers who work in tech and that just it's a different it's a different dynamic. And I think for our country you need both. I feel really good about that. I think New York just is so it feels so optimistic right now."
+  },
+  {
+    "t": 2210.349,
+    "speaker": "SPEAKER_14",
+    "text": "There's just so much building going on in the tech sector that that I feel like it's it's great. It's a great time to be building in tech in New York."
+  },
+  {
+    "t": 2219.13,
+    "speaker": "SPEAKER_12",
+    "text": "Julie Samuels, President, CEO of TechMIC. Great to have you back on the program. Thank you so much. Really appreciate it. Thank you. Caro, a lot more news out there today."
+  },
+  {
+    "t": 2226.515,
+    "speaker": "SPEAKER_02",
+    "text": "There is East versus West. You've got to love it. But this time, it's Talking Tech. And first up, Wise shares. They're actually tumbling over in London today. The fintech giant confirmed it is answering queries from Belgian prosecutors investigating an alleged $518 million money laundering network linked to fraud and drug trafficking. Wise says the requests are a routine part of highly regulated operations. Plus, Meituan's quarterly losses, they're shrinking as Beijing's regulatory warnings finally cool China's brutal e-commerce price war."
+  },
+  {
+    "t": 2254.68,
+    "speaker": "SPEAKER_02",
+    "text": "The food delivery platform posted a narrower than expected $961 million operating loss. But the company remains locked in that costly battle with Alibaba and JD.com. And Uber, well, it's driving deeper into the Middle East. The company is paying $100 million in cash for a staking Kareem, a regional super app from the Gulf that offers food and grocery delivery and payments. The deal accelerates Uber's rapid e-commerce expansion blitz across Europe, Middle East and Africa."
+  },
+  {
+    "t": 2279.744,
+    "speaker": "SPEAKER_12",
+    "text": "Ed. OK, coming up, we're going to get back to the SpaceX IPO and what to expect. That's next. This is Bloomberg Tech."
+  },
+  {
+    "t": 2293.927,
+    "speaker": "SPEAKER_02",
+    "text": "Let's get back to the SpaceX IPO and get down into the nitty-gritty of the numbers. New Bloomberg Intelligence analysis reveals SpaceX's some-of-the-parts valuation could hit nearly $2 trillion, thus as the company marches towards its historic Wall Street debut. Joining us now to break down the framework, Bloomberg Intelligence's George Ferguson. George, it's interesting that Ed has been part of that reporting team showing that, well, maybe they're offering a $1.8 trillion valuation rather than perhaps $2 trillion, but you think really it should add up to $2 trillion."
+  },
+  {
+    "t": 2323.854,
+    "speaker": "SPEAKER_09",
+    "text": "Well, so I think, you know, what we wrote was that we could see the market comparables that could get it close to 2 trillion. And so today, you know, today, I think we were even seeing some of the space stocks come down as SpaceX lowered their, I don't know, their targets, their guidance, whatever you want to call that late last week. So, I mean, we see comparables that could get it there. I didn't say that was necessarily the right price. They seem pretty rich. But there's comparables."
+  },
+  {
+    "t": 2352.86,
+    "speaker": "SPEAKER_09",
+    "text": "A lot of it built around the space launch business, which we saw sort of 80 to 90 times revenue."
+  },
+  {
+    "t": 2359.648,
+    "speaker": "SPEAKER_12",
+    "text": "You know, I was really surprised by the launch figure because Elon Musk himself said repeatedly a number of times in the last decade, the launch business tops out, right? There is a limit to how much money you can make putting payload into orbit. That's why the TAM number is literally everything but that. Just give me the math on how you arrived at the number."
+  },
+  {
+    "t": 2379.966,
+    "speaker": "SPEAKER_09",
+    "text": "Yes, I mean, again, we looked really at market comparables. And so from a space launch perspective, Rocket Labs in the marketplace, and it's about an 80 to 90 times revenue number on Rocket Labs valuation. And so we think that SpaceX. If you plus up the revenue inside the launch business for the launch they're doing internally because they don't book that in the revenue line."
+  },
+  {
+    "t": 2406.226,
+    "speaker": "SPEAKER_09",
+    "text": "It's about 11 billion dollars of revenue and we plug sort of an 80 to 90 multiple on that and got about a trillion dollars. in value at a launch potentially. And then the other businesses like Starlink, I have colleagues here at Bloomberg Intelligence that are much smarter at that and did that valuation. But Starlink kind of came in 30 to 40 times revenue based on some of their comparables. It's not a lot of the value. It's another sort of $600 billion."
+  },
+  {
+    "t": 2435.027,
+    "speaker": "SPEAKER_09",
+    "text": "And then the A.I. business came in around 400 billion. And that that's Mandeep Singh. And that's a there's a lot of voodoo, I think, inside Valiant A.I. companies. There's a lot of loss in there. I can't totally figure out how he does that."
+  },
+  {
+    "t": 2447.55,
+    "speaker": "SPEAKER_02",
+    "text": "George, what's interesting is who's holding, say, Rocket Labs and how meme-ified they've become, how much their valuations are based on retail. The latest is out of our story that SpaceX is going to reserve 5% of the shares for certain employees and friends, and they're not going to perhaps be held to a lockup. How much of an issue is that?"
+  },
+  {
+    "t": 2465.782,
+    "speaker": "SPEAKER_09",
+    "text": "Sorry, I caught the very tail of the lockup. How much of an issue is that?"
+  },
+  {
+    "t": 2469.344,
+    "speaker": "SPEAKER_02",
+    "text": "Well, the fact that they're not going to be held or bound to a lockup in the same way, briefly."
+  },
+  {
+    "t": 2475.047,
+    "speaker": "SPEAKER_09",
+    "text": "I mean, look, I think in any IPO, there's always this challenge that as you come out of the hype of the IPO, you'll see prices sort of fall on it. I think, though, there's going to be a lot of hype around SpaceX. It doesn't mean, I think, the shares will hold the value that they're coming out of the IPO at."
+  },
+  {
+    "t": 2495.754,
+    "speaker": "SPEAKER_09",
+    "text": "But I also think, again, it's a big enough player, and it's in AI, launch, and in connectivity, that I think you should see maybe some of that hangover afterwards being less of an issue. But for sure, I think you're running some challenges."
+  },
+  {
+    "t": 2515.064,
+    "speaker": "SPEAKER_12",
+    "text": "Bloomberg Intelligence's George Ferguson, part of the team crunching the numbers. Thank you very much. Amazon wants your next Prime order to include a banana. The company is betting that same-day delivery and Whole Foods can finally unlock online grocery shopping at scale. Bloomberg's Matt Day joins us with the deep dive. There is no visitor more frequent to my front door than Amazon Prime. But to this point, a banana is yet to arrive. Take us inside your story. What are you getting at here?"
+  },
+  {
+    "t": 2545.118,
+    "speaker": "SPEAKER_11",
+    "text": "So Amazon, I think maybe uniquely for them and their long history of trying to get groceries to your doorstep, they've just started asking, right? So if you go online today and you place the same day order, it's very likely you're going to see a little pop-up show up near the end like, hey, do you want to add some perishables to this? How about some lettuce? How about some blueberries? That kind of thing. And so it's that sort of in-your-face prompting combined with some list statistics on the back end that makes Amazon think they can play a bigger part in grocery."
+  },
+  {
+    "t": 2569.452,
+    "speaker": "SPEAKER_02",
+    "text": "Talk to us about how you've been walking around the store. I mean, your whole story is wonderful. It starts with Jason Buchel, I think that's how I'm pronouncing it, emerging from a big walk-in refrigerator. But how impactful is it that they have the logistics down? It has to be the one-day turnaround that makes it work."
+  },
+  {
+    "t": 2585.286,
+    "speaker": "SPEAKER_11",
+    "text": "So it's really gotten them closer to customers in a way that they couldn't before. I mean, when they started fresh a couple of decades ago, they were doing it from the suburbs. You know, a lot of produce was spoiling and stuff wasn't getting the density they needed to make the math work. You know, now suddenly with Amazon coming out of the pandemic with warehouses real close to a lot of metros, there's more ability to kind of sprinkle these sort of mini chillers in and make a small grocery distribution center perhaps near you."
+  },
+  {
+    "t": 2608.518,
+    "speaker": "SPEAKER_02",
+    "text": "And this is where the Amazon Whole Foods thesis bakes in, Bloomberg's Matt Day. It's a great story. Go read it on the terminal or online. But meanwhile, that does it for this edition of Bloomberg Tech, Ed."
+  },
+  {
+    "t": 2618.662,
+    "speaker": "SPEAKER_12",
+    "text": "Yeah, don't forget to check out the podcast. You can find it on the Bloomberg terminal and online on Apple, Spotify and iHeart. It is the very early start of what I'm sure is going to be a pretty crazy week in the world of technology. A lot to recap from New York City and from San Francisco. This is Bloomberg Tech."
+  }
+]

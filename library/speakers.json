@@ -315,46 +315,17 @@
     "span_days": 71
   },
   {
-    "name": "Dwarkesh Patel",
-    "role": "Host",
-    "appearances": [
-      {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
-        "upload_date": "2026-04-15",
-        "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
-      },
-      {
-        "video_id": "21EYKqUsPfg",
-        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
-        "channel": "Dwarkesh Patel",
-        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
-        "upload_date": "2025-09-26",
-        "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
-      },
-      {
-        "video_id": "qTogNUV3CAI",
-        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
-        "channel": "Dwarkesh Patel",
-        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
-        "upload_date": "2024-02-28",
-        "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
-      }
-    ],
-    "claims": [],
-    "first_uploaded": "2024-02-28",
-    "last_uploaded": "2026-04-15",
-    "slug": "dwarkesh-patel",
-    "appearance_count": 3,
-    "claim_count": 0,
-    "span_days": 777
-  },
-  {
     "name": "Jensen Huang",
-    "role": "Co-founder & CEO, Nvidia",
+    "role": "Nvidia CEO",
     "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      },
       {
         "video_id": "Hrbq66XqtCo",
         "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
@@ -615,11 +586,48 @@
       }
     ],
     "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-01",
     "slug": "jensen-huang",
-    "appearance_count": 2,
+    "appearance_count": 3,
     "claim_count": 30,
-    "span_days": 27
+    "span_days": 74
+  },
+  {
+    "name": "Dwarkesh Patel",
+    "role": "Host",
+    "appearances": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo",
+        "upload_date": "2026-04-15",
+        "thumbnail": "https://i.ytimg.com/vi/Hrbq66XqtCo/maxresdefault.jpg"
+      },
+      {
+        "video_id": "21EYKqUsPfg",
+        "video_title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=21EYKqUsPfg",
+        "upload_date": "2025-09-26",
+        "thumbnail": "https://i.ytimg.com/vi/21EYKqUsPfg/maxresdefault.jpg"
+      },
+      {
+        "video_id": "qTogNUV3CAI",
+        "video_title": "Demis Hassabis \u2014 Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+        "channel": "Dwarkesh Patel",
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+        "upload_date": "2024-02-28",
+        "thumbnail": "https://i.ytimg.com/vi/qTogNUV3CAI/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2024-02-28",
+    "last_uploaded": "2026-04-15",
+    "slug": "dwarkesh-patel",
+    "appearance_count": 3,
+    "claim_count": 0,
+    "span_days": 777
   },
   {
     "name": "Brad Gerstner",
@@ -678,6 +686,35 @@
     "appearance_count": 2,
     "claim_count": 0,
     "span_days": 64
+  },
+  {
+    "name": "George Ferguson",
+    "role": "Bloomberg Intelligence analyst",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-06-01",
+    "slug": "george-ferguson",
+    "appearance_count": 2,
+    "claim_count": 0,
+    "span_days": 3
   },
   {
     "name": "Richard Sutton",
@@ -1484,6 +1521,140 @@
     "span_days": 0
   },
   {
+    "name": "Caroline Hyde",
+    "role": "Bloomberg Tech co-host (New York)",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Nvidia attacks Intel and AMD with an ARM PC chip",
+        "category": "data-point",
+        "start_seconds": 60,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=60s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Nvidia won't say why its chip beats x86 \u2014 'wait and see'",
+        "category": "story",
+        "start_seconds": 145,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=145s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "ARM in the PC has failed before \u2014 even for Nvidia",
+        "category": "counterintuitive",
+        "start_seconds": 192,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=192s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "SpaceX is forcing index providers to cut seasoning periods",
+        "category": "framework",
+        "start_seconds": 646,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=646s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Index funds may be forced to buy ~$20B of SpaceX",
+        "category": "data-point",
+        "start_seconds": 715,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=715s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Tesla + SpaceX = an over-concentrated bet on Elon",
+        "category": "mental-model",
+        "start_seconds": 756,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=756s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Apple is running the Apple Watch playbook on glasses",
+        "category": "framework",
+        "start_seconds": 823,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=823s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "'Generalization' is robotics' missing LLM moment",
+        "category": "definition",
+        "start_seconds": 1018,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1018s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Open physical AI is an economic, not just moral, stance",
+        "category": "mental-model",
+        "start_seconds": 1178,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1178s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Billions of AI agents become software's biggest customers",
+        "category": "counterintuitive",
+        "start_seconds": 1481,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1481s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Huang calls AI job-loss fears 'complete nonsense'",
+        "category": "prediction",
+        "start_seconds": 1603,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1603s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "Software thesis holds: no clean-slate disintermediation",
+        "category": "framework",
+        "start_seconds": 1645,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1645s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "IBM jumps 10% on a six-month-old Trump video",
+        "category": "story",
+        "start_seconds": 1898,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1898s"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "headline": "New York is hiring tech talent 2x faster than SF",
+        "category": "data-point",
+        "start_seconds": 1954,
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1954s"
+      }
+    ],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "caroline-hyde",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
     "name": "David Sachs",
     "role": "Investor; White House AI/crypto czar",
     "appearances": [
@@ -1862,27 +2033,6 @@
     "span_days": 0
   },
   {
-    "name": "George Ferguson",
-    "role": "Analyst, Bloomberg Intelligence",
-    "appearances": [
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "channel": "Bloomberg Technology",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
-        "upload_date": "2026-05-29",
-        "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
-      }
-    ],
-    "claims": [],
-    "first_uploaded": "2026-05-29",
-    "last_uploaded": "2026-05-29",
-    "slug": "george-ferguson",
-    "appearance_count": 1,
-    "claim_count": 0,
-    "span_days": 0
-  },
-  {
     "name": "Carolina Parada",
     "role": "VP & head of robotics, Google DeepMind",
     "appearances": [
@@ -2025,6 +2175,237 @@
     "first_uploaded": "2026-05-28",
     "last_uploaded": "2026-05-28",
     "slug": "konwoo-kim",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Ed Ludlow",
+    "role": "Bloomberg Tech co-host (San Francisco)",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "ed-ludlow",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Ian King",
+    "role": "Bloomberg semiconductor reporter",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "ian-king",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Matt Whitmer",
+    "role": "Allspring Global Investments portfolio manager",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "matt-whitmer",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Isabel Lee",
+    "role": "Bloomberg tech equity reporter",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "isabel-lee",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Mark Gurman",
+    "role": "Bloomberg Apple reporter, Power On author",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "mark-gurman",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Amit Jain",
+    "role": "Luma AI CEO",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "amit-jain",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Mandeep Singh",
+    "role": "Bloomberg Intelligence analyst",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "mandeep-singh",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Stephen Engel",
+    "role": "Bloomberg News reporter (Taipei)",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "stephen-engel",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Vince Hu",
+    "role": "MediaTek corporate senior vice president",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "vince-hu",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Julie Samuels",
+    "role": "TechNYC President and CEO",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "julie-samuels",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
+    "name": "Matt Day",
+    "role": "Bloomberg reporter",
+    "appearances": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+        "upload_date": "2026-06-01",
+        "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-01",
+    "slug": "matt-day",
     "appearance_count": 1,
     "claim_count": 0,
     "span_days": 0

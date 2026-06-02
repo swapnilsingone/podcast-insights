@@ -1,5 +1,25 @@
 [
   {
+    "video_id": "wVKL_SpY2Uc",
+    "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc",
+    "title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+    "channel": "Bloomberg Technology",
+    "thumbnail": "https://i.ytimg.com/vi/wVKL_SpY2Uc/maxresdefault.jpg",
+    "duration_seconds": 2645,
+    "upload_date": "2026-06-01",
+    "thesis": "Jensen Huang's Computex keynote re-ignites the AI trade on two fronts \u2014 Nvidia attacking the Intel/AMD PC market with an ARM-based RTX Spark CPU and arguing AI agents become software's biggest customers \u2014 while SpaceX's looming mega-IPO forces index providers to rewrite their rulebooks.",
+    "topics": [
+      "finance",
+      "ai",
+      "business"
+    ],
+    "insight_count": 14,
+    "quote_count": 6,
+    "processed_at": "2026-06-02T06:10:03.684365Z",
+    "processing_lag_days": 1,
+    "path": "../videos/wVKL_SpY2Uc/index.html"
+  },
+  {
     "video_id": "4oq91rzQcO8",
     "url": "https://www.youtube.com/watch?v=4oq91rzQcO8",
     "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
