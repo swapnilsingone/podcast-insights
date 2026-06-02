@@ -45,8 +45,9 @@ def main():
     data = json.loads(analysis_path.read_text())
 
     # insights.json — what the HTML reads
-    insights_data = {k: data[k] for k in ("video", "thesis", "topics", "chapters", "insights", "quotes", "resources", "action_items", "stats") if k in data}
+    insights_data = {k: data[k] for k in ("video", "thesis", "topics", "chapters", "insights", "quotes", "resources", "action_items", "stats", "charts") if k in data}
     insights_data.setdefault("topics", [])
+    insights_data.setdefault("charts", [])
     write_json(vdir / "insights.json", insights_data)
 
     # entities.json

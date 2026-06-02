@@ -15,8 +15,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.706377Z",
-    "processing_lag_days": 1,
+    "processed_at": "2026-06-02T05:22:59.248962Z",
+    "processing_lag_days": 4,
     "path": "../videos/4oq91rzQcO8/index.html"
   },
   {
@@ -27,16 +27,16 @@
     "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg",
     "duration_seconds": 2646,
     "upload_date": "2026-05-29",
-    "thesis": "The AI capital cycle is colliding with record valuations across the board \u2014 SpaceX trims its IPO target to $1.8T, Anthropic eclipses OpenAI at ~$965B, and Dell's blowout guide signals AI spending is moving from build-out to deployment, even as analysts warn enterprise users must finally turn AI into profits.",
+    "thesis": "A week of record AI-driven valuations \u2014 SpaceX trimming its IPO target to $1.8T, Anthropic eclipsing OpenAI at $965B, Dell's blowout server guide \u2014 tests whether investors are paying for present fundamentals or a decade-out dream, with Blue Origin's exploded rocket as a reminder the dream isn't guaranteed.",
     "topics": [
       "finance",
       "ai",
       "business"
     ],
-    "insight_count": 15,
+    "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T17:09:47.491819Z",
-    "processing_lag_days": 1,
+    "processed_at": "2026-06-02T05:26:20.628887Z",
+    "processing_lag_days": 4,
     "path": "../videos/u1upVgkVKVQ/index.html"
   },
   {
@@ -53,8 +53,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.720118Z",
-    "processing_lag_days": 2,
+    "processed_at": "2026-06-02T05:22:59.262678Z",
+    "processing_lag_days": 5,
     "path": "../videos/wE1ZgJdt4uM/index.html"
   },
   {
@@ -73,8 +73,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.711140Z",
-    "processing_lag_days": 8,
+    "processed_at": "2026-06-02T05:22:59.252125Z",
+    "processing_lag_days": 11,
     "path": "../videos/HGbA6ze0_3M/index.html"
   },
   {
@@ -93,8 +93,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.701239Z",
-    "processing_lag_days": 22,
+    "processed_at": "2026-06-02T05:22:59.243940Z",
+    "processing_lag_days": 25,
     "path": "../videos/10MdOvK-aG4/index.html"
   },
   {
@@ -111,8 +111,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.716350Z",
-    "processing_lag_days": 28,
+    "processed_at": "2026-06-02T05:22:59.257730Z",
+    "processing_lag_days": 31,
     "path": "../videos/kYkIdXwW2AE/index.html"
   },
   {
@@ -131,8 +131,8 @@
     ],
     "insight_count": 16,
     "quote_count": 8,
-    "processed_at": "2026-05-30T15:54:53.713614Z",
-    "processing_lag_days": 45,
+    "processed_at": "2026-06-02T05:22:59.253832Z",
+    "processing_lag_days": 48,
     "path": "../videos/Hrbq66XqtCo/index.html"
   },
   {
@@ -150,8 +150,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.714428Z",
-    "processing_lag_days": 72,
+    "processed_at": "2026-06-02T05:22:59.255832Z",
+    "processing_lag_days": 75,
     "path": "../videos/gwW8GKwHB3I/index.html"
   },
   {
@@ -168,8 +168,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.704152Z",
-    "processing_lag_days": 246,
+    "processed_at": "2026-06-02T05:22:59.246321Z",
+    "processing_lag_days": 249,
     "path": "../videos/21EYKqUsPfg/index.html"
   },
   {
@@ -187,8 +187,8 @@
     ],
     "insight_count": 14,
     "quote_count": 5,
-    "processed_at": "2026-05-30T15:54:53.709029Z",
-    "processing_lag_days": 624,
+    "processed_at": "2026-06-02T05:22:59.250730Z",
+    "processing_lag_days": 627,
     "path": "../videos/5eqRuVp65eY/index.html"
   },
   {
@@ -206,8 +206,8 @@
     ],
     "insight_count": 14,
     "quote_count": 6,
-    "processed_at": "2026-05-30T15:54:53.718219Z",
-    "processing_lag_days": 822,
+    "processed_at": "2026-06-02T05:22:59.259285Z",
+    "processing_lag_days": 825,
     "path": "../videos/qTogNUV3CAI/index.html"
   }
 ]

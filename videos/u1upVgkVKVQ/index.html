@@ -314,30 +314,11 @@ footer a { color: var(--muted); }
   <div class="stats" id="stats"></div>
 </section>
 
-<section class="section">
+<section class="section" id="chartsSection" hidden>
   <div class="section-label"><span>Charts</span><span class="rule"></span></div>
-  <h2>Three pictures of the moment.</h2>
-  <p class="lede">SpaceX's emerging cloud business, NVIDIA's earnings vs. stock disconnect, and the macro signals the hosts keep returning to. Each chart pairs to a specific moment in the episode.</p>
-  <div class="charts">
-    <div class="chart-card">
-      <h3 class="chart-title">SpaceX revenue by segment</h3>
-      <p class="chart-sub">From the S-1: Starlink prints, Space loses small, XAI loses a lot — but EWS now adds $15B/year from Anthropic alone.</p>
-      <div class="chart-wrap"><canvas id="spacexChart"></canvas></div>
-      <div class="chart-caption">Source: SpaceX S-1 teardown · 45:20–47:10. Polymarket 71% on >$2T Day-1 cap.</div>
-    </div>
-    <div class="chart-card">
-      <h3 class="chart-title">Colossus data-center build time (days)</h3>
-      <p class="chart-sub">The S-1's most underrated disclosure: each successive cluster goes up ~27% faster than the last.</p>
-      <div class="chart-wrap"><canvas id="colossusChart"></canvas></div>
-      <div class="chart-caption">Source: Gavin Baker · 48:02 — "they build dramatically faster than anyone else at a lower cost."</div>
-    </div>
-    <div class="chart-card full">
-      <h3 class="chart-title">Sovereign bond yields — the second storm</h3>
-      <p class="chart-sub">Rates going up globally even as AI fundamentals strengthen. The "two things can be true" framing Gavin returns to repeatedly.</p>
-      <div class="chart-wrap"><canvas id="yieldChart"></canvas></div>
-      <div class="chart-caption">Sources: 82:15–84:00. Japan 30Y at all-time high; UK at GFC high; Germany at 2011 high.</div>
-    </div>
-  </div>
+  <h2>The numbers, visualized.</h2>
+  <p class="lede">The most chartable figures from the conversation — each grounded in a specific moment in the episode.</p>
+  <div class="charts" id="charts"></div>
 </section>
 
 <section class="section">
@@ -374,9 +355,9 @@ const DATA = {
     "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
     "upload_date": "2026-05-29",
-    "display_title_html": "SpaceX <em>Lowers IPO Valuation Target</em> | Bloomberg Tech 5/29/2026"
+    "display_title_html": "SpaceX <em>Lowers</em> Its IPO Valuation Target"
   },
-  "thesis": "The AI capital cycle is colliding with record valuations across the board — SpaceX trims its IPO target to $1.8T, Anthropic eclipses OpenAI at ~$965B, and Dell's blowout guide signals AI spending is moving from build-out to deployment, even as analysts warn enterprise users must finally turn AI into profits.",
+  "thesis": "A week of record AI-driven valuations — SpaceX trimming its IPO target to $1.8T, Anthropic eclipsing OpenAI at $965B, Dell's blowout server guide — tests whether investors are paying for present fundamentals or a decade-out dream, with Blue Origin's exploded rocket as a reminder the dream isn't guaranteed.",
   "topics": [
     "finance",
     "ai",
@@ -389,255 +370,339 @@ const DATA = {
     },
     {
       "start": 98,
-      "title": "Benedikt Kammel, Bloomberg News"
+      "title": "Benedikt Kammel — SpaceX IPO valuation cut"
     },
     {
       "start": 305,
-      "title": "Shirin Ghaffary, Bloomberg News"
+      "title": "Shirin Ghaffary — Anthropic passes OpenAI"
     },
     {
       "start": 476,
-      "title": "Silas Brown, Bloomberg News"
+      "title": "Silas Brown — Anthropic's $36B private credit deal"
     },
     {
       "start": 725,
-      "title": "David Kennedy, Dell Technologies"
+      "title": "David Kennedy, Dell — AI server blowout"
     },
     {
       "start": 940,
-      "title": "Janet Mui, RBC Brewin Dolphin"
+      "title": "Janet Mui, RBC Brewin Dolphin — build to deployment"
     },
     {
       "start": 1413,
-      "title": "Rebecca Torrence, Bloomberg News"
+      "title": "Rebecca Torrence — Anthropic's $65B round"
     },
     {
       "start": 1601,
-      "title": "Matthew Weir, Goldman Sachs"
+      "title": "Matthew Weir, Goldman — AI productivity & jobs"
     },
     {
       "start": 2020,
-      "title": "George Ferguson, Bloomberg Intelligence"
+      "title": "George Ferguson — valuing SpaceX"
     },
     {
       "start": 2279,
-      "title": "Carolina Parada, Google DeepMind"
+      "title": "Carolina Parada, Google DeepMind — embodied AI"
     },
     {
       "start": 2440,
-      "title": "Loren Grush, Bloomberg News"
+      "title": "Loren Grush — Blue Origin New Glenn explosion"
     }
   ],
   "insights": [
     {
       "id": 1,
       "category": "data-point",
-      "headline": "SpaceX trims IPO target from $2T to $1.8T",
-      "body": "Sources say SpaceX is now targeting a $1.8 trillion valuation for its IPO, down from the $2T-plus reported in April. Musk responded to the report with a single word: 'false.' Bloomberg's Kammel frames the gap as 'almost a rounding error' and a pre-listing positioning game.",
-      "start_seconds": 100,
-      "end_seconds": 195
+      "headline": "SpaceX IPO target trimmed $2T to $1.8T",
+      "body": "Sources say SpaceX is now targeting a $1.8 trillion valuation, down from the >$2 trillion Bloomberg reported in April. Editor Benedikt Kammel frames the cut as positioning — 'a rounding error' at this scale — and notes Musk publicly replied 'false' to the report.",
+      "start_seconds": 92,
+      "end_seconds": 175
     },
     {
       "id": 2,
       "category": "counterintuitive",
-      "headline": "A $1.8T SpaceX implies a ~96x price-to-sales multiple",
-      "body": "On 2025 revenue of $18.7B (up from $14B in 2024), a $1.8T valuation implies a price-to-sales multiple near 96 — versus roughly 10x for typical software companies. Buyers are paying for the opportunity over 5, 10, 20 years, including a stated goal of a million people on Mars.",
+      "headline": "SpaceX implies a 96x price-to-sales multiple",
+      "body": "With $18.7B in 2025 revenue (up from $14B in 2024), a $1.8T valuation is roughly 96x sales — versus ~10x for typical software companies. Buyers are paying for the opportunity (a stated $28T TAM, a million people on Mars), not current fundamentals.",
       "start_seconds": 200,
-      "end_seconds": 287
+      "end_seconds": 295
     },
     {
       "id": 3,
-      "category": "data-point",
-      "headline": "Anthropic surpasses OpenAI at ~$965B valuation",
-      "body": "Anthropic closed a $65B round (original target ~$30B) at roughly $965B / $900B pre-money, eclipsing OpenAI's ~$700B+ pre-money for the first time. The round came together in weeks, with hyperscalers Google and Amazon among strategic investors.",
-      "start_seconds": 285,
-      "end_seconds": 480
+      "category": "framework",
+      "headline": "SpaceX sum-of-the-parts: XAI + comms + launch",
+      "body": "Bloomberg Intelligence's George Ferguson breaks the ~$2T into pieces: ~$400B for XAI (Mandeep's team), ~$600B for the satellite constellation (John Butler), and a launch business valued at ~90x revenue (Rocket Lab comp) worth roughly $1.2T including internal launches not in reported revenue.",
+      "start_seconds": 2040,
+      "end_seconds": 2138
     },
     {
       "id": 4,
       "category": "data-point",
-      "headline": "Anthropic nearing $50B run-rate revenue",
-      "body": "Shereen Ghaffary reports Anthropic is approaching $50B of run-rate (annualized) revenue, having roughly doubled in a few months — striking for a company that wasn't selling software three years ago. Coding agents (Claude Code) and early Fortune 500 enterprise adoption are cited as the differentiator.",
-      "start_seconds": 320,
-      "end_seconds": 460
+      "headline": "Anthropic passes OpenAI at $965B valuation",
+      "body": "Anthropic closed a round at a $965B valuation ($900B pre-money), surpassing OpenAI (last ~$700B+ pre-money) for the first time. Nearing $50B run-rate revenue, it roughly doubled revenue in months — three years after having essentially no product to sell.",
+      "start_seconds": 305,
+      "end_seconds": 405
     },
     {
       "id": 5,
-      "category": "framework",
-      "headline": "Private credit pivots to AI infrastructure as its 'savior'",
-      "body": "Apollo and Blackstone are syndicating a ~$36B debt financing for Anthropic's AI build-out — potentially one of the largest private credit deals ever. Silas Brown notes the irony: funds over-concentrated in SaaS are now parking insurance capital in the very technology disrupting SaaS, chasing investment-grade AI and energy-transition exposure.",
-      "start_seconds": 476,
-      "end_seconds": 690
+      "category": "story",
+      "headline": "A $30B round ballooned to $65B in weeks",
+      "body": "Rebecca Torrence reports Anthropic's round originally targeted ~$30B but closed at $65B amid excess demand, with strategic commitments from hyperscalers Google and Amazon plus four VC leads. The fundraise does not change Anthropic's IPO timeline — it could still go public as soon as this fall.",
+      "start_seconds": 1413,
+      "end_seconds": 1535
     },
     {
       "id": 6,
-      "category": "data-point",
-      "headline": "Dell raises full-year guide to $167B, stock up ~30%",
-      "body": "Dell boosted its annual sales outlook by $27B to $167B (nearly 50% YoY growth), with AI server guidance lifted $10B to $60B. The stock surged ~30%+ to a record, its best day ever, with 88% revenue growth and 214% EPS growth in the quarter.",
-      "start_seconds": 700,
-      "end_seconds": 880
+      "category": "counterintuitive",
+      "headline": "AI debt is private credit's escape from SaaS",
+      "body": "Silas Brown explains Apollo and Blackstone are syndicating a ~$36B debt deal for Anthropic's infrastructure. The irony: private credit funds over-concentrated in software-as-a-service are now parking insurance capital in the very AI 'disrupting the SaaS industry' — pivoting to investment-grade AI and energy-transition lending.",
+      "start_seconds": 476,
+      "end_seconds": 640
     },
     {
       "id": 7,
-      "category": "mental-model",
-      "headline": "AI is shifting from training build-out to inference deployment",
-      "body": "Dell CFO David Kennedy and Janet Mui both frame a transition from the 'build phase' to the 'deployment phase.' Kennedy says inferencing workloads create a 'net new TAM' beyond the GPU, with broad-based demand across CSG, traditional servers (up 92% in Q1), and storage.",
-      "start_seconds": 800,
-      "end_seconds": 1010
+      "category": "data-point",
+      "headline": "Dell's best day ever on $60B AI server guide",
+      "body": "Dell lifted full-year sales guidance to $167B (up $27B), with AI server guide raised $10B to $60B and EPS of $17.90. CFO David Kennedy stressed growth is 'broad-based' — traditional server/networking grew 92% in Q1 — not one hyperscaler. Shares jumped 30%+, the S&P 500's top performer.",
+      "start_seconds": 700,
+      "end_seconds": 843
     },
     {
       "id": 8,
-      "category": "counterintuitive",
-      "headline": "If everyone buys AI, consumers capture the surplus",
-      "body": "Janet Mui warns that AI value accrues to firms only if they have a pre-existing competitive moat and capital to deploy; if every company adopts AI without differentiation, the economic surplus gets competed away to consumers rather than captured as corporate profit.",
-      "start_seconds": 1100,
-      "end_seconds": 1217
+      "category": "mental-model",
+      "headline": "AI is shifting from build phase to deployment",
+      "body": "RBC's Janet Mui argues the AI trade is broadening from infrastructure build-out to enterprise deployment. She flags memory as a two-year-plus bottleneck (Micron passed a $1T market cap) and warns that if every firm adopts AI without a competitive moat, the surplus flows to consumers, not corporate profits.",
+      "start_seconds": 940,
+      "end_seconds": 1220
     },
     {
       "id": 9,
-      "category": "data-point",
-      "headline": "Memory is the AI bottleneck for at least two years",
-      "body": "Mui flags memory as an interesting investable area, with executives saying it is the bottleneck for the next two years. Micron crossed a $1 trillion market cap this week and SK Hynix rallied similarly.",
-      "start_seconds": 1075,
-      "end_seconds": 1130
+      "category": "prediction",
+      "headline": "Goldman sees AI lifting US trend GDP to 2.4%",
+      "body": "Goldman's Matthew Weir says ~25% of US economic tasks could be automated gradually over a decade, freeing workers for higher-productivity roles and raising trend real GDP growth to 2.4%. He cites MIT work showing most of today's 170M US occupations didn't exist in 1940.",
+      "start_seconds": 1601,
+      "end_seconds": 1810
     },
     {
       "id": 10,
-      "category": "prediction",
-      "headline": "Goldman: AI lifts US trend GDP growth to 2.4%",
-      "body": "Goldman's Matthew Weir argues ~25% of US economy tasks could be automated, but gradually over 10 years, freeing workers for higher-productivity tasks and lifting trend real GDP growth to 2.4%. He cites MIT work showing most of today's 170M US jobs didn't exist in 1940.",
-      "start_seconds": 1601,
-      "end_seconds": 1830
-    },
-    {
-      "id": 11,
       "category": "counterintuitive",
-      "headline": "Muddy Waters: 15% of knowledge workers displaced",
-      "body": "Muddy Waters CEO Carson Block predicts 15% net displacement of knowledge workers, possibly in as little as three years, because AI capability is improving faster than humans can adapt — a sharply more bearish view than Goldman's gradual-transition thesis.",
-      "start_seconds": 1555,
-      "end_seconds": 1600
-    },
-    {
-      "id": 12,
-      "category": "framework",
-      "headline": "Only semiconductors currently profit from the AI stack",
-      "body": "Weir warns the AI complex isn't yet self-perpetuating: funding comes from external investors and hyperscaler cash flow, and only the chip companies generate real profit today. Sustainability requires enterprise AI users to start generating profits that flow back up to model, infrastructure, and semiconductor firms.",
+      "headline": "Only chipmakers actually profit from AI today",
+      "body": "Weir warns the AI flywheel only self-perpetuates if enterprise users generate profits from their AI spend. Right now funding comes from external investors and hyperscaler cash flow, and 'the only part of the stack generating a lot of profits' is the semiconductor companies — a key vulnerability for private valuations.",
       "start_seconds": 1856,
       "end_seconds": 1914
     },
     {
-      "id": 13,
+      "id": 11,
+      "category": "prediction",
+      "headline": "Muddy Waters: 15% of knowledge workers displaced",
+      "body": "Muddy Waters CEO Carson Block's house view is 15% net displacement of knowledge workers, possibly within single-digit years and as soon as three, because AI capability is improving faster than humans can adapt — a sharply more bearish take than Goldman's.",
+      "start_seconds": 1558,
+      "end_seconds": 1594
+    },
+    {
+      "id": 12,
       "category": "framework",
-      "headline": "SpaceX sum-of-the-parts: launch business carries the valuation",
-      "body": "Bloomberg Intelligence's George Ferguson pegs ~$400B for xAI and ~$600B for the satellite constellation, with the rocket launch business (valued against Rocket Lab's ~90x revenue) carrying ~$1.2T — the bulk of a ~$2T total resting on launch, including internal launches excluded from reported revenue.",
-      "start_seconds": 2060,
-      "end_seconds": 2200
+      "headline": "Robotics' real edge is human-world nuance",
+      "body": "Google DeepMind's Carolina Parada says much of what looks impressive in robotics is 'predefined, memorized sequences.' The hard, defensible problem is genuine intelligence to handle unstructured, changing human environments and dexterous tasks like folding origami or packing a lunchbox — what Gemini Robotics (going into Boston Dynamics' Atlas) is pushing on.",
+      "start_seconds": 2279,
+      "end_seconds": 2384
+    },
+    {
+      "id": 13,
+      "category": "story",
+      "headline": "Blue Origin's New Glenn explodes on the pad",
+      "body": "Loren Grush reports New Glenn exploded in a massive fireball during a hot-fire test, with no injuries and Amazon Leo satellites not aboard. It jeopardizes a $10B contract backlog and Blue Origin's NASA Artemis lunar lander role — though NASA deliberately also funds SpaceX as a backup lander.",
+      "start_seconds": 2440,
+      "end_seconds": 2640
     },
     {
       "id": 14,
-      "category": "story",
-      "headline": "Blue Origin's New Glenn explodes in hot-fire test",
-      "body": "Blue Origin's New Glenn rocket exploded in a massive fireball during a hot-fire test in Florida, with no injuries and the Amazon Leo satellites not on board. It threatens a $10B contract backlog and NASA's Artemis lunar lander timeline; SpaceX is NASA's fallback lander partner.",
-      "start_seconds": 2440,
-      "end_seconds": 2620
-    },
-    {
-      "id": 15,
-      "category": "mental-model",
-      "headline": "Robotics' real edge is unstructured human-world nuance",
-      "body": "Google DeepMind's Carolina Parada says much of what looks like robot intelligence is memorized, predefined sequences. The hard, differentiating problem is dexterity and reasoning in constantly changing, human-filled environments — folding origami or packing a lunchbox at human precision via Gemini Robotics.",
-      "start_seconds": 2279,
-      "end_seconds": 2440
+      "category": "data-point",
+      "headline": "SpaceX IPO could be the biggest ever at $75B",
+      "body": "A Bloomberg Originals segment notes SpaceX's IPO is expected to raise as much as $75B — more than double Saudi Aramco's record $29.4B in 2019 — making it the largest IPO of all time. The XAI merger and capital needs reversed Musk's earlier reluctance to go public.",
+      "start_seconds": 1921,
+      "end_seconds": 2020
     }
   ],
   "quotes": [
     {
-      "text": "Musk did come out a short while ago with a single word response saying false.",
+      "text": "If you think about trillions, that's almost a rounding error compared to the more than 2 trillion.",
       "speaker": "Benedikt Kammel",
-      "start_seconds": 156
+      "start_seconds": 132
     },
     {
-      "text": "What better place to park your money in the very thing that seems to be disrupting the SaaS industry.",
+      "text": "What better place to park your money than the very thing that seems to be disrupting the SaaS industry.",
       "speaker": "Silas Brown",
-      "start_seconds": 565
+      "start_seconds": 569
     },
     {
-      "text": "If everyone spends on AI, then the economic value, the surplus will be captured ultimately by consumers rather than those companies.",
+      "text": "If everyone spends on AI, then the economic value, the surplus, will be captured ultimately by consumers rather than those companies.",
       "speaker": "Janet Mui",
-      "start_seconds": 1140
+      "start_seconds": 1190
     },
     {
-      "text": "Right now, the only part of the stack that's generating a lot of profits on the back of AI are the semiconductor companies.",
+      "text": "The only part of the stack that's generating a lot of profits on the back of AI are the semiconductor companies.",
       "speaker": "Matthew Weir",
       "start_seconds": 1880
     },
     {
       "text": "A lot of what you see out there is predefined sequences, memorized sequences that the robots are doing.",
       "speaker": "Carolina Parada",
-      "start_seconds": 2310
+      "start_seconds": 2350
     },
     {
-      "text": "This is probably one of the largest explosions I've ever covered on a rocket in my time being a reporter.",
-      "speaker": "Loren Grush",
-      "start_seconds": 2455
+      "text": "In order to buy into this IPO valuation, you have to believe in Elon Musk and the dream.",
+      "speaker": "George Ferguson",
+      "start_seconds": 2170
     }
   ],
   "resources": [
     {
-      "name": "Carson Block / Muddy Waters Capital",
-      "context": "Predicts 15% displacement of knowledge workers in single-digit years"
+      "name": "Benedikt Kammel, Bloomberg News",
+      "context": "Space & Aviation managing editor on SpaceX's lowered IPO target"
     },
     {
-      "name": "David Solomon, Goldman Sachs CEO",
-      "context": "Op-ed arguing AI will create more jobs than it destroys"
+      "name": "Shirin Ghaffary, Bloomberg News",
+      "context": "Reported Anthropic's revenue doubling and $965B valuation"
     },
     {
-      "name": "MIT occupations research",
-      "context": "Cited by Goldman: majority of today's 170M US jobs didn't exist in 1940"
+      "name": "Silas Brown, Bloomberg News",
+      "context": "Detailed the ~$36B Apollo/Blackstone private credit deal"
     },
     {
-      "name": "Bloomberg Originals",
-      "context": "Deep-dive episode on SpaceX's giant IPO"
+      "name": "David Kennedy, Dell CFO",
+      "context": "Explained Dell's $167B sales guide and broad-based AI demand"
     },
     {
-      "name": "Rocket Lab",
-      "context": "Comparable trading at ~90x revenue, used to value SpaceX's launch arm"
+      "name": "Janet Mui, RBC Brewin Dolphin",
+      "context": "Build-to-deployment thesis; memory as the bottleneck"
     },
     {
-      "name": "Boston Dynamics (Atlas, Spot)",
-      "context": "Partnership to embed Gemini Robotics into humanoid and quadruped robots"
+      "name": "Rebecca Torrence, Bloomberg News",
+      "context": "Reported Anthropic's $65B round mechanics"
+    },
+    {
+      "name": "Matthew Weir, Goldman Sachs",
+      "context": "AI productivity and labor-market outlook; 2.4% trend GDP"
+    },
+    {
+      "name": "Carson Block, Muddy Waters Capital",
+      "context": "15% knowledge-worker displacement view"
+    },
+    {
+      "name": "George Ferguson, Bloomberg Intelligence",
+      "context": "Sum-of-the-parts valuation of SpaceX"
+    },
+    {
+      "name": "Carolina Parada, Google DeepMind",
+      "context": "Head of robotics on embodied AI and Gemini Robotics"
+    },
+    {
+      "name": "Loren Grush, Bloomberg News",
+      "context": "Covered Blue Origin's New Glenn explosion"
+    },
+    {
+      "name": "MIT occupations study",
+      "context": "Cited by Weir: most current US jobs didn't exist in 1940"
+    },
+    {
+      "name": "David Solomon op-ed",
+      "context": "Goldman CEO arguing AI will create more jobs than it destroys"
     }
   ],
   "action_items": [
-    "If you take one thing away: don't read these valuations as priced on current fundamentals — SpaceX at ~96x sales and Anthropic near $1T are bets on opportunity 5–20 years out, so size positions to that uncertainty.",
-    "Watch whether enterprise AI users start generating profits; per Goldman, that's the single hinge that turns today's externally-funded AI capex into a self-sustaining ecosystem.",
-    "Track memory/semiconductor names (Micron, SK Hynix) as the bottleneck and the only profitable layer of the AI stack right now.",
-    "Favor AI-deploying companies with pre-existing moats and capital — without a competitive edge, the surplus from AI adoption leaks to consumers."
+    "Stress-test any AI valuation against profits, not promise: ask whether enterprise users are actually generating returns on their AI spend, because today only chipmakers are clearly profitable.",
+    "When chasing AI beneficiaries outside tech, favor firms with a real moat and capital to spend — undifferentiated adopters will see AI surplus competed away to consumers.",
+    "Treat memory/DRAM as a multi-year bottleneck (and investable theme) rather than a passing shortage, per executives quoted across the AI hardware chain.",
+    "Read mega-cap private valuations (SpaceX ~96x sales) as bets on a 5–20 year dream; size positions to the chance the dream slips, as Blue Origin's explosion illustrates."
   ],
   "stats": [
     {
       "label": "SpaceX IPO target",
       "val": "$1.8T",
-      "unit": "down from $2T",
-      "sub": "Revised-lower valuation goal ahead of next month's listing; ~96x price-to-sales on 2025 revenue."
+      "unit": "valuation",
+      "sub": "Cut from the >$2T reported in April; ~96x its $18.7B 2025 revenue."
     },
     {
       "label": "Anthropic valuation",
       "val": "$965B",
-      "unit": "post-$65B round",
-      "sub": "Surpasses OpenAI (~$700B+ pre-money) for the first time; nearing $50B run-rate revenue."
+      "unit": "post-round",
+      "sub": "Surpasses OpenAI (~$700B+ pre-money) for the first time after a $65B raise."
     },
     {
-      "label": "Dell FY sales guide",
+      "label": "Dell sales guide",
       "val": "$167B",
-      "unit": "+$27B",
-      "sub": "Nearly 50% YoY growth, including $60B for AI servers; stock up ~30% to a record."
+      "unit": "FY",
+      "sub": "Up $27B, with AI server guide raised $10B to $60B; shares jumped 30%+."
     },
     {
-      "label": "Private credit AI debt deal",
-      "val": "$36B",
-      "unit": "for Anthropic",
-      "sub": "Apollo and Blackstone syndicating one of the largest-ever private credit / chip-financing transactions."
+      "label": "SpaceX TAM",
+      "val": "$28T",
+      "unit": "addressable",
+      "sub": "The 'utopist' total addressable market cited in the IPO prospectus."
+    }
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "SpaceX sum-of-the-parts (~$2T)",
+      "sub": "How Bloomberg Intelligence builds toward SpaceX's IPO valuation",
+      "caption": "Source: George Ferguson, Bloomberg Intelligence · 34:00",
+      "unit": "$B",
+      "labels": [
+        "Launch business",
+        "Satellite comms",
+        "XAI"
+      ],
+      "series": [
+        {
+          "name": "Estimated value ($B)",
+          "data": [
+            1200,
+            600,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Anthropic now leads OpenAI",
+      "sub": "Pre-money valuations as Anthropic passes OpenAI for the first time",
+      "caption": "Source: Shirin Ghaffary, Bloomberg News · 05:08",
+      "unit": "$B",
+      "labels": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "series": [
+        {
+          "name": "Pre-money valuation ($B)",
+          "data": [
+            900,
+            700
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Dell raises the bar",
+      "sub": "Full-year sales guide and the AI-server slice within it",
+      "caption": "Source: David Kennedy, Dell CFO · 11:42",
+      "unit": "$B",
+      "labels": [
+        "Total FY sales guide",
+        "AI server guide"
+      ],
+      "series": [
+        {
+          "name": "Guidance ($B)",
+          "data": [
+            167,
+            60
+          ]
+        }
+      ]
     }
   ]
 };
@@ -970,11 +1035,18 @@ $('#themeBtn').onclick = () => {
   setTimeout(initCharts, 60);
 };
 
-// Charts
+// Charts — data-driven from DATA.charts (per-video; grounded in the transcript)
 let charts = [];
 function initCharts() {
   charts.forEach(c => c.destroy());
   charts = [];
+
+  const section = $('#chartsSection');
+  const host = $('#charts');
+  const specs = Array.isArray(DATA.charts) ? DATA.charts.filter(c => c && Array.isArray(c.labels) && c.labels.length) : [];
+  if (!specs.length) { if (section) section.hidden = true; return; }
+  if (section) section.hidden = false;
+
   const css = getComputedStyle(document.documentElement);
   const ink = css.getPropertyValue('--ink').trim();
   const ink2 = css.getPropertyValue('--ink-2').trim();
@@ -983,101 +1055,78 @@ function initCharts() {
   const accent = css.getPropertyValue('--accent').trim();
   const accent2 = css.getPropertyValue('--accent-2').trim();
   const accentMag = css.getPropertyValue('--accent-mag').trim();
+  const palette = [accent, accent2, accentMag];
 
   Chart.defaults.font.family = '"Inter", system-ui, sans-serif';
   Chart.defaults.color = muted;
   Chart.defaults.borderColor = line;
 
-  // SpaceX revenue by segment — grouped bar
-  charts.push(new Chart($('#spacexChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Starlink', 'Space', 'XAI', 'EWS (Anthropic)'],
-      datasets: [
-        {
-          label: 'Revenue ($B, FY25)',
-          data: [11.4, 4.0, 3.2, 15],
-          backgroundColor: accent,
-          borderRadius: 6, barThickness: 28
-        },
-        {
-          label: 'Operating Income ($B)',
-          data: [4.4, -0.65, -6.4, null],
-          backgroundColor: ctx => ctx.parsed?.y < 0 ? accentMag : accent2,
-          borderRadius: 6, barThickness: 28
-        }
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
-        tooltip: { callbacks: { label: c => c.dataset.label + ': $' + c.parsed.y + 'B' } }
-      },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 11 } } },
-        y: { grid: { color: line }, ticks: { color: muted, callback: v => '$' + v + 'B' } }
-      }
-    }
-  }));
+  // Build the cards. A single chart, or an odd last one, spans full width.
+  host.innerHTML = specs.map((c, i) => {
+    const full = specs.length === 1 || (specs.length % 2 === 1 && i === specs.length - 1);
+    return `<div class="chart-card${full ? ' full' : ''}">
+      <h3 class="chart-title">${escapeHTML(c.title || 'Chart')}</h3>
+      ${c.sub ? `<p class="chart-sub">${escapeHTML(c.sub)}</p>` : ''}
+      <div class="chart-wrap"><canvas id="chart${i}"></canvas></div>
+      ${c.caption ? `<div class="chart-caption">${escapeHTML(c.caption)}</div>` : ''}
+    </div>`;
+  }).join('');
 
-  // Colossus build time — line chart with downward slope
-  charts.push(new Chart($('#colossusChart'), {
-    type: 'line',
-    data: {
-      labels: ['Colossus 1', 'Colossus 2', 'Colossus 3'],
-      datasets: [{
-        label: 'Days to build',
-        data: [122, 91, 66],
-        borderColor: accent, backgroundColor: accent + '22',
-        tension: 0.3, fill: true, pointRadius: 8, pointBackgroundColor: accent,
-        pointBorderColor: ink, pointBorderWidth: 2
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: c => c.parsed.y + ' days' } }
-      },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } },
-        y: { grid: { color: line }, ticks: { color: muted, callback: v => v + 'd' }, beginAtZero: true, suggestedMax: 140 }
-      }
-    }
-  }));
+  specs.forEach((c, i) => {
+    const unit = c.unit || '';
+    // "$B" -> "$200B"; "$" -> "$200"; "%"/"days" -> "200%" / "200 days"; "" -> "200"
+    const fmt = v => {
+      if (v == null) return '';
+      const m = unit.match(/^\$(\D*)$/);            // currency with optional scale suffix (B, M, T)
+      if (m) return '$' + v + m[1];
+      if (!unit) return '' + v;
+      return /^[%]/.test(unit) ? '' + v + unit : v + ' ' + unit;
+    };
+    const series = Array.isArray(c.series) && c.series.length ? c.series
+                 : [{ name: c.title || '', data: c.data || [] }];
+    const horizontal = c.type === 'hbar';
+    const isLine = c.type === 'line';
 
-  // Bond yields — horizontal bar with categorical colors
-  charts.push(new Chart($('#yieldChart'), {
-    type: 'bar',
-    data: {
-      labels: ['US 10Y', 'UK 10Y (GFC-high)', 'Germany 10Y (2011-high)', 'Japan 30Y (ATH)', 'CPI fcst Q2 (mid)', 'Global Debt/GDP'],
-      datasets: [{
-        data: [4.6, 4.8, 3.2, 5.1, 5.0, 310],
-        backgroundColor: ctx => {
-          const i = ctx.dataIndex;
-          if (i === 5) return accentMag;
-          if (i === 4) return accent;
-          return accent2;
-        },
-        borderRadius: 6, barThickness: 22
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: {
-          label: c => c.dataIndex === 5 ? c.parsed.x + '% of GDP' : c.parsed.x + '%'
-        } }
-      },
-      scales: {
-        x: { type: 'logarithmic', grid: { color: line }, ticks: { color: muted, callback: v => v + (v >= 100 ? '%' : '%') } },
-        y: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } }
+    const datasets = series.map((s, si) => {
+      const base = {
+        label: s.name || '',
+        data: s.data || [],
+      };
+      if (isLine) {
+        return { ...base, borderColor: palette[si % palette.length],
+          backgroundColor: palette[si % palette.length] + '22', tension: 0.3,
+          fill: series.length === 1, pointRadius: 6,
+          pointBackgroundColor: palette[si % palette.length], pointBorderColor: ink, pointBorderWidth: 2 };
       }
-    }
-  }));
+      // bar / hbar: per-bar magenta for negatives when single-series, else palette per series
+      const color = series.length === 1
+        ? (ctx => { const val = horizontal ? ctx.parsed?.x : ctx.parsed?.y; return val < 0 ? accentMag : palette[si % palette.length]; })
+        : palette[si % palette.length];
+      return { ...base, backgroundColor: color, borderRadius: 6, barThickness: horizontal ? 22 : 28 };
+    });
+
+    const valScale = { grid: { color: line }, ticks: { color: muted, callback: v => fmt(v) } };
+    const catScale = { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } };
+
+    charts.push(new Chart($('#chart' + i), {
+      type: isLine ? 'line' : 'bar',
+      data: { labels: c.labels, datasets },
+      options: {
+        indexAxis: horizontal ? 'y' : 'x',
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: series.length > 1, labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
+          tooltip: { callbacks: { label: ctx => {
+            const v = horizontal ? ctx.parsed.x : ctx.parsed.y;
+            return (ctx.dataset.label ? ctx.dataset.label + ': ' : '') + fmt(v);
+          } } }
+        },
+        scales: horizontal
+          ? { x: valScale, y: catScale }
+          : { x: catScale, y: valScale }
+      }
+    }));
+  });
 }
 initCharts();
 </script>

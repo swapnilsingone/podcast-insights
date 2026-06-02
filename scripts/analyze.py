@@ -86,6 +86,19 @@ Produce a SINGLE JSON object with this exact shape:
   "stats": [
     {{ "label": "Short label", "val": "$45B", "unit": "/ 3y", "sub": "1 sentence of context" }}
   ],
+  "charts": [
+    {{
+      "type": "bar",
+      "title": "Short chart title",
+      "sub": "One line on what it shows and why it matters",
+      "caption": "Source: speaker / doc · MM:SS",
+      "unit": "$B",
+      "labels": ["Cat A", "Cat B", "Cat C"],
+      "series": [
+        {{ "name": "Series label (with unit)", "data": [11.4, 4.0, 3.2] }}
+      ]
+    }}
+  ],
   "entities": {{
     "people": [{{ "name": "...", "role": "...", "speaker": false, "mentions": 1, "first_seconds": 0, "context": "..." }}],
     "companies": [{{ "name": "...", "mentions": 1, "first_seconds": 0, "context": "..." }}],
@@ -123,6 +136,15 @@ Produce a SINGLE JSON object with this exact shape:
 - `chapters` — use the YouTube chapters above if present, otherwise infer 4-8 natural breaks from topic transitions in the transcript.
 - 3-6 quotes. Pick punchy, non-obvious lines.
 - 4 stats — the four most-citable numbers from the conversation.
+- `charts` — 0-3 charts, ONLY where the conversation supplies real comparative numbers
+  worth visualizing (segment revenues, a trend over time, a ranking, before/after).
+  Each chart MUST be grounded in figures actually stated in THIS transcript — never
+  invent or import numbers from other episodes. `type` is `bar`, `line`, or `hbar`
+  (horizontal bar). `labels` align 1:1 with each series' `data`; use `null` for a
+  missing point. A `line` chart implies an ordered x-axis (e.g. time). Put the unit
+  (%, $B, days) in `unit` and in each series `name`. `caption` cites the speaker and
+  timestamp. If the episode has no quantitative content worth charting, return `[]` —
+  an empty, honest charts list is correct; do not fabricate filler charts.
 - Predictions: every prediction sets `stated_at` to the video upload_date AND gets at least one `revisit_dates` ISO date offset from `stated_at` per `horizon_label`.
 - Entities: 5-25 people, 5-25 companies, plus shorter lists for products/concepts/books.
 

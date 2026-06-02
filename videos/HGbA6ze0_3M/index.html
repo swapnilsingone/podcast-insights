@@ -314,30 +314,11 @@ footer a { color: var(--muted); }
   <div class="stats" id="stats"></div>
 </section>
 
-<section class="section">
+<section class="section" id="chartsSection" hidden>
   <div class="section-label"><span>Charts</span><span class="rule"></span></div>
-  <h2>Three pictures of the moment.</h2>
-  <p class="lede">SpaceX's emerging cloud business, NVIDIA's earnings vs. stock disconnect, and the macro signals the hosts keep returning to. Each chart pairs to a specific moment in the episode.</p>
-  <div class="charts">
-    <div class="chart-card">
-      <h3 class="chart-title">SpaceX revenue by segment</h3>
-      <p class="chart-sub">From the S-1: Starlink prints, Space loses small, XAI loses a lot — but EWS now adds $15B/year from Anthropic alone.</p>
-      <div class="chart-wrap"><canvas id="spacexChart"></canvas></div>
-      <div class="chart-caption">Source: SpaceX S-1 teardown · 45:20–47:10. Polymarket 71% on >$2T Day-1 cap.</div>
-    </div>
-    <div class="chart-card">
-      <h3 class="chart-title">Colossus data-center build time (days)</h3>
-      <p class="chart-sub">The S-1's most underrated disclosure: each successive cluster goes up ~27% faster than the last.</p>
-      <div class="chart-wrap"><canvas id="colossusChart"></canvas></div>
-      <div class="chart-caption">Source: Gavin Baker · 48:02 — "they build dramatically faster than anyone else at a lower cost."</div>
-    </div>
-    <div class="chart-card full">
-      <h3 class="chart-title">Sovereign bond yields — the second storm</h3>
-      <p class="chart-sub">Rates going up globally even as AI fundamentals strengthen. The "two things can be true" framing Gavin returns to repeatedly.</p>
-      <div class="chart-wrap"><canvas id="yieldChart"></canvas></div>
-      <div class="chart-caption">Sources: 82:15–84:00. Japan 30Y at all-time high; UK at GFC high; Germany at 2011 high.</div>
-    </div>
-  </div>
+  <h2>The numbers, visualized.</h2>
+  <p class="lede">The most chartable figures from the conversation — each grounded in a specific moment in the episode.</p>
+  <div class="charts" id="charts"></div>
 </section>
 
 <section class="section">
@@ -626,7 +607,13 @@ const DATA = {
       "unit": "+50%",
       "sub": "The S-1 money printer: $4.4B operating income on 10M+ subscribers, versus AI's $6.4B operating loss."
     }
-  ]
+  ],
+  "topics": [
+    "finance",
+    "ai",
+    "macro"
+  ],
+  "charts": []
 };
 
 const $ = (s, r=document) => r.querySelector(s);
@@ -957,11 +944,18 @@ $('#themeBtn').onclick = () => {
   setTimeout(initCharts, 60);
 };
 
-// Charts
+// Charts — data-driven from DATA.charts (per-video; grounded in the transcript)
 let charts = [];
 function initCharts() {
   charts.forEach(c => c.destroy());
   charts = [];
+
+  const section = $('#chartsSection');
+  const host = $('#charts');
+  const specs = Array.isArray(DATA.charts) ? DATA.charts.filter(c => c && Array.isArray(c.labels) && c.labels.length) : [];
+  if (!specs.length) { if (section) section.hidden = true; return; }
+  if (section) section.hidden = false;
+
   const css = getComputedStyle(document.documentElement);
   const ink = css.getPropertyValue('--ink').trim();
   const ink2 = css.getPropertyValue('--ink-2').trim();
@@ -970,101 +964,78 @@ function initCharts() {
   const accent = css.getPropertyValue('--accent').trim();
   const accent2 = css.getPropertyValue('--accent-2').trim();
   const accentMag = css.getPropertyValue('--accent-mag').trim();
+  const palette = [accent, accent2, accentMag];
 
   Chart.defaults.font.family = '"Inter", system-ui, sans-serif';
   Chart.defaults.color = muted;
   Chart.defaults.borderColor = line;
 
-  // SpaceX revenue by segment — grouped bar
-  charts.push(new Chart($('#spacexChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Starlink', 'Space', 'XAI', 'EWS (Anthropic)'],
-      datasets: [
-        {
-          label: 'Revenue ($B, FY25)',
-          data: [11.4, 4.0, 3.2, 15],
-          backgroundColor: accent,
-          borderRadius: 6, barThickness: 28
-        },
-        {
-          label: 'Operating Income ($B)',
-          data: [4.4, -0.65, -6.4, null],
-          backgroundColor: ctx => ctx.parsed?.y < 0 ? accentMag : accent2,
-          borderRadius: 6, barThickness: 28
-        }
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
-        tooltip: { callbacks: { label: c => c.dataset.label + ': $' + c.parsed.y + 'B' } }
-      },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 11 } } },
-        y: { grid: { color: line }, ticks: { color: muted, callback: v => '$' + v + 'B' } }
-      }
-    }
-  }));
+  // Build the cards. A single chart, or an odd last one, spans full width.
+  host.innerHTML = specs.map((c, i) => {
+    const full = specs.length === 1 || (specs.length % 2 === 1 && i === specs.length - 1);
+    return `<div class="chart-card${full ? ' full' : ''}">
+      <h3 class="chart-title">${escapeHTML(c.title || 'Chart')}</h3>
+      ${c.sub ? `<p class="chart-sub">${escapeHTML(c.sub)}</p>` : ''}
+      <div class="chart-wrap"><canvas id="chart${i}"></canvas></div>
+      ${c.caption ? `<div class="chart-caption">${escapeHTML(c.caption)}</div>` : ''}
+    </div>`;
+  }).join('');
 
-  // Colossus build time — line chart with downward slope
-  charts.push(new Chart($('#colossusChart'), {
-    type: 'line',
-    data: {
-      labels: ['Colossus 1', 'Colossus 2', 'Colossus 3'],
-      datasets: [{
-        label: 'Days to build',
-        data: [122, 91, 66],
-        borderColor: accent, backgroundColor: accent + '22',
-        tension: 0.3, fill: true, pointRadius: 8, pointBackgroundColor: accent,
-        pointBorderColor: ink, pointBorderWidth: 2
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: c => c.parsed.y + ' days' } }
-      },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } },
-        y: { grid: { color: line }, ticks: { color: muted, callback: v => v + 'd' }, beginAtZero: true, suggestedMax: 140 }
-      }
-    }
-  }));
+  specs.forEach((c, i) => {
+    const unit = c.unit || '';
+    // "$B" -> "$200B"; "$" -> "$200"; "%"/"days" -> "200%" / "200 days"; "" -> "200"
+    const fmt = v => {
+      if (v == null) return '';
+      const m = unit.match(/^\$(\D*)$/);            // currency with optional scale suffix (B, M, T)
+      if (m) return '$' + v + m[1];
+      if (!unit) return '' + v;
+      return /^[%]/.test(unit) ? '' + v + unit : v + ' ' + unit;
+    };
+    const series = Array.isArray(c.series) && c.series.length ? c.series
+                 : [{ name: c.title || '', data: c.data || [] }];
+    const horizontal = c.type === 'hbar';
+    const isLine = c.type === 'line';
 
-  // Bond yields — horizontal bar with categorical colors
-  charts.push(new Chart($('#yieldChart'), {
-    type: 'bar',
-    data: {
-      labels: ['US 10Y', 'UK 10Y (GFC-high)', 'Germany 10Y (2011-high)', 'Japan 30Y (ATH)', 'CPI fcst Q2 (mid)', 'Global Debt/GDP'],
-      datasets: [{
-        data: [4.6, 4.8, 3.2, 5.1, 5.0, 310],
-        backgroundColor: ctx => {
-          const i = ctx.dataIndex;
-          if (i === 5) return accentMag;
-          if (i === 4) return accent;
-          return accent2;
-        },
-        borderRadius: 6, barThickness: 22
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: {
-          label: c => c.dataIndex === 5 ? c.parsed.x + '% of GDP' : c.parsed.x + '%'
-        } }
-      },
-      scales: {
-        x: { type: 'logarithmic', grid: { color: line }, ticks: { color: muted, callback: v => v + (v >= 100 ? '%' : '%') } },
-        y: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } }
+    const datasets = series.map((s, si) => {
+      const base = {
+        label: s.name || '',
+        data: s.data || [],
+      };
+      if (isLine) {
+        return { ...base, borderColor: palette[si % palette.length],
+          backgroundColor: palette[si % palette.length] + '22', tension: 0.3,
+          fill: series.length === 1, pointRadius: 6,
+          pointBackgroundColor: palette[si % palette.length], pointBorderColor: ink, pointBorderWidth: 2 };
       }
-    }
-  }));
+      // bar / hbar: per-bar magenta for negatives when single-series, else palette per series
+      const color = series.length === 1
+        ? (ctx => { const val = horizontal ? ctx.parsed?.x : ctx.parsed?.y; return val < 0 ? accentMag : palette[si % palette.length]; })
+        : palette[si % palette.length];
+      return { ...base, backgroundColor: color, borderRadius: 6, barThickness: horizontal ? 22 : 28 };
+    });
+
+    const valScale = { grid: { color: line }, ticks: { color: muted, callback: v => fmt(v) } };
+    const catScale = { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } };
+
+    charts.push(new Chart($('#chart' + i), {
+      type: isLine ? 'line' : 'bar',
+      data: { labels: c.labels, datasets },
+      options: {
+        indexAxis: horizontal ? 'y' : 'x',
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: series.length > 1, labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
+          tooltip: { callbacks: { label: ctx => {
+            const v = horizontal ? ctx.parsed.x : ctx.parsed.y;
+            return (ctx.dataset.label ? ctx.dataset.label + ': ' : '') + fmt(v);
+          } } }
+        },
+        scales: horizontal
+          ? { x: valScale, y: catScale }
+          : { x: catScale, y: valScale }
+      }
+    }));
+  });
 }
 initCharts();
 </script>

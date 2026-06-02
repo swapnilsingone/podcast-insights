@@ -680,148 +680,6 @@
     "span_days": 64
   },
   {
-    "name": "Tim Stenevec",
-    "role": "Bloomberg Tech host (in for Caroline & Ed)",
-    "appearances": [
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "channel": "Bloomberg Technology",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
-        "upload_date": "2026-05-29",
-        "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
-      }
-    ],
-    "claims": [
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "SpaceX trims IPO target from $2T to $1.8T",
-        "category": "data-point",
-        "start_seconds": 100,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=100s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "A $1.8T SpaceX implies a ~96x price-to-sales multiple",
-        "category": "counterintuitive",
-        "start_seconds": 200,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=200s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Anthropic surpasses OpenAI at ~$965B valuation",
-        "category": "data-point",
-        "start_seconds": 285,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=285s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Anthropic nearing $50B run-rate revenue",
-        "category": "data-point",
-        "start_seconds": 320,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=320s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Private credit pivots to AI infrastructure as its 'savior'",
-        "category": "framework",
-        "start_seconds": 476,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=476s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Dell raises full-year guide to $167B, stock up ~30%",
-        "category": "data-point",
-        "start_seconds": 700,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=700s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "AI is shifting from training build-out to inference deployment",
-        "category": "mental-model",
-        "start_seconds": 800,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=800s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "If everyone buys AI, consumers capture the surplus",
-        "category": "counterintuitive",
-        "start_seconds": 1100,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1100s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Memory is the AI bottleneck for at least two years",
-        "category": "data-point",
-        "start_seconds": 1075,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1075s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Goldman: AI lifts US trend GDP growth to 2.4%",
-        "category": "prediction",
-        "start_seconds": 1601,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1601s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Muddy Waters: 15% of knowledge workers displaced",
-        "category": "counterintuitive",
-        "start_seconds": 1555,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1555s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Only semiconductors currently profit from the AI stack",
-        "category": "framework",
-        "start_seconds": 1856,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1856s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "SpaceX sum-of-the-parts: launch business carries the valuation",
-        "category": "framework",
-        "start_seconds": 2060,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2060s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Blue Origin's New Glenn explodes in hot-fire test",
-        "category": "story",
-        "start_seconds": 2440,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2440s"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "headline": "Robotics' real edge is unstructured human-world nuance",
-        "category": "mental-model",
-        "start_seconds": 2279,
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2279s"
-      }
-    ],
-    "first_uploaded": "2026-05-29",
-    "last_uploaded": "2026-05-29",
-    "slug": "tim-stenevec",
-    "appearance_count": 1,
-    "claim_count": 15,
-    "span_days": 0
-  },
-  {
     "name": "Richard Sutton",
     "role": "RL pioneer, 2024 Turing Award recipient",
     "appearances": [
@@ -1358,6 +1216,140 @@
     "span_days": 0
   },
   {
+    "name": "Tim Stenevec",
+    "role": "Bloomberg Tech anchor (host)",
+    "appearances": [
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
+      }
+    ],
+    "claims": [
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "SpaceX IPO target trimmed $2T to $1.8T",
+        "category": "data-point",
+        "start_seconds": 92,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=92s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "SpaceX implies a 96x price-to-sales multiple",
+        "category": "counterintuitive",
+        "start_seconds": 200,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=200s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "SpaceX sum-of-the-parts: XAI + comms + launch",
+        "category": "framework",
+        "start_seconds": 2040,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2040s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Anthropic passes OpenAI at $965B valuation",
+        "category": "data-point",
+        "start_seconds": 305,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=305s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "A $30B round ballooned to $65B in weeks",
+        "category": "story",
+        "start_seconds": 1413,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1413s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "AI debt is private credit's escape from SaaS",
+        "category": "counterintuitive",
+        "start_seconds": 476,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=476s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Dell's best day ever on $60B AI server guide",
+        "category": "data-point",
+        "start_seconds": 700,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=700s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "AI is shifting from build phase to deployment",
+        "category": "mental-model",
+        "start_seconds": 940,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=940s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Goldman sees AI lifting US trend GDP to 2.4%",
+        "category": "prediction",
+        "start_seconds": 1601,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1601s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Only chipmakers actually profit from AI today",
+        "category": "counterintuitive",
+        "start_seconds": 1856,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1856s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Muddy Waters: 15% of knowledge workers displaced",
+        "category": "prediction",
+        "start_seconds": 1558,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1558s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Robotics' real edge is human-world nuance",
+        "category": "framework",
+        "start_seconds": 2279,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2279s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "Blue Origin's New Glenn explodes on the pad",
+        "category": "story",
+        "start_seconds": 2440,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=2440s"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "headline": "SpaceX IPO could be the biggest ever at $75B",
+        "category": "data-point",
+        "start_seconds": 1921,
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1921s"
+      }
+    ],
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-05-29",
+    "slug": "tim-stenevec",
+    "appearance_count": 1,
+    "claim_count": 14,
+    "span_days": 0
+  },
+  {
     "name": "Francois Chaubard",
     "role": "YC Visiting Partner, host",
     "appearances": [
@@ -1703,7 +1695,7 @@
   },
   {
     "name": "Benedikt Kammel",
-    "role": "Bloomberg Space & Aviation Managing Editor",
+    "role": "Bloomberg Space & Aviation managing editor",
     "appearances": [
       {
         "video_id": "u1upVgkVKVQ",
@@ -1723,7 +1715,7 @@
     "span_days": 0
   },
   {
-    "name": "Shereen Ghaffary",
+    "name": "Shirin Ghaffary",
     "role": "Bloomberg News reporter",
     "appearances": [
       {
@@ -1738,7 +1730,7 @@
     "claims": [],
     "first_uploaded": "2026-05-29",
     "last_uploaded": "2026-05-29",
-    "slug": "shereen-ghaffary",
+    "slug": "shirin-ghaffary",
     "appearance_count": 1,
     "claim_count": 0,
     "span_days": 0
@@ -1787,7 +1779,7 @@
   },
   {
     "name": "Janet Mui",
-    "role": "Head of Market Analysis, RBC Brewin Dolphin",
+    "role": "Head of market analysis, RBC Brewin Dolphin",
     "appearances": [
       {
         "video_id": "u1upVgkVKVQ",
@@ -1829,7 +1821,7 @@
   },
   {
     "name": "Matthew Weir",
-    "role": "Goldman Sachs Managing Director",
+    "role": "Managing Director, Goldman Sachs",
     "appearances": [
       {
         "video_id": "u1upVgkVKVQ",
@@ -1849,8 +1841,29 @@
     "span_days": 0
   },
   {
+    "name": "Carson Block",
+    "role": "CEO, Muddy Waters Capital",
+    "appearances": [
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ",
+        "upload_date": "2026-05-29",
+        "thumbnail": "https://i.ytimg.com/vi/u1upVgkVKVQ/maxresdefault.jpg"
+      }
+    ],
+    "claims": [],
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-05-29",
+    "slug": "carson-block",
+    "appearance_count": 1,
+    "claim_count": 0,
+    "span_days": 0
+  },
+  {
     "name": "George Ferguson",
-    "role": "Bloomberg Intelligence analyst (aerospace)",
+    "role": "Analyst, Bloomberg Intelligence",
     "appearances": [
       {
         "video_id": "u1upVgkVKVQ",
@@ -1871,7 +1884,7 @@
   },
   {
     "name": "Carolina Parada",
-    "role": "VP & Head of Robotics, Google DeepMind",
+    "role": "VP & head of robotics, Google DeepMind",
     "appearances": [
       {
         "video_id": "u1upVgkVKVQ",

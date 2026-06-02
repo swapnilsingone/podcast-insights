@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jensen Huang on Dwarkesh — Will Nvidia's moat persist?</title>
+<title>Video Notes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -46,39 +46,51 @@ html[data-theme="light"] {
   --accent-mag: #c93780;
   --shadow: 0 1px 0 rgba(0,0,0,.03) inset, 0 18px 40px -28px rgba(0,0,0,.25);
 }
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; min-width: 0; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
 body { font-feature-settings: "ss01","cv11","cv01"; }
+img { max-width: 100%; height: auto; }
 a { color: inherit; }
 button { font-family: inherit; }
 
-.container { max-width: 1200px; margin: 0 auto; padding: 28px 28px 80px; }
+.container { max-width: 1280px; margin: 0 auto; padding: 24px 24px 64px; }
 
 /* Top bar */
-.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 32px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 28px; gap: 16px; }
+.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
+.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
+.back-link svg { width: 13px; height: 13px; }
 .brand { font-family: var(--serif); font-weight: 700; letter-spacing: -0.01em; font-size: 18px; color: var(--ink); }
 .brand .dot { display: inline-block; width: 8px; height: 8px; background: var(--accent); border-radius: 2px; margin-right: 10px; transform: translateY(-1px); }
+@media (max-width: 640px) { .brand { display: none; } .topbar { padding-bottom: 20px; } }
 .topbar .tools { display: flex; gap: 10px; align-items: center; }
 .icon-btn { background: transparent; border: 1px solid var(--line); color: var(--ink-2); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: border-color .15s, color .15s; }
 .icon-btn:hover { border-color: var(--line-strong); color: var(--ink); }
 .icon-btn svg { width: 16px; height: 16px; }
 
 /* Hero */
-.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: stretch; padding: 8px 0 56px; border-bottom: 1px solid var(--line); }
-@media (max-width: 880px) { .hero { grid-template-columns: 1fr; } }
-.hero .meta { display: flex; flex-direction: column; justify-content: space-between; gap: 24px; }
-.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 12px; align-items: center; }
+.hero { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: stretch; padding: 8px 0 48px; border-bottom: 1px solid var(--line); min-width: 0; }
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 24px; } }
+.hero .meta { display: flex; flex-direction: column; justify-content: space-between; gap: 20px; min-width: 0; }
+.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 .kicker .chip { padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); }
-.hero h1 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.025em; line-height: 1.02; font-size: clamp(36px, 5vw, 64px); margin: 14px 0 0; color: var(--ink); }
+.hero h1 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.025em; line-height: 1.04; font-size: clamp(28px, 3.4vw, 46px); margin: 12px 0 0; color: var(--ink); overflow-wrap: break-word; }
 .hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
-.thesis { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(17px, 1.6vw, 21px); line-height: 1.45; color: var(--ink-2); margin: 22px 0 0; max-width: 56ch; }
+.thesis { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(15px, 1.3vw, 18px); line-height: 1.45; color: var(--ink-2); margin: 16px 0 0; max-width: 60ch; }
 .hero .channel { display: flex; gap: 14px; align-items: center; color: var(--muted); font-size: 14px; }
 .hero .channel .sep { color: var(--muted-2); }
-.cta { display: inline-flex; align-items: center; gap: 8px; padding: 12px 16px; background: var(--accent); color: #181000; border-radius: 10px; font-weight: 600; font-size: 14px; text-decoration: none; transition: transform .15s; align-self: flex-start; }
+.cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--accent); color: #181000; border-radius: 10px; font-weight: 600; font-size: 13px; text-decoration: none; transition: transform .15s; align-self: flex-start; }
 .cta:hover { transform: translateY(-1px); }
 .cta svg { width: 14px; height: 14px; }
 
-.thumb { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); aspect-ratio: 16/9; background: var(--surface); }
+.thumb { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); aspect-ratio: 16/9; background: #000; min-width: 0; align-self: start; width: 100%; max-width: 480px; justify-self: end; box-shadow: 0 20px 60px -30px rgba(0,0,0,.7); }
+.thumb iframe { width: 100%; height: 100%; display: block; border: 0; }
+.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; }
+.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
+.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; }
+.thumb.is-floating .thumb-close { display: block; }
+@media (max-width: 880px) { .thumb { max-width: 100%; justify-self: stretch; } .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
 .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,.45) 100%); }
 .thumb .play { position: absolute; left: 18px; bottom: 16px; color: white; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; z-index: 1; opacity: .9; }
@@ -98,6 +110,8 @@ button { font-family: inherit; }
 .timeline-track .marker[data-cat="prediction"] { background: var(--accent-2); box-shadow: 0 0 0 3px rgba(111,227,196,.16); }
 .timeline-track .marker[data-cat="data-point"] { background: #5ea0ff; box-shadow: 0 0 0 3px rgba(94,160,255,.16); }
 .timeline-track .marker[data-cat="story"] { background: #ddd6c4; box-shadow: 0 0 0 3px rgba(221,214,196,.16); }
+.timeline-track .marker[data-cat="mental-model"] { background: var(--accent); box-shadow: 0 0 0 3px rgba(244,192,66,.18); }
+.timeline-track .marker[data-cat="framework"] { background: #c4b8a0; box-shadow: 0 0 0 3px rgba(196,184,160,.16); }
 .timeline-track .marker:hover { transform: translate(-50%, -50%) scale(1.4); z-index: 5; }
 .timeline-tip { position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%); background: var(--surface-2); color: var(--ink); padding: 8px 10px; border-radius: 6px; font-size: 12px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .15s; border: 1px solid var(--line-strong); box-shadow: 0 6px 24px -8px rgba(0,0,0,.5); z-index: 10; }
 .timeline-tip::after { content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: var(--line-strong); }
@@ -117,14 +131,18 @@ button { font-family: inherit; }
 .filter-chip.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
 /* Bento grid */
-.bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; padding: 28px 0 0; }
-@media (max-width: 720px) { .bento { grid-template-columns: 1fr; } }
-.card { grid-column: span 4; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 22px 18px; position: relative; display: flex; flex-direction: column; gap: 12px; transition: border-color .2s, transform .2s; box-shadow: var(--shadow); }
+.bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; padding: 24px 0 0; grid-auto-flow: dense; align-items: stretch; }
+@media (max-width: 980px) { .bento { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 640px) { .bento { grid-template-columns: 1fr; grid-auto-rows: auto; } }
+.card { grid-column: span 4; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 20px 16px; position: relative; display: flex; flex-direction: column; gap: 10px; transition: border-color .2s, transform .2s; box-shadow: var(--shadow); min-width: 0; }
+@media (max-width: 980px) { .card { grid-column: span 3; } }
+@media (max-width: 640px) { .card { grid-column: span 1 !important; } }
 .card:hover { border-color: var(--line-strong); }
 .card.size-md { grid-column: span 6; }
 .card.size-lg { grid-column: span 8; }
 .card.size-xl { grid-column: span 12; }
-@media (max-width: 720px) { .card, .card.size-md, .card.size-lg, .card.size-xl { grid-column: span 1; } }
+@media (max-width: 980px) { .card.size-md { grid-column: span 6; } .card.size-lg, .card.size-xl { grid-column: span 6; } }
+@media (max-width: 640px) { .card.size-md, .card.size-lg, .card.size-xl { grid-column: span 1 !important; } }
 .card .tag-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .cat-tag { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; padding: 4px 8px; border-radius: 4px; color: var(--ink); background: rgba(255,255,255,.04); border: 1px solid var(--line-strong); }
 .cat-tag[data-cat="counterintuitive"] { color: var(--accent-mag); border-color: rgba(255,122,182,.4); }
@@ -134,9 +152,10 @@ button { font-family: inherit; }
 .cat-tag[data-cat="framework"] { color: var(--ink-2); }
 .cat-tag[data-cat="story"] { color: #ddd6c4; }
 .card .num { font-family: var(--mono); font-size: 10px; color: var(--muted-2); }
-.card h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; font-size: 22px; line-height: 1.15; margin: 4px 0 0; color: var(--ink); }
-.card.size-lg h3, .card.size-xl h3 { font-size: 28px; }
-.card p { margin: 0; color: var(--ink-2); font-size: 14.5px; line-height: 1.55; }
+.card h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; font-size: 20px; line-height: 1.18; margin: 4px 0 0; color: var(--ink); overflow-wrap: break-word; word-break: break-word; }
+.card.size-md h3 { font-size: 23px; }
+.card.size-lg h3, .card.size-xl h3 { font-size: 26px; }
+.card p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.55; overflow-wrap: break-word; }
 .card .footer { margin-top: auto; display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px dashed var(--line); }
 .timestamp-btn { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; color: var(--muted); text-decoration: none; padding: 6px 8px; border-radius: 6px; transition: background .15s, color .15s; }
 .timestamp-btn:hover { background: var(--surface-2); color: var(--accent); }
@@ -165,9 +184,9 @@ button { font-family: inherit; }
 .pullquote cite { display: block; margin-top: 16px; font-family: var(--mono); font-style: normal; font-size: 12px; color: var(--muted); letter-spacing: .04em; }
 
 /* Charts */
-.section { padding: 64px 0 0; }
-.section h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: clamp(28px, 3vw, 42px); margin: 14px 0 6px; color: var(--ink); }
-.section .lede { color: var(--ink-2); font-size: 16px; max-width: 64ch; margin: 0 0 28px; line-height: 1.55; }
+.section { padding: 48px 0 0; }
+.section h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: clamp(24px, 2.4vw, 34px); margin: 12px 0 6px; color: var(--ink); }
+.section .lede { color: var(--ink-2); font-size: 15px; max-width: 64ch; margin: 0 0 22px; line-height: 1.55; }
 .charts { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
 .chart-card { grid-column: span 6; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
 .chart-card.full { grid-column: span 12; }
@@ -210,18 +229,6 @@ footer a { color: var(--muted); }
 .back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
 .back-link svg { width: 13px; height: 13px; }
 @media (max-width: 640px) { .brand { display: none; } }
-.thumb iframe { width: 100%; height: 100%; display: block; border: 0; background: #000; }
-.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; box-shadow: 0 20px 60px -10px rgba(0,0,0,.7); }
-.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
-.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; z-index: 2; }
-.thumb.is-floating .thumb-close { display: block; }
-@media (max-width: 880px) { .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
-
-.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
-.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
-.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
-.back-link svg { width: 13px; height: 13px; }
-@media (max-width: 640px) { .brand { display: none; } }
 .thumb iframe { width: 100%; height: 100%; display: block; border: 0; background: #000; position: relative; z-index: 1; }
 /* Neutralize legacy decorative overlays so they don't block iframe clicks */
 .thumb::after { pointer-events: none !important; display: none !important; }
@@ -238,7 +245,13 @@ footer a { color: var(--muted); }
 <div class="container">
 
 <header class="topbar">
-  <div class="brand-row"><a href="../../library/index.html" class="back-link" title="Back to library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg><span>Library</span></a><div class="brand"><span class="dot"></span>Video Notes</div></div>
+  <div class="brand-row">
+    <a href="../../library/index.html" class="back-link" title="Back to library">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span>Library</span>
+    </a>
+    <div class="brand"><span class="dot"></span>Video Notes</div>
+  </div>
   <div class="tools">
     <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -253,7 +266,7 @@ footer a { color: var(--muted); }
   <div class="meta">
     <div>
       <div class="kicker">
-        <span id="channelName">Dwarkesh Patel</span><span class="chip" id="durChip">—</span><span id="dateChip">—</span>
+        <span id="channelName">All-In Podcast · Ep 274</span><span class="chip" id="durChip">—</span><span id="dateChip">—</span>
       </div>
       <h1 id="title"></h1>
       <p class="thesis" id="thesis"></p>
@@ -263,7 +276,15 @@ footer a { color: var(--muted); }
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
     </a>
   </div>
-  <div class="thumb" id="thumbWrap"><button class="thumb-close" id="thumbClose" title="Dock" aria-label="Dock">×</button><iframe id="ytPlayer" src="https://www.youtube.com/embed/Hrbq66XqtCo?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+  <div class="thumb" id="thumbWrap">
+    <button class="thumb-close" id="thumbClose" title="Dock back into hero" aria-label="Dock">×</button>
+    <iframe id="ytPlayer"
+      data-src-pattern="https://www.youtube.com/embed/{VIDEO_ID}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" src=""
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
 </section>
 
 <section class="timeline-section">
@@ -278,7 +299,7 @@ footer a { color: var(--muted); }
 <section class="controls">
   <div class="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-    <input id="searchInput" type="text" placeholder="Search insights — try 'tokens', 'open source', 'robot'…" />
+    <input id="searchInput" type="text" placeholder="Search insights — try 'Karpathy', 'Colossus', 'orbital'…" />
     <span class="hint">/</span>
   </div>
   <div class="filters" id="filters"></div>
@@ -289,39 +310,20 @@ footer a { color: var(--muted); }
 <section class="section">
   <div class="section-label"><span>By the numbers</span><span class="rule"></span></div>
   <h2>Four numbers worth memorizing.</h2>
-  <p class="lede">If you only retain four figures from the conversation, these are the ones that change how you read every other AI-infrastructure story this year.</p>
+  <p class="lede">If you only retain four figures from the conversation, these reset the priors on how AI compute, infrastructure, and the macro backdrop fit together.</p>
   <div class="stats" id="stats"></div>
 </section>
 
-<section class="section">
+<section class="section" id="chartsSection" hidden>
   <div class="section-label"><span>Charts</span><span class="rule"></span></div>
-  <h2>Three pictures of the moat.</h2>
-  <p class="lede">Jensen's argument lives in numbers across three axes: the supply-chain lock-up, the algorithm-vs-transistor breakdown of who actually drives the 10× leaps, and the China balance sheet that the export-control debate keeps glossing over.</p>
-  <div class="charts">
-    <div class="chart-card">
-      <h3 class="chart-title">Supply-chain commitments</h3>
-      <p class="chart-sub">$100B in Nvidia's own filings; SemiAnalysis projects $250B at peak.</p>
-      <div class="chart-wrap"><canvas id="commitChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 07:36 — "we have the supply chain to do it" for "trillion-dollar scale."</div>
-    </div>
-    <div class="chart-card">
-      <h3 class="chart-title">Where the 10× leaps come from</h3>
-      <p class="chart-sub">Moore's Law gives ~25%/yr. Algorithms give 10× when architecture allows it.</p>
-      <div class="chart-wrap"><canvas id="leapsChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 22:00 and 1:09:45 — "Moore's Law is dead. Computer science matters."</div>
-    </div>
-    <div class="chart-card full">
-      <h3 class="chart-title">The China balance sheet</h3>
-      <p class="chart-sub">Jensen's repeated point: any case for export controls has to argue against these numbers — not around them.</p>
-      <div class="chart-wrap"><canvas id="chinaChart"></canvas></div>
-      <div class="chart-caption">Source: Jensen at 58:51 → 1:30:48 — figures stated by Jensen during the debate.</div>
-    </div>
-  </div>
+  <h2>The numbers, visualized.</h2>
+  <p class="lede">The most chartable figures from the conversation — each grounded in a specific moment in the episode.</p>
+  <div class="charts" id="charts"></div>
 </section>
 
 <section class="section">
   <div class="section-label"><span>Pulled quotes</span><span class="rule"></span></div>
-  <h2>If you only remember eight sentences.</h2>
+  <h2>If you only remember six sentences.</h2>
   <div class="bento" id="quotes" style="padding-top: 18px"></div>
 </section>
 
@@ -338,7 +340,7 @@ footer a { color: var(--muted); }
 </section>
 
 <footer>
-  <span>Generated from auto-captions. Verify quotes against the source.</span>
+  <span>Generated from Groq-transcribed audio. Verify quotes against the source.</span>
   <span><a id="srcLink" target="_blank" rel="noopener">youtube.com →</a></span>
 </footer>
 </div>
@@ -357,43 +359,206 @@ const DATA = {
   },
   "thesis": "Nvidia's moat isn't one thing — it's the whole five-layer stack (supply chain, chips, CUDA, ecosystem, install base) compounding annually. The TPU/ASIC threat is overstated, the China export-control debate is being fought on cartoon premises, and the next leg of compute scaling comes from algorithms and segmentation, not just transistors.",
   "insights": [
-    {"id": 1, "category": "mental-model", "headline": "Nvidia's job: turn electrons into tokens", "body": "\"The input is electrons, the output is tokens. In the middle is Nvidia. Our job is to do as much as necessary and as little as possible to enable that transformation.\" The framing rejects the SaaS-commoditization analogy — making each token more valuable is a moving frontier, not a fixed conversion.", "start_seconds": 32, "end_seconds": 130},
-    {"id": 2, "category": "data-point", "headline": "$100B in upstream purchase commitments — $250B per SemiAnalysis", "body": "The supply-chain moat. Upstream investments are made by partners because Nvidia's downstream demand is large enough to absorb them. \"Why are they willing to invest for me and not someone else? Because they know I can buy their supply and sell it through my downstream.\"", "start_seconds": 272, "end_seconds": 350},
-    {"id": 3, "category": "counterintuitive", "headline": "No bottleneck lasts more than 2–3 years", "body": "\"Nobody talks about CoWoS anymore — for two years we swarmed the living daylights out of it.\" When there's a demand signal, the industry scales. Logic, memory, EUV — all 2-3 year problems. The real bottleneck is plumbers and electricians, not chips.", "start_seconds": 620, "end_seconds": 800},
-    {"id": 4, "category": "framework", "headline": "TPU is a tensor unit. CUDA is accelerated computing.", "body": "Different scopes. CUDA runs molecular dynamics, quantum chromodynamics, fluid dynamics, particle physics — and AI. Market reach is structural: every cloud, every region, on-prem, in-car, in-space. ASICs can't follow into the long tail.", "start_seconds": 1016, "end_seconds": 1180},
-    {"id": 5, "category": "framework", "headline": "10× leaps come from algorithms, not Moore's law", "body": "\"Moore's law is increasing by about 25% per year. The only way to get 10× or 100× leaps is to fundamentally change the algorithm and how it's computed every single year.\" That's why programmability beats fixed-function: MoE, new attention, hybrid SSM, fused diffusion/AR all need it.", "start_seconds": 1320, "end_seconds": 1450},
-    {"id": 6, "category": "mental-model", "headline": "Nvidia is an extreme co-design company", "body": "Change happens across processors, system, fabric, libraries, and algorithm simultaneously. Offload computation into the network (Spectrum-X) or the fabric (NVLink). \"Without CUDA to do that, I wouldn't even know where to start.\"", "start_seconds": 1391, "end_seconds": 1460},
-    {"id": 7, "category": "framework", "headline": "Install base is the actual treasure", "body": "\"We have several hundred million GPUs out there.\" A developer wants software that runs on a whole bunch of other computers — install base is what makes that real. CUDA is everywhere: every cloud, every form factor, robot to satellite.", "start_seconds": 1651, "end_seconds": 1800},
-    {"id": 8, "category": "counterintuitive", "headline": "TPU + Trainium growth is 100% Anthropic", "body": "\"Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic. Without Anthropic, why would there be Trainium growth at all? 100%.\" Frames competitive ASIC narrative as a single-customer story, not a trend.", "start_seconds": 2229, "end_seconds": 2280},
-    {"id": 9, "category": "story", "headline": "The Anthropic regret — and why he won't repeat it", "body": "Nvidia missed the multi-billion-dollar early investment in Anthropic because it wasn't yet in a position to write that check; Google and AWS were. \"Not going to make that same mistake again.\" Result: $30B reported into OpenAI, $10B into Anthropic this round.", "start_seconds": 2369, "end_seconds": 2500},
-    {"id": 10, "category": "framework", "headline": "Do as much as needed, as little as possible", "body": "Why Nvidia isn't becoming a cloud: \"If we don't build NVLink the way we built it, if we don't build the whole stack, nobody else would have. But the world has lots of clouds.\" Same logic explains why they back CoreWeave, Crusoe, Nscale, Nebius — but don't run the racks themselves.", "start_seconds": 2620, "end_seconds": 2790},
-    {"id": 11, "category": "framework", "headline": "First-in-first-out, never high-bidder", "body": "Even during shortage. \"I prefer to be dependable, to be the foundation of the industry. If I quoted you a price, we quoted you a price. If demand goes through the roof, so be it.\" Same trust posture they have with TSMC — no contract, 30-year handshake.", "start_seconds": 3203, "end_seconds": 3290},
-    {"id": 12, "category": "prediction", "headline": "Annual cadence: Vera Rubin → Ultra → Feynman → unnamed", "body": "\"Every single year you can count on us. Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.\" No ASIC team can promise that. The cadence itself is part of the moat.", "start_seconds": 3337, "end_seconds": 3430},
-    {"id": 13, "category": "counterintuitive", "headline": "Conceding China gives up the standards war, not just a market", "body": "China = 50% of AI researchers, 60% of mainstream chips, 40% of global tech industry. They already have abundant energy, 7nm capacity, and ghost data centers. Restricting forces them to build their own ecosystem — and the global south will adopt it. Same mistake the US made with telecom and solar.", "start_seconds": 3540, "end_seconds": 4200},
-    {"id": 14, "category": "data-point", "headline": "China's algorithm edge offsets the lithography gap", "body": "Moore's law gives 25%/yr. Computer science gives 10× in algorithm performance. \"DeepSeek is not an inconsequential advance.\" The day a frontier open-source model is released on Huawei first, the US has lost a key axis of the stack.", "start_seconds": 4185, "end_seconds": 4280},
-    {"id": 15, "category": "prediction", "headline": "Premium-token segmentation just opened up", "body": "Why Nvidia bought Groq. \"There could be very high ASP tokens, and even though the throughput is lower in the factory, the ASPs make up for it.\" Same model, different response times, different prices — engineers worth $500K/yr will pay for faster tokens. The inference market is segmenting.", "start_seconds": 5560, "end_seconds": 5700},
-    {"id": 16, "category": "mental-model", "headline": "Even without AI, Nvidia would be huge", "body": "The original mission was accelerated computing because general-purpose computing ran out of scaling. Molecular dynamics, seismic, lithography, fluids — long before AI was useful. \"If there were no AI, I would be very sad. But the fundamental promise hasn't changed.\"", "start_seconds": 5988, "end_seconds": 6190}
+    {
+      "id": 1,
+      "category": "mental-model",
+      "headline": "Nvidia's job: turn electrons into tokens",
+      "body": "\"The input is electrons, the output is tokens. In the middle is Nvidia. Our job is to do as much as necessary and as little as possible to enable that transformation.\" The framing rejects the SaaS-commoditization analogy — making each token more valuable is a moving frontier, not a fixed conversion.",
+      "start_seconds": 32,
+      "end_seconds": 130
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "$100B in upstream purchase commitments — $250B per SemiAnalysis",
+      "body": "The supply-chain moat. Upstream investments are made by partners because Nvidia's downstream demand is large enough to absorb them. \"Why are they willing to invest for me and not someone else? Because they know I can buy their supply and sell it through my downstream.\"",
+      "start_seconds": 272,
+      "end_seconds": 350
+    },
+    {
+      "id": 3,
+      "category": "counterintuitive",
+      "headline": "No bottleneck lasts more than 2–3 years",
+      "body": "\"Nobody talks about CoWoS anymore — for two years we swarmed the living daylights out of it.\" When there's a demand signal, the industry scales. Logic, memory, EUV — all 2-3 year problems. The real bottleneck is plumbers and electricians, not chips.",
+      "start_seconds": 620,
+      "end_seconds": 800
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "TPU is a tensor unit. CUDA is accelerated computing.",
+      "body": "Different scopes. CUDA runs molecular dynamics, quantum chromodynamics, fluid dynamics, particle physics — and AI. Market reach is structural: every cloud, every region, on-prem, in-car, in-space. ASICs can't follow into the long tail.",
+      "start_seconds": 1016,
+      "end_seconds": 1180
+    },
+    {
+      "id": 5,
+      "category": "framework",
+      "headline": "10× leaps come from algorithms, not Moore's law",
+      "body": "\"Moore's law is increasing by about 25% per year. The only way to get 10× or 100× leaps is to fundamentally change the algorithm and how it's computed every single year.\" That's why programmability beats fixed-function: MoE, new attention, hybrid SSM, fused diffusion/AR all need it.",
+      "start_seconds": 1320,
+      "end_seconds": 1450
+    },
+    {
+      "id": 6,
+      "category": "mental-model",
+      "headline": "Nvidia is an extreme co-design company",
+      "body": "Change happens across processors, system, fabric, libraries, and algorithm simultaneously. Offload computation into the network (Spectrum-X) or the fabric (NVLink). \"Without CUDA to do that, I wouldn't even know where to start.\"",
+      "start_seconds": 1391,
+      "end_seconds": 1460
+    },
+    {
+      "id": 7,
+      "category": "framework",
+      "headline": "Install base is the actual treasure",
+      "body": "\"We have several hundred million GPUs out there.\" A developer wants software that runs on a whole bunch of other computers — install base is what makes that real. CUDA is everywhere: every cloud, every form factor, robot to satellite.",
+      "start_seconds": 1651,
+      "end_seconds": 1800
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "TPU + Trainium growth is 100% Anthropic",
+      "body": "\"Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic. Without Anthropic, why would there be Trainium growth at all? 100%.\" Frames competitive ASIC narrative as a single-customer story, not a trend.",
+      "start_seconds": 2229,
+      "end_seconds": 2280
+    },
+    {
+      "id": 9,
+      "category": "story",
+      "headline": "The Anthropic regret — and why he won't repeat it",
+      "body": "Nvidia missed the multi-billion-dollar early investment in Anthropic because it wasn't yet in a position to write that check; Google and AWS were. \"Not going to make that same mistake again.\" Result: $30B reported into OpenAI, $10B into Anthropic this round.",
+      "start_seconds": 2369,
+      "end_seconds": 2500
+    },
+    {
+      "id": 10,
+      "category": "framework",
+      "headline": "Do as much as needed, as little as possible",
+      "body": "Why Nvidia isn't becoming a cloud: \"If we don't build NVLink the way we built it, if we don't build the whole stack, nobody else would have. But the world has lots of clouds.\" Same logic explains why they back CoreWeave, Crusoe, Nscale, Nebius — but don't run the racks themselves.",
+      "start_seconds": 2620,
+      "end_seconds": 2790
+    },
+    {
+      "id": 11,
+      "category": "framework",
+      "headline": "First-in-first-out, never high-bidder",
+      "body": "Even during shortage. \"I prefer to be dependable, to be the foundation of the industry. If I quoted you a price, we quoted you a price. If demand goes through the roof, so be it.\" Same trust posture they have with TSMC — no contract, 30-year handshake.",
+      "start_seconds": 3203,
+      "end_seconds": 3290
+    },
+    {
+      "id": 12,
+      "category": "prediction",
+      "headline": "Annual cadence: Vera Rubin → Ultra → Feynman → unnamed",
+      "body": "\"Every single year you can count on us. Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.\" No ASIC team can promise that. The cadence itself is part of the moat.",
+      "start_seconds": 3337,
+      "end_seconds": 3430
+    },
+    {
+      "id": 13,
+      "category": "counterintuitive",
+      "headline": "Conceding China gives up the standards war, not just a market",
+      "body": "China = 50% of AI researchers, 60% of mainstream chips, 40% of global tech industry. They already have abundant energy, 7nm capacity, and ghost data centers. Restricting forces them to build their own ecosystem — and the global south will adopt it. Same mistake the US made with telecom and solar.",
+      "start_seconds": 3540,
+      "end_seconds": 4200
+    },
+    {
+      "id": 14,
+      "category": "data-point",
+      "headline": "China's algorithm edge offsets the lithography gap",
+      "body": "Moore's law gives 25%/yr. Computer science gives 10× in algorithm performance. \"DeepSeek is not an inconsequential advance.\" The day a frontier open-source model is released on Huawei first, the US has lost a key axis of the stack.",
+      "start_seconds": 4185,
+      "end_seconds": 4280
+    },
+    {
+      "id": 15,
+      "category": "prediction",
+      "headline": "Premium-token segmentation just opened up",
+      "body": "Why Nvidia bought Groq. \"There could be very high ASP tokens, and even though the throughput is lower in the factory, the ASPs make up for it.\" Same model, different response times, different prices — engineers worth $500K/yr will pay for faster tokens. The inference market is segmenting.",
+      "start_seconds": 5560,
+      "end_seconds": 5700
+    },
+    {
+      "id": 16,
+      "category": "mental-model",
+      "headline": "Even without AI, Nvidia would be huge",
+      "body": "The original mission was accelerated computing because general-purpose computing ran out of scaling. Molecular dynamics, seismic, lithography, fluids — long before AI was useful. \"If there were no AI, I would be very sad. But the fundamental promise hasn't changed.\"",
+      "start_seconds": 5988,
+      "end_seconds": 6190
+    }
   ],
   "quotes": [
-    {"text": "Something has to transform electrons to tokens.", "start_seconds": 32},
-    {"text": "Do as much as needed, as little as possible.", "start_seconds": 2623},
-    {"text": "Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic.", "start_seconds": 2229},
-    {"text": "Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.", "start_seconds": 3368},
-    {"text": "We could afford to lean forward. I don't think we could afford to go back.", "start_seconds": 5193},
-    {"text": "If we discourage people from being software engineers, we're going to run out of software engineers.", "start_seconds": 800},
-    {"text": "Moore's law is dead. Architecture matters. Computer science matters.", "start_seconds": 4895},
-    {"text": "We're not a car. Computing is not like that.", "start_seconds": 4828}
+    {
+      "text": "Something has to transform electrons to tokens.",
+      "start_seconds": 32
+    },
+    {
+      "text": "Do as much as needed, as little as possible.",
+      "start_seconds": 2623
+    },
+    {
+      "text": "Without Anthropic, why would there be any TPU growth at all? It's 100% Anthropic.",
+      "start_seconds": 2229
+    },
+    {
+      "text": "Your token cost will decrease by an order of magnitude every single year. I can count on it like I can count on the clock.",
+      "start_seconds": 3368
+    },
+    {
+      "text": "We could afford to lean forward. I don't think we could afford to go back.",
+      "start_seconds": 5193
+    },
+    {
+      "text": "If we discourage people from being software engineers, we're going to run out of software engineers.",
+      "start_seconds": 800
+    },
+    {
+      "text": "Moore's law is dead. Architecture matters. Computer science matters.",
+      "start_seconds": 4895
+    },
+    {
+      "text": "We're not a car. Computing is not like that.",
+      "start_seconds": 4828
+    }
   ],
   "resources": [
-    {"name": "TSMC", "context": "30-year supplier relationship; no legal contract — handshake."},
-    {"name": "SemiAnalysis (Dylan Patel)", "context": "Source for $250B purchase commitments figure; InferenceMAX benchmark."},
-    {"name": "Crusoe", "context": "Episode sponsor — Blackwell + Vera Rubin neocloud with cluster-wide KV caching."},
-    {"name": "CoreWeave, Nscale, Nebius, Lambda", "context": "Neoclouds Nvidia backs/invests in rather than competing with."},
-    {"name": "Anthropic Mythos", "context": "Cyber-offensive model with thousands of zero-days; central to the China debate in this conversation."},
-    {"name": "Triton, vLLM, SGLang, verl, NeMo RL", "context": "Frameworks built on/around CUDA; Nvidia contributes to all."},
-    {"name": "Sanjay Mehrotra (Micron CEO)", "context": "Early HBM/LPDDR partnership; cited as the example of believing 5 years before everyone else."},
-    {"name": "Lumentum, Coherent", "context": "Silicon photonics ecosystem investments that reshaped the supply chain."},
-    {"name": "Dario Amodei interview (Dwarkesh)", "context": "Reference point for the export-control debate — Dwarkesh quotes him throughout."}
+    {
+      "name": "TSMC",
+      "context": "30-year supplier relationship; no legal contract — handshake."
+    },
+    {
+      "name": "SemiAnalysis (Dylan Patel)",
+      "context": "Source for $250B purchase commitments figure; InferenceMAX benchmark."
+    },
+    {
+      "name": "Crusoe",
+      "context": "Episode sponsor — Blackwell + Vera Rubin neocloud with cluster-wide KV caching."
+    },
+    {
+      "name": "CoreWeave, Nscale, Nebius, Lambda",
+      "context": "Neoclouds Nvidia backs/invests in rather than competing with."
+    },
+    {
+      "name": "Anthropic's Mythos / Claude Mythos",
+      "context": "Cyber-offensive model with thousands of zero-days; central to the China debate in this conversation."
+    },
+    {
+      "name": "Triton, vLLM, SGLang, verl, NeMo RL",
+      "context": "Frameworks built on/around CUDA; Nvidia contributes to all."
+    },
+    {
+      "name": "Sanjay Mehrotra (Micron CEO)",
+      "context": "Early HBM/LPDDR partnership; cited as the example of believing 5 years before everyone else."
+    },
+    {
+      "name": "Lumentum, Coherent",
+      "context": "Silicon photonics ecosystem investments that reshaped the supply chain."
+    },
+    {
+      "name": "Dario Amodei interview (Dwarkesh)",
+      "context": "Reference point for the export-control debate — Dwarkesh quotes him throughout."
+    }
   ],
   "action_items": [
     "Stop equating Anthropic's Trainium/TPU usage with a trend — it's a single-customer footprint.",
@@ -401,7 +566,13 @@ const DATA = {
     "Watch the inference market split into latency-priced and throughput-priced tiers; the Groq acquisition is the leading indicator.",
     "Track the yearly cadence claim: by 2028 we should see ~1000× cumulative token-cost reduction from Vera Rubin onwards. If it slips, the moat thesis weakens.",
     "When debating China export controls, demand specific compute-and-energy numbers — both sides default to absolutist framing here."
-  ]
+  ],
+  "topics": [
+    "ai",
+    "business",
+    "tech"
+  ],
+  "charts": []
 };
 
 const $ = (s, r=document) => r.querySelector(s);
@@ -414,7 +585,17 @@ const fmtTime = (s) => {
 };
 const ytLink = (t) => `${DATA.video.url}&t=${Math.floor(t)}s`;
 
-/* ---------- YouTube IFrame Player API (retrofit) ---------- */
+function escapeHTML(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Document title + iframe src (data-driven so the same template serves every video)
+document.title = DATA.video.title + ' — ' + (DATA.video.channel || 'Video Notes');
+(function setupPlayerSrc(){
+  const el = document.getElementById('ytPlayer');
+  const tmpl = el && el.getAttribute('data-src-pattern');
+  if (el && tmpl && DATA.video.id) el.src = tmpl.replace('{VIDEO_ID}', DATA.video.id);
+})();
+
+
+/* ---------- YouTube IFrame Player API ---------- */
 let ytPlayer = null;
 let ytReady = false;
 (function loadYT() {
@@ -425,18 +606,18 @@ let ytReady = false;
   window.onYouTubeIframeAPIReady = initYTPlayer;
 })();
 function initYTPlayer() {
-  ytPlayer = new YT.Player('ytPlayer', { events: { onReady: () => { ytReady = true; } } });
+  ytPlayer = new YT.Player('ytPlayer', {
+    events: { onReady: () => { ytReady = true; } }
+  });
 }
-function seekVideo(seconds, opts) {
-  opts = opts || {};
-  const autoplay = opts.autoplay !== false;
-  const scroll = opts.scroll !== false;
+function seekVideo(seconds, opts = {}) {
+  const { autoplay = true, scroll = true } = opts;
   if (ytReady && ytPlayer && typeof ytPlayer.seekTo === 'function') {
     ytPlayer.seekTo(seconds, true);
     if (autoplay) ytPlayer.playVideo();
     if (scroll) {
       const wrap = document.getElementById('thumbWrap');
-      if (wrap && !wrap.classList.contains('is-floating')) {
+      if (!wrap.classList.contains('is-floating')) {
         wrap.scrollIntoView({behavior: 'smooth', block: 'start'});
       }
     }
@@ -444,71 +625,67 @@ function seekVideo(seconds, opts) {
   }
   return false;
 }
-document.addEventListener('click', function(e) {
-  const a = e.target.closest && e.target.closest('a[href*="youtube.com/watch"], a[href*="youtu.be/"]');
+
+/* Intercept any anchor with a youtube watch URL and seek the embedded player instead */
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href*="youtube.com/watch"], a[href*="youtu.be/"]');
   if (!a) return;
   const url = a.getAttribute('href') || '';
   const m = url.match(/[?&]t=(\d+)s?/);
-  if (!m) return;
+  if (!m) return; // no timestamp → let it open YouTube
   const seconds = parseInt(m[1], 10);
-  if (seekVideo(seconds)) e.preventDefault();
-});
-window.addEventListener('load', function() {
-  const hero = document.querySelector('.hero');
-  const wrap = document.getElementById('thumbWrap');
-  if (!hero || !wrap) return;
-  const sentinel = document.createElement('div');
-  sentinel.style.cssText = 'position:absolute;left:0;bottom:0;width:1px;height:1px;pointer-events:none;';
-  hero.style.position = 'relative';
-  hero.appendChild(sentinel);
-  const obs = new IntersectionObserver(function(entries) {
-    entries.forEach(function(en) {
-      if (en.isIntersecting) {
-        wrap.classList.remove('is-floating', 'shown');
-      } else if (ytReady) {
-        try {
-          if (ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState() === 1) {
-            wrap.classList.add('is-floating', 'shown');
-          }
-        } catch (_) {}
-      }
-    });
-  }, { rootMargin: '0px', threshold: 0 });
-  obs.observe(sentinel);
-});
-document.addEventListener('click', function(e) {
-  if (e.target && e.target.id === 'thumbClose') {
-    const w = document.getElementById('thumbWrap');
-    if (w) w.classList.remove('is-floating', 'shown');
+  if (seekVideo(seconds)) {
+    e.preventDefault();
   }
 });
-/* ---------- /retrofit ---------- */
+
+/* Floating PiP: show small player when user scrolls past the hero */
+const floatThumbObserver = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    const wrap = document.getElementById('thumbWrap');
+    if (!wrap) return;
+    if (en.isIntersecting) {
+      wrap.classList.remove('is-floating');
+    } else if (ytReady) {
+      try {
+        if (ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState() === 1) {
+          wrap.classList.add('is-floating');
+        }
+      } catch (_) {}
+    }
+  });
+}, { rootMargin: '0px', threshold: 0 });
+// Observe a sentinel just below the hero to flip the floating state.
+window.addEventListener('load', () => {
+  const sentinel = document.createElement('div');
+  sentinel.style.cssText = 'position:absolute;left:0;width:1px;height:1px;';
+  const hero = document.querySelector('.hero');
+  if (hero) { hero.style.position = 'relative'; hero.appendChild(sentinel); }
+  floatThumbObserver.observe(sentinel);
+});
+document.addEventListener('click', (e) => {
+  if (e.target && e.target.id === 'thumbClose') {
+    document.getElementById('thumbWrap').classList.remove('is-floating');
+  }
+});
 
 // Hero
-$('#title').innerHTML = DATA.video.title.replace(/^(Jensen Huang)\s*[–—:]\s*/, '$1 <em>on</em> ');
+$('#title').innerHTML = DATA.video.display_title_html || escapeHTML(DATA.video.title);
 $('#thesis').textContent = DATA.thesis;
 $('#durChip').textContent = `${Math.round(DATA.video.duration_seconds/60)} min`;
-const d = DATA.video.upload_date;
-$('#dateChip').textContent = new Date(d).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
+$('#dateChip').textContent = new Date(DATA.video.upload_date).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
 $('#watchCta').href = DATA.video.url;
 $('#youtubeLink').href = DATA.video.url;
 $('#srcLink').href = DATA.video.url;
 $('#srcLink').textContent = DATA.video.url.replace('https://','') + ' →';
 
-// Chapters (from yt-dlp metadata baked in)
-const CHAPTERS = [
-  {start: 0, title: "Supply-chain moat"},
-  {start: 985, title: "TPUs vs CUDA"},
-  {start: 2466, title: "Why no Nvidia cloud?"},
-  {start: 3456, title: "China & export controls"},
-  {start: 5706, title: "Why one architecture?"}
-];
+// Chapters
+const CHAPTERS = (DATA && DATA.chapters) || [];
 
 // Timeline
 const track = $('#track');
 const labelsEl = $('#chapterLabels');
 const dur = DATA.video.duration_seconds;
-// Render dashed chapter rules inside the track
 CHAPTERS.forEach(c => {
   if (c.start === 0) return;
   const el = document.createElement('div');
@@ -516,11 +693,10 @@ CHAPTERS.forEach(c => {
   el.style.left = (c.start / dur * 100) + '%';
   track.appendChild(el);
 });
-// Render chapter labels above the track, suppressing overlaps via measurement
 requestAnimationFrame(() => {
   const trackW = track.getBoundingClientRect().width;
   let lastRight = -Infinity;
-  CHAPTERS.forEach((c, i) => {
+  CHAPTERS.forEach((c) => {
     const leftPx = (c.start / dur) * trackW;
     const el = document.createElement('div');
     el.className = 'lbl';
@@ -528,18 +704,15 @@ requestAnimationFrame(() => {
     el.textContent = c.title;
     labelsEl.appendChild(el);
     const w = el.getBoundingClientRect().width;
-    // If this label would collide with the previous one, hide it
     if (leftPx < lastRight + 8) {
       el.style.display = 'none';
     } else {
       lastRight = leftPx + w;
     }
-    // If label would overflow the right edge, anchor it to the right
     if (leftPx + w > trackW) {
       el.style.left = 'auto';
       el.style.right = '0';
       el.style.textAlign = 'right';
-      el.querySelector && (el.style.paddingRight = '0');
     }
   });
 });
@@ -575,8 +748,8 @@ cats.forEach(c => {
   filtersEl.appendChild(b);
 });
 
-// Bento sizes (vary card sizes for editorial feel)
-const SIZES = ['', 'size-md', '', '', 'size-md', '', '', '', 'size-lg', '', '', 'size-md', '', '', 'size-md', '', '', ''];
+// Bento sizes — 12 span-4 + 2 span-6 packs into a perfect 12-col grid (5 rows × 12)
+const SIZES = ['', '', 'size-md', '', '', '', '', '', '', '', 'size-md', '', '', ''];
 
 // Cards
 const bento = $('#bento');
@@ -587,11 +760,11 @@ function render() {
     (activeCat === 'all' || i.category === activeCat) &&
     (!q || (i.headline + ' ' + i.body + ' ' + i.category).toLowerCase().includes(q))
   );
-  // Interleave a pull quote roughly every 6 cards
   let qIdx = 0;
   filtered.forEach((ins, i) => {
     const card = document.createElement('article');
     card.className = 'card ' + (SIZES[i] || '');
+    const speakerForQuote = "All-In Ep 274";
     card.innerHTML = `
       <div class="tag-row">
         <span class="cat-tag" data-cat="${ins.category}">${ins.category.replace('-', ' ')}</span>
@@ -607,7 +780,7 @@ function render() {
         <div class="card-tools">
           <button class="note-btn" data-insight="${ins.id}">${hasNote(ins.id) ? '✎ note' : '+ note'}</button>
           <button class="steelman" data-insight="${ins.id}">⚔ steelman</button>
-          <button class="copy-btn" data-copy="${encodeURIComponent('"' + ins.headline + '" — Jensen Huang, ' + fmtTime(ins.start_seconds) + ' ' + ytLink(ins.start_seconds))}">copy</button>
+          <button class="copy-btn" data-copy="${encodeURIComponent('"' + ins.headline + '" — ' + speakerForQuote + ', ' + fmtTime(ins.start_seconds) + ' ' + ytLink(ins.start_seconds))}">copy</button>
         </div>
       </div>
       <div class="note-area" data-note-area="${ins.id}">
@@ -616,26 +789,23 @@ function render() {
       </div>
     `;
     bento.appendChild(card);
-    // Inject a pull quote between groups
     if ((i + 1) % 6 === 0 && qIdx < DATA.quotes.length) {
-      const q = DATA.quotes[qIdx++];
+      const qd = DATA.quotes[qIdx++];
       const pq = document.createElement('div');
       pq.className = 'pullquote';
-      pq.innerHTML = `<span class="mark">“</span><blockquote>${q.text}</blockquote><cite>Jensen Huang · <a href="${ytLink(q.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(q.start_seconds)}</a></cite>`;
+      pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
       bento.appendChild(pq);
     }
   });
   if (filtered.length === 0) {
     bento.innerHTML = `<div style="grid-column:span 12;text-align:center;padding:80px 0;color:var(--muted);font-family:var(--mono);font-size:13px">no insights match — try a different filter or search term</div>`;
   }
-  // Copy handlers
-  $$('.copy-btn').forEach(b => b.onclick = (e) => {
+  $$('.copy-btn').forEach(b => b.onclick = () => {
     navigator.clipboard.writeText(decodeURIComponent(b.dataset.copy));
     b.classList.add('copied');
     b.textContent = 'copied';
     setTimeout(() => { b.classList.remove('copied'); b.textContent = 'copy'; }, 1400);
   });
-  // Note handlers
   $$('.note-btn').forEach(b => b.onclick = () => {
     const id = b.dataset.insight;
     const area = document.querySelector(`[data-note-area="${id}"]`);
@@ -654,7 +824,6 @@ function render() {
       }, 300);
     };
   });
-  // Steelman handlers — copy a Claude-ready prompt to clipboard
   $$('.steelman').forEach(b => b.onclick = async () => {
     const ins = DATA.insights.find(x => String(x.id) === b.dataset.insight);
     if (!ins) return;
@@ -690,26 +859,20 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') { si.value=''; activeSearch=''; activeCat='all'; $$('.filter-chip').forEach(x => x.classList.toggle('active', x.dataset.cat === 'all')); render(); }
 });
 
-// Quotes section (separate full grid of remaining)
+// Quotes section (separate full grid)
 const quotesEl = $('#quotes');
-DATA.quotes.forEach((q, i) => {
+(DATA.quotes || []).forEach((qd, i) => {
   const pq = document.createElement('div');
   pq.className = 'pullquote';
   pq.style.gridColumn = i % 3 === 0 ? 'span 12' : 'span 6';
   if (window.innerWidth < 720) pq.style.gridColumn = 'span 12';
-  pq.innerHTML = `<span class="mark">“</span><blockquote>${q.text}</blockquote><cite>Jensen Huang · <a href="${ytLink(q.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(q.start_seconds)}</a></cite>`;
+  pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
   quotesEl.appendChild(pq);
 });
 
 // Stats
 const statsEl = $('#stats');
-const stats = [
-  { label: 'Upstream purchase commitments', val: '$100B', unit: '→$250B', sub: 'Current filings → SemiAnalysis projection. Suppliers commit because Nvidia\'s downstream demand absorbs it.' },
-  { label: 'Blackwell vs Hopper efficiency', val: '50', unit: '×', sub: 'Across three years — but transistor density only improved 75%. The other 30× came from architecture and algorithms.' },
-  { label: 'Algorithm gain per year', val: '10', unit: '×', sub: 'What Moore\'s Law gives (25%/yr) vs what software co-design can deliver. The reason programmability beats fixed-function.' },
-  { label: 'Anthropic\'s share of TPU+Trainium growth', val: '100', unit: '%', sub: 'Jensen\'s frame: \"Without Anthropic, why would there be any TPU growth at all?\" The ASIC trend is a single-customer story.' }
-];
-stats.forEach(s => {
+(DATA.stats || []).forEach(s => {
   const el = document.createElement('div');
   el.className = 'stat';
   el.innerHTML = `<div class="label">${s.label}</div><div class="val">${s.val}<span class="unit">${s.unit}</span></div><div class="sub">${s.sub}</div>`;
@@ -718,7 +881,7 @@ stats.forEach(s => {
 
 // Resources
 const rEl = $('#resources');
-DATA.resources.forEach(r => {
+(DATA.resources || []).forEach(r => {
   const el = document.createElement('div');
   el.className = 'resource';
   el.innerHTML = `<div class="name">${r.name}</div><div class="ctx">${r.context}</div>`;
@@ -727,7 +890,7 @@ DATA.resources.forEach(r => {
 
 // Actions
 const aEl = $('#actions');
-DATA.action_items.forEach(a => {
+(DATA.action_items || []).forEach(a => {
   const li = document.createElement('li');
   li.textContent = a;
   aEl.appendChild(li);
@@ -737,15 +900,21 @@ DATA.action_items.forEach(a => {
 $('#themeBtn').onclick = () => {
   const cur = document.documentElement.getAttribute('data-theme');
   document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
-  // Re-render charts with new colors
   setTimeout(initCharts, 60);
 };
 
-// Charts
+// Charts — data-driven from DATA.charts (per-video; grounded in the transcript)
 let charts = [];
 function initCharts() {
   charts.forEach(c => c.destroy());
   charts = [];
+
+  const section = $('#chartsSection');
+  const host = $('#charts');
+  const specs = Array.isArray(DATA.charts) ? DATA.charts.filter(c => c && Array.isArray(c.labels) && c.labels.length) : [];
+  if (!specs.length) { if (section) section.hidden = true; return; }
+  if (section) section.hidden = false;
+
   const css = getComputedStyle(document.documentElement);
   const ink = css.getPropertyValue('--ink').trim();
   const ink2 = css.getPropertyValue('--ink-2').trim();
@@ -754,76 +923,78 @@ function initCharts() {
   const accent = css.getPropertyValue('--accent').trim();
   const accent2 = css.getPropertyValue('--accent-2').trim();
   const accentMag = css.getPropertyValue('--accent-mag').trim();
-  const surface = css.getPropertyValue('--surface').trim();
+  const palette = [accent, accent2, accentMag];
 
   Chart.defaults.font.family = '"Inter", system-ui, sans-serif';
   Chart.defaults.color = muted;
   Chart.defaults.borderColor = line;
 
-  // Commitments chart — bar with two scenarios
-  charts.push(new Chart($('#commitChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Current filings', 'SemiAnalysis estimate'],
-      datasets: [{
-        data: [100, 250],
-        backgroundColor: [accent2, accent],
-        borderRadius: 6, barThickness: 56
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => '$' + c.parsed.y + 'B upstream commitments' } } },
-      scales: {
-        x: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } },
-        y: { grid: { color: line }, ticks: { color: muted, callback: v => '$' + v + 'B' } }
-      }
-    }
-  }));
+  // Build the cards. A single chart, or an odd last one, spans full width.
+  host.innerHTML = specs.map((c, i) => {
+    const full = specs.length === 1 || (specs.length % 2 === 1 && i === specs.length - 1);
+    return `<div class="chart-card${full ? ' full' : ''}">
+      <h3 class="chart-title">${escapeHTML(c.title || 'Chart')}</h3>
+      ${c.sub ? `<p class="chart-sub">${escapeHTML(c.sub)}</p>` : ''}
+      <div class="chart-wrap"><canvas id="chart${i}"></canvas></div>
+      ${c.caption ? `<div class="chart-caption">${escapeHTML(c.caption)}</div>` : ''}
+    </div>`;
+  }).join('');
 
-  // Leaps chart — log bar contrasting Moore vs algorithm gains
-  charts.push(new Chart($('#leapsChart'), {
-    type: 'bar',
-    data: {
-      labels: ["Moore's Law per year", "Hopper→Blackwell transistors (3yr)", 'Algorithm improvements (annual)', 'Blackwell vs Hopper (system)'],
-      datasets: [{
-        data: [1.25, 1.75, 10, 50],
-        backgroundColor: [muted, '#5ea0ff', accent2, accent],
-        borderRadius: 6, barThickness: 28
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => c.parsed.x + '×' } } },
-      scales: {
-        x: { type: 'logarithmic', grid: { color: line }, ticks: { color: muted, callback: v => v + '×' } },
-        y: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } }
-      }
-    }
-  }));
+  specs.forEach((c, i) => {
+    const unit = c.unit || '';
+    // "$B" -> "$200B"; "$" -> "$200"; "%"/"days" -> "200%" / "200 days"; "" -> "200"
+    const fmt = v => {
+      if (v == null) return '';
+      const m = unit.match(/^\$(\D*)$/);            // currency with optional scale suffix (B, M, T)
+      if (m) return '$' + v + m[1];
+      if (!unit) return '' + v;
+      return /^[%]/.test(unit) ? '' + v + unit : v + ' ' + unit;
+    };
+    const series = Array.isArray(c.series) && c.series.length ? c.series
+                 : [{ name: c.title || '', data: c.data || [] }];
+    const horizontal = c.type === 'hbar';
+    const isLine = c.type === 'line';
 
-  // China balance sheet — horizontal bars showing each asset
-  charts.push(new Chart($('#chinaChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Share of world mainstream chips', "Share of world AI researchers", 'Share of global tech industry', 'Compute vs US (Jensen contests)', 'EUV access vs US (lithography gap)'],
-      datasets: [{
-        data: [60, 50, 40, 10, 1],
-        backgroundColor: [accent, accent2, '#5ea0ff', muted, accentMag],
-        borderRadius: 6, barThickness: 28
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => c.parsed.x + '%' } } },
-      scales: {
-        x: { grid: { color: line }, ticks: { color: muted, callback: v => v + '%' }, max: 100 },
-        y: { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } }
+    const datasets = series.map((s, si) => {
+      const base = {
+        label: s.name || '',
+        data: s.data || [],
+      };
+      if (isLine) {
+        return { ...base, borderColor: palette[si % palette.length],
+          backgroundColor: palette[si % palette.length] + '22', tension: 0.3,
+          fill: series.length === 1, pointRadius: 6,
+          pointBackgroundColor: palette[si % palette.length], pointBorderColor: ink, pointBorderWidth: 2 };
       }
-    }
-  }));
+      // bar / hbar: per-bar magenta for negatives when single-series, else palette per series
+      const color = series.length === 1
+        ? (ctx => { const val = horizontal ? ctx.parsed?.x : ctx.parsed?.y; return val < 0 ? accentMag : palette[si % palette.length]; })
+        : palette[si % palette.length];
+      return { ...base, backgroundColor: color, borderRadius: 6, barThickness: horizontal ? 22 : 28 };
+    });
+
+    const valScale = { grid: { color: line }, ticks: { color: muted, callback: v => fmt(v) } };
+    const catScale = { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } };
+
+    charts.push(new Chart($('#chart' + i), {
+      type: isLine ? 'line' : 'bar',
+      data: { labels: c.labels, datasets },
+      options: {
+        indexAxis: horizontal ? 'y' : 'x',
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: series.length > 1, labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
+          tooltip: { callbacks: { label: ctx => {
+            const v = horizontal ? ctx.parsed.x : ctx.parsed.y;
+            return (ctx.dataset.label ? ctx.dataset.label + ': ' : '') + fmt(v);
+          } } }
+        },
+        scales: horizontal
+          ? { x: valScale, y: catScale }
+          : { x: catScale, y: valScale }
+      }
+    }));
+  });
 }
 initCharts();
 </script>
