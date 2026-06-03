@@ -1,0 +1,353 @@
+{
+  "video": {
+    "id": "wkISIxb4v18",
+    "title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 2800,
+    "thumbnail": "https://i.ytimg.com/vi/wkISIxb4v18/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=wkISIxb4v18",
+    "upload_date": "2026-06-02",
+    "display_title_html": "Alphabet To Raise <em>$80B in Equity</em>, Anthropic Files For IPO"
+  },
+  "thesis": "A historic wave of AI-driven capital raising — Alphabet's $80B equity sale, and the SpaceX/Anthropic/OpenAI mega-IPO race — is testing whether public markets can absorb trillions in interdependent AI bets.",
+  "topics": [
+    "finance",
+    "ai",
+    "business"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech"
+    },
+    {
+      "start": 58,
+      "title": "Alphabet's $80B Equity Sale"
+    },
+    {
+      "start": 225,
+      "title": "Trump to Get Audit Immunity"
+    },
+    {
+      "start": 537,
+      "title": "Mega-IPOs: Investors Rethink Strategies"
+    },
+    {
+      "start": 830,
+      "title": "SpaceX Pushes Banks for Low IPO Fees"
+    },
+    {
+      "start": 1114,
+      "title": "Impulse Space CEO Tom Mueller"
+    },
+    {
+      "start": 1264,
+      "title": "SpaceX IPO will Herald 'True Space Age': Impulse Space"
+    },
+    {
+      "start": 1490,
+      "title": "Computex, AI Chips"
+    },
+    {
+      "start": 1661,
+      "title": "Perplexity AI CEO Aravind Srinivas"
+    },
+    {
+      "start": 2221,
+      "title": "HPE Stock Surges"
+    },
+    {
+      "start": 2384,
+      "title": "HPE CEO Antonio Neri"
+    },
+    {
+      "start": 2658,
+      "title": "White House AI Executive Order"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "Alphabet's $80B raise structured to limit dilution",
+      "body": "Alphabet's equity package splits into a $10B Berkshire Hathaway investment, $30B in public offerings, and a $40B at-the-market (ATM) program selling shares over time starting July 1st — one of the largest equity deals ever, funding AI CapEx.",
+      "start_seconds": 69,
+      "end_seconds": 113
+    },
+    {
+      "id": 2,
+      "category": "counterintuitive",
+      "headline": "Equity over debt signals extreme ROI confidence",
+      "body": "BI's Robert Shiffman notes weighted-average-cost-of-capital math says issue debt, yet Alphabet is raising equity — and getting Berkshire's backing — implying such confidence in AI investment returns that they want a massive 'kitty' regardless of cost.",
+      "start_seconds": 142,
+      "end_seconds": 168
+    },
+    {
+      "id": 3,
+      "category": "data-point",
+      "headline": "Hyperscaler CapEx headed to $5 trillion over five years",
+      "body": "Shiffman estimates the biggest hyperscalers will spend ~$800B cumulatively this year, over $1 trillion next year, and $5 trillion over five years; Alphabet's own CapEx could hit $300B next year versus ~$190B now.",
+      "start_seconds": 256,
+      "end_seconds": 296
+    },
+    {
+      "id": 4,
+      "category": "story",
+      "headline": "Anthropic files confidentially, beating OpenAI to IPO",
+      "body": "Anthropic submitted a draft S-1, pulling ahead of OpenAI, which is expected to file within weeks. Sam Altman said OpenAI will go public 'when it feels like it,' not before ready. Going first could set the narrative.",
+      "start_seconds": 339,
+      "end_seconds": 474
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "Anthropic at $47B annualized revenue run-rate",
+      "body": "Anthropic's run-rate revenue projection hit ~$47B, with the CEO citing an 80x increase in that projection in the first quarter year-over-year — extreme growth paired with still-high costs.",
+      "start_seconds": 396,
+      "end_seconds": 432
+    },
+    {
+      "id": 6,
+      "category": "data-point",
+      "headline": "Mega-IPOs exceed a decade of VC listings",
+      "body": "PitchBook's Emily Jang: past 10 years of US VC-backed public listings total $1.5T; SpaceX alone ($75B) would exceed that decade figure, and OpenAI plus Anthropic target a combined ~$100B — more than all IPO proceeds raised in the past decade.",
+      "start_seconds": 550,
+      "end_seconds": 596
+    },
+    {
+      "id": 7,
+      "category": "mental-model",
+      "headline": "AI's circular dependency is the systemic risk",
+      "body": "Anthropic pays SpaceX ~$1.25B/month for compute while relying on Google/Amazon; 30% of US VC-backed startups are AI-native or adjacent. Interdependent cap tables and pricing mean one flop could cascade across the whole market.",
+      "start_seconds": 632,
+      "end_seconds": 715
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "SpaceX squeezing record-low bank underwriting fees",
+      "body": "SpaceX is negotiating below 0.75% on its $75B IPO — among the lowest ever. Split across 20+ banks that's ~$500M; Morgan Stanley and Goldman lead. Banks accept thin fees to attach their names to a historic deal and future pipeline.",
+      "start_seconds": 794,
+      "end_seconds": 902
+    },
+    {
+      "id": 9,
+      "category": "definition",
+      "headline": "Space tugs: the highways from low orbit outward",
+      "body": "Impulse Space's Tom Mueller (SpaceX employee #1) builds 'space tugs' that take over where launch ends. Its Helios vehicle — 'a rocket on a rocket' — reaches geosynchronous orbit in one day versus months for normal transfer orbits.",
+      "start_seconds": 1030,
+      "end_seconds": 1103
+    },
+    {
+      "id": 10,
+      "category": "framework",
+      "headline": "Perplexity's hybrid local-cloud inference orchestrator",
+      "body": "Aravind Srinivas describes a chip-agnostic OS-like layer that routes each AI workload between local device and cloud frontier models based on privacy, accuracy, intelligence, and cost — optimizing 'token value per watt per user' rather than centralizing all compute.",
+      "start_seconds": 1556,
+      "end_seconds": 1606
+    },
+    {
+      "id": 11,
+      "category": "counterintuitive",
+      "headline": "Perplexity optimizes retention, not engagement time",
+      "body": "Srinivas says accurate first-turn answers shorten sessions, so Perplexity measures repeat research uses instead. Subscription mix shifted from 9:91 to ~30:70 toward the $200/month Max plan — power users paying ~$2,000/year out of pocket.",
+      "start_seconds": 1788,
+      "end_seconds": 1844
+    },
+    {
+      "id": 12,
+      "category": "data-point",
+      "headline": "HPE raises guidance, pulls 2028 outlook forward two years",
+      "body": "HPE stock surged ~21% to a record, adding ~$13B in market cap, on sales forecast up to 33% and EPS midpoint of $3.40 ($1 higher). Networking is now an $11B business; orders rose triple digits in servers, storage, and private cloud.",
+      "start_seconds": 2141,
+      "end_seconds": 2333
+    },
+    {
+      "id": 13,
+      "category": "framework",
+      "headline": "Memory needs shared risk, not just chipmakers",
+      "body": "ARM CEO Rene Haas argues asking public firms like Micron to bear all memory-capacity risk is unsustainable; expect novel models — hyperscalers investing in fabs, equity partnerships for secure supply — plus government support to smooth boom-bust cycles.",
+      "start_seconds": 2002,
+      "end_seconds": 2120
+    },
+    {
+      "id": 14,
+      "category": "story",
+      "headline": "White House AI order: voluntary, classified model vetting",
+      "body": "Trump's AI executive order has the government work voluntarily with developers to access frontier models and assess cybersecurity risk, vetted by cleared experts in a top-secret process — released the same day Anthropic widened access to its 'mythos' model.",
+      "start_seconds": 2658,
+      "end_seconds": 2773
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Put the beer away. Technology companies are popping champagne bottles right now. I've never been more bullish on the tech sector.",
+      "speaker": "Robert Shiffman",
+      "start_seconds": 142
+    },
+    {
+      "text": "The pool is open for raising capital, whether it's equity, public debt, private debt, currencies across the globe. Everyone wants to have a piece of AI.",
+      "speaker": "Robert Shiffman",
+      "start_seconds": 256
+    },
+    {
+      "text": "SpaceX alone would be greater than that decade-long figure.",
+      "speaker": "Emily Jang",
+      "start_seconds": 550
+    },
+    {
+      "text": "Some people are spending half a billion dollars per month per engineer. What you actually want is efficient token value per watt per user.",
+      "speaker": "Aravind Srinivas",
+      "start_seconds": 1572
+    },
+    {
+      "text": "Nobody has any copyright over truth and facts.",
+      "speaker": "Aravind Srinivas",
+      "start_seconds": 1936
+    },
+    {
+      "text": "I think the true space age is starting now.",
+      "speaker": "Tom Mueller",
+      "start_seconds": 1185
+    }
+  ],
+  "resources": [
+    {
+      "name": "Robert Shiffman",
+      "context": "Bloomberg Intelligence analyst on hyperscaler funding and CapEx"
+    },
+    {
+      "name": "Shereen Ghaffari",
+      "context": "Bloomberg AI reporter on the Anthropic confidential filing"
+    },
+    {
+      "name": "Emily Jang (PitchBook)",
+      "context": "VC research analyst quantifying the mega-IPO wall of equity"
+    },
+    {
+      "name": "Catherine Doherty",
+      "context": "Bloomberg finance reporter on SpaceX's low IPO bank fees"
+    },
+    {
+      "name": "Tom Mueller (Impulse Space)",
+      "context": "SpaceX employee #1 on space tugs and the space economy"
+    },
+    {
+      "name": "Aravind Srinivas (Perplexity)",
+      "context": "CEO on hybrid local/cloud inference orchestrator"
+    },
+    {
+      "name": "Antonio Neri (HPE)",
+      "context": "CEO on AI-infrastructure demand driving record results"
+    },
+    {
+      "name": "Rene Haas (ARM)",
+      "context": "CEO on memory shortages and shared-risk supply models"
+    },
+    {
+      "name": "Ian King",
+      "context": "Bloomberg semiconductor reporter on Computex"
+    },
+    {
+      "name": "Mike Shepard",
+      "context": "Bloomberg senior tech editor on the White House AI executive order"
+    }
+  ],
+  "action_items": [
+    "If you take one thing from this, watch the SpaceX June 11th IPO as the bellwether — its reception likely decides whether Anthropic and OpenAI list in 2026 or wait out the volatility.",
+    "Map AI exposure for circular dependency, not just direct bets: Anthropic pays SpaceX ~$1.25B/month and relies on Google/Amazon, so a single flop can ripple across interlinked cap tables.",
+    "For AI infrastructure, treat orchestration (local vs. cloud routing) as the cost lever — optimize token value per watt per user rather than running everything through frontier models."
+  ],
+  "stats": [
+    {
+      "label": "Alphabet equity raise",
+      "val": "$80B",
+      "unit": "",
+      "sub": "$10B Berkshire + $30B public offering + $40B ATM program from July 1."
+    },
+    {
+      "label": "Anthropic run-rate",
+      "val": "$47B",
+      "unit": "annualized",
+      "sub": "Run-rate revenue projection, up 80x quarter-over-quarter per the CEO."
+    },
+    {
+      "label": "SpaceX IPO bank fee",
+      "val": "<0.75%",
+      "unit": "of $75B",
+      "sub": "Among the lowest ever — roughly $500M split across 20+ banks."
+    },
+    {
+      "label": "Hyperscaler CapEx",
+      "val": "$5T",
+      "unit": "/ 5y",
+      "sub": "BI's Shiffman: ~$800B this year, $1T+ next, $5T over five years."
+    }
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Alphabet's $80B equity package",
+      "sub": "How the raise is structured to spread sources and limit dilution",
+      "caption": "Source: Bloomberg Tech hosts · 01:24",
+      "unit": "$B",
+      "labels": [
+        "Berkshire investment",
+        "Public offerings",
+        "ATM program"
+      ],
+      "series": [
+        {
+          "name": "Amount ($B)",
+          "data": [
+            10,
+            30,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hbar",
+      "title": "Mega-IPO proceeds vs. a decade of VC listings",
+      "sub": "Targeted raises dwarf 10 years of US VC-backed public listings",
+      "caption": "Source: Emily Jang, PitchBook · 09:10",
+      "unit": "$B",
+      "labels": [
+        "10yr VC-backed listings",
+        "SpaceX",
+        "OpenAI + Anthropic"
+      ],
+      "series": [
+        {
+          "name": "Proceeds ($B)",
+          "data": [
+            1500,
+            75,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "title": "Hyperscaler annual AI CapEx trajectory",
+      "sub": "Combined spending on a multi-trillion-dollar path",
+      "caption": "Source: Robert Shiffman, Bloomberg Intelligence · 04:16",
+      "unit": "$B",
+      "labels": [
+        "This year",
+        "Next year"
+      ],
+      "series": [
+        {
+          "name": "Cumulative hyperscaler CapEx ($B)",
+          "data": [
+            800,
+            1000
+          ]
+        }
+      ]
+    }
+  ]
+}

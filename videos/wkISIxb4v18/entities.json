@@ -1,0 +1,367 @@
+{
+  "video_id": "wkISIxb4v18",
+  "people": [
+    {
+      "name": "Caroline Hyde",
+      "role": "Bloomberg Tech anchor",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 5,
+      "context": "Co-host in New York"
+    },
+    {
+      "name": "Ed Ludlow",
+      "role": "Bloomberg Tech anchor",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 5,
+      "context": "Co-host in San Francisco"
+    },
+    {
+      "name": "Robert Shiffman",
+      "role": "Bloomberg Intelligence analyst",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 114,
+      "context": "Bullish hyperscaler funding and CapEx analysis"
+    },
+    {
+      "name": "Shereen Ghaffari",
+      "role": "Bloomberg AI reporter",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 339,
+      "context": "Covered Anthropic's confidential IPO filing"
+    },
+    {
+      "name": "Emily Jang",
+      "role": "PitchBook senior VC research analyst",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 538,
+      "context": "Quantified the mega-IPO wall of equity"
+    },
+    {
+      "name": "Catherine Doherty",
+      "role": "Bloomberg finance reporter",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 830,
+      "context": "Reported SpaceX's low IPO bank fees"
+    },
+    {
+      "name": "Tom Mueller",
+      "role": "Impulse Space founder & CEO",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 1114,
+      "context": "SpaceX employee #1; space tugs and propulsion"
+    },
+    {
+      "name": "Aravind Srinivas",
+      "role": "Perplexity CEO",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 1661,
+      "context": "Hybrid local/cloud inference orchestrator"
+    },
+    {
+      "name": "Antonio Neri",
+      "role": "HPE President & CEO",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 2185,
+      "context": "Record quarter on AI infrastructure demand"
+    },
+    {
+      "name": "Rene Haas",
+      "role": "ARM CEO",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 1980,
+      "context": "Memory shortage and shared-risk supply models"
+    },
+    {
+      "name": "Ian King",
+      "role": "Bloomberg semiconductor reporter",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 1490,
+      "context": "Computex coverage"
+    },
+    {
+      "name": "Mike Shepard",
+      "role": "Bloomberg senior tech editor",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 2658,
+      "context": "White House AI executive order"
+    },
+    {
+      "name": "Stephen Engel",
+      "role": "Bloomberg reporter",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1960,
+      "context": "Interviewed Rene Haas at Computex"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "OpenAI CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 400,
+      "context": "Said OpenAI will IPO when ready"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "SpaceX CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 25,
+      "context": "Negotiating thin IPO bank fees"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "Nvidia CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1397,
+      "context": "Called Marvell the next trillion-dollar company at Computex"
+    },
+    {
+      "name": "Donald Trump",
+      "role": "US President",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 188,
+      "context": "Audit immunity report; AI executive order"
+    },
+    {
+      "name": "Guy Rosen",
+      "role": "Meta CISO (departing)",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 503,
+      "context": "Oversaw election integrity; leaving Meta"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Alphabet",
+      "mentions": 6,
+      "first_seconds": 41,
+      "context": "Raising $80B in equity for AI CapEx"
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 8,
+      "first_seconds": 15,
+      "context": "Confidential IPO filing; $47B run-rate"
+    },
+    {
+      "name": "SpaceX",
+      "mentions": 9,
+      "first_seconds": 25,
+      "context": "$75B IPO, pricing June 11th"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 4,
+      "first_seconds": 470,
+      "context": "Expected to file IPO within weeks"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "mentions": 2,
+      "first_seconds": 84,
+      "context": "$10B investment in Alphabet raise"
+    },
+    {
+      "name": "Perplexity",
+      "mentions": 4,
+      "first_seconds": 1545,
+      "context": "Hybrid inference orchestrator; revenue tripled, $500M+"
+    },
+    {
+      "name": "HPE",
+      "mentions": 4,
+      "first_seconds": 32,
+      "context": "Record quarter, stock up ~21% on AI demand"
+    },
+    {
+      "name": "ARM",
+      "mentions": 1,
+      "first_seconds": 2125,
+      "context": "CEO on memory shortage and shared risk"
+    },
+    {
+      "name": "Nvidia",
+      "mentions": 3,
+      "first_seconds": 1397,
+      "context": "Computex announcements; RTX local inference"
+    },
+    {
+      "name": "Intel",
+      "mentions": 3,
+      "first_seconds": 1513,
+      "context": "Partnered with Perplexity on orchestrator demo"
+    },
+    {
+      "name": "SK Hynix",
+      "mentions": 2,
+      "first_seconds": 1514,
+      "context": "Pledged to double memory capacity amid shortage"
+    },
+    {
+      "name": "Morgan Stanley",
+      "mentions": 1,
+      "first_seconds": 813,
+      "context": "Lead bank on SpaceX IPO"
+    },
+    {
+      "name": "Goldman Sachs",
+      "mentions": 1,
+      "first_seconds": 813,
+      "context": "Lead bank on SpaceX IPO"
+    },
+    {
+      "name": "Impulse Space",
+      "mentions": 3,
+      "first_seconds": 1066,
+      "context": "$4B valuation, $500M raise for space tugs"
+    },
+    {
+      "name": "Micron",
+      "mentions": 2,
+      "first_seconds": 2057,
+      "context": "Memory maker cited on shared-risk supply"
+    },
+    {
+      "name": "Samsung",
+      "mentions": 1,
+      "first_seconds": 2057,
+      "context": "Memory maker encouraged to expand US capacity"
+    },
+    {
+      "name": "Tencent",
+      "mentions": 1,
+      "first_seconds": 1369,
+      "context": "Up 11% on AI-agent WeChat report"
+    },
+    {
+      "name": "Anduril",
+      "mentions": 1,
+      "first_seconds": 1280,
+      "context": "Space-based interceptor work with Impulse"
+    },
+    {
+      "name": "Oracle",
+      "mentions": 1,
+      "first_seconds": 285,
+      "context": "Earlier $25B equity issuance precedent"
+    },
+    {
+      "name": "Marvell",
+      "mentions": 1,
+      "first_seconds": 1397,
+      "context": "Stock up ~30% after Jensen Huang comment"
+    },
+    {
+      "name": "Meta",
+      "mentions": 1,
+      "first_seconds": 503,
+      "context": "CISO Guy Rosen departing"
+    },
+    {
+      "name": "CNN",
+      "mentions": 1,
+      "first_seconds": 1925,
+      "context": "Filed copyright lawsuit against Perplexity"
+    },
+    {
+      "name": "xAI",
+      "mentions": 1,
+      "first_seconds": 443,
+      "context": "Makes SpaceX an AI company via XAI"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "At-the-market (ATM) program",
+      "type": "financing mechanism",
+      "first_seconds": 88,
+      "context": "$40B portion of Alphabet's raise, selling shares over time from Q3"
+    },
+    {
+      "name": "Helios",
+      "type": "high-energy space vehicle",
+      "first_seconds": 1076,
+      "context": "Impulse 'rocket on a rocket' reaching GEO in one day"
+    },
+    {
+      "name": "Mira / Miracraft",
+      "type": "space tug",
+      "first_seconds": 1130,
+      "context": "Impulse spacecraft, three missions since Nov 2025"
+    },
+    {
+      "name": "Perplexity hybrid orchestrator",
+      "type": "inference software/OS",
+      "first_seconds": 1545,
+      "context": "Routes workloads local vs cloud; chip- and model-agnostic"
+    },
+    {
+      "name": "Max plan",
+      "type": "subscription tier",
+      "first_seconds": 1788,
+      "context": "$200/month Perplexity plan growing in mix"
+    },
+    {
+      "name": "Mythos",
+      "type": "AI model",
+      "first_seconds": 2723,
+      "context": "Anthropic model with cybersecurity capabilities, widened to 150+ orgs"
+    },
+    {
+      "name": "Nvidia RTX",
+      "type": "GPU",
+      "first_seconds": 1600,
+      "context": "Local inference target for Perplexity orchestrator"
+    },
+    {
+      "name": "Golden Dome",
+      "type": "defense program",
+      "first_seconds": 1265,
+      "context": "US missile-defense initiative tied to space tech"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Weighted average cost of capital",
+      "first_seconds": 142,
+      "context": "Math says issue debt; Alphabet's equity raise defies it on ROI confidence"
+    },
+    {
+      "name": "AI circularity risk",
+      "first_seconds": 632,
+      "context": "Interlinked compute payments and cap tables across AI firms"
+    },
+    {
+      "name": "Token value per watt per user",
+      "first_seconds": 1572,
+      "context": "Perplexity's efficiency metric over centralized frontier compute"
+    },
+    {
+      "name": "Shared risk supply model",
+      "first_seconds": 2090,
+      "context": "ARM's idea that hyperscalers/government share memory capacity risk"
+    },
+    {
+      "name": "Enterprise AI super cycle vs structural shift",
+      "first_seconds": 2480,
+      "context": "Neri argues agentic AI is a structural change, not just a cycle"
+    }
+  ],
+  "books_papers": []
+}

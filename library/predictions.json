@@ -55,6 +55,24 @@
       "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=110s"
     },
     {
+      "id": "wkISIxb4v18-p8",
+      "claim": "The White House will select trusted AI partners within 60 days under the new executive order.",
+      "speaker": "Mike Shepard (reporting order terms)",
+      "category": "macro",
+      "start_seconds": 2658,
+      "stated_at": "2026-06-02",
+      "horizon_label": "60 days",
+      "revisit_dates": [
+        "2026-08-01"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=2658s"
+    },
+    {
       "id": "10MdOvK-aG4-p4",
       "claim": "Within three to six months, all major frontier labs\u2014including Chinese and open-source models\u2014will have Mythos-level cyber capabilities.",
       "speaker": "David Sachs",
@@ -257,6 +275,24 @@
       "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
       "channel": "All-In Podcast",
       "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1462s"
+    },
+    {
+      "id": "wkISIxb4v18-p3",
+      "claim": "If the SpaceX IPO flops, Anthropic may delay its public offering until volatility eases.",
+      "speaker": "Emily Jang",
+      "category": "finance",
+      "start_seconds": 632,
+      "stated_at": "2026-06-02",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": "SpaceX prices June 11th, 2026",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=632s"
     },
     {
       "id": "wVKL_SpY2Uc-p2",
@@ -647,6 +683,43 @@
       "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1700s"
     },
     {
+      "id": "wkISIxb4v18-p1",
+      "claim": "Hyperscalers will spend over $1 trillion on CapEx next year and ~$5 trillion over the next five years.",
+      "speaker": "Robert Shiffman",
+      "category": "business",
+      "start_seconds": 256,
+      "stated_at": "2026-06-02",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2027-06-02",
+        "2031-06-02"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=256s"
+    },
+    {
+      "id": "wkISIxb4v18-p4",
+      "claim": "Stock buybacks among big tech will fall further over the next year as companies prioritize equity issuance and AI spending.",
+      "speaker": "Robert Shiffman",
+      "category": "finance",
+      "start_seconds": 282,
+      "stated_at": "2026-06-02",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-06-02"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=282s"
+    },
+    {
       "id": "5eqRuVp65eY-p3",
       "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
       "speaker": "Welch",
@@ -700,6 +773,42 @@
       "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
       "channel": "Dwarkesh Patel",
       "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5560s"
+    },
+    {
+      "id": "wkISIxb4v18-p2",
+      "claim": "Alphabet could spend as much as $300 billion on CapEx next year.",
+      "speaker": "Robert Shiffman (citing BI equity team)",
+      "category": "business",
+      "start_seconds": 296,
+      "stated_at": "2026-06-02",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=296s"
+    },
+    {
+      "id": "wkISIxb4v18-p6",
+      "claim": "Impulse Space's Helios high-energy vehicle will be flying in 2027.",
+      "speaker": "Caroline Hyde / Tom Mueller",
+      "category": "tech",
+      "start_seconds": 1130,
+      "stated_at": "2026-06-02",
+      "horizon_label": "by 2027",
+      "revisit_dates": [
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1130s"
     },
     {
       "id": "Hrbq66XqtCo-p1",
@@ -1125,6 +1234,24 @@
       "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=863s"
     },
     {
+      "id": "wkISIxb4v18-p7",
+      "claim": "Demand for memory and compute could keep growing for years, longer than historically seen, and may stay short past 2030.",
+      "speaker": "Rene Haas",
+      "category": "tech",
+      "start_seconds": 1960,
+      "stated_at": "2026-06-02",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2030-06-02"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1960s"
+    },
+    {
       "id": "21EYKqUsPfg-p1",
       "claim": "LLMs will be superseded by systems that learn directly from experience rather than from human-generated text, repeating the historical pattern of the Bitter Lesson.",
       "speaker": "Richard Sutton",
@@ -1325,6 +1452,24 @@
       "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
       "channel": "Bloomberg Technology",
       "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1610s"
+    },
+    {
+      "id": "wkISIxb4v18-p5",
+      "claim": "The space economy will grow from a single-digit share of global GDP to the biggest sector, outpacing all others.",
+      "speaker": "Tom Mueller",
+      "category": "macro",
+      "start_seconds": 1217,
+      "stated_at": "2026-06-02",
+      "horizon_label": "indefinite / multi-decade",
+      "revisit_dates": [
+        "2036-06-02"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "wkISIxb4v18",
+      "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1217s"
     }
   ],
   "validated": []

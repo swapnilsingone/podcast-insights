@@ -1,0 +1,692 @@
+[
+  {
+    "t": 5.058,
+    "speaker": "SPEAKER_00",
+    "text": "Bloomberg Tech is live from coast to coast with Caroline Hyde in New York and Ed Lovelow in San Francisco."
+  },
+  {
+    "t": 15.82,
+    "speaker": "SPEAKER_11",
+    "text": "This is Bloomberg Tech. Coming up, AI's money race. Alphabet will raise $80 billion while Amthropic makes its IPO move. The confidential filing is in at the SEC."
+  },
+  {
+    "t": 25.383,
+    "speaker": "SPEAKER_10",
+    "text": "Plus, Elon Musk's SpaceX is negotiating to pay razor-thin fees to Wall Street firms handling its IPO."
+  },
+  {
+    "t": 32.66,
+    "speaker": "SPEAKER_11",
+    "text": "And HPE soars after its annual sales outlook beat estimates on the back of massive demand for AI infrastructure. We'll be joined by CEO Antonio Neri."
+  },
+  {
+    "t": 41.986,
+    "speaker": "SPEAKER_10",
+    "text": "But there is so much going on in the meantime. And we start the show off with today's big number, Ed. It's $80 billion. Look, Alphabet sees that $75 billion being raised by SpaceX in its IPO and just says, well, hold my beer. I'm going to do $80 billion. We're seeing it being distributed in really novel ways, maybe trying to limit some of that dilution and more broadly. But $80 billion in future equity raised to finance AI infrastructure does have an impact on the stock."
+  },
+  {
+    "t": 69.366,
+    "speaker": "SPEAKER_10",
+    "text": "Now we're going to have a little look at how we currently are seeing shares of Alphabet slightly under pressure on the day, but only slightly. We're down by nine tenths percent. We've actually come off of our lows amid what has been some anxiety in the market more broadly. But dig into what this equity issuance really is."
+  },
+  {
+    "t": 84.564,
+    "speaker": "SPEAKER_11",
+    "text": "Yeah, here's what we need to know about the package. It includes a $10 billion Berkshire Hathaway investment, $30 billion in public offerings, and then a $40 billion so-called at-the-market program, ATM, to sell shares from time to time beginning in the third quarter. That means starting on July 1st. Together, the transactions represent one of the largest equity deals of all time. And basically, it's just a capital expenditures story. We know from Alphabet this is how much CapEx will be this year, and we know that it's going to go up, and BI has an even bigger number."
+  },
+  {
+    "t": 114.698,
+    "speaker": "SPEAKER_10",
+    "text": "It does. Let's get into what BI is all about. Bloomberg intelligence analyst Robert Shiffman is joining us, who has analysis out on this today, saying this raise marks an important funding signal for hyperscalers as infrastructure spending moves along a multi-trillion dollar path. They'd already raised $85 billion, Robert, in the credit market, and now they turn to the equity market. What does it mean more broadly for the size of the money that is needed by hyperscalers?"
+  },
+  {
+    "t": 142.999,
+    "speaker": "SPEAKER_05",
+    "text": "Yeah, well, put the beer away. Technology companies are popping champagne bottles right now. Listen, I've come on this show time and time again and said I've never been more bullish on the tech sector. And I think this move is wildly bullish to get such a boost of confidence from, you know, arguably the world's greatest investor in Berkshire Hathaway to go against all everything I've learned in math camp, where the weighted average cost of capital suggests you're supposed to be issuing more debt."
+  },
+  {
+    "t": 169.274,
+    "speaker": "SPEAKER_05",
+    "text": "And instead, obviously, Alphabet is so confident in ROIs on their investments. To be able to raise this much money, to have this big of a kitty, certainly suggests that spending this year, they said, was going to go up significantly. Our friends on the equity team are saying they might spend as much as $300 billion next year on CapEx."
+  },
+  {
+    "t": 188.993,
+    "speaker": "SPEAKER_11",
+    "text": "Robert, stay with us. We have some breaking news crossing the Bloomberg terminal. Red headline, Trump to get audit immunity even as $1.8 billion fund in doubt. Basically, U.S. officials are continuing with this agreement that bars the government from probing past tax filings of President Trump and his businesses. This is Bloomberg reporting according to a source. There is a plan to set up an anti-weaponization fund that's now on hold. We're going to bring you more details of that story as we get it."
+  },
+  {
+    "t": 218.826,
+    "speaker": "SPEAKER_11",
+    "text": "But coming from Bloomberg virus source, Trump to get audit immunity, even as a 1.8 billion fund is now in doubt. Let's get back to our top story. Alphabet raising $800 billion in equity to raise in different structures. What you just said is so important because Alphabet has held our hand on this a little bit. So capital expenditure, $190 billion in the current period of the year. They said it would be higher, you know, going into 27."
+  },
+  {
+    "t": 245.562,
+    "speaker": "SPEAKER_11",
+    "text": "You just referenced the BI number, which is like CapEx could be $300 billion for a year. Am I right? Am I misspeaking? That sounds crazy."
+  },
+  {
+    "t": 256.316,
+    "speaker": "SPEAKER_05",
+    "text": "Listen, the biggest hyperscalers are spending close to $800 billion cumulatively this year. I think it's going to be well over a trillion next year and $5 trillion over the next five years. So they're sort of searching the globe for all different sources of capital. The It's summertime. The pool is open for raising capital, whether it's equity, public debt, private debt, currencies across the globe. Everyone wants to have a little bit, a piece of AI. And this is the way to get it."
+  },
+  {
+    "t": 284.156,
+    "speaker": "SPEAKER_05",
+    "text": "Again, I think it's so bullish because there's so much capital on the sidelines that's willing to fund this. The beauty of issuing equity here, it's actually not the first time somebody's done it. Oracle did this earlier in the year, saying they were going to issue $25 billion of equity. It's super positive, obviously, from a credit perspective. It helps create and protect healthy balance sheets. I think going forward, what it also means are stock buybacks are going to be lower. You're not going to be issuing $80 billion of stock and then start buying stock back any time."
+  },
+  {
+    "t": 311.851,
+    "speaker": "SPEAKER_05",
+    "text": "We've actually already start to see slowdowns in stock buybacks. And I think over the next year, you're going to see more of that. And you might see more equity issuance. And part of that is because spending is going so much higher. And I think it's because the confidence level in monetization of AI is finally coming to fruition And we saw that in first quarter results."
+  },
+  {
+    "t": 329.945,
+    "speaker": "SPEAKER_11",
+    "text": "I think I misspoke a second ago and said 800 billion, but they will raise 80, 80 billion still. Big numbers. Robert Schiffman of Bloomberg Intelligence. Thank you. This is about a race for capital. Our other top story, Anthropic, has confidentially filed to go public, pulling ahead of rival OpenAI in the IPO race. More, let's speak with Bloomberg's AI reporter, Shereen Ghaffari."
+  },
+  {
+    "t": 351.93,
+    "speaker": "SPEAKER_11",
+    "text": "yeah yesterday was wild right and the confidential filing the anthropic blog post announcing it there's nothing in there no price range no terms of the offering so there's a lot we don't know try and tell us what we do know at this point"
+  },
+  {
+    "t": 367.622,
+    "speaker": "SPEAKER_09",
+    "text": "that's right so it's sort of details because it is a confidential filing and the financials are not public however and topic has as of yesterday submitted on a draft s one to go public i'm pulling ahead of opening i which is also expected to i'd be filing as soon as in the coming weeks uh... ceo sam all men uh... reacted to that in the interview yesterday and saying that uh... in a company will go public when it more or less when it"
+  },
+  {
+    "t": 396.13,
+    "speaker": "SPEAKER_09",
+    "text": "feels like it or when it wants to and not sort of before it's ready. So still some uncertainty about when exactly Anthropic's competitor will. And Anthropic has now pulled ahead to be the first to pull that trigger with the filing. That being said, what do we know about Anthropic? Well, its revenue has been growing at rapid pace. It's now reached an annualized run rate revenue projection of $47 billion in annual revenue. There's been the..."
+  },
+  {
+    "t": 422.02,
+    "speaker": "SPEAKER_09",
+    "text": "CEO has said that they had an 80x increase in that kind of projection in the first quarter compared to the on an annual basis. So extreme revenue growth, but also still high cost."
+  },
+  {
+    "t": 433.03,
+    "speaker": "SPEAKER_10",
+    "text": "It does feel like the momentum, the wind is behind Anthropic at this point. Should we be, though, thinking of it as some sort of race to go public? That seems to be a lot of the narrative."
+  },
+  {
+    "t": 444.244,
+    "speaker": "SPEAKER_09",
+    "text": "I think there's no denying that you have three major AI firms, SpaceX, which now is an AI company because of XAI, and then OpenAI and Anthropic, all talking about going public or planning to in the span of several months and some of the filings here happening within weeks. So I think it's undeniable that there is this race dynamic, much like there is with their technical products. And of course, going first could help set the narrative."
+  },
+  {
+    "t": 474.274,
+    "speaker": "SPEAKER_09",
+    "text": "Some are questioning how much money Wall Street has to devote to these AI stocks and will the firms who go earlier absorb more of that. That being said, there's also a lot of pent up demand for getting in on the AI boom. These companies, the core AI only companies in Gen AI have not been public until now. So it remains to be seen how much of an advantage there is to going first. But there certainly is this competitive dynamic in the IPO discussion right now."
+  },
+  {
+    "t": 503.368,
+    "speaker": "SPEAKER_10",
+    "text": "Great to have your analysis. Thanks so much for coming on. Now some news crossing the terminal that Guy Rosen, his Meta's chief information security officer, or was, previously oversaw the company's election integrity work. He's departing in the coming months. Now, it's all according to an internal post reviewed by Bloomberg. Meta has begun a search for his replacement, the post said, and Rosen will stay at the company in the meantime. But let's get back to those... IPOs to the so-called race, the frenzy. Emily is hanging with us."
+  },
+  {
+    "t": 530.496,
+    "speaker": "SPEAKER_10",
+    "text": "She is the senior venture capital research analyst over at PitchBook. Emily, is there a risk that oxygen is being sucked out of the room? The fact that we've got all of these mega IPOs. Just tell us the numbers that you've crunched of just how significant the wall of new equity coming to this market is."
+  },
+  {
+    "t": 550.159,
+    "speaker": "SPEAKER_07",
+    "text": "Yes, we're really in uncharted territory. Just for context, looking at the past 10 years, it's $1.5 trillion in terms of all of the US VC-backed public listings. And SpaceX alone would be greater than that decade-long figure. And in terms of the number of IPO proceeds that are being raised, SpaceX is looking at $75 billion. OpenAI and Anthropic are looking at a combined $100 billion."
+  },
+  {
+    "t": 576.424,
+    "speaker": "SPEAKER_07",
+    "text": "And that is, again, greater than all the IPO proceeds that have been raised in the past decade. So really, we're in uncharted territory in terms of how gargantuan these mega IPOs are."
+  },
+  {
+    "t": 589.545,
+    "speaker": "SPEAKER_11",
+    "text": "What I find interesting about this is it could all happen at the same time. So what Shireen did was recap what we know. The S1 is in confidentially from Anthropic. SpaceX will price June 11th, trade soon after. Maybe OpenAI goes in September. Is it possible for all of that to happen in the balance of 2026?"
+  },
+  {
+    "t": 613.454,
+    "speaker": "SPEAKER_07",
+    "text": "No, that's a really good question. And I think, like Sheree mentioned, there is a lot of pent-up demand, but it's also such a big number. And I think all eyes will really be on the SpaceX IPO to see how that demand actually plays out and if it actually has substance. Because if the SpaceX IPO flops, then potentially Anthropic might wait until later to go public until the volatility evens out."
+  },
+  {
+    "t": 642.636,
+    "speaker": "SPEAKER_07",
+    "text": "A confidential filing is one necessary step to going public, but it's not necessarily a guarantee that it will happen in the next few months or even the next year."
+  },
+  {
+    "t": 652.465,
+    "speaker": "SPEAKER_10",
+    "text": "What's so interesting is we're almost coming back to this circularity issue. Now you think about how anthropic is paying one point two five billion dollars per month to SpaceX for compute. Then when we really get the documented files that are currently just private to us and to the SEC at the moment the SEC has got its hands on the filing coming. from Anthropic. Eventually, when we understand and look at them, we'll see how much they're reliant on Google or on Amazon. How much is this a worry for investors?"
+  },
+  {
+    "t": 681.788,
+    "speaker": "SPEAKER_10",
+    "text": "How much could this be an impact for those VC investors who are also invested in many of the same names?"
+  },
+  {
+    "t": 688.082,
+    "speaker": "SPEAKER_07",
+    "text": "Yes, the AI cycle is so interconnected and also on top of that, 30 percent of USBC backed startups are AI native or AI adjacent. All eyes are really emphasizing trying to see if this AI evaluations and these pricings are able to be upheld because So much of the market is interdependent and also depending on this technology to move forward and eventually become profitable."
+  },
+  {
+    "t": 715.432,
+    "speaker": "SPEAKER_07",
+    "text": "So I think this is really the big question for VC right now. And that's why there's so much emphasis on these big names and these upcoming listings."
+  },
+  {
+    "t": 725.345,
+    "speaker": "SPEAKER_11",
+    "text": "Emily, it's more than that. It's not just the commonalities on the cap tables, SpaceX, Anthropic OpenAI. They're all pitching the same thing. Is there any precedent in history that gives us a warning signal about that? Three companies trying to occupy the same lane?"
+  },
+  {
+    "t": 741.478,
+    "speaker": "SPEAKER_07",
+    "text": "Oh, that's a really interesting question. And I feel like... In terms of something like such a transformative technology that hasn't seen something in the public markets, I don't think we've had such a similar precedent. And that's why I think this day and age is really, really interesting to see how these mega listings will play out."
+  },
+  {
+    "t": 765.143,
+    "speaker": "SPEAKER_11",
+    "text": "Pitchbooks, Emily Jang, great to have you on the program. Thank you very much. Now coming up, Elon Musk's SpaceX is shooting for the moon with the biggest IPO ever. But when it comes to the banks, Musk keeping their fees in low Earth orbit. We're going to have the details next. This is Bloomberg Tech."
+  },
+  {
+    "t": 794.208,
+    "speaker": "SPEAKER_10",
+    "text": "Elon Musk's SpaceX. Well, it's negotiating to pay one of the lowest ever underwriting fees and what is expected to be the largest ever IPO. Sources say the company is aiming at a rate less than 0.75% for the $75 billion it aims to raise. Let's get more. Bloomberg Finance reporter Kevin Daugherty. Is the idea here that 0.75 percent of 75 million is still quite a lot of money?"
+  },
+  {
+    "t": 816.223,
+    "speaker": "SPEAKER_08",
+    "text": "That's right. I mean, split among 20 plus banks, it's 500 million. So if you're really going to think about Morgan Stanley and Goldman Sachs, who are leading. this IPO, they're the ones that are going to see the biggest benefit. But across the board, it's not a bad payday for the banks. They're really happy to be there. And you're seeing that the negotiation power is really for SpaceX. They are working with all of these banks."
+  },
+  {
+    "t": 842.337,
+    "speaker": "SPEAKER_08",
+    "text": "But again, they're the ones that are saying we want to show up and we want to help you come to the market in this historical moment across Wall Street."
+  },
+  {
+    "t": 851.423,
+    "speaker": "SPEAKER_11",
+    "text": "That's a really great point. I mean, when I've been speaking to people on the SpaceX side, you know, their answer on this is, well, Elon Musk is a very good negotiator. But even if the bank fees are like, you know, I don't know, we're talking 50, 60 basis points, whatever it ends up being. of an IPO where they raise $75 billion, they go to a $2 trillion valuation, whatever ends up being, they'll do fine, right?"
+  },
+  {
+    "t": 874.526,
+    "speaker": "SPEAKER_08",
+    "text": "They'll do absolutely fine. This is something that they can also tout in quarters moving forward. And we have other IPOs that are coming down the pipeline. So really, this is, again, this moment in history that all of the banks want to have their names tied to. It's going to lead to future IPOs that they can work on. It's going to lead to more fees that they can end up paying their bankers and they're hoping that this is just the start. But it is supposed to be a very strong start."
+  },
+  {
+    "t": 902.405,
+    "speaker": "SPEAKER_10",
+    "text": "We've just been talking about how strong it could be if we've got Anthropic already fighting with the SEC, if we've got OpenAI hot on the heels. How important is it for these bankers? How much anxiety is there that this has got to go really well?"
+  },
+  {
+    "t": 913.578,
+    "speaker": "SPEAKER_08",
+    "text": "I think that they've all been preparing for this moment. It's all of the talking points that the bank CEOs and all of the heads of investment banking, they've all been saying we've seen green shoots. We are expecting based on our strong pipeline. Think about how many times the word pipeline has been talked about. But no one has talked about moving beyond the pipeline. Let's talk about the deals. Let's talk about the billions of dollars that could come to the public markets. They're hoping that this sets a precedent."
+  },
+  {
+    "t": 943.49,
+    "speaker": "SPEAKER_08",
+    "text": "that is going to lead to future fees, that it's going to keep the ball rolling."
+  },
+  {
+    "t": 949.735,
+    "speaker": "SPEAKER_11",
+    "text": "That's Catherine Doherty on one of the most read stories so far today. Thank you. Now, coming up, we're going to get more on the impact of the SpaceX IPO from SpaceX employee number one and now CEO of Impulse Space, which itself raised $500 million in a new funding round. We speak with Tom Mueller next. This is Bloomberg Tech."
+  },
+  {
+    "t": 983.913,
+    "speaker": "SPEAKER_11",
+    "text": "Impulse Space, led by SpaceX alumni, SpaceX veteran Tom Mueller, has just hit a massive $4 billion valuation. The company raised $500 million to scale its space tugs or spacecraft that can haul satellites across different orbits. Joining us now is Impulse Space founder and CEO Tom Mueller. Tom, it's great to have you on Bloomberg Tech. I've been able to spend some time with you in SoCal, right? Look at the facility, see what you're building."
+  },
+  {
+    "t": 1012.269,
+    "speaker": "SPEAKER_11",
+    "text": "And you've always been super honest, like space is hard, difficult to get there. 500 million in one go. Just explain how that gets you to this world where you are like the traffic conductor in low earth orbit, moving different orbital planes for different satellites."
+  },
+  {
+    "t": 1030.836,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, well, you know, there's a lot happening in space right now. And we're here to basically take over where launch leaves off. So, you know, launch vehicles like SpaceX Falcon get you to low Earth orbit and we take you everywhere else. We move you around within orbits and we have vehicles, very high energy vehicles that can take you out to very high energy orbits or out to the moon, to Mars and beyond."
+  },
+  {
+    "t": 1058.657,
+    "speaker": "SPEAKER_11",
+    "text": "The very high energy bit is the bit I find super fascinating. You were demoing for me the propulsion technology you've worked on. So explain how it works. But I think also for a lot of the audience, why is it necessary to move whatever the satellite is from one position in orbit to another? What would cause that?"
+  },
+  {
+    "t": 1076.209,
+    "speaker": "SPEAKER_04",
+    "text": "So if you're talking about helios, our very high energy product, most satellites that want to get to geosynchronous orbit, like the very high orbit, 22,000 miles out, typically get dropped off in a low Earth orbit and then they end up in a transfer orbit and it can take months to get there. With Helios, we can get you there in one day. We have a, you know, it's basically a rocket on a rocket."
+  },
+  {
+    "t": 1103.523,
+    "speaker": "SPEAKER_04",
+    "text": "It's got a big tank full of propellant and a very high energy pump fed engine on it. And it does a couple burns and gets you to a high energy orbit. It can also take you like way more payload to the moon or to Mars or to the outer planets."
+  },
+  {
+    "t": 1123.032,
+    "speaker": "SPEAKER_10",
+    "text": "Helios, the larger, is meant to be flying, what, in 2027? You've already had the Miracraft flying three missions, and that was first launched in November 2025, almost recently in 2025. I'm interested in what $500 million buys you, because as Ed says, space is hard, but it's also expensive."
+  },
+  {
+    "t": 1140.129,
+    "speaker": "SPEAKER_04",
+    "text": "Yes. So we've more than doubled the size of the company in the last year, and we're continuing to hire. We've got a new facility here that we're building out. We've just got a lot of work in all sectors, you know, commercial, NASA, and government. So we're addressing all that work, and we're building the highways to the space economy."
+  },
+  {
+    "t": 1161.277,
+    "speaker": "SPEAKER_10",
+    "text": "You were, of course, integral to the propulsion over at SpaceX. And we think now of the SpaceX mafia that's about to be created by the end of this month and how much money that might infuse new space technologists, new founders. What does that moment mean to you for SpaceX to go public?"
+  },
+  {
+    "t": 1179.428,
+    "speaker": "SPEAKER_04",
+    "text": "I mean, this is great for building a space economy. And what I say now often is that I think the true space age is starting now. I think we're going to start... Building megastructures in space, which we're seeing with a million data servers. We've already talked about using the resources of the moon, which is something I've been talking about since before I started this company. This is the things that we're super excited for. This is the reason I started this company."
+  },
+  {
+    "t": 1207.611,
+    "speaker": "SPEAKER_04",
+    "text": "This is the reason that employees joined to do really cool things. We're super excited about this permanent moon base that's been announced by NASA. This is exactly what we want to do."
+  },
+  {
+    "t": 1219.81,
+    "speaker": "SPEAKER_11",
+    "text": "Tom, part of visiting with you in SoCal is there's a ripple effect. There are companies born out of SpaceX's growth. There is a network of people that are SpaceX alumni. When this biggest IPO of all time happens, what do you think the economic effect will be for your industry?"
+  },
+  {
+    "t": 1236.743,
+    "speaker": "SPEAKER_04",
+    "text": "Gigantic. I grew up in the Star Trek era, the original series, and I felt like some you know by the time i'm this age there would we be living in a star trek world and i still think we're going to get there and you got to imagine that in a star trek world the space economy is a big the biggest part of the economy right now the space economy single digit of the global economy and i think we're going to get there where space by that measure will grow faster than any other sector"
+  },
+  {
+    "t": 1265.297,
+    "speaker": "SPEAKER_10",
+    "text": "It's space. It's also defense tech. And we think about the billions that the administration wants to put to work in a so-called Golden Dome. And I'm interested as to how that is going at the moment, how the intercept to work that we understand you've been doing with Andril, how that progresses at this moment, Tom."
+  },
+  {
+    "t": 1281.185,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah, we're here to just provide advanced solutions. You know, the government needs to move around. They need to protect their assets. And we're here to help out however we can."
+  },
+  {
+    "t": 1293.658,
+    "speaker": "SPEAKER_11",
+    "text": "Tom, do you think we'll be in a place where this year or next you'll have a demo for the tech or the work with Android? We're talking about space-based interceptors technically. Is that a realistic timeline for the next 12 to 18 months?"
+  },
+  {
+    "t": 1305.843,
+    "speaker": "SPEAKER_04",
+    "text": "I can't talk about the specifics of these programs."
+  },
+  {
+    "t": 1311.495,
+    "speaker": "SPEAKER_11",
+    "text": "Let me ask you this one final question on the SpaceX IPO. Yeah. Reflect on how hard it was those early years for you and now how you got to this point. I know you're no longer with the company, but it's a part of the story. Real quick."
+  },
+  {
+    "t": 1326.179,
+    "speaker": "SPEAKER_04",
+    "text": "Yeah. You know, we always said, We knew it would be hard and it was harder than we thought, but I'm super proud of what we achieved. It's amazing that this company that I was employee number one at is now a trillion dollar company. It's just amazing."
+  },
+  {
+    "t": 1343.135,
+    "speaker": "SPEAKER_10",
+    "text": "And now we wonder where impulse space goes now worth $4 billion and a $500 million raise. Fascinating. Thank you, the founder, CEO, Tom Mueller there. Coming up, perplexity makes a big bet on the future of how AI workloads get done. We're speaking with the CEO, Aravin Srinivas. Next, this is Bloomberg Tech."
+  },
+  {
+    "t": 1377.932,
+    "speaker": "SPEAKER_11",
+    "text": "Welcome back to Bloomberg Tech. There is so much going on around the world. We're looking at the U.S. listed shares of Tencent, which follow the Asia listed shares in absolutely soaring up 11 percent. A report that they are bringing out an AI agent version of WeChat. And right now in this AI story, it's so in line with everything that's happening. That trading has really come over into the U.S. session and the stock up 11 percent. We're going to keep an eye on that one. And then the power of a few words from probably the world's most important figure in AI."
+  },
+  {
+    "t": 1407.943,
+    "speaker": "SPEAKER_11",
+    "text": "I would play you the soundbite, but by the time we hit play, it'd be over. Jensen Wong walked on stage at Computex in Taiwan and said, the next trillion dollar company about Marvell, that's it. That's the story. And the stock is up almost 30% as a consequence. And Copytex in Taiwan has put the spotlight on the companies that are building the hardware behind the AI boom. For more on the latest developments, Bloomberg's Ian King, who leads our semiconductor coverage, is with us."
+  },
+  {
+    "t": 1435.614,
+    "speaker": "SPEAKER_11",
+    "text": "Probably, I was going to say the most substance, we can debate that, but... For the industry, one of the most important stories was SK Hynix coming out and saying, pledging, we are going to double our capacity over a certain timeline. Could you just take that, explain why SK Hynix is important and why that commitment kind of was a big deal for the chip industry?"
+  },
+  {
+    "t": 1457.02,
+    "speaker": "SPEAKER_02",
+    "text": "SK Hynix is the second largest maker of computer memory chips. There's a massive memory shortage right now because of the massive amount of memory required for data centers. So Hynix coming out and indicating, hey, we're going to step on it in terms of putting more capacity in place in general helps. It means, OK, well, we'll get enough memory chips. Maybe this growth story can continue. But the big caveat here is Chetewan, the chairman of this company, he said previously, We could be losing money tomorrow."
+  },
+  {
+    "t": 1485.906,
+    "speaker": "SPEAKER_02",
+    "text": "He's been very careful in the outlook for this market, and he hasn't given a specific timeline here, and that would be really important. That would tell you exactly what's going on."
+  },
+  {
+    "t": 1497.073,
+    "speaker": "SPEAKER_10",
+    "text": "It's really fascinating, some of the details we do get out of Computex. Ian, anything that's really stolen the thunder? Yesterday, it was all about NVIDIA's announcements and the negative impact it had on the likes of Intel, AMD, and we're waiting on Qualcomm. What have you heard from some of the other companies throughout the couple of days?"
+  },
+  {
+    "t": 1513.009,
+    "speaker": "SPEAKER_02",
+    "text": "I mean, you mentioned Qualcomm, you mentioned Intel, and obviously NVIDIA. One thing they all agree on is robots ain't happening as fast as we'd like, and they've all come out with essentially the same story, which is we're going to give you hardware, we're going to give you software, we're going to give you all of the tools to bring humanoid robots to market fast. And all of these companies and others, too, have said that this is one of the next big markets."
+  },
+  {
+    "t": 1535.741,
+    "speaker": "SPEAKER_02",
+    "text": "This is going to be something that really changes the economy and brings AI into the home, the office, the factory, and really makes it that pervasive story that it has to become to support this spending."
+  },
+  {
+    "t": 1546.726,
+    "speaker": "SPEAKER_11",
+    "text": "Bloomberg's Ian King with the download from Computex. Thank you very much. It's not just chip makers pitching the future of computing at Computex. Perplexity took the stage with Intel to unveil what it calls the world's first hybrid local server agentic inference orchestrator, a phrase that sounds like it was generated by AI itself. Here with more Perplexity CEO, Aravind Srinivas. Aravind, it's great to have you back on the show. I spent all morning thinking about how do I explain this?"
+  },
+  {
+    "t": 1575.713,
+    "speaker": "SPEAKER_11",
+    "text": "And basically, the orchestrator is there. It's a piece of software to decide whether A or a part of an AI workload is best done locally on device at the edge or if it needs the superior computing of cloud server. Is that right? Have I kind of nailed what you're trying to solve for here?"
+  },
+  {
+    "t": 1596.072,
+    "speaker": "SPEAKER_06",
+    "text": "That's correct. Thank you for having me again. That is exactly correct. You don't want all your compute centralized in gigantic servers and everything running through the largest frontier models."
+  },
+  {
+    "t": 1612.344,
+    "speaker": "SPEAKER_06",
+    "text": "you're already reading reports of how people are freaking out about their token costs some people are spending half a billion dollars per month per engineer what you actually want is efficient token value per watt per user And that requires orchestrating privacy, accuracy, intelligence, and cost all together in one single unified system."
+  },
+  {
+    "t": 1638.703,
+    "speaker": "SPEAKER_06",
+    "text": "And that orchestration capability requires hybrid model between server side and the local. And that's what we demoed today with Intel. And we're actually chip agnostic. So our solution works with Intel. It works with Nvidia RTX. So just like how we've been model agnostic, we plan to be chip agnostic here."
+  },
+  {
+    "t": 1660.028,
+    "speaker": "SPEAKER_11",
+    "text": "That's interesting. So my next question was going to be why Intel? You know, what is it about Intel's role in the AI PC market and on the server side that makes it work? But if you're agnostic, what's the breakthrough that you've cracked? Like if you've written the software, what is it you've managed to achieve in how those workloads are diverted? Okay, go a bit further."
+  },
+  {
+    "t": 1682.466,
+    "speaker": "SPEAKER_06",
+    "text": "Like I said, you want one single system to route across models, files, tools, chips, servers, and decide when to use which model or when to use your local file system, your local sub-agent model, your local LLM, or when to use a frontier model for depending on task and the prompt, or depending on the confidentiality and sensitivity of your files or apps."
+  },
+  {
+    "t": 1706.072,
+    "speaker": "SPEAKER_06",
+    "text": "that requires you to make clever orchestration decisions, balance trade-offs between accuracy and cost. And that's what we're doing in our software. And then that computer is essentially an operating system that balances all these different objectives simultaneously."
+  },
+  {
+    "t": 1722.154,
+    "speaker": "SPEAKER_10",
+    "text": "I mean, you sit in such an interesting place as an orchestrator, whether it be letting people use your own in-house models, whether it's using a mix of third-party models. And the third-party models are up to a lot right now. I just want to get your take on how you feel about competitive moats or competitive threats if these big companies, Anthropic, OpenAI, SpaceX, all go public in the next few months."
+  },
+  {
+    "t": 1746.411,
+    "speaker": "SPEAKER_06",
+    "text": "We actually love Anthropic, OpenAI, XAI, all these frontier labs. Every time any of their AI gets better, our unified system also gets better because we route across all of them. We basically think of perplexity computer as taking the best of all AI and putting it together in one single unified interface and system. So all of you know how much Anthropic's models have improved since the beginning of the year."
+  },
+  {
+    "t": 1775.502,
+    "speaker": "SPEAKER_06",
+    "text": "What has it led to for us? Our revenue actually tripled since the beginning of the year. It's just been five months in the year, and our revenue has already tripled. To what? So we're actually very happy with all these companies' progress, and they completely deserve their IPOs. So we're very excited for them."
+  },
+  {
+    "t": 1794.75,
+    "speaker": "SPEAKER_10",
+    "text": "Can I follow up? Are you able to discuss what that revenue has jumped to? There were reports in the FT that you're up to about $450 million just in the month of March."
+  },
+  {
+    "t": 1804.461,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, we crossed that. I think I publicly tweeted that we crossed 500 million about somewhere around mid-April. We are announcing new numbers yet, but we are doing really well."
+  },
+  {
+    "t": 1815.487,
+    "speaker": "SPEAKER_11",
+    "text": "Irvind, I've been thinking a lot about where Perplexity sits in the suite of available tools and technologies, right? Research seems to be a really interesting place with Perplexity. And I'm wondering like how you measure the engagement on the platform. So like, it's not just like one query and done, but do you kind of track the time that an individual desk or user would stick with one query as sort of indication of success?"
+  },
+  {
+    "t": 1843.958,
+    "speaker": "SPEAKER_11",
+    "text": "you know, how the platform's being used, the behaviors of the user base."
+  },
+  {
+    "t": 1848.814,
+    "speaker": "SPEAKER_06",
+    "text": "We're actually not trying to maximize engagement per user in the sense we're not actually trying to keep them longer on the platform or something. In fact, accuracy is somewhat towards the opposite end of that. If you give the user an accurate answer in the first turn, it's likely that they're not going to continue in the same chat. What we actually look at is retentive uses. If the same user is using perplexity for a lot more"
+  },
+  {
+    "t": 1876.897,
+    "speaker": "SPEAKER_06",
+    "text": "research tasks not just like that one single task it came with and that's that's always been the case for example um we introduced a max plan and uh that's already like you know at the beginning of the year in terms of subscription split between the max plan that is a 200 a month plan versus the pro plan was similar like like 9 is to 91. today it's more like 30s to 70. so i think that that already shows that there are these power users"
+  },
+  {
+    "t": 1904.315,
+    "speaker": "SPEAKER_06",
+    "text": "who are willing to pay like two thousand dollars a year out of pocket this is not even enterprise um because they allow the superior research and orchestration and accuracy that we bring in our product interesting"
+  },
+  {
+    "t": 1916.034,
+    "speaker": "SPEAKER_10",
+    "text": "So we're seeing the growth. You're talking about your average revenue run rate tripling, going up to almost $500 million. I'm interested as to where the combative nature does come in because it looks like you're playing well with all the other players out there. But there is some issues in the courts in particular. CNN, for example, has just the latest to hit you with a lawsuit alleging that you violated federal copyright laws. How are you dealing with how people get paid and what you train upon and what you feed and source to us as a user?"
+  },
+  {
+    "t": 1946.849,
+    "speaker": "SPEAKER_06",
+    "text": "I mean, the fact of the matter is that nobody has any copyright over truth and facts. I think we've been consistent with our position. We are very confident in our position. And we will let the legal process decide what the right thing is in that particular situation. I don't want to comment further on that. But nobody has any copyright over truth and facts."
+  },
+  {
+    "t": 1968.5,
+    "speaker": "SPEAKER_10",
+    "text": "complexity CEO staying up late. It is like 1130 p.m. with you. We so appreciate you coming. Jet lag. Yeah. Jet lag works worldwide. Arvind Srinivas, safe flight back from Taiwan. We appreciate it. Now, look, the AI build out may be bigger and longer than investors actually expect. I'm CEO Rene Haas. IT'S BEEN TELLING BLOOMBERG THAT DEMAND FOR MEMORY AND COMPUTE COULD KEEP GROWING FOR YEARS AND SAYS THE INDUSTRY'S BIGGEST CUSTOMERS MAY NEED TO SHARE MORE OF THE COST. HE SPOKE EXCLUSIVELY WITH BLOOMBERG'S STEPHEN ENGEL OVER AT COMPUTEX 2."
+  },
+  {
+    "t": 1998.375,
+    "speaker": "SPEAKER_10",
+    "text": "TAKE A LISTEN."
+  },
+  {
+    "t": 1999.667,
+    "speaker": "SPEAKER_03",
+    "text": "I would say one thing that's different about what we're seeing right now is the amount of compute that artificial intelligence requires is quite significant to anything before it, and it touches every single industry. It touches everything around humanity. Everyone on the planet will have some interaction with AI, whether that's AI indirectly or directly, but it affects everyone. If you think about world GDP, $130 trillion, knowledge work, white-collar work being maybe a $30 trillion market,"
+  },
+  {
+    "t": 2029.753,
+    "speaker": "SPEAKER_03",
+    "text": "That is a large market of which today is largely under tapped. So is memory going to be short till 2030? I don't know. I hope not. But could I see this demand continuing much longer than people have ever seen historically? That I do believe."
+  },
+  {
+    "t": 2042.445,
+    "speaker": "SPEAKER_13",
+    "text": "So do you maybe look back at 2023 and there wasn't enough investment because a lot of memory chip makers were having trouble? Absolutely. They just didn't build in that capacity or foresee the demand that was going to shoot through the roof like it is now."
+  },
+  {
+    "t": 2056.297,
+    "speaker": "SPEAKER_03",
+    "text": "The folks at Micron, Samsung, SK Hines, they have tough jobs. And then 2022, 2023, they're all losing money."
+  },
+  {
+    "t": 2062.862,
+    "speaker": "SPEAKER_13",
+    "text": "Now they're in the trillion dollar valuation club."
+  },
+  {
+    "t": 2064.683,
+    "speaker": "SPEAKER_03",
+    "text": "Now they're in the trillion dollar club. But cautious, right? Because they look at that and say, if I overbuild, where will I be when the supply crunch eases up? But I do think you may see some more innovative business models. Would hyperscalers be investing in fabs? Would there be more equity partnerships around that, such as secure supply? I think that's quite possible."
+  },
+  {
+    "t": 2087.748,
+    "speaker": "SPEAKER_13",
+    "text": "Well, yeah. So what kind of resiliency needs to be built into the system so you don't have such peaks and troughs?"
+  },
+  {
+    "t": 2092.655,
+    "speaker": "SPEAKER_03",
+    "text": "There needs to be a shared system, right? Shared risk, shared investment and shared risk. I think asking public companies like a Micron to take all of that risk themselves with no shared risk from the people who are the large consumers, that's very, very hard to sustain. The governments have been helping, and the U.S. government has helped in terms of the work they've been doing with Micron and also encouraging Samsung and Hynix to expand the U.S., but I think it's more than just government."
+  },
+  {
+    "t": 2120.158,
+    "speaker": "SPEAKER_11",
+    "text": "That was ARM CEO Rene Haas speaking with Stephen Engel. Now coming up on the show, HPE's annual sales outlook crushed estimates, fueled by AI demand. And it's President and CEO Ontario Neri joining us next. This is Bloomberg Tech."
+  },
+  {
+    "t": 2141.761,
+    "speaker": "SPEAKER_10",
+    "text": "HPE stock. Can we just look at it? Skyrocketing this morning as we see it surge after second quarter results beat expectations. It raised its full year forecast where sales could jump by an entire one third, up to 33%. That growth is being fueled, you know why, by massive demand for AI infrastructure. Joining us now, HPE President, CEO Antonio Neri. You're up 21%. You have leapt to a record high on the stock. It is a record move for the stock. And you've added $13 billion in market cap."
+  },
+  {
+    "t": 2170.391,
+    "speaker": "SPEAKER_10",
+    "text": "Just reflect for a moment on what people are calling a blowout quarter."
+  },
+  {
+    "t": 2174.468,
+    "speaker": "SPEAKER_01",
+    "text": "Yeah, well, good morning, Caroline. It was an exceptional quarter, I just said, right? We achieved record-breaking results on a number of key metrics. We have tremendous demand across our portfolio. Our portfolio is at the intersection of networking, cloud, and AI. And that demand is durable."
+  },
+  {
+    "t": 2193.619,
+    "speaker": "SPEAKER_01",
+    "text": "And therefore, you know, thanks to the results of the first half, the tremendous record-breaking backlog that we have, the pipeline, which remains multiples of that backlog, allows us to raise the 26th guide and to provide 2027 guide six months ahead because of that durability. So we are very, very proud of this moment."
+  },
+  {
+    "t": 2214.665,
+    "speaker": "SPEAKER_11",
+    "text": "Antonio, this is a story about demand, right? An outlook. And it's through HPE's lens, a revenue figure. But I think there's a lot of value if you could talk us through whether that outlook for 26 and then the 27 outlook, which you say is evidence of durability, is a volume story or it's a pricing story. In other words, no great volume of servers more than you'd normally do. You can just charge a lot more for them."
+  },
+  {
+    "t": 2244.75,
+    "speaker": "SPEAKER_01",
+    "text": "Well, first of all, when we talk about the outlook, we are actually pulling by two years the 2028 outlook that we provided last October at the Security Analyst Meeting, intro 2026. And to give a sense, you saw that our earnings per share at the midpoint will be $3.40, which is a dollar higher than the previous guidance. And at the core of that is our networking story."
+  },
+  {
+    "t": 2272.976,
+    "speaker": "SPEAKER_01",
+    "text": "And the improvements we have made across the entire portfolio, a combination, of course, of volume in the key product segments, whether it's campus and branch, which is up almost 30% in orders, so the routing business, so the data center switching business orders, which is up close to 20%. And then on the server side of the equation, we are up"
+  },
+  {
+    "t": 2297.716,
+    "speaker": "SPEAKER_01",
+    "text": "triple digits in demand storage for the sixth consecutive quarter triple digits in our private cloud portfolio which obviously has the ai factories for enterprise continuous growth so it is a volume story with very disciplined privacy and execution"
+  },
+  {
+    "t": 2313.465,
+    "speaker": "SPEAKER_10",
+    "text": "I mean, talking about discipline, the fact that operating profit you see going to 80% to 85% growth for the fiscal full year, and this in the context of memory prices just going through the roof, how are you able to navigate what could be a significant pricing pressure bottleneck still? There's a lot still to be a little bit anxious about, Antonio. What could disrupt this?"
+  },
+  {
+    "t": 2335.79,
+    "speaker": "SPEAKER_01",
+    "text": "Well, we need to go underneath the portfolio and look at the mix, Caroline, because now with an $11 billion business in networking, clearly drives a different mix in our gross margin, which was record 36.9%. Let's not forget that we are ahead of plan. in the Juniper and Catalyst initiatives, both milestones and synergy that fuels cost of sales improvements and OPEX improvements."
+  },
+  {
+    "t": 2361.504,
+    "speaker": "SPEAKER_01",
+    "text": "And then you have, of course, you have the cost increases in DRAM and NAND, but fundamentally there is all about the demand. I have to tell you, and I commented this yesterday, customers need access to this technology. You guys have covered extremely well the AI momentum both in the build out, but we were very pleased to see the acceleration of enterprise, which is driven by that option and especially in AI inferencing."
+  },
+  {
+    "t": 2390.26,
+    "speaker": "SPEAKER_11",
+    "text": "There are lots of things happening. On-prem is back. Hybrid cloud, as we just discussed with perplexity, is becoming increasingly important. In your outlook, or even in the court of gone, was this a story about one big customer that changed the trajectory for you? Or are you seeing new types of customer? It's not just a hyperscaler story anymore."
+  },
+  {
+    "t": 2412.22,
+    "speaker": "SPEAKER_01",
+    "text": "No, we have been very selectively playing in the AI scale in terms of profitability as well as working capital because you need a lot of working capital. We have prioritized paying down the debt."
+  },
+  {
+    "t": 2427.953,
+    "speaker": "SPEAKER_01",
+    "text": "and making sure we drive the profitable growth through networking cloud and ai in enterprise and sovereign and inferencing so this is not one customer this is a number of many many customers i spoke yesterday about some of the customers that we are winning that they're bringing that infrastructure on premise because for compliance reason governance reasons data privacy reasons security reasons they need to"
+  },
+  {
+    "t": 2453.524,
+    "speaker": "SPEAKER_01",
+    "text": "it on premise and I give an example of my own use case we inside HP we have 1200 AI use cases of which 250 are in production we actually use a combination of proprietary or closed models in open models and we have very stringent governance and we do it on premise and we see that trend happening across the enterprise more and more"
+  },
+  {
+    "t": 2478.297,
+    "speaker": "SPEAKER_11",
+    "text": "I'm going to be very dry and very specific with you, Antonio. Is this an enterprise super cycle or is this something different where agentic AI leads to a complete structural shift on how all kinds of companies change their spending habits? What do you see?"
+  },
+  {
+    "t": 2496.143,
+    "speaker": "SPEAKER_01",
+    "text": "is the latter, and I think AI enterprise will accelerate, but the reality is that agentic AI is transforming the way we do business, is transforming business processes, workflows, and is making companies more agile and efficient. So that's what we see today. And I think we are early in the enterprise adoption. And I think, you know, customers now want to make sure they don't be they are not left behind."
+  },
+  {
+    "t": 2525.482,
+    "speaker": "SPEAKER_01",
+    "text": "We have a say inside the company. The future belongs to the fast. And so you got to move really fast. And we learn a lot through the COVID, right, through their own ramp to digital. So is the latter."
+  },
+  {
+    "t": 2535.928,
+    "speaker": "SPEAKER_10",
+    "text": "and i'm enthusiastic about this because it really helped customers to be more competitive in the market which ultimately is the the thesis about ai productivity it's about productivity and many worry that means fewer jobs that means change in labor have you seen any changes the way in which you're hiring maybe you don't need as many employees what do you think about the narrative"
+  },
+  {
+    "t": 2560.145,
+    "speaker": "SPEAKER_01",
+    "text": "definitely the type of roles you're hiring is different but inside the company we have a very aggressive talent development succession plan in fact this afternoon i'm going to have a session with my entire team about that but the skill sets of the future have to evolve and you know i always remind our 65 000 employees to use this technology in their favor to become more productive."
+  },
+  {
+    "t": 2585.945,
+    "speaker": "SPEAKER_01",
+    "text": "And I believe everyone, everyone, including yourselves as anchors, you have to have a minor in AI. How to use the technology is going to be a competitive advantage in every role across the enterprise."
+  },
+  {
+    "t": 2599.61,
+    "speaker": "SPEAKER_11",
+    "text": "We're using the technology. HPE President and CEO Antonio Neri back on Bloomberg Tech. Thank you very much. Some news. The White House just released an AI executive order and it says it will select trusted AI partners within 60 days. Bloomberg Senior Tech Editor Mike Shepard joins us with the details. Go into the details. What is this? What is the government trying to do? What is it saying?"
+  },
+  {
+    "t": 2623.728,
+    "speaker": "SPEAKER_12",
+    "text": "Well, Ed, we're still reading through it right now. This is the directive that President Donald Trump was set to sign about two weeks ago, but then abruptly put the whole thing on pause, expressing some concerns about elements of the plan that he didn't like and that he thought could impede innovation. In essence, this directive calls for the government to work with AI developers on a voluntary basis."
+  },
+  {
+    "t": 2650.713,
+    "speaker": "SPEAKER_12",
+    "text": "and gain access to cutting-edge frontier models to determine whether they could pose a cybersecurity risk. The whole idea here, Ed, is really to try to ensure that security risks posed by artificial intelligence are somehow reined in and nipped in the bud ahead of time. by the government and the companies working together."
+  },
+  {
+    "t": 2671.891,
+    "speaker": "SPEAKER_12",
+    "text": "Voluntary is a word that appears several times in the order, and the idea is that the government will be cooperating with the companies rather than dictating to them."
+  },
+  {
+    "t": 2682.274,
+    "speaker": "SPEAKER_10",
+    "text": "Yeah, it really is a voluntary framework with AI developers. They talk about collaborating, but they also talk about benchmarking. Mike, who are the people in the room who are able to do that benchmark? How are we going to get that expertise driven through?"
+  },
+  {
+    "t": 2695.812,
+    "speaker": "SPEAKER_12",
+    "text": "Well, it's a great question because to make the determination about whether a model should even be covered by this order, whether it's advanced enough, say mythos, for example, you would have to have a room full of experts. And the idea is that you would have people from various departments within the government, people who have classified"
+  },
+  {
+    "t": 2714.437,
+    "speaker": "SPEAKER_12",
+    "text": "CLEARANCES, AND THEY WOULD BE WORKING IN A CLASSIFIED SETTING IN A TOP SECRET PROCESS TO DETERMINE WHETHER A MODEL WOULD EVEN QUALIFY UNDER THE TERMS OF THIS ORDER, WHETHER IT HAS THE KINDS OF CYBERSECURITY CAPABILITIES THAT WE'VE SEEN IDENTIFIED IN MYTHOS, SUCH TO BE A WORRY OF THE GOVERNMENT AND OF INDUSTRIES MORE BROADLY. WHAT WE HAVE SEEN THE ORDER ALSO LAY OUT IS A PROCESS NOW THROUGH WHICH"
+  },
+  {
+    "t": 2743.485,
+    "speaker": "SPEAKER_12",
+    "text": "Federal agencies, state and local authorities and operators of critical infrastructure would also gain access again on a voluntary basis with from the companies to these models that are determined to be so cutting edge that they could pose some sort of a cyber risk. and could also be used to test networks for vulnerabilities, much in the same way that mythos has been described to us."
+  },
+  {
+    "t": 2768.943,
+    "speaker": "SPEAKER_12",
+    "text": "Now, what we've seen, Caro, is that this is coming the very same day that Anthropic is releasing mythos on a much wider basis."
+  },
+  {
+    "t": 2777.87,
+    "speaker": "SPEAKER_10",
+    "text": "Yeah, to another 150 additional organizations around the world. Bloomberg's Mike Shepard, thank you very much indeed. That does it for this edition of Bloomberg Tech, Ed."
+  },
+  {
+    "t": 2785.948,
+    "speaker": "SPEAKER_11",
+    "text": "Yeah, a lot of news in today's show. Check out the podcast to recap. You know where to find it online, Apple, Spotify, iHeart, and on all the Bloomberg platforms. This is Bloomberg Tech."
+  }
+]
