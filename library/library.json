@@ -1,5 +1,65 @@
 [
   {
+    "video_id": "1bMjMj8D_dc",
+    "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc",
+    "title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+    "channel": "Bloomberg Technology",
+    "thumbnail": "https://i.ytimg.com/vi/1bMjMj8D_dc/maxresdefault.jpg",
+    "duration_seconds": 2801,
+    "upload_date": "2026-06-04",
+    "thesis": "AI has shifted from a product cycle to one of the largest capital-formation cycles in history \u2014 splitting the market into capex-receivers (compute, energy, memory) and capex-spenders (the labs) \u2014 even as Broadcom's miss, a wave of trillion-dollar IPOs, and the Fed's still-absent productivity data show the boom is racing ahead of proof.",
+    "topics": [
+      "finance",
+      "ai",
+      "macro"
+    ],
+    "insight_count": 14,
+    "quote_count": 6,
+    "processed_at": "2026-06-05T05:12:23.443310Z",
+    "processing_lag_days": 1,
+    "path": "../videos/1bMjMj8D_dc/index.html"
+  },
+  {
+    "video_id": "UIoV8rG_25s",
+    "url": "https://www.youtube.com/watch?v=UIoV8rG_25s",
+    "title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+    "channel": "All-In Podcast",
+    "thumbnail": "https://i.ytimg.com/vi/UIoV8rG_25s/maxresdefault.jpg",
+    "duration_seconds": 1965,
+    "upload_date": "2026-06-04",
+    "thesis": "Coatue's Thomas Laffont argues the unicorn economy is healthier than in 2021 because AI has concentrated funding into a handful of real, fast-compounding 'Magnificent Eight' private companies whose imminent IPOs (SpaceX, Anthropic, OpenAI) will finally rebalance the ecosystem's cash-in versus cash-out.",
+    "topics": [
+      "finance",
+      "ai",
+      "business"
+    ],
+    "insight_count": 14,
+    "quote_count": 6,
+    "processed_at": "2026-06-05T05:53:25.186171Z",
+    "processing_lag_days": 1,
+    "path": "../videos/UIoV8rG_25s/index.html"
+  },
+  {
+    "video_id": "xhTc7Jl88Ww",
+    "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww",
+    "title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+    "channel": "Bloomberg Technology",
+    "thumbnail": "https://i.ytimg.com/vi/xhTc7Jl88Ww/maxresdefault.jpg",
+    "duration_seconds": 3020,
+    "upload_date": "2026-06-03",
+    "thesis": "A scramble for AI-era capital is reshaping Wall Street convention \u2014 SpaceX is pre-setting a fixed IPO price, Alphabet is upsizing an equity raise, and a credit veteran warns the AI infrastructure arms race rhymes with past overbuilt industries like undersea cable.",
+    "topics": [
+      "finance",
+      "business",
+      "ai"
+    ],
+    "insight_count": 15,
+    "quote_count": 6,
+    "processed_at": "2026-06-05T03:07:00.684580Z",
+    "processing_lag_days": 2,
+    "path": "../videos/xhTc7Jl88Ww/index.html"
+  },
+  {
     "video_id": "wkISIxb4v18",
     "url": "https://www.youtube.com/watch?v=wkISIxb4v18",
     "title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",

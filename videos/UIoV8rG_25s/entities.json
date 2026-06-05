@@ -1,0 +1,275 @@
+{
+  "video_id": "UIoV8rG_25s",
+  "people": [
+    {
+      "name": "Thomas Laffont",
+      "role": "Co-founder, Coatue Management",
+      "speaker": true,
+      "mentions": 12,
+      "first_seconds": 0,
+      "context": "Presents Coatue's unicorn-economy deck and frameworks on AI IPOs, SpaceX and the 10x paradox"
+    },
+    {
+      "name": "Jason Calacanis",
+      "role": "Angel investor, All-In host",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 1112,
+      "context": "Asks about power law, VC playing field and where LPs should allocate"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Social Capital, All-In host",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 1370,
+      "context": "Raises six-months-plus-one price-discovery timing and structural-efficiency questions"
+    },
+    {
+      "name": "David Sacks",
+      "role": "Craft Ventures, All-In host",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 1638,
+      "context": "Extrapolates the 10x odds to trillion-dollar companies and floats a buy-at-$1T bot strategy"
+    },
+    {
+      "name": "David Friedberg",
+      "role": "All-In host",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 1647,
+      "context": "Frames the 10x filter as durability-of-earnings / Ben Graham analysis and cites Bell breakup"
+    },
+    {
+      "name": "Brad Gerstner",
+      "role": "Founder, Altimeter Capital",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 800,
+      "context": "Cited on allocating time across early-stage, private and public investing"
+    },
+    {
+      "name": "Bill Ackman",
+      "role": "Pershing Square",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1290,
+      "context": "Quoted describing AI bets as venture in trillion-dollar firms at 50–100x revenue"
+    },
+    {
+      "name": "Lena Khan",
+      "role": "Former FTC Chair",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1628,
+      "context": "Invoked re: antitrust as a constraint on compounding monopolies"
+    },
+    {
+      "name": "Nikesh Arora",
+      "role": "Palo Alto Networks CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 985,
+      "context": "His profit-pool framework referenced for the Starlink/telco analysis"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Coatue",
+      "mentions": 6,
+      "first_seconds": 8,
+      "context": "$55B hedge fund raising ~$1B more for AI; source of the analysis"
+    },
+    {
+      "name": "SpaceX",
+      "mentions": 8,
+      "first_seconds": 195,
+      "context": "IPO weeks away; valuation driven by launch cadence and Starlink constellations"
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 7,
+      "first_seconds": 195,
+      "context": "Filed confidential S1; revenue scaling unlike any company; reportedly had a profitable month"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 5,
+      "first_seconds": 195,
+      "context": "Massive fundraising and revenue scaling; potential IPO and price-war dynamics"
+    },
+    {
+      "name": "Cerebras",
+      "mentions": 3,
+      "first_seconds": 766,
+      "context": "Recent IPO; Coatue board seat; OpenAI contract quintupled its value"
+    },
+    {
+      "name": "Stripe",
+      "mentions": 1,
+      "first_seconds": 195,
+      "context": "Member of the proposed Magnificent Eight private index"
+    },
+    {
+      "name": "Databricks",
+      "mentions": 1,
+      "first_seconds": 195,
+      "context": "Member of the Magnificent Eight index"
+    },
+    {
+      "name": "Revolut",
+      "mentions": 1,
+      "first_seconds": 195,
+      "context": "Fintech member of the Magnificent Eight index"
+    },
+    {
+      "name": "ByteDance",
+      "mentions": 1,
+      "first_seconds": 195,
+      "context": "Internet member of the Magnificent Eight index"
+    },
+    {
+      "name": "Anduril",
+      "mentions": 1,
+      "first_seconds": 195,
+      "context": "Defense/spacetech member of the Magnificent Eight index"
+    },
+    {
+      "name": "Starlink",
+      "mentions": 4,
+      "first_seconds": 468,
+      "context": "Recurring-revenue constellation business; targets global telco profit pool"
+    },
+    {
+      "name": "AWS",
+      "mentions": 1,
+      "first_seconds": 376,
+      "context": "Benchmark the labs' revenue could surpass"
+    },
+    {
+      "name": "Microsoft (Azure)",
+      "mentions": 2,
+      "first_seconds": 376,
+      "context": "Labs already bigger than Azure; could pass all of Microsoft by 2028"
+    },
+    {
+      "name": "Google Cloud",
+      "mentions": 1,
+      "first_seconds": 376,
+      "context": "Surpassed by combined OpenAI/Anthropic revenue"
+    },
+    {
+      "name": "Meta",
+      "mentions": 1,
+      "first_seconds": 920,
+      "context": "~25% of its served ads are AI-enabled, heading toward 100%"
+    },
+    {
+      "name": "Google",
+      "mentions": 1,
+      "first_seconds": 920,
+      "context": "AI-enabled ad penetration cited alongside Meta"
+    },
+    {
+      "name": "TSMC",
+      "mentions": 2,
+      "first_seconds": 1576,
+      "context": "Foundry available for custom chips but with no memory equivalent"
+    },
+    {
+      "name": "Ferrari",
+      "mentions": 1,
+      "first_seconds": 1023,
+      "context": "Its electric/autonomous launch cited as a disruption case study in autos"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "mentions": 1,
+      "first_seconds": 55,
+      "context": "Cited as a strong-performing public company"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "Claude Code",
+      "type": "AI coding agent",
+      "first_seconds": 970,
+      "context": "Credited with transforming Anthropic's trajectory and enterprise revenue"
+    },
+    {
+      "name": "Codex",
+      "type": "AI coding agent",
+      "first_seconds": 970,
+      "context": "Enterprise AI coding breakthrough cited alongside Claude Code"
+    },
+    {
+      "name": "ChatGPT",
+      "type": "Consumer AI product",
+      "first_seconds": 415,
+      "context": "The 'ChatGPT moment' hyperscalers responded to by funding the disruption"
+    },
+    {
+      "name": "Starlink direct-to-device",
+      "type": "Satellite connectivity",
+      "first_seconds": 973,
+      "context": "Device enabling phone calls anywhere, tower-free, attacking telco"
+    },
+    {
+      "name": "GLP-1 drugs",
+      "type": "Pharmaceutical",
+      "first_seconds": 1037,
+      "context": "Reshaping consumption of food, alcohol and diet composition"
+    },
+    {
+      "name": "Memory chips",
+      "type": "Semiconductor",
+      "first_seconds": 880,
+      "context": "Demand could quintuple per user; scarce with no foundry equivalent"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Unicorn economy",
+      "first_seconds": 38,
+      "context": "Coatue's index of private startups; up ~70% since Sept 2024 and now healthier"
+    },
+    {
+      "name": "Magnificent Eight",
+      "first_seconds": 195,
+      "context": "Proposed private-company index (~$4T) outperforming the public MAG7"
+    },
+    {
+      "name": "Coatue SpaceX framework (pre-constellation → platform)",
+      "first_seconds": 540,
+      "context": "Business-model quality rises with launch scale through constellation phases"
+    },
+    {
+      "name": "The 10x Paradox",
+      "first_seconds": 638,
+      "context": "Larger companies (centacorns) have higher odds of a subsequent 10x"
+    },
+    {
+      "name": "Cash-consumed vs cash-returned balance",
+      "first_seconds": 257,
+      "context": "Ecosystem health metric; IPOs finally rebalancing it"
+    },
+    {
+      "name": "Profit pool framework",
+      "first_seconds": 985,
+      "context": "Nikesh-attributed lens applying Starlink to the global telco profit pool"
+    },
+    {
+      "name": "Six months plus one",
+      "first_seconds": 1393,
+      "context": "Chamath's view of when real price discovery starts amid heavy passive buying"
+    }
+  ],
+  "books_papers": [
+    {
+      "name": "Foundation (the Mule)",
+      "author": "Isaac Asimov",
+      "context": "Analogy for an unpredictable one-time event like Claude Code reshaping an industry"
+    }
+  ]
+}

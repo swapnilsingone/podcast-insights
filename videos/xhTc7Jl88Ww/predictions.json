@@ -1,0 +1,107 @@
+{
+  "video_id": "xhTc7Jl88Ww",
+  "predictions": [
+    {
+      "id": "xhTc7Jl88Ww-p1",
+      "claim": "SpaceX shares could come to market around June 11, 2026 in a $75B IPO at a fixed $135/share.",
+      "speaker": "Katherine Doherty",
+      "category": "finance",
+      "start_seconds": 195,
+      "stated_at": "2026-06-03",
+      "horizon_label": "within weeks",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p2",
+      "claim": "AI monetization is in its very beginning stages and the market will keep rising as long as the capex is delivered.",
+      "speaker": "Rebecca Walser",
+      "category": "ai",
+      "start_seconds": 587,
+      "stated_at": "2026-06-03",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2028-06-03",
+        "2030-06-03"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p3",
+      "claim": "Most of these AI-era IPOs will trade down within the first 12 months, so investors should wait for six-month lockup expirations.",
+      "speaker": "Rebecca Walser",
+      "category": "finance",
+      "start_seconds": 433,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-06-03"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p4",
+      "claim": "Credit will continue to languish in the first half but could have a better second half of 2026.",
+      "speaker": "Steve Tananbaum",
+      "category": "macro",
+      "start_seconds": 1408,
+      "stated_at": "2026-06-03",
+      "horizon_label": "by year-end 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p5",
+      "claim": "At some point in the AI funding cycle you'll get high-yield-type spreads in the investment-grade market, offering excellent protection at below-investment-grade pricing.",
+      "speaker": "Steve Tananbaum",
+      "category": "finance",
+      "start_seconds": 1746,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-03",
+        "2028-06-03"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p6",
+      "claim": "Oil will be higher for longer; equities are mispricing it at $70–75 versus a tighter physical market.",
+      "speaker": "Steve Tananbaum",
+      "category": "macro",
+      "start_seconds": 2092,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-06-03"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "xhTc7Jl88Ww-p7",
+      "claim": "Marvell is on track to become the next trillion-dollar company.",
+      "speaker": "Jensen Huang",
+      "category": "tech",
+      "start_seconds": 2759,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-03",
+        "2028-06-03"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ],
+  "validated_predictions": []
+}

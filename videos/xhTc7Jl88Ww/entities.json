@@ -1,0 +1,382 @@
+{
+  "video_id": "xhTc7Jl88Ww",
+  "people": [
+    {
+      "name": "Elon Musk",
+      "role": "SpaceX / xAI CEO",
+      "speaker": false,
+      "mentions": 5,
+      "first_seconds": 15,
+      "context": "Setting a fixed-price SpaceX IPO and rewriting Wall Street convention"
+    },
+    {
+      "name": "Caroline Hyde",
+      "role": "Bloomberg Tech co-host",
+      "speaker": true,
+      "mentions": 6,
+      "first_seconds": 4,
+      "context": "Co-anchored from New York"
+    },
+    {
+      "name": "Ed Ludlow",
+      "role": "Bloomberg Tech co-host",
+      "speaker": true,
+      "mentions": 6,
+      "first_seconds": 4,
+      "context": "Co-anchored from San Francisco; SpaceX reporting"
+    },
+    {
+      "name": "Katherine Doherty",
+      "role": "Bloomberg News reporter",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 125,
+      "context": "Explained SpaceX's fixed-price IPO mechanics"
+    },
+    {
+      "name": "Rebecca Walser",
+      "role": "CEO/CIO, Walser Wealth Management",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 320,
+      "context": "Argued AI monetization is in its infancy; stay the course"
+    },
+    {
+      "name": "Lynn Doan",
+      "role": "Bloomberg cybersecurity editor",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 688,
+      "context": "Palo Alto earnings and CEO pay analysis"
+    },
+    {
+      "name": "Nikesh Arora",
+      "role": "Palo Alto Networks CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 811,
+      "context": "~$100M pay package facing repeated say-on-pay rejections"
+    },
+    {
+      "name": "Brody Ford",
+      "role": "Bloomberg software reporter",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 969,
+      "context": "Adobe CEO succession reporting"
+    },
+    {
+      "name": "Shantanu Narayen",
+      "role": "Adobe CEO / board chair",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 951,
+      "context": "Stepping down after nearly two decades; now board chair"
+    },
+    {
+      "name": "David Wadhwani",
+      "role": "Adobe executive",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1041,
+      "context": "Front-runner internal CEO candidate"
+    },
+    {
+      "name": "Anil Chakravarthy",
+      "role": "Adobe executive",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1111,
+      "context": "Runs Adobe's marketing/analytics software; CEO candidate"
+    },
+    {
+      "name": "Charles Lamanna",
+      "role": "Microsoft executive",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 1075,
+      "context": "Held talks with Adobe but backed out"
+    },
+    {
+      "name": "Steve Tananbaum",
+      "role": "Founder/CIO, GoldenTree Asset Management",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 1221,
+      "context": "Credit strategy, AI capex skepticism, oil thesis"
+    },
+    {
+      "name": "Lisa Abramowicz",
+      "role": "Bloomberg Surveillance co-host",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 1232,
+      "context": "Interviewed Tananbaum at the Credit Forum"
+    },
+    {
+      "name": "Eliyahu Kamisher",
+      "role": "Bloomberg California reporter",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 2462,
+      "context": "Tech money in California primaries"
+    },
+    {
+      "name": "Matt Mahan",
+      "role": "San Jose mayor / candidate",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2487,
+      "context": "Tech-backed, anti-billionaire-tax candidate who underperformed"
+    },
+    {
+      "name": "Javier Becerra",
+      "role": "Former HHS Secretary / candidate",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2570,
+      "context": "Late-surging gubernatorial front-runner drawing tech money"
+    },
+    {
+      "name": "Jay Parikh",
+      "role": "Microsoft EVP of Core AI",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 2629,
+      "context": "GitHub growth, reliability and AI agents"
+    },
+    {
+      "name": "Dina Bass",
+      "role": "Bloomberg News reporter",
+      "speaker": true,
+      "mentions": 1,
+      "first_seconds": 2845,
+      "context": "Broadcom/Marvell custom AI accelerator preview"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "Nvidia CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 568,
+      "context": "Anointed Marvell at Computex; touting AI ROI"
+    },
+    {
+      "name": "Matt Murphy",
+      "role": "Marvell CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2786,
+      "context": "On stage with Jensen Huang at Computex"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "Broadcom President & CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2922,
+      "context": "Slated for next-day Bloomberg Tech interview"
+    },
+    {
+      "name": "Mike Wirth",
+      "role": "Chevron CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2003,
+      "context": "Warned of possible US oil shortages"
+    }
+  ],
+  "companies": [
+    {
+      "name": "SpaceX",
+      "mentions": 8,
+      "first_seconds": 15,
+      "context": "Planning a fixed-price $75B IPO at $135/share"
+    },
+    {
+      "name": "Alphabet (Google)",
+      "mentions": 6,
+      "first_seconds": 69,
+      "context": "Upsized equity raise to $84.75B for AI infrastructure"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "mentions": 6,
+      "first_seconds": 27,
+      "context": "Beat earnings but fell ~5%; record say-on-pay rejections"
+    },
+    {
+      "name": "Adobe",
+      "mentions": 7,
+      "first_seconds": 951,
+      "context": "CEO search amid AI disruption fears ('SaaSpocalypse')"
+    },
+    {
+      "name": "GoldenTree Asset Management",
+      "mentions": 3,
+      "first_seconds": 1221,
+      "context": "Tananbaum's credit fund discussing positioning"
+    },
+    {
+      "name": "Nvidia",
+      "mentions": 5,
+      "first_seconds": 568,
+      "context": "$5T giant; backs Marvell against Broadcom"
+    },
+    {
+      "name": "Broadcom",
+      "mentions": 5,
+      "first_seconds": 2845,
+      "context": "$2.3T custom AI accelerator maker; key earnings print"
+    },
+    {
+      "name": "Marvell",
+      "mentions": 3,
+      "first_seconds": 2786,
+      "context": "Nvidia-backed custom accelerator firm nearing $1T"
+    },
+    {
+      "name": "xAI",
+      "mentions": 1,
+      "first_seconds": 274,
+      "context": "Paused hiring of Grok trainers; HR overwhelmed"
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 2,
+      "first_seconds": 308,
+      "context": "Filed confidentially; buying Broadcom chips"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 1,
+      "first_seconds": 308,
+      "context": "Cited among three huge upcoming IPOs"
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 4,
+      "first_seconds": 1075,
+      "context": "Backing GitHub; exec Lamanna courted by Adobe"
+    },
+    {
+      "name": "GitHub",
+      "mentions": 3,
+      "first_seconds": 2629,
+      "context": "300M commits/week; new Copilot desktop app"
+    },
+    {
+      "name": "Comcast",
+      "mentions": 1,
+      "first_seconds": 1528,
+      "context": "Cited at a 52-week low among distressed cable"
+    },
+    {
+      "name": "Charter",
+      "mentions": 1,
+      "first_seconds": 1546,
+      "context": "Cited among distressed cable names"
+    },
+    {
+      "name": "Altice",
+      "mentions": 1,
+      "first_seconds": 1559,
+      "context": "Threatened transaction seen as a negotiating ploy"
+    },
+    {
+      "name": "Tenet Healthcare",
+      "mentions": 1,
+      "first_seconds": 1606,
+      "context": "Cited as reasonable-value healthcare credit"
+    },
+    {
+      "name": "Chevron",
+      "mentions": 1,
+      "first_seconds": 2003,
+      "context": "CEO warned of US oil shortages"
+    },
+    {
+      "name": "Halliburton",
+      "mentions": 1,
+      "first_seconds": 2065,
+      "context": "Oil services name having an excellent year"
+    },
+    {
+      "name": "Meta",
+      "mentions": 2,
+      "first_seconds": 2898,
+      "context": "Custom-chip Broadcom customer; backed Becerra late"
+    },
+    {
+      "name": "Airbnb",
+      "mentions": 1,
+      "first_seconds": 2715,
+      "context": "Came in late behind Becerra"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "Grok",
+      "type": "AI chatbot",
+      "first_seconds": 274,
+      "context": "xAI paused hiring of specialized skill trainers"
+    },
+    {
+      "name": "GitHub Copilot desktop app",
+      "type": "AI developer tool",
+      "first_seconds": 2614,
+      "context": "New app launched amid surging agent demand"
+    },
+    {
+      "name": "Google TPU",
+      "type": "AI accelerator chip",
+      "first_seconds": 2867,
+      "context": "Made with Broadcom; bought by Anthropic"
+    },
+    {
+      "name": "Photoshop / PDF",
+      "type": "Creative software",
+      "first_seconds": 1124,
+      "context": "Adobe's core products threatened by free generative AI"
+    },
+    {
+      "name": "Agentic AI laptop",
+      "type": "Hardware concept",
+      "first_seconds": 568,
+      "context": "Jensen Huang unveiled a laptop built for AI agents"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Investments as 'short movies'",
+      "first_seconds": 1261,
+      "context": "Tananbaum predicts buyer/seller behavior to front-run exits"
+    },
+    {
+      "name": "The Nvidia effect",
+      "first_seconds": 699,
+      "context": "Beating every metric yet falling because of a prior run-up"
+    },
+    {
+      "name": "SaaSpocalypse",
+      "first_seconds": 977,
+      "context": "Investor fear that AI disrupts incumbent software margins"
+    },
+    {
+      "name": "Say-on-pay votes",
+      "first_seconds": 781,
+      "context": "Advisory shareholder votes on executive compensation"
+    },
+    {
+      "name": "Undersea cable analogy",
+      "first_seconds": 1708,
+      "context": "AI capex as overbuilt infrastructure 'good until it wasn't'"
+    },
+    {
+      "name": "Mid-cycle stretched valuations",
+      "first_seconds": 1402,
+      "context": "Regime where credit underperforms its coupon and equities win"
+    }
+  ],
+  "books_papers": []
+}

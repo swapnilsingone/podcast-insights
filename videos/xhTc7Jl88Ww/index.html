@@ -1,0 +1,1122 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0b0d12;
+  --bg-2: #11141c;
+  --surface: #151926;
+  --surface-2: #1c2233;
+  --line: #232a3d;
+  --line-strong: #2f3851;
+  --ink: #f3ede1;
+  --ink-2: #cbd1de;
+  --muted: #8089a0;
+  --muted-2: #5b6275;
+  --accent: #f4c042;        /* warm amber */
+  --accent-2: #6fe3c4;      /* cool teal */
+  --accent-mag: #ff7ab6;    /* pull-quote rose */
+  --danger: #ff6b6b;
+  --serif: "Fraunces", ui-serif, Georgia, serif;
+  --sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 24px 60px -30px rgba(0,0,0,.6);
+}
+html[data-theme="light"] {
+  --bg: #f6f1e6;
+  --bg-2: #efe8d8;
+  --surface: #fffaf0;
+  --surface-2: #f4ecd9;
+  --line: #e3d9c0;
+  --line-strong: #cdbf9c;
+  --ink: #1a1c20;
+  --ink-2: #3a3d44;
+  --muted: #6a6e7a;
+  --muted-2: #8a8e9a;
+  --accent: #c98a00;
+  --accent-2: #0d8f73;
+  --accent-mag: #c93780;
+  --shadow: 0 1px 0 rgba(0,0,0,.03) inset, 0 18px 40px -28px rgba(0,0,0,.25);
+}
+* { box-sizing: border-box; min-width: 0; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+body { font-feature-settings: "ss01","cv11","cv01"; }
+img { max-width: 100%; height: auto; }
+a { color: inherit; }
+button { font-family: inherit; }
+
+.container { max-width: 1280px; margin: 0 auto; padding: 24px 24px 64px; }
+
+/* Top bar */
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0 28px; gap: 16px; }
+.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
+.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
+.back-link svg { width: 13px; height: 13px; }
+.brand { font-family: var(--serif); font-weight: 700; letter-spacing: -0.01em; font-size: 18px; color: var(--ink); }
+.brand .dot { display: inline-block; width: 8px; height: 8px; background: var(--accent); border-radius: 2px; margin-right: 10px; transform: translateY(-1px); }
+@media (max-width: 640px) { .brand { display: none; } .topbar { padding-bottom: 20px; } }
+.topbar .tools { display: flex; gap: 10px; align-items: center; }
+.icon-btn { background: transparent; border: 1px solid var(--line); color: var(--ink-2); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: border-color .15s, color .15s; }
+.icon-btn:hover { border-color: var(--line-strong); color: var(--ink); }
+.icon-btn svg { width: 16px; height: 16px; }
+
+/* Hero */
+.hero { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: stretch; padding: 8px 0 48px; border-bottom: 1px solid var(--line); min-width: 0; }
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 24px; } }
+.hero .meta { display: flex; flex-direction: column; justify-content: space-between; gap: 20px; min-width: 0; }
+.kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.kicker .chip { padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); }
+.hero h1 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.025em; line-height: 1.04; font-size: clamp(28px, 3.4vw, 46px); margin: 12px 0 0; color: var(--ink); overflow-wrap: break-word; }
+.hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
+.thesis { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(15px, 1.3vw, 18px); line-height: 1.45; color: var(--ink-2); margin: 16px 0 0; max-width: 60ch; }
+.hero .channel { display: flex; gap: 14px; align-items: center; color: var(--muted); font-size: 14px; }
+.hero .channel .sep { color: var(--muted-2); }
+.cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--accent); color: #181000; border-radius: 10px; font-weight: 600; font-size: 13px; text-decoration: none; transition: transform .15s; align-self: flex-start; }
+.cta:hover { transform: translateY(-1px); }
+.cta svg { width: 14px; height: 14px; }
+
+.thumb { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); aspect-ratio: 16/9; background: #000; min-width: 0; align-self: start; width: 100%; max-width: 480px; justify-self: end; box-shadow: 0 20px 60px -30px rgba(0,0,0,.7); }
+.thumb iframe { width: 100%; height: 100%; display: block; border: 0; }
+.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; }
+.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
+.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; }
+.thumb.is-floating .thumb-close { display: block; }
+@media (max-width: 880px) { .thumb { max-width: 100%; justify-self: stretch; } .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,.45) 100%); }
+.thumb .play { position: absolute; left: 18px; bottom: 16px; color: white; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; z-index: 1; opacity: .9; }
+
+/* Density timeline */
+.timeline-section { padding: 36px 0 32px; border-bottom: 1px solid var(--line); }
+.section-label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; }
+.section-label .rule { flex: 1; height: 1px; background: var(--line); }
+.timeline-wrap { margin-top: 18px; position: relative; }
+.chapter-labels { position: relative; height: 18px; margin-bottom: 6px; }
+.chapter-labels .lbl { position: absolute; top: 0; font-family: var(--mono); font-size: 10px; color: var(--muted); white-space: nowrap; transform: translateX(0); padding-right: 8px; }
+.chapter-labels .lbl::before { content: ""; position: absolute; left: 0; top: 14px; width: 1px; height: 8px; background: var(--line-strong); }
+.timeline-track { height: 44px; position: relative; background: linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%); border: 1px solid var(--line); border-radius: 10px; }
+.timeline-track .chapter { position: absolute; top: 0; bottom: 0; border-left: 1px dashed var(--line-strong); opacity: .55; pointer-events: none; }
+.timeline-track .marker { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px rgba(244,192,66,.18); border: 0; cursor: pointer; transition: transform .15s, box-shadow .15s; }
+.timeline-track .marker[data-cat="counterintuitive"] { background: var(--accent-mag); box-shadow: 0 0 0 3px rgba(255,122,182,.16); }
+.timeline-track .marker[data-cat="prediction"] { background: var(--accent-2); box-shadow: 0 0 0 3px rgba(111,227,196,.16); }
+.timeline-track .marker[data-cat="data-point"] { background: #5ea0ff; box-shadow: 0 0 0 3px rgba(94,160,255,.16); }
+.timeline-track .marker[data-cat="story"] { background: #ddd6c4; box-shadow: 0 0 0 3px rgba(221,214,196,.16); }
+.timeline-track .marker[data-cat="mental-model"] { background: var(--accent); box-shadow: 0 0 0 3px rgba(244,192,66,.18); }
+.timeline-track .marker[data-cat="framework"] { background: #c4b8a0; box-shadow: 0 0 0 3px rgba(196,184,160,.16); }
+.timeline-track .marker:hover { transform: translate(-50%, -50%) scale(1.4); z-index: 5; }
+.timeline-tip { position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%); background: var(--surface-2); color: var(--ink); padding: 8px 10px; border-radius: 6px; font-size: 12px; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .15s; border: 1px solid var(--line-strong); box-shadow: 0 6px 24px -8px rgba(0,0,0,.5); z-index: 10; }
+.timeline-tip::after { content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: var(--line-strong); }
+.timeline-track .marker:hover .timeline-tip { opacity: 1; }
+.timeline-ticks { display: flex; justify-content: space-between; margin-top: 8px; font-family: var(--mono); font-size: 10px; color: var(--muted-2); }
+
+/* Controls */
+.controls { display: flex; gap: 12px; align-items: center; padding: 28px 0 22px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.search { flex: 1; min-width: 220px; position: relative; }
+.search input { width: 100%; background: var(--surface); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 12px 14px 12px 38px; font-size: 14px; font-family: inherit; outline: none; transition: border-color .15s; }
+.search input:focus { border-color: var(--accent); }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--muted); }
+.search .hint { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-family: var(--mono); font-size: 10px; color: var(--muted-2); padding: 2px 6px; border: 1px solid var(--line); border-radius: 4px; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.filter-chip { padding: 8px 12px; border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; cursor: pointer; font-size: 12px; font-family: var(--mono); letter-spacing: .04em; text-transform: lowercase; transition: all .15s; }
+.filter-chip:hover { color: var(--ink-2); border-color: var(--line-strong); }
+.filter-chip.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+/* Bento grid */
+.bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; padding: 24px 0 0; grid-auto-flow: dense; align-items: stretch; }
+@media (max-width: 980px) { .bento { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 640px) { .bento { grid-template-columns: 1fr; grid-auto-rows: auto; } }
+.card { grid-column: span 4; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 20px 16px; position: relative; display: flex; flex-direction: column; gap: 10px; transition: border-color .2s, transform .2s; box-shadow: var(--shadow); min-width: 0; }
+@media (max-width: 980px) { .card { grid-column: span 3; } }
+@media (max-width: 640px) { .card { grid-column: span 1 !important; } }
+.card:hover { border-color: var(--line-strong); }
+.card.size-md { grid-column: span 6; }
+.card.size-lg { grid-column: span 8; }
+.card.size-xl { grid-column: span 12; }
+@media (max-width: 980px) { .card.size-md { grid-column: span 6; } .card.size-lg, .card.size-xl { grid-column: span 6; } }
+@media (max-width: 640px) { .card.size-md, .card.size-lg, .card.size-xl { grid-column: span 1 !important; } }
+.card .tag-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cat-tag { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; padding: 4px 8px; border-radius: 4px; color: var(--ink); background: rgba(255,255,255,.04); border: 1px solid var(--line-strong); }
+.cat-tag[data-cat="counterintuitive"] { color: var(--accent-mag); border-color: rgba(255,122,182,.4); }
+.cat-tag[data-cat="prediction"] { color: var(--accent-2); border-color: rgba(111,227,196,.4); }
+.cat-tag[data-cat="data-point"] { color: #5ea0ff; border-color: rgba(94,160,255,.4); }
+.cat-tag[data-cat="mental-model"] { color: var(--accent); border-color: rgba(244,192,66,.4); }
+.cat-tag[data-cat="framework"] { color: var(--ink-2); }
+.cat-tag[data-cat="story"] { color: #ddd6c4; }
+.card .num { font-family: var(--mono); font-size: 10px; color: var(--muted-2); }
+.card h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; font-size: 20px; line-height: 1.18; margin: 4px 0 0; color: var(--ink); overflow-wrap: break-word; word-break: break-word; }
+.card.size-md h3 { font-size: 23px; }
+.card.size-lg h3, .card.size-xl h3 { font-size: 26px; }
+.card p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.55; overflow-wrap: break-word; }
+.card .footer { margin-top: auto; display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px dashed var(--line); }
+.timestamp-btn { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; color: var(--muted); text-decoration: none; padding: 6px 8px; border-radius: 6px; transition: background .15s, color .15s; }
+.timestamp-btn:hover { background: var(--surface-2); color: var(--accent); }
+.timestamp-btn svg { width: 12px; height: 12px; }
+.copy-btn { background: transparent; border: 0; color: var(--muted-2); cursor: pointer; font-family: var(--mono); font-size: 10px; padding: 6px 8px; border-radius: 6px; transition: color .15s; }
+.copy-btn:hover { color: var(--ink-2); }
+.copy-btn.copied { color: var(--accent-2); }
+.card-tools { display: flex; gap: 4px; align-items: center; }
+.card-tools button { background: transparent; border: 0; color: var(--muted-2); cursor: pointer; font-family: var(--mono); font-size: 10px; padding: 6px 8px; border-radius: 6px; transition: color .15s; letter-spacing: .04em; }
+.card-tools button:hover { color: var(--ink-2); }
+.card-tools button.has-note { color: var(--accent-2); }
+.card-tools button.steelman:hover { color: var(--accent-mag); }
+.card-tools button.copied { color: var(--accent-2); }
+.note-area { display: none; padding: 12px; background: var(--bg-2); border-radius: 6px; margin-top: 8px; }
+.note-area.open { display: block; }
+.note-area textarea { width: 100%; background: var(--surface); border: 1px solid var(--line); color: var(--ink); border-radius: 6px; padding: 10px 12px; font-family: var(--sans); font-size: 13px; min-height: 60px; resize: vertical; outline: none; }
+.note-area textarea:focus { border-color: var(--accent-2); }
+.note-area .saved { font-family: var(--mono); font-size: 10px; color: var(--muted-2); margin-top: 6px; }
+.toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: var(--surface-2); color: var(--ink); padding: 14px 20px; border-radius: 10px; border: 1px solid var(--accent-mag); font-size: 13px; box-shadow: 0 12px 40px -10px rgba(0,0,0,.5); z-index: 100; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; max-width: 480px; line-height: 1.4; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(-4px); }
+
+/* Pull quote */
+.pullquote { grid-column: span 12; background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface) 100%); border: 1px solid var(--line); border-radius: var(--radius); padding: 38px 44px; position: relative; }
+.pullquote .mark { position: absolute; top: 8px; left: 22px; font-family: var(--serif); font-size: 100px; line-height: 1; color: var(--accent-mag); opacity: .35; font-weight: 700; }
+.pullquote blockquote { margin: 0; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(22px, 2.4vw, 32px); line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); position: relative; max-width: 70ch; }
+.pullquote cite { display: block; margin-top: 16px; font-family: var(--mono); font-style: normal; font-size: 12px; color: var(--muted); letter-spacing: .04em; }
+
+/* Charts */
+.section { padding: 48px 0 0; }
+.section h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; font-size: clamp(24px, 2.4vw, 34px); margin: 12px 0 6px; color: var(--ink); }
+.section .lede { color: var(--ink-2); font-size: 15px; max-width: 64ch; margin: 0 0 22px; line-height: 1.55; }
+.charts { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
+.chart-card { grid-column: span 6; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+.chart-card.full { grid-column: span 12; }
+@media (max-width: 880px) { .chart-card, .chart-card.full { grid-column: span 12; } }
+.chart-title { font-family: var(--serif); font-weight: 600; font-size: 20px; margin: 0 0 4px; color: var(--ink); }
+.chart-sub { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+.chart-wrap { position: relative; height: 260px; }
+.chart-caption { margin-top: 14px; font-size: 12px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 12px; font-family: var(--mono); }
+
+/* Number stat block */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 24px; }
+@media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+.stat .label { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.stat .val { font-family: var(--serif); font-weight: 700; font-size: 38px; letter-spacing: -0.02em; margin: 6px 0 4px; color: var(--ink); }
+.stat .val .unit { font-size: 18px; color: var(--accent); font-weight: 500; margin-left: 4px; }
+.stat .sub { font-size: 12px; color: var(--muted); line-height: 1.4; }
+
+/* Resources */
+.resources { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 24px; }
+@media (max-width: 720px) { .resources { grid-template-columns: 1fr; } }
+.resource { padding: 14px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; gap: 4px; }
+.resource .name { font-family: var(--serif); font-weight: 600; font-size: 16px; color: var(--ink); }
+.resource .ctx { font-size: 13px; color: var(--muted); line-height: 1.4; }
+
+/* Action items */
+.actions { margin-top: 24px; }
+.actions ul { list-style: none; padding: 0; margin: 0; counter-reset: a; }
+.actions li { counter-increment: a; padding: 16px 20px 16px 64px; position: relative; border-bottom: 1px solid var(--line); color: var(--ink-2); font-size: 15px; line-height: 1.5; }
+.actions li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 16px; top: 16px; font-family: var(--mono); font-size: 12px; color: var(--accent); letter-spacing: .04em; }
+.actions li:last-child { border-bottom: 0; }
+
+/* Footer */
+footer { margin-top: 80px; padding-top: 28px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; color: var(--muted-2); font-size: 12px; font-family: var(--mono); }
+footer a { color: var(--muted); }
+
+.hidden { display: none !important; }
+.brand-row { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-decoration: none; padding: 7px 12px 7px 10px; border: 1px solid var(--line); border-radius: 8px; transition: all .15s; }
+.back-link:hover { color: var(--ink); border-color: var(--line-strong); background: var(--surface); }
+.back-link svg { width: 13px; height: 13px; }
+@media (max-width: 640px) { .brand { display: none; } }
+.thumb iframe { width: 100%; height: 100%; display: block; border: 0; background: #000; position: relative; z-index: 1; }
+/* Neutralize legacy decorative overlays so they don't block iframe clicks */
+.thumb::after { pointer-events: none !important; display: none !important; }
+.thumb .play { display: none !important; }
+.thumb.is-floating { position: fixed; bottom: 20px; right: 20px; width: 320px; max-width: 40vw; z-index: 90; transform: translateY(20px); opacity: 0; pointer-events: none; transition: transform .25s, opacity .25s; box-shadow: 0 20px 60px -10px rgba(0,0,0,.7); }
+.thumb.is-floating.shown { transform: translateY(0); opacity: 1; pointer-events: auto; }
+.thumb-close { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,.55); border: 0; color: #fff; width: 22px; height: 22px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 22px; padding: 0; display: none; z-index: 3; }
+.thumb.is-floating .thumb-close { display: block; }
+@media (max-width: 880px) { .thumb.is-floating { width: 220px; bottom: 12px; right: 12px; } }
+
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="topbar">
+  <div class="brand-row">
+    <a href="../../library/index.html" class="back-link" title="Back to library">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span>Library</span>
+    </a>
+    <div class="brand"><span class="dot"></span>Video Notes</div>
+  </div>
+  <div class="tools">
+    <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+    <a class="icon-btn" id="youtubeLink" target="_blank" rel="noopener" title="Open on YouTube">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.2 5 12 5 12 5s-6.2 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.76 1.77C5.8 19 12 19 12 19s6.2 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5 3-5 3z"/></svg>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="meta">
+    <div>
+      <div class="kicker">
+        <span id="channelName">All-In Podcast · Ep 274</span><span class="chip" id="durChip">—</span><span id="dateChip">—</span>
+      </div>
+      <h1 id="title"></h1>
+      <p class="thesis" id="thesis"></p>
+    </div>
+    <a class="cta" id="watchCta" target="_blank" rel="noopener">
+      Watch on YouTube
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+    </a>
+  </div>
+  <div class="thumb" id="thumbWrap">
+    <button class="thumb-close" id="thumbClose" title="Dock back into hero" aria-label="Dock">×</button>
+    <iframe id="ytPlayer"
+      data-src-pattern="https://www.youtube.com/embed/{VIDEO_ID}?enablejsapi=1&rel=0&modestbranding=1&playsinline=1" src=""
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <div class="section-label"><span>Insight density across the runtime</span><span class="rule"></span><span>click a dot to jump</span></div>
+  <div class="timeline-wrap">
+    <div class="chapter-labels" id="chapterLabels"></div>
+    <div class="timeline-track" id="track"></div>
+    <div class="timeline-ticks" id="ticks"></div>
+  </div>
+</section>
+
+<section class="controls">
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="searchInput" type="text" placeholder="Search insights — try 'Karpathy', 'Colossus', 'orbital'…" />
+    <span class="hint">/</span>
+  </div>
+  <div class="filters" id="filters"></div>
+</section>
+
+<section class="bento" id="bento"></section>
+
+<section class="section">
+  <div class="section-label"><span>By the numbers</span><span class="rule"></span></div>
+  <h2>Four numbers worth memorizing.</h2>
+  <p class="lede">If you only retain four figures from the conversation, these reset the priors on how AI compute, infrastructure, and the macro backdrop fit together.</p>
+  <div class="stats" id="stats"></div>
+</section>
+
+<section class="section" id="chartsSection" hidden>
+  <div class="section-label"><span>Charts</span><span class="rule"></span></div>
+  <h2>The numbers, visualized.</h2>
+  <p class="lede">The most chartable figures from the conversation — each grounded in a specific moment in the episode.</p>
+  <div class="charts" id="charts"></div>
+</section>
+
+<section class="section">
+  <div class="section-label"><span>Pulled quotes</span><span class="rule"></span></div>
+  <h2>If you only remember six sentences.</h2>
+  <div class="bento" id="quotes" style="padding-top: 18px"></div>
+</section>
+
+<section class="section">
+  <div class="section-label"><span>Resources mentioned</span><span class="rule"></span></div>
+  <h2>The cast of the conversation.</h2>
+  <div class="resources" id="resources"></div>
+</section>
+
+<section class="section">
+  <div class="section-label"><span>If you take one thing</span><span class="rule"></span></div>
+  <h2>Five moves implied by the talk.</h2>
+  <div class="actions"><ul id="actions"></ul></div>
+</section>
+
+<footer>
+  <span>Generated from Groq-transcribed audio. Verify quotes against the source.</span>
+  <span><a id="srcLink" target="_blank" rel="noopener">youtube.com →</a></span>
+</footer>
+</div>
+
+<script>
+const DATA = {
+  "video": {
+    "id": "xhTc7Jl88Ww",
+    "title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 3020,
+    "thumbnail": "https://i.ytimg.com/vi/xhTc7Jl88Ww/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww",
+    "upload_date": "2026-06-03",
+    "display_title_html": "SpaceX Targets <em>$75B IPO at a Fixed $135 a Share</em>"
+  },
+  "thesis": "A scramble for AI-era capital is reshaping Wall Street convention — SpaceX is pre-setting a fixed IPO price, Alphabet is upsizing an equity raise, and a credit veteran warns the AI infrastructure arms race rhymes with past overbuilt industries like undersea cable.",
+  "topics": [
+    "finance",
+    "business",
+    "ai"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech Begins"
+    },
+    {
+      "start": 125,
+      "title": "Katherine Doherty, Bloomberg News"
+    },
+    {
+      "start": 320,
+      "title": "Rebecca Walser, Walser Wealth Management"
+    },
+    {
+      "start": 688,
+      "title": "Lynn Doan, Bloomberg News"
+    },
+    {
+      "start": 969,
+      "title": "Brody Ford, Bloomberg News"
+    },
+    {
+      "start": 1221,
+      "title": "Steven Tananbaum, Goldentree Asset Management"
+    },
+    {
+      "start": 2462,
+      "title": "Eliyahu Kamisher, Bloomberg News"
+    },
+    {
+      "start": 2629,
+      "title": "Jay Parikh, Microsoft EVP of CoreAI"
+    },
+    {
+      "start": 2845,
+      "title": "Dina Bass, Bloomberg News"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "counterintuitive",
+      "headline": "SpaceX sets a fixed IPO price, skipping the range",
+      "body": "Rather than the customary price range, SpaceX is locking in $135 a share for 556.5 million shares to raise $75 billion — unusual for what would be the largest listing on record. The fixed number signals certainty to the market even though many variables could shift in the marketing week ahead.",
+      "start_seconds": 128,
+      "end_seconds": 215
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "IPO price lags the valuation jump — built-in dilution",
+      "body": "The $135 price is a 28% premium to SpaceX's May 15 five-for-one stock split (which took shares from above $500 to $105 at a $1.25 trillion valuation), but Ed Ludlow notes the share price isn't keeping pace with the valuation jump, implying dilution for holders.",
+      "start_seconds": 233,
+      "end_seconds": 261
+    },
+    {
+      "id": 3,
+      "category": "story",
+      "headline": "Alphabet upsizes its equity raise to $84.75B",
+      "body": "Alphabet boosted its AI-infrastructure equity offering from a previously announced $80 billion to $84.75 billion after parts of the offering were oversubscribed. The stock stayed roughly flat despite the dilution element.",
+      "start_seconds": 69,
+      "end_seconds": 99
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "Hyperscaler bond issuance quadrupled in a year",
+      "body": "Rebecca Walser notes hyperscalers historically issued a little under $30 billion of bonds a year, but in 2025 they wrote $121 billion — evidence that capital demand for AI capex is outstripping supply and, in her view, a sign of early-stage monetization rather than a top.",
+      "start_seconds": 366,
+      "end_seconds": 395
+    },
+    {
+      "id": 5,
+      "category": "actionable",
+      "headline": "Wait for IPO lockups to expire before buying",
+      "body": "Walser argues most IPOs decline in their first 12 months, so retail investors should consider waiting until insider lockups expire at six months, then buy in strategically and keep exposure broad rather than picking a single AI winner.",
+      "start_seconds": 415,
+      "end_seconds": 469
+    },
+    {
+      "id": 6,
+      "category": "counterintuitive",
+      "headline": "Palo Alto beats on everything and still drops 5%",
+      "body": "Lynn Doan calls it the 'Nvidia effect': Palo Alto Networks beat on revenue, earnings and outlook yet fell ~5% because the stock had run up ~60% into the print and analysts weren't honest about elevated expectations.",
+      "start_seconds": 699,
+      "end_seconds": 747
+    },
+    {
+      "id": 7,
+      "category": "data-point",
+      "headline": "Palo Alto leads the S&P 500 in say-on-pay rejections",
+      "body": "A Bloomberg analysis of proxy data back to 2015 found Palo Alto Networks has had seven say-on-pay rejections — more than any other S&P 500 company — even as CEO Nikesh Arora's ~$100M package coincided with over $100 billion in added market cap.",
+      "start_seconds": 768,
+      "end_seconds": 811
+    },
+    {
+      "id": 8,
+      "category": "mental-model",
+      "headline": "Adobe is the 'SaaSpocalypse' poster child",
+      "body": "Brody Ford frames Adobe as the example of investor fear that AI disrupts incumbent software. The core worry: Adobe's tools are expensive and complex, so professionals who need every knob stay, but casual meme-makers who once bought Photoshop now use free generative-AI tools.",
+      "start_seconds": 977,
+      "end_seconds": 1195
+    },
+    {
+      "id": 9,
+      "category": "framework",
+      "headline": "Front-run the next buyer: trades as short movies",
+      "body": "Steve Tananbaum describes his edge as predicting why people buy and sell — treating investments like short movies and asking 'who am I going to sell this to, and where will they buy it?' During COVID he sold his semi-liquid product first, knowing it would be unsellable a week later.",
+      "start_seconds": 1261,
+      "end_seconds": 1380
+    },
+    {
+      "id": 10,
+      "category": "mental-model",
+      "headline": "AI capex may be 'undersea cable' — good until it wasn't",
+      "body": "Tananbaum says credit terms on AI financing look overcompensated for 2–3 year horizons and the backstops are good credits, but history has a bad record on overinvestment in high-payout industries (riverboat gambling, undersea cable). He wants user commitments and assurances before funding projects.",
+      "start_seconds": 1644,
+      "end_seconds": 1759
+    },
+    {
+      "id": 11,
+      "category": "framework",
+      "headline": "Mid-cycle stretched valuations punish credit, reward equity",
+      "body": "Tananbaum argues that when valuations are stretched mid-cycle with 2%+ growth, credit returns come in below the coupon while equities thrive — exactly what's played out. Credit is priced as if defaults stay low, so you're penalized for downside earnings surprises without reward for upside.",
+      "start_seconds": 1402,
+      "end_seconds": 1523
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Equities are pricing $70–75 oil, ignoring the strip",
+      "body": "Tananbaum says equities aren't pricing the oil futures curve — mid-cap oil names imply $70–75 even as diesel inventories sit at their lowest since 2003 and Chevron's Wirth warns of possible US shortages. His bet: higher for longer, so buy mid-cap oil names and suppliers.",
+      "start_seconds": 2009,
+      "end_seconds": 2106
+    },
+    {
+      "id": 13,
+      "category": "story",
+      "headline": "Silicon Valley money failed at California's ballot box",
+      "body": "Despite heavy spending from VCs like Mike Moritz and Sergey Brin behind anti-billionaire-tax San Jose mayor Matt Mahan, tech-favored candidates underperformed. Eliyahu Kamisher says frustration is concentrated among a small tech elite that didn't translate to the broader voter base.",
+      "start_seconds": 2477,
+      "end_seconds": 2548
+    },
+    {
+      "id": 14,
+      "category": "data-point",
+      "headline": "GitHub now processes 300M commits a week",
+      "body": "Jay Parikh says GitHub went from about a billion commits in all of 2025 to roughly 300 million each week, driving outages and a re-architecture effort backed by Microsoft engineering talent and more capacity.",
+      "start_seconds": 2638,
+      "end_seconds": 2706
+    },
+    {
+      "id": 15,
+      "category": "framework",
+      "headline": "Jensen anoints Marvell to sharpen the Broadcom fight",
+      "body": "Dina Bass notes Nvidia isn't objective in praising Marvell — it has invested in Marvell as its backed horse in custom AI accelerators to strengthen a competitor against Broadcom, which has positioned itself as the non-Nvidia alternative and is now a $2.3 trillion company.",
+      "start_seconds": 2845,
+      "end_seconds": 2925
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm not participating in the markets, but certainly participating in the emotion of what's going on.",
+      "speaker": "Ed Ludlow",
+      "start_seconds": 542
+    },
+    {
+      "text": "Now we're buying laptops for agents, AI agents, not people.",
+      "speaker": "Rebecca Walser",
+      "start_seconds": 581
+    },
+    {
+      "text": "You can beat on every single key metric, and yet your stock can still come down because of that run up.",
+      "speaker": "Lynn Doan",
+      "start_seconds": 699
+    },
+    {
+      "text": "If you think of investments as maybe short movies, and how's a movie gonna end?",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1261
+    },
+    {
+      "text": "Will the infrastructure investment be justified, or will this be more like underwater cable, which was a good thing until it wasn't.",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1708
+    },
+    {
+      "text": "Lower prices brings in illiquidity. Higher prices brings in confidence. That's the way the credit markets work.",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1848
+    }
+  ],
+  "resources": [
+    {
+      "name": "Katherine Doherty, Bloomberg News",
+      "context": "Reported SpaceX's fixed-price IPO mechanics"
+    },
+    {
+      "name": "Rebecca Walser, Walser Wealth Management",
+      "context": "CEO/CIO arguing AI monetization is in its infancy"
+    },
+    {
+      "name": "Lynn Doan, Bloomberg News",
+      "context": "Cybersecurity editor on Palo Alto earnings and the 'Nvidia effect'"
+    },
+    {
+      "name": "Brody Ford, Bloomberg News",
+      "context": "Software reporter on Adobe's CEO search and SaaSpocalypse"
+    },
+    {
+      "name": "Steve Tananbaum, GoldenTree Asset Management",
+      "context": "Founder/CIO on credit positioning and the AI capex arms race"
+    },
+    {
+      "name": "Lisa Abramowicz, Bloomberg Surveillance",
+      "context": "Interviewed Tananbaum at the Bloomberg Global Credit Forum"
+    },
+    {
+      "name": "Eliyahu Kamisher, Bloomberg News",
+      "context": "California reporter on tech money in primary elections"
+    },
+    {
+      "name": "Jay Parikh, Microsoft EVP of Core AI",
+      "context": "On GitHub traffic growth, reliability and AI agents"
+    },
+    {
+      "name": "Dina Bass, Bloomberg News",
+      "context": "Broadcom/Marvell custom AI accelerator preview"
+    },
+    {
+      "name": "ISS & Glass Lewis",
+      "context": "Proxy advisory firms cited on Nikesh Arora's pay misalignment"
+    }
+  ],
+  "action_items": [
+    "If you participate in the AI IPO wave, wait for insider lockups to expire (~6 months) and buy in broadly and strategically, because most IPOs fall in their first 12 months.",
+    "Treat each trade as a 'short movie': before buying, ask who you'll sell to and where they'll buy it, because liquidity and positioning drive exits more than the thesis.",
+    "Demand user commitments and assurances before financing AI infrastructure, because high-payout industries (undersea cable, riverboat gambling) have a bad record of overinvestment.",
+    "Consider mid-cap oil names and suppliers — equities are pricing ~$70–75 oil while inventories tighten, so the curve may be higher for longer."
+  ],
+  "stats": [
+    {
+      "label": "SpaceX IPO target",
+      "val": "$75B",
+      "unit": "@ $135/sh",
+      "sub": "556.5M shares at a fixed price — the largest listing on record, skipping the usual range."
+    },
+    {
+      "label": "Alphabet equity raise",
+      "val": "$84.75B",
+      "unit": "up from $80B",
+      "sub": "Upsized after parts of the AI-infrastructure offering were oversubscribed."
+    },
+    {
+      "label": "Hyperscaler bond issuance 2025",
+      "val": "$121B",
+      "unit": "vs ~$30B/yr",
+      "sub": "Roughly 4x the historical annual norm, per Rebecca Walser, as AI capex demand outstrips capital."
+    },
+    {
+      "label": "GitHub commits",
+      "val": "300M",
+      "unit": "/ week",
+      "sub": "Up from about 1B in all of 2025, driving a re-architecture, per Jay Parikh."
+    }
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "AI-era capital raises stacking up",
+      "sub": "Headline funding events cited in a single show — the scramble for AI capital",
+      "caption": "Source: Bloomberg Tech hosts · 01:09 / 02:08",
+      "unit": "$B",
+      "labels": [
+        "SpaceX IPO",
+        "Alphabet equity raise"
+      ],
+      "series": [
+        {
+          "name": "Amount ($B)",
+          "data": [
+            75,
+            84.75
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Hyperscaler bond issuance: norm vs 2025",
+      "sub": "Annual bond financing jumped as AI capex outran available capital",
+      "caption": "Source: Rebecca Walser, Walser Wealth · 06:13",
+      "unit": "$B",
+      "labels": [
+        "Typical year",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Bonds issued ($B)",
+          "data": [
+            30,
+            121
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Credit forum poll: positioning for 2026",
+      "sub": "How credit managers say they're positioned for the rest of the year",
+      "caption": "Source: Bloomberg Global Credit Forum poll · 35:48",
+      "unit": "%",
+      "labels": [
+        "Neutral",
+        "Defensive",
+        "Risk on"
+      ],
+      "series": [
+        {
+          "name": "Share of respondents (%)",
+          "data": [
+            42,
+            31,
+            27
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+const $ = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+
+const fmtTime = (s) => {
+  s = Math.floor(s);
+  const h = Math.floor(s/3600), m = Math.floor((s%3600)/60), sec = s%60;
+  return h > 0 ? `${h}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}` : `${m}:${String(sec).padStart(2,'0')}`;
+};
+const ytLink = (t) => `${DATA.video.url}&t=${Math.floor(t)}s`;
+
+function escapeHTML(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Document title + iframe src (data-driven so the same template serves every video)
+document.title = DATA.video.title + ' — ' + (DATA.video.channel || 'Video Notes');
+(function setupPlayerSrc(){
+  const el = document.getElementById('ytPlayer');
+  const tmpl = el && el.getAttribute('data-src-pattern');
+  if (el && tmpl && DATA.video.id) el.src = tmpl.replace('{VIDEO_ID}', DATA.video.id);
+})();
+
+
+/* ---------- YouTube IFrame Player API ---------- */
+let ytPlayer = null;
+let ytReady = false;
+(function loadYT() {
+  if (window.YT && window.YT.Player) { initYTPlayer(); return; }
+  const tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
+  window.onYouTubeIframeAPIReady = initYTPlayer;
+})();
+function initYTPlayer() {
+  ytPlayer = new YT.Player('ytPlayer', {
+    events: { onReady: () => { ytReady = true; } }
+  });
+}
+function seekVideo(seconds, opts = {}) {
+  const { autoplay = true, scroll = true } = opts;
+  if (ytReady && ytPlayer && typeof ytPlayer.seekTo === 'function') {
+    ytPlayer.seekTo(seconds, true);
+    if (autoplay) ytPlayer.playVideo();
+    if (scroll) {
+      const wrap = document.getElementById('thumbWrap');
+      if (!wrap.classList.contains('is-floating')) {
+        wrap.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+    }
+    return true;
+  }
+  return false;
+}
+
+/* Intercept any anchor with a youtube watch URL and seek the embedded player instead */
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href*="youtube.com/watch"], a[href*="youtu.be/"]');
+  if (!a) return;
+  const url = a.getAttribute('href') || '';
+  const m = url.match(/[?&]t=(\d+)s?/);
+  if (!m) return; // no timestamp → let it open YouTube
+  const seconds = parseInt(m[1], 10);
+  if (seekVideo(seconds)) {
+    e.preventDefault();
+  }
+});
+
+/* Floating PiP: show small player when user scrolls past the hero */
+const floatThumbObserver = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    const wrap = document.getElementById('thumbWrap');
+    if (!wrap) return;
+    if (en.isIntersecting) {
+      wrap.classList.remove('is-floating');
+    } else if (ytReady) {
+      try {
+        if (ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState() === 1) {
+          wrap.classList.add('is-floating');
+        }
+      } catch (_) {}
+    }
+  });
+}, { rootMargin: '0px', threshold: 0 });
+// Observe a sentinel just below the hero to flip the floating state.
+window.addEventListener('load', () => {
+  const sentinel = document.createElement('div');
+  sentinel.style.cssText = 'position:absolute;left:0;width:1px;height:1px;';
+  const hero = document.querySelector('.hero');
+  if (hero) { hero.style.position = 'relative'; hero.appendChild(sentinel); }
+  floatThumbObserver.observe(sentinel);
+});
+document.addEventListener('click', (e) => {
+  if (e.target && e.target.id === 'thumbClose') {
+    document.getElementById('thumbWrap').classList.remove('is-floating');
+  }
+});
+
+// Hero
+$('#title').innerHTML = DATA.video.display_title_html || escapeHTML(DATA.video.title);
+$('#thesis').textContent = DATA.thesis;
+$('#durChip').textContent = `${Math.round(DATA.video.duration_seconds/60)} min`;
+$('#dateChip').textContent = new Date(DATA.video.upload_date).toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric' });
+$('#watchCta').href = DATA.video.url;
+$('#youtubeLink').href = DATA.video.url;
+$('#srcLink').href = DATA.video.url;
+$('#srcLink').textContent = DATA.video.url.replace('https://','') + ' →';
+
+// Chapters
+const CHAPTERS = (DATA && DATA.chapters) || [];
+
+// Timeline
+const track = $('#track');
+const labelsEl = $('#chapterLabels');
+const dur = DATA.video.duration_seconds;
+CHAPTERS.forEach(c => {
+  if (c.start === 0) return;
+  const el = document.createElement('div');
+  el.className = 'chapter';
+  el.style.left = (c.start / dur * 100) + '%';
+  track.appendChild(el);
+});
+requestAnimationFrame(() => {
+  const trackW = track.getBoundingClientRect().width;
+  let lastRight = -Infinity;
+  CHAPTERS.forEach((c) => {
+    const leftPx = (c.start / dur) * trackW;
+    const el = document.createElement('div');
+    el.className = 'lbl';
+    el.style.left = leftPx + 'px';
+    el.textContent = c.title;
+    labelsEl.appendChild(el);
+    const w = el.getBoundingClientRect().width;
+    if (leftPx < lastRight + 8) {
+      el.style.display = 'none';
+    } else {
+      lastRight = leftPx + w;
+    }
+    if (leftPx + w > trackW) {
+      el.style.left = 'auto';
+      el.style.right = '0';
+      el.style.textAlign = 'right';
+    }
+  });
+});
+DATA.insights.forEach(ins => {
+  const a = document.createElement('a');
+  a.className = 'marker';
+  a.href = ytLink(ins.start_seconds);
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.dataset.cat = ins.category;
+  a.style.left = (ins.start_seconds / dur * 100) + '%';
+  a.innerHTML = `<span class="timeline-tip">${ins.headline} · ${fmtTime(ins.start_seconds)}</span>`;
+  track.appendChild(a);
+});
+const ticks = $('#ticks');
+[0, 0.25, 0.5, 0.75, 1].forEach(p => {
+  const el = document.createElement('span');
+  el.textContent = fmtTime(p * dur);
+  ticks.appendChild(el);
+});
+
+// Filters
+const cats = ['all', ...Array.from(new Set(DATA.insights.map(i => i.category)))];
+const filtersEl = $('#filters');
+let activeCat = 'all';
+let activeSearch = '';
+cats.forEach(c => {
+  const b = document.createElement('button');
+  b.className = 'filter-chip' + (c === 'all' ? ' active' : '');
+  b.textContent = c;
+  b.dataset.cat = c;
+  b.onclick = () => { activeCat = c; $$('.filter-chip').forEach(x => x.classList.toggle('active', x.dataset.cat === c)); render(); };
+  filtersEl.appendChild(b);
+});
+
+// Bento sizes — 12 span-4 + 2 span-6 packs into a perfect 12-col grid (5 rows × 12)
+const SIZES = ['', '', 'size-md', '', '', '', '', '', '', '', 'size-md', '', '', ''];
+
+// Cards
+const bento = $('#bento');
+function render() {
+  bento.innerHTML = '';
+  const q = activeSearch.trim().toLowerCase();
+  let filtered = DATA.insights.filter(i =>
+    (activeCat === 'all' || i.category === activeCat) &&
+    (!q || (i.headline + ' ' + i.body + ' ' + i.category).toLowerCase().includes(q))
+  );
+  let qIdx = 0;
+  filtered.forEach((ins, i) => {
+    const card = document.createElement('article');
+    card.className = 'card ' + (SIZES[i] || '');
+    const speakerForQuote = "All-In Ep 274";
+    card.innerHTML = `
+      <div class="tag-row">
+        <span class="cat-tag" data-cat="${ins.category}">${ins.category.replace('-', ' ')}</span>
+        <span class="num">${String(ins.id).padStart(2,'0')} / ${String(DATA.insights.length).padStart(2,'0')}</span>
+      </div>
+      <h3>${ins.headline}</h3>
+      <p>${ins.body}</p>
+      <div class="footer">
+        <a class="timestamp-btn" href="${ytLink(ins.start_seconds)}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+          ${fmtTime(ins.start_seconds)}
+        </a>
+        <div class="card-tools">
+          <button class="note-btn" data-insight="${ins.id}">${hasNote(ins.id) ? '✎ note' : '+ note'}</button>
+          <button class="steelman" data-insight="${ins.id}">⚔ steelman</button>
+          <button class="copy-btn" data-copy="${encodeURIComponent('"' + ins.headline + '" — ' + speakerForQuote + ', ' + fmtTime(ins.start_seconds) + ' ' + ytLink(ins.start_seconds))}">copy</button>
+        </div>
+      </div>
+      <div class="note-area" data-note-area="${ins.id}">
+        <textarea placeholder="Your note on this insight — saved locally" data-insight-id="${ins.id}">${getNote(ins.id)}</textarea>
+        <div class="saved" data-saved="${ins.id}">${getNote(ins.id) ? 'saved' : ''}</div>
+      </div>
+    `;
+    bento.appendChild(card);
+    if ((i + 1) % 6 === 0 && qIdx < DATA.quotes.length) {
+      const qd = DATA.quotes[qIdx++];
+      const pq = document.createElement('div');
+      pq.className = 'pullquote';
+      pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
+      bento.appendChild(pq);
+    }
+  });
+  if (filtered.length === 0) {
+    bento.innerHTML = `<div style="grid-column:span 12;text-align:center;padding:80px 0;color:var(--muted);font-family:var(--mono);font-size:13px">no insights match — try a different filter or search term</div>`;
+  }
+  $$('.copy-btn').forEach(b => b.onclick = () => {
+    navigator.clipboard.writeText(decodeURIComponent(b.dataset.copy));
+    b.classList.add('copied');
+    b.textContent = 'copied';
+    setTimeout(() => { b.classList.remove('copied'); b.textContent = 'copy'; }, 1400);
+  });
+  $$('.note-btn').forEach(b => b.onclick = () => {
+    const id = b.dataset.insight;
+    const area = document.querySelector(`[data-note-area="${id}"]`);
+    area.classList.toggle('open');
+    if (area.classList.contains('open')) area.querySelector('textarea').focus();
+  });
+  $$('[data-insight-id]').forEach(t => {
+    let timer;
+    t.oninput = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        setNote(t.dataset.insightId, t.value);
+        document.querySelector(`[data-saved="${t.dataset.insightId}"]`).textContent = t.value ? 'saved ' + new Date().toLocaleTimeString() : '';
+        const btn = document.querySelector(`.note-btn[data-insight="${t.dataset.insightId}"]`);
+        if (btn) { btn.classList.toggle('has-note', !!t.value); btn.textContent = t.value ? '✎ note' : '+ note'; }
+      }, 300);
+    };
+  });
+  $$('.steelman').forEach(b => b.onclick = async () => {
+    const ins = DATA.insights.find(x => String(x.id) === b.dataset.insight);
+    if (!ins) return;
+    const prompt = `Steelman the strongest counter-argument to this claim from ${DATA.video.channel}:\n\n"${ins.headline}"\n\n${ins.body}\n\nSource: ${ytLink(ins.start_seconds)}\n\nGive me 2-3 sentences that a smart skeptic would actually say. Cite evidence where possible. Don't strawman — make the counter the most generous version of the disagreement.`;
+    await navigator.clipboard.writeText(prompt);
+    showToast(`Steelman prompt copied. Paste it into a Claude Code session for the counter-argument.`);
+  });
+}
+const NOTE_KEY = 'podcastInsights.notes.' + DATA.video.id;
+function getAllNotes() { try { return JSON.parse(localStorage.getItem(NOTE_KEY) || '{}'); } catch { return {}; } }
+function getNote(id) { return getAllNotes()[id] || ''; }
+function hasNote(id) { return !!getNote(id); }
+function setNote(id, v) {
+  const all = getAllNotes();
+  if (v) all[id] = v; else delete all[id];
+  localStorage.setItem(NOTE_KEY, JSON.stringify(all));
+}
+function showToast(msg) {
+  let t = document.querySelector('.toast');
+  if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.appendChild(t); }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => t.classList.remove('show'), 3000);
+}
+render();
+
+// Search
+const si = $('#searchInput');
+si.addEventListener('input', (e) => { activeSearch = e.target.value; render(); });
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && document.activeElement !== si) { e.preventDefault(); si.focus(); }
+  if (e.key === 'Escape') { si.value=''; activeSearch=''; activeCat='all'; $$('.filter-chip').forEach(x => x.classList.toggle('active', x.dataset.cat === 'all')); render(); }
+});
+
+// Quotes section (separate full grid)
+const quotesEl = $('#quotes');
+(DATA.quotes || []).forEach((qd, i) => {
+  const pq = document.createElement('div');
+  pq.className = 'pullquote';
+  pq.style.gridColumn = i % 3 === 0 ? 'span 12' : 'span 6';
+  if (window.innerWidth < 720) pq.style.gridColumn = 'span 12';
+  pq.innerHTML = `<span class="mark">"</span><blockquote>${qd.text}</blockquote><cite>${qd.speaker} · <a href="${ytLink(qd.start_seconds)}" target="_blank" rel="noopener" style="color:var(--accent)">${fmtTime(qd.start_seconds)}</a></cite>`;
+  quotesEl.appendChild(pq);
+});
+
+// Stats
+const statsEl = $('#stats');
+(DATA.stats || []).forEach(s => {
+  const el = document.createElement('div');
+  el.className = 'stat';
+  el.innerHTML = `<div class="label">${s.label}</div><div class="val">${s.val}<span class="unit">${s.unit}</span></div><div class="sub">${s.sub}</div>`;
+  statsEl.appendChild(el);
+});
+
+// Resources
+const rEl = $('#resources');
+(DATA.resources || []).forEach(r => {
+  const el = document.createElement('div');
+  el.className = 'resource';
+  el.innerHTML = `<div class="name">${r.name}</div><div class="ctx">${r.context}</div>`;
+  rEl.appendChild(el);
+});
+
+// Actions
+const aEl = $('#actions');
+(DATA.action_items || []).forEach(a => {
+  const li = document.createElement('li');
+  li.textContent = a;
+  aEl.appendChild(li);
+});
+
+// Theme toggle
+$('#themeBtn').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  setTimeout(initCharts, 60);
+};
+
+// Charts — data-driven from DATA.charts (per-video; grounded in the transcript)
+let charts = [];
+function initCharts() {
+  charts.forEach(c => c.destroy());
+  charts = [];
+
+  const section = $('#chartsSection');
+  const host = $('#charts');
+  const specs = Array.isArray(DATA.charts) ? DATA.charts.filter(c => c && Array.isArray(c.labels) && c.labels.length) : [];
+  if (!specs.length) { if (section) section.hidden = true; return; }
+  if (section) section.hidden = false;
+
+  const css = getComputedStyle(document.documentElement);
+  const ink = css.getPropertyValue('--ink').trim();
+  const ink2 = css.getPropertyValue('--ink-2').trim();
+  const muted = css.getPropertyValue('--muted').trim();
+  const line = css.getPropertyValue('--line-strong').trim();
+  const accent = css.getPropertyValue('--accent').trim();
+  const accent2 = css.getPropertyValue('--accent-2').trim();
+  const accentMag = css.getPropertyValue('--accent-mag').trim();
+  const palette = [accent, accent2, accentMag];
+
+  Chart.defaults.font.family = '"Inter", system-ui, sans-serif';
+  Chart.defaults.color = muted;
+  Chart.defaults.borderColor = line;
+
+  // Build the cards. A single chart, or an odd last one, spans full width.
+  host.innerHTML = specs.map((c, i) => {
+    const full = specs.length === 1 || (specs.length % 2 === 1 && i === specs.length - 1);
+    return `<div class="chart-card${full ? ' full' : ''}">
+      <h3 class="chart-title">${escapeHTML(c.title || 'Chart')}</h3>
+      ${c.sub ? `<p class="chart-sub">${escapeHTML(c.sub)}</p>` : ''}
+      <div class="chart-wrap"><canvas id="chart${i}"></canvas></div>
+      ${c.caption ? `<div class="chart-caption">${escapeHTML(c.caption)}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  specs.forEach((c, i) => {
+    const unit = c.unit || '';
+    // "$B" -> "$200B"; "$" -> "$200"; "%"/"days" -> "200%" / "200 days"; "" -> "200"
+    const fmt = v => {
+      if (v == null) return '';
+      const m = unit.match(/^\$(\D*)$/);            // currency with optional scale suffix (B, M, T)
+      if (m) return '$' + v + m[1];
+      if (!unit) return '' + v;
+      return /^[%]/.test(unit) ? '' + v + unit : v + ' ' + unit;
+    };
+    const series = Array.isArray(c.series) && c.series.length ? c.series
+                 : [{ name: c.title || '', data: c.data || [] }];
+    const horizontal = c.type === 'hbar';
+    const isLine = c.type === 'line';
+
+    const datasets = series.map((s, si) => {
+      const base = {
+        label: s.name || '',
+        data: s.data || [],
+      };
+      if (isLine) {
+        return { ...base, borderColor: palette[si % palette.length],
+          backgroundColor: palette[si % palette.length] + '22', tension: 0.3,
+          fill: series.length === 1, pointRadius: 6,
+          pointBackgroundColor: palette[si % palette.length], pointBorderColor: ink, pointBorderWidth: 2 };
+      }
+      // bar / hbar: per-bar magenta for negatives when single-series, else palette per series
+      const color = series.length === 1
+        ? (ctx => { const val = horizontal ? ctx.parsed?.x : ctx.parsed?.y; return val < 0 ? accentMag : palette[si % palette.length]; })
+        : palette[si % palette.length];
+      return { ...base, backgroundColor: color, borderRadius: 6, barThickness: horizontal ? 22 : 28 };
+    });
+
+    const valScale = { grid: { color: line }, ticks: { color: muted, callback: v => fmt(v) } };
+    const catScale = { grid: { display: false }, ticks: { color: ink2, font: { size: 12 } } };
+
+    charts.push(new Chart($('#chart' + i), {
+      type: isLine ? 'line' : 'bar',
+      data: { labels: c.labels, datasets },
+      options: {
+        indexAxis: horizontal ? 'y' : 'x',
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: series.length > 1, labels: { color: ink2, boxWidth: 12, boxHeight: 12, font: { size: 11 } } },
+          tooltip: { callbacks: { label: ctx => {
+            const v = horizontal ? ctx.parsed.x : ctx.parsed.y;
+            return (ctx.dataset.label ? ctx.dataset.label + ': ' : '') + fmt(v);
+          } } }
+        },
+        scales: horizontal
+          ? { x: valScale, y: catScale }
+          : { x: catScale, y: valScale }
+      }
+    }));
+  });
+}
+initCharts();
+</script>
+</body>
+</html>

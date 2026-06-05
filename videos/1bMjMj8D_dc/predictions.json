@@ -1,0 +1,104 @@
+{
+  "video_id": "1bMjMj8D_dc",
+  "predictions": [
+    {
+      "id": "1bMjMj8D_dc-p1",
+      "claim": "Within one to two years, more software will be written than in all of human history.",
+      "speaker": "Ali Ghodsi",
+      "category": "ai",
+      "start_seconds": 740,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p2",
+      "claim": "In five years, Okta will have far more software engineers than it does now.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1656,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p3",
+      "claim": "Economy-wide AI productivity gains will show up next year or the year after, with 'next year' as the litmus test.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 1958,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p4",
+      "claim": "Oil will be around $80 a barrel by the end of the year, per the futures market.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2349,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p5",
+      "claim": "SaaSpocalypse is overblown — many SaaS vendors will embed agentic capabilities and thrive, while non-adopters become legacy vendors bought by the likes of Oracle.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1763,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p6",
+      "claim": "Data-center buildout costs are inflationary now but will become disinflationary as infrastructure and power generation come online.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2102,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p7",
+      "claim": "Databricks will eventually become a public company to create a liquidity mechanism for its ~14,000 current and former employees.",
+      "speaker": "Ali Ghodsi",
+      "category": "business",
+      "start_seconds": 786,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ],
+  "validated_predictions": []
+}

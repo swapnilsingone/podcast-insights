@@ -1,0 +1,315 @@
+{
+  "video_id": "1bMjMj8D_dc",
+  "people": [
+    {
+      "name": "Ed Ludlow",
+      "role": "Bloomberg Tech co-host",
+      "speaker": true,
+      "mentions": 6,
+      "first_seconds": 0,
+      "context": "Co-anchored the special from San Francisco"
+    },
+    {
+      "name": "Caroline Hyde",
+      "role": "Bloomberg Tech co-host",
+      "speaker": true,
+      "mentions": 5,
+      "first_seconds": 0,
+      "context": "Co-anchored from New York / on-site"
+    },
+    {
+      "name": "Tom Giles",
+      "role": "Bloomberg Global Tech Executive Editor",
+      "speaker": true,
+      "mentions": 4,
+      "first_seconds": 92,
+      "context": "Previewed the Hock Tan and Anthropic interviews"
+    },
+    {
+      "name": "Andrew Feldman",
+      "role": "Cerebras CEO",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 389,
+      "context": "'Opposite of a bubble,' $25B backlog"
+    },
+    {
+      "name": "Ali Ghodsi",
+      "role": "Databricks CEO and co-founder",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 486,
+      "context": "Argued AGI has arrived; context is the bottleneck"
+    },
+    {
+      "name": "Apoorv Agarwal",
+      "role": "Altimeter Capital partner",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 901,
+      "context": "Capex-receiver vs capex-spender framework"
+    },
+    {
+      "name": "Todd McKinnon",
+      "role": "Okta CEO and co-founder",
+      "speaker": true,
+      "mentions": 2,
+      "first_seconds": 1449,
+      "context": "SaaSpocalypse 'overblown'; more engineers in 5 years"
+    },
+    {
+      "name": "Mary Daly",
+      "role": "San Francisco Fed President",
+      "speaker": true,
+      "mentions": 3,
+      "first_seconds": 1848,
+      "context": "No economy-wide AI productivity gains yet"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "Broadcom CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 95,
+      "context": "Earnings moved markets; interviewed later at event"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "Nvidia CEO",
+      "speaker": false,
+      "mentions": 3,
+      "first_seconds": 722,
+      "context": "Computex thesis: agents as end users of software"
+    },
+    {
+      "name": "Daniela Amodei",
+      "role": "Anthropic president and co-founder",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 188,
+      "context": "Appearing post confidential IPO filing"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "SpaceX/xAI CEO",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 522,
+      "context": "Tweeted that the valuation report was false"
+    },
+    {
+      "name": "Trey Stephens",
+      "role": "Founders Fund partner, Andreal chairman",
+      "speaker": false,
+      "mentions": 1,
+      "first_seconds": 2766,
+      "context": "Founders Fund is a high-single-digit SpaceX stakeholder"
+    },
+    {
+      "name": "Chair Walsh",
+      "role": "Federal Reserve Chair",
+      "speaker": false,
+      "mentions": 2,
+      "first_seconds": 2553,
+      "context": "New Fed chair; Daly's fifth chair worked with"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Broadcom",
+      "mentions": 7,
+      "first_seconds": 48,
+      "context": "Earnings miss erased ~$300B in market cap"
+    },
+    {
+      "name": "Databricks",
+      "mentions": 6,
+      "first_seconds": 404,
+      "context": "Private firm valued sky-high; raised ~$20B"
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 6,
+      "first_seconds": 182,
+      "context": "Filed confidentially for IPO; Altimeter led round"
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 6,
+      "first_seconds": 222,
+      "context": "Historic $122B raise; horse race with Anthropic"
+    },
+    {
+      "name": "SpaceX",
+      "mentions": 5,
+      "first_seconds": 219,
+      "context": "S-1A priced at $135/share, ~$1.8T valuation"
+    },
+    {
+      "name": "Nvidia",
+      "mentions": 3,
+      "first_seconds": 428,
+      "context": "$80B buyback; can't keep up with demand"
+    },
+    {
+      "name": "Altimeter Capital",
+      "mentions": 3,
+      "first_seconds": 782,
+      "context": "On cap tables of Anthropic, OpenAI, SpaceX"
+    },
+    {
+      "name": "Cerebras",
+      "mentions": 2,
+      "first_seconds": 151,
+      "context": "$25B AI demand backlog"
+    },
+    {
+      "name": "Okta",
+      "mentions": 5,
+      "first_seconds": 1418,
+      "context": "Raised full-year guidance; Okta for AI Agents"
+    },
+    {
+      "name": "Alphabet",
+      "mentions": 3,
+      "first_seconds": 901,
+      "context": "Upsized equity offering to ~$84B"
+    },
+    {
+      "name": "xAI",
+      "mentions": 2,
+      "first_seconds": 1064,
+      "context": "'Switzerland' compute/model approach"
+    },
+    {
+      "name": "SK Hynix",
+      "mentions": 1,
+      "first_seconds": 985,
+      "context": "$8B stock buyback with more dividends"
+    },
+    {
+      "name": "Novo Nordisk",
+      "mentions": 1,
+      "first_seconds": 691,
+      "context": "Genie customer; trial analysis weeks to minutes"
+    },
+    {
+      "name": "AMD",
+      "mentions": 1,
+      "first_seconds": 418,
+      "context": "Cited among chipmakers unable to meet demand"
+    },
+    {
+      "name": "Oracle",
+      "mentions": 1,
+      "first_seconds": 1740,
+      "context": "Acquirer of legacy vendors left behind"
+    },
+    {
+      "name": "Founders Fund",
+      "mentions": 1,
+      "first_seconds": 2766,
+      "context": "High-single-digit SpaceX stakeholder"
+    },
+    {
+      "name": "Cursor",
+      "mentions": 1,
+      "first_seconds": 1095,
+      "context": "Coding product whose revenue leans on Anthropic models"
+    },
+    {
+      "name": "PG&E",
+      "mentions": 1,
+      "first_seconds": 2095,
+      "context": "Utility cited in data-center inflation debate"
+    }
+  ],
+  "products_tech": [
+    {
+      "name": "Genie",
+      "type": "AI data product",
+      "first_seconds": 600,
+      "context": "Databricks tool that infuses data context for agents"
+    },
+    {
+      "name": "LakeBase",
+      "type": "Database",
+      "first_seconds": 620,
+      "context": "Databricks agent-tailored database"
+    },
+    {
+      "name": "Okta for AI Agents",
+      "type": "Identity/connectivity product",
+      "first_seconds": 1494,
+      "context": "Identity and secure connectivity layer for agents"
+    },
+    {
+      "name": "Mythos",
+      "type": "Cybersecurity tool",
+      "first_seconds": 315,
+      "context": "Anthropic tool everyone wants to use and fears"
+    },
+    {
+      "name": "Codex",
+      "type": "Coding agent",
+      "first_seconds": 1075,
+      "context": "OpenAI product with 5M users"
+    },
+    {
+      "name": "Opus 4.5",
+      "type": "Frontier AI model",
+      "first_seconds": 1210,
+      "context": "Coding model that crossed a capability frontier (Dec)"
+    },
+    {
+      "name": "TPUs / ASICs",
+      "type": "Custom silicon",
+      "first_seconds": 63,
+      "context": "Broadcom custom-silicon segment guided to $16B"
+    },
+    {
+      "name": "Elon Web Services",
+      "type": "Cloud/compute offering",
+      "first_seconds": 1078,
+      "context": "Nickname for SpaceX/xAI selling compute"
+    }
+  ],
+  "frameworks_concepts": [
+    {
+      "name": "Capex-receivers vs capex-spenders",
+      "first_seconds": 962,
+      "summary": "Agarwal's divide: picks-and-shovels providers receiving capex vs labs spending it"
+    },
+    {
+      "name": "The 'Switzerland' approach",
+      "first_seconds": 1086,
+      "summary": "xAI/SpaceX staying neutral by selling compute, models and products across categories"
+    },
+    {
+      "name": "Context as the AI bottleneck",
+      "first_seconds": 556,
+      "summary": "Ghodsi: models are smart enough; missing context limits agent productivity"
+    },
+    {
+      "name": "SaaSpocalypse",
+      "first_seconds": 1763,
+      "summary": "Fear that AI commoditizes SaaS; McKinnon calls it overblown"
+    },
+    {
+      "name": "Agents as end users of software",
+      "first_seconds": 722,
+      "summary": "Huang's thesis that agents, outnumbering people, become software's ultimate users"
+    },
+    {
+      "name": "Scaling laws",
+      "first_seconds": 2073,
+      "summary": "More compute/data/algorithms → higher intelligence; risky to bet against"
+    },
+    {
+      "name": "Long/short idea game",
+      "first_seconds": 1949,
+      "summary": "Agarwal's Stanford exercise: most went long picks-and-shovels and energy, short non-innovators"
+    }
+  ],
+  "books_papers": []
+}

@@ -1,0 +1,772 @@
+[
+  {
+    "t": 4.167,
+    "speaker": "SPEAKER_01",
+    "text": "Bloomberg Tech is live from coast to coast with Caroline Hyde in New York and Ed Lovelow in San Francisco."
+  },
+  {
+    "t": 15.49,
+    "speaker": "SPEAKER_06",
+    "text": "Welcome to a special edition of Bloomberg Tech live from the Bloomberg Tech event in San Francisco."
+  },
+  {
+    "t": 20.271,
+    "speaker": "SPEAKER_03",
+    "text": "And leaders, they're from tech, they're from business, and they are gathered here to discuss how they can navigate economic, geopolitical uncertainty and, of course, multiply the opportunities in today's landscape."
+  },
+  {
+    "t": 30.733,
+    "speaker": "SPEAKER_06",
+    "text": "So we're going to talk about everything from robots to data center costs, the race to reach artificial general intelligence."
+  },
+  {
+    "t": 37.957,
+    "speaker": "SPEAKER_03",
+    "text": "And the economic impact. But look, let's first of all talk about the markets because they're down today. Look, we're having our worst day on the NASDAQ 100 since mid-May. We've lowered it down to the lowest level since the end of May. Look, we're under some pressure. We're bouncing off of our lows. We're off by eight tenths of a percent. But there's some anxiety in there that perhaps markets run up too far, too fast, particularly in chips."
+  },
+  {
+    "t": 56.248,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, so this is a story about Broadcom and Broadcom's earnings. And basically, they said that in the current period, they will book $16 billion of sales in the custom silicon group. We're talking TPUs, we're talking ASICs. The street went into this with very high expectations, $17.2 billion. That's a big drop, right, on Broadcom. The biggest drop, I think, since January of 2025. So let's talk about it because, hey, right place, right time."
+  },
+  {
+    "t": 85.664,
+    "speaker": "SPEAKER_06",
+    "text": "We're going to have a big conversation today. Bloomberg Global Tech Executive Editor, Tom Giles. Right place, right time. Thanks for having me. Thank you for being here. And later today, you will have a conversation with Broadcom CEO, Hock Tan."
+  },
+  {
+    "t": 100.058,
+    "speaker": "SPEAKER_02",
+    "text": "That's right. The man of the hour, the man whose results are moving global markets and not in the right way. The way he hopes, probably. If you're a bull. Right. The point here is, as you said, there was an expectation for revenue forecast for the current quarter at about 17.2 billion. You come in at 16 billion dollars. Still a pretty impressive number. Let's be fair. The demand is there. Nobody's worried about things dropping off a cliff."
+  },
+  {
+    "t": 127.559,
+    "speaker": "SPEAKER_02",
+    "text": "But if you this stock is priced for perfection in the run up to these earnings, that company added 270 billion dollars in market capitalization."
+  },
+  {
+    "t": 137.486,
+    "speaker": "SPEAKER_04",
+    "text": "Yes."
+  },
+  {
+    "t": 138.226,
+    "speaker": "SPEAKER_02",
+    "text": "That is just another reminder of how much people are anticipating and expecting this demand to continue. Chips are a very cyclical industry. I was on yesterday. Last night, we had Sreber's CEO. We're going to listen to him in a little bit. I asked him, basically, are we in a bubble? People are concerned about the sustainability of this rally. People are concerned about the sustainability of demand."
+  },
+  {
+    "t": 163.167,
+    "speaker": "SPEAKER_02",
+    "text": "his point is we're in the opposite of a bubble we cannot keep up with demand particularly in the hardware space and i think that that is the message that hot tan is trying to bring across we will definitely be asking him did we miss something is there a nuance here what do we need to know about your outlook going forward yeah one thing that um Reading research this morning, including from Rosenblatt, my friends at Rosenblatt, we're talking about how now we have even greater visibility."
+  },
+  {
+    "t": 192.575,
+    "speaker": "SPEAKER_02",
+    "text": "He talked about how we have visibility into 2028, much further out than just three months ago. He said, I didn't have that visibility. I have it now. And he's still sending bullish signs. So I think in the longer term, the market is going to be encouraged by that kind of visibility further and further out."
+  },
+  {
+    "t": 209.284,
+    "speaker": "SPEAKER_03",
+    "text": "And that's on the AI infrastructure playbook. And it's all because we're using generative AI so much more. Who are we using it through? The likes of Anthropic, the likes of OpenAI, the likes of Grok AI, if you're looking over at SpaceX. These are companies that are about to go public. And we have the Anthropic leader here speaking as well."
+  },
+  {
+    "t": 226.9,
+    "speaker": "SPEAKER_02",
+    "text": "One of the co-founders, Daniela Amadei, she's the president, the brother of the CEO. Sister. Excuse me, sister of the CEO. We're going to be asking her about what it's like to have just gone out with your secret filing, your confidential filing. What do we have to look forward to with this IPO, one of the biggest ever?"
+  },
+  {
+    "t": 247.805,
+    "speaker": "SPEAKER_06",
+    "text": "I just want to set the scene for the Bloomberg Tech audience a bit. Anthropic literally filed confidentially for an IPO Monday. Am I getting that right? The world's been wild."
+  },
+  {
+    "t": 255.69,
+    "speaker": "SPEAKER_03",
+    "text": "Time's an illusion."
+  },
+  {
+    "t": 256.491,
+    "speaker": "SPEAKER_06",
+    "text": "Last night, SpaceX S1A, the amended filing, they priced the IPO $135 a share, seek to raise $75 billion, almost $1.8 trillion valuation, which we were right about, by the way. Musk tweeted that it was false. You remember, Tom, you edited the story."
+  },
+  {
+    "t": 274.342,
+    "speaker": "SPEAKER_03",
+    "text": "Let me just swipe that."
+  },
+  {
+    "t": 275.604,
+    "speaker": "SPEAKER_06",
+    "text": "Today's event is astonishing, right? It is astonishing that Daniela Amodei will be on stage, that we have investors here who are across the cap tables of all three companies, Anthropic, OpenAI, SpaceX. We're going to learn something? I mean, this is a difficult environment to try and cover."
+  },
+  {
+    "t": 292.609,
+    "speaker": "SPEAKER_02",
+    "text": "Yeah, I think one of the big questions right now is this horse race between OpenAI and Anthropic. And OpenAI had really captured the world's imagination for years since November, that fateful day, November 2022, seen as the leader, seen as the one to beat. In the last six months, roughly, we've seen Anthropic ascend. It's changed."
+  },
+  {
+    "t": 315.81,
+    "speaker": "SPEAKER_02",
+    "text": "We've seen them capturing people's imagination, whether it's through Mythos, their cybersecurity tool that everybody wants to get their hands on, that everybody is afraid of, but also wants to learn how to use and learn from, right? They got out ahead of OpenAI with the confidential filing, and they have been sending the message to the world that we've captured the business market in a way that OpenAI hasn't."
+  },
+  {
+    "t": 342.858,
+    "speaker": "SPEAKER_02",
+    "text": "Now, I've talked to some people, and they have said, don't count OpenAI out. This is a horse race. Today, Anthropic is seen as ahead. Tomorrow, they're going to release a new version of ChatGPT, and it's going to maybe blow your mind. And they're going to be seen as ascendant. And it's this back and forth. And we're going to see that play out in real time with two potentially back to back trillion dollar IPOs."
+  },
+  {
+    "t": 368.036,
+    "speaker": "SPEAKER_03",
+    "text": "And we can play it out in real time with a member from Altimeter who's backing all three of these horses in terms of the venture capital space."
+  },
+  {
+    "t": 375.779,
+    "speaker": "SPEAKER_02",
+    "text": "Talk about hedging your bets. Well, we'll get to it."
+  },
+  {
+    "t": 379.802,
+    "speaker": "SPEAKER_03",
+    "text": "Nice hedge behind us as we hedge our bets. Tom Giles, we so appreciate you being with us. Thanks for having me. Thank you very much. And look, it's his event that we're here at at the moment alongside Emily Chang. And look, stay with it because Bloomberg Tech later today has a Broadcom president and CEOs. We were just talking about Hock Tang. What a time to be joining this Bloomberg Tech conference. But also, Ed, coming up... We've got the perfect person to be discussing some of those market valuations in the private space, CEO of Databricks. This is the private company is reaching sky high valuations. Is it also thinking of a mega tech IPO?"
+  },
+  {
+    "t": 409.385,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, if you're a CEO, you're reading the S1s, right? And thinking, what do I do? Could this be a sign of an AI bubble? Tom mentioned it. No. According to Cerebra CEO Andrew Feldman, he sat down with Tom last night. Listen to this."
+  },
+  {
+    "t": 424.192,
+    "speaker": "SPEAKER_04",
+    "text": "What is unusual about AI right now is... The builders are so far behind the demand, it's absurd. We have a backlog of more than $25 billion of demand. That there are none of us, not us, not AMD, not Nvidia, that can keep up with the demand that your employees are driving. And that's sort of, in a lot of ways, the opposite of a bubble."
+  },
+  {
+    "t": 466.948,
+    "speaker": "SPEAKER_03",
+    "text": "Welcome back to our Bloomberg Tech special. And look, maybe no surprise to anyone. But an AI bubble, compute needs, SaaSpocalypse are some of the key themes that will be debated here today at the Bloomberg Tech event. Our next guest, well, you can talk about all of them, is at the center. Ali Godzi is with us, the CEO and co-founder of Databricks, one of the most valuable private companies that has yet to file confidentially with the SEC."
+  },
+  {
+    "t": 490.155,
+    "speaker": "SPEAKER_06",
+    "text": "As far as we know."
+  },
+  {
+    "t": 491.055,
+    "speaker": "SPEAKER_03",
+    "text": "We're going to hold back on IPO chat for a minute and ask you about whether this moment of all of these companies looking to access capital in the public markets, is that an anxiety for you? Could there be oxygen sucked out the room in some way to back some companies such as yourselves?"
+  },
+  {
+    "t": 507.435,
+    "speaker": "SPEAKER_07",
+    "text": "Well, we're a private company. So private investors, they're soon not going to have all these companies to deploy their capital on. So there's going to be a lot of capital available in private markets. So, no, that's not going to be a problem at all for us."
+  },
+  {
+    "t": 518.444,
+    "speaker": "SPEAKER_06",
+    "text": "Ali, I'm really interested in what life's like for you right now as the CEO of a company of Databricks' valuation. But also, like, you know, I don't mean this sort of flippantly. Like, OK, great, big private valuation. The company is growing incredibly fast, you know, revenue run rate, Caro set up at the top, everything that's happening in software right now. What is it that you are dealing with most often? What is it that you are sort of, I don't know, waking up and going, okay, wow, this is today?"
+  },
+  {
+    "t": 546.935,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, my view is that we're in a very special moment because I'm a contrarian. I believe we actually already have AGI. Artificial General Intelligence already arrived. What's your evidence? I ask groups all the time. I ask this question. I ask, how many of you believe we have AGI? Roughly 10% of the audience usually raises their hand. Then I ask, how many of you think that the AIs that you use, the frontier models, are smarter than most of the people you work with most of the time? And 90% of any crowd, I've done this like... 20, 30 times, raise their hand."
+  },
+  {
+    "t": 575.963,
+    "speaker": "SPEAKER_07",
+    "text": "So it's already really plenty smart. We don't need AI to get smarter. It just is lacking context. If we could capture all the context of all the conversations we're having and everything that's happening in the processes. Data breaks. That's what you do. Exactly. If you could feed that to the AI, they already could be extremely productive. But no one's really focused on that problem. Everybody's focused on super intelligence and can we continue the scaling laws? And the problem is if we just could have that context. we would have huge breakthrough. So that's what Databricks is focused on."
+  },
+  {
+    "t": 605.976,
+    "speaker": "SPEAKER_07",
+    "text": "Our only focus is how do we infuse that data context into this product we have called Genie, which then can help answer and automate questions. I think this is the most important question that people should focus on right now."
+  },
+  {
+    "t": 618.287,
+    "speaker": "SPEAKER_03",
+    "text": "And we've got plenty new products. As you're getting ever higher valuations, you're backing it up with new offerings. I think about LakeBase. I think about some of the M&A that you've been doing in the market to beef up the product offerings. What's hitting home at the moment? What are the customers demanding of you?"
+  },
+  {
+    "t": 631.695,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, as you said, LakeBase is, you know, it's everyone wants these databases. People are not paying attention to databases. Everybody's paying attention to software is being commoditized because AI can produce software. But what they don't think about is that all software needs a database. It's a fact. You cannot have a piece of software and it's not using a database. And LakeBase is really, really, really... tailoring to those agents."
+  },
+  {
+    "t": 655.23,
+    "speaker": "SPEAKER_07",
+    "text": "So, you know, for instance, product group uses LakeBase and they're using, they put all their KPIs in it and that way the agents can actually start answering questions on all the KPIs that they have because, you know, everybody's using agents now. Are they?"
+  },
+  {
+    "t": 668.961,
+    "speaker": "SPEAKER_03",
+    "text": "Is everyone using an agent now? Is adoption, is productivity really there?"
+  },
+  {
+    "t": 672.043,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, okay, so that depends. So back to that context question, if we could just get the data to the agents. People are using agents, but they're not using it in its full potential. Maybe we've like tapped into 1% of it because it's not like autonomous agents are running around, you know, working together, collaborating with humans and, you know, so that's not happening yet. Why is that? Because they don't have the context. So you have to infuse that context into them."
+  },
+  {
+    "t": 694.947,
+    "speaker": "SPEAKER_07",
+    "text": "Giving you another example, Novo Nordisk, you know, they make Ozempic, you know, a big customer that actually leverages Genie, and they're able to infuse a lot of the, all the trials that they run, they infuse it to the AIs, and now you can ask questions from the AIs about, you know, how's that obesity study going? And they were able to shorten the time it takes to understand these studies using Genie and agents from, you know, weeks down to a few minutes. So it is happening. But we're just at the beginning of it."
+  },
+  {
+    "t": 722.788,
+    "speaker": "SPEAKER_06",
+    "text": "If that case study is real, right, and I'm not questioning whether it is, but then Jensen Huang's equation of more compute, more tokens, more revenues, it means that that puts them on a trajectory to more profitability, right? To many people, it's really simple."
+  },
+  {
+    "t": 739.198,
+    "speaker": "SPEAKER_06",
+    "text": "The other thing that Jensen Wong outlined at the beginning of this week, Computex, yes, was that it's complete nonsense that software is in trouble because his thesis is that the agents themselves become the ultimate users of that software. I've been finding that concept very hard to understand. You probably are in a place where you can evaluate it early, aren't you?"
+  },
+  {
+    "t": 760.256,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, so I think Jensen is spot on with both of those. We actually did the calculation. We think in the next nine months, but let's say year-round, one year or two years, we're going to have more software being written than in all history of mankind. No matter how you back into it, this kind of checks out."
+  },
+  {
+    "t": 777.953,
+    "speaker": "SPEAKER_07",
+    "text": "okay with so much software being written there's going to be so much demand for all the other things there's a big ecosystem around software we happen to do lake base which is a database and you know we're seeing huge demand in these databases but there are other ones around software so yes it's this is just continue and therefore i go back to how we started this conversation as you keep on scaling as you keep driving innovation do you need more private capital would you look to go for public capital at this moment Yeah, I mean, we are always interested and we're always talking to investors."
+  },
+  {
+    "t": 807.373,
+    "speaker": "SPEAKER_07",
+    "text": "And, you know, I'm sure we're going to do more of that. We will also be a public company. But why?"
+  },
+  {
+    "t": 812.076,
+    "speaker": "SPEAKER_06",
+    "text": "Also, why? Like if the private markets will keep going with you, what's your impetus for going public?"
+  },
+  {
+    "t": 818.099,
+    "speaker": "SPEAKER_07",
+    "text": "Because, you know, at our scale, you know, I think we raised $20 billion. At these scales, we're almost trying to create a market transaction mechanism for our employees, which, you know, it's 10,000 right now. But if you take all of them, the prior employees, it's probably 14,000 or so, you know. So there is a thing that can do that. It's called the public markets. So I just think this is a terrible year to go public because there's so much happening."
+  },
+  {
+    "t": 841.214,
+    "speaker": "SPEAKER_06",
+    "text": "Super quickly, how closely did you read the SpaceX S1? And how closely will you track an anthropic IPO to evaluate the future market that you want to go into?"
+  },
+  {
+    "t": 852.024,
+    "speaker": "SPEAKER_07",
+    "text": "Yeah, look, we're not really trying to time the market. We're trying to really win the market in the long run. That's really our focus. So, no, I did not go through the S1 filing word by word."
+  },
+  {
+    "t": 860.546,
+    "speaker": "SPEAKER_03",
+    "text": "It's got other things to do."
+  },
+  {
+    "t": 861.547,
+    "speaker": "SPEAKER_06",
+    "text": "Yep. Ali Ghazi, CEO of Databricks, a busy guy back on Bloomberg Tech. Thank you very much. Coming up, just a critical conversation. Altimeter Capital's Apoor Bhagrawal joins us on the AI super cycle. What is happening in the race for capital? The biggest opportunities and risks in tech right now. This is Bloomberg Tech."
+  },
+  {
+    "t": 896.552,
+    "speaker": "SPEAKER_06",
+    "text": "We're live from the Bloomberg Tech event, where one of the biggest questions facing investors, but also founders alike, is what comes next? IPO market, the AI boom, how it's reshaping technology's landscape. Joining us right now is a core of AgriWire partner at Altimeter Capital. Let me just set the scene right. I also understand the context view of the world we're in right now is crazy. Anthropic just filed confidentially. Altimeter led that round."
+  },
+  {
+    "t": 925.731,
+    "speaker": "SPEAKER_06",
+    "text": "I get that there's a limit to what you can say about that. But you're also on the cap table of OpenAI, SpaceX. This isn't also about IPOs in isolation. Alphabet came out and upsized an $84 billion now equity offering. So actually, my question to you right now is, what is the capital market telling you about the state of the world? Is that a good place to start?"
+  },
+  {
+    "t": 948.06,
+    "speaker": "SPEAKER_05",
+    "text": "That's a great place to start. Thank you for having me, Ed, Caroline. It's lovely to be here. You know, I think at the highest level, I think you nailed it. AI has gone from being a technology product cycle to one of the largest capital formation cycles. On one side, you've got the picks and shovels. This is the compute, memory, optics, networking. You go down the list. They are selling these products to, let's call them the miners. These are the labs. Google just raised $84 billion. OpenAI has a historic raise, $122 billion."
+  },
+  {
+    "t": 978.116,
+    "speaker": "SPEAKER_05",
+    "text": "Anthropic, of course. And, you know, you look at the same week, NVIDIA just announced an $80 billion stock buyback program. SK Hynix, same thing, $8 billion of stock retired with more dividends coming. These are like sort of contradictions in the function of the market. They're opposite. And that's the line that I wanted to highlight. On one side, you've got the folks who are helping you scale AI. These are receiving the CapEx. the others who are spending the capex, and I think that's the line."
+  },
+  {
+    "t": 1006.737,
+    "speaker": "SPEAKER_05",
+    "text": "That's the biggest mental model I want to leave the folks with, which is, as you look at these businesses, are you on the side of receiving the capex, which would be the compute layer, the energy layer, the memory layer, the networking layer, or are you on the side of spending? And I think that's the biggest divide in AI right now."
+  },
+  {
+    "t": 1024.655,
+    "speaker": "SPEAKER_03",
+    "text": "But at the moment, we have seen rocket ship when it comes to AI infrastructure and those who've been receiving all the capital expenditure. And then people just so desirous to help fund those that are going to be out there and raising it, whether it be OpenAI, whether it be SpaceX, whether it be Anthropic, whether it be Google, Alphabet. Is there enough room for all of these large language models? There's always been this argument that they'll be commoditized. When you're sat thinking about being in Rock AI and SpaceX and at the same time open AI and Anthropic, should you be?"
+  },
+  {
+    "t": 1055.412,
+    "speaker": "SPEAKER_05",
+    "text": "You know, I think there's this... narrative of companies doing a binary thing, or you're the consumer AI company, or you're the enterprise AI company, or you're the space AI company, I think the reality is a lot more multifaceted. Let's take OpenAI, for example. I think the company's mission is getting AI... to the market holistically across consumer. You've got just under a billion users on Chabs UPT. On enterprise, they've now got 5 million Codex users that is doing really well."
+  },
+  {
+    "t": 1083.42,
+    "speaker": "SPEAKER_05",
+    "text": "And then a long tail of other bets with hardware, with robotics, with obviously the Frontier Enterprise offering. SpaceX, which is the two largest markets on the planet, space and AI. And so I think the- And it's selling compute. And now they're selling compute, Elon Web Services."
+  },
+  {
+    "t": 1101.45,
+    "speaker": "SPEAKER_06",
+    "text": "Can I actually ask you about that? There's so many directions we could go, but the space business of launch and Starlink, 2 trillion in the TAM, get it. Enterprise AI, you've kind of answered that. But stealthily in there, they are becoming a hyperscaler. If you think about the anthropic arrangement, they're almost hedging by saying, in the interim, we're really good at building data center."
+  },
+  {
+    "t": 1127.063,
+    "speaker": "SPEAKER_05",
+    "text": "Well, I would say it's the Switzerland. It's the Switzerland approach. You're not the first person to say that to me. For the longest time, we were holding our breath for, hey, you did this deal with Cursor. And the big question was, well, a lot of Cursor revenues come from the great anthropic models. Then they got anthropic on the platform. that obviously they're building their own models. And so I think of the XAI business as the Switzerland business. We're now selling compute. We will sell models. We'll have a coding product. We'll have other products down the line on consumer, et cetera."
+  },
+  {
+    "t": 1156.02,
+    "speaker": "SPEAKER_05",
+    "text": "And again, it's a holistic approach. And that's why the TAM is so large."
+  },
+  {
+    "t": 1160.145,
+    "speaker": "SPEAKER_03",
+    "text": "Look, we love in the media and more broadly to be putting anthropic and open AI in some race against each other. But do you have, as a private market investor, any pause that maybe there isn't going to be the demand for this wall of public offerings that in many ways are going to be liquidity to your ultimate?"
+  },
+  {
+    "t": 1179.356,
+    "speaker": "SPEAKER_05",
+    "text": "Look, I think for the longest time, we've had a large part of the market finding ways to get access to the biggest super cycle in AI right now. And I think that that moment has arrived. IPOs are cyclical, as we know. You know, the last big cycle was four or five years ago in 2021. Based on everything we know, there's a lot of demand for these products as they go out."
+  },
+  {
+    "t": 1204.028,
+    "speaker": "SPEAKER_05",
+    "text": "In terms of the demand for the capabilities, look, I think in December last year, we crossed a level of capability with coding models in Opus 4.5 that has pushed it to the next frontier. On consumer, as everybody's already experienced, and then yet to be proven is robotics, manufacturing, the hardware device that OpenAI is working on and others. So a lot more to come, and I think more participation is better for us."
+  },
+  {
+    "t": 1226.532,
+    "speaker": "SPEAKER_06",
+    "text": "You're teaching at Stanford, and you've kindly invited me to come and check out a class, and I will. One of the questions that you pose in a series of guest speakers, you know everyone in industry and your fellow investors on the cap table. You ask them, what's one idea? You're long, one idea, you're short. Explain that, but why do you think that's a useful mechanism for understanding the world?"
+  },
+  {
+    "t": 1249.43,
+    "speaker": "SPEAKER_05",
+    "text": "Well, I like to hold the speakers to what they say. I'm going to ask them the question next year and have a scorecard of what happened to their long-short picks. It's my favorite game to play with founders. I learn a lot as founders pick their most optimistic idea, their most bearish idea. And I'll give you the theme. The theme in this class was more than half of the speakers were long. Let's call them the picks and shovels providers. Interesting. Compute. most common theme."
+  },
+  {
+    "t": 1277.523,
+    "speaker": "SPEAKER_05",
+    "text": "Energy was the second most common theme. That is ultimately the bottleneck at scale. The most common theme on the short side was folks were not innovating. Incumbents were not innovating. It's a fun time and good to bring the conversation back."
+  },
+  {
+    "t": 1295.033,
+    "speaker": "SPEAKER_03",
+    "text": "Are you short or what are you not looking at in a startup space as you're thinking about a wall of liquidity coming to Altimeter? What would you not like to invest in very quickly?"
+  },
+  {
+    "t": 1304.61,
+    "speaker": "SPEAKER_05",
+    "text": "Well, I'm an optimist by trade, by profession, in my blood. So I'm very optimistic on a lot of things going on. I think the simple mental model that I have is if there's a business that gets hurt by the scaling laws, it's one of the scaling laws. The scaling laws are if you provide more compute, more resources, more data, more algorithms, intelligence goes higher. If you're a business that is hurt by this empirical observation that intelligence is going to go up, that's a tough place to be because we believe intelligence is going to go up a lot."
+  },
+  {
+    "t": 1333.537,
+    "speaker": "SPEAKER_03",
+    "text": "Apoorv, we could speak to you for hours. It's so great to have you here at Bloomberg Tech. Apoorv Agarwal of forces of Altimeter Capital. Fascinating conversation. Meanwhile, coming up, we've got more. Got from the space of maybe the SaaS-pocalypse or maybe just SaaS and software doing well. Okta CEO, co-founder Tom McKinnon joins us to discuss the agentic build-out. It's happening right here in San Francisco. And so much more. Stick with us. This is Bloomberg Tech live from the Bloomberg Tech event in San Francisco."
+  },
+  {
+    "t": 1376.801,
+    "speaker": "SPEAKER_06",
+    "text": "Welcome back to a special edition of Bloomberg Tech. We're live from the Bloomberg Tech event in San Francisco. I'm Ed Ludlow. That's Caroline Hyde."
+  },
+  {
+    "t": 1383.883,
+    "speaker": "SPEAKER_03",
+    "text": "I'm here. It's beautiful. But look, what's not beautiful is the market a little bit today. Let's take a look at today's big number, $300 billion. Ed, that is roughly how much market value we've just lost at Broadcom."
+  },
+  {
+    "t": 1395.927,
+    "speaker": "SPEAKER_06",
+    "text": "Ouch."
+  },
+  {
+    "t": 1396.487,
+    "speaker": "SPEAKER_03",
+    "text": "after the shares plunged today following the company's earnings release last night. Look, you were covering it live for us last night, and it was a sharp drop, and it comes as the company's AI chip sales, the forecast just missed Wall Street's really lofty expectations. As well, not raising long-term AI revenue targets either. Look, the stock fell by as much as you can see, well, off by 14%. We're down as much as 15%. The worst days this January 2025. But Hock Tan, he's speaking at this event later."
+  },
+  {
+    "t": 1420.062,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, and, you know, he is going to try and give something longer term. But this was about... incredibly high expectations of what's happening in the AI infrastructure build out cycle. Let's get to the software space. Okta delivered a very strong start to the year by beating first quarter expectations last week, but then raised its full year guidance basically across the board."
+  },
+  {
+    "t": 1442.569,
+    "speaker": "SPEAKER_06",
+    "text": "joining us to discuss basically a platform shift that's happening, but also emerging threats from AI is Okta CEO co-founder Todd McKinnon. You know, it was so interesting because, you know, at the end of the day, numbers are numbers and you had the confidence to raise on the outlook. There must be a reason why. You know, earlier in the show, we're talking with Databricks and Ali Godzi about how real is the deployment of agents. You must know the answer to that."
+  },
+  {
+    "t": 1471.878,
+    "speaker": "SPEAKER_08",
+    "text": "Okta was founded in the shift to cloud computing. And this new shift we're in, the shift to AI and AI agents, is bigger than anything since the internet, possibly bigger. And so what Okta is benefiting from is all this change and all this technological evolution."
+  },
+  {
+    "t": 1486.085,
+    "speaker": "SPEAKER_08",
+    "text": "makes identity even more important than ever all these applications all these services and then you layer on top of that a new product cycle for okta the new product cycle is octa for ai agents so we have a product that is the identity layer the connectivity for all these ai agents in the enterprise it's a powerful combination that's driving the business on all fronts"
+  },
+  {
+    "t": 1504.514,
+    "speaker": "SPEAKER_03",
+    "text": "What makes your offering unique, different from other peers that are out there? Many want to be the governance rules, the protection layer for this."
+  },
+  {
+    "t": 1511.34,
+    "speaker": "SPEAKER_08",
+    "text": "I think it may surprise you, but it's the focus. We're focusing on the connections, the connections between AI agents and all the databases and data sources and applications they need to be most effective. And that connectivity, that is very important to the functionality of the agents. But it's also something that's very risky from a security perspective. The more you connect to your agents, the more risk of information leaking, the agent going rogue, and you having to shut it down quickly."
+  },
+  {
+    "t": 1537.509,
+    "speaker": "SPEAKER_08",
+    "text": "So that connectivity, and we have a blueprint for the industry to how to connect those agents securely, and that's really resonating with customers."
+  },
+  {
+    "t": 1544.66,
+    "speaker": "SPEAKER_06",
+    "text": "Earlier this week, somebody called Jensen Wang went on stage and in front of a camera and said that the narrative around software is complete nonsense. And he made the argument that for legacy software, agents will become the end users. And there are more agents than people in the world. And your stock, like everyone else's in your space, went absolutely bananas. Be honest with me, Todd."
+  },
+  {
+    "t": 1572.999,
+    "speaker": "SPEAKER_06",
+    "text": "Is that helpful to have Jensen Wong weigh in like that, or would you just wish he didn't?"
+  },
+  {
+    "t": 1578.364,
+    "speaker": "SPEAKER_08",
+    "text": "Well, if you zoom out and look what's happening, I mentioned earlier the transition to the cloud 15 years ago. The transition to AI is similar in that every layer of the stack is being reimagined and reinvented, from the hardware layer to the infrastructure layer to the platform layer to the development tool layer to the application layer. And so every vendor has an important priority to make sure they reinvent themselves with these agentic capabilities and these capabilities of automation. But this one is actually different. There's a new layer on top of all this."
+  },
+  {
+    "t": 1608.227,
+    "speaker": "SPEAKER_08",
+    "text": "And this new layer, which hasn't happened in previous generations of technology change, there's a new layer, and that's the layer of digital work. It's a whole new category, a whole new opportunity. that everyone's going after in addition to reinventing themselves in their own business. And that's I talked about this two pronged drivers of our business. We have the reinvention and the reprioritization of identity and this new layer for automated digital work, which our Octa for AI agents is powering and playing right into."
+  },
+  {
+    "t": 1635.999,
+    "speaker": "SPEAKER_03",
+    "text": "What does it mean for your own workforce, for your own human capital? Are you needing as much of it?"
+  },
+  {
+    "t": 1643.202,
+    "speaker": "SPEAKER_08",
+    "text": "I think they have they have to be more effective and more productive. And the tools are there to do that, whether it's cloud code or whether it's the latest marketing tool or support tool. They have to be more effective and they have to deliver value."
+  },
+  {
+    "t": 1653.727,
+    "speaker": "SPEAKER_03",
+    "text": "But you'd keep the same amount of people working with Okta?"
+  },
+  {
+    "t": 1656.069,
+    "speaker": "SPEAKER_08",
+    "text": "Well, this is where I disagree with a lot of people. I think in five years, Okta is going to have far more software engineers than we have now."
+  },
+  {
+    "t": 1661.852,
+    "speaker": "SPEAKER_06",
+    "text": "And you want them to be spending. You want them to be generating tokens."
+  },
+  {
+    "t": 1665.795,
+    "speaker": "SPEAKER_08",
+    "text": "And that's because it's a little bit of a trick answer because the reason we'll have more is not because they won't be more efficient. It's because there's just so much more capability to build. There's so much demand for software, and there's so much power of the automation. We're very excited about this."
+  },
+  {
+    "t": 1678.925,
+    "speaker": "SPEAKER_06",
+    "text": "Todd, the Bloomberg Tech audience is in industry. It is sophisticated, but lots of people, this is so abstract still. The thing that I always get frustrated with with an agent is that I just want it to act. So if you take, this is a random case study, but like my flight gets canceled. I have to phone a human still, even within Bloomberg, try and get that resolved. But there is a world that you're pitching where they have access to my credit card, the flight information. It just happens."
+  },
+  {
+    "t": 1704.262,
+    "speaker": "SPEAKER_08",
+    "text": "These are the connections I'm talking about, the connections, the data that has to be secured."
+  },
+  {
+    "t": 1708.264,
+    "speaker": "SPEAKER_06",
+    "text": "What is the barrier in the world right now? Corporate America, companies around the planet that just is preventing this just happening."
+  },
+  {
+    "t": 1715.867,
+    "speaker": "SPEAKER_08",
+    "text": "The barrier is, people think about models and we herald model advancements. The reality is that the models are at a capability now far surpassing our ability to simply connect the systems together and get practical agentic applications built. But that's great because there's a lot of smart people in the world working on connecting them and we're focused on making sure they're connected securely. And that's why the future is very bright."
+  },
+  {
+    "t": 1736.655,
+    "speaker": "SPEAKER_06",
+    "text": "That's what I meant, though. Like, are we worried about how secure that potential transaction is or not?"
+  },
+  {
+    "t": 1742.397,
+    "speaker": "SPEAKER_08",
+    "text": "We have to be always worried about security. You're connecting sensitive data and automating it in new ways, and there's always risk in that. And that's why I think our solutions are resonating so much. It's this practical focus on we want things to be more automated. We want these agents to have more capability. They need more data. How do we pragmatically do that in a secure and manageable way? And that's what Octa for AI Agents does."
+  },
+  {
+    "t": 1761.882,
+    "speaker": "SPEAKER_03",
+    "text": "And so this talk of SaaSpocalypse,"
+  },
+  {
+    "t": 1764.592,
+    "speaker": "SPEAKER_08",
+    "text": "I think it's completely overblown. It's completely overblown. I think there will be SaaS companies that don't embed these capabilities in their offerings. Just like in the revolution and the move to the cloud, there were companies that were left behind and became legacy vendors and were just all bought up by Oracle. That'll happen too. But there'll also be many vendors that make the transition and thrive in the future."
+  },
+  {
+    "t": 1784.889,
+    "speaker": "SPEAKER_03",
+    "text": "And that's why you're proving it. Okta CEO, co-founder Todd McKinnon. It's great to have you here at Bloomberg Tech. The live event in San Francisco. And coming up, we have the personification of the San Francisco economy. We've got the San Francisco Fed President, Mary Daly, joining us live. We're going to discuss AI's economic impact on the people, on the productivity, the risks that are getting perhaps overlooked. Guardrails may be needed. This is Bloomberg Tech."
+  },
+  {
+    "t": 1825.831,
+    "speaker": "SPEAKER_03",
+    "text": "We are live from the Bloomberg Tech event in the heart of San Francisco. And Ed, look, the debate is rich around AI's economic disruption. Is it growing more intense? Some see the technology that can unlock enormous gains, productivity and growth, but others that they want a disruption of unintended consequences. And we want to try and understand."
+  },
+  {
+    "t": 1845.31,
+    "speaker": "SPEAKER_03",
+    "text": "the sort of messy middle of all of this with mary daly president of federal reserve bank of san francisco mary daly extraordinary the data that you now have to lean upon trying to understand what's fact what's fiction what's utopia what's what sensationalism who do you go to for your for your data on whether productivity is working"
+  },
+  {
+    "t": 1863.067,
+    "speaker": "SPEAKER_00",
+    "text": "I go to the businesses who are using the technology, because you can always encounter enthusiasts or doomsayers, but it's really the people in the middle, as you said, who are using that technology, thinking about it. And I've seen tremendous interest in it last year, and now I am seeing tremendous investment in it, thinking about how do they train their workforces. to be AI ready. How do they think about what AI can do, not just in the back office, but in the front of house of operations?"
+  },
+  {
+    "t": 1889.127,
+    "speaker": "SPEAKER_00",
+    "text": "And we're seeing this in small businesses, medium and large, in global companies and more regional ones, and importantly, in everything from agriculture to machining and building things to services. And I think that's really the place. We haven't seen widespread productivity gains yet. The ROI is still to be developed, but I'm definitely seeing the enthusiasm and it's picked up. tremendously in the last year."
+  },
+  {
+    "t": 1913.836,
+    "speaker": "SPEAKER_06",
+    "text": "We haven't seen the productivity gains yet. You know, you're being very clear on that. As you remember, I asked you over and over again for an hour, please show me the productivity gains. But in the economic data, whichever set of data you want to look at, do you see an impact from AI, negative or positive?"
+  },
+  {
+    "t": 1933.466,
+    "speaker": "SPEAKER_00",
+    "text": "It's really hard to take. We have had productivity growth that's been outside of the historical norm, and I think that's a positive for the U.S. economy. Everyone wants to say that's AI. What I think of it is as sure it's possible that businesses are looking for cost savings and they hire fewer workers than they do just as much because they're using, you know, an LLM assistant to help. But we just haven't heard from businesses that they're seeing transformative, ongoing productivity gains yet."
+  },
+  {
+    "t": 1962.567,
+    "speaker": "SPEAKER_00",
+    "text": "And they want to always underscore yet. And so then I said, well, what's the time frame? And they said, next year, year after. Because what we know is it isn't just about getting a model and using it for things or an agent. It's about transforming your business processes. so that you really take advantage of things we don't even think about today. What can be done differently that will transform the economy? So you can definitely find a single business or sectors who are using it and seeing the gains."
+  },
+  {
+    "t": 1990.143,
+    "speaker": "SPEAKER_00",
+    "text": "But we haven't seen that across the economy going forward. But I'm pretty bullish. I see the possibilities and I'm hearing more and more that people are seeing early rewards and really recognizing that next year is the litmus test."
+  },
+  {
+    "t": 2003.727,
+    "speaker": "SPEAKER_03",
+    "text": "Look, bullish is an interesting turn of phrase. Today, putting aside the slight dip in the market, the exuberance that we have seen in financial markets to want to back these companies. And we're about to get more public companies coming, more liquidity, more money. Is that in and of itself a financial stability issue? Are you worried about the markets riding so high?"
+  },
+  {
+    "t": 2026.373,
+    "speaker": "SPEAKER_00",
+    "text": "You remember who's doing most of this investment, the MAG7, who's really there. This is actually something they can do and fund. And their enthusiasm is real. They see what's possible. But I don't think that we should think, oh, there's financial stability concerns just because the market's gone up. It could go up or down as it has in the past. But a financial stability issue would mean it's spread to the banks, it's spread to consumers or businesses. Right now, I'm not seeing evidence of that."
+  },
+  {
+    "t": 2056.228,
+    "speaker": "SPEAKER_00",
+    "text": "We keep our eye on it for absolute sure. But what I am seeing is that companies, other than the technology enthusiasts, companies outside of technology are using AI to think about how to do their business better in real ways. I mean, I was just meeting with some machines for a living. That's what they do."
+  },
+  {
+    "t": 2076.616,
+    "speaker": "SPEAKER_00",
+    "text": "And they're thinking about how do I scan in 50 years of plans of these machines I've built for companies and then use those plans and the model to generate innovative new ideas of things I can sell that will be faster, better, cheaper than things I've sold before. We toured a robotics company that builds things that help manufacturers do better in terms of shipping and distribution. These are real things that do have a capacity to change the economy. That's the underlying part of my bullish."
+  },
+  {
+    "t": 2105.819,
+    "speaker": "SPEAKER_00",
+    "text": "It has less to do about the investments that tech companies are making and more about the investments that everyday regular companies that make things and provide services, the things they're doing."
+  },
+  {
+    "t": 2117.064,
+    "speaker": "SPEAKER_06",
+    "text": "President Daley, inflation is still the biggest risk. And those are not my words. We heard it all week long at the Bloomberg Credit Forum, for example. One of the things that you and I have discussed in the past is, is the massive CapEx commitment, build out of data center, in conjunction with a bottleneck in some core areas like memory, inflationary? Or is it disinflationary?"
+  },
+  {
+    "t": 2142.639,
+    "speaker": "SPEAKER_06",
+    "text": "You know, that's the thesis that like a utility of PG&E would argue, disinflation rate, because the big guys are buying in aggregate. I still don't understand where we are with that."
+  },
+  {
+    "t": 2152.667,
+    "speaker": "SPEAKER_00",
+    "text": "It's a timing issue in my judgment that, you know, in the beginning, of course, when companies want to invest in big construction projects, a lot of electricity demand. then the companies that are providing those things or areas that are providing those things are going to see competition for the limited amount of services they have."
+  },
+  {
+    "t": 2172.379,
+    "speaker": "SPEAKER_00",
+    "text": "But what they're building creates the infrastructure, the data centers create the infrastructure, or if the big guys come in, as you just said, and help with electrical plants that help with electricity generation, that eventually can help with the prices of those things."
+  },
+  {
+    "t": 2186.983,
+    "speaker": "SPEAKER_06",
+    "text": "But not here and now."
+  },
+  {
+    "t": 2187.863,
+    "speaker": "SPEAKER_00",
+    "text": "But you just have to think about the timing. And one of the things that's really important in policymaking is that we not assume we know. We actually look for the evidence of what are we seeing in prices today? What are we seeing in what is the forecast of prices tomorrow? And then how do we think about policy? So right now I'm focused on, you know, other energy prices, oil prices and food prices are driving up inflation. But we do know that down the road, these things could maybe compete for services and costs and raise costs."
+  },
+  {
+    "t": 2217.271,
+    "speaker": "SPEAKER_00",
+    "text": "But we haven't seen real evidence that that's the limiting factor. The limiting factor seems it's hard to get generators. It's hard to get the infrastructure equipment you need. And so you see the big tech companies thinking about solutions they can provide for themselves."
+  },
+  {
+    "t": 2229.809,
+    "speaker": "SPEAKER_03",
+    "text": "Inflationary data must be fascinating here in San Francisco. When I think about all these companies potentially going public, what that means for the employee base, what that means for your house price and the ability to be able to buy yet more real estate here, what it means for the cost of labor as well. Is there an inflationary pressure that you're seeing here in San Francisco?"
+  },
+  {
+    "t": 2246.325,
+    "speaker": "SPEAKER_00",
+    "text": "I've lived through, so I moved to San Francisco in 1996, and then we had the dot-com, and I know what it feels like to not be able to rent a place that's affordable because the people who are making many more orders of magnitude. And I was, you know, in a position where... That's manageable, but that's what's happening is people feel like they're getting crowded out because other things are happening. But that's more about the supply of housing than it is about the demand for housing. We want people to come and invest in this community."
+  },
+  {
+    "t": 2275.643,
+    "speaker": "SPEAKER_00",
+    "text": "We want the city to thrive. We want regional activity to thrive and employment to grow. But as you said, the more interest people have in living in a place, if you have limited supply of housing, then you're going to have a run-up. So those are the things that not the Fed but other policymakers, other federal policymakers and local policymakers like the mayor are working on. But it looks very, you know, you can see the elements of 1996 already here, where there's productivity growth, there's enthusiasm, etc. But the data is still out. Is it a bubble?"
+  },
+  {
+    "t": 2305.091,
+    "speaker": "SPEAKER_00",
+    "text": "Is there a risk that we're in that same? You know, the dot-com was very different than the AI boom. And so I just want to, you know, there's a lot there that's already being put into businesses. And it's very pervasive. It's not just the dot com. So I don't jump to the conclusion that if it has similarities to the 90s, it's going to be the 90s."
+  },
+  {
+    "t": 2324.383,
+    "speaker": "SPEAKER_06",
+    "text": "If I may, President Eddie, you went out and did some of the most important work in that era of how the advent of the Internet would change the economy. Look, so you've kind of established where we sit right now. Inflation continues to rise. How likely or unlikely would that make a rate cut in 2026? How do you tie the two together from this juncture onward?"
+  },
+  {
+    "t": 2346.313,
+    "speaker": "SPEAKER_00",
+    "text": "You know, I think one of the questions I get asked regularly is what are the what's the path for the rates going forward? And the answer I give, because this is how I really think we have to think about it, is we don't know how the economy is going to play out."
+  },
+  {
+    "t": 2361.778,
+    "speaker": "SPEAKER_00",
+    "text": "We have, as we've been talking about, this tremendous possibility with AI, but we have at the same time the war in Iran that is with an uncertain end, which has pushed oil prices up and fertilizer prices, which have filtered into food prices. And right now, those are fairly contained. And if you look at the futures market for oil, it's $80 a barrel by the end of the year. But we have to think about that. And so right now, policy is in a good place."
+  },
+  {
+    "t": 2388.337,
+    "speaker": "SPEAKER_00",
+    "text": "We are prepared to respond either way, whatever the economy brings. But I think giving more forward guidance about what's possible could be misguiding in the end because we just have to wait for the economy to evolve. Everybody wants to resolve the uncertainty today, but I think that's a mistake because it will close off our mind about what we really have to look at. The inflation risk possibility, but also the possibility that the war ends, oil prices come back down, and we're back to the underlying dynamics with some of the positives of AI we've been talking about."
+  },
+  {
+    "t": 2418.682,
+    "speaker": "SPEAKER_03",
+    "text": "Can I ask you about the labor market as well? Because you've tried to bring this transparency of how you're thinking about things with your blog, for example. And one of the really interesting ones that I was reading and captured my attention was the idea that we've got zero labor growth now. Immigration's changed, the way in which demographics change. Are you feeling like we've seen some improvement, some resilience in the labor market? We have seen resilience. And will that hold?"
+  },
+  {
+    "t": 2441.371,
+    "speaker": "SPEAKER_06",
+    "text": "Has it firmed?"
+  },
+  {
+    "t": 2442.692,
+    "speaker": "SPEAKER_00",
+    "text": "You know, I think it's too early to say firmed. I think we're, you know, there's always statistical error so you can bounce around from month to month. But if you, you know, I was one of the people who, policymakers who were... a little worried about the labor market at the end of last year, was very supportive of the cuts that we took to stabilize conditions there. So relative to that point, I think this is, we've really stabilized. And I'm starting to see businesses feel a little more cautiously optimistic, which will feed through to hiring."
+  },
+  {
+    "t": 2472.533,
+    "speaker": "SPEAKER_00",
+    "text": "But they're not being, you know, they're not just running out to hire people. They are being cautious. They can get an agent. They're interrogating how much AI can do for them before they hire. And, you know, Regularly, we talk to our businesses and they say, we don't want to hire a bunch of people. Find out AI can do certain things. And we did a different set of skills. So we want to wait. We want to be patient on our hiring and make sure we're not over hiring."
+  },
+  {
+    "t": 2496.371,
+    "speaker": "SPEAKER_00",
+    "text": "Because if you ever go through a period of time where a business has to lay workers off, it's a painful experience for the workers and for them. And so they just don't want to get overly confident only to find out they have to make adjustments. So that caution will be with us for a bit."
+  },
+  {
+    "t": 2511.162,
+    "speaker": "SPEAKER_06",
+    "text": "We are live on Bloomberg Television and Bloomberg Radio. We're in San Francisco and we're at the Bloomberg Tech event and we're speaking with San Francisco Fed President Mary Daly. Reset a little bit, but if I may, it's the first opportunity we've had to ask you. Have you spoken to Chairman Walsh about how he sees the Fed evolving, about changes to the institution?"
+  },
+  {
+    "t": 2533.154,
+    "speaker": "SPEAKER_06",
+    "text": "And if you may, fold in the context of your district, San Francisco Fed, yes, much more than that, and your role going forward."
+  },
+  {
+    "t": 2541.546,
+    "speaker": "SPEAKER_00",
+    "text": "Sure, absolutely. So, you know, I think what we really want when any new chair comes in and what we want from all of our leaders of Federal Reserve Banks and all of our governors is that you're thinking constantly about how can the Fed be better? How can it better serve the American people? How can we do our work more efficiently, more effectively and more resiliently? You know, ultimately, everything we talk about is. is put between two bookends."
+  },
+  {
+    "t": 2565.938,
+    "speaker": "SPEAKER_00",
+    "text": "We are fiduciary stewards of public trust, which means we better have services that people can depend on and we better work hard to achieve our goals. And we're fiduciary stewards of public funds, which is we are very careful about how we spend taxpayer dollars. So with those two things in mind, you know, I mentioned I joined the Fed back in the 90s. So I joined the Fed in the 90s and we had check processing. Remember checks? We had check processing. I still have to write loads."
+  },
+  {
+    "t": 2592.97,
+    "speaker": "SPEAKER_00",
+    "text": "Everywhere we had a location, we had people who processed checks. But then check demand started to fall, and so we consolidated those activities into a few locations. And that level of modernizing, constantly thinking about how can you do better, is what I see now."
+  },
+  {
+    "t": 2610.085,
+    "speaker": "SPEAKER_06",
+    "text": "So what is the chair's equivalent of that present day?"
+  },
+  {
+    "t": 2612.807,
+    "speaker": "SPEAKER_00",
+    "text": "Well, he just joined. So I'm going to give him the right time he has to announce that. He's talked about making sure... He's holding on to that tradition, and he comes in with a lot of ideas. But what I've heard him say again and again, which I really appreciate, because he's the fifth chair I've worked with. All of the chairs I've worked with have the same basic compass."
+  },
+  {
+    "t": 2635.62,
+    "speaker": "SPEAKER_00",
+    "text": "It is to do our best work for the American people and work with all the individuals who are earnestly doing their work in the Fed to do it well. And I see that in Chair Walsh."
+  },
+  {
+    "t": 2645.379,
+    "speaker": "SPEAKER_03",
+    "text": "That earnest work within the Fed, how much of that is being modernized to use adopt AI? How hard or easy is it at this moment when you're such a regulated institution in and of yourself?"
+  },
+  {
+    "t": 2655.209,
+    "speaker": "SPEAKER_00",
+    "text": "Well, we're careful, like all regulated institutions, and importantly, like all businesses. When I talk to businesses, the last thing they want to do is take huge risks that destroy their shareholders, the value of their company. The same is true for us. Good fiduciary stewards of public trust and good fiduciary stewards of public funds, which means we're always driving to adopt new technology to do our work more efficiently. But we recognize we have to do that safely. You know, people want to know they can get their money when they need it."
+  },
+  {
+    "t": 2683.332,
+    "speaker": "SPEAKER_00",
+    "text": "They want to know that the banks are well supervised. They want to know that monetary policy is not made by machines. It's made by people making judgments not only about models and rules, but also about. the lived experiences of people across our country."
+  },
+  {
+    "t": 2697.12,
+    "speaker": "SPEAKER_06",
+    "text": "Very quickly before the show ends, what are you seeing in credit? That's a big story for us in how data centers are financed. For some, it's very worrying."
+  },
+  {
+    "t": 2708.033,
+    "speaker": "SPEAKER_00",
+    "text": "Well, you know, we're watching that carefully. I watch that carefully. What we do see is that there's a lot of there's those companies investing a lot of their own resources in those. So it's something to keep our eye on. But at this point, you know, again, if you stack rank the things that are worrying today, I'd say getting inflation back to target, getting Americans the relief they deserve that we've been working on for quite a while. That's my number one priority."
+  },
+  {
+    "t": 2734.837,
+    "speaker": "SPEAKER_06",
+    "text": "San Francisco Fed President Mary Daly, you've been very generous with your time. And we always cover such a broad spectrum of topics. Really grateful to have you here with us in San Francisco at the Bloomberg Tech event."
+  },
+  {
+    "t": 2746.142,
+    "speaker": "SPEAKER_03",
+    "text": "Yeah, what an event it has been. What an event it continues to be."
+  },
+  {
+    "t": 2749.383,
+    "speaker": "SPEAKER_06",
+    "text": "We're just getting started."
+  },
+  {
+    "t": 2750.484,
+    "speaker": "SPEAKER_03",
+    "text": "That does it for this edition of Bloomberg Tech, the show. The TV show, yeah. But you've got to stay tuned. The rest of Bloomberg Tech event today has some phenomenal conversations coming up. I'm lucky enough to be speaking again with the San Francisco Fed Chair, of course, Mary Daly. But look at the lineup. Look what we've got coming up."
+  },
+  {
+    "t": 2766.893,
+    "speaker": "SPEAKER_06",
+    "text": "Yeah, and I'm going to be speaking to Trey Stephens, partner at Founders Fund, chairman of Andreal. But Founders Fund is a high single-digit percent stakeholder of SpaceX. And don't forget, SpaceX's IPO pricing June 11th. Yeah, that's a big deal. Recap the show. A lot of really great conversations on the podcast. You guys know where it's at online, Spotify, iHeart and Apple and all the Bloomberg platforms as well. Stay tuned. This is Bloomberg Tech."
+  }
+]

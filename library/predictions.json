@@ -19,6 +19,24 @@
       "url": "https://www.youtube.com/watch?v=qTogNUV3CAI&t=2830s"
     },
     {
+      "id": "xhTc7Jl88Ww-p1",
+      "claim": "SpaceX shares could come to market around June 11, 2026 in a $75B IPO at a fixed $135/share.",
+      "speaker": "Katherine Doherty",
+      "category": "finance",
+      "start_seconds": 195,
+      "stated_at": "2026-06-03",
+      "horizon_label": "within weeks",
+      "revisit_dates": [
+        "2026-06-15"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=195s"
+    },
+    {
       "id": "HGbA6ze0_3M-p2",
       "claim": "SpaceX will close its first day of public trading above a $2T market cap.",
       "speaker": "Polymarket (cited by hosts, 71% odds)",
@@ -277,6 +295,24 @@
       "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1462s"
     },
     {
+      "id": "1bMjMj8D_dc-p4",
+      "claim": "Oil will be around $80 a barrel by the end of the year, per the futures market.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2349,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2349s"
+    },
+    {
       "id": "wkISIxb4v18-p3",
       "claim": "If the SpaceX IPO flops, Anthropic may delay its public offering until volatility eases.",
       "speaker": "Emily Jang",
@@ -293,6 +329,24 @@
       "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
       "channel": "Bloomberg Technology",
       "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=632s"
+    },
+    {
+      "id": "xhTc7Jl88Ww-p4",
+      "claim": "Credit will continue to languish in the first half but could have a better second half of 2026.",
+      "speaker": "Steve Tananbaum",
+      "category": "macro",
+      "start_seconds": 1408,
+      "stated_at": "2026-06-03",
+      "horizon_label": "by year-end 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1408s"
     },
     {
       "id": "wVKL_SpY2Uc-p2",
@@ -720,6 +774,116 @@
       "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=282s"
     },
     {
+      "id": "xhTc7Jl88Ww-p3",
+      "claim": "Most of these AI-era IPOs will trade down within the first 12 months, so investors should wait for six-month lockup expirations.",
+      "speaker": "Rebecca Walser",
+      "category": "finance",
+      "start_seconds": 433,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-06-03"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=433s"
+    },
+    {
+      "id": "xhTc7Jl88Ww-p5",
+      "claim": "At some point in the AI funding cycle you'll get high-yield-type spreads in the investment-grade market, offering excellent protection at below-investment-grade pricing.",
+      "speaker": "Steve Tananbaum",
+      "category": "finance",
+      "start_seconds": 1746,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-03",
+        "2028-06-03"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1746s"
+    },
+    {
+      "id": "xhTc7Jl88Ww-p6",
+      "claim": "Oil will be higher for longer; equities are mispricing it at $70\u201375 versus a tighter physical market.",
+      "speaker": "Steve Tananbaum",
+      "category": "macro",
+      "start_seconds": 2092,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1 year",
+      "revisit_dates": [
+        "2027-06-03"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2092s"
+    },
+    {
+      "id": "xhTc7Jl88Ww-p7",
+      "claim": "Marvell is on track to become the next trillion-dollar company.",
+      "speaker": "Jensen Huang",
+      "category": "tech",
+      "start_seconds": 2759,
+      "stated_at": "2026-06-03",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-03",
+        "2028-06-03"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2759s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p3",
+      "claim": "Economy-wide AI productivity gains will show up next year or the year after, with 'next year' as the litmus test.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 1958,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1958s"
+    },
+    {
+      "id": "UIoV8rG_25s-p2",
+      "claim": "SpaceX, Anthropic and OpenAI going public will return more cash than the prior 10 years of exits combined, rebalancing the unicorn ecosystem.",
+      "speaker": "Thomas Laffont",
+      "category": "finance",
+      "start_seconds": 286,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=286s"
+    },
+    {
       "id": "5eqRuVp65eY-p3",
       "claim": "Specific emergent capabilities (e.g., multi-step reasoning, arithmetic) will remain unpredictable from scaling laws alone, appearing discontinuously rather than smoothly.",
       "speaker": "Welch",
@@ -773,6 +937,24 @@
       "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
       "channel": "Dwarkesh Patel",
       "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5560s"
+    },
+    {
+      "id": "UIoV8rG_25s-p4",
+      "claim": "The total AI ecosystem revenue (~$140B today, ~$300B in 2026) will double again in 2027.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2027",
+      "revisit_dates": [
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=880s"
     },
     {
       "id": "wkISIxb4v18-p2",
@@ -1014,6 +1196,133 @@
       "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=1241s"
     },
     {
+      "id": "xhTc7Jl88Ww-p2",
+      "claim": "AI monetization is in its very beginning stages and the market will keep rising as long as the capex is delivered.",
+      "speaker": "Rebecca Walser",
+      "category": "ai",
+      "start_seconds": 587,
+      "stated_at": "2026-06-03",
+      "horizon_label": "by 2030",
+      "revisit_dates": [
+        "2028-06-03",
+        "2030-06-03"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "xhTc7Jl88Ww",
+      "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=587s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p1",
+      "claim": "Within one to two years, more software will be written than in all of human history.",
+      "speaker": "Ali Ghodsi",
+      "category": "ai",
+      "start_seconds": 740,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=740s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p6",
+      "claim": "Data-center buildout costs are inflationary now but will become disinflationary as infrastructure and power generation come online.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2102,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2102s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p7",
+      "claim": "Databricks will eventually become a public company to create a liquidity mechanism for its ~14,000 current and former employees.",
+      "speaker": "Ali Ghodsi",
+      "category": "business",
+      "start_seconds": 786,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=786s"
+    },
+    {
+      "id": "UIoV8rG_25s-p1",
+      "claim": "OpenAI and Anthropic's combined revenue could surpass AWS and potentially all of Microsoft by 2028.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 376,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=376s"
+    },
+    {
+      "id": "UIoV8rG_25s-p5",
+      "claim": "Memory demand per AI user could quintuple based on what AI systems require to personalize their services.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=880s"
+    },
+    {
+      "id": "UIoV8rG_25s-p7",
+      "claim": "We may eventually see a price war between OpenAI and Anthropic as excess capital gets deployed, mirroring the ride-share and food-delivery wars.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 1788,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1788s"
+    },
+    {
       "id": "HGbA6ze0_3M-p3",
       "claim": "Orbital/space-based compute will become a reality between the second half of 2028 and the first half of 2030.",
       "speaker": "Gavin Baker",
@@ -1087,6 +1396,60 @@
       "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
       "channel": "Bloomberg Technology",
       "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1560s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p5",
+      "claim": "SaaSpocalypse is overblown \u2014 many SaaS vendors will embed agentic capabilities and thrive, while non-adopters become legacy vendors bought by the likes of Oracle.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1763,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1763s"
+    },
+    {
+      "id": "UIoV8rG_25s-p3",
+      "claim": "Within a few years, Starlink will power a device enabling phone calls anywhere in the world, capturing the $200\u2013400B global telco profit pool.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 973,
+      "stated_at": "2026-06-04",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=973s"
+    },
+    {
+      "id": "UIoV8rG_25s-p6",
+      "claim": "Ad penetration of AI-enabled ads at Meta and Google will eventually reach 100% (from ~25% today), worth ~$150B.",
+      "speaker": "Thomas Laffont",
+      "category": "business",
+      "start_seconds": 920,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "UIoV8rG_25s",
+      "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+      "channel": "All-In Podcast",
+      "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=920s"
     },
     {
       "id": "5eqRuVp65eY-p1",
@@ -1397,6 +1760,24 @@
       "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
       "channel": "Dwarkesh Patel",
       "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5400s"
+    },
+    {
+      "id": "1bMjMj8D_dc-p2",
+      "claim": "In five years, Okta will have far more software engineers than it does now.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1656,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-06-04"
+      ],
+      "status": "open",
+      "notes": "",
+      "video_id": "1bMjMj8D_dc",
+      "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+      "channel": "Bloomberg Technology",
+      "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1656s"
     },
     {
       "id": "21EYKqUsPfg-p2",

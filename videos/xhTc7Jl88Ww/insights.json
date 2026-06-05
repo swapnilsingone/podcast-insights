@@ -1,0 +1,348 @@
+{
+  "video": {
+    "id": "xhTc7Jl88Ww",
+    "title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 3020,
+    "thumbnail": "https://i.ytimg.com/vi/xhTc7Jl88Ww/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww",
+    "upload_date": "2026-06-03",
+    "display_title_html": "SpaceX Targets <em>$75B IPO at a Fixed $135 a Share</em>"
+  },
+  "thesis": "A scramble for AI-era capital is reshaping Wall Street convention — SpaceX is pre-setting a fixed IPO price, Alphabet is upsizing an equity raise, and a credit veteran warns the AI infrastructure arms race rhymes with past overbuilt industries like undersea cable.",
+  "topics": [
+    "finance",
+    "business",
+    "ai"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech Begins"
+    },
+    {
+      "start": 125,
+      "title": "Katherine Doherty, Bloomberg News"
+    },
+    {
+      "start": 320,
+      "title": "Rebecca Walser, Walser Wealth Management"
+    },
+    {
+      "start": 688,
+      "title": "Lynn Doan, Bloomberg News"
+    },
+    {
+      "start": 969,
+      "title": "Brody Ford, Bloomberg News"
+    },
+    {
+      "start": 1221,
+      "title": "Steven Tananbaum, Goldentree Asset Management"
+    },
+    {
+      "start": 2462,
+      "title": "Eliyahu Kamisher, Bloomberg News"
+    },
+    {
+      "start": 2629,
+      "title": "Jay Parikh, Microsoft EVP of CoreAI"
+    },
+    {
+      "start": 2845,
+      "title": "Dina Bass, Bloomberg News"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "counterintuitive",
+      "headline": "SpaceX sets a fixed IPO price, skipping the range",
+      "body": "Rather than the customary price range, SpaceX is locking in $135 a share for 556.5 million shares to raise $75 billion — unusual for what would be the largest listing on record. The fixed number signals certainty to the market even though many variables could shift in the marketing week ahead.",
+      "start_seconds": 128,
+      "end_seconds": 215
+    },
+    {
+      "id": 2,
+      "category": "data-point",
+      "headline": "IPO price lags the valuation jump — built-in dilution",
+      "body": "The $135 price is a 28% premium to SpaceX's May 15 five-for-one stock split (which took shares from above $500 to $105 at a $1.25 trillion valuation), but Ed Ludlow notes the share price isn't keeping pace with the valuation jump, implying dilution for holders.",
+      "start_seconds": 233,
+      "end_seconds": 261
+    },
+    {
+      "id": 3,
+      "category": "story",
+      "headline": "Alphabet upsizes its equity raise to $84.75B",
+      "body": "Alphabet boosted its AI-infrastructure equity offering from a previously announced $80 billion to $84.75 billion after parts of the offering were oversubscribed. The stock stayed roughly flat despite the dilution element.",
+      "start_seconds": 69,
+      "end_seconds": 99
+    },
+    {
+      "id": 4,
+      "category": "framework",
+      "headline": "Hyperscaler bond issuance quadrupled in a year",
+      "body": "Rebecca Walser notes hyperscalers historically issued a little under $30 billion of bonds a year, but in 2025 they wrote $121 billion — evidence that capital demand for AI capex is outstripping supply and, in her view, a sign of early-stage monetization rather than a top.",
+      "start_seconds": 366,
+      "end_seconds": 395
+    },
+    {
+      "id": 5,
+      "category": "actionable",
+      "headline": "Wait for IPO lockups to expire before buying",
+      "body": "Walser argues most IPOs decline in their first 12 months, so retail investors should consider waiting until insider lockups expire at six months, then buy in strategically and keep exposure broad rather than picking a single AI winner.",
+      "start_seconds": 415,
+      "end_seconds": 469
+    },
+    {
+      "id": 6,
+      "category": "counterintuitive",
+      "headline": "Palo Alto beats on everything and still drops 5%",
+      "body": "Lynn Doan calls it the 'Nvidia effect': Palo Alto Networks beat on revenue, earnings and outlook yet fell ~5% because the stock had run up ~60% into the print and analysts weren't honest about elevated expectations.",
+      "start_seconds": 699,
+      "end_seconds": 747
+    },
+    {
+      "id": 7,
+      "category": "data-point",
+      "headline": "Palo Alto leads the S&P 500 in say-on-pay rejections",
+      "body": "A Bloomberg analysis of proxy data back to 2015 found Palo Alto Networks has had seven say-on-pay rejections — more than any other S&P 500 company — even as CEO Nikesh Arora's ~$100M package coincided with over $100 billion in added market cap.",
+      "start_seconds": 768,
+      "end_seconds": 811
+    },
+    {
+      "id": 8,
+      "category": "mental-model",
+      "headline": "Adobe is the 'SaaSpocalypse' poster child",
+      "body": "Brody Ford frames Adobe as the example of investor fear that AI disrupts incumbent software. The core worry: Adobe's tools are expensive and complex, so professionals who need every knob stay, but casual meme-makers who once bought Photoshop now use free generative-AI tools.",
+      "start_seconds": 977,
+      "end_seconds": 1195
+    },
+    {
+      "id": 9,
+      "category": "framework",
+      "headline": "Front-run the next buyer: trades as short movies",
+      "body": "Steve Tananbaum describes his edge as predicting why people buy and sell — treating investments like short movies and asking 'who am I going to sell this to, and where will they buy it?' During COVID he sold his semi-liquid product first, knowing it would be unsellable a week later.",
+      "start_seconds": 1261,
+      "end_seconds": 1380
+    },
+    {
+      "id": 10,
+      "category": "mental-model",
+      "headline": "AI capex may be 'undersea cable' — good until it wasn't",
+      "body": "Tananbaum says credit terms on AI financing look overcompensated for 2–3 year horizons and the backstops are good credits, but history has a bad record on overinvestment in high-payout industries (riverboat gambling, undersea cable). He wants user commitments and assurances before funding projects.",
+      "start_seconds": 1644,
+      "end_seconds": 1759
+    },
+    {
+      "id": 11,
+      "category": "framework",
+      "headline": "Mid-cycle stretched valuations punish credit, reward equity",
+      "body": "Tananbaum argues that when valuations are stretched mid-cycle with 2%+ growth, credit returns come in below the coupon while equities thrive — exactly what's played out. Credit is priced as if defaults stay low, so you're penalized for downside earnings surprises without reward for upside.",
+      "start_seconds": 1402,
+      "end_seconds": 1523
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Equities are pricing $70–75 oil, ignoring the strip",
+      "body": "Tananbaum says equities aren't pricing the oil futures curve — mid-cap oil names imply $70–75 even as diesel inventories sit at their lowest since 2003 and Chevron's Wirth warns of possible US shortages. His bet: higher for longer, so buy mid-cap oil names and suppliers.",
+      "start_seconds": 2009,
+      "end_seconds": 2106
+    },
+    {
+      "id": 13,
+      "category": "story",
+      "headline": "Silicon Valley money failed at California's ballot box",
+      "body": "Despite heavy spending from VCs like Mike Moritz and Sergey Brin behind anti-billionaire-tax San Jose mayor Matt Mahan, tech-favored candidates underperformed. Eliyahu Kamisher says frustration is concentrated among a small tech elite that didn't translate to the broader voter base.",
+      "start_seconds": 2477,
+      "end_seconds": 2548
+    },
+    {
+      "id": 14,
+      "category": "data-point",
+      "headline": "GitHub now processes 300M commits a week",
+      "body": "Jay Parikh says GitHub went from about a billion commits in all of 2025 to roughly 300 million each week, driving outages and a re-architecture effort backed by Microsoft engineering talent and more capacity.",
+      "start_seconds": 2638,
+      "end_seconds": 2706
+    },
+    {
+      "id": 15,
+      "category": "framework",
+      "headline": "Jensen anoints Marvell to sharpen the Broadcom fight",
+      "body": "Dina Bass notes Nvidia isn't objective in praising Marvell — it has invested in Marvell as its backed horse in custom AI accelerators to strengthen a competitor against Broadcom, which has positioned itself as the non-Nvidia alternative and is now a $2.3 trillion company.",
+      "start_seconds": 2845,
+      "end_seconds": 2925
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm not participating in the markets, but certainly participating in the emotion of what's going on.",
+      "speaker": "Ed Ludlow",
+      "start_seconds": 542
+    },
+    {
+      "text": "Now we're buying laptops for agents, AI agents, not people.",
+      "speaker": "Rebecca Walser",
+      "start_seconds": 581
+    },
+    {
+      "text": "You can beat on every single key metric, and yet your stock can still come down because of that run up.",
+      "speaker": "Lynn Doan",
+      "start_seconds": 699
+    },
+    {
+      "text": "If you think of investments as maybe short movies, and how's a movie gonna end?",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1261
+    },
+    {
+      "text": "Will the infrastructure investment be justified, or will this be more like underwater cable, which was a good thing until it wasn't.",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1708
+    },
+    {
+      "text": "Lower prices brings in illiquidity. Higher prices brings in confidence. That's the way the credit markets work.",
+      "speaker": "Steve Tananbaum",
+      "start_seconds": 1848
+    }
+  ],
+  "resources": [
+    {
+      "name": "Katherine Doherty, Bloomberg News",
+      "context": "Reported SpaceX's fixed-price IPO mechanics"
+    },
+    {
+      "name": "Rebecca Walser, Walser Wealth Management",
+      "context": "CEO/CIO arguing AI monetization is in its infancy"
+    },
+    {
+      "name": "Lynn Doan, Bloomberg News",
+      "context": "Cybersecurity editor on Palo Alto earnings and the 'Nvidia effect'"
+    },
+    {
+      "name": "Brody Ford, Bloomberg News",
+      "context": "Software reporter on Adobe's CEO search and SaaSpocalypse"
+    },
+    {
+      "name": "Steve Tananbaum, GoldenTree Asset Management",
+      "context": "Founder/CIO on credit positioning and the AI capex arms race"
+    },
+    {
+      "name": "Lisa Abramowicz, Bloomberg Surveillance",
+      "context": "Interviewed Tananbaum at the Bloomberg Global Credit Forum"
+    },
+    {
+      "name": "Eliyahu Kamisher, Bloomberg News",
+      "context": "California reporter on tech money in primary elections"
+    },
+    {
+      "name": "Jay Parikh, Microsoft EVP of Core AI",
+      "context": "On GitHub traffic growth, reliability and AI agents"
+    },
+    {
+      "name": "Dina Bass, Bloomberg News",
+      "context": "Broadcom/Marvell custom AI accelerator preview"
+    },
+    {
+      "name": "ISS & Glass Lewis",
+      "context": "Proxy advisory firms cited on Nikesh Arora's pay misalignment"
+    }
+  ],
+  "action_items": [
+    "If you participate in the AI IPO wave, wait for insider lockups to expire (~6 months) and buy in broadly and strategically, because most IPOs fall in their first 12 months.",
+    "Treat each trade as a 'short movie': before buying, ask who you'll sell to and where they'll buy it, because liquidity and positioning drive exits more than the thesis.",
+    "Demand user commitments and assurances before financing AI infrastructure, because high-payout industries (undersea cable, riverboat gambling) have a bad record of overinvestment.",
+    "Consider mid-cap oil names and suppliers — equities are pricing ~$70–75 oil while inventories tighten, so the curve may be higher for longer."
+  ],
+  "stats": [
+    {
+      "label": "SpaceX IPO target",
+      "val": "$75B",
+      "unit": "@ $135/sh",
+      "sub": "556.5M shares at a fixed price — the largest listing on record, skipping the usual range."
+    },
+    {
+      "label": "Alphabet equity raise",
+      "val": "$84.75B",
+      "unit": "up from $80B",
+      "sub": "Upsized after parts of the AI-infrastructure offering were oversubscribed."
+    },
+    {
+      "label": "Hyperscaler bond issuance 2025",
+      "val": "$121B",
+      "unit": "vs ~$30B/yr",
+      "sub": "Roughly 4x the historical annual norm, per Rebecca Walser, as AI capex demand outstrips capital."
+    },
+    {
+      "label": "GitHub commits",
+      "val": "300M",
+      "unit": "/ week",
+      "sub": "Up from about 1B in all of 2025, driving a re-architecture, per Jay Parikh."
+    }
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "AI-era capital raises stacking up",
+      "sub": "Headline funding events cited in a single show — the scramble for AI capital",
+      "caption": "Source: Bloomberg Tech hosts · 01:09 / 02:08",
+      "unit": "$B",
+      "labels": [
+        "SpaceX IPO",
+        "Alphabet equity raise"
+      ],
+      "series": [
+        {
+          "name": "Amount ($B)",
+          "data": [
+            75,
+            84.75
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Hyperscaler bond issuance: norm vs 2025",
+      "sub": "Annual bond financing jumped as AI capex outran available capital",
+      "caption": "Source: Rebecca Walser, Walser Wealth · 06:13",
+      "unit": "$B",
+      "labels": [
+        "Typical year",
+        "2025"
+      ],
+      "series": [
+        {
+          "name": "Bonds issued ($B)",
+          "data": [
+            30,
+            121
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Credit forum poll: positioning for 2026",
+      "sub": "How credit managers say they're positioned for the rest of the year",
+      "caption": "Source: Bloomberg Global Credit Forum poll · 35:48",
+      "unit": "%",
+      "labels": [
+        "Neutral",
+        "Defensive",
+        "Risk on"
+      ],
+      "series": [
+        {
+          "name": "Share of respondents (%)",
+          "data": [
+            42,
+            31,
+            27
+          ]
+        }
+      ]
+    }
+  ]
+}

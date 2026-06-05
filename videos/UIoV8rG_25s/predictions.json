@@ -1,0 +1,104 @@
+{
+  "video_id": "UIoV8rG_25s",
+  "predictions": [
+    {
+      "id": "UIoV8rG_25s-p1",
+      "claim": "OpenAI and Anthropic's combined revenue could surpass AWS and potentially all of Microsoft by 2028.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 376,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p2",
+      "claim": "SpaceX, Anthropic and OpenAI going public will return more cash than the prior 10 years of exits combined, rebalancing the unicorn ecosystem.",
+      "speaker": "Thomas Laffont",
+      "category": "finance",
+      "start_seconds": 286,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p3",
+      "claim": "Within a few years, Starlink will power a device enabling phone calls anywhere in the world, capturing the $200–400B global telco profit pool.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 973,
+      "stated_at": "2026-06-04",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p4",
+      "claim": "The total AI ecosystem revenue (~$140B today, ~$300B in 2026) will double again in 2027.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2027",
+      "revisit_dates": [
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p5",
+      "claim": "Memory demand per AI user could quintuple based on what AI systems require to personalize their services.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p6",
+      "claim": "Ad penetration of AI-enabled ads at Meta and Google will eventually reach 100% (from ~25% today), worth ~$150B.",
+      "speaker": "Thomas Laffont",
+      "category": "business",
+      "start_seconds": 920,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p7",
+      "claim": "We may eventually see a price war between OpenAI and Anthropic as excess capital gets deployed, mirroring the ride-share and food-delivery wars.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 1788,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ],
+  "validated_predictions": []
+}

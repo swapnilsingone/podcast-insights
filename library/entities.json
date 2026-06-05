@@ -134,12 +134,45 @@
         "mentions": 4,
         "role": null,
         "context": "Expected to file IPO within weeks"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=308s",
+        "first_seconds": 308,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited among three huge upcoming IPOs"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=222s",
+        "first_seconds": 222,
+        "mentions": 6,
+        "role": null,
+        "context": "Historic $122B raise; horse race with Anthropic"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 5,
+        "role": null,
+        "context": "Massive fundraising and revenue scaling; potential IPO and price-war dynamics"
       }
     ],
-    "total_mentions": 66,
+    "total_mentions": 78,
     "first_uploaded": "2024-02-28",
-    "last_uploaded": "2026-06-02",
-    "video_count": 12,
+    "last_uploaded": "2026-06-04",
+    "video_count": 15,
     "slug": "openai",
     "upload_dates": [
       "2024-02-28",
@@ -152,9 +185,11 @@
       "2026-05-28",
       "2026-05-29",
       "2026-06-01",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
     ],
-    "span_days": 825
+    "span_days": 827
   },
   {
     "name": "Anthropic",
@@ -269,12 +304,45 @@
         "mentions": 8,
         "role": null,
         "context": "Confidential IPO filing; $47B run-rate"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=308s",
+        "first_seconds": 308,
+        "mentions": 2,
+        "role": null,
+        "context": "Filed confidentially; buying Broadcom chips"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=182s",
+        "first_seconds": 182,
+        "mentions": 6,
+        "role": null,
+        "context": "Filed confidentially for IPO; Altimeter led round"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 7,
+        "role": null,
+        "context": "Filed confidential S1; revenue scaling unlike any company; reportedly had a profitable month"
       }
     ],
-    "total_mentions": 114,
+    "total_mentions": 129,
     "first_uploaded": "2024-02-28",
-    "last_uploaded": "2026-06-02",
-    "video_count": 10,
+    "last_uploaded": "2026-06-04",
+    "video_count": 13,
     "slug": "anthropic",
     "upload_dates": [
       "2024-02-28",
@@ -285,9 +353,11 @@
       "2026-05-28",
       "2026-05-29",
       "2026-06-01",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
     ],
-    "span_days": 825
+    "span_days": 827
   },
   {
     "name": "Nvidia",
@@ -391,12 +461,34 @@
         "mentions": 3,
         "role": null,
         "context": "Computex announcements; RTX local inference"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=568s",
+        "first_seconds": 568,
+        "mentions": 5,
+        "role": null,
+        "context": "$5T giant; backs Marvell against Broadcom"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=428s",
+        "first_seconds": 428,
+        "mentions": 3,
+        "role": null,
+        "context": "$80B buyback; can't keep up with demand"
       }
     ],
-    "total_mentions": 149,
+    "total_mentions": 157,
     "first_uploaded": "2024-09-13",
-    "last_uploaded": "2026-06-02",
-    "video_count": 9,
+    "last_uploaded": "2026-06-04",
+    "video_count": 11,
     "slug": "nvidia",
     "upload_dates": [
       "2024-09-13",
@@ -407,9 +499,11 @@
       "2026-05-28",
       "2026-05-29",
       "2026-06-01",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
     ],
-    "span_days": 627
+    "span_days": 629
   },
   {
     "name": "Elon Musk",
@@ -502,12 +596,34 @@
         "mentions": 3,
         "role": "SpaceX CEO",
         "context": "Negotiating thin IPO bank fees"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=15s",
+        "first_seconds": 15,
+        "mentions": 5,
+        "role": "SpaceX / xAI CEO",
+        "context": "Setting a fixed-price SpaceX IPO and rewriting Wall Street convention"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=522s",
+        "first_seconds": 522,
+        "mentions": 1,
+        "role": "SpaceX/xAI CEO",
+        "context": "Tweeted that the valuation report was false"
       }
     ],
-    "total_mentions": 55,
+    "total_mentions": 61,
     "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-06-02",
-    "video_count": 8,
+    "last_uploaded": "2026-06-04",
+    "video_count": 10,
     "slug": "elon-musk",
     "upload_dates": [
       "2026-03-19",
@@ -516,9 +632,241 @@
       "2026-05-22",
       "2026-05-29",
       "2026-06-01",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
     ],
-    "span_days": 75
+    "span_days": 77
+  },
+  {
+    "name": "xAI",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1110s",
+        "first_seconds": 1110,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=520s",
+        "first_seconds": 520,
+        "mentions": 8,
+        "role": null,
+        "context": "Trains Grok on Colossus 2; tied up with Cursor; lacks a coding product/revenue."
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=264s",
+        "first_seconds": 264,
+        "mentions": 8,
+        "role": null,
+        "context": "Grok 4.3 on the frontier; launched Grok Build harness; runs Colossus"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "upload_date": "2026-05-28",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=187s",
+        "first_seconds": 187,
+        "mentions": 1,
+        "role": null,
+        "context": "Named among local AI companies."
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3060s",
+        "first_seconds": 3060,
+        "mentions": 2,
+        "role": null,
+        "context": "Elon's rewritten training complex on 220,000 GPUs"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1990s",
+        "first_seconds": 1990,
+        "mentions": 2,
+        "role": null,
+        "context": "Merged with SpaceX; valued ~$400B in sum-of-parts"
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=443s",
+        "first_seconds": 443,
+        "mentions": 1,
+        "role": null,
+        "context": "Makes SpaceX an AI company via XAI"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=274s",
+        "first_seconds": 274,
+        "mentions": 1,
+        "role": null,
+        "context": "Paused hiring of Grok trainers; HR overwhelmed"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1064s",
+        "first_seconds": 1064,
+        "mentions": 2,
+        "role": null,
+        "context": "'Switzerland' compute/model approach"
+      }
+    ],
+    "total_mentions": 26,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
+    "video_count": 9,
+    "slug": "xai",
+    "upload_dates": [
+      "2026-04-15",
+      "2026-05-08",
+      "2026-05-22",
+      "2026-05-28",
+      "2026-05-29",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 50
+  },
+  {
+    "name": "SpaceX",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=278s",
+        "first_seconds": 278,
+        "mentions": 15,
+        "role": null,
+        "context": "Leasing terrestrial compute to Anthropic; roadshow valuation supported by 'Elon Web Services.'"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=21s",
+        "first_seconds": 21,
+        "mentions": 20,
+        "role": null,
+        "context": "Filed S-1 to raise $75B at $1.75T; Starlink, Space, and AI/Colossus units"
+      },
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=30s",
+        "first_seconds": 30,
+        "mentions": 12,
+        "role": null,
+        "context": "Lowered IPO target to $1.8T; potential largest IPO ever"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=25s",
+        "first_seconds": 25,
+        "mentions": 12,
+        "role": null,
+        "context": "Mega-IPO reshaping index rules; SOTP valuation near $2T."
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=25s",
+        "first_seconds": 25,
+        "mentions": 9,
+        "role": null,
+        "context": "$75B IPO, pricing June 11th"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=15s",
+        "first_seconds": 15,
+        "mentions": 8,
+        "role": null,
+        "context": "Planning a fixed-price $75B IPO at $135/share"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=219s",
+        "first_seconds": 219,
+        "mentions": 5,
+        "role": null,
+        "context": "S-1A priced at $135/share, ~$1.8T valuation"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 8,
+        "role": null,
+        "context": "IPO weeks away; valuation driven by launch cadence and Starlink constellations"
+      }
+    ],
+    "total_mentions": 89,
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-06-04",
+    "video_count": 8,
+    "slug": "spacex",
+    "upload_dates": [
+      "2026-05-08",
+      "2026-05-22",
+      "2026-05-29",
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 27
   },
   {
     "name": "Tesla",
@@ -631,101 +979,102 @@
     "span_days": 74
   },
   {
-    "name": "xAI",
-    "kind": "companies",
+    "name": "Jensen Huang",
+    "kind": "people",
     "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
+        "first_seconds": 0,
+        "mentions": 30,
+        "role": "Co-founder & CEO, Nvidia",
+        "context": "Guest; lays out Nvidia's AI-factory strategy"
+      },
       {
         "video_id": "Hrbq66XqtCo",
         "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
         "channel": "Dwarkesh Patel",
         "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=1110s",
-        "first_seconds": 1110,
-        "mentions": 1,
-        "role": null,
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
+        "first_seconds": 0,
+        "mentions": 999,
+        "role": "Founder & CEO, Nvidia",
         "context": null
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=520s",
-        "first_seconds": 520,
-        "mentions": 8,
-        "role": null,
-        "context": "Trains Grok on Colossus 2; tied up with Cursor; lacks a coding product/revenue."
       },
       {
         "video_id": "HGbA6ze0_3M",
         "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
         "channel": "All-In Podcast",
         "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=264s",
-        "first_seconds": 264,
-        "mentions": 8,
-        "role": null,
-        "context": "Grok 4.3 on the frontier; launched Grok Build harness; runs Colossus"
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1051s",
+        "first_seconds": 1051,
+        "mentions": 6,
+        "role": "CEO, Nvidia",
+        "context": "Frustrated at stock vs. record numbers; wants a DC-to-DC design partner"
       },
       {
-        "video_id": "wE1ZgJdt4uM",
-        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
-        "channel": "Y Combinator",
-        "upload_date": "2026-05-28",
-        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=187s",
-        "first_seconds": 187,
-        "mentions": 1,
-        "role": null,
-        "context": "Named among local AI companies."
-      },
-      {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3060s",
-        "first_seconds": 3060,
-        "mentions": 2,
-        "role": null,
-        "context": "Elon's rewritten training complex on 220,000 GPUs"
-      },
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
         "channel": "Bloomberg Technology",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1990s",
-        "first_seconds": 1990,
-        "mentions": 2,
-        "role": null,
-        "context": "Merged with SpaceX; valued ~$400B in sum-of-parts"
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=82s",
+        "first_seconds": 82,
+        "mentions": 6,
+        "role": "Nvidia CEO",
+        "context": "Computex keynote unveiling RTX Spark and the 'agentic age' thesis."
       },
       {
         "video_id": "wkISIxb4v18",
         "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
         "channel": "Bloomberg Technology",
         "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=443s",
-        "first_seconds": 443,
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1397s",
+        "first_seconds": 1397,
         "mentions": 1,
-        "role": null,
-        "context": "Makes SpaceX an AI company via XAI"
+        "role": "Nvidia CEO",
+        "context": "Called Marvell the next trillion-dollar company at Computex"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=568s",
+        "first_seconds": 568,
+        "mentions": 3,
+        "role": "Nvidia CEO",
+        "context": "Anointed Marvell at Computex; touting AI ROI"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=722s",
+        "first_seconds": 722,
+        "mentions": 3,
+        "role": "Nvidia CEO",
+        "context": "Computex thesis: agents as end users of software"
       }
     ],
-    "total_mentions": 23,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-06-02",
+    "total_mentions": 1048,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
     "video_count": 7,
-    "slug": "xai",
+    "slug": "jensen-huang",
     "upload_dates": [
+      "2026-03-19",
       "2026-04-15",
-      "2026-05-08",
       "2026-05-22",
-      "2026-05-28",
-      "2026-05-29",
-      "2026-06-02"
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
     ],
-    "span_days": 48
+    "span_days": 77
   },
   {
     "name": "Google",
@@ -796,12 +1145,23 @@
         "mentions": 2,
         "role": null,
         "context": "Strategic Anthropic investor; improving coding agents"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=920s",
+        "first_seconds": 920,
+        "mentions": 1,
+        "role": null,
+        "context": "AI-enabled ad penetration cited alongside Meta"
       }
     ],
-    "total_mentions": 26,
+    "total_mentions": 27,
     "first_uploaded": "2024-02-28",
-    "last_uploaded": "2026-05-29",
-    "video_count": 6,
+    "last_uploaded": "2026-06-04",
+    "video_count": 7,
     "slug": "google",
     "upload_dates": [
       "2024-02-28",
@@ -809,9 +1169,108 @@
       "2026-04-15",
       "2026-05-02",
       "2026-05-22",
-      "2026-05-29"
+      "2026-05-29",
+      "2026-06-04"
     ],
-    "span_days": 821
+    "span_days": 827
+  },
+  {
+    "name": "Meta",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "5eqRuVp65eY",
+        "video_title": "AI can't cross this line and we don't know why.",
+        "channel": "Welch Labs",
+        "upload_date": "2024-09-13",
+        "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=440s",
+        "first_seconds": 440,
+        "mentions": 1,
+        "role": null,
+        "context": "Llama model used as an example of top-5 next-word probability outputs"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=996s",
+        "first_seconds": 996,
+        "mentions": 3,
+        "role": null,
+        "context": "~$185B revenue; trades 17x fully-taxed GAAP earnings."
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2222s",
+        "first_seconds": 2222,
+        "mentions": 3,
+        "role": null,
+        "context": "8,000 layoffs plus computer-recording software to train models"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3941s",
+        "first_seconds": 3941,
+        "mentions": 5,
+        "role": null,
+        "context": "8,000 cuts; accused of over-hiring and $50B VR burn"
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=503s",
+        "first_seconds": 503,
+        "mentions": 1,
+        "role": null,
+        "context": "CISO Guy Rosen departing"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2898s",
+        "first_seconds": 2898,
+        "mentions": 2,
+        "role": null,
+        "context": "Custom-chip Broadcom customer; backed Becerra late"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=920s",
+        "first_seconds": 920,
+        "mentions": 1,
+        "role": null,
+        "context": "~25% of its served ads are AI-enabled, heading toward 100%"
+      }
+    ],
+    "total_mentions": 16,
+    "first_uploaded": "2024-09-13",
+    "last_uploaded": "2026-06-04",
+    "video_count": 7,
+    "slug": "meta",
+    "upload_dates": [
+      "2024-09-13",
+      "2026-05-08",
+      "2026-05-22",
+      "2026-05-29",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 629
   },
   {
     "name": "Google DeepMind",
@@ -900,7 +1359,7 @@
     "span_days": 821
   },
   {
-    "name": "Jensen Huang",
+    "name": "Jason Calacanis",
     "kind": "people",
     "occurrences": [
       {
@@ -910,142 +1369,142 @@
         "upload_date": "2026-03-19",
         "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
         "first_seconds": 0,
-        "mentions": 30,
-        "role": "Co-founder & CEO, Nvidia",
-        "context": "Guest; lays out Nvidia's AI-factory strategy"
+        "mentions": 8,
+        "role": "All-In host / investor",
+        "context": "Drives desktop, healthcare and robotics threads"
       },
-      {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=0s",
-        "first_seconds": 0,
-        "mentions": 999,
-        "role": "Founder & CEO, Nvidia",
-        "context": null
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=1051s",
-        "first_seconds": 1051,
-        "mentions": 6,
-        "role": "CEO, Nvidia",
-        "context": "Frustrated at stock vs. record numbers; wants a DC-to-DC design partner"
-      },
-      {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=82s",
-        "first_seconds": 82,
-        "mentions": 6,
-        "role": "Nvidia CEO",
-        "context": "Computex keynote unveiling RTX Spark and the 'agentic age' thesis."
-      },
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1397s",
-        "first_seconds": 1397,
-        "mentions": 1,
-        "role": "Nvidia CEO",
-        "context": "Called Marvell the next trillion-dollar company at Computex"
-      }
-    ],
-    "total_mentions": 1042,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-06-02",
-    "video_count": 5,
-    "slug": "jensen-huang",
-    "upload_dates": [
-      "2026-03-19",
-      "2026-04-15",
-      "2026-05-22",
-      "2026-06-01",
-      "2026-06-02"
-    ],
-    "span_days": 75
-  },
-  {
-    "name": "SpaceX",
-    "kind": "companies",
-    "occurrences": [
       {
         "video_id": "10MdOvK-aG4",
         "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
         "channel": "All-In Podcast",
         "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=278s",
-        "first_seconds": 278,
-        "mentions": 15,
-        "role": null,
-        "context": "Leasing terrestrial compute to Anthropic; roadshow valuation supported by 'Elon Web Services.'"
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=35s",
+        "first_seconds": 35,
+        "mentions": 40,
+        "role": "Host / moderator, angel investor",
+        "context": "Moderates the episode; pushes minimum wage, universal healthcare, and IPO-giving ideas."
       },
       {
         "video_id": "HGbA6ze0_3M",
         "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
         "channel": "All-In Podcast",
         "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=21s",
-        "first_seconds": 21,
-        "mentions": 20,
-        "role": null,
-        "context": "Filed S-1 to raise $75B at $1.75T; Starlink, Space, and AI/Colossus units"
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=0s",
+        "first_seconds": 0,
+        "mentions": 30,
+        "role": "Host (All-In)",
+        "context": "Runs the episode; pushes the AI PR-crisis and regulation questions"
       },
       {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "channel": "Bloomberg Technology",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
         "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=30s",
-        "first_seconds": 30,
-        "mentions": 12,
-        "role": null,
-        "context": "Lowered IPO target to $1.8T; potential largest IPO ever"
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=0s",
+        "first_seconds": 0,
+        "mentions": 30,
+        "role": "Host, investor (Launch)",
+        "context": "Argues AI causes real near-term job displacement; runs associate program"
       },
       {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=25s",
-        "first_seconds": 25,
-        "mentions": 12,
-        "role": null,
-        "context": "Mega-IPO reshaping index rules; SOTP valuation near $2T."
-      },
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=25s",
-        "first_seconds": 25,
-        "mentions": 9,
-        "role": null,
-        "context": "$75B IPO, pricing June 11th"
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1112s",
+        "first_seconds": 1112,
+        "mentions": 4,
+        "role": "Angel investor, All-In host",
+        "context": "Asks about power law, VC playing field and where LPs should allocate"
       }
     ],
-    "total_mentions": 68,
-    "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-06-02",
+    "total_mentions": 112,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
     "video_count": 5,
-    "slug": "spacex",
+    "slug": "jason-calacanis",
     "upload_dates": [
+      "2026-03-19",
       "2026-05-08",
       "2026-05-22",
       "2026-05-29",
-      "2026-06-01",
-      "2026-06-02"
+      "2026-06-04"
     ],
-    "span_days": 25
+    "span_days": 77
+  },
+  {
+    "name": "Chamath Palihapitiya",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=165s",
+        "first_seconds": 165,
+        "mentions": 6,
+        "role": "All-In host / investor",
+        "context": "Asks strategy, open source and moat questions"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=360s",
+        "first_seconds": 360,
+        "mentions": 20,
+        "role": "Investor, Social Capital",
+        "context": "Argues power is the binding constraint and AI hasn't lifted S&P margins yet."
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=57s",
+        "first_seconds": 57,
+        "mentions": 20,
+        "role": "Investor, Social Capital",
+        "context": "Underwrites the SpaceX $2T case; argues against breathless model hype"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=60s",
+        "first_seconds": 60,
+        "mentions": 25,
+        "role": "Founder, Social Capital / 8090",
+        "context": "Frames Anthropic via game theory; says layoffs are AI-washing over-hiring"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1370s",
+        "first_seconds": 1370,
+        "mentions": 4,
+        "role": "Social Capital, All-In host",
+        "context": "Raises six-months-plus-one price-discovery timing and structural-efficiency questions"
+      }
+    ],
+    "total_mentions": 75,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
+    "video_count": 5,
+    "slug": "chamath-palihapitiya",
+    "upload_dates": [
+      "2026-03-19",
+      "2026-05-08",
+      "2026-05-22",
+      "2026-05-29",
+      "2026-06-04"
+    ],
+    "span_days": 77
   },
   {
     "name": "Dario Amodei",
@@ -1122,6 +1581,80 @@
     "span_days": 71
   },
   {
+    "name": "Ed Ludlow",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=15s",
+        "first_seconds": 15,
+        "mentions": 2,
+        "role": "Bloomberg Tech anchor",
+        "context": "Interviewed Dell's CFO; co-host out for the day"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=4s",
+        "first_seconds": 4,
+        "mentions": 2,
+        "role": "Bloomberg Tech co-host (San Francisco)",
+        "context": "Co-anchor; presses guests on Nvidia, SpaceX and NYC tech."
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=5s",
+        "first_seconds": 5,
+        "mentions": 3,
+        "role": "Bloomberg Tech anchor",
+        "context": "Co-host in San Francisco"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=4s",
+        "first_seconds": 4,
+        "mentions": 6,
+        "role": "Bloomberg Tech co-host",
+        "context": "Co-anchored from San Francisco; SpaceX reporting"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=0s",
+        "first_seconds": 0,
+        "mentions": 6,
+        "role": "Bloomberg Tech co-host",
+        "context": "Co-anchored the special from San Francisco"
+      }
+    ],
+    "total_mentions": 19,
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-06-04",
+    "video_count": 5,
+    "slug": "ed-ludlow",
+    "upload_dates": [
+      "2026-05-29",
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 6
+  },
+  {
     "name": "Donald Trump",
     "kind": "people",
     "occurrences": [
@@ -1196,204 +1729,6 @@
     "span_days": 75
   },
   {
-    "name": "Meta",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "5eqRuVp65eY",
-        "video_title": "AI can't cross this line and we don't know why.",
-        "channel": "Welch Labs",
-        "upload_date": "2024-09-13",
-        "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=440s",
-        "first_seconds": 440,
-        "mentions": 1,
-        "role": null,
-        "context": "Llama model used as an example of top-5 next-word probability outputs"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=996s",
-        "first_seconds": 996,
-        "mentions": 3,
-        "role": null,
-        "context": "~$185B revenue; trades 17x fully-taxed GAAP earnings."
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=2222s",
-        "first_seconds": 2222,
-        "mentions": 3,
-        "role": null,
-        "context": "8,000 layoffs plus computer-recording software to train models"
-      },
-      {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=3941s",
-        "first_seconds": 3941,
-        "mentions": 5,
-        "role": null,
-        "context": "8,000 cuts; accused of over-hiring and $50B VR burn"
-      },
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=503s",
-        "first_seconds": 503,
-        "mentions": 1,
-        "role": null,
-        "context": "CISO Guy Rosen departing"
-      }
-    ],
-    "total_mentions": 13,
-    "first_uploaded": "2024-09-13",
-    "last_uploaded": "2026-06-02",
-    "video_count": 5,
-    "slug": "meta",
-    "upload_dates": [
-      "2024-09-13",
-      "2026-05-08",
-      "2026-05-22",
-      "2026-05-29",
-      "2026-06-02"
-    ],
-    "span_days": 627
-  },
-  {
-    "name": "Jason Calacanis",
-    "kind": "people",
-    "occurrences": [
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=0s",
-        "first_seconds": 0,
-        "mentions": 8,
-        "role": "All-In host / investor",
-        "context": "Drives desktop, healthcare and robotics threads"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=35s",
-        "first_seconds": 35,
-        "mentions": 40,
-        "role": "Host / moderator, angel investor",
-        "context": "Moderates the episode; pushes minimum wage, universal healthcare, and IPO-giving ideas."
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=0s",
-        "first_seconds": 0,
-        "mentions": 30,
-        "role": "Host (All-In)",
-        "context": "Runs the episode; pushes the AI PR-crisis and regulation questions"
-      },
-      {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=0s",
-        "first_seconds": 0,
-        "mentions": 30,
-        "role": "Host, investor (Launch)",
-        "context": "Argues AI causes real near-term job displacement; runs associate program"
-      }
-    ],
-    "total_mentions": 108,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-29",
-    "video_count": 4,
-    "slug": "jason-calacanis",
-    "upload_dates": [
-      "2026-03-19",
-      "2026-05-08",
-      "2026-05-22",
-      "2026-05-29"
-    ],
-    "span_days": 71
-  },
-  {
-    "name": "Chamath Palihapitiya",
-    "kind": "people",
-    "occurrences": [
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=165s",
-        "first_seconds": 165,
-        "mentions": 6,
-        "role": "All-In host / investor",
-        "context": "Asks strategy, open source and moat questions"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=360s",
-        "first_seconds": 360,
-        "mentions": 20,
-        "role": "Investor, Social Capital",
-        "context": "Argues power is the binding constraint and AI hasn't lifted S&P margins yet."
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=57s",
-        "first_seconds": 57,
-        "mentions": 20,
-        "role": "Investor, Social Capital",
-        "context": "Underwrites the SpaceX $2T case; argues against breathless model hype"
-      },
-      {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=60s",
-        "first_seconds": 60,
-        "mentions": 25,
-        "role": "Founder, Social Capital / 8090",
-        "context": "Frames Anthropic via game theory; says layoffs are AI-washing over-hiring"
-      }
-    ],
-    "total_mentions": 71,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-29",
-    "video_count": 4,
-    "slug": "chamath-palihapitiya",
-    "upload_dates": [
-      "2026-03-19",
-      "2026-05-08",
-      "2026-05-22",
-      "2026-05-29"
-    ],
-    "span_days": 71
-  },
-  {
     "name": "SK Hynix",
     "kind": "companies",
     "occurrences": [
@@ -1440,20 +1775,280 @@
         "mentions": 2,
         "role": null,
         "context": "Pledged to double memory capacity amid shortage"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=985s",
+        "first_seconds": 985,
+        "mentions": 1,
+        "role": null,
+        "context": "$8B stock buyback with more dividends"
       }
     ],
-    "total_mentions": 5,
+    "total_mentions": 6,
     "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-06-02",
-    "video_count": 4,
+    "last_uploaded": "2026-06-04",
+    "video_count": 5,
     "slug": "sk-hynix",
     "upload_dates": [
       "2026-04-15",
       "2026-05-08",
       "2026-05-29",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-04"
     ],
-    "span_days": 48
+    "span_days": 50
+  },
+  {
+    "name": "David Friedberg",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=300s",
+        "first_seconds": 300,
+        "mentions": 6,
+        "role": "All-In host / CEO, Ohalo",
+        "context": "Shares auto-research and genomics breakthroughs"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=50s",
+        "first_seconds": 50,
+        "mentions": 2,
+        "role": "Bestie (absent this episode)",
+        "context": "Sick with a 'socialist-related flu'; returns next week with interviews."
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=442s",
+        "first_seconds": 442,
+        "mentions": 12,
+        "role": "Investor, Ohalo",
+        "context": "Frames AI backlash via nuclear/Copernican analogies and the bond/credit risk"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1647s",
+        "first_seconds": 1647,
+        "mentions": 3,
+        "role": "All-In host",
+        "context": "Frames the 10x filter as durability-of-earnings / Ben Graham analysis and cites Bell breakup"
+      }
+    ],
+    "total_mentions": 23,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
+    "video_count": 4,
+    "slug": "david-friedberg",
+    "upload_dates": [
+      "2026-03-19",
+      "2026-05-08",
+      "2026-05-22",
+      "2026-06-04"
+    ],
+    "span_days": 77
+  },
+  {
+    "name": "Broadcom",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2080s",
+        "first_seconds": 2080,
+        "mentions": 2,
+        "role": null,
+        "context": "Anthropic + Google TPU deal partner"
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4500s",
+        "first_seconds": 4500,
+        "mentions": 3,
+        "role": null,
+        "context": "Guided 143% YoY AI-semi growth; ASIC share-gain narrative"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2845s",
+        "first_seconds": 2845,
+        "mentions": 5,
+        "role": null,
+        "context": "$2.3T custom AI accelerator maker; key earnings print"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=48s",
+        "first_seconds": 48,
+        "mentions": 7,
+        "role": null,
+        "context": "Earnings miss erased ~$300B in market cap"
+      }
+    ],
+    "total_mentions": 17,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
+    "video_count": 4,
+    "slug": "broadcom",
+    "upload_dates": [
+      "2026-04-15",
+      "2026-05-22",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 50
+  },
+  {
+    "name": "Caroline Hyde",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=4s",
+        "first_seconds": 4,
+        "mentions": 2,
+        "role": "Bloomberg Tech co-host (New York)",
+        "context": "Anchors the show alongside Ed Ludlow."
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=5s",
+        "first_seconds": 5,
+        "mentions": 3,
+        "role": "Bloomberg Tech anchor",
+        "context": "Co-host in New York"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=4s",
+        "first_seconds": 4,
+        "mentions": 6,
+        "role": "Bloomberg Tech co-host",
+        "context": "Co-anchored from New York"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=0s",
+        "first_seconds": 0,
+        "mentions": 5,
+        "role": "Bloomberg Tech co-host",
+        "context": "Co-anchored from New York / on-site"
+      }
+    ],
+    "total_mentions": 16,
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-04",
+    "video_count": 4,
+    "slug": "caroline-hyde",
+    "upload_dates": [
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 3
+  },
+  {
+    "name": "Cursor",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=522s",
+        "first_seconds": 522,
+        "mentions": 2,
+        "role": null,
+        "context": "Coding tool xAI partnered with to catch up in enterprise/coding revenue."
+      },
+      {
+        "video_id": "HGbA6ze0_3M",
+        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-22",
+        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=270s",
+        "first_seconds": 270,
+        "mentions": 8,
+        "role": null,
+        "context": "Composer 2.5 went Pareto-dominant on Colossus 2; being acquired (per hosts)"
+      },
+      {
+        "video_id": "wE1ZgJdt4uM",
+        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+        "channel": "Y Combinator",
+        "upload_date": "2026-05-28",
+        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=170s",
+        "first_seconds": 170,
+        "mentions": 1,
+        "role": null,
+        "context": "Named among SF AI companies."
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1095s",
+        "first_seconds": 1095,
+        "mentions": 1,
+        "role": null,
+        "context": "Coding product whose revenue leans on Anthropic models"
+      }
+    ],
+    "total_mentions": 12,
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-06-04",
+    "video_count": 4,
+    "slug": "cursor",
+    "upload_dates": [
+      "2026-05-08",
+      "2026-05-22",
+      "2026-05-28",
+      "2026-06-04"
+    ],
+    "span_days": 27
   },
   {
     "name": "Micron",
@@ -1518,6 +2113,56 @@
     "span_days": 48
   },
   {
+    "name": "Brad Gerstner",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=396s",
+        "first_seconds": 396,
+        "mentions": 6,
+        "role": "All-In host / investor (Altimeter)",
+        "context": "Presses on inference economics and analyst forecasts"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=145s",
+        "first_seconds": 145,
+        "mentions": 25,
+        "role": "Founder/CEO, Altimeter Capital (8090)",
+        "context": "Fifth bestie; bullish on the AI market and Elon's hyperscaler pivot."
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=800s",
+        "first_seconds": 800,
+        "mentions": 2,
+        "role": "Founder, Altimeter Capital",
+        "context": "Cited on allocating time across early-stage, private and public investing"
+      }
+    ],
+    "total_mentions": 33,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "brad-gerstner",
+    "upload_dates": [
+      "2026-03-19",
+      "2026-05-08",
+      "2026-06-04"
+    ],
+    "span_days": 77
+  },
+  {
     "name": "Dwarkesh Patel",
     "kind": "people",
     "occurrences": [
@@ -1568,54 +2213,54 @@
     "span_days": 777
   },
   {
-    "name": "David Friedberg",
-    "kind": "people",
+    "name": "TSMC",
+    "kind": "companies",
     "occurrences": [
       {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=300s",
-        "first_seconds": 300,
-        "mentions": 6,
-        "role": "All-In host / CEO, Ohalo",
-        "context": "Shares auto-research and genomics breakthroughs"
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=6s",
+        "first_seconds": 6,
+        "mentions": 10,
+        "role": null,
+        "context": "Foundry; 30-year handshake relationship"
       },
       {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1010s",
+        "first_seconds": 1010,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited with ~20s forward PE"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
         "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=50s",
-        "first_seconds": 50,
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1576s",
+        "first_seconds": 1576,
         "mentions": 2,
-        "role": "Bestie (absent this episode)",
-        "context": "Sick with a 'socialist-related flu'; returns next week with interviews."
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=442s",
-        "first_seconds": 442,
-        "mentions": 12,
-        "role": "Investor, Ohalo",
-        "context": "Frames AI backlash via nuclear/Copernican analogies and the bond/credit risk"
+        "role": null,
+        "context": "Foundry available for custom chips but with no memory equivalent"
       }
     ],
-    "total_mentions": 20,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-22",
+    "total_mentions": 13,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
     "video_count": 3,
-    "slug": "david-friedberg",
+    "slug": "tsmc",
     "upload_dates": [
-      "2026-03-19",
-      "2026-05-08",
-      "2026-05-22"
+      "2026-04-15",
+      "2026-05-29",
+      "2026-06-04"
     ],
-    "span_days": 64
+    "span_days": 50
   },
   {
     "name": "Apple",
@@ -1666,56 +2311,6 @@
       "2026-06-01"
     ],
     "span_days": 24
-  },
-  {
-    "name": "Cursor",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=522s",
-        "first_seconds": 522,
-        "mentions": 2,
-        "role": null,
-        "context": "Coding tool xAI partnered with to catch up in enterprise/coding revenue."
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=270s",
-        "first_seconds": 270,
-        "mentions": 8,
-        "role": null,
-        "context": "Composer 2.5 went Pareto-dominant on Colossus 2; being acquired (per hosts)"
-      },
-      {
-        "video_id": "wE1ZgJdt4uM",
-        "video_title": "Inference, Diffusion, World Models, and More | YC Paper Club",
-        "channel": "Y Combinator",
-        "upload_date": "2026-05-28",
-        "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM&t=170s",
-        "first_seconds": 170,
-        "mentions": 1,
-        "role": null,
-        "context": "Named among SF AI companies."
-      }
-    ],
-    "total_mentions": 11,
-    "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-05-28",
-    "video_count": 3,
-    "slug": "cursor",
-    "upload_dates": [
-      "2026-05-08",
-      "2026-05-22",
-      "2026-05-28"
-    ],
-    "span_days": 20
   },
   {
     "name": "Amazon",
@@ -1817,6 +2412,56 @@
     "span_days": 70
   },
   {
+    "name": "Palo Alto Networks",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2785s",
+        "first_seconds": 2785,
+        "mentions": 2,
+        "role": null,
+        "context": "Cited alongside CrowdStrike as best-in-world cybersecurity defense."
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=27s",
+        "first_seconds": 27,
+        "mentions": 6,
+        "role": null,
+        "context": "Beat earnings but fell ~5%; record say-on-pay rejections"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=55s",
+        "first_seconds": 55,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited as a strong-performing public company"
+      }
+    ],
+    "total_mentions": 9,
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "palo-alto-networks",
+    "upload_dates": [
+      "2026-05-08",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 27
+  },
+  {
     "name": "Intel",
     "kind": "companies",
     "occurrences": [
@@ -1867,54 +2512,53 @@
     "span_days": 249
   },
   {
-    "name": "Ed Ludlow",
-    "kind": "people",
+    "name": "Cerebras",
+    "kind": "companies",
     "occurrences": [
       {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=15s",
-        "first_seconds": 15,
-        "mentions": 2,
-        "role": "Bloomberg Tech anchor",
-        "context": "Interviewed Dell's CFO; co-host out for the day"
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5247s",
+        "first_seconds": 5247,
+        "mentions": 1,
+        "role": null,
+        "context": "Wafer-scale alternative architecture"
       },
       {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
         "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=4s",
-        "first_seconds": 4,
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=151s",
+        "first_seconds": 151,
         "mentions": 2,
-        "role": "Bloomberg Tech co-host (San Francisco)",
-        "context": "Co-anchor; presses guests on Nvidia, SpaceX and NYC tech."
+        "role": null,
+        "context": "$25B AI demand backlog"
       },
       {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=5s",
-        "first_seconds": 5,
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=766s",
+        "first_seconds": 766,
         "mentions": 3,
-        "role": "Bloomberg Tech anchor",
-        "context": "Co-host in San Francisco"
+        "role": null,
+        "context": "Recent IPO; Coatue board seat; OpenAI contract quintupled its value"
       }
     ],
-    "total_mentions": 7,
-    "first_uploaded": "2026-05-29",
-    "last_uploaded": "2026-06-02",
+    "total_mentions": 6,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
     "video_count": 3,
-    "slug": "ed-ludlow",
+    "slug": "cerebras",
     "upload_dates": [
-      "2026-05-29",
-      "2026-06-01",
-      "2026-06-02"
+      "2026-04-15",
+      "2026-06-04"
     ],
-    "span_days": 4
+    "span_days": 50
   },
   {
     "name": "Sam Altman",
@@ -1965,6 +2609,106 @@
       "2026-06-02"
     ],
     "span_days": 5
+  },
+  {
+    "name": "Microsoft",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "5eqRuVp65eY",
+        "video_title": "AI can't cross this line and we don't know why.",
+        "channel": "Welch Labs",
+        "upload_date": "2024-09-13",
+        "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=145s",
+        "first_seconds": 145,
+        "mentions": 1,
+        "role": null,
+        "context": "Partnered with OpenAI on the 10,000-V100 supercomputer that trained GPT-3"
+      },
+      {
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2880s",
+        "first_seconds": 2880,
+        "mentions": 1,
+        "role": null,
+        "context": "Announced killing of cloud licenses"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1075s",
+        "first_seconds": 1075,
+        "mentions": 4,
+        "role": null,
+        "context": "Backing GitHub; exec Lamanna courted by Adobe"
+      }
+    ],
+    "total_mentions": 6,
+    "first_uploaded": "2024-09-13",
+    "last_uploaded": "2026-06-03",
+    "video_count": 3,
+    "slug": "microsoft",
+    "upload_dates": [
+      "2024-09-13",
+      "2026-05-29",
+      "2026-06-03"
+    ],
+    "span_days": 628
+  },
+  {
+    "name": "AMD",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2253s",
+        "first_seconds": 2253,
+        "mentions": 1,
+        "role": null,
+        "context": "OpenAI deal"
+      },
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=86s",
+        "first_seconds": 86,
+        "mentions": 3,
+        "role": null,
+        "context": "x86 rival also fell on the RTX Spark announcement."
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=418s",
+        "first_seconds": 418,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited among chipmakers unable to meet demand"
+      }
+    ],
+    "total_mentions": 5,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "amd",
+    "upload_dates": [
+      "2026-04-15",
+      "2026-06-01",
+      "2026-06-04"
+    ],
+    "span_days": 50
   },
   {
     "name": "Samsung",
@@ -2067,6 +2811,155 @@
     "span_days": 74
   },
   {
+    "name": "Mythos",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1957s",
+        "first_seconds": 1957,
+        "mentions": 1,
+        "role": null,
+        "context": "Anthropic model with powerful cyber capabilities that spooked the White House."
+      },
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=2723s",
+        "first_seconds": 2723,
+        "mentions": 1,
+        "role": null,
+        "context": "Anthropic model with cybersecurity capabilities, widened to 150+ orgs"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=315s",
+        "first_seconds": 315,
+        "mentions": 1,
+        "role": null,
+        "context": "Anthropic tool everyone wants to use and fears"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "mythos",
+    "upload_dates": [
+      "2026-05-08",
+      "2026-06-02",
+      "2026-06-04"
+    ],
+    "span_days": 27
+  },
+  {
+    "name": "Claude Code",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=873s",
+        "first_seconds": 873,
+        "mentions": 1,
+        "role": null,
+        "context": "First very useful agentic system, enterprise-only before OpenClaw"
+      },
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=320s",
+        "first_seconds": 320,
+        "mentions": 1,
+        "role": null,
+        "context": "Doubled rate limits after the Colossus compute deal."
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=970s",
+        "first_seconds": 970,
+        "mentions": 1,
+        "role": null,
+        "context": "Credited with transforming Anthropic's trajectory and enterprise revenue"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "claude-code",
+    "upload_dates": [
+      "2026-03-19",
+      "2026-05-08",
+      "2026-06-04"
+    ],
+    "span_days": 77
+  },
+  {
+    "name": "Codex",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "u1upVgkVKVQ",
+        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=420s",
+        "first_seconds": 420,
+        "mentions": 1,
+        "role": null,
+        "context": "OpenAI's coding tool gaining steam"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1075s",
+        "first_seconds": 1075,
+        "mentions": 1,
+        "role": null,
+        "context": "OpenAI product with 5M users"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=970s",
+        "first_seconds": 970,
+        "mentions": 1,
+        "role": null,
+        "context": "Enterprise AI coding breakthrough cited alongside Claude Code"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-06-04",
+    "video_count": 3,
+    "slug": "codex",
+    "upload_dates": [
+      "2026-05-29",
+      "2026-06-04"
+    ],
+    "span_days": 6
+  },
+  {
     "name": "Vera Rubin",
     "kind": "products_tech",
     "occurrences": [
@@ -2117,42 +3010,42 @@
     "span_days": 74
   },
   {
-    "name": "Brad Gerstner",
+    "name": "David Sacks",
     "kind": "people",
     "occurrences": [
       {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "video_id": "4oq91rzQcO8",
+        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
         "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=396s",
-        "first_seconds": 396,
-        "mentions": 6,
-        "role": "All-In host / investor (Altimeter)",
-        "context": "Presses on inference economics and analyst forecasts"
+        "upload_date": "2026-05-29",
+        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=119s",
+        "first_seconds": 119,
+        "mentions": 20,
+        "role": "Investor, AI/crypto czar",
+        "context": "Argues AI nets job gains; warns of red capture and open-source ban"
       },
       {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
         "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=145s",
-        "first_seconds": 145,
-        "mentions": 25,
-        "role": "Founder/CEO, Altimeter Capital (8090)",
-        "context": "Fifth bestie; bullish on the AI market and Elon's hyperscaler pivot."
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1638s",
+        "first_seconds": 1638,
+        "mentions": 3,
+        "role": "Craft Ventures, All-In host",
+        "context": "Extrapolates the 10x odds to trillion-dollar companies and floats a buy-at-$1T bot strategy"
       }
     ],
-    "total_mentions": 31,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-08",
+    "total_mentions": 23,
+    "first_uploaded": "2026-05-29",
+    "last_uploaded": "2026-06-04",
     "video_count": 2,
-    "slug": "brad-gerstner",
+    "slug": "david-sacks",
     "upload_dates": [
-      "2026-03-19",
-      "2026-05-08"
+      "2026-05-29",
+      "2026-06-04"
     ],
-    "span_days": 50
+    "span_days": 6
   },
   {
     "name": "Yann LeCun",
@@ -2193,42 +3086,42 @@
     "span_days": 26
   },
   {
-    "name": "TSMC",
+    "name": "Alphabet",
     "kind": "companies",
     "occurrences": [
       {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=6s",
-        "first_seconds": 6,
-        "mentions": 10,
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=41s",
+        "first_seconds": 41,
+        "mentions": 6,
         "role": null,
-        "context": "Foundry; 30-year handshake relationship"
+        "context": "Raising $80B in equity for AI CapEx"
       },
       {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
         "channel": "Bloomberg Technology",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=1010s",
-        "first_seconds": 1010,
-        "mentions": 1,
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=901s",
+        "first_seconds": 901,
+        "mentions": 3,
         "role": null,
-        "context": "Cited with ~20s forward PE"
+        "context": "Upsized equity offering to ~$84B"
       }
     ],
-    "total_mentions": 11,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-05-29",
+    "total_mentions": 9,
+    "first_uploaded": "2026-06-02",
+    "last_uploaded": "2026-06-04",
     "video_count": 2,
-    "slug": "tsmc",
+    "slug": "alphabet",
     "upload_dates": [
-      "2026-04-15",
-      "2026-05-29"
+      "2026-06-02",
+      "2026-06-04"
     ],
-    "span_days": 44
+    "span_days": 2
   },
   {
     "name": "Mark Zuckerberg",
@@ -2307,6 +3200,81 @@
     "span_days": 27
   },
   {
+    "name": "Adobe",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=341s",
+        "first_seconds": 341,
+        "mentions": 1,
+        "role": null,
+        "context": "Software name rising on the Computex software narrative."
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=951s",
+        "first_seconds": 951,
+        "mentions": 7,
+        "role": null,
+        "context": "CEO search amid AI disruption fears ('SaaSpocalypse')"
+      }
+    ],
+    "total_mentions": 8,
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-03",
+    "video_count": 2,
+    "slug": "adobe",
+    "upload_dates": [
+      "2026-06-01",
+      "2026-06-03"
+    ],
+    "span_days": 2
+  },
+  {
+    "name": "Databricks",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=404s",
+        "first_seconds": 404,
+        "mentions": 6,
+        "role": null,
+        "context": "Private firm valued sky-high; raised ~$20B"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Member of the Magnificent Eight index"
+      }
+    ],
+    "total_mentions": 7,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "databricks",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "CoreWeave",
     "kind": "companies",
     "occurrences": [
@@ -2343,6 +3311,82 @@
       "2026-05-22"
     ],
     "span_days": 37
+  },
+  {
+    "name": "AWS",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "Hrbq66XqtCo",
+        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
+        "channel": "Dwarkesh Patel",
+        "upload_date": "2026-04-15",
+        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2090s",
+        "first_seconds": 2090,
+        "mentions": 6,
+        "role": null,
+        "context": "Trainium; Anthropic's other backer"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=376s",
+        "first_seconds": 376,
+        "mentions": 1,
+        "role": null,
+        "context": "Benchmark the labs' revenue could surpass"
+      }
+    ],
+    "total_mentions": 7,
+    "first_uploaded": "2026-04-15",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "aws",
+    "upload_dates": [
+      "2026-04-15",
+      "2026-06-04"
+    ],
+    "span_days": 50
+  },
+  {
+    "name": "Altimeter Capital",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "10MdOvK-aG4",
+        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-05-08",
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3636s",
+        "first_seconds": 3636,
+        "mentions": 3,
+        "role": null,
+        "context": "Brad's firm; 80%+ exposure in compute/AI/memory, 25% in memory stocks."
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=782s",
+        "first_seconds": 782,
+        "mentions": 3,
+        "role": null,
+        "context": "On cap tables of Anthropic, OpenAI, SpaceX"
+      }
+    ],
+    "total_mentions": 6,
+    "first_uploaded": "2026-05-08",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "altimeter-capital",
+    "upload_dates": [
+      "2026-05-08",
+      "2026-06-04"
+    ],
+    "span_days": 27
   },
   {
     "name": "Hudson River Trading",
@@ -2421,6 +3465,44 @@
     "span_days": 7
   },
   {
+    "name": "Starlink",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "wVKL_SpY2Uc",
+        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-01",
+        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=2400s",
+        "first_seconds": 2400,
+        "mentions": 2,
+        "role": null,
+        "context": "SpaceX unit valued ~30\u201340x revenue, about $600B."
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=468s",
+        "first_seconds": 468,
+        "mentions": 4,
+        "role": null,
+        "context": "Recurring-revenue constellation business; targets global telco profit pool"
+      }
+    ],
+    "total_mentions": 6,
+    "first_uploaded": "2026-06-01",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "starlink",
+    "upload_dates": [
+      "2026-06-01",
+      "2026-06-04"
+    ],
+    "span_days": 3
+  },
+  {
     "name": "Matthew Prince",
     "kind": "people",
     "occurrences": [
@@ -2457,44 +3539,6 @@
       "2026-05-29"
     ],
     "span_days": 7
-  },
-  {
-    "name": "Broadcom",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2080s",
-        "first_seconds": 2080,
-        "mentions": 2,
-        "role": null,
-        "context": "Anthropic + Google TPU deal partner"
-      },
-      {
-        "video_id": "HGbA6ze0_3M",
-        "video_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-22",
-        "url": "https://www.youtube.com/watch?v=HGbA6ze0_3M&t=4500s",
-        "first_seconds": 4500,
-        "mentions": 3,
-        "role": null,
-        "context": "Guided 143% YoY AI-semi growth; ASIC share-gain narrative"
-      }
-    ],
-    "total_mentions": 5,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-05-22",
-    "video_count": 2,
-    "slug": "broadcom",
-    "upload_dates": [
-      "2026-04-15",
-      "2026-05-22"
-    ],
-    "span_days": 37
   },
   {
     "name": "Synopsys",
@@ -2535,44 +3579,6 @@
     "span_days": 27
   },
   {
-    "name": "Caroline Hyde",
-    "kind": "people",
-    "occurrences": [
-      {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=4s",
-        "first_seconds": 4,
-        "mentions": 2,
-        "role": "Bloomberg Tech co-host (New York)",
-        "context": "Anchors the show alongside Ed Ludlow."
-      },
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=5s",
-        "first_seconds": 5,
-        "mentions": 3,
-        "role": "Bloomberg Tech anchor",
-        "context": "Co-host in New York"
-      }
-    ],
-    "total_mentions": 5,
-    "first_uploaded": "2026-06-01",
-    "last_uploaded": "2026-06-02",
-    "video_count": 2,
-    "slug": "caroline-hyde",
-    "upload_dates": [
-      "2026-06-01",
-      "2026-06-02"
-    ],
-    "span_days": 1
-  },
-  {
     "name": "Ian King",
     "kind": "people",
     "occurrences": [
@@ -2607,6 +3613,44 @@
     "upload_dates": [
       "2026-06-01",
       "2026-06-02"
+    ],
+    "span_days": 1
+  },
+  {
+    "name": "Hock Tan",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2922s",
+        "first_seconds": 2922,
+        "mentions": 1,
+        "role": "Broadcom President & CEO",
+        "context": "Slated for next-day Bloomberg Tech interview"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=95s",
+        "first_seconds": 95,
+        "mentions": 3,
+        "role": "Broadcom CEO",
+        "context": "Earnings moved markets; interviewed later at event"
+      }
+    ],
+    "total_mentions": 4,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "hock-tan",
+    "upload_dates": [
+      "2026-06-03",
+      "2026-06-04"
     ],
     "span_days": 1
   },
@@ -2762,44 +3806,6 @@
     "span_days": 596
   },
   {
-    "name": "AMD",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2253s",
-        "first_seconds": 2253,
-        "mentions": 1,
-        "role": null,
-        "context": "OpenAI deal"
-      },
-      {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=86s",
-        "first_seconds": 86,
-        "mentions": 3,
-        "role": null,
-        "context": "x86 rival also fell on the RTX Spark announcement."
-      }
-    ],
-    "total_mentions": 4,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-06-01",
-    "video_count": 2,
-    "slug": "amd",
-    "upload_dates": [
-      "2026-04-15",
-      "2026-06-01"
-    ],
-    "span_days": 47
-  },
-  {
     "name": "Cadence",
     "kind": "companies",
     "occurrences": [
@@ -2836,6 +3842,44 @@
       "2026-04-15"
     ],
     "span_days": 27
+  },
+  {
+    "name": "Nikesh Arora",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=811s",
+        "first_seconds": 811,
+        "mentions": 3,
+        "role": "Palo Alto Networks CEO",
+        "context": "~$100M pay package facing repeated say-on-pay rejections"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=985s",
+        "first_seconds": 985,
+        "mentions": 1,
+        "role": "Palo Alto Networks CEO",
+        "context": "His profit-pool framework referenced for the Starlink/telco analysis"
+      }
+    ],
+    "total_mentions": 4,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "nikesh-arora",
+    "upload_dates": [
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 1
   },
   {
     "name": "Mandeep Singh",
@@ -2910,6 +3954,44 @@
     "upload_dates": [
       "2026-06-01",
       "2026-06-02"
+    ],
+    "span_days": 1
+  },
+  {
+    "name": "Marvell",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1397s",
+        "first_seconds": 1397,
+        "mentions": 1,
+        "role": null,
+        "context": "Stock up ~30% after Jensen Huang comment"
+      },
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2786s",
+        "first_seconds": 2786,
+        "mentions": 3,
+        "role": null,
+        "context": "Nvidia-backed custom accelerator firm nearing $1T"
+      }
+    ],
+    "total_mentions": 4,
+    "first_uploaded": "2026-06-02",
+    "last_uploaded": "2026-06-03",
+    "video_count": 2,
+    "slug": "marvell",
+    "upload_dates": [
+      "2026-06-02",
+      "2026-06-03"
     ],
     "span_days": 1
   },
@@ -3180,7 +4262,7 @@
     "span_days": 1
   },
   {
-    "name": "Mythos",
+    "name": "Grok",
     "kind": "products_tech",
     "occurrences": [
       {
@@ -3188,72 +4270,34 @@
         "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
         "channel": "All-In Podcast",
         "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=1957s",
-        "first_seconds": 1957,
+        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=504s",
+        "first_seconds": 504,
         "mentions": 1,
         "role": null,
-        "context": "Anthropic model with powerful cyber capabilities that spooked the White House."
+        "context": "xAI's model, now subsidized by Elon's terrestrial compute business."
       },
       {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
         "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=2723s",
-        "first_seconds": 2723,
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=274s",
+        "first_seconds": 274,
         "mentions": 1,
         "role": null,
-        "context": "Anthropic model with cybersecurity capabilities, widened to 150+ orgs"
+        "context": "xAI paused hiring of specialized skill trainers"
       }
     ],
     "total_mentions": 2,
     "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-06-02",
+    "last_uploaded": "2026-06-03",
     "video_count": 2,
-    "slug": "mythos",
+    "slug": "grok",
     "upload_dates": [
       "2026-05-08",
-      "2026-06-02"
+      "2026-06-03"
     ],
-    "span_days": 25
-  },
-  {
-    "name": "Claude Code",
-    "kind": "products_tech",
-    "occurrences": [
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=873s",
-        "first_seconds": 873,
-        "mentions": 1,
-        "role": null,
-        "context": "First very useful agentic system, enterprise-only before OpenClaw"
-      },
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=320s",
-        "first_seconds": 320,
-        "mentions": 1,
-        "role": null,
-        "context": "Doubled rate limits after the Colossus compute deal."
-      }
-    ],
-    "total_mentions": 2,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-05-08",
-    "video_count": 2,
-    "slug": "claude-code",
-    "upload_dates": [
-      "2026-03-19",
-      "2026-05-08"
-    ],
-    "span_days": 50
+    "span_days": 26
   },
   {
     "name": "Starlink",
@@ -3292,6 +4336,82 @@
       "2026-05-22"
     ],
     "span_days": 14
+  },
+  {
+    "name": "Oracle",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=285s",
+        "first_seconds": 285,
+        "mentions": 1,
+        "role": null,
+        "context": "Earlier $25B equity issuance precedent"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1740s",
+        "first_seconds": 1740,
+        "mentions": 1,
+        "role": null,
+        "context": "Acquirer of legacy vendors left behind"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-02",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "oracle",
+    "upload_dates": [
+      "2026-06-02",
+      "2026-06-04"
+    ],
+    "span_days": 2
+  },
+  {
+    "name": "SaaSpocalypse",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=977s",
+        "first_seconds": 977,
+        "mentions": 1,
+        "role": null,
+        "context": "Investor fear that AI disrupts incumbent software margins"
+      },
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1763s",
+        "first_seconds": 1763,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "saaspocalypse",
+    "upload_dates": [
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "span_days": 1
   },
   {
     "name": "AlphaGo",
@@ -3522,44 +4642,6 @@
     "span_days": 7
   },
   {
-    "name": "Microsoft",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "5eqRuVp65eY",
-        "video_title": "AI can't cross this line and we don't know why.",
-        "channel": "Welch Labs",
-        "upload_date": "2024-09-13",
-        "url": "https://www.youtube.com/watch?v=5eqRuVp65eY&t=145s",
-        "first_seconds": 145,
-        "mentions": 1,
-        "role": null,
-        "context": "Partnered with OpenAI on the 10,000-V100 supercomputer that trained GPT-3"
-      },
-      {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=2880s",
-        "first_seconds": 2880,
-        "mentions": 1,
-        "role": null,
-        "context": "Announced killing of cloud licenses"
-      }
-    ],
-    "total_mentions": 2,
-    "first_uploaded": "2024-09-13",
-    "last_uploaded": "2026-05-29",
-    "video_count": 2,
-    "slug": "microsoft",
-    "upload_dates": [
-      "2024-09-13",
-      "2026-05-29"
-    ],
-    "span_days": 623
-  },
-  {
     "name": "CUDA",
     "kind": "products_tech",
     "occurrences": [
@@ -3672,6 +4754,82 @@
       "2026-05-28"
     ],
     "span_days": 43
+  },
+  {
+    "name": "Anduril",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "wkISIxb4v18",
+        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-02",
+        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1280s",
+        "first_seconds": 1280,
+        "mentions": 1,
+        "role": null,
+        "context": "Space-based interceptor work with Impulse"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Defense/spacetech member of the Magnificent Eight index"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-02",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "anduril",
+    "upload_dates": [
+      "2026-06-02",
+      "2026-06-04"
+    ],
+    "span_days": 2
+  },
+  {
+    "name": "ChatGPT",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "gwW8GKwHB3I",
+        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-03-19",
+        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=805s",
+        "first_seconds": 805,
+        "mentions": 1,
+        "role": null,
+        "context": "UI moment that brought generative AI to the masses"
+      },
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=415s",
+        "first_seconds": 415,
+        "mentions": 1,
+        "role": null,
+        "context": "The 'ChatGPT moment' hyperscalers responded to by funding the disruption"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-03-19",
+    "last_uploaded": "2026-06-04",
+    "video_count": 2,
+    "slug": "chatgpt",
+    "upload_dates": [
+      "2026-03-19",
+      "2026-06-04"
+    ],
+    "span_days": 77
   },
   {
     "name": "Dell",
@@ -3930,28 +5088,28 @@
     "span_days": 0
   },
   {
-    "name": "David Sacks",
+    "name": "Thomas Laffont",
     "kind": "people",
     "occurrences": [
       {
-        "video_id": "4oq91rzQcO8",
-        "video_title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
         "channel": "All-In Podcast",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=4oq91rzQcO8&t=119s",
-        "first_seconds": 119,
-        "mentions": 20,
-        "role": "Investor, AI/crypto czar",
-        "context": "Argues AI nets job gains; warns of red capture and open-source ban"
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=0s",
+        "first_seconds": 0,
+        "mentions": 12,
+        "role": "Co-founder, Coatue Management",
+        "context": "Presents Coatue's unicorn-economy deck and frameworks on AI IPOs, SpaceX and the 10x paradox"
       }
     ],
-    "total_mentions": 20,
-    "first_uploaded": "2026-05-29",
-    "last_uploaded": "2026-05-29",
+    "total_mentions": 12,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
     "video_count": 1,
-    "slug": "david-sacks",
+    "slug": "thomas-laffont",
     "upload_dates": [
-      "2026-05-29"
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -4164,54 +5322,54 @@
     "span_days": 0
   },
   {
-    "name": "AWS",
+    "name": "Coatue",
     "kind": "companies",
     "occurrences": [
       {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=2090s",
-        "first_seconds": 2090,
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=8s",
+        "first_seconds": 8,
         "mentions": 6,
         "role": null,
-        "context": "Trainium; Anthropic's other backer"
+        "context": "$55B hedge fund raising ~$1B more for AI; source of the analysis"
       }
     ],
     "total_mentions": 6,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-04-15",
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
     "video_count": 1,
-    "slug": "aws",
+    "slug": "coatue",
     "upload_dates": [
-      "2026-04-15"
+      "2026-06-04"
     ],
     "span_days": 0
   },
   {
-    "name": "Alphabet",
+    "name": "Alphabet (Google)",
     "kind": "companies",
     "occurrences": [
       {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
         "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=41s",
-        "first_seconds": 41,
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=69s",
+        "first_seconds": 69,
         "mentions": 6,
         "role": null,
-        "context": "Raising $80B in equity for AI CapEx"
+        "context": "Upsized equity raise to $84.75B for AI infrastructure"
       }
     ],
     "total_mentions": 6,
-    "first_uploaded": "2026-06-02",
-    "last_uploaded": "2026-06-02",
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
     "video_count": 1,
-    "slug": "alphabet",
+    "slug": "alphabet--google",
     "upload_dates": [
-      "2026-06-02"
+      "2026-06-03"
     ],
     "span_days": 0
   },
@@ -4294,6 +5452,32 @@
     "span_days": 0
   },
   {
+    "name": "Okta",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1418s",
+        "first_seconds": 1418,
+        "mentions": 5,
+        "role": null,
+        "context": "Raised full-year guidance; Okta for AI Agents"
+      }
+    ],
+    "total_mentions": 5,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "okta",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "Y Combinator",
     "kind": "companies",
     "occurrences": [
@@ -4342,6 +5526,32 @@
     "slug": "kevin-hassett",
     "upload_dates": [
       "2026-05-08"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Tom Giles",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=92s",
+        "first_seconds": 92,
+        "mentions": 4,
+        "role": "Bloomberg Global Tech Executive Editor",
+        "context": "Previewed the Hock Tan and Anthropic interviews"
+      }
+    ],
+    "total_mentions": 4,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "tom-giles",
+    "upload_dates": [
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -4632,6 +5842,32 @@
     "span_days": 0
   },
   {
+    "name": "Rebecca Walser",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=320s",
+        "first_seconds": 320,
+        "mentions": 4,
+        "role": "CEO/CIO, Walser Wealth Management",
+        "context": "Argued AI monetization is in its infancy; stay the course"
+      }
+    ],
+    "total_mentions": 4,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "rebecca-walser",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "Bernie Sanders",
     "kind": "people",
     "occurrences": [
@@ -4658,28 +5894,80 @@
     "span_days": 0
   },
   {
-    "name": "Altimeter Capital",
-    "kind": "companies",
+    "name": "Ali Ghodsi",
+    "kind": "people",
     "occurrences": [
       {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=3636s",
-        "first_seconds": 3636,
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=486s",
+        "first_seconds": 486,
         "mentions": 3,
-        "role": null,
-        "context": "Brad's firm; 80%+ exposure in compute/AI/memory, 25% in memory stocks."
+        "role": "Databricks CEO and co-founder",
+        "context": "Argued AGI has arrived; context is the bottleneck"
       }
     ],
     "total_mentions": 3,
-    "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-05-08",
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
     "video_count": 1,
-    "slug": "altimeter-capital",
+    "slug": "ali-ghodsi",
     "upload_dates": [
-      "2026-05-08"
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Apoorv Agarwal",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=901s",
+        "first_seconds": 901,
+        "mentions": 3,
+        "role": "Altimeter Capital partner",
+        "context": "Capex-receiver vs capex-spender framework"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "apoorv-agarwal",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Mary Daly",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1848s",
+        "first_seconds": 1848,
+        "mentions": 3,
+        "role": "San Francisco Fed President",
+        "context": "No economy-wide AI productivity gains yet"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "mary-daly",
+    "upload_dates": [
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -5204,6 +6492,84 @@
     "span_days": 0
   },
   {
+    "name": "Steve Tananbaum",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1221s",
+        "first_seconds": 1221,
+        "mentions": 3,
+        "role": "Founder/CIO, GoldenTree Asset Management",
+        "context": "Credit strategy, AI capex skepticism, oil thesis"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "steve-tananbaum",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "GoldenTree Asset Management",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1221s",
+        "first_seconds": 1221,
+        "mentions": 3,
+        "role": null,
+        "context": "Tananbaum's credit fund discussing positioning"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "goldentree-asset-management",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "GitHub",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2629s",
+        "first_seconds": 2629,
+        "mentions": 3,
+        "role": null,
+        "context": "300M commits/week; new Copilot desktop app"
+      }
+    ],
+    "total_mentions": 3,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "github",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "Karen Bass",
     "kind": "people",
     "occurrences": [
@@ -5334,32 +6700,6 @@
     "span_days": 0
   },
   {
-    "name": "Palo Alto Networks",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=2785s",
-        "first_seconds": 2785,
-        "mentions": 2,
-        "role": null,
-        "context": "Cited alongside CrowdStrike as best-in-world cybersecurity defense."
-      }
-    ],
-    "total_mentions": 2,
-    "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-05-08",
-    "video_count": 1,
-    "slug": "palo-alto-networks",
-    "upload_dates": [
-      "2026-05-08"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "Pulte Homes",
     "kind": "companies",
     "occurrences": [
@@ -5382,6 +6722,110 @@
     "slug": "pulte-homes",
     "upload_dates": [
       "2026-05-08"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Andrew Feldman",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=389s",
+        "first_seconds": 389,
+        "mentions": 2,
+        "role": "Cerebras CEO",
+        "context": "'Opposite of a bubble,' $25B backlog"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "andrew-feldman",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Todd McKinnon",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1449s",
+        "first_seconds": 1449,
+        "mentions": 2,
+        "role": "Okta CEO and co-founder",
+        "context": "SaaSpocalypse 'overblown'; more engineers in 5 years"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "todd-mckinnon",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Daniela Amodei",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=188s",
+        "first_seconds": 188,
+        "mentions": 2,
+        "role": "Anthropic president and co-founder",
+        "context": "Appearing post confidential IPO filing"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "daniela-amodei",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Chair Walsh",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2553s",
+        "first_seconds": 2553,
+        "mentions": 2,
+        "role": "Federal Reserve Chair",
+        "context": "New Fed chair; Daly's fifth chair worked with"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "chair-walsh",
+    "upload_dates": [
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -5694,6 +7138,32 @@
     "slug": "crusoe",
     "upload_dates": [
       "2026-04-15"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Microsoft (Azure)",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=376s",
+        "first_seconds": 376,
+        "mentions": 2,
+        "role": null,
+        "context": "Labs already bigger than Azure; could pass all of Microsoft by 2028"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "microsoft--azure",
+    "upload_dates": [
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -6166,32 +7636,6 @@
     "span_days": 0
   },
   {
-    "name": "Starlink",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=2400s",
-        "first_seconds": 2400,
-        "mentions": 2,
-        "role": null,
-        "context": "SpaceX unit valued ~30\u201340x revenue, about $600B."
-      }
-    ],
-    "total_mentions": 2,
-    "first_uploaded": "2026-06-01",
-    "last_uploaded": "2026-06-01",
-    "video_count": 1,
-    "slug": "starlink",
-    "upload_dates": [
-      "2026-06-01"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "IBM",
     "kind": "companies",
     "occurrences": [
@@ -6348,6 +7792,136 @@
     "span_days": 0
   },
   {
+    "name": "Katherine Doherty",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=125s",
+        "first_seconds": 125,
+        "mentions": 2,
+        "role": "Bloomberg News reporter",
+        "context": "Explained SpaceX's fixed-price IPO mechanics"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "katherine-doherty",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Lynn Doan",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=688s",
+        "first_seconds": 688,
+        "mentions": 2,
+        "role": "Bloomberg cybersecurity editor",
+        "context": "Palo Alto earnings and CEO pay analysis"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "lynn-doan",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Brody Ford",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=969s",
+        "first_seconds": 969,
+        "mentions": 2,
+        "role": "Bloomberg software reporter",
+        "context": "Adobe CEO succession reporting"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "brody-ford",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Shantanu Narayen",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=951s",
+        "first_seconds": 951,
+        "mentions": 2,
+        "role": "Adobe CEO / board chair",
+        "context": "Stepping down after nearly two decades; now board chair"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "shantanu-narayen",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Lisa Abramowicz",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1232s",
+        "first_seconds": 1232,
+        "mentions": 2,
+        "role": "Bloomberg Surveillance co-host",
+        "context": "Interviewed Tananbaum at the Credit Forum"
+      }
+    ],
+    "total_mentions": 2,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "lisa-abramowicz",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "Susie Wiles",
     "kind": "people",
     "occurrences": [
@@ -6498,32 +8072,6 @@
     "last_uploaded": "2026-05-08",
     "video_count": 1,
     "slug": "gpt-5-5---codex--base-model--spud",
-    "upload_dates": [
-      "2026-05-08"
-    ],
-    "span_days": 0
-  },
-  {
-    "name": "Grok",
-    "kind": "products_tech",
-    "occurrences": [
-      {
-        "video_id": "10MdOvK-aG4",
-        "video_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-05-08",
-        "url": "https://www.youtube.com/watch?v=10MdOvK-aG4&t=504s",
-        "first_seconds": 504,
-        "mentions": 1,
-        "role": null,
-        "context": "xAI's model, now subsidized by Elon's terrestrial compute business."
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-05-08",
-    "last_uploaded": "2026-05-08",
-    "video_count": 1,
-    "slug": "grok",
     "upload_dates": [
       "2026-05-08"
     ],
@@ -6838,6 +8386,422 @@
     "slug": "wall-street-journal---college-graduates-are-finally-catching-a-break-in-this-job-market",
     "upload_dates": [
       "2026-05-08"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Trey Stephens",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2766s",
+        "first_seconds": 2766,
+        "mentions": 1,
+        "role": "Founders Fund partner, Andreal chairman",
+        "context": "Founders Fund is a high-single-digit SpaceX stakeholder"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "trey-stephens",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Novo Nordisk",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=691s",
+        "first_seconds": 691,
+        "mentions": 1,
+        "role": null,
+        "context": "Genie customer; trial analysis weeks to minutes"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "novo-nordisk",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Founders Fund",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2766s",
+        "first_seconds": 2766,
+        "mentions": 1,
+        "role": null,
+        "context": "High-single-digit SpaceX stakeholder"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "founders-fund",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "PG&E",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2095s",
+        "first_seconds": 2095,
+        "mentions": 1,
+        "role": null,
+        "context": "Utility cited in data-center inflation debate"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "pg-e",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Genie",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=600s",
+        "first_seconds": 600,
+        "mentions": 1,
+        "role": null,
+        "context": "Databricks tool that infuses data context for agents"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "genie",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "LakeBase",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=620s",
+        "first_seconds": 620,
+        "mentions": 1,
+        "role": null,
+        "context": "Databricks agent-tailored database"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "lakebase",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Okta for AI Agents",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1494s",
+        "first_seconds": 1494,
+        "mentions": 1,
+        "role": null,
+        "context": "Identity and secure connectivity layer for agents"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "okta-for-ai-agents",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Opus 4.5",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1210s",
+        "first_seconds": 1210,
+        "mentions": 1,
+        "role": null,
+        "context": "Coding model that crossed a capability frontier (Dec)"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "opus-4-5",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "TPUs / ASICs",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=63s",
+        "first_seconds": 63,
+        "mentions": 1,
+        "role": null,
+        "context": "Broadcom custom-silicon segment guided to $16B"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "tpus---asics",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Elon Web Services",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1078s",
+        "first_seconds": 1078,
+        "mentions": 1,
+        "role": null,
+        "context": "Nickname for SpaceX/xAI selling compute"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "elon-web-services",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Capex-receivers vs capex-spenders",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=962s",
+        "first_seconds": 962,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "capex-receivers-vs-capex-spenders",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "The 'Switzerland' approach",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1086s",
+        "first_seconds": 1086,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "the--switzerland--approach",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Context as the AI bottleneck",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=556s",
+        "first_seconds": 556,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "context-as-the-ai-bottleneck",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Agents as end users of software",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=722s",
+        "first_seconds": 722,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "agents-as-end-users-of-software",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Scaling laws",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=2073s",
+        "first_seconds": 2073,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "scaling-laws",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Long/short idea game",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "1bMjMj8D_dc",
+        "video_title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc&t=1949s",
+        "first_seconds": 1949,
+        "mentions": 1,
+        "role": null,
+        "context": null
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "long-short-idea-game",
+    "upload_dates": [
+      "2026-06-04"
     ],
     "span_days": 0
   },
@@ -9338,32 +11302,6 @@
     "span_days": 0
   },
   {
-    "name": "Cerebras",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "Hrbq66XqtCo",
-        "video_title": "Jensen Huang \u2013 Will Nvidia's moat persist?",
-        "channel": "Dwarkesh Patel",
-        "upload_date": "2026-04-15",
-        "url": "https://www.youtube.com/watch?v=Hrbq66XqtCo&t=5247s",
-        "first_seconds": 5247,
-        "mentions": 1,
-        "role": null,
-        "context": "Wafer-scale alternative architecture"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-04-15",
-    "last_uploaded": "2026-04-15",
-    "video_count": 1,
-    "slug": "cerebras",
-    "upload_dates": [
-      "2026-04-15"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "Nscale",
     "kind": "companies",
     "occurrences": [
@@ -10170,6 +12108,474 @@
     "span_days": 0
   },
   {
+    "name": "Bill Ackman",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1290s",
+        "first_seconds": 1290,
+        "mentions": 1,
+        "role": "Pershing Square",
+        "context": "Quoted describing AI bets as venture in trillion-dollar firms at 50\u2013100x revenue"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "bill-ackman",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Lena Khan",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1628s",
+        "first_seconds": 1628,
+        "mentions": 1,
+        "role": "Former FTC Chair",
+        "context": "Invoked re: antitrust as a constraint on compounding monopolies"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "lena-khan",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Stripe",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Member of the proposed Magnificent Eight private index"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "stripe",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Revolut",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Fintech member of the Magnificent Eight index"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "revolut",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "ByteDance",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Internet member of the Magnificent Eight index"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "bytedance",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Google Cloud",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=376s",
+        "first_seconds": 376,
+        "mentions": 1,
+        "role": null,
+        "context": "Surpassed by combined OpenAI/Anthropic revenue"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "google-cloud",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Ferrari",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1023s",
+        "first_seconds": 1023,
+        "mentions": 1,
+        "role": null,
+        "context": "Its electric/autonomous launch cited as a disruption case study in autos"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "ferrari",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Starlink direct-to-device",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=973s",
+        "first_seconds": 973,
+        "mentions": 1,
+        "role": null,
+        "context": "Device enabling phone calls anywhere, tower-free, attacking telco"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "starlink-direct-to-device",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "GLP-1 drugs",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1037s",
+        "first_seconds": 1037,
+        "mentions": 1,
+        "role": null,
+        "context": "Reshaping consumption of food, alcohol and diet composition"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "glp-1-drugs",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Memory chips",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=880s",
+        "first_seconds": 880,
+        "mentions": 1,
+        "role": null,
+        "context": "Demand could quintuple per user; scarce with no foundry equivalent"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "memory-chips",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Unicorn economy",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=38s",
+        "first_seconds": 38,
+        "mentions": 1,
+        "role": null,
+        "context": "Coatue's index of private startups; up ~70% since Sept 2024 and now healthier"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "unicorn-economy",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Magnificent Eight",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=195s",
+        "first_seconds": 195,
+        "mentions": 1,
+        "role": null,
+        "context": "Proposed private-company index (~$4T) outperforming the public MAG7"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "magnificent-eight",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Coatue SpaceX framework (pre-constellation \u2192 platform)",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=540s",
+        "first_seconds": 540,
+        "mentions": 1,
+        "role": null,
+        "context": "Business-model quality rises with launch scale through constellation phases"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "coatue-spacex-framework--pre-constellation---platform",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "The 10x Paradox",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=638s",
+        "first_seconds": 638,
+        "mentions": 1,
+        "role": null,
+        "context": "Larger companies (centacorns) have higher odds of a subsequent 10x"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "the-10x-paradox",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Cash-consumed vs cash-returned balance",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=257s",
+        "first_seconds": 257,
+        "mentions": 1,
+        "role": null,
+        "context": "Ecosystem health metric; IPOs finally rebalancing it"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "cash-consumed-vs-cash-returned-balance",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Profit pool framework",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=985s",
+        "first_seconds": 985,
+        "mentions": 1,
+        "role": null,
+        "context": "Nikesh-attributed lens applying Starlink to the global telco profit pool"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "profit-pool-framework",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Six months plus one",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=1393s",
+        "first_seconds": 1393,
+        "mentions": 1,
+        "role": null,
+        "context": "Chamath's view of when real price discovery starts amid heavy passive buying"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "six-months-plus-one",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Foundation (the Mule)",
+    "kind": "books_papers",
+    "occurrences": [
+      {
+        "video_id": "UIoV8rG_25s",
+        "video_title": "Thomas Laffont: The $4T AI IPO Wave Is Coming\u2026 and We've Never Seen Anything Like It",
+        "channel": "All-In Podcast",
+        "upload_date": "2026-06-04",
+        "url": "https://www.youtube.com/watch?v=UIoV8rG_25s&t=0s",
+        "first_seconds": 0,
+        "mentions": 1,
+        "role": null,
+        "context": "Analogy for an unpredictable one-time event like Claude Code reshaping an industry"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-04",
+    "last_uploaded": "2026-06-04",
+    "video_count": 1,
+    "slug": "foundation--the-mule",
+    "upload_dates": [
+      "2026-06-04"
+    ],
+    "span_days": 0
+  },
+  {
     "name": "Secretary Lutnick",
     "kind": "people",
     "occurrences": [
@@ -10632,32 +13038,6 @@
     "last_uploaded": "2026-03-19",
     "video_count": 1,
     "slug": "optimus",
-    "upload_dates": [
-      "2026-03-19"
-    ],
-    "span_days": 0
-  },
-  {
-    "name": "ChatGPT",
-    "kind": "products_tech",
-    "occurrences": [
-      {
-        "video_id": "gwW8GKwHB3I",
-        "video_title": "Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "channel": "All-In Podcast",
-        "upload_date": "2026-03-19",
-        "url": "https://www.youtube.com/watch?v=gwW8GKwHB3I&t=805s",
-        "first_seconds": 805,
-        "mentions": 1,
-        "role": null,
-        "context": "UI moment that brought generative AI to the masses"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-03-19",
-    "last_uploaded": "2026-03-19",
-    "video_count": 1,
-    "slug": "chatgpt",
     "upload_dates": [
       "2026-03-19"
     ],
@@ -12692,32 +15072,6 @@
     "span_days": 0
   },
   {
-    "name": "Codex",
-    "kind": "products_tech",
-    "occurrences": [
-      {
-        "video_id": "u1upVgkVKVQ",
-        "video_title": "SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-05-29",
-        "url": "https://www.youtube.com/watch?v=u1upVgkVKVQ&t=420s",
-        "first_seconds": 420,
-        "mentions": 1,
-        "role": null,
-        "context": "OpenAI's coding tool gaining steam"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-05-29",
-    "last_uploaded": "2026-05-29",
-    "video_count": 1,
-    "slug": "codex",
-    "upload_dates": [
-      "2026-05-29"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "Gemini Robotics",
     "kind": "products_tech",
     "occurrences": [
@@ -14148,32 +16502,6 @@
     "span_days": 0
   },
   {
-    "name": "Adobe",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "wVKL_SpY2Uc",
-        "video_title": "Nvidia Gets Into the PC Market With New Chip | Bloomberg Tech 6/1/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-01",
-        "url": "https://www.youtube.com/watch?v=wVKL_SpY2Uc&t=341s",
-        "first_seconds": 341,
-        "mentions": 1,
-        "role": null,
-        "context": "Software name rising on the Computex software narrative."
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-06-01",
-    "last_uploaded": "2026-06-01",
-    "video_count": 1,
-    "slug": "adobe",
-    "upload_dates": [
-      "2026-06-01"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "Wise",
     "kind": "companies",
     "occurrences": [
@@ -14642,84 +16970,6 @@
     "span_days": 0
   },
   {
-    "name": "Anduril",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1280s",
-        "first_seconds": 1280,
-        "mentions": 1,
-        "role": null,
-        "context": "Space-based interceptor work with Impulse"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-06-02",
-    "last_uploaded": "2026-06-02",
-    "video_count": 1,
-    "slug": "anduril",
-    "upload_dates": [
-      "2026-06-02"
-    ],
-    "span_days": 0
-  },
-  {
-    "name": "Oracle",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=285s",
-        "first_seconds": 285,
-        "mentions": 1,
-        "role": null,
-        "context": "Earlier $25B equity issuance precedent"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-06-02",
-    "last_uploaded": "2026-06-02",
-    "video_count": 1,
-    "slug": "oracle",
-    "upload_dates": [
-      "2026-06-02"
-    ],
-    "span_days": 0
-  },
-  {
-    "name": "Marvell",
-    "kind": "companies",
-    "occurrences": [
-      {
-        "video_id": "wkISIxb4v18",
-        "video_title": "Alphabet To Raise $80B in Equity, Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-        "channel": "Bloomberg Technology",
-        "upload_date": "2026-06-02",
-        "url": "https://www.youtube.com/watch?v=wkISIxb4v18&t=1397s",
-        "first_seconds": 1397,
-        "mentions": 1,
-        "role": null,
-        "context": "Stock up ~30% after Jensen Huang comment"
-      }
-    ],
-    "total_mentions": 1,
-    "first_uploaded": "2026-06-02",
-    "last_uploaded": "2026-06-02",
-    "video_count": 1,
-    "slug": "marvell",
-    "upload_dates": [
-      "2026-06-02"
-    ],
-    "span_days": 0
-  },
-  {
     "name": "CNN",
     "kind": "companies",
     "occurrences": [
@@ -15054,6 +17304,682 @@
     "slug": "enterprise-ai-super-cycle-vs-structural-shift",
     "upload_dates": [
       "2026-06-02"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "David Wadhwani",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1041s",
+        "first_seconds": 1041,
+        "mentions": 1,
+        "role": "Adobe executive",
+        "context": "Front-runner internal CEO candidate"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "david-wadhwani",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Anil Chakravarthy",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1111s",
+        "first_seconds": 1111,
+        "mentions": 1,
+        "role": "Adobe executive",
+        "context": "Runs Adobe's marketing/analytics software; CEO candidate"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "anil-chakravarthy",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Charles Lamanna",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1075s",
+        "first_seconds": 1075,
+        "mentions": 1,
+        "role": "Microsoft executive",
+        "context": "Held talks with Adobe but backed out"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "charles-lamanna",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Eliyahu Kamisher",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2462s",
+        "first_seconds": 2462,
+        "mentions": 1,
+        "role": "Bloomberg California reporter",
+        "context": "Tech money in California primaries"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "eliyahu-kamisher",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Matt Mahan",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2487s",
+        "first_seconds": 2487,
+        "mentions": 1,
+        "role": "San Jose mayor / candidate",
+        "context": "Tech-backed, anti-billionaire-tax candidate who underperformed"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "matt-mahan",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Javier Becerra",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2570s",
+        "first_seconds": 2570,
+        "mentions": 1,
+        "role": "Former HHS Secretary / candidate",
+        "context": "Late-surging gubernatorial front-runner drawing tech money"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "javier-becerra",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Jay Parikh",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2629s",
+        "first_seconds": 2629,
+        "mentions": 1,
+        "role": "Microsoft EVP of Core AI",
+        "context": "GitHub growth, reliability and AI agents"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "jay-parikh",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Dina Bass",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2845s",
+        "first_seconds": 2845,
+        "mentions": 1,
+        "role": "Bloomberg News reporter",
+        "context": "Broadcom/Marvell custom AI accelerator preview"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "dina-bass",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Matt Murphy",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2786s",
+        "first_seconds": 2786,
+        "mentions": 1,
+        "role": "Marvell CEO",
+        "context": "On stage with Jensen Huang at Computex"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "matt-murphy",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Mike Wirth",
+    "kind": "people",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2003s",
+        "first_seconds": 2003,
+        "mentions": 1,
+        "role": "Chevron CEO",
+        "context": "Warned of possible US oil shortages"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "mike-wirth",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Comcast",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1528s",
+        "first_seconds": 1528,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited at a 52-week low among distressed cable"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "comcast",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Charter",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1546s",
+        "first_seconds": 1546,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited among distressed cable names"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "charter",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Altice",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1559s",
+        "first_seconds": 1559,
+        "mentions": 1,
+        "role": null,
+        "context": "Threatened transaction seen as a negotiating ploy"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "altice",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Tenet Healthcare",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1606s",
+        "first_seconds": 1606,
+        "mentions": 1,
+        "role": null,
+        "context": "Cited as reasonable-value healthcare credit"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "tenet-healthcare",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Chevron",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2003s",
+        "first_seconds": 2003,
+        "mentions": 1,
+        "role": null,
+        "context": "CEO warned of US oil shortages"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "chevron",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Halliburton",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2065s",
+        "first_seconds": 2065,
+        "mentions": 1,
+        "role": null,
+        "context": "Oil services name having an excellent year"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "halliburton",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Airbnb",
+    "kind": "companies",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2715s",
+        "first_seconds": 2715,
+        "mentions": 1,
+        "role": null,
+        "context": "Came in late behind Becerra"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "airbnb",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "GitHub Copilot desktop app",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2614s",
+        "first_seconds": 2614,
+        "mentions": 1,
+        "role": null,
+        "context": "New app launched amid surging agent demand"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "github-copilot-desktop-app",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Google TPU",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=2867s",
+        "first_seconds": 2867,
+        "mentions": 1,
+        "role": null,
+        "context": "Made with Broadcom; bought by Anthropic"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "google-tpu",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Photoshop / PDF",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1124s",
+        "first_seconds": 1124,
+        "mentions": 1,
+        "role": null,
+        "context": "Adobe's core products threatened by free generative AI"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "photoshop---pdf",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Agentic AI laptop",
+    "kind": "products_tech",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=568s",
+        "first_seconds": 568,
+        "mentions": 1,
+        "role": null,
+        "context": "Jensen Huang unveiled a laptop built for AI agents"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "agentic-ai-laptop",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Investments as 'short movies'",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1261s",
+        "first_seconds": 1261,
+        "mentions": 1,
+        "role": null,
+        "context": "Tananbaum predicts buyer/seller behavior to front-run exits"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "investments-as--short-movies",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "The Nvidia effect",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=699s",
+        "first_seconds": 699,
+        "mentions": 1,
+        "role": null,
+        "context": "Beating every metric yet falling because of a prior run-up"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "the-nvidia-effect",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Say-on-pay votes",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=781s",
+        "first_seconds": 781,
+        "mentions": 1,
+        "role": null,
+        "context": "Advisory shareholder votes on executive compensation"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "say-on-pay-votes",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Undersea cable analogy",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1708s",
+        "first_seconds": 1708,
+        "mentions": 1,
+        "role": null,
+        "context": "AI capex as overbuilt infrastructure 'good until it wasn't'"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "undersea-cable-analogy",
+    "upload_dates": [
+      "2026-06-03"
+    ],
+    "span_days": 0
+  },
+  {
+    "name": "Mid-cycle stretched valuations",
+    "kind": "frameworks_concepts",
+    "occurrences": [
+      {
+        "video_id": "xhTc7Jl88Ww",
+        "video_title": "SpaceX To Target $75B in IPO at $135 Per Share | Bloomberg Tech 6/03/2026",
+        "channel": "Bloomberg Technology",
+        "upload_date": "2026-06-03",
+        "url": "https://www.youtube.com/watch?v=xhTc7Jl88Ww&t=1402s",
+        "first_seconds": 1402,
+        "mentions": 1,
+        "role": null,
+        "context": "Regime where credit underperforms its coupon and equities win"
+      }
+    ],
+    "total_mentions": 1,
+    "first_uploaded": "2026-06-03",
+    "last_uploaded": "2026-06-03",
+    "video_count": 1,
+    "slug": "mid-cycle-stretched-valuations",
+    "upload_dates": [
+      "2026-06-03"
     ],
     "span_days": 0
   }

@@ -1,0 +1,696 @@
+{
+  "video": {
+    "id": "UIoV8rG_25s",
+    "title": "Thomas Laffont: The $4T AI IPO Wave Is Coming… and We've Never Seen Anything Like It",
+    "channel": "All-In Podcast",
+    "duration_seconds": 1965,
+    "thumbnail": "https://i.ytimg.com/vi/UIoV8rG_25s/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=UIoV8rG_25s",
+    "upload_date": "2026-06-04",
+    "display_title_html": "Thomas Laffont: The <em>$4T AI IPO Wave</em> Is Coming"
+  },
+  "thesis": "Coatue's Thomas Laffont argues the unicorn economy is healthier than in 2021 because AI has concentrated funding into a handful of real, fast-compounding 'Magnificent Eight' private companies whose imminent IPOs (SpaceX, Anthropic, OpenAI) will finally rebalance the ecosystem's cash-in versus cash-out.",
+  "topics": [
+    "finance",
+    "ai",
+    "business"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Coatue's Thomas Laffont joins the Besties!"
+    },
+    {
+      "start": 30,
+      "title": "Public markets are back as AI dominates the \"Unicorn Economy\""
+    },
+    {
+      "start": 315,
+      "title": "The $4T AI IPO explosion"
+    },
+    {
+      "start": 468,
+      "title": "The case for SpaceX: Compounding launch monopoly and Starlink"
+    },
+    {
+      "start": 638,
+      "title": "The 10x Paradox: Why we're seeing unprecedented scaling"
+    },
+    {
+      "start": 933,
+      "title": "Segmenting AI markets and future impact"
+    },
+    {
+      "start": 1112,
+      "title": "Bestie Q&A: Power Law, future of VC, revenue, liquidity explosion"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "Funding per unicorn jumped 5x since 2021",
+      "body": "The number of new unicorns has normalized back to a much lower, pre-COVID level while AI's wallet share of fundraising keeps climbing — so mathematically each unicorn now raises about 5x what it did in the 2021 Zerp peak. Fewer companies, each far larger.",
+      "start_seconds": 84,
+      "end_seconds": 130
+    },
+    {
+      "id": 2,
+      "category": "counterintuitive",
+      "headline": "2021 unicorn cohort is stuck; pre-Zerp cohort thrived",
+      "body": "Of the ~73 pre-Zerp unicorns, 80% had raised again or exited 20 quarters in. The 2021 cohort balloons to 479 companies but fewer than 20% had exited or raised at the same point — a far less healthy vintage.",
+      "start_seconds": 130,
+      "end_seconds": 185
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "The 'Magnificent Eight' private index, ~$4T value",
+      "body": "Laffont proposes a future index of SpaceX, Stripe, Anthropic, Databricks, Revolut, ByteDance, Anduril — spanning internet, AI, fintech and spacetech. It represents almost $4 trillion and has outperformed the public MAG7 nearly name-for-name.",
+      "start_seconds": 195,
+      "end_seconds": 273
+    },
+    {
+      "id": 4,
+      "category": "data-point",
+      "headline": "Three IPOs to exceed 10 years of combined exits",
+      "body": "SpaceX (weeks away), Anthropic (confidential S1 filed that day), and OpenAI going public will, just those three, return more cash than the prior ten years of exits combined — finally rebalancing an ecosystem that consumed far more cash than it returned.",
+      "start_seconds": 286,
+      "end_seconds": 375
+    },
+    {
+      "id": 5,
+      "category": "data-point",
+      "headline": "OpenAI + Anthropic revenue may pass all of Microsoft by 2028",
+      "body": "Starting from January 2025, the two labs blew past Workday, ServiceNow, Adobe, then Salesforce, and are now bigger than Google Cloud and Azure. Coatue's forecast: bigger than AWS and potentially all of Microsoft by 2028.",
+      "start_seconds": 376,
+      "end_seconds": 435
+    },
+    {
+      "id": 6,
+      "category": "mental-model",
+      "headline": "SpaceX value rises per-launch as it launches more",
+      "body": "Cadence of launches is the #1 driver correlated to SpaceX's valuation, but valuation-per-launch also climbs over time. Coatue's framework: the business model quality improves with scale — moving from one-time government launches to recurring Starlink constellations to a multi-constellation platform.",
+      "start_seconds": 468,
+      "end_seconds": 638
+    },
+    {
+      "id": 7,
+      "category": "counterintuitive",
+      "headline": "The 10x Paradox: bigger companies are likelier to 10x",
+      "body": "A unicorn has ~8% odds of becoming a decacorn; a decacorn has 8–13% odds of reaching $100B. But a centacorn ($100B+) has a 31% chance of a subsequent 10x — value compounds fastest at the very top, defying intuition.",
+      "start_seconds": 638,
+      "end_seconds": 723
+    },
+    {
+      "id": 8,
+      "category": "data-point",
+      "headline": "Two companies went $500B→$1T in weeks",
+      "body": "It typically takes multiple years to climb from a $500B to a $1T market cap. Recently three public companies did it in one year — and two of them in a matter of weeks.",
+      "start_seconds": 723,
+      "end_seconds": 766
+    },
+    {
+      "id": 9,
+      "category": "story",
+      "headline": "Cerebras' OpenAI contract quintupled its value",
+      "body": "Laffont led Cerebras' Series B and sat on the board through years of no new capital and hard grinding. A massive OpenAI contract then quintupled the company's value ahead of its IPO — a case study in long-gestation semis bets.",
+      "start_seconds": 766,
+      "end_seconds": 820
+    },
+    {
+      "id": 10,
+      "category": "framework",
+      "headline": "AI revenue rests on three pillars: consumer, ads, enterprise",
+      "body": "Coatue sizes the AI ecosystem at ~$140B today, ~$300B this year, doubling in 2027. Sources: consumer (subs × ARPU), ads (~25% of Meta/Google ads are AI-enabled today heading to 100%, ~$150B), and enterprise (Claude Code, Codex).",
+      "start_seconds": 880,
+      "end_seconds": 980
+    },
+    {
+      "id": 11,
+      "category": "prediction",
+      "headline": "Starlink will eat the global telco profit pool",
+      "body": "Laffont expects Starlink to power a device enabling calls anywhere on Earth, treating the $200–400B global telco/broadband/wireless profit pool as Starlink's addressable market with a structurally better, tower-free product.",
+      "start_seconds": 973,
+      "end_seconds": 1015
+    },
+    {
+      "id": 12,
+      "category": "mental-model",
+      "headline": "Memory has no TSMC — a structural scarcity",
+      "body": "An OpenAI-style ASIC can lean on TSMC to fabricate, but there's no equivalent foundry for memory. That scarcity reframes how memory multiples should compare to custom-chip multiples and explains recent moves in memory names.",
+      "start_seconds": 1576,
+      "end_seconds": 1628
+    },
+    {
+      "id": 13,
+      "category": "prediction",
+      "headline": "A price war between OpenAI and Anthropic is possible",
+      "body": "Drawing on the ride-share and food-delivery wars, Laffont notes excess capital eventually funds price wars. With $200B war chests, one lab could pull a price lever — though heavy infrastructure spend makes it non-obvious.",
+      "start_seconds": 1788,
+      "end_seconds": 1848
+    },
+    {
+      "id": 14,
+      "category": "mental-model",
+      "headline": "Public markets are the great equalizer and antiseptic",
+      "body": "Laffont welcomes the scrutiny of short sellers and the market on SpaceX, OpenAI and Anthropic. Chamath adds a tactical wrinkle: with heavy passive buying, the real price-discovery 'disinfectant' won't hit on day one but roughly six months and one day post-IPO.",
+      "start_seconds": 1370,
+      "end_seconds": 1454
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The winners are compounding faster than ever, which means the costs of not being in a winner are higher than ever.",
+      "speaker": "Thomas Laffont",
+      "start_seconds": 1043
+    },
+    {
+      "text": "The public market is the great equalizer. It will not care about my bullshit presentation. It will be the great antiseptic.",
+      "speaker": "Thomas Laffont",
+      "start_seconds": 1351
+    },
+    {
+      "text": "If I want to make memory, well, there is no TSMC.",
+      "speaker": "Thomas Laffont",
+      "start_seconds": 1620
+    },
+    {
+      "text": "The power law rules our lives. All the great gains are being consolidated into small numbers of companies.",
+      "speaker": "Jason Calacanis",
+      "start_seconds": 1112
+    },
+    {
+      "text": "These are not fake companies. These are companies generating substantial revenue at scale that are growing faster than anything we've ever seen.",
+      "speaker": "Thomas Laffont",
+      "start_seconds": 1326
+    },
+    {
+      "text": "Anthropic pre-Claude Code was a completely different company than post-Claude Code. One event completely dented the trajectory of almost that entire industry.",
+      "speaker": "Thomas Laffont",
+      "start_seconds": 1470
+    }
+  ],
+  "resources": [
+    {
+      "name": "Coatue",
+      "context": "Laffont's $55B hedge fund raising another ~$1B for AI; source of all the framework slides"
+    },
+    {
+      "name": "Brad Gerstner",
+      "context": "Cited on the challenge of allocating time across early-stage, private and public investing"
+    },
+    {
+      "name": "Bill Ackman",
+      "context": "Quoted (via JCal) describing AI bets as venture investments in trillion-dollar companies at 50–100x revenue"
+    },
+    {
+      "name": "Cerebras",
+      "context": "Laffont's Series B / board company; OpenAI contract quintupled its value pre-IPO"
+    },
+    {
+      "name": "Lena Khan",
+      "context": "Invoked re: antitrust/government intervention as a ceiling on compounding monopolies"
+    },
+    {
+      "name": "Foundation series (the Mule)",
+      "context": "Analogy for the unpredictable, one-time event (Claude Code) that altered an industry's trajectory"
+    },
+    {
+      "name": "Ben Graham",
+      "context": "Friedberg frames the 10x filter as classic durability-of-earnings valuation analysis"
+    }
+  ],
+  "action_items": [
+    "If you take one thing from this: the cost of not owning a winner now exceeds the risk of overpaying for one — concentration, not diversification, has been the rational power-law strategy.",
+    "Watch the SpaceX, Anthropic and OpenAI IPOs as the real test; don't trust day-one pricing — wait roughly six months for passive-buying supply to wash through before judging value.",
+    "When evaluating SpaceX, track launch cadence and the shift from one-time government launches to recurring Starlink constellation revenue — that's what re-rates the multiple.",
+    "Note structural scarcity: there's no foundry equivalent for memory, so memory multiples may deserve a premium over custom-ASIC multiples."
+  ],
+  "stats": [
+    {
+      "label": "Magnificent Eight value",
+      "val": "~$4T",
+      "unit": "",
+      "sub": "Combined value of SpaceX, Stripe, Anthropic, Databricks, Revolut, ByteDance, Anduril — outperforming the public MAG7."
+    },
+    {
+      "label": "Funding per unicorn",
+      "val": "5x",
+      "unit": "since 2021",
+      "sub": "Fewer unicorns each raising far more as AI concentrates the funding base."
+    },
+    {
+      "label": "Centacorn 10x odds",
+      "val": "31%",
+      "unit": "",
+      "sub": "A $100B+ company's chance of a subsequent 10x — versus just 8% for a unicorn becoming a decacorn."
+    },
+    {
+      "label": "AI ecosystem revenue",
+      "val": "$140B",
+      "unit": "→ $300B",
+      "sub": "Coatue's size today rising to ~$300B this year and doubling in 2027."
+    }
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "The 10x Paradox: odds of a subsequent 10x by company size",
+      "sub": "Bigger companies are likelier to 10x again — value compounds fastest at the top.",
+      "caption": "Source: Thomas Laffont / Coatue · 10:38",
+      "unit": "%",
+      "labels": [
+        "Unicorn → decacorn",
+        "Decacorn → $100B",
+        "Centacorn ($100B+) → 10x"
+      ],
+      "series": [
+        {
+          "name": "Probability of 10x (%)",
+          "data": [
+            8,
+            13,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "AI ecosystem revenue trajectory",
+      "sub": "Coatue's sizing of total AI revenue, doubling within two years.",
+      "caption": "Source: Thomas Laffont / Coatue · 14:48",
+      "unit": "$B",
+      "labels": [
+        "Today",
+        "This year (2026)",
+        "2027"
+      ],
+      "series": [
+        {
+          "name": "AI ecosystem revenue ($B)",
+          "data": [
+            140,
+            300,
+            600
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Starlink's addressable telco profit pool",
+      "sub": "Laffont frames the global telco/broadband/wireless profit pool as Starlink's core market.",
+      "caption": "Source: Thomas Laffont / Coatue · 30:09",
+      "unit": "$B",
+      "labels": [
+        "Low estimate",
+        "High estimate"
+      ],
+      "series": [
+        {
+          "name": "Global telco profit pool ($B)",
+          "data": [
+            200,
+            400
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Thomas Laffont",
+        "role": "Co-founder, Coatue Management",
+        "speaker": true,
+        "mentions": 12,
+        "first_seconds": 0,
+        "context": "Presents Coatue's unicorn-economy deck and frameworks on AI IPOs, SpaceX and the 10x paradox"
+      },
+      {
+        "name": "Jason Calacanis",
+        "role": "Angel investor, All-In host",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 1112,
+        "context": "Asks about power law, VC playing field and where LPs should allocate"
+      },
+      {
+        "name": "Chamath Palihapitiya",
+        "role": "Social Capital, All-In host",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 1370,
+        "context": "Raises six-months-plus-one price-discovery timing and structural-efficiency questions"
+      },
+      {
+        "name": "David Sacks",
+        "role": "Craft Ventures, All-In host",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 1638,
+        "context": "Extrapolates the 10x odds to trillion-dollar companies and floats a buy-at-$1T bot strategy"
+      },
+      {
+        "name": "David Friedberg",
+        "role": "All-In host",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 1647,
+        "context": "Frames the 10x filter as durability-of-earnings / Ben Graham analysis and cites Bell breakup"
+      },
+      {
+        "name": "Brad Gerstner",
+        "role": "Founder, Altimeter Capital",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 800,
+        "context": "Cited on allocating time across early-stage, private and public investing"
+      },
+      {
+        "name": "Bill Ackman",
+        "role": "Pershing Square",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1290,
+        "context": "Quoted describing AI bets as venture in trillion-dollar firms at 50–100x revenue"
+      },
+      {
+        "name": "Lena Khan",
+        "role": "Former FTC Chair",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 1628,
+        "context": "Invoked re: antitrust as a constraint on compounding monopolies"
+      },
+      {
+        "name": "Nikesh Arora",
+        "role": "Palo Alto Networks CEO",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 985,
+        "context": "His profit-pool framework referenced for the Starlink/telco analysis"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Coatue",
+        "mentions": 6,
+        "first_seconds": 8,
+        "context": "$55B hedge fund raising ~$1B more for AI; source of the analysis"
+      },
+      {
+        "name": "SpaceX",
+        "mentions": 8,
+        "first_seconds": 195,
+        "context": "IPO weeks away; valuation driven by launch cadence and Starlink constellations"
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 7,
+        "first_seconds": 195,
+        "context": "Filed confidential S1; revenue scaling unlike any company; reportedly had a profitable month"
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 5,
+        "first_seconds": 195,
+        "context": "Massive fundraising and revenue scaling; potential IPO and price-war dynamics"
+      },
+      {
+        "name": "Cerebras",
+        "mentions": 3,
+        "first_seconds": 766,
+        "context": "Recent IPO; Coatue board seat; OpenAI contract quintupled its value"
+      },
+      {
+        "name": "Stripe",
+        "mentions": 1,
+        "first_seconds": 195,
+        "context": "Member of the proposed Magnificent Eight private index"
+      },
+      {
+        "name": "Databricks",
+        "mentions": 1,
+        "first_seconds": 195,
+        "context": "Member of the Magnificent Eight index"
+      },
+      {
+        "name": "Revolut",
+        "mentions": 1,
+        "first_seconds": 195,
+        "context": "Fintech member of the Magnificent Eight index"
+      },
+      {
+        "name": "ByteDance",
+        "mentions": 1,
+        "first_seconds": 195,
+        "context": "Internet member of the Magnificent Eight index"
+      },
+      {
+        "name": "Anduril",
+        "mentions": 1,
+        "first_seconds": 195,
+        "context": "Defense/spacetech member of the Magnificent Eight index"
+      },
+      {
+        "name": "Starlink",
+        "mentions": 4,
+        "first_seconds": 468,
+        "context": "Recurring-revenue constellation business; targets global telco profit pool"
+      },
+      {
+        "name": "AWS",
+        "mentions": 1,
+        "first_seconds": 376,
+        "context": "Benchmark the labs' revenue could surpass"
+      },
+      {
+        "name": "Microsoft (Azure)",
+        "mentions": 2,
+        "first_seconds": 376,
+        "context": "Labs already bigger than Azure; could pass all of Microsoft by 2028"
+      },
+      {
+        "name": "Google Cloud",
+        "mentions": 1,
+        "first_seconds": 376,
+        "context": "Surpassed by combined OpenAI/Anthropic revenue"
+      },
+      {
+        "name": "Meta",
+        "mentions": 1,
+        "first_seconds": 920,
+        "context": "~25% of its served ads are AI-enabled, heading toward 100%"
+      },
+      {
+        "name": "Google",
+        "mentions": 1,
+        "first_seconds": 920,
+        "context": "AI-enabled ad penetration cited alongside Meta"
+      },
+      {
+        "name": "TSMC",
+        "mentions": 2,
+        "first_seconds": 1576,
+        "context": "Foundry available for custom chips but with no memory equivalent"
+      },
+      {
+        "name": "Ferrari",
+        "mentions": 1,
+        "first_seconds": 1023,
+        "context": "Its electric/autonomous launch cited as a disruption case study in autos"
+      },
+      {
+        "name": "Palo Alto Networks",
+        "mentions": 1,
+        "first_seconds": 55,
+        "context": "Cited as a strong-performing public company"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Claude Code",
+        "type": "AI coding agent",
+        "first_seconds": 970,
+        "context": "Credited with transforming Anthropic's trajectory and enterprise revenue"
+      },
+      {
+        "name": "Codex",
+        "type": "AI coding agent",
+        "first_seconds": 970,
+        "context": "Enterprise AI coding breakthrough cited alongside Claude Code"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "Consumer AI product",
+        "first_seconds": 415,
+        "context": "The 'ChatGPT moment' hyperscalers responded to by funding the disruption"
+      },
+      {
+        "name": "Starlink direct-to-device",
+        "type": "Satellite connectivity",
+        "first_seconds": 973,
+        "context": "Device enabling phone calls anywhere, tower-free, attacking telco"
+      },
+      {
+        "name": "GLP-1 drugs",
+        "type": "Pharmaceutical",
+        "first_seconds": 1037,
+        "context": "Reshaping consumption of food, alcohol and diet composition"
+      },
+      {
+        "name": "Memory chips",
+        "type": "Semiconductor",
+        "first_seconds": 880,
+        "context": "Demand could quintuple per user; scarce with no foundry equivalent"
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Unicorn economy",
+        "first_seconds": 38,
+        "context": "Coatue's index of private startups; up ~70% since Sept 2024 and now healthier"
+      },
+      {
+        "name": "Magnificent Eight",
+        "first_seconds": 195,
+        "context": "Proposed private-company index (~$4T) outperforming the public MAG7"
+      },
+      {
+        "name": "Coatue SpaceX framework (pre-constellation → platform)",
+        "first_seconds": 540,
+        "context": "Business-model quality rises with launch scale through constellation phases"
+      },
+      {
+        "name": "The 10x Paradox",
+        "first_seconds": 638,
+        "context": "Larger companies (centacorns) have higher odds of a subsequent 10x"
+      },
+      {
+        "name": "Cash-consumed vs cash-returned balance",
+        "first_seconds": 257,
+        "context": "Ecosystem health metric; IPOs finally rebalancing it"
+      },
+      {
+        "name": "Profit pool framework",
+        "first_seconds": 985,
+        "context": "Nikesh-attributed lens applying Starlink to the global telco profit pool"
+      },
+      {
+        "name": "Six months plus one",
+        "first_seconds": 1393,
+        "context": "Chamath's view of when real price discovery starts amid heavy passive buying"
+      }
+    ],
+    "books_papers": [
+      {
+        "name": "Foundation (the Mule)",
+        "author": "Isaac Asimov",
+        "context": "Analogy for an unpredictable one-time event like Claude Code reshaping an industry"
+      }
+    ]
+  },
+  "predictions": [
+    {
+      "id": "UIoV8rG_25s-p1",
+      "claim": "OpenAI and Anthropic's combined revenue could surpass AWS and potentially all of Microsoft by 2028.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 376,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p2",
+      "claim": "SpaceX, Anthropic and OpenAI going public will return more cash than the prior 10 years of exits combined, rebalancing the unicorn ecosystem.",
+      "speaker": "Thomas Laffont",
+      "category": "finance",
+      "start_seconds": 286,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p3",
+      "claim": "Within a few years, Starlink will power a device enabling phone calls anywhere in the world, capturing the $200–400B global telco profit pool.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 973,
+      "stated_at": "2026-06-04",
+      "horizon_label": "2-4 years",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p4",
+      "claim": "The total AI ecosystem revenue (~$140B today, ~$300B in 2026) will double again in 2027.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2027",
+      "revisit_dates": [
+        "2027-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p5",
+      "claim": "Memory demand per AI user could quintuple based on what AI systems require to personalize their services.",
+      "speaker": "Thomas Laffont",
+      "category": "tech",
+      "start_seconds": 880,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p6",
+      "claim": "Ad penetration of AI-enabled ads at Meta and Google will eventually reach 100% (from ~25% today), worth ~$150B.",
+      "speaker": "Thomas Laffont",
+      "category": "business",
+      "start_seconds": 920,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "UIoV8rG_25s-p7",
+      "claim": "We may eventually see a price war between OpenAI and Anthropic as excess capital gets deployed, mirroring the ride-share and food-delivery wars.",
+      "speaker": "Thomas Laffont",
+      "category": "ai",
+      "start_seconds": 1788,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-3 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}

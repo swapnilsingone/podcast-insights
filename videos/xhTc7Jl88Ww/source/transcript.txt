@@ -1,0 +1,309 @@
+[00:00:04] SPEAKER_00: Bloomberg Tech is live from coast to coast with Caroline Hyde in New York and Ed Ludlow in San Francisco.
+
+[00:00:15] SPEAKER_11: This is Bloomberg Tech. Coming up, Elon Musk rejects another Wall Street convention and sets a fixed price for his SpaceX IPO ahead of the marketing phase of the deal. The plan? Offer shares at $135 apiece.
+
+[00:00:27] SPEAKER_02: Plus, Palo Alto Networks falls after the company reported its results, failing to meet really elevated buy-side expectations this following a more than 60% run to date.
+
+[00:00:37] SPEAKER_11: And candidates backed by tech billionaires and founders fell short in California's primary elections yesterday. We break down the results and what it means for Silicon Valley.
+
+[00:00:46] SPEAKER_02: But let's check in on what current geopolitics means for this market. We take a breather. We have been at record high after record high. The S&P have been on a nine-day tear. The Nasdaq have been up for four straight trading days. Today, we pause. We're off by just a tenth of a percent. Of course, front and center is maybe conflict erupting once more, a little bit. That sees far under pressure between the U.S. and Iran. Oil goes higher. Bond yields, they go higher. Stocks just pull back a little bit, Ed. But what are you watching?
+
+[00:01:09] SPEAKER_11: Let's get today's big number, $84.75 billion. Alphabet is upsizing its equity raise to that level up from the previously announced raise of $80 billion. All this to fund its AI infrastructure expansion. Interesting, like this is a multi-day story. The stock's basically flat, but there's an element of dilution. The main point being parts of the equity offering really oversubscribed. So Alphabet's saying, okay, we'll do a little bit more. Google's latest fundraising.
+
+[00:01:39] SPEAKER_11: There is a race happening here, guys. Highlights this scramble for capital in the AI era. Now, SpaceX is taking things a step further. Elon Musk's company is planning a $75 billion IPO and has already set a fixed share price ahead of the traditional roadshow process. Another sign Musk is willing to rewrite Wall Street's playbook. That's all according to sources. Bloomberg's Catherine Dougherty is here with more. Well, a bit of a whirlwind few days.
+
+[00:02:08] SPEAKER_11: So we report it's $135 a share, 556.5 million shares. Do the math. They'll raise $75 billion. That's not how this typically works in an IPO process. Why?
+
+[00:02:21] SPEAKER_12: No, typically a company that's looking to list in the U.S. markets is going to look at a range. They're not going with a firm number like this $135. THAT YOU ARE REFERENCING. THAT IS BECAUSE IN THE NEXT WEEK OR SO, THERE ARE A LOT OF THINGS THAT COULD CHANGE. THIS IS SUPPOSED TO BE A MARKETING PROCESS. BUT LOCKING IN A PRICE OF $135 A SHARE IS GIVING SOME SORT OF CERTAINTY. IT IS GIVING A SIGNAL TO THE MARKET OF WHAT TO EXPECT.
+
+[00:02:48] SPEAKER_12: WE ARE EXPECTING THAT NEXT WEEK BY AROUND THE 11TH IS WHEN WE COULD SEE THESE SPACEX SHARES COME TO MARKET. BUT EVEN LEADING UP TO IT IS the difference in the approach that SpaceX and Musk's team are taking at this time.
+
+[00:03:06] SPEAKER_02: I mean, there is some precedent for doing it this way, Catherine, just not of this size, right?
+
+[00:03:11] SPEAKER_12: Absolutely. So smaller companies can take this route that SpaceX is looking like it will. But it is not typical for a company, especially given that this is supposed to be the largest listing on record. So it's taking just some unconventional routes. But you're absolutely right. It's not the first time or likely the last, especially for companies of smaller sizes.
+
+[00:03:36] SPEAKER_02: I mean, Ed, you've been at the forefront of reporting each tick by tick when it comes to what's happening with Elon Musk and SpaceX more broadly. But isn't there a lot of cooks in the kitchen right now? How are we understanding as to what this price point means and what it means for all of those friends, family? Those are about to potentially become millionaires.
+
+[00:03:53] SPEAKER_11: Well, the price point is interesting. So $135 a share is a 28% premium from when they did a stock split on May the 15th. So basically, SpaceX's shares were above $500 in the private market. So it did a five for one, took it down to 105. at the valuation of 1.25 trillion. So this is like math. It's kind of, you know, a little bit dry. But the point is, is that the share price at 135 is not keeping up with the jump in valuation. There's dilution there.
+
+[00:04:21] SPEAKER_11: But the friends and family that will get an allocation, all of the mechanics are still in place, like traditional IPO stuff. The roadshow will happen. It will price in the normal way. You're just saying, like, here's the number. It's a very, very unusual situation. By the way, Bloomberg's Catherine Dostey. Thank you very much. Top reporting as always. Some news crossing the terminal as well. Elon Musk's AI company, XAI, has paused hiring for professionals to train its grok chatbot on a range of specialized skills.
+
+[00:04:49] SPEAKER_11: That's according to sources who say the decision is at least partly due to concerns that the company's HR department is overwhelmed and often unable to process new candidates. Read that one on the Bloomberg, Gareth.
+
+[00:05:04] SPEAKER_02: We always will. Meanwhile, read on the Bloomberg just how these markets are performing. You know the S&P 500 had been riding a really powerful winning streak. It was up for nine straight days. Maybe it's nine straight weeks. Stocks are at record highs as of yesterday. Next guest saying, look, we are just actually at the infancy of this AI industrial revolution. Joining us now with her outlook, Rebecca Wilson, CEO, Chief Investment Officer, Wilson Wealth Management. And look, we take a breather today. It's more about geopolitics, Rebecca.
+
+[00:05:33] SPEAKER_02: But how, when we have $5 trillion companies and we have Alphabet tapping the market for $85 billion, let's call it, how is that not some sort of sign that we're kind of nearer the end than the beginning here?
+
+[00:05:47] SPEAKER_03: No, I don't think so, Caroline. I think this is the very, very beginning stages of monetization. Now, we have seen some financing changes. I think Alphabet, Google is just trying to get ahead of the three huge IPOs. Obviously, you just talked about SpaceX, the largest IPO in history, will be the largest company valuation in the entire world. So that in and of itself is just crazy. Then you follow that with... opening AI and anthropic Google wants to get more money.
+
+[00:06:13] SPEAKER_03: If you look at the hyperscalers, they're usually writing about a little under 30 billion of bonds a year. And last year in 2025, they wrote 121 billion. So we're starting to see we can't get enough capital to do all of the investments, the capex that we want. And so I think if we get the capex, we're going to keep seeing this market go up. It's the beginning stages.
+
+[00:06:35] SPEAKER_11: Rebecca, you are the capital or you're a part of the capital, right? You have the Alphabet Equity race, SpaceX IPO, Anthropix filed confidentially, a lot of debt financing, and then there's the NVIDIA bit. Is this the FOMO trade where you just have to have exposure to everything? Or do you pick a horse in the race and say, actually, in the end, why there are five lanes, but I only think three of them will succeed?
+
+[00:07:01] SPEAKER_03: Yeah, that's a great question. It's so hard to pick the winners at the beginning stages of monetization because we don't know what technologies are actually going to win out or what methodologies. So I do think you have to sprinkle some capital kind of everywhere. And you have to hold. You have to be willing. Like if you look at the monetization of NASDAQ in the 90s.
+
+[00:07:20] SPEAKER_03: we had you know uh 33 33 overall but we had 15 pullbacks so people need to understand that monetization is volatile and get the steel uh the band of steel to stay the course and to be in for at least the long haul most of our ipos usually are you know uh coming down in the first 12 months so i think there's gonna be a lot of emotion possibly wait till the at least the insider lockups expire in six months and then go in.
+
+[00:07:49] SPEAKER_03: But I do think if you're going to participate in the emotion of it, you're going to want to feel the pressure pulling back. So I would I would wait and I would buy in strategically and I would keep my my investment broad.
+
+[00:08:00] SPEAKER_02: I mean, in many ways, people, come what may, will have exposure to these names just by the very weight within certain benchmarks. But, Rebecca, how much exposure do you want outside of the U.S.? The IPO frenzy is stealing the thunder when it comes to big U.S. giants. But still, we've seen significant outperformance over in Asian trading, for example.
+
+[00:08:20] SPEAKER_03: Yes, I definitely think that you've got things in Korea. Obviously, you've got markets outside of the U.S. that are going to be a part of AI. And I look really to the legislative policies. I'm really concerned about the SECURE Act. If the banking lobby is successful and really pulling weight and teeth out of the stable coin in the United States, it will route elsewhere. And that is going to be part of this whole AI monetization. We're changing our payment system to digital. That's coming.
+
+[00:08:43] SPEAKER_03: So the United States need to be a part of that and facilitating that and not trying to stop it and keep legacy systems in place because they are on their out. It's going to take time, but they are legacy. And we need to keep making sure the United States is the, you know, focal point of everything. But certainly I would pick up some international as well.
+
+[00:09:02] SPEAKER_11: Just what you said a minute ago, by the way. Love that. Participate in the emotion of it. I'm not participating in the markets. Right. For obvious reasons. certainly participating in the emotion of what's going on. So now you've given me something to think about. There's statement as well, right?
+
+[00:09:20] SPEAKER_11: Jensen Wong's on stage again last night for the seventh time in five days saying that you would be insane if you didn't see the return on investment that is now real out in the world from AI and that you would be foolish not to keep investing in the space. Do you see it as clearly as he does?
+
+[00:09:41] SPEAKER_03: Well, I was just excited that he was on stage saying, here's the first laptop for an agentic AI agent. I was like, yay, now we're buying laptops for agents, AI agents, not people. This is really interesting. Listen, this is the largest technological change in the history of human time. You can't be more hyperbolic and parabolic with these equity prices going up. There is going to be volatility. It is going to pull back. But this is the largest opportunity for wealth creation and for people, average people, to get in on it.
+
+[00:10:10] SPEAKER_03: Take only to the risk that you can tolerate, but definitely participate in this and just know that you're going to have volatility. Stay the course. That's the theme. Stay the course and you will be a winner in the long run. Financially, anyways. We don't know about all the other bad side of AI, but the financial side, positive.
+
+[00:10:28] SPEAKER_11: Wow. On debut, Rebecca Walser, CEO and Chief Investment Officer of Walser Wealth Management on Bloomberg Tech, hit every single story that we had to offer today. Thank you very much. Now, coming up, Palo Alto Networks falls after the company failed to meet very elevated buy-side expectations. We've got the earnings story and a little chat about a pay package. That's coming up next. This is Bloomberg Tech.
+
+[00:11:03] SPEAKER_02: Let's check in on Palo Alto Network. Shares down. They're actually having their worst day in, let's call it, a couple of months. April the 10th, we're off by 5%. But that's as the cybersecurity firm actually reported really strong revenue growth. They've, again, been fueled by AI spending in the fiscal third quarter. It was up, though, against a high bar. Palo Alto Network shares look... They're up 53% so far year to date. They were up 60% going into this release. Let's talk more with Bloomberg's editor covering cybersecurity, Lin Zhuang. And we've got plenty to talk about in the exec chair as well.
+
+[00:11:33] SPEAKER_02: But first, talk about these numbers, because there was a lot of anticipation. They beat, they raised, but it wasn't good enough.
+
+[00:11:39] SPEAKER_01: Caroline, it feels baffling at first, right? But as you noted just now, there was a huge run up in the stock ahead of the earnings. They have done amazingly since the beginning of the year. I think there was a lot of anticipation. I'm just going to call this like the Nvidia effect from here on out, right? Like you can beat on every single key metric. And that's what Palo Alto did. Every beat on revenue, earnings, outlook was solid.
+
+[00:12:08] SPEAKER_01: And yet your stock can still come down because of that run up, because analysts aren't really honest about what they want to see in those earnings, and because of the macro view, right? I mean, I'm sure that it doesn't help that the entire stock market is down on U.S.-Iran news on top of all that. Bad timing for Palo Alto, of course.
+
+[00:12:27] SPEAKER_11: One of the issues that shareholders have with the company, or as we put it, the recurring beef, is with the pay package of the CEO and other senior leaders. We ran this big feature 24 hours ago explaining it. Explain it to us. That's a really interesting issue, as I said, that's going on in the background.
+
+[00:12:48] SPEAKER_01: isn't it? Now, this is an analysis that we did based on proxy data that is available on the Bloomberg terminal. And we went back several years to 2015. And what that revealed to us in a surprising way, we didn't expect to see this, that Palo Alto Networks has seen more rejections on its say on pay votes.
+
+[00:13:12] SPEAKER_01: which cover executive compensation for that past year than any other company in the S&P 500. They have seen seven total rejections by investors on those say and pay votes since 2015. No other company in the index comes close to that.
+
+[00:13:31] SPEAKER_02: The last vote, I think, was in December, and at that point, I think more than half of shareholders pushed back on the $100 million potentially coming Nikesh Arora's way. But to be fair to the guy, the stock has added a market cap of $100 billion. Is that sort of how they tend to say, like, yes, he's paid more, actually more than some of the biggest CEOs in the world, like a Tim Cook, but a lot more is actually linked to the performance of the stock?
+
+[00:13:55] SPEAKER_01: You're raising such a good point, Caroline, and we actually hit at that in the story because the story itself isn't even just about Palo Alto. It's about the effectiveness of these say on pay votes. And in fact, there have been reports done that suggest that investors like it and they like to compensate CEOs. when the returns on their investments are strong.
+
+[00:14:17] SPEAKER_01: So in that way, Palo Alto and its CEO are a bit of an anomaly because Palo Alto has soared, as we just talked about, in the past year. In fact, they've soared in the past like six years. They've been on the rise since Aurora took over. I think they've added well over $100 billion in market cap. So you would think that their shareholders would vote supporting that compensation, but they are an exception to that rule. They have voted against it.
+
+[00:14:46] SPEAKER_11: Nikesh Arora's package is valued at nearly $100 million. And one of the things you do in the story is compare it with some of the titans of corporate America. So it's not just tech, but you've outlined the performance of the stock. Why is it that the shareholders think that number is too big relative to Nikesh's peers?
+
+[00:15:08] SPEAKER_01: Well, Ed, if you are comparing Nikesh and his pay packages to his peers, ISS would say, and Glass Lewis for that matter, both proxy advisory firms, would say that it is not aligned. He is consistently paid. well above his peers in the cybersecurity industry. What Nikesh would say and what he did say in our story is that that's because he's been capable of delivering outsized returns.
+
+[00:15:37] SPEAKER_01: And in fact, if you look at Palo Alto Network Network's performance this year, it has performed well far and above the rallies that you've seen from other major cybersecurity stocks in the U.S..
+
+[00:15:50] SPEAKER_11: Bloomberg's Linda Wan bringing that story to life. Thank you very much indeed. CEOs and earnings are also top of mind for Adobe investors. The creative software giant is under pressure from AI native rivals and is in the process of finding a new CEO to replace Shantanu Narayan, who's led the company for nearly two decades. Bloomberg software reporter Brody Ford joins us with reporting that there are two internal candidates in the running, but the company, Brody, is also looking elsewhere. What do we know?
+
+[00:16:17] SPEAKER_10: Yeah, well, we know that Adobe needs a new CEO. Good place to start. Nice. They are kind of one of the air examples of the SaaSpocalypse, where investors have decided that AI might disrupt some of these leading software companies that enjoyed some of the best growth rates and margins for decades.
+
+[00:16:39] SPEAKER_10: And so Adobe announced back in March that they're going to do a whole search for a CEO, and what we have today is that they've zeroed in on two internal leaders, and they've also brought in one of tech's best-known search firms to look for folks who might have a little more experience with cutting-edge AI development.
+
+[00:16:55] SPEAKER_02: I mean, talk to us about the internal leaders and where they where they stood to lead before in the business units, because this is a company that probably rather like Salesforce. A lot of the general revenue drivers are just slowing down. There's like a little bit of macro overhang. Companies aren't spending so much on software as much unless it is sort of directly AI related.
+
+[00:17:15] SPEAKER_10: The most obvious choice is somebody named David Wadwani. I mean, he's been the main deputy for quite a while for the largest chunk of the business. I think a lot of folks within Adobe assumed that he would just be the next CEO. And so the fact that they announced this big public search made some folks say, oh, well, maybe David isn't going to get it. Right. Our understanding is David certainly still could get it.
+
+[00:17:38] SPEAKER_02: Maybe you just need to have an evident race. You need to prove yourself that you are the right person for the job.
+
+[00:17:45] SPEAKER_11: Happened at Disney as well, right? Like, you know, you go in internal candidate, but you put a little pressure by saying, well, we're also looking elsewhere. You said search firm, but you mean executive search, right? Headhunters are on the case.
+
+[00:17:55] SPEAKER_10: Do we know if there's anyone out there? Headhunters, yeah, they're looking quite widely. One name that we have in the story is Microsoft's Charles LaManna. I mean, he's an ascendant executive at Microsoft. He held some talks with Adobe, ultimately backed out of those. But it's an illustrative example of the kind of folks that Adobe's probably looking at, those who are seen as being able to kind of develop and monetize AI at the scale that you need to at a company like Adobe.
+
+[00:18:22] SPEAKER_02: What about Shantanu right now and how he guides in this interim period where everyone's kind of just, we're kind of just, well, holding our breath until we find out more.
+
+[00:18:31] SPEAKER_10: He's the chair of the board, so it's got to be a little awkward for him, right? I mean, you have these two deputies, the other one, Anil Chakravarty, he runs the other big part of the business. He's done very well, that part of the business. While it's not what we think of as Adobe, it's marketing software.
+
+[00:18:46] SPEAKER_10: marketing and analytics software which is you know it's not photoshop but it's still a big money maker and it's grown quite a bit you know he has a neil and he has david likely saying hey pick me i should be your next ceo so um it's worth going back to basics right you know people will know adobe because of photoshop or pdf or some video editing equipped uh software platforms but the basic story is that a lot of that um
+
+[00:19:12] SPEAKER_11: tool can be found for free from some kind of generative AI platform, right? So Adobe, you know, you and I have worked on this together, right? When we've sat down with Shantanu in the last 12 months is to say, what are you good at here? Like, are you using AI? Have they sort of dispelled those fears with investors or are people still saying, oh, you know, the AI companies are coming for you?
+
+[00:19:37] SPEAKER_10: The big concern with Adobe is that their software is expensive and it's complicated. Interesting. If you're a professional who needs all the knobs, you're not leaving. But if you're somebody who wants to make a stupid meme and show your friend and Photoshop them doing something silly, you might have bought Photoshop in the past and you're probably not going to today. That's the big concern.
+
+[00:19:56] SPEAKER_11: Bloomberg's Brodie Ford with a really important read on what's going on with the Adobe CEO search. Now, coming up, we're going to go live from the Bloomberg Global Credit Forum, where we'll hear from Steve Tannenbaum of Golden Tree Asset Management. That conversation next. This is Bloomberg Tech.
+
+[00:20:21] SPEAKER_02: Let's go out to the Bloomberg Global Credit Forum, where Bloomberg Surveillance co-host Elisa Abramowitz is sitting down with Steve Tannenbaum, the Golden Tree Asset Management founder and CIO. Take a listen.
+
+[00:20:32] SPEAKER_05: And it also is very competitive. There's hundreds of different managers out there. I remember when I started at Mackay Shields, we were 89 out of 91. And within three years, I was very proud we got to be number one. But that's a lot of... people to compete against. And so, and you get your scoreboard every day. But more importantly, strategically, there was the mindset of why do people buy? Why do they sell?
+
+[00:21:01] SPEAKER_05: And can you front run that? Can you predict if the premise, if you're thinking of investments as maybe as short movies, and how's a movie gonna end? And if your premise is if this happens and this happens, Who am I going to sell it to, and where are they going to buy it? And so part of that could be liquidity. Part of it can be the stats. Why isn't somebody going to buy the four times levered?
+
+[00:21:31] SPEAKER_05: software company that's growing at 11%, sure, they're gonna be upset that they didn't buy it at 20%, but it was 5 1⁄4 or 5 1⁄2 times leverage back then, and the mindset was different. So I think that, and if that looks attractive, for instance, just using an example to what else is in the market that's yielding 10% or 9%, there's gonna be enough takers in that. So that, so having that mindset's always been attractive. and helpful.
+
+[00:22:01] SPEAKER_05: There's also the, you know, you look at something like COVID and, okay, how are people going to behave? There was usually, I remember, in mutual funds that when people got redeemed, they would sell what they could sell quickest or what was most liquid. I always tried to sell my semi-liquid product because I know I could never sell it in another week if this continued. So there's just different strategies to think about.
+
+[00:22:30] SPEAKER_04: So if you fast forward to now, at Golden Tree Asset Management, how do you perceive the mentality right now in the masses or in the funds that you go up against?
+
+[00:22:41] SPEAKER_05: Sure. So there is a bigger question. We were talking just a few moments ago about the perspective on credit, particularly total return credit.
+
+[00:22:50] SPEAKER_04: And there's probably frustration because some other asset...
+
+[00:22:54] SPEAKER_05: equities are participating significantly. And credit, broadly speaking, is in the low single digits. So there's frustration and anxiousness. How do I capture returns? Against that backdrop, you have great current yields and still value when you subtract out versus defaults that justify being in credit.
+
+[00:23:19] SPEAKER_04: Just to have everybody participate, this is a great time to bring in our question, which is how you're positioned in credit for the remainder of this year. And I would love for you all to weigh in, defensive, neutral, or risk on. From your perspective, how are you positioned? I mean, right now, do you want to take more risk? Are you looking for yield? Or are you looking for defense ahead of greater opportunities?
+
+[00:23:45] SPEAKER_05: So when we spoke in January at Davos, I mentioned how the setup was poor for credit and good for equities. Historically, when you've had stretched valuations in a mid-cycle, where the economy is expected to grow at 2% or better, your returns in credit are less than the coupon. And that's exactly what's happened so far. In contrast, usually that's a great environment for equities, and that's what's happened.
+
+[00:24:14] SPEAKER_05: And even if you look at the equal weighted S&P, it's certainly beginning to catch on. So it's been a more broader rally, particularly the last few weeks, even in the face of a run on again, off again conversations. Credit is still been still languished, and we expect that to continue. And that's not to say that it can't have a better second half. But I do think there are some pockets of opportunity
+
+[00:24:40] SPEAKER_05: But this is historically a tough time to be in credit in terms of in the cycle.
+
+[00:24:47] SPEAKER_04: Because of inflation and growth, that doesn't really benefit the instruments.
+
+[00:24:53] SPEAKER_05: It's just how it's priced. It's priced as if defaults are going to be low and... and that the corporate earnings are going to, and that they're more likely to disappoint. You're not getting paid to increase corporate earnings or for earnings to surprise on the upside. And you're being heavily penalized if they surprise on the downside. In the equity market, there's still some acceptance or excitement if you're taking up numbers.
+
+[00:25:23] SPEAKER_04: There are some opportunities, like you said. Where's the distress? Where are you finding them right now?
+
+[00:25:28] SPEAKER_05: So it's very situational. There's the expected distressed, which is in software, where the business model is getting called into question. Then there is also in telecom, another business model that's getting called into question. And there is an interesting relationship between the public equity as you look at a Comcast. I think that's hitting a new low as we speak, a 52-week low. If not, it's certainly... Charter's probably in the same, same camp.
+
+[00:25:59] SPEAKER_05: Cable 1 in the same camp. But yet some of the debt isn't. So I think that's kind of an interesting relationship. The debt and what happened... I guess recently with Altice, with threatening a transaction, I think it's all a ploy for negotiation, but it probably brings people to the table sooner if it works.
+
+[00:26:20] SPEAKER_05: It's the same team that brought you Bausch, and we respect them an awful lot, but it kind of went nowhere when there was a bunch of, I guess, potential transactions being contemplated that didn't get to the finish line from the equity.
+
+[00:26:36] SPEAKER_04: So playing the debt equity structure in creative ways is one way that you're playing with it.
+
+[00:26:40] SPEAKER_05: Right, and within industries. I think the equity in cable is much easier. It's hard to see that the equities don't work and the debt works. So I think that relationship is kind of interesting. I'd say the same thing in health care, which seems like it's been a source of funding for technology stocks. And there are certain companies like Tenet, which strike me as very reasonable value.
+
+[00:27:07] SPEAKER_05: Sure, there has been some volume issues, but the valuations seem very credible. Top-notch management team. And I think the equity market, excuse me, the credit markets would finance the entire market cap.
+
+[00:27:20] SPEAKER_04: More broadly, you started by talking about the frustration felt by a number of credit fund managers, because right now, this isn't an asset class that tends to work that well or give outsized returns, given the scenario we're in. And yet, people are pouring trillions of dollars into AI infrastructure. Does that worry you, excite you for the potential down the line?
+
+[00:27:44] SPEAKER_05: Well, when you look at the devil's in the details in terms of what the terms are. But when you look at who's backstopping it, they seem like good credits. And people tend to think of two and three years out, not five or 10 years out. And it looks like for two to three years out, you're getting overcompensated for the risk. On the other hand, you're dealing with terrible technicals. They don't seem to run out of product.
+
+[00:28:09] SPEAKER_05: And I think even this Google financing is suggesting that they want to make sure to be out in front of the financing in terms of the equity. And there's almost, or not almost, there is an arms race going on. And the issue is, will the infrastructure investment be justified, or will this be more like underwater cable, which was a good thing until it wasn't.
+
+[00:28:34] SPEAKER_04: Do you have a take on that? Are you embedding a sort of thesis into your investments?
+
+[00:28:41] SPEAKER_05: I'm somewhat agnostic, but history would have a bad record in terms of overinvestment for industries that have very high payouts, whether it's riverboat gambling. to something like undersea cable. So it's not a great precedent, but there's an argument that I understand the arguments now.
+
+[00:29:09] SPEAKER_05: And I think our view is to be very deliberate to have additional assurances by the users that they're committed to these projects.
+
+[00:29:19] SPEAKER_04: Would you rather invest in the high yield part of the investment grade part With the all-in backdrop, the idea that it tends to be lower duration, shorter maturity in the high yield, but higher risk, investment grade, longer duration, but tied to very, very reputable...
+
+[00:29:34] SPEAKER_05: So my guess is at different points in this funding, you're going to get high-yield type of spreads in the investment-grade market. So the issue is, you know, what you do in between them.
+
+[00:29:46] SPEAKER_05: So I think it depends on the pricing, but I think you'll get at least every other stretched or overfinanced industry I've been part of, you usually have been able to get excellent protection with below investment grade pricing at some point. So now what do you do in between there is the issue, but it's going to get there at some point.
+
+[00:30:12] SPEAKER_04: So you just dance and cable and pick up some distressed software and wait to invest in this area until it falls out of bed?
+
+[00:30:20] SPEAKER_05: No, no, because if it's two or three years, that's a lot of return to give up. But to be deliberate about what you're getting versus the opportunity of what you might be getting. And, you know, Lisa, I'm incredibly fickle on these topics. So I could, you know, in a month or two, could just have a different perspective with more evidence.
+
+[00:30:39] SPEAKER_04: How do you remain nimble at a time when you're going in and out of sometimes less liquid instruments?
+
+[00:30:48] SPEAKER_05: First is, you got to assume you can't be nimble unless like with instruments. And lower prices brings in illiquidity. Higher prices brings in confidence. So that's kind of the way the credit markets work. Just trying to ask as many questions and focus on what we think are the key variables. And something like AI, you can be overwhelmed by so much. So to try and look at some of the... and just focus on that and be deliberate.
+
+[00:31:18] SPEAKER_05: You know, because there's so much supply, the idea of... of you're gonna run out of opportunities isn't a real... you know, that's not realistic. There's gonna be something to do in this space, particularly as it continues to be successful.
+
+[00:31:36] SPEAKER_04: Right now, would you rather be in public securities or private securities, just as a rule? I mean, in terms of the interest, the demand?
+
+[00:31:43] SPEAKER_05: So when we look at asset classes, probably the asset class, we find the best value, which is a private asset class. So we're finding good value there. In private credit, there's some of the more anxious capital, the open-ended private credit funds, are out of the market. So that leaves the funds and other players in private credit who are more deliberate. being the main buyers of private credit. So we're seeing good value there.
+
+[00:32:10] SPEAKER_05: We're seeing good value in some of the out-of-favor sectors, which is always the case. I mean, by definition, out-of-favor sectors are at discounts. But so I'd say it's eclectic, but we certainly are seeing better value in private credit today than we've seen in the last 24 to 36 months.
+
+[00:32:28] SPEAKER_04: Are you getting paid for the illiquidity premium?
+
+[00:32:31] SPEAKER_05: No. That's an always after the fact comment. But it seems like you're getting better paid. In the absolute, when I think of things, I think it's, if I were to say out of 10, maybe a six, you know, six and a half. So it's above average, but not by much.
+
+[00:32:52] SPEAKER_04: Right now, we're looking out for a year where a lot of people keep talking about inflation and inflationary risks. And this is one of the reasons why credit hasn't been as much of a sweet spot. How do you price that in? I mean, at what point do you just start to increase the sleeve of equities and create some protection on the downside and kind of hope for the best with a couple of security selections?
+
+[00:33:16] SPEAKER_05: Inflation is probably the biggest risk in the market. And it's impacted because it's impacted rates much more credit than it has equities, which I'm surprised at, but it just is what it is. And if you look in the 70s, equities did better than credit. So if you're looking at a bad environment, at least that's one example where equity outperformed credit. It's very much data dependent.
+
+[00:33:45] SPEAKER_05: It's also what's going to happen with the war. You know, if you look at one of the big surprises so far this year is oil has been relatively calm in relative to what expectations. Most people thought if you got past Memorial Day, it would be 125, 135. But yet we're in the mid 90s. So I think that's a factor that seems to be developing.
+
+[00:34:13] SPEAKER_05: So it's hard to draw a line in the sand on that.
+
+[00:34:20] SPEAKER_04: You know, this is cognitive dissonance every single morning. We talked to a lot of people, and we were speaking with Mike Wirth of Chevron the other day, and he said, we're going to end up with shortages. If this keeps going, in the next couple of weeks, we could start seeing shortages in the United States. Diesel inventories are at the lowest level since 2003. And then you get an equity strategist on, a credit strategist on. We're not looking at that. That doesn't matter. How do you think about that?
+
+[00:34:45] SPEAKER_05: So I've kind of processed it a little different, is how are equities pricing this? And equities seem to not be pricing the futures curve. So on the strip curve, it's just... So oil service, sure, Halliburton's having an excellent year, but when I look at some of the mid-caps, very much pricing in, I'd say, $70 to $75 oil. And when we see the M&A market in oil services, and we have a company...
+
+[00:35:15] SPEAKER_05: that we own more than half of that looks at the M&A market and has bought a few companies in the past 12 months. And that market hasn't changed that much. So in terms of levels and pricings and multiples and expectations. So we see the, regardless of what people are saying, how they're voting with their feet, they're still very cynical of how long this will last. And that's probably, it seems like a better opportunity that it's gonna be higher for longer than what's in the market.
+
+[00:35:44] SPEAKER_04: So in other words, buy mid-cap oil names.
+
+[00:35:46] SPEAKER_05: Yeah, and suppliers. But also, when you're thinking about oil as an input to your companies, I'm thinking as a portfolio manager, OK, what should we be assuming in terms of whether it's in building material products in which oil can be an important input? What does it mean for inflation, et cetera? My guess is it's going to be higher for longer.
+
+[00:36:09] SPEAKER_04: I want to pull up the results of the poll. And unfortunately, we didn't have an answer to the poll of just frustrating. But the answer was, how are you positioning credit for the rest of 2026? Not for ultimate frustration, but neutral, 42%. Defensive, 31%. Risk on 27%. Does that surprise you?
+
+[00:36:26] SPEAKER_05: So I look at it as almost 75%, 73% of people who are like, yeah. Let's give you that. Yeah. And so, you know, it seems about fair. What's being... What's a strategy that's been very popular this year in terms of inflows is opportunistic credit, having a long playbook.
+
+[00:36:52] SPEAKER_05: And instead of a distress manager, a private credit manager, how about a manager who can look for the best opportunities with a long playbook? So that strategy has been gaining a lot of traction. I think the... POSITIONING AND CREDIT IN TERMS OF GETTING ALPHA AND DISPERSION IS NOT SURPRISING WITH THE RESULTS HERE.
+
+[00:37:17] SPEAKER_04: You've been in the business for decades. You've seen a lot of cycles. You were talking earlier about the 70s. I hope that's not the analog. But is there an analog to the moment that we're in right now that you can think of in terms of investing, in terms of the macroeconomic backdrop?
+
+[00:37:31] SPEAKER_05: So we're mid-cycle in a stretched environment where it's very narrow for what the opportunities are. That's like most markets I've been in.
+
+[00:37:43] SPEAKER_04: It doesn't feel like most markets for most people.
+
+[00:37:46] SPEAKER_05: But if you were to go back and count, stretch valuations, very little dispersion except for a certain percentage of the market, call it less than 20% of the market, that's kind of most markets. I bet it's three-quarters of the market is what that is. It's certainly more than half.
+
+[00:38:06] SPEAKER_04: So you think that the analog is almost every time except for the big extremes?
+
+[00:38:09] SPEAKER_05: Well, I think that what's different this time, because every cycle has something that's different. And what's different this time is the AI expense and what the ramifications of who the winners and losers are. And you could have said that with media, with the internet. And who's going to be... When I think of... software and try and conceptualize who the winners and losers are, I looked at legacy media.
+
+[00:38:38] SPEAKER_05: And there was TV, which went from, call it nominal growth to less than nominal growth, but still growth. You look at cable programmers who still had above nominal growth for about 15 years. So those were healthy businesses. You had radio that, call it by 2008 or 2009, seemed to really be a more marginal product, and then by the late teens, really in trouble.
+
+[00:39:06] SPEAKER_05: And then you had newspapers, which really peaked about, I'm trying to think of the Tribune transaction of 2006, 2007, and I think 2005, so after 2005, really began to be disintermediated. So where does some of these industries fall with that methodology?
+
+[00:39:24] SPEAKER_04: Fascinating. And everyone wants to be, not radio. Although radio is coming back with podcasts, so there's that.
+
+[00:39:30] SPEAKER_05: Although it's not on the band. Right? So when you're thinking about radio, as I grew up with it, it was AM, FM, and really FM for the most part, though I think I remember being invested, the largest creditor in MS, which was WFAN on the AM band. But it was, but that's a different, it's a different medium for radio.
+
+[00:39:56] SPEAKER_04: Yeah, different distribution mechanism. Stephen Tannenbaum, always a clinic, always wonderful to speak with you. Stephen Tannenbaum of Golden Tree Asset Management.
+
+[00:40:04] SPEAKER_05: Thank you.
+
+[00:40:05] SPEAKER_04: That was awesome. You're so good. Here.
+
+[00:40:08] SPEAKER_11: That was Steve Tenenbaum, Golden Tree Asset Management founder and CIO speaking with our own Lisa Abramovitz. Hello. Welcome back to Bloomberg Tech. This is what financial markets look like zeroed in on the tech sector. There is a lot in the market to do with the move in oil. There is some concern about the current state of affairs and the relationship between the U.S. and Iran and what that means for peace talks. Broadly, we're a little softer to flat. on the Nasdaq 100. You know, that's our go-to tech heavy index, but continued outperformance in chip stocks.
+
+[00:40:36] SPEAKER_11: And we've given you that story throughout the hour. We're going to get a lot more on it in just a moment's time. Bitcoin at 66,000 US dollars per token, down 2%, but, you know, kind of risk off. And then there was that big number, Alphabet, boosting its equity offering to $84.75 billion. A little bit of dilution going on, maybe down six tenths of 1%. Okay. Markets are fun. What else is going on currently?
+
+[00:40:58] SPEAKER_02: Maybe politics is fun in certain places. Right here in California, several tech-favored candidates. They delivered, actually, a poor showing in California's primary elections just yesterday. But results are still being tallied. But so far, the big bucks spent by Silicon Valley billionaires and founders, they haven't resulted in wide-ranging wins for their favored candidates. Bloomberg's California reporter, Eliyahu Kamisha, is here with us. And, Eliyahu, why? Why has money not worked?
+
+[00:41:25] SPEAKER_09: That's a good question. I think we're seeing that a lot of this frustration in Silicon Valley has been concentrated amongst a very small group of tech elite, and it didn't really translate to the voter base. So they spent a lot of money on Matt Mahan, the moderate San Jose mayor, and there was a lot of enthusiasm on X for him, a lot of venture capitalists, big names like Mike Moritz, Sergey Brin came in behind him, but-
+
+[00:41:53] SPEAKER_02: promising, like no billionaire tax, basically.
+
+[00:41:56] SPEAKER_09: That was one of his promises. He was against the billionaire tax. He wanted to kind of do a more back to basics, smaller government, you know, kind of a less taxation and little less regulation, a little more friendly to tech. And I think, you know, we've seen that there's a lot of actually frustration with Silicon Valley in California and these leaders who are making a lot of money in the tech boom and they're feeling very confident.
+
+[00:42:25] SPEAKER_09: It's actually not translating to the ballot box right now.
+
+[00:42:28] SPEAKER_11: If you're watching Bloomberg Tech from outside of California, we're talking about the gubernatorial primary, the race for governor. And the first instance of that has been and gone. The top two will go to the general election in November. Just where do we stand? Who is likely to go through on that? And always on this show, give us the tech angle of whoever does go through.
+
+[00:42:49] SPEAKER_09: Yes. So there's three candidates that are at the top. There's Javier Becerra, Joe Biden's former health secretary, Steve Hilton, who is a Republican, former Fox News commentator. And then Tom Steyer, who is a liberal, former hedge fund billionaire. And right now it looks like Javier and Hilton are going to go to the runoff, although. Ballots are still being counted, and Tom could make a late run depending on to be determined.
+
+[00:43:18] SPEAKER_09: I think what the tech angle is, Javier has kind of started to coalesce some of the establishment Democratic interests and also a little bit of the tech money. So when he started surging as a late stage favorite, you saw Meta and you saw Airbnb come in for him. Interesting. they're kind of, late in the stage, they acknowledge that he's going to be the front runner and they're trying to kind of pick a winning horse.
+
+[00:43:44] SPEAKER_11: Bloomberg's Eli Kaminshaw on tech and politics and what's happening in this election cycle here in California. GitHub is betting big on AI agents launching a new GitHub co-pilot desktop app while racing to keep up with surging demand. I sat down with Microsoft's EVP of Core AI, Jay Parikh, to discuss GitHub's growth, its efforts to improve reliability, and what comes next. Listen to this.
+
+[00:44:09] SPEAKER_08: For us, it is one where GitHub continues to get lots of help from the rest of Microsoft, right? So we have, even in just the year and a half I've been at Microsoft, we have brought in really great talent from other parts of the company to help us build products, to help us scale, to help GitHub be more secure, to build those enterprise features, right?
+
+[00:44:31] SPEAKER_11: The back story was the outages, security issues, and then there was a change or departure of leadership. And you're describing what's happened since,
+
+[00:44:38] SPEAKER_08: So, you know, we should start with the fact that since the beginning of the year, the amount of traffic that has come to GitHub has gone up significantly, right? So last year, we had about a billion commits that we processed in all of 2025. Now we process about 300 million commits each week. So traffic has gone up pretty significantly, and we're very committed to improve the availability, the performance of the platform.
+
+[00:45:06] SPEAKER_08: We're getting help from more of the Microsoft engineers and the top talent that we have. We're attracting new talent to the team. We're bringing in more capacity to scale, and we're re-architecting these systems. But I feel really good about the path that we're on. Could you just give us
+
+[00:45:24] SPEAKER_11: a real-time view of how much work is being done, real work, by an agent and where you see that going over the next 12 months and beyond.
+
+[00:45:33] SPEAKER_08: And I think we're just at the start of this, right? Because it's early, but it is amazing to see how people are translating these ideas into these use cases and building these platforms, right? And lots of use cases, even internally, where teams are building agents to continually improve their product.
+
+[00:45:52] SPEAKER_08: Even when they're sleeping on the weekends, these agents are running and then analyzing all sorts of different telemetry to find ways to then make suggestions for the engineers, for the product folks when they wake up in the morning to how to improve the systems. And this is technology that works today. You need that observability, as you keyed on earlier. You need that human in the loop to make sure that things stay on track and that it is doing what you expect it to and prioritizing it correctly.
+
+[00:46:21] SPEAKER_08: It's early, but it is going to be, I think, a really, really quick ramp. And it's exciting that we're seeing this. And the team's super energized to be working closely with our customers to be iterating on these platforms, on these technologies.
+
+[00:46:37] SPEAKER_02: Microsoft's EVP of core AI, Jay Parikh there with Ed. Coming up, all eyes on Qualcomm as they get set to report after the closing bell. What earnings could tell us about the AI trade? Shares higher, this is Bloomberg Tech.
+
+[00:46:59] SPEAKER_06: The next trillion dollar company, ladies and gentlemen. Whoa! That would be exciting. Let's do it together. Let's do it together.
+
+[00:47:09] SPEAKER_02: Video CEO Jensen Wang alongside Marvell CEO Matt Murphy over in Taiwan at Computex. That was yesterday. And look, Shesham Hafez continuing to run higher. Look at that move over three training days. Look, we are getting closer to potential $1 trillion, as Jensen was just talking about. For more, the most, Dina Bass joins us. Now, it's the power of the $5 trillion giant in the room to anoint the next $1 trillion. But is there real fundamentals behind it, Dina?
+
+[00:47:37] SPEAKER_07: It's, we're, I think, waiting to see, you know, what Broadcom reports today, Marvell's main competitor, but also Marvell, you know, and Broadcom are basically competing for the business around custom AI accelerators that aren't NVIDIA. Now, Jensen is not objective when he, you know, so to speak, anoints Marvell in that manner. Marvell is the horse that NVIDIA has backed in that space. They've invested. And, you know, he wants to set them up as an even stronger competitor to Broadcom because Broadcom itself is,
+
+[00:48:07] SPEAKER_11: you know been positioned and has positioned itself as a the alternative to nvidia if you don't want to use nvidia's gpus right and broadcom is now a 2.3 trillion dollar company as a result um this is an important earnings print explain why it's important but also why broadcom is is a genuine competitor to nvidia
+
+[00:48:26] SPEAKER_07: So the vast majority of the AI chips that are used are NVIDIA's GPUs. The alternatives increasingly are coming from some of the hyperscalers and the large frontier labs that are making their own custom chips. And Broadcom has several of the biggest customers there. We talk a lot on this show in the past few months about Google's TPU. That's made with Broadcom. Anthropic is buying a bunch of those and paying Broadcom for them.
+
+[00:48:55] SPEAKER_07: Metta works with Broadcom. And those three companies have signed extended long-term deals with Broadcom in the last few months. They already had deals and they expanded them. And so what we're seeing from Broadcom is, according to Bloomberg intelligence analysts, a better visibility of what the long-term payout looks like for that pipeline. That's been something I think investors have been a little bit concerned about. What is the long-term pipeline? When do these contracts come online?
+
+[00:49:22] SPEAKER_07: And if they're multi-year contracts, what is the amount of revenue that Broadcom is going to be able to get from each of them in each quarter? How does that kind of play out? But there is now greater visibility.
+
+[00:49:34] SPEAKER_11: Bloomberg's Dina Bass with the Broadcom preview. And stay with Bloomberg Tech tomorrow. We're live from the Bloomberg Tech conference. Hock Tan, Broadcom president and CEO, joins us. This is just pure timing, Caro. Earnings after the bell. Conversation tomorrow.
+
+[00:49:47] SPEAKER_02: What a phenomenal executive discussion to be having. Tom Giles, our executive editor, is going to be leading that conversation. What an array of people we're going to be speaking to throughout the day. I mean, you're going to be speaking with Andrews, chair, and of course, big player over at Founders Fund. I'm going to be talking to San Francisco Fed...
+
+[00:50:02] SPEAKER_11: president we've got a lot to digest tomorrow and it's a big show it was a good show today so recap it you know where on the podcast and you can find it online spotify iheart and on apple and then of course on all the bloomberg platforms this is bloomberg tech

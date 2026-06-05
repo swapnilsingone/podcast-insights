@@ -1,0 +1,717 @@
+{
+  "video": {
+    "id": "1bMjMj8D_dc",
+    "title": "Bloomberg Tech Event Special | Bloomberg Tech 6/04/2026",
+    "channel": "Bloomberg Technology",
+    "duration_seconds": 2801,
+    "thumbnail": "https://i.ytimg.com/vi/1bMjMj8D_dc/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1bMjMj8D_dc",
+    "upload_date": "2026-06-04",
+    "display_title_html": "Bloomberg Tech Special: <em>The AI Capital-Formation Cycle</em>"
+  },
+  "thesis": "AI has shifted from a product cycle to one of the largest capital-formation cycles in history — splitting the market into capex-receivers (compute, energy, memory) and capex-spenders (the labs) — even as Broadcom's miss, a wave of trillion-dollar IPOs, and the Fed's still-absent productivity data show the boom is racing ahead of proof.",
+  "topics": [
+    "finance",
+    "ai",
+    "macro"
+  ],
+  "chapters": [
+    {
+      "start": 0,
+      "title": "Bloomberg Tech Begins"
+    },
+    {
+      "start": 92,
+      "title": "Tom Giles, Bloomberg News"
+    },
+    {
+      "start": 486,
+      "title": "Ali Ghodsi, Databricks"
+    },
+    {
+      "start": 901,
+      "title": "Apoorv Agrawal, Altimeter Capital"
+    },
+    {
+      "start": 1449,
+      "title": "Todd Mckinnon, Okta CEO"
+    },
+    {
+      "start": 1848,
+      "title": "Mary Daly, San Francisco Fed President"
+    }
+  ],
+  "insights": [
+    {
+      "id": 1,
+      "category": "data-point",
+      "headline": "Broadcom's $16B custom-silicon guide missed and erased $300B",
+      "body": "Broadcom guided to $16B of current-quarter custom silicon (TPUs/ASICs) revenue versus a Street expectation of $17.2B, triggering its worst drop since January 2025 — down as much as 15% and roughly $300B in market cap — after the stock had added $270B running into earnings.",
+      "start_seconds": 56,
+      "end_seconds": 140
+    },
+    {
+      "id": 2,
+      "category": "counterintuitive",
+      "headline": "'The opposite of a bubble': demand outruns supply",
+      "body": "Cerebras CEO Andrew Feldman argued AI is the inverse of a bubble: builders are absurdly behind demand, with a backlog of more than $25B, and none of Cerebras, AMD, or Nvidia can keep up with what employees are driving.",
+      "start_seconds": 127,
+      "end_seconds": 166
+    },
+    {
+      "id": 3,
+      "category": "framework",
+      "headline": "AI's great divide: receiving capex vs spending it",
+      "body": "Altimeter's Apoorv Agarwal's central mental model splits AI into capex-receivers (compute, memory, optics, networking, energy — the 'picks and shovels') and capex-spenders (the labs). Knowing which side a business sits on is, he argues, the biggest divide in AI right now.",
+      "start_seconds": 962,
+      "end_seconds": 1024
+    },
+    {
+      "id": 4,
+      "category": "counterintuitive",
+      "headline": "Databricks CEO: we already have AGI",
+      "body": "Ali Ghodsi says ~90% of any audience he polls agrees frontier models are smarter than most coworkers most of the time, so AGI has effectively arrived — the bottleneck isn't intelligence but missing context, which is what Databricks' Genie product aims to feed in.",
+      "start_seconds": 540,
+      "end_seconds": 620
+    },
+    {
+      "id": 5,
+      "category": "story",
+      "headline": "Novo Nordisk cut trial analysis from weeks to minutes",
+      "body": "Ghodsi cites Novo Nordisk (maker of Ozempic) feeding all its clinical trials into Databricks' Genie, letting staff query obesity-study progress and compressing the time to understand studies from weeks down to a few minutes.",
+      "start_seconds": 691,
+      "end_seconds": 721
+    },
+    {
+      "id": 6,
+      "category": "prediction",
+      "headline": "More software written in a year than all human history",
+      "body": "Ghodsi says Databricks calculated that within roughly one to two years more software will be written than in all of human history — driving demand for everything around software, including databases like Databricks' LakeBase, which is tailored for agents.",
+      "start_seconds": 740,
+      "end_seconds": 797
+    },
+    {
+      "id": 7,
+      "category": "mental-model",
+      "headline": "xAI/SpaceX as the 'Switzerland' of compute",
+      "body": "Agarwal frames SpaceX/xAI as taking a neutral 'Switzerland' approach — selling compute ('Elon Web Services'), models, a coding product and more — rather than betting on a single category, which is why he sees the addressable market (space plus AI) as so large.",
+      "start_seconds": 1064,
+      "end_seconds": 1156
+    },
+    {
+      "id": 8,
+      "category": "counterintuitive",
+      "headline": "Okta CEO: SaaSpocalypse is 'completely overblown'",
+      "body": "Todd McKinnon says fears of a SaaS apocalypse are overblown — like the cloud transition, laggards who don't embed agentic capabilities will become legacy vendors bought up by Oracle, but many will transition and thrive.",
+      "start_seconds": 1763,
+      "end_seconds": 1784
+    },
+    {
+      "id": 9,
+      "category": "counterintuitive",
+      "headline": "Okta will have far more engineers in five years",
+      "body": "McKinnon predicts Okta will have far more software engineers in five years — not despite efficiency gains but because there is so much more to build, so much demand for software, and so much automation leverage.",
+      "start_seconds": 1656,
+      "end_seconds": 1678
+    },
+    {
+      "id": 10,
+      "category": "data-point",
+      "headline": "The bottleneck isn't models — it's connections",
+      "body": "McKinnon argues models already far surpass companies' ability to wire systems together into practical agentic apps; the barrier to agents that simply 'act' is secure connectivity to data sources, which is Okta's focus.",
+      "start_seconds": 1700,
+      "end_seconds": 1736
+    },
+    {
+      "id": 11,
+      "category": "data-point",
+      "headline": "Fed: still no economy-wide AI productivity gains",
+      "body": "SF Fed President Mary Daly says despite above-trend US productivity, businesses have not reported transformative, ongoing AI gains yet — they say 'next year' is the litmus test, because the payoff requires transforming business processes, not just adopting a model.",
+      "start_seconds": 1907,
+      "end_seconds": 2003
+    },
+    {
+      "id": 12,
+      "category": "counterintuitive",
+      "headline": "Daly: a rising market isn't a financial-stability risk",
+      "body": "Daly notes most AI investment is funded by the MAG7 from their own resources; a market rise alone isn't a stability concern — that would require contagion into banks, consumers, or businesses, which she doesn't currently see.",
+      "start_seconds": 2006,
+      "end_seconds": 2055
+    },
+    {
+      "id": 13,
+      "category": "mental-model",
+      "headline": "Data-center inflation is a timing question",
+      "body": "Daly frames the data-center buildout as inflationary early (electricity demand, competition for scarce equipment and generators) but disinflationary later as the infrastructure and big-tech-funded power generation come online — currently oil and food, not AI, drive inflation.",
+      "start_seconds": 2102,
+      "end_seconds": 2235
+    },
+    {
+      "id": 14,
+      "category": "actionable",
+      "headline": "Bad year to IPO; markets are too busy",
+      "body": "Ghodsi says Databricks will eventually go public — driven by the need to create a liquidity mechanism for ~14,000 current and former employees after raising ~$20B — but calls this 'a terrible year to go public' given how much is happening at once.",
+      "start_seconds": 786,
+      "end_seconds": 840
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The builders are so far behind the demand, it's absurd. We have a backlog of more than $25 billion of demand... that's sort of, in a lot of ways, the opposite of a bubble.",
+      "speaker": "Andrew Feldman",
+      "start_seconds": 404
+    },
+    {
+      "text": "I'm a contrarian. I believe we actually already have AGI. Artificial General Intelligence already arrived.",
+      "speaker": "Ali Ghodsi",
+      "start_seconds": 546
+    },
+    {
+      "text": "AI has gone from being a technology product cycle to one of the largest capital formation cycles.",
+      "speaker": "Apoorv Agarwal",
+      "start_seconds": 962
+    },
+    {
+      "text": "I think in five years, Okta is going to have far more software engineers than we have now.",
+      "speaker": "Todd McKinnon",
+      "start_seconds": 1656
+    },
+    {
+      "text": "They want to know that monetary policy is not made by machines. It's made by people making judgments.",
+      "speaker": "Mary Daly",
+      "start_seconds": 2643
+    },
+    {
+      "text": "I just think this is a terrible year to go public because there's so much happening.",
+      "speaker": "Ali Ghodsi",
+      "start_seconds": 833
+    }
+  ],
+  "resources": [
+    {
+      "name": "Andrew Feldman / Cerebras",
+      "context": "CEO cited for the '$25B backlog, opposite of a bubble' argument"
+    },
+    {
+      "name": "Hock Tan / Broadcom",
+      "context": "CEO whose earnings guidance moved global markets; interviewed later at the event"
+    },
+    {
+      "name": "Rosenblatt research",
+      "context": "Cited on Broadcom's improved visibility into 2028"
+    },
+    {
+      "name": "Jensen Huang / Nvidia",
+      "context": "Computex thesis that agents become the end users of legacy software"
+    },
+    {
+      "name": "Databricks Genie / LakeBase",
+      "context": "Context-infusion product and agent-tailored database cited by Ghodsi"
+    },
+    {
+      "name": "Daniela Amodei / Anthropic",
+      "context": "President and co-founder appearing at the event after confidential IPO filing"
+    },
+    {
+      "name": "Novo Nordisk",
+      "context": "Customer case study using Genie to speed up clinical-trial analysis"
+    },
+    {
+      "name": "Trey Stephens / Founders Fund",
+      "context": "Andreal chairman; Founders Fund is a high-single-digit SpaceX stakeholder, interview teased"
+    }
+  ],
+  "action_items": [
+    "Classify any AI bet by whether it receives capex (compute, energy, memory, networking) or spends it (the labs) — Agarwal's framework is the clearest lens on where durable value accrues.",
+    "Stop waiting for smarter models and start capturing context — Ghodsi argues the gap between today's agents and useful autonomy is missing data context, not model capability.",
+    "Treat 'next year' as the AI productivity litmus test — Daly says economy-wide gains require transforming business processes, not just deploying a model."
+  ],
+  "stats": [
+    {
+      "label": "Broadcom custom-silicon guide",
+      "val": "$16B",
+      "unit": "vs $17.2B est",
+      "sub": "The miss versus Street expectations triggered Broadcom's worst drop since January 2025."
+    },
+    {
+      "label": "Broadcom market cap lost",
+      "val": "~$300B",
+      "unit": "in a day",
+      "sub": "Shares fell as much as 15% after the guidance miss; the stock had added $270B running into earnings."
+    },
+    {
+      "label": "Cerebras demand backlog",
+      "val": "$25B+",
+      "unit": "backlog",
+      "sub": "Feldman's evidence that builders are far behind demand — 'the opposite of a bubble.'"
+    },
+    {
+      "label": "SpaceX IPO",
+      "val": "$135",
+      "unit": "/ share",
+      "sub": "Amended S-1 priced to raise $75B at nearly a $1.8T valuation; pricing June 11."
+    }
+  ],
+  "charts": [
+    {
+      "type": "hbar",
+      "title": "AI's capital-formation week, in dollars",
+      "sub": "Mega-raises and buybacks cited as evidence AI is now a capital-formation cycle, not just a product cycle",
+      "caption": "Source: Apoorv Agarwal, Altimeter · 26:18",
+      "unit": "$B",
+      "labels": [
+        "OpenAI raise",
+        "Alphabet equity raise",
+        "Nvidia buyback",
+        "SpaceX IPO target",
+        "SK Hynix buyback"
+      ],
+      "series": [
+        {
+          "name": "Amount ($B)",
+          "data": [
+            122,
+            84,
+            80,
+            75,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Broadcom: guidance vs the Street",
+      "sub": "A ~$1.2B shortfall in custom-silicon guidance wiped out roughly $300B in market value",
+      "caption": "Source: show hosts / Tom Giles · 00:56–01:50",
+      "unit": "$B",
+      "labels": [
+        "Street estimate",
+        "Broadcom guide"
+      ],
+      "series": [
+        {
+          "name": "Custom silicon revenue ($B)",
+          "data": [
+            17.2,
+            16.0
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "name": "Ed Ludlow",
+        "role": "Bloomberg Tech co-host",
+        "speaker": true,
+        "mentions": 6,
+        "first_seconds": 0,
+        "context": "Co-anchored the special from San Francisco"
+      },
+      {
+        "name": "Caroline Hyde",
+        "role": "Bloomberg Tech co-host",
+        "speaker": true,
+        "mentions": 5,
+        "first_seconds": 0,
+        "context": "Co-anchored from New York / on-site"
+      },
+      {
+        "name": "Tom Giles",
+        "role": "Bloomberg Global Tech Executive Editor",
+        "speaker": true,
+        "mentions": 4,
+        "first_seconds": 92,
+        "context": "Previewed the Hock Tan and Anthropic interviews"
+      },
+      {
+        "name": "Andrew Feldman",
+        "role": "Cerebras CEO",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 389,
+        "context": "'Opposite of a bubble,' $25B backlog"
+      },
+      {
+        "name": "Ali Ghodsi",
+        "role": "Databricks CEO and co-founder",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 486,
+        "context": "Argued AGI has arrived; context is the bottleneck"
+      },
+      {
+        "name": "Apoorv Agarwal",
+        "role": "Altimeter Capital partner",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 901,
+        "context": "Capex-receiver vs capex-spender framework"
+      },
+      {
+        "name": "Todd McKinnon",
+        "role": "Okta CEO and co-founder",
+        "speaker": true,
+        "mentions": 2,
+        "first_seconds": 1449,
+        "context": "SaaSpocalypse 'overblown'; more engineers in 5 years"
+      },
+      {
+        "name": "Mary Daly",
+        "role": "San Francisco Fed President",
+        "speaker": true,
+        "mentions": 3,
+        "first_seconds": 1848,
+        "context": "No economy-wide AI productivity gains yet"
+      },
+      {
+        "name": "Hock Tan",
+        "role": "Broadcom CEO",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 95,
+        "context": "Earnings moved markets; interviewed later at event"
+      },
+      {
+        "name": "Jensen Huang",
+        "role": "Nvidia CEO",
+        "speaker": false,
+        "mentions": 3,
+        "first_seconds": 722,
+        "context": "Computex thesis: agents as end users of software"
+      },
+      {
+        "name": "Daniela Amodei",
+        "role": "Anthropic president and co-founder",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 188,
+        "context": "Appearing post confidential IPO filing"
+      },
+      {
+        "name": "Elon Musk",
+        "role": "SpaceX/xAI CEO",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 522,
+        "context": "Tweeted that the valuation report was false"
+      },
+      {
+        "name": "Trey Stephens",
+        "role": "Founders Fund partner, Andreal chairman",
+        "speaker": false,
+        "mentions": 1,
+        "first_seconds": 2766,
+        "context": "Founders Fund is a high-single-digit SpaceX stakeholder"
+      },
+      {
+        "name": "Chair Walsh",
+        "role": "Federal Reserve Chair",
+        "speaker": false,
+        "mentions": 2,
+        "first_seconds": 2553,
+        "context": "New Fed chair; Daly's fifth chair worked with"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Broadcom",
+        "mentions": 7,
+        "first_seconds": 48,
+        "context": "Earnings miss erased ~$300B in market cap"
+      },
+      {
+        "name": "Databricks",
+        "mentions": 6,
+        "first_seconds": 404,
+        "context": "Private firm valued sky-high; raised ~$20B"
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 6,
+        "first_seconds": 182,
+        "context": "Filed confidentially for IPO; Altimeter led round"
+      },
+      {
+        "name": "OpenAI",
+        "mentions": 6,
+        "first_seconds": 222,
+        "context": "Historic $122B raise; horse race with Anthropic"
+      },
+      {
+        "name": "SpaceX",
+        "mentions": 5,
+        "first_seconds": 219,
+        "context": "S-1A priced at $135/share, ~$1.8T valuation"
+      },
+      {
+        "name": "Nvidia",
+        "mentions": 3,
+        "first_seconds": 428,
+        "context": "$80B buyback; can't keep up with demand"
+      },
+      {
+        "name": "Altimeter Capital",
+        "mentions": 3,
+        "first_seconds": 782,
+        "context": "On cap tables of Anthropic, OpenAI, SpaceX"
+      },
+      {
+        "name": "Cerebras",
+        "mentions": 2,
+        "first_seconds": 151,
+        "context": "$25B AI demand backlog"
+      },
+      {
+        "name": "Okta",
+        "mentions": 5,
+        "first_seconds": 1418,
+        "context": "Raised full-year guidance; Okta for AI Agents"
+      },
+      {
+        "name": "Alphabet",
+        "mentions": 3,
+        "first_seconds": 901,
+        "context": "Upsized equity offering to ~$84B"
+      },
+      {
+        "name": "xAI",
+        "mentions": 2,
+        "first_seconds": 1064,
+        "context": "'Switzerland' compute/model approach"
+      },
+      {
+        "name": "SK Hynix",
+        "mentions": 1,
+        "first_seconds": 985,
+        "context": "$8B stock buyback with more dividends"
+      },
+      {
+        "name": "Novo Nordisk",
+        "mentions": 1,
+        "first_seconds": 691,
+        "context": "Genie customer; trial analysis weeks to minutes"
+      },
+      {
+        "name": "AMD",
+        "mentions": 1,
+        "first_seconds": 418,
+        "context": "Cited among chipmakers unable to meet demand"
+      },
+      {
+        "name": "Oracle",
+        "mentions": 1,
+        "first_seconds": 1740,
+        "context": "Acquirer of legacy vendors left behind"
+      },
+      {
+        "name": "Founders Fund",
+        "mentions": 1,
+        "first_seconds": 2766,
+        "context": "High-single-digit SpaceX stakeholder"
+      },
+      {
+        "name": "Cursor",
+        "mentions": 1,
+        "first_seconds": 1095,
+        "context": "Coding product whose revenue leans on Anthropic models"
+      },
+      {
+        "name": "PG&E",
+        "mentions": 1,
+        "first_seconds": 2095,
+        "context": "Utility cited in data-center inflation debate"
+      }
+    ],
+    "products_tech": [
+      {
+        "name": "Genie",
+        "type": "AI data product",
+        "first_seconds": 600,
+        "context": "Databricks tool that infuses data context for agents"
+      },
+      {
+        "name": "LakeBase",
+        "type": "Database",
+        "first_seconds": 620,
+        "context": "Databricks agent-tailored database"
+      },
+      {
+        "name": "Okta for AI Agents",
+        "type": "Identity/connectivity product",
+        "first_seconds": 1494,
+        "context": "Identity and secure connectivity layer for agents"
+      },
+      {
+        "name": "Mythos",
+        "type": "Cybersecurity tool",
+        "first_seconds": 315,
+        "context": "Anthropic tool everyone wants to use and fears"
+      },
+      {
+        "name": "Codex",
+        "type": "Coding agent",
+        "first_seconds": 1075,
+        "context": "OpenAI product with 5M users"
+      },
+      {
+        "name": "Opus 4.5",
+        "type": "Frontier AI model",
+        "first_seconds": 1210,
+        "context": "Coding model that crossed a capability frontier (Dec)"
+      },
+      {
+        "name": "TPUs / ASICs",
+        "type": "Custom silicon",
+        "first_seconds": 63,
+        "context": "Broadcom custom-silicon segment guided to $16B"
+      },
+      {
+        "name": "Elon Web Services",
+        "type": "Cloud/compute offering",
+        "first_seconds": 1078,
+        "context": "Nickname for SpaceX/xAI selling compute"
+      }
+    ],
+    "frameworks_concepts": [
+      {
+        "name": "Capex-receivers vs capex-spenders",
+        "first_seconds": 962,
+        "summary": "Agarwal's divide: picks-and-shovels providers receiving capex vs labs spending it"
+      },
+      {
+        "name": "The 'Switzerland' approach",
+        "first_seconds": 1086,
+        "summary": "xAI/SpaceX staying neutral by selling compute, models and products across categories"
+      },
+      {
+        "name": "Context as the AI bottleneck",
+        "first_seconds": 556,
+        "summary": "Ghodsi: models are smart enough; missing context limits agent productivity"
+      },
+      {
+        "name": "SaaSpocalypse",
+        "first_seconds": 1763,
+        "summary": "Fear that AI commoditizes SaaS; McKinnon calls it overblown"
+      },
+      {
+        "name": "Agents as end users of software",
+        "first_seconds": 722,
+        "summary": "Huang's thesis that agents, outnumbering people, become software's ultimate users"
+      },
+      {
+        "name": "Scaling laws",
+        "first_seconds": 2073,
+        "summary": "More compute/data/algorithms → higher intelligence; risky to bet against"
+      },
+      {
+        "name": "Long/short idea game",
+        "first_seconds": 1949,
+        "summary": "Agarwal's Stanford exercise: most went long picks-and-shovels and energy, short non-innovators"
+      }
+    ],
+    "books_papers": []
+  },
+  "predictions": [
+    {
+      "id": "1bMjMj8D_dc-p1",
+      "claim": "Within one to two years, more software will be written than in all of human history.",
+      "speaker": "Ali Ghodsi",
+      "category": "ai",
+      "start_seconds": 740,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p2",
+      "claim": "In five years, Okta will have far more software engineers than it does now.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1656,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2031",
+      "revisit_dates": [
+        "2031-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p3",
+      "claim": "Economy-wide AI productivity gains will show up next year or the year after, with 'next year' as the litmus test.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 1958,
+      "stated_at": "2026-06-04",
+      "horizon_label": "1-2 years",
+      "revisit_dates": [
+        "2027-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p4",
+      "claim": "Oil will be around $80 a barrel by the end of the year, per the futures market.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2349,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by end of 2026",
+      "revisit_dates": [
+        "2026-12-31"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p5",
+      "claim": "SaaSpocalypse is overblown — many SaaS vendors will embed agentic capabilities and thrive, while non-adopters become legacy vendors bought by the likes of Oracle.",
+      "speaker": "Todd McKinnon",
+      "category": "business",
+      "start_seconds": 1763,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2029-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p6",
+      "claim": "Data-center buildout costs are inflationary now but will become disinflationary as infrastructure and power generation come online.",
+      "speaker": "Mary Daly",
+      "category": "macro",
+      "start_seconds": 2102,
+      "stated_at": "2026-06-04",
+      "horizon_label": "by 2028",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    },
+    {
+      "id": "1bMjMj8D_dc-p7",
+      "claim": "Databricks will eventually become a public company to create a liquidity mechanism for its ~14,000 current and former employees.",
+      "speaker": "Ali Ghodsi",
+      "category": "business",
+      "start_seconds": 786,
+      "stated_at": "2026-06-04",
+      "horizon_label": "indefinite",
+      "revisit_dates": [
+        "2028-06-04"
+      ],
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}
